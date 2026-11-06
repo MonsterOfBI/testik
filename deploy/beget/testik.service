@@ -1,0 +1,23 @@
+[Unit]
+Description=testik (Next.js)
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+User=testik
+WorkingDirectory=/var/www/testik
+Environment=NODE_ENV=production
+Environment=PORT=3000
+Environment=HOSTNAME=127.0.0.1
+# next start reads /var/www/testik/.env.local itself
+ExecStart=/usr/bin/node node_modules/next/dist/bin/next start
+Restart=always
+RestartSec=3
+# hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=read-only
+
+[Install]
+WantedBy=multi-user.target

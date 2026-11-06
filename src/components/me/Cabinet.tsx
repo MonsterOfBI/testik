@@ -9,6 +9,7 @@ import { fmt } from "@/i18n/dict";
 import type { PortraitMeta } from "@/lib/portrait";
 import { clearHistory, getHistory, useLocalData, type HistoryEntry } from "@/lib/history";
 import { Aura } from "@/components/ui/Aura";
+import { AccountActions } from "@/components/me/AccountActions";
 import { auraFromScores } from "@/components/ui/auraMath";
 import { Radar } from "@/components/results/Charts";
 import { CAT_GRADIENT, PALETTE } from "@/lib/ui";
@@ -139,7 +140,14 @@ export function Cabinet({ lang, dict, metas }: { lang: Locale; dict: Dict; metas
         <section className="mt-14">
           <div className="flex items-center justify-between">
             <h2 className="font-display text-2xl font-medium tracking-tight">{dict.me.history}</h2>
-            <button onClick={() => confirm(lang === "ru" ? "Удалить всю историю результатов в этом браузере?" : "Delete all result history in this browser?") && clearHistory()} className="text-sm text-muted hover:text-ink">
+            <button
+              onClick={() => {
+                if (!confirm(dict.account.clearConfirm)) return;
+                clearHistory();
+                if (user) fetch("/api/results", { method: "DELETE" }).catch(() => {});
+              }}
+              className="text-sm text-muted hover:text-ink"
+            >
               {dict.me.clear}
             </button>
           </div>
@@ -163,6 +171,8 @@ export function Cabinet({ lang, dict, metas }: { lang: Locale; dict: Dict; metas
           </ul>
         </section>
       )}
+
+      {user && <AccountActions lang={lang} dict={dict} />}
     </div>
   );
 }

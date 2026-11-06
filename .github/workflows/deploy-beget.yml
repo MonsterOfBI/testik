@@ -1,0 +1,35 @@
+# Deploys main to the Beget VPS over SSH.
+# Turn it on in GitHub: Settings -> Secrets and variables -> Actions
+#   variable  BEGET_DEPLOY = true
+#   secrets   BEGET_HOST (server IP), BEGET_SSH_KEY (private key whose public half is in /home/testik/.ssh/authorized_keys)
+#   optional  BEGET_KNOWN_HOSTS (output of `ssh-keyscan <ip>`); without it the host key is trusted on first use
+name: Deploy to Beget
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-beget
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: ${{ vars.BEGET_DEPLOY == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: SSH key
+        env:
+          KEY: ${{ secrets.BEGET_SSH_KEY }}
+          HOST: ${{ secrets.BEGET_HOST }}
+          KNOWN: ${{ secrets.BEGET_KNOWN_HOSTS }}
+        run: |
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "$KEY" > ~/.ssh/id_deploy && chmod 600 ~/.ssh/id_deploy
+          if [ -n "$KNOWN" ]; then printf '%s\n' "$KNOWN" > ~/.ssh/known_hosts; else ssh-keyscan -H "$HOST" > ~/.ssh/known_hosts; fi
+      - name: Deploy
+        env:
+          HOST: ${{ secrets.BEGET_HOST }}
+        run: ssh -i ~/.ssh/id_deploy testik@"$HOST" 'bash /var/www/testik/deploy/beget/deploy.sh'

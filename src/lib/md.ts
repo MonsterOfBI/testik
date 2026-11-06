@@ -6,7 +6,8 @@ function inline(s: string) {
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g, "$1<em>$2</em>")
     .replace(/`([^`]+)`/g, "<code>$1</code>")
-    .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
+    .replace(/\[([^\]]+)\]\(((?:\/(?!\/)|#|mailto:)[^)\s]*)\)/g, '<a href="$2">$1</a>');
 }
 
 export function md(src: string | undefined): string {
@@ -54,7 +55,8 @@ export function md(src: string | undefined): string {
       flushPara();
       flushList();
       const lvl = Math.min(4, Math.max(3, h[1].length + 1));
-      out.push(`<h${lvl}>${inline(h[2])}</h${lvl}>`);
+      const anchor = h[2].match(/^(.*?)\s*\{#([\w-]+)\}$/);
+      out.push(anchor ? `<h${lvl} id="${anchor[2]}">${inline(anchor[1])}</h${lvl}>` : `<h${lvl}>${inline(h[2])}</h${lvl}>`);
       continue;
     }
     const ul = line.match(/^\s*[-*•]\s+(.*)$/);
