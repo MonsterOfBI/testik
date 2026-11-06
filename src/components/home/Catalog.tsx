@@ -1,12 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { ViewTransition, useDeferredValue, useEffect, useMemo, useState } from "react";
+import { ViewTransition, useDeferredValue, useMemo, useState } from "react";
 import { AnimatePresence, LayoutGroup, motion } from "motion/react";
 import type { Category, Locale, TestMeta } from "@/lib/types";
 import type { Dict } from "@/i18n/dict";
 import { CAT_GRADIENT, cx } from "@/lib/ui";
-import { latestByTest } from "@/lib/history";
+import { allProgress, latestByTest, useLocalData, type Progress } from "@/lib/history";
+import { fmt } from "@/i18n/dict";
 
 const CATS: (Category | "all")[] = ["all", "personality", "cognitive", "mental-health", "wellbeing", "relationships", "career", "fun"];
 
@@ -16,13 +17,11 @@ export function Catalog({ lang, dict, tests }: { lang: Locale; dict: Dict; tests
   const [cat, setCat] = useState<Category | "all">("all");
   const [q, setQ] = useState("");
   const dq = useDeferredValue(q);
-  const [done, setDone] = useState<Set<string>>(new Set());
-  useEffect(() => {
-    const upd = () => setDone(new Set(Object.keys(latestByTest())));
-    upd();
-    window.addEventListener("testik:history", upd);
-    return () => window.removeEventListener("testik:history", upd);
-  }, []);
+  const version = useLocalData();
+  const { done, started } = useMemo(() => {
+    if (!version) return { done: new Set<string>(), started: {} as Record<string, Progress> };
+    return { done: new Set(Object.keys(latestByTest())), started: Object.fromEntries(allProgress().map((p) => [p.id, p])) };
+  }, [version]);
 
   const counts = useMemo(() => {
     const c: Record<string, number> = { all: tests.length };
@@ -53,7 +52,9 @@ export function Catalog({ lang, dict, tests }: { lang: Locale; dict: Dict; tests
             value={q}
             onChange={(e) => setQ(e.target.value)}
             placeholder={dict.catalog.search}
-            className="w-full rounded-2xl border border-line bg-surface py-3 pl-11 pr-4 text-[15px] outline-none transition-[border-color,box-shadow] placeholder:text-muted focus:border-line-strong focus:shadow-[0_0_0_4px_color-mix(in_oklab,var(--lilac)_25%,transparent)]"
+            type="search"
+            enterKeyHint="search"
+            className="w-full rounded-2xl border border-line bg-surface py-3 pl-11 pr-4 text-base outline-none sm:text-[15px] transition-[border-color,box-shadow] placeholder:text-muted focus:border-line-strong focus:shadow-[0_0_0_4px_color-mix(in_oklab,var(--lilac)_25%,transparent)]"
           />
         </label>
       </div>
@@ -102,7 +103,7 @@ export function Catalog({ lang, dict, tests }: { lang: Locale; dict: Dict; tests
               transition={{ type: "spring", stiffness: 300, damping: 30, delay: Math.min(i, 12) * 0.02 }}
               className={cx(t.popularity >= 5 && cat === "all" && !dq && "sm:col-span-2 lg:col-span-1")}
             >
-              <TestCard t={t} lang={lang} dict={dict} done={done.has(t.id)} />
+              <TestCard t={t} lang={lang} dict={dict} done={done.has(t.id)} started={started[t.id]} />
             </motion.li>
           ))}
         </AnimatePresence>
@@ -120,7 +121,7 @@ export function Catalog({ lang, dict, tests }: { lang: Locale; dict: Dict; tests
   );
 }
 
-function TestCard({ t, lang, dict, done }: { t: TestMeta; lang: Locale; dict: Dict; done: boolean }) {
+function TestCard({ t, lang, dict, done, started }: { t: TestMeta; lang: Locale; dict: Dict; done: boolean; started?: Progress }) {
   const onMove = (e: React.PointerEvent<HTMLAnchorElement>) => {
     const r = e.currentTarget.getBoundingClientRect();
     e.currentTarget.style.setProperty("--mx", `${e.clientX - r.left}px`);
@@ -164,10 +165,16 @@ function TestCard({ t, lang, dict, done }: { t: TestMeta; lang: Locale; dict: Di
             </span>
           </>
         )}
-        {done && (
-          <span className="ml-auto rounded-full bg-[color-mix(in_oklab,var(--mint)_30%,transparent)] px-2 py-0.5 text-[11px] text-ink">
-            ✓ {dict.catalog.done}
+        {started ? (
+          <span className="ml-auto rounded-full bg-[color-mix(in_oklab,var(--peach)_30%,transparent)] px-2 py-0.5 text-[11px] tabular-nums text-ink">
+            {fmt(dict.catalog.inProgress, { n: Object.keys(started.answers).length, total: started.total ?? t.questionCount })}
           </span>
+        ) : (
+          done && (
+            <span className="ml-auto rounded-full bg-[color-mix(in_oklab,var(--mint)_30%,transparent)] px-2 py-0.5 text-[11px] text-ink">
+              ✓ {dict.catalog.done}
+            </span>
+          )
         )}
       </div>
     </Link>

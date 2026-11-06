@@ -209,10 +209,12 @@ export function Aura({
     io.observe(canvas);
 
     let raf = 0;
+    const root = document.documentElement;
     const start = performance.now();
     const frame = (now: number) => {
       raf = requestAnimationFrame(frame);
-      if (!visible || document.hidden) return;
+      // paused while off-screen, in a background tab, and during the theme switch snapshot
+      if (!visible || document.hidden || root.classList.contains("theme-switching")) return;
       mouse.x += (mouse.tx - mouse.x) * 0.04;
       mouse.y += (mouse.ty - mouse.y) * 0.04;
       gl.uniform2f(uRes, canvas.width, canvas.height);

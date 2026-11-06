@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useSyncExternalStore } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion } from "motion/react";
 import type { Answers, Dimension, Locale, TestDef, TestMeta, TestResult } from "@/lib/types";
@@ -18,6 +18,7 @@ import { Gauge, NormCurve, Radar, ScaleBar } from "./Charts";
 import { ShareBar } from "./ShareBar";
 
 const ease = [0.16, 1, 0.3, 1] as const;
+const noopSubscribe = () => () => {};
 
 /** a compact citation for the norm line; the full text lives in the method panel */
 function shortSource(src: string, lang: Locale) {
@@ -54,13 +55,25 @@ export function ResultView({
   const sp = useSearchParams();
   const vs = sp.get("vs");
   const friend = useMemo(() => (vs ? decodeResult(test, vs) : null), [test, vs]);
-  const [answers, setAnswers] = useState<Answers | null>(null);
-  useEffect(() => {
+  // answers of a test just taken in this tab, for the cognitive review
+  const answersRaw = useSyncExternalStore(
+    noopSubscribe,
+    () => {
+      try {
+        return sessionStorage.getItem(`testik:answers:${test.id}:${code}`);
+      } catch {
+        return null;
+      }
+    },
+    () => null,
+  );
+  const answers = useMemo<Answers | null>(() => {
     try {
-      const a = sessionStorage.getItem(`testik:answers:${test.id}:${code}`);
-      if (a) setAnswers(JSON.parse(a));
-    } catch {}
-  }, [test.id, code]);
+      return answersRaw ? JSON.parse(answersRaw) : null;
+    } catch {
+      return null;
+    }
+  }, [answersRaw]);
 
   if (!result) return <p className="py-24 text-center text-muted">404</p>;
 

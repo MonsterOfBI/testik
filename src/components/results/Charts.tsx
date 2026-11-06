@@ -5,6 +5,45 @@ import { useRef } from "react";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
+const VOWELS = /[аеёиоуыэюяaeiouy]/i;
+const isV = (ch: string) => VOWELS.test(ch);
+
+/** where to hyphenate a long word: vowel|consonant+vowel first, then between two consonants, nearest the middle */
+function hyphenAt(w: string) {
+  const mid = Math.floor(w.length / 2);
+  const ok = (i: number) => i >= 3 && i <= w.length - 3 && !/[ьъй]/i.test(w[i]);
+  const rules = [(i: number) => isV(w[i - 1]) && !isV(w[i]) && isV(w[i + 1]), (i: number) => !isV(w[i - 1]) && !isV(w[i])];
+  for (const rule of rules)
+    for (let d = 0; d <= mid; d++) for (const i of [mid + d, mid - d]) if (ok(i) && rule(i)) return i;
+  return mid;
+}
+
+/** Radar axis label: drops the parenthetical, wraps at ~12 chars, hyphenates long words. */
+function wrapLabel(label: string): string[] {
+  const max = 13;
+  const words = label
+    .replace(/\s*\([^)]*\)?/g, "")
+    .trim()
+    .split(/\s+/)
+    .flatMap((w) => w.split(/(?<=-)/));
+  const parts: string[] = [];
+  for (const w of words) {
+    if (w.length <= max) parts.push(w);
+    else {
+      const cut = hyphenAt(w);
+      parts.push(w.slice(0, cut) + "-", w.slice(cut));
+    }
+  }
+  const out: string[] = [];
+  for (const p of parts) {
+    const last = out[out.length - 1];
+    if (last && !last.endsWith("-") && last.length + 1 + p.length <= max) out[out.length - 1] = `${last} ${p}`;
+    else if (last?.endsWith("-") && last.length + p.length <= max) out[out.length - 1] = last + p;
+    else out.push(p);
+  }
+  return out.slice(0, 3);
+}
+
 /** Radar chart for 3+ dimensions, values 0..1. Optional comparison series. */
 export function Radar({
   labels,
@@ -29,8 +68,26 @@ export function Radar({
     return [c + Math.cos(a) * R * v, c + Math.sin(a) * R * v] as const;
   };
   const poly = (vals: number[]) => vals.map((v, i) => pt(i, Math.max(0.04, v)).join(",")).join(" ");
+  const anchorAt = (x: number) => (Math.abs(x - c) < 8 ? "middle" : x > c ? "start" : "end");
+  const lines = labels.map(wrapLabel);
+  // widen the viewBox so side labels fit inside the svg instead of spilling off narrow screens
+  let padL = 0;
+  let padR = 0;
+  lines.forEach((ls, i) => {
+    const [x] = pt(i, 1.2);
+    const w = Math.max(...ls.map((l) => l.length)) * 7.2;
+    const a = anchorAt(x);
+    if (a === "start") padR = Math.max(padR, x + w - size);
+    else if (a === "end") padL = Math.max(padL, w - x);
+    else {
+      padL = Math.max(padL, w / 2 - x);
+      padR = Math.max(padR, x + w / 2 - size);
+    }
+  });
+  padL = Math.ceil(padL + 4);
+  padR = Math.ceil(padR + 4);
   return (
-    <svg ref={ref} viewBox={`0 0 ${size} ${size}`} className="mx-auto w-full max-w-[420px] overflow-visible" role="img" aria-label={labels.map((l, i) => `${l}: ${Math.round(values[i] * 100)}%`).join(", ")}>
+    <svg ref={ref} viewBox={`${-padL} 0 ${size + padL + padR} ${size}`} className="mx-auto w-full max-w-[460px] overflow-visible" role="img" aria-label={labels.map((l, i) => `${l}: ${Math.round(values[i] * 100)}%`).join(", ")}>
       {[0.25, 0.5, 0.75, 1].map((r) => (
         <polygon key={r} points={poly(Array(n).fill(r))} fill="none" stroke="var(--line-strong)" strokeWidth={1} strokeDasharray={r === 1 ? undefined : "2 4"} />
       ))}
@@ -72,10 +129,15 @@ export function Radar({
       })}
       {labels.map((l, i) => {
         const [x, y] = pt(i, 1.2);
-        const anchor = Math.abs(x - c) < 8 ? "middle" : x > c ? "start" : "end";
+        const ls = lines[i];
         return (
-          <text key={i} x={x} y={y} textAnchor={anchor} dominantBaseline="middle" className="fill-[var(--ink-2)] text-[11.5px]">
-            {l.length > 22 ? l.slice(0, 21) + "…" : l}
+          <text key={i} x={x} y={y - ((ls.length - 1) * 14) / 2} textAnchor={anchorAt(x)} dominantBaseline="middle" className="fill-[var(--ink-2)] text-[12.5px]">
+            <title>{l}</title>
+            {ls.map((line, k) => (
+              <tspan key={k} x={x} dy={k ? 14 : 0}>
+                {line}
+              </tspan>
+            ))}
           </text>
         );
       })}

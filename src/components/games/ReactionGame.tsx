@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
 import { deriveResult } from "@/lib/scoring";
 import type { GameProps } from "./GameHost";
-import { Countdown, StageCard, TrialDots, median, sd, shuffle } from "./shared";
+import { Countdown, StageCard, TrialDots, median, plainKey, sd, shuffle } from "./shared";
 
 const SIMPLE_TRIALS = 12;
 const CHOICE_TRIALS = 24; // each of the 4 positions 6 times, shuffled
@@ -129,6 +129,7 @@ export function ReactionGame({ test, lang, onDone }: GameProps) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (!plainKey(e)) return;
       if (stage === "simple") {
         e.preventDefault();
         hitSimple();

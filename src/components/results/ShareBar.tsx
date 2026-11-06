@@ -1,14 +1,19 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useSyncExternalStore } from "react";
+
+const noopSubscribe = () => () => {};
 import { AnimatePresence, motion } from "motion/react";
 import type { Locale, TestDef } from "@/lib/types";
 import type { Dict } from "@/i18n/dict";
 
 export function ShareBar({ test, code, lang, dict, title }: { test: TestDef; code: string; lang: Locale; dict: Dict; title: string }) {
   const [copied, setCopied] = useState<string | null>(null);
-  const [origin, setOrigin] = useState(process.env.NEXT_PUBLIC_SITE_URL ?? "");
-  useEffect(() => setOrigin(window.location.origin), []);
+  const origin = useSyncExternalStore(
+    noopSubscribe,
+    () => window.location.origin,
+    () => process.env.NEXT_PUBLIC_SITE_URL ?? "",
+  );
   const url = `${origin}/${lang}/r/${test.id}/${code}`;
   const compareUrl = `${origin}/${lang}/tests/${test.id}?vs=${code}`;
   const text = `${test.title[lang]}: ${title}`;

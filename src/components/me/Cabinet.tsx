@@ -7,11 +7,12 @@ import type { Locale, TestResult } from "@/lib/types";
 import type { Dict } from "@/i18n/dict";
 import { fmt } from "@/i18n/dict";
 import type { PortraitMeta } from "@/lib/portrait";
-import { clearHistory, getHistory, type HistoryEntry } from "@/lib/history";
+import { clearHistory, getHistory, useLocalData, type HistoryEntry } from "@/lib/history";
 import { Aura } from "@/components/ui/Aura";
 import { auraFromScores } from "@/components/ui/auraMath";
 import { Radar } from "@/components/results/Charts";
 import { CAT_GRADIENT, PALETTE } from "@/lib/ui";
+import { UnfinishedTests } from "./UnfinishedTests";
 
 type Badge = { id: string; emoji: string; ru: string; en: string; test: (h: HistoryEntry[], m: Record<string, PortraitMeta>) => boolean };
 
@@ -30,16 +31,13 @@ function uniq(h: HistoryEntry[]) {
 }
 
 export function Cabinet({ lang, dict, metas }: { lang: Locale; dict: Dict; metas: PortraitMeta[] }) {
-  const [hist, setHist] = useState<HistoryEntry[]>([]);
+  const version = useLocalData();
+  const hist = useMemo<HistoryEntry[]>(() => (version ? getHistory() : []), [version]);
   const [user, setUser] = useState<{ name?: string; email?: string } | null>(null);
   const byId = useMemo(() => Object.fromEntries(metas.map((m) => [m.id, m])), [metas]);
 
   useEffect(() => {
-    setHist(getHistory());
-    const upd = () => setHist(getHistory());
-    window.addEventListener("testik:history", upd);
     fetch("/api/auth/session").then((r) => r.json()).then((s) => setUser(s?.user ?? null)).catch(() => {});
-    return () => window.removeEventListener("testik:history", upd);
   }, []);
 
   const latest = useMemo(() => {
@@ -74,10 +72,12 @@ export function Cabinet({ lang, dict, metas }: { lang: Locale; dict: Dict; metas
             </p>
           )}
         </div>
-        <div className="relative mx-auto aspect-square w-full max-w-[340px]">
+        <div className="relative mx-auto aspect-square w-full max-w-[220px] md:max-w-[340px]">
           <Aura className="absolute inset-0" colors={aura.colors} sizes={aura.sizes} seed={aura.seed} />
         </div>
       </section>
+
+      <UnfinishedTests lang={lang} dict={dict} byId={byId} />
 
       {/* portrait */}
       <section className="mt-12">
@@ -139,7 +139,7 @@ export function Cabinet({ lang, dict, metas }: { lang: Locale; dict: Dict; metas
         <section className="mt-14">
           <div className="flex items-center justify-between">
             <h2 className="font-display text-2xl font-medium tracking-tight">{dict.me.history}</h2>
-            <button onClick={() => confirm("OK?") && clearHistory()} className="text-sm text-muted hover:text-ink">
+            <button onClick={() => confirm(lang === "ru" ? "Удалить всю историю результатов в этом браузере?" : "Delete all result history in this browser?") && clearHistory()} className="text-sm text-muted hover:text-ink">
               {dict.me.clear}
             </button>
           </div>

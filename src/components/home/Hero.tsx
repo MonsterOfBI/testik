@@ -99,10 +99,15 @@ export function Hero({ lang, dict, featured, ids }: { lang: Locale; dict: Dict; 
             initial={{ opacity: 0, y: 20, scale: 0.9 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ delay: 1.05 + i * 0.07, type: "spring", stiffness: 260, damping: 20 }}
-            className="rounded-full border border-line bg-[color-mix(in_oklab,var(--surface)_60%,transparent)] px-4 py-2 text-sm text-ink-2 backdrop-blur-md"
-            style={{ animation: `float-y ${5 + (i % 3)}s ease-in-out ${i * 0.4}s infinite` }}
+            className="inline-block"
           >
-            {c}
+            {/* the idle float lives on an inner element, so it never fights the entrance transform */}
+            <span
+              className="inline-block rounded-full border border-line bg-[color-mix(in_oklab,var(--surface)_78%,transparent)] px-4 py-2 text-sm text-ink-2"
+              style={{ animation: `float-y ${5 + (i % 3)}s ease-in-out ${1.6 + i * 0.4}s infinite` }}
+            >
+              {c}
+            </span>
           </motion.span>
         ))}
       </div>

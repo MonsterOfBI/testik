@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { deriveResult } from "@/lib/scoring";
 import type { GameProps } from "./GameHost";
-import { StageCard, sleep } from "./shared";
+import { StageCard, plainKey, sleep } from "./shared";
 
 const T = {
   ru: {
@@ -58,7 +58,7 @@ export function SpanGame({ test, lang, onDone }: GameProps) {
   const [attempt, setAttempt] = useState(0);
   const [fails, setFails] = useState(0);
   const [current, setCurrent] = useState<number[]>([]);
-  const [shown, setShown] = useState<number | null>(null);
+  const [shown, setShown] = useState<{ d: number; k: number } | null>(null);
   const [typed, setTyped] = useState<number[]>([]);
   const [lastOk, setLastOk] = useState<boolean | null>(null);
   const best = useRef({ forward: 0, backward: 0 });
@@ -70,8 +70,8 @@ export function SpanGame({ test, lang, onDone }: GameProps) {
     setTyped([]);
     setStage("show");
     await sleep(600);
-    for (const d of s) {
-      setShown(d);
+    for (const [k, d] of s.entries()) {
+      setShown({ d, k });
       await sleep(800);
       setShown(null);
       await sleep(250);
@@ -130,6 +130,7 @@ export function SpanGame({ test, lang, onDone }: GameProps) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (!plainKey(e)) return;
       if (/^[0-9]$/.test(e.key)) press(Number(e.key));
       else if (e.key === "Backspace") setTyped((x) => x.slice(0, -1));
     };
@@ -160,14 +161,14 @@ export function SpanGame({ test, lang, onDone }: GameProps) {
           <AnimatePresence mode="popLayout">
             {shown !== null ? (
               <motion.span
-                key={`${shown}-${Math.random()}`}
+                key={shown.k}
                 initial={{ scale: 0.5, opacity: 0, filter: "blur(6px)" }}
                 animate={{ scale: 1, opacity: 1, filter: "blur(0px)" }}
                 exit={{ scale: 1.4, opacity: 0 }}
                 transition={{ duration: 0.2 }}
                 className="font-display text-8xl font-semibold"
               >
-                {shown}
+                {shown.d}
               </motion.span>
             ) : (
               <span className="text-muted">{t.watch}</span>
