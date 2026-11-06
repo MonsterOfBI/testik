@@ -26,9 +26,7 @@ curl -fsSL https://raw.githubusercontent.com/MonsterOfBI/testik/main/deploy/bege
 nano /var/www/testik/.env.local
 ```
 
-Обязательно:
-
-- `OPERATOR_NAME`, `OPERATOR_EMAIL`: кто владелец сайта. Это видно в подвале и в политике, без этого сайт не соответствует 149-ФЗ и 152-ФЗ. По желанию `OPERATOR_INN`, `OPERATOR_ADDRESS`.
+- ФИО и почта владельца уже вписаны в код. По желанию `OPERATOR_INN` и `OPERATOR_ADDRESS` (почтовый адрес для запросов в согласии и политике).
 - `NEXT_PUBLIC_SITE_URL` и `AUTH_URL`: уже подставлены скриптом.
 
 Для входа (сначала подайте уведомление в Роскомнадзор, см. `docs/legal-ru.md`):

@@ -3,11 +3,11 @@
  * - 149-ФЗ ст. 10 ч. 2: the site must identify its owner;
  * - 152-ФЗ ст. 18.1: the privacy policy names the personal-data operator;
  * - 152-ФЗ ст. 9 ч. 4: the consent names the operator and its address.
- * Values come from env vars so the owner can fill them in on the server without touching code.
+ * Defaults are the site owner's published details; env vars can override them on a server.
  */
 export const OPERATOR = {
-  name: process.env.OPERATOR_NAME?.trim() || "",
-  email: process.env.OPERATOR_EMAIL?.trim() || "",
+  name: process.env.OPERATOR_NAME?.trim() || "Коломийцев Максим Дмитриевич",
+  email: process.env.OPERATOR_EMAIL?.trim() || "maximkolomiitseff@yandex.ru",
   /** ИНН / ОГРНИП, optional */
   inn: process.env.OPERATOR_INN?.trim() || "",
   /** postal address for requests from data subjects, optional but recommended */
