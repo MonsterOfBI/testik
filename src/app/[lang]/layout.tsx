@@ -9,6 +9,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { CookieConsent } from "@/components/layout/CookieConsent";
 import { SmoothScroll } from "@/components/layout/SmoothScroll";
+import { MotionProvider } from "@/components/layout/MotionProvider";
 import { SITE_URL } from "@/lib/site";
 
 const display = Unbounded({ subsets: ["latin", "cyrillic"], variable: "--font-unbounded", weight: ["400", "500", "600", "700"] });
@@ -55,12 +56,14 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
       </head>
       <body className="grain flex min-h-dvh flex-col overflow-x-clip">
         <SmoothScroll />
-        <Suspense fallback={<div className="h-[76px]" />}>
-          <Header lang={lang} dict={dict} />
-        </Suspense>
-        <main className="flex-1">{children}</main>
-        <Footer lang={lang} dict={dict} />
-        <CookieConsent dict={dict} />
+        <MotionProvider>
+          <Suspense fallback={<div className="h-[76px]" />}>
+            <Header lang={lang} dict={dict} />
+          </Suspense>
+          <main className="flex-1 overflow-x-clip">{children}</main>
+          <Footer lang={lang} dict={dict} />
+          <CookieConsent dict={dict} />
+        </MotionProvider>
       </body>
     </html>
   );

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useMotionValueEvent } from "motion/react";
 import type { Locale } from "@/lib/types";
 import type { Dict } from "@/i18n/dict";
@@ -16,12 +16,46 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dict }) {
   const { scrollY } = useScroll();
   const [scrolled, setScrolled] = useState(false);
   const [hidden, setHidden] = useState(false);
+  const anchor = useRef(0);
   useMotionValueEvent(scrollY, "change", (y) => {
-    const prev = scrollY.getPrevious() ?? 0;
     setScrolled(y > 12);
-    setHidden(y > 240 && y > prev);
+    if (y < 120) {
+      anchor.current = y;
+      setHidden(false);
+      return;
+    }
+    // ignore small jitter (iOS rubber-banding, trackpad noise): hide after 24px down, show after 24px up
+    const d = y - anchor.current;
+    if (d > 24) {
+      anchor.current = y;
+      setHidden(true);
+    } else if (d < -24) {
+      anchor.current = y;
+      setHidden(false);
+    } else if ((hidden && d > 0) || (!hidden && d < 0)) anchor.current = y;
   });
-  useEffect(() => setHidden(false), [pathname]);
+  // show the header again after navigation
+  const [lastPath, setLastPath] = useState(pathname);
+  if (lastPath !== pathname) {
+    setLastPath(pathname);
+    setHidden(false);
+  }
+
+  // publish the visible header height, so sticky bars below it (test progress) can follow it
+  const ref = useRef<HTMLElement>(null);
+  const [height, setHeight] = useState(76);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => setHeight(el.offsetHeight));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+  useEffect(() => {
+    document.documentElement.style.setProperty("--header-offset", `${hidden ? 0 : height}px`);
+  }, [hidden, height]);
+
+  const isActive = (href: string) => !href.includes("#") && (pathname === href || pathname.startsWith(href + "/"));
 
   const nav = [
     { href: `/${lang}#tests`, label: dict.nav.tests },
@@ -31,8 +65,9 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dict }) {
 
   return (
     <motion.header
+      ref={ref}
       initial={false}
-      animate={{ y: hidden ? -90 : 0 }}
+      animate={{ y: hidden ? "-110%" : "0%" }}
       transition={{ type: "spring", stiffness: 380, damping: 38 }}
       className="sticky top-0 z-50 px-3 pt-3 sm:px-5"
     >
@@ -56,7 +91,8 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dict }) {
             <Link
               key={n.href}
               href={n.href}
-              className="rounded-xl px-3 py-2 text-sm text-ink-2 transition-colors hover:bg-surface-2 hover:text-ink"
+              aria-current={isActive(n.href) ? "page" : undefined}
+              className="rounded-xl px-3 py-2 text-sm text-ink-2 transition-colors hover:bg-surface-2 hover:text-ink aria-[current=page]:text-ink"
             >
               {n.label}
             </Link>
@@ -75,9 +111,18 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dict }) {
         <ThemeToggle dict={dict} />
         <UserButton lang={lang} dict={dict} />
       </div>
-      <nav className="mx-auto mt-2 flex max-w-6xl gap-1 overflow-x-auto px-1 md:hidden">
+      <nav
+        className={`mx-auto mt-1.5 flex max-w-6xl gap-1 overflow-x-auto rounded-2xl px-1 py-0.5 transition-[background-color,backdrop-filter] duration-500 md:hidden ${
+          scrolled ? "bg-[color-mix(in_oklab,var(--bg)_70%,transparent)] backdrop-blur-xl" : ""
+        }`}
+      >
         {nav.map((n) => (
-          <Link key={n.href} href={n.href} className="shrink-0 rounded-xl px-3 py-1.5 text-sm text-ink-2 hover:text-ink">
+          <Link
+            key={n.href}
+            href={n.href}
+            aria-current={isActive(n.href) ? "page" : undefined}
+            className="shrink-0 rounded-xl px-3 py-1.5 text-sm text-ink-2 hover:text-ink aria-[current=page]:bg-surface-2 aria-[current=page]:text-ink"
+          >
             {n.label}
           </Link>
         ))}

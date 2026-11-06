@@ -1,36 +1,61 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
+import { flushSync } from "react-dom";
 import { AnimatePresence, motion } from "motion/react";
 import type { Dict } from "@/i18n/dict";
 
+type Theme = "dark" | "light";
+
+const subscribe = (cb: () => void) => {
+  window.addEventListener("testik:theme", cb);
+  return () => window.removeEventListener("testik:theme", cb);
+};
+const readTheme = () => (document.documentElement.dataset.theme as Theme | undefined) ?? "dark";
+
 export function ThemeToggle({ dict }: { dict: Dict }) {
-  const [theme, setTheme] = useState<"dark" | "light" | null>(null);
-  useEffect(() => {
-    setTheme((document.documentElement.dataset.theme as "dark" | "light") ?? "dark");
-  }, []);
-  const toggle = (e: React.MouseEvent) => {
-    const next = theme === "dark" ? "light" : "dark";
+  const theme = useSyncExternalStore<Theme | null>(subscribe, readTheme, () => null);
+
+  const toggle = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const root = document.documentElement;
+    if (root.classList.contains("theme-switching")) return;
+    const next: Theme = readTheme() === "dark" ? "light" : "dark";
     const apply = () => {
-      document.documentElement.dataset.theme = next;
+      root.dataset.theme = next;
       try {
         localStorage.setItem("theme", next);
       } catch {}
-      setTheme(next);
+      window.dispatchEvent(new Event("testik:theme"));
     };
-    // circular reveal from the button, where supported
-    const d = document as Document & { startViewTransition?: (cb: () => void) => { ready: Promise<void> } };
-    if (!d.startViewTransition || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return apply();
-    const x = e.clientX;
-    const y = e.clientY;
+    // While switching, CSS transitions are off and the aura canvases pause, so the
+    // browser swaps one finished frame for another instead of repainting the page
+    // under the reveal on every frame (that was the stutter).
+    root.classList.add("theme-switching");
+    const done = () => root.classList.remove("theme-switching");
+
+    const d = document as Document & {
+      startViewTransition?: (cb: () => void) => { ready: Promise<void>; finished: Promise<void> };
+    };
+    if (!d.startViewTransition || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      flushSync(apply);
+      requestAnimationFrame(() => requestAnimationFrame(done));
+      return;
+    }
+    // circular reveal from the button (its centre when activated from the keyboard)
+    const b = e.currentTarget.getBoundingClientRect();
+    const x = e.detail === 0 ? b.left + b.width / 2 : e.clientX;
+    const y = e.detail === 0 ? b.top + b.height / 2 : e.clientY;
     const r = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
-    const vt = d.startViewTransition(apply);
-    vt.ready.then(() => {
-      document.documentElement.animate(
-        { clipPath: [`circle(0px at ${x}px ${y}px)`, `circle(${r}px at ${x}px ${y}px)`] },
-        { duration: 650, easing: "cubic-bezier(0.16, 1, 0.3, 1)", pseudoElement: "::view-transition-new(root)" },
-      );
-    });
+    const vt = d.startViewTransition(() => flushSync(apply));
+    vt.ready
+      .then(() => {
+        root.animate(
+          { clipPath: [`circle(0px at ${x}px ${y}px)`, `circle(${r}px at ${x}px ${y}px)`] },
+          { duration: 700, easing: "cubic-bezier(0.4, 0, 0.2, 1)", pseudoElement: "::view-transition-new(root)" },
+        );
+      })
+      .catch(() => {});
+    vt.finished.then(done, done);
   };
   const label = theme === "dark" ? dict.theme.light : dict.theme.dark;
   return (

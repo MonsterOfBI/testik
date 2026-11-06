@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
 import { deriveResult } from "@/lib/scoring";
 import type { GameProps } from "./GameHost";
-import { Countdown, StageCard, TrialDots, mean, shuffle } from "./shared";
+import { Countdown, StageCard, TrialDots, mean, plainKey, shuffle } from "./shared";
 
 const COLORS = [
   { id: "red", hex: "#ff7a95", ru: "КРАСНЫЙ", en: "RED", btnRu: "Красный", btnEn: "Red" },
@@ -111,6 +111,7 @@ export function StroopGame({ test, lang, onDone }: GameProps) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (!plainKey(e)) return;
       const n = parseInt(e.key, 10);
       if (n >= 1 && n <= 4) answer(n - 1);
     };

@@ -1,6 +1,6 @@
 "use client";
 
-import { ViewTransition, useEffect, useState } from "react";
+import { ViewTransition, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import type { Answers, Locale, TestDef, TestMeta, TestResult } from "@/lib/types";
@@ -11,31 +11,80 @@ import { Md } from "@/components/ui/Disclosure";
 import { MethodPanel } from "./MethodPanel";
 import { Runner } from "./Runner";
 import { GameHost } from "@/components/games/GameHost";
-import { clearProgress, getProgress, saveToHistory } from "@/lib/history";
+import { canSaveProgress, clearProgress, getProgress, saveToHistory } from "@/lib/history";
+import { fmt } from "@/i18n/dict";
 import { encodeResult, scoreTest } from "@/lib/scoring";
 import { Aura } from "@/components/ui/Aura";
 
 type Phase = "intro" | "run" | "computing";
 
+const noopSubscribe = () => () => {};
+const subscribeProgress = (cb: () => void) => {
+  window.addEventListener("testik:progress", cb);
+  window.addEventListener("storage", cb);
+  return () => {
+    window.removeEventListener("testik:progress", cb);
+    window.removeEventListener("storage", cb);
+  };
+};
+
 export function TestExperience({ test, lang, dict }: { test: TestDef; lang: Locale; dict: Dict; related: TestMeta[] }) {
   const router = useRouter();
-  // read ?vs= after mount instead of useSearchParams, so the intro prerenders as static HTML (SEO)
-  const [vs, setVs] = useState<string | null>(null);
-  useEffect(() => setVs(new URLSearchParams(window.location.search).get("vs")), []);
+  // read ?vs= on the client instead of useSearchParams, so the intro prerenders as static HTML (SEO)
+  const vs = useSyncExternalStore(
+    noopSubscribe,
+    () => new URLSearchParams(window.location.search).get("vs"),
+    () => null,
+  );
   const [phase, setPhase] = useState<Phase>("intro");
-  const [resumeAt, setResumeAt] = useState<number | null>(null);
-  const [fresh, setFresh] = useState(false);
+  const persist = canSaveProgress(test);
+
+  // saved progress, kept in sync with localStorage (also across tabs)
+  const progressKey = `testik:progress:${test.id}`;
+  const progressRaw = useSyncExternalStore(
+    subscribeProgress,
+    () => {
+      try {
+        return localStorage.getItem(progressKey);
+      } catch {
+        return null;
+      }
+    },
+    () => null,
+  );
+  const saved = useMemo(() => (persist && progressRaw ? getProgress(test.id) : null), [persist, progressRaw, test.id]);
+  const savedCount = saved ? Object.keys(saved.answers).length : 0;
+  const resumeAt = saved && savedCount > 0 ? saved.index : null;
 
   useEffect(() => {
-    const p = getProgress(test.id);
-    if (p && p.index > 0 && Date.now() - p.at < 1000 * 60 * 60 * 24 * 7) setResumeAt(p.index);
-  }, [test.id]);
+    // timed and ability tests never resume; drop leftovers from older versions of the site
+    if (!persist) clearProgress(test.id);
+  }, [persist, test.id]);
 
+  // one-sitting tests (IQ, timed tests, games) lose everything on reload: ask before leaving
   useEffect(() => {
+    if (phase !== "run" || persist) return;
+    const warn = (e: BeforeUnloadEvent) => {
+      e.preventDefault();
+      e.returnValue = "";
+    };
+    window.addEventListener("beforeunload", warn);
+    return () => window.removeEventListener("beforeunload", warn);
+  }, [phase, persist]);
+
+  const firstPhase = useRef(true);
+  useEffect(() => {
+    if (firstPhase.current) {
+      firstPhase.current = false;
+      return;
+    }
     window.scrollTo({ top: 0 });
   }, [phase]);
 
+  const finished = useRef(false);
   const finish = (result: TestResult, answers?: Answers) => {
+    if (finished.current) return;
+    finished.current = true;
     const code = encodeResult(result);
     saveToHistory({ code, result });
     clearProgress(test.id);
@@ -90,13 +139,21 @@ export function TestExperience({ test, lang, dict }: { test: TestDef; lang: Loca
               <Md html={md(test.instructions[lang])} />
             </div>
 
-            <div className="mt-8 flex flex-wrap gap-3">
+            {resumeAt !== null && (
+              <div className="mt-6 rounded-2xl border border-line bg-[color-mix(in_oklab,var(--mint)_10%,var(--surface))] p-4">
+                <p className="text-sm text-ink-2">{fmt(dict.test.resumeNote, { n: savedCount, total: test.questions.length })}</p>
+                <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-surface-2">
+                  <div
+                    className="h-full rounded-full bg-[linear-gradient(90deg,var(--lilac),var(--rose),var(--peach),var(--mint))]"
+                    style={{ width: `${Math.max(3, (savedCount / Math.max(1, test.questions.length)) * 100)}%` }}
+                  />
+                </div>
+              </div>
+            )}
+
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <button
-                onClick={() => {
-                  if (resumeAt === null) clearProgress(test.id);
-                  setFresh(resumeAt === null);
-                  setPhase("run");
-                }}
+                onClick={() => setPhase("run")}
                 className="rounded-2xl bg-ink px-7 py-4 font-medium text-bg transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
               >
                 {resumeAt !== null ? `${dict.test.resume} ${resumeAt + 1}` : dict.test.start}
@@ -105,16 +162,20 @@ export function TestExperience({ test, lang, dict }: { test: TestDef; lang: Loca
                 <button
                   onClick={() => {
                     clearProgress(test.id);
-                    setResumeAt(null);
-                    setFresh(true);
                     setPhase("run");
                   }}
-                  className="rounded-2xl border border-line-strong px-6 py-4 font-medium hover:bg-surface-2"
+                  className="rounded-2xl border border-line-strong px-6 py-4 font-medium transition-colors hover:bg-surface-2"
                 >
                   {dict.test.restart}
                 </button>
               )}
             </div>
+            {test.kind !== "game" && (
+              <p className="mt-4 flex items-center gap-2 text-xs text-muted">
+                <span className={`size-1.5 shrink-0 rounded-full ${persist ? "bg-[var(--ok)]" : "bg-[var(--peach)]"}`} aria-hidden />
+                {persist ? dict.test.autosave : dict.test.oneSitting}
+              </p>
+            )}
             <div className="mt-12">
               <MethodPanel test={test} lang={lang} dict={dict} />
             </div>
@@ -126,7 +187,7 @@ export function TestExperience({ test, lang, dict }: { test: TestDef; lang: Loca
             {test.kind === "game" ? (
               <GameHost test={test} lang={lang} dict={dict} onDone={(r) => finish(r)} />
             ) : (
-              <Runner test={test} lang={lang} dict={dict} fresh={fresh} onDone={finishAnswers} onExit={() => setPhase("intro")} />
+              <Runner test={test} lang={lang} dict={dict} onDone={finishAnswers} onExit={() => setPhase("intro")} />
             )}
           </motion.div>
         )}

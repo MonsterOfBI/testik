@@ -90,6 +90,7 @@
 html {
   background: var(--bg);
   -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
   scroll-behavior: auto;
 }
 
@@ -101,7 +102,13 @@ body {
   line-height: 1.55;
   min-height: 100dvh;
   -webkit-font-smoothing: antialiased;
-  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* no double-tap zoom on controls: games and quick answers get tapped fast */
+button,
+a,
+[role="button"] {
+  touch-action: manipulation;
 }
 
 ::selection {
@@ -202,6 +209,18 @@ body {
 ::view-transition-image-pair(.morph) {
   animation-name: via-blur;
 }
+/* theme switch: freeze transitions and replace the default cross-fade with the circular reveal */
+html.theme-switching *,
+html.theme-switching *::before,
+html.theme-switching *::after {
+  transition: none !important;
+  animation-play-state: paused !important;
+}
+html.theme-switching::view-transition-old(root),
+html.theme-switching::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
 @keyframes via-blur {
   30% {
     filter: blur(4px);
@@ -225,5 +244,10 @@ body {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
+  }
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
   }
 }
