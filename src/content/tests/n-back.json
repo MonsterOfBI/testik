@@ -1,0 +1,730 @@
+{
+  "id": "n-back",
+  "category": "cognitive",
+  "kind": "game",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Тест N-back (2-назад)",
+    "en": "N-back Test (2-back)"
+  },
+  "tagline": {
+    "ru": "Совпадает ли буква с той, что была две буквы назад?",
+    "en": "Does this letter match the one two steps back?"
+  },
+  "description": {
+    "ru": "Популярная задача на рабочую память: буквы появляются одна за другой, и нужно нажимать, когда текущая буква совпадает с показанной две позиции назад. Вы получите чувствительность d′ (теория обнаружения сигнала), процент попаданий и ложных тревог.",
+    "en": "A popular working-memory task: letters appear one after another and you press when the current letter matches the one shown two positions back. You get a sensitivity score d′ (signal detection theory), hit rate and false-alarm rate."
+  },
+  "emoji": "🔁",
+  "durationMin": 5,
+  "popularity": 2,
+  "tags": [
+    {
+      "ru": "рабочая память",
+      "en": "working memory"
+    },
+    {
+      "ru": "внимание",
+      "en": "attention"
+    },
+    {
+      "ru": "n-back",
+      "en": "n-back"
+    },
+    {
+      "ru": "мини-игра",
+      "en": "mini-game"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что измеряется\nЗадача **n-back** (Kirchner, 1958) требует непрерывно обновлять содержимое рабочей памяти: каждая новая буква сравнивается с буквой n шагов назад, после чего «окно» сдвигается. При n = 2–3 задача сильно нагружает рабочую память; в нейровизуализации она надёжно активирует лобно-теменную сеть (мета-анализ Owen и др., 2005). Тренировки двойного n-back стали знамениты после работы Jaeggi и др. (2008) о переносе на текучий интеллект, однако последующие мета-анализы показывают, что перенос на интеллект, если и есть, очень мал.\n\n### Протокол (машиночитаемая версия — в `protocol`)\n- Стимулы: согласные латинского алфавита B C D F G H J K L M N P Q R S T V W X Z (одинаковы для обеих языковых версий; альтернатива для русской версии — согласные кириллицы Б В Г Д Ж З К Л М Н П Р С Т Ф Х).\n- Буква 500 мс, затем пустой экран 2000 мс (интервал между началами 2500 мс) — так же, как у Hepdarcan & Can (2025) и близко к Jaeggi и др. (2010: 500 + 2500 мс).\n- Тренировка: 1-back, 12 проб с обратной связью. Основной блок: **2-back**, 2 + 30 проб (первые 2 не оцениваются), **33% целей** (10 из 30), цели не идут подряд больше двух раз; около 10% «ловушек» (буква совпадает с той, что была 1 или 3 позиции назад), чтобы нельзя было опираться только на ощущение знакомости.\n- Ответ: нажать пробел / кнопку «Совпадает» только на цели; на остальных пробах ничего не нажимать. Ответ засчитывается с 150 мс от появления буквы до начала следующей.\n- Опционально: уровень 3-back для тех, у кого d′ ≥ 3.\n\n### Показатели (теория обнаружения сигнала)\n- **Попадание (hit)** — нажатие на цели; **ложная тревога (FA)** — нажатие на не-цели.\n- **hit_rate** = попадания / цели; **false_alarm_rate** = ложные тревоги / не-цели.\n- **dprime** d′ = z(H) − z(F), где z — обратная функция стандартного нормального распределения. Чтобы d′ не был бесконечным при H = 1 или F = 0, используется лог-линейная поправка Хаутуса (1995): H = (попадания + 0,5) / (цели + 1), F = (FA + 0,5) / (не-цели + 1). d′ не зависит от склонности «нажимать чаще» и потому лучше простой точности (Haatveit и др., 2010).\n- **accuracy** = (попадания + верные отказы) / все оцениваемые пробы. Внимание: при 33% целей человек, который никогда не нажимает, получит 67% точности — поэтому основной показатель — d′.\n\n### Нормы\n- Hepdarcan & Can (2025), N = 54 (18–78 лет), согласные и фигуры Аттнива, 500 + 2000 мс, 33% целей: d′ для **2-back 1,62 ± 0,76**, 3-back 0,73 ± 0,60, 1-back 2,49 ± 0,71; у молодых в среднем по всем уровням d′ выше, чем у старших (2,22 против 1,76). Эта норма включает и невербальные стимулы и широкий возраст, поэтому для буквенного 2-back у молодых взрослых она, вероятно, занижена.\n- Jaeggi и др. (2010), студенты, 40–66 проб на уровень, 33% целей: доля «попадания − ложные тревоги» в одиночном зрительном 2-back **0,91 ± 0,10–0,13**, в слуховом (согласные) 0,85–0,91; в 3-back — 0,45–0,75. То есть здоровые молодые взрослые обычно имеют в 2-back около 90% попаданий при немногих ложных тревогах (ориентир, а не норма для метрик сайта).\n- Надёжность невысока: split-half для точности 2-back от 0,26 до 0,85 в разных экспериментах (Jaeggi и др., 2010); тест–ретест точности на целях 0,63 (Hepdarcan & Can, 2025). Интерпретируйте небольшие различия осторожно.\n\n### Ограничения\n30 оцениваемых проб — мало (10 целей): одно попадание меняет hit rate на 10%. Результат сильно зависит от тренировки. Это мера рабочей памяти и устойчивости внимания, а не «IQ».",
+    "en": "### What is measured\nThe **n-back** task (Kirchner, 1958) requires continuous updating of working memory: each new letter is compared with the letter n steps back, then the “window” shifts. With n = 2–3 the task heavily loads working memory; in neuroimaging it reliably activates a fronto-parietal network (meta-analysis by Owen et al., 2005). Dual n-back training became famous after Jaeggi et al. (2008) reported transfer to fluid intelligence, but later meta-analyses find that transfer to intelligence, if any, is very small.\n\n### Protocol (machine-readable version in `protocol`)\n- Stimuli: Latin consonants B C D F G H J K L M N P Q R S T V W X Z (the same in both language versions; alternative for Russian: Cyrillic consonants Б В Г Д Ж З К Л М Н П Р С Т Ф Х).\n- Letter 500 ms, then blank 2 000 ms (2 500 ms onset-to-onset) – as in Hepdarcan & Can (2025) and close to Jaeggi et al. (2010: 500 + 2 500 ms).\n- Practice: 1-back, 12 trials with feedback. Main block: **2-back**, 2 + 30 trials (first 2 unscored), **33% targets** (10 of 30), no more than two targets in a row; about 10% lures (letter matches 1 or 3 positions back) so that familiarity alone does not work.\n- Response: press space / the “Match” button on targets only; do nothing otherwise. Responses count from 150 ms after letter onset until the next letter.\n- Optional: a 3-back level for users with d′ ≥ 3.\n\n### Metrics (signal detection theory)\n- **Hit** – press on a target; **false alarm (FA)** – press on a non-target.\n- **hit_rate** = hits / targets; **false_alarm_rate** = FAs / non-targets.\n- **dprime** d′ = z(H) − z(F), z = inverse standard normal CDF. To avoid infinite d′ when H = 1 or F = 0 use Hautus’ (1995) log-linear correction: H = (hits + 0.5) / (targets + 1), F = (FA + 0.5) / (non-targets + 1). d′ is independent of a tendency to “press more” and is therefore better than raw accuracy (Haatveit et al., 2010).\n- **accuracy** = (hits + correct rejections) / all scored trials. Caution: with 33% targets someone who never presses scores 67% – so d′ is the main measure.\n\n### Norms\n- Hepdarcan & Can (2025), N = 54 (aged 18–78), consonants and Attneave shapes, 500 + 2 000 ms, 33% targets: d′ for **2-back 1.62 ± 0.76**, 3-back 0.73 ± 0.60, 1-back 2.49 ± 0.71; younger adults had higher d′ averaged over levels than older adults (2.22 vs 1.76). This norm includes non-verbal stimuli and a wide age range, so it probably underestimates letter 2-back d′ in young adults.\n- Jaeggi et al. (2010), students, 40–66 trials per level, 33% targets: “hits − false alarms” for single visual 2-back **0.91 ± 0.10–0.13**, auditory (consonants) 0.85–0.91; 3-back 0.45–0.75. So healthy young adults typically hit about 90% of 2-back targets with few false alarms (a benchmark, not a norm on the site metrics).\n- Reliability is modest: split-half reliability of 2-back accuracy ranged from .26 to .85 across experiments (Jaeggi et al., 2010); test–retest of target accuracy was .63 (Hepdarcan & Can, 2025). Interpret small differences cautiously.\n\n### Limitations\n30 scored trials is few (10 targets): one hit changes the hit rate by 10%. Scores depend strongly on practice. This measures working memory and sustained attention, not “IQ”."
+  },
+  "sources": [
+    {
+      "citation": "Kirchner, W. K. (1958). Age differences in short-term retention of rapidly changing information. Journal of Experimental Psychology, 55(4), 352–358.",
+      "doi": "10.1037/h0043688"
+    },
+    {
+      "citation": "Owen, A. M., McMillan, K. M., Laird, A. R., & Bullmore, E. (2005). N-back working memory paradigm: A meta-analysis of normative functional neuroimaging studies. Human Brain Mapping, 25(1), 46–59.",
+      "doi": "10.1002/hbm.20131"
+    },
+    {
+      "citation": "Jaeggi, S. M., Buschkuehl, M., Perrig, W. J., & Meier, B. (2010). The concurrent validity of the N-back task as a working memory measure. Memory, 18(4), 394–412.",
+      "doi": "10.1080/09658211003702171"
+    },
+    {
+      "citation": "Jaeggi, S. M., Buschkuehl, M., Jonides, J., & Perrig, W. J. (2008). Improving fluid intelligence with training on working memory. Proceedings of the National Academy of Sciences, 105(19), 6829–6833.",
+      "doi": "10.1073/pnas.0801268105"
+    },
+    {
+      "citation": "Hepdarcan, I., & Can, S. (2025). Psychometric characteristics of the n-back task: Construct validity across age and stimulus type, internal consistency, test-retest and alternate forms reliability. Current Psychology, 44, 2050–2059.",
+      "doi": "10.1007/s12144-025-07318-9"
+    },
+    {
+      "citation": "Haatveit, B. C., Sundet, K., Hugdahl, K., Ueland, T., Melle, I., & Andreassen, O. A. (2010). The validity of d prime as a working memory index: Results from the “Bergen n-back task”. Journal of Clinical and Experimental Neuropsychology, 32(8), 871–880.",
+      "doi": "10.1080/13803391003596421"
+    },
+    {
+      "citation": "Hautus, M. J. (1995). Corrections for extreme proportions and their biasing effects on estimated values of d′. Behavior Research Methods, Instruments, & Computers, 27(1), 46–51.",
+      "doi": "10.3758/BF03203619"
+    },
+    {
+      "citation": "Stanislaw, H., & Todorov, N. (1999). Calculation of signal detection theory measures. Behavior Research Methods, Instruments, & Computers, 31(1), 137–149.",
+      "doi": "10.3758/BF03207704"
+    },
+    {
+      "citation": "Redick, T. S., & Lindsey, D. R. B. (2013). Complex span and n-back measures of working memory: A meta-analysis. Psychonomic Bulletin & Review, 20(6), 1102–1113.",
+      "doi": "10.3758/s13423-013-0453-9"
+    },
+    {
+      "citation": "Pelegrina, S., Lechuga, M. T., García-Madruga, J. A., Elosúa, M. R., Macizo, P., Carreiras, M., Fuentes, L. J., & Bajo, M. T. (2015). Normative data on the n-back task for children and young adolescents. Frontiers in Psychology, 6, 1544.",
+      "doi": "10.3389/fpsyg.2015.01544"
+    }
+  ],
+  "license": "The n-back paradigm (Kirchner, 1958) is a generic experimental procedure in the public domain. Stimuli, texts and implementation are original to the site.",
+  "disclaimer": {
+    "ru": "Это обучающая мини-игра на основе классической научной методики, а не медицинское или нейропсихологическое обследование. На результат сильно влияют устройство, браузер, усталость, сон, кофеин, отвлечения и опыт. Если вас беспокоят внимание, память или скорость реакции в повседневной жизни, обратитесь к неврологу или клиническому (нейро)психологу.",
+    "en": "This is an educational mini-game based on a classic scientific task, not a medical or neuropsychological assessment. Results depend strongly on your device, browser, fatigue, sleep, caffeine, distractions and practice. If you are worried about attention, memory or reaction speed in everyday life, please see a neurologist or a clinical (neuro)psychologist."
+  },
+  "instructions": {
+    "ru": "Буквы будут появляться по одной каждые 2,5 секунды. Нажимайте пробел или кнопку «Совпадает», если буква такая же, как **две буквы назад** (например: К — М — К ← нажать). В остальных случаях ничего не нажимайте. Сначала короткая тренировка с вариантом «одна буква назад». Всего около 3 минут; старайтесь не отвлекаться.",
+    "en": "Letters will appear one at a time every 2.5 seconds. Press space or the “Match” button when the letter is the same as the one **two letters back** (e.g. K – M – K ← press). Otherwise do nothing. A short 1-back practice comes first. About 3 minutes in total; try not to get distracted."
+  },
+  "protocol": {
+    "version": 1,
+    "stimuli": {
+      "set": [
+        "B",
+        "C",
+        "D",
+        "F",
+        "G",
+        "H",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "V",
+        "W",
+        "X",
+        "Z"
+      ],
+      "altSetRu": [
+        "Б",
+        "В",
+        "Г",
+        "Д",
+        "Ж",
+        "З",
+        "К",
+        "Л",
+        "М",
+        "Н",
+        "П",
+        "Р",
+        "С",
+        "Т",
+        "Ф",
+        "Х"
+      ],
+      "case": "upper",
+      "fontPx": 72
+    },
+    "timing": {
+      "stimulusMs": 500,
+      "blankMs": 2000,
+      "soaMs": 2500,
+      "responseWindow": "from 150 ms after onset to next onset"
+    },
+    "practice": {
+      "n": 1,
+      "trials": 12,
+      "targets": 4,
+      "feedback": true
+    },
+    "main": {
+      "n": 2,
+      "unscoredLeadIn": 2,
+      "scoredTrials": 30,
+      "targets": 10,
+      "targetRate": 0.33,
+      "maxConsecutiveTargets": 2,
+      "lures": {
+        "rate": 0.1,
+        "definition": "non-target letter equal to the letter at n−1 or n+1 back"
+      },
+      "nonTargets": "otherwise random letter ≠ letter n back"
+    },
+    "optionalLevel3": {
+      "enableIf": "dprime >= 3",
+      "n": 3,
+      "scoredTrials": 30,
+      "targets": 10
+    },
+    "response": {
+      "keys": [
+        " "
+      ],
+      "button": "Match / Совпадает",
+      "onlyOnTargets": true
+    },
+    "scoring": {
+      "hit": "response on a target",
+      "miss": "no response on a target",
+      "falseAlarm": "response on a non-target",
+      "correctRejection": "no response on a non-target",
+      "hit_rate": "100 × hits / targets (raw)",
+      "false_alarm_rate": "100 × FA / non-targets (raw)",
+      "dprime": "z(H′) − z(F′) with H′ = (hits + 0.5)/(targets + 1), F′ = (FA + 0.5)/(nonTargets + 1) (Hautus, 1995)",
+      "accuracy": "100 × (hits + correct rejections) / scored trials",
+      "criterion_c": "optional: −(z(H′) + z(F′))/2"
+    },
+    "record": [
+      "median RT on hits",
+      "lure false alarms"
+    ],
+    "siteImplementationNote": "The current component already uses 2-back, 30 scored trials, 500 + 2000 ms, 33% targets and the log-linear correction for d′. It reports hit_rate and false_alarm_rate from the corrected proportions H′ and F′; prefer raw rates for display (keep corrected ones only inside d′). Random target placement gives a variable number of targets – fix exactly 10 targets per block for comparable scores."
+  },
+  "dimensions": [
+    {
+      "id": "dprime",
+      "name": {
+        "ru": "Чувствительность d′",
+        "en": "Sensitivity d′"
+      },
+      "description": {
+        "ru": "Насколько хорошо вы отличаете совпадения от несовпадений с учётом и попаданий, и ложных тревог. 0 — угадывание, 3+ — почти без ошибок.",
+        "en": "How well you tell matches from non-matches, accounting for both hits and false alarms. 0 = guessing, 3+ = almost error-free."
+      },
+      "lowLabel": {
+        "ru": "ближе к угадыванию",
+        "en": "closer to guessing"
+      },
+      "highLabel": {
+        "ru": "точное различение",
+        "en": "precise discrimination"
+      },
+      "color": "#E8DFF5",
+      "scoring": "mean",
+      "min": -4,
+      "max": 5,
+      "norms": {
+        "mean": 1.62,
+        "sd": 0.76,
+        "n": 54,
+        "population": "PROVISIONAL: adults 18–78 (Turkey), 2-back with consonants and Attneave shapes pooled, 500 ms + 2000 ms, 33% targets; probably underestimates letter 2-back in young adults",
+        "source": "Hepdarcan & Can (2025), Current Psychology (CC BY 4.0)"
+      },
+      "bands": [
+        {
+          "min": -4,
+          "max": 0.99,
+          "label": {
+            "ru": "Близко к угадыванию",
+            "en": "Close to guessing"
+          },
+          "summary": [
+            {
+              "ru": "Совпадения пока трудно отличить от несовпадений",
+              "en": "Matches are hard to tell from non-matches"
+            },
+            {
+              "ru": "2-back — действительно трудная задача",
+              "en": "2-back is genuinely hard"
+            },
+            {
+              "ru": "Попробуйте проговаривать две последние буквы",
+              "en": "Try rehearsing the last two letters"
+            }
+          ],
+          "detailed": {
+            "ru": "Результат близок к случайному. Это частая картина при первом знакомстве с 2-back. Помогает стратегия «скользящего окна»: проговаривайте про себя две последние буквы и обновляйте их с каждой новой.",
+            "en": "Close to chance – a common picture on a first 2-back attempt. A “sliding window” strategy helps: silently rehearse the last two letters and update them with each new one."
+          }
+        },
+        {
+          "min": 1,
+          "max": 1.99,
+          "label": {
+            "ru": "Типично",
+            "en": "Typical"
+          },
+          "summary": [
+            {
+              "ru": "Вы различаете большинство совпадений",
+              "en": "You detect most matches"
+            },
+            {
+              "ru": "Около среднего по опубликованной норме (1,6)",
+              "en": "Around the published average (1.6)"
+            },
+            {
+              "ru": "Ошибки — промахи или ложные тревоги",
+              "en": "Errors: misses or false alarms"
+            }
+          ],
+          "detailed": {
+            "ru": "Типичный результат по доступной норме. Посмотрите, чего больше — промахов (не нажали на совпадение) или ложных тревог (нажали лишнее): это подскажет, нужно ли быть смелее или осторожнее.",
+            "en": "A typical result against the available norm. Check which you have more of – misses (didn’t press on a match) or false alarms (pressed when you shouldn’t): that tells you whether to be bolder or more careful."
+          }
+        },
+        {
+          "min": 2,
+          "max": 2.99,
+          "label": {
+            "ru": "Хорошо",
+            "en": "Good"
+          },
+          "summary": [
+            {
+              "ru": "Точное различение",
+              "en": "Precise discrimination"
+            },
+            {
+              "ru": "Выше среднего",
+              "en": "Above average"
+            },
+            {
+              "ru": "Хорошая рабочая память",
+              "en": "Good working memory"
+            }
+          ],
+          "detailed": {
+            "ru": "Хорошая чувствительность: вы надёжно обновляете содержимое рабочей памяти. Можно попробовать уровень 3-back.",
+            "en": "Good sensitivity: you reliably update working memory. You could try the 3-back level."
+          }
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "label": {
+            "ru": "Отлично",
+            "en": "Excellent"
+          },
+          "summary": [
+            {
+              "ru": "Почти без ошибок",
+              "en": "Almost error-free"
+            },
+            {
+              "ru": "Близко к потолку теста (~3,7)",
+              "en": "Near the test ceiling (~3.7)"
+            },
+            {
+              "ru": "Попробуйте 3-back",
+              "en": "Try 3-back"
+            }
+          ],
+          "detailed": {
+            "ru": "Почти идеальный результат — около максимума, который позволяет короткий блок с 10 целями. Чтобы измерить ваши возможности точнее, нужен более трудный уровень (3-back).",
+            "en": "An almost perfect result – near the maximum a short block with 10 targets allows. A harder level (3-back) is needed to measure you more precisely."
+          }
+        }
+      ]
+    },
+    {
+      "id": "accuracy",
+      "name": {
+        "ru": "Точность",
+        "en": "Accuracy"
+      },
+      "description": {
+        "ru": "Доля правильных решений (нажали на совпадение или не нажали на несовпадение). Если вообще не нажимать, получится около 67%.",
+        "en": "Share of correct decisions (pressed on a match or withheld on a non-match). Never pressing gives about 67%."
+      },
+      "lowLabel": {
+        "ru": "много ошибок",
+        "en": "many errors"
+      },
+      "highLabel": {
+        "ru": "без ошибок",
+        "en": "error-free"
+      },
+      "color": "#D9F2D0",
+      "scoring": "mean",
+      "min": 0,
+      "max": 100,
+      "bands": [
+        {
+          "min": 0,
+          "max": 74,
+          "label": {
+            "ru": "Около нулевого уровня",
+            "en": "Near baseline"
+          },
+          "summary": [
+            {
+              "ru": "Близко к результату «никогда не нажимать» (67%)",
+              "en": "Close to the “never press” baseline (67%)"
+            },
+            {
+              "ru": "Смотрите на d′ — он информативнее",
+              "en": "Look at d′ – it is more informative"
+            },
+            {
+              "ru": "Попробуйте ещё раз",
+              "en": "Try again"
+            }
+          ],
+          "detailed": {
+            "ru": "Точность близка к уровню, который получается без единого нажатия. Ориентируйтесь на d′ и долю попаданий. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Accuracy is close to what you would get without pressing at all. Use d′ and the hit rate instead. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 75,
+          "max": 84,
+          "label": {
+            "ru": "Ниже типичного",
+            "en": "Below typical"
+          },
+          "summary": [
+            {
+              "ru": "Ошибок довольно много",
+              "en": "A fair number of errors"
+            },
+            {
+              "ru": "2-back требует постоянного обновления памяти",
+              "en": "2-back needs constant updating"
+            },
+            {
+              "ru": "Помогает проговаривание двух последних букв",
+              "en": "Rehearsing the last two letters helps"
+            }
+          ],
+          "detailed": {
+            "ru": "Ошибок больше, чем у большинства молодых взрослых в лабораторных исследованиях. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "More errors than most young adults in lab studies. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 85,
+          "max": 94,
+          "label": {
+            "ru": "Типично",
+            "en": "Typical"
+          },
+          "summary": [
+            {
+              "ru": "Большинство решений верны",
+              "en": "Most decisions correct"
+            },
+            {
+              "ru": "Обычный уровень для 2-back",
+              "en": "Usual for 2-back"
+            },
+            {
+              "ru": "Несколько промахов — норма",
+              "en": "A few misses are normal"
+            }
+          ],
+          "detailed": {
+            "ru": "Типичная точность. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Typical accuracy. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 95,
+          "max": 100,
+          "label": {
+            "ru": "Высокая",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Почти без ошибок",
+              "en": "Almost error-free"
+            },
+            {
+              "ru": "Отличная концентрация",
+              "en": "Excellent focus"
+            },
+            {
+              "ru": "Можно усложнить до 3-back",
+              "en": "Ready for 3-back"
+            }
+          ],
+          "detailed": {
+            "ru": "Очень высокая точность — попробуйте уровень 3-back. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Very high accuracy – try the 3-back level. Band limits are a rule of thumb, not a published norm."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hit_rate",
+      "name": {
+        "ru": "Попадания",
+        "en": "Hit rate"
+      },
+      "description": {
+        "ru": "Какую долю настоящих совпадений вы заметили.",
+        "en": "What share of real matches you caught."
+      },
+      "lowLabel": {
+        "ru": "много пропусков",
+        "en": "many misses"
+      },
+      "highLabel": {
+        "ru": "все совпадения",
+        "en": "all matches"
+      },
+      "color": "#CDE7F0",
+      "scoring": "mean",
+      "min": 0,
+      "max": 100,
+      "bands": [
+        {
+          "min": 0,
+          "max": 49,
+          "label": {
+            "ru": "Многие совпадения пропущены",
+            "en": "Many matches missed"
+          },
+          "summary": [
+            {
+              "ru": "Замечено меньше половины совпадений",
+              "en": "Fewer than half of matches caught"
+            },
+            {
+              "ru": "Возможно, вы были слишком осторожны",
+              "en": "You may have been too cautious"
+            },
+            {
+              "ru": "Нажимайте, если почти уверены",
+              "en": "Press when you are fairly sure"
+            }
+          ],
+          "detailed": {
+            "ru": "Большинство совпадений пропущено. Если ложных тревог при этом мало, вы, вероятно, нажимали только при полной уверенности — можно быть смелее. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Most matches were missed. If you also had few false alarms, you probably only pressed when certain – you can be bolder. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 50,
+          "max": 74,
+          "label": {
+            "ru": "Ниже типичного",
+            "en": "Below typical"
+          },
+          "summary": [
+            {
+              "ru": "Замечено от половины до трёх четвертей",
+              "en": "Half to three quarters caught"
+            },
+            {
+              "ru": "В лаборатории молодые взрослые замечают ~90%",
+              "en": "In the lab young adults catch ~90%"
+            },
+            {
+              "ru": "С практикой результат растёт",
+              "en": "Improves with practice"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы заметили часть совпадений. У студентов в лабораторных исследованиях «попадания минус ложные тревоги» в 2-back около 0,9 (Jaeggi и др., 2010). Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "You caught some of the matches. In lab studies students reach “hits minus false alarms” of about 0.9 on 2-back (Jaeggi et al., 2010). Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 75,
+          "max": 89,
+          "label": {
+            "ru": "Типично",
+            "en": "Typical"
+          },
+          "summary": [
+            {
+              "ru": "Замечено большинство совпадений",
+              "en": "Most matches caught"
+            },
+            {
+              "ru": "Обычный уровень",
+              "en": "A usual level"
+            },
+            {
+              "ru": "Сравните с ложными тревогами",
+              "en": "Compare with false alarms"
+            }
+          ],
+          "detailed": {
+            "ru": "Типичная доля попаданий. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "A typical hit rate. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 90,
+          "max": 100,
+          "label": {
+            "ru": "Высоко",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Почти все совпадения замечены",
+              "en": "Nearly all matches caught"
+            },
+            {
+              "ru": "Уровень лабораторных данных",
+              "en": "At lab level"
+            },
+            {
+              "ru": "Проверьте ложные тревоги",
+              "en": "Check false alarms"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы заметили почти все совпадения. Если и ложных тревог мало — отличный результат. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "You caught nearly all matches. If false alarms are also low, that is an excellent result. Band limits are a rule of thumb, not a published norm."
+          }
+        }
+      ]
+    },
+    {
+      "id": "false_alarm_rate",
+      "name": {
+        "ru": "Ложные тревоги",
+        "en": "False-alarm rate"
+      },
+      "description": {
+        "ru": "Как часто вы нажимали, когда совпадения не было. Чем меньше, тем лучше.",
+        "en": "How often you pressed when there was no match. Lower is better."
+      },
+      "lowLabel": {
+        "ru": "редко",
+        "en": "rarely"
+      },
+      "highLabel": {
+        "ru": "часто",
+        "en": "often"
+      },
+      "color": "#FFD8BE",
+      "lowerIsBetter": true,
+      "scoring": "mean",
+      "min": 0,
+      "max": 100,
+      "bands": [
+        {
+          "min": 0,
+          "max": 9,
+          "label": {
+            "ru": "Мало",
+            "en": "Few"
+          },
+          "summary": [
+            {
+              "ru": "Почти не нажимаете лишнего",
+              "en": "You rarely press wrongly"
+            },
+            {
+              "ru": "Хороший контроль импульсов",
+              "en": "Good impulse control"
+            },
+            {
+              "ru": "Типично для лабораторных данных",
+              "en": "Typical of lab data"
+            }
+          ],
+          "detailed": {
+            "ru": "Ложных тревог мало — вы хорошо сдерживаете нажатие, когда совпадения нет. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Few false alarms – you hold back well when there is no match. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 10,
+          "max": 24,
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderate"
+          },
+          "summary": [
+            {
+              "ru": "Иногда нажимаете лишнее",
+              "en": "You sometimes press wrongly"
+            },
+            {
+              "ru": "Часто — на «ловушках» (совпадение 1 или 3 назад)",
+              "en": "Often on lures (match 1 or 3 back)"
+            },
+            {
+              "ru": "Проверяйте именно две буквы назад",
+              "en": "Check exactly two back"
+            }
+          ],
+          "detailed": {
+            "ru": "Часть нажатий была лишней — обычно на буквах-ловушках, совпадающих с буквой одну или три позиции назад. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Some presses were unnecessary – usually on lure letters that match one or three positions back. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 25,
+          "max": 49,
+          "label": {
+            "ru": "Много",
+            "en": "Many"
+          },
+          "summary": [
+            {
+              "ru": "Каждое третье-четвёртое лишнее нажатие",
+              "en": "Every third or fourth non-match pressed"
+            },
+            {
+              "ru": "Возможно, вы нажимали на «знакомые» буквы",
+              "en": "You may have pressed on familiar letters"
+            },
+            {
+              "ru": "Будьте строже к совпадению",
+              "en": "Be stricter about matches"
+            }
+          ],
+          "detailed": {
+            "ru": "Ложных тревог много: вероятно, вы реагировали на ощущение «эта буква уже была», а не на точное совпадение с позицией 2 назад. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Many false alarms: you probably responded to a feeling that “this letter was here before” rather than an exact match two back. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 50,
+          "max": 100,
+          "label": {
+            "ru": "Очень много",
+            "en": "Very many"
+          },
+          "summary": [
+            {
+              "ru": "Нажатия почти на всё",
+              "en": "Pressing on almost everything"
+            },
+            {
+              "ru": "Результат не отражает рабочую память",
+              "en": "The result does not reflect working memory"
+            },
+            {
+              "ru": "Перечитайте инструкцию и попробуйте снова",
+              "en": "Re-read the instructions and retry"
+            }
+          ],
+          "detailed": {
+            "ru": "Похоже, вы нажимали почти на каждую букву — так результат ничего не говорит о памяти. Перечитайте инструкцию: нажимать нужно только при совпадении с буквой две позиции назад. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "It looks as if you pressed on almost every letter, so the result says nothing about memory. Re-read the instructions: press only when the letter matches the one two positions back. Band limits are a rule of thumb, not a published norm."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [],
+  "scoringNotes": {
+    "ru": "Оцениваются 30 проб после первых двух. Попадание — нажатие на цели; ложная тревога — нажатие на не-цели. d′ = z(H′) − z(F′) с лог-линейной поправкой: H′ = (попадания + 0,5)/(цели + 1), F′ = (ложные тревоги + 0,5)/(не-цели + 1). Точность = (попадания + верные отказы) / 30. Процентиль показывается только для d′ (предварительная норма 1,62 ± 0,76); для остальных показателей публикаций с той же метрикой не найдено, используются ориентировочные диапазоны.",
+    "en": "The 30 trials after the first two are scored. Hit = press on a target; false alarm = press on a non-target. d′ = z(H′) − z(F′) with the log-linear correction H′ = (hits + 0.5)/(targets + 1), F′ = (false alarms + 0.5)/(non-targets + 1). Accuracy = (hits + correct rejections) / 30. A percentile is shown only for d′ (provisional norm 1.62 ± 0.76); no published data on the same metric were found for the others, so rule-of-thumb bands are used."
+  },
+  "resultIntro": {
+    "ru": "Главный показатель — d′: он учитывает и найденные совпадения, и лишние нажатия.",
+    "en": "The key measure is d′: it accounts for both detected matches and unnecessary presses."
+  }
+}

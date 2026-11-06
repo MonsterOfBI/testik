@@ -4,24 +4,25 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { deriveResult } from "@/lib/scoring";
 import type { GameProps } from "./GameHost";
-import { Countdown, StageCard, TrialDots, zInv } from "./shared";
+import { Countdown, StageCard, TrialDots, shuffle, zInv } from "./shared";
 
 const LETTERS = "BCDFGHJKLMNPQRSTVWXZ".split("");
 const N = 2;
 const TRIALS = 30; // scored trials after the first N
+const TARGETS = 10; // fixed number of matches so scores are comparable
 const STIM_MS = 500;
 const ISI_MS = 2000;
 
 const T = {
   ru: {
     title: "2-back",
-    text: "Буквы появляются по одной. Нажмите «Совпало» (или пробел), если буква такая же, как две буквы назад. Например: К, М, К — на второй «К» нужно нажать. Около трети букв совпадают.",
+    text: "Буквы появляются по одной. Нажмите «Совпало» (или пробел), если буква такая же, как две буквы назад. Например: К, М, К — на второй «К» нужно нажать. Совпадений будет 10 из 30.",
     go: "Начать",
     match: "Совпало",
   },
   en: {
     title: "2-back",
-    text: "Letters appear one at a time. Press “Match” (or space) when the letter is the same as the one two steps back. For example: K, M, K — press on the second K. About a third of the letters match.",
+    text: "Letters appear one at a time. Press “Match” (or space) when the letter is the same as the one two steps back. For example: K, M, K — press on the second K. There will be 10 matches out of 30.",
     go: "Start",
     match: "Match",
   },
@@ -31,8 +32,9 @@ function makeSeq() {
   const total = TRIALS + N;
   const seq: string[] = [];
   const targets: boolean[] = [];
+  const pos = new Set(shuffle(Array.from({ length: TRIALS }, (_, k) => k + N)).slice(0, TARGETS));
   for (let i = 0; i < total; i++) {
-    const isTarget = i >= N && Math.random() < 0.33;
+    const isTarget = pos.has(i);
     if (isTarget) seq.push(seq[i - N]);
     else {
       let l: string;
@@ -69,7 +71,9 @@ export function NBackGame({ test, lang, onDone }: GameProps) {
     const F = (fa + 0.5) / (fa + cr + 1);
     const dprime = Math.round((zInv(H) - zInv(F)) * 100) / 100;
     const accuracy = Math.round(((hits + cr) / Math.max(1, hits + misses + fa + cr)) * 100);
-    onDone(deriveResult(test, { dprime, accuracy, hit_rate: Math.round(H * 100), false_alarm_rate: Math.round(F * 100) }, { at: Date.now(), extra: { hits, misses, fa, cr } }));
+    const hit_rate = Math.round((hits / Math.max(1, hits + misses)) * 100);
+    const false_alarm_rate = Math.round((fa / Math.max(1, fa + cr)) * 100);
+    onDone(deriveResult(test, { dprime, accuracy, hit_rate, false_alarm_rate }, { at: Date.now(), extra: { hits, misses, fa, cr } }));
   }, [onDone, test]);
 
   useEffect(() => {

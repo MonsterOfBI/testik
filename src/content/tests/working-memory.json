@@ -1,0 +1,466 @@
+{
+  "id": "working-memory",
+  "category": "cognitive",
+  "kind": "game",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Тест рабочей памяти: объём цифр",
+    "en": "Working Memory Test: Digit Span"
+  },
+  "tagline": {
+    "ru": "Сколько цифр вы удержите в голове — и сможете ли назвать их задом наперёд?",
+    "en": "How many digits can you hold in mind – and say them backwards?"
+  },
+  "description": {
+    "ru": "Классическая методика «объём памяти на цифры» в прямом и обратном порядке. Вы узнаете длину самой длинной последовательности, которую можете точно воспроизвести, и сравните себя с опубликованными нормами для взрослых.",
+    "en": "The classic digit-span task, forwards and backwards. Find out the longest sequence you can reproduce exactly and compare yourself with published adult norms."
+  },
+  "emoji": "🔢",
+  "durationMin": 6,
+  "popularity": 3,
+  "tags": [
+    {
+      "ru": "память",
+      "en": "memory"
+    },
+    {
+      "ru": "рабочая память",
+      "en": "working memory"
+    },
+    {
+      "ru": "внимание",
+      "en": "attention"
+    },
+    {
+      "ru": "мини-игра",
+      "en": "mini-game"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что измеряется\n**Объём памяти на цифры** — один из старейших тестов (Jacobs, 1887); входит в шкалы Векслера (WAIS/WISC) и большинство нейропсихологических обследований, в отечественной традиции — в методики исследования памяти (Лурия, 1973). **Прямой порядок** нагружает в основном кратковременное хранение (фонологическую петлю в модели Баддели), **обратный** — ещё и управляющие процессы рабочей памяти (центральный исполнитель), поэтому он короче и сильнее связан с интеллектом и возрастом (Monaco и др., 2013; Bopp & Verhaeghen, 2005).\n\n**«7 ± 2» или «4»?** Миллер (1956) описал «магическое число семь плюс-минус два» — типичный объём непосредственной памяти. Коуэн (2001) показал, что если не давать группировать материал и повторять его про себя, ёмкость внимания составляет около **4 смысловых единиц (чанков)**. Обе цифры верны: объём на цифры (~6–7) больше 4, потому что цифры легко повторяются и объединяются в группы.\n\n### Протокол (машиночитаемая версия — в `protocol`)\n- Цифры 0–9 показываются по одной в центре экрана: 800 мс цифра + 200 мс пауза (темп 1 цифра в секунду, как в стандартных методиках). Соседние цифры не повторяются; не используются очевидные ряды (1-2-3, 9-8-7).\n- **Прямой порядок:** начинается с 3 цифр; **обратный:** с 2 цифр.\n- На каждой длине **2 попытки**. Если хотя бы одна верна — длина увеличивается на 1; если **обе неверны — тест останавливается**. Максимум 10 цифр.\n- Ответ вводится с экранной цифровой клавиатуры (порядок важен; исправление последней цифры разрешено до отправки). Перед каждой частью — 1 пример.\n\n### Показатели\n- **forward_span** / **backward_span** — самая длинная последовательность, воспроизведённая полностью правильно (аналог показателей LDSF/LDSB в WAIS-IV). Если не решена ни одна попытка — 0.\n- Дополнительно (extra): число верных попыток (аналог «сырого балла» Векслера).\n\n### Нормы\n- **Прямой порядок:** американские нормы WAIS-IV (самая длинная прямая последовательность), 35–54 года: **6,8 ± 1,4**; 55–64 года — 6,5 ± 1,3; 70–74 — 6,2 ± 1,4; 85–90 — 6,0 ± 1,2 (приведены по Sebastián & Mediavilla, 2015). В испанской выборке (N = 987, 35–90 лет, критерий 2 из 3) объём ниже: 5,6 ± 0,9 в 35–44 года и 4,3 ± 0,7 в 85–90 лет — отчасти из-за более длинных названий цифр в испанском языке.\n- **Обратный порядок:** зрительный вариант, почти идентичный протоколу сайта (по 2 попытки, старт с 2 цифр, остановка после двух ошибок подряд), молодые взрослые 18–29 лет (N = 67): **5,7 ± 1,2**; пожилые 60–81 год: 5,3 ± 1,3 (Ebaid & Crewther, 2019). Это студенческая выборка, результаты которой авторы оценивают как выше обычных норм, поэтому процентили по обратному порядку скорее занижены.\n- Нормы предварительные: стандартные тесты предъявляют цифры на слух, а сайт — зрительно; длина названий цифр в русском (одно-трёхсложные) и английском (односложные, кроме seven) различается, что может давать небольшую разницу (эффект длины слова).\n\n### Опционально: тест Корси (пространственный объём)\nАналог для зрительно-пространственной памяти (Corsi, 1972; стандартизация — Kessels и др., 2000): 9 квадратов в нерегулярном расположении, квадраты по очереди подсвечиваются, нужно повторить последовательность нажатий. Описание протокола — в `protocol.optionalCorsi`. В планшетной версии eCorsi у молодых взрослых (N = 73) прямой объём 6,1 ± 0,8, обратный 5,3 ± 1,2 (Brunetti и др., 2014); по Kessels и др. (2000) средний объём у здоровых взрослых — около 5–6.\n\n### Ограничения\nМожно «схитрить», записывая цифры, — тогда результат теряет смысл. Объём памяти тренируется стратегиями группировки, поэтому повторные прохождения завышают результат. Короткий тест: разница в 1 цифру между попытками — обычное дело.",
+    "en": "### What is measured\n**Digit span** is one of the oldest tests (Jacobs, 1887); it is part of the Wechsler scales (WAIS/WISC) and most neuropsychological examinations. **Forward** span loads mainly short-term storage (the phonological loop in Baddeley’s model); **backward** span also requires executive control of working memory (the central executive), so it is shorter and more strongly related to intelligence and age (Monaco et al., 2013; Bopp & Verhaeghen, 2005).\n\n**“7 ± 2” or “4”?** Miller (1956) described the “magical number seven, plus or minus two” as the typical immediate-memory span. Cowan (2001) showed that when chunking and rehearsal are prevented, the capacity of the focus of attention is about **4 chunks**. Both are right: digit span (~6–7) exceeds 4 because digits are easy to rehearse and group.\n\n### Protocol (machine-readable version in `protocol`)\n- Digits 0–9 are shown one at a time in the centre: 800 ms digit + 200 ms blank (1 digit per second, as in standard procedures). No immediate repeats; no obvious runs (1-2-3, 9-8-7).\n- **Forward** starts at 3 digits; **backward** at 2 digits.\n- **2 trials per length**. If at least one is correct, length increases by 1; if **both fail, the task stops**. Maximum 10 digits.\n- Answer on an on-screen keypad (order matters; the last digit may be corrected before submitting). One example before each part.\n\n### Metrics\n- **forward_span** / **backward_span** – longest sequence reproduced perfectly (analogue of WAIS-IV LDSF/LDSB). 0 if no trial is correct.\n- Extra: number of correct trials (analogue of the Wechsler raw score).\n\n### Norms\n- **Forward:** US WAIS-IV norms for longest digit span forward, ages 35–54: **6.8 ± 1.4**; 55–64: 6.5 ± 1.3; 70–74: 6.2 ± 1.4; 85–90: 6.0 ± 1.2 (as tabulated by Sebastián & Mediavilla, 2015). A Spanish sample (N = 987, ages 35–90, 2-of-3 criterion) scored lower: 5.6 ± 0.9 at 35–44 and 4.3 ± 0.7 at 85–90 – partly because Spanish digit names are longer.\n- **Backward:** a visual version almost identical to the site protocol (2 trials per length, start at 2, stop after two consecutive failures), young adults aged 18–29 (N = 67): **5.7 ± 1.2**; older adults 60–81: 5.3 ± 1.3 (Ebaid & Crewther, 2019). This is a student sample the authors describe as above standard norms, so backward-span percentiles will tend to be conservative.\n- Norms are provisional: standard tests present digits aloud, the site visually; Russian digit names (1–3 syllables) are longer than English ones (mostly one syllable), which may cause a small difference (word-length effect).\n\n### Optional: Corsi block-tapping (spatial span)\nThe visuospatial analogue (Corsi, 1972; standardisation: Kessels et al., 2000): 9 squares in an irregular layout light up one by one; the user taps the same sequence. Protocol in `protocol.optionalCorsi`. In the tablet version eCorsi young adults (N = 73) had forward span 6.1 ± 0.8 and backward 5.3 ± 1.2 (Brunetti et al., 2014); Kessels et al. (2000) report a mean span of about 5–6 in healthy adults.\n\n### Limitations\nWriting the digits down defeats the purpose. Span improves with chunking strategies, so repeated attempts inflate scores. With a short test, a 1-digit difference between attempts is common."
+  },
+  "sources": [
+    {
+      "citation": "Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. Psychological Review, 63(2), 81–97.",
+      "doi": "10.1037/h0043158"
+    },
+    {
+      "citation": "Cowan, N. (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. Behavioral and Brain Sciences, 24(1), 87–114.",
+      "doi": "10.1017/S0140525X01003922"
+    },
+    {
+      "citation": "Wechsler, D. (2008). Wechsler Adult Intelligence Scale – Fourth Edition (WAIS-IV). Pearson."
+    },
+    {
+      "citation": "Sebastián, M. V., & Mediavilla, R. (2015). Verbal forward digit span in Spanish population. Psicothema, 27(2), 93–98.",
+      "doi": "10.7334/psicothema2014.258",
+      "url": "https://www.psicothema.com/pdf/4240.pdf"
+    },
+    {
+      "citation": "Ebaid, D., & Crewther, S. G. (2019). Visual information processing in young and older adults. Frontiers in Aging Neuroscience, 11, 116.",
+      "doi": "10.3389/fnagi.2019.00116"
+    },
+    {
+      "citation": "Monaco, M., Costa, A., Caltagirone, C., & Carlesimo, G. A. (2013). Forward and backward span for verbal and visuo-spatial data: Standardization and normative data from an Italian adult population. Neurological Sciences, 34(5), 749–754.",
+      "doi": "10.1007/s10072-012-1130-x"
+    },
+    {
+      "citation": "Bopp, K. L., & Verhaeghen, P. (2005). Aging and verbal memory span: A meta-analysis. The Journals of Gerontology: Series B, 60(5), P223–P233.",
+      "doi": "10.1093/geronb/60.5.P223"
+    },
+    {
+      "citation": "Corsi, P. M. (1972). Human memory and the medial temporal region of the brain (Doctoral dissertation). McGill University."
+    },
+    {
+      "citation": "Kessels, R. P. C., van Zandvoort, M. J. E., Postma, A., Kappelle, L. J., & de Haan, E. H. F. (2000). The Corsi block-tapping task: Standardization and normative data. Applied Neuropsychology, 7(4), 252–258.",
+      "doi": "10.1207/S15324826AN0704_8"
+    },
+    {
+      "citation": "Brunetti, R., Del Gatto, C., & Delogu, F. (2014). eCorsi: Implementation and testing of the Corsi block-tapping task for digital tablets. Frontiers in Psychology, 5, 939.",
+      "doi": "10.3389/fpsyg.2014.00939"
+    },
+    {
+      "citation": "Woods, D. L., Kishiyama, M. M., Yund, E. W., Herron, T. J., Edwards, B., Poliva, O., Hink, R. F., & Reed, B. (2011). Improving digit span assessment of short-term verbal memory. Journal of Clinical and Experimental Neuropsychology, 33(1), 101–111.",
+      "doi": "10.1080/13803395.2010.493149"
+    },
+    {
+      "citation": "Baddeley, A. (2000). The episodic buffer: A new component of working memory? Trends in Cognitive Sciences, 4(11), 417–423.",
+      "doi": "10.1016/S1364-6613(00)01538-2"
+    },
+    {
+      "citation": "Лурия, А. Р. (1973). Основы нейропсихологии. М.: Изд-во Московского университета."
+    },
+    {
+      "citation": "Lezak, M. D., Howieson, D. B., Bigler, E. D., & Tranel, D. (2012). Neuropsychological assessment (5th ed.). Oxford University Press."
+    }
+  ],
+  "license": "Digit span and Corsi block-tapping are generic procedures in the public domain (Jacobs, 1887; Corsi, 1972). The copyrighted WAIS-IV digit sequences and record forms are NOT used – sequences are generated randomly. Texts and implementation are original to the site.",
+  "disclaimer": {
+    "ru": "Это обучающая мини-игра на основе классической научной методики, а не медицинское или нейропсихологическое обследование. На результат сильно влияют устройство, браузер, усталость, сон, кофеин, отвлечения и опыт. Если вас беспокоят внимание, память или скорость реакции в повседневной жизни, обратитесь к неврологу или клиническому (нейро)психологу.",
+    "en": "This is an educational mini-game based on a classic scientific task, not a medical or neuropsychological assessment. Results depend strongly on your device, browser, fatigue, sleep, caffeine, distractions and practice. If you are worried about attention, memory or reaction speed in everyday life, please see a neurologist or a clinical (neuro)psychologist."
+  },
+  "instructions": {
+    "ru": "Цифры будут появляться по одной. Запомните их и введите: в первой части — в том же порядке, во второй — в обратном (последнюю первой). Каждый раз последовательность становится длиннее; на каждую длину — две попытки. Тест закончится, когда обе попытки одной длины будут неверными. Не записывайте цифры — так результат потеряет смысл.",
+    "en": "Digits will appear one at a time. Remember them and type them back: in part 1 in the same order, in part 2 in reverse order (last one first). Sequences get longer; you have two tries at each length. The task ends when both tries at one length are wrong. Don’t write the digits down – that would make the result meaningless."
+  },
+  "protocol": {
+    "version": 1,
+    "stimuli": {
+      "digits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "noImmediateRepeat": true,
+      "avoidRuns": "no ascending/descending runs of 3 (e.g. 1-2-3, 7-6-5)",
+      "presentation": "visual, centre of screen, large font"
+    },
+    "timing": {
+      "digitOnMs": 800,
+      "blankMs": 200,
+      "preSequenceMs": 1000,
+      "responseMaxMs": null
+    },
+    "parts": [
+      {
+        "id": "forward",
+        "startLength": 3,
+        "maxLength": 10,
+        "trialsPerLength": 2,
+        "example": 1,
+        "recall": "same order"
+      },
+      {
+        "id": "backward",
+        "startLength": 2,
+        "maxLength": 10,
+        "trialsPerLength": 2,
+        "example": 1,
+        "recall": "reverse order"
+      }
+    ],
+    "advanceRule": "if at least 1 of the 2 trials at a length is correct, go to length + 1",
+    "stopRule": "stop the part when both trials at the same length are incorrect (or after maxLength)",
+    "response": {
+      "input": "on-screen keypad 0–9 + backspace + submit; physical number keys allowed",
+      "scoring": "a trial is correct only if every digit is in the right position and the length matches"
+    },
+    "metrics": {
+      "forward_span": "longest length with ≥1 correct trial in the forward part (0 if none)",
+      "backward_span": "longest length with ≥1 correct trial in the backward part (0 if none)",
+      "extra": {
+        "forward_correct_trials": "count",
+        "backward_correct_trials": "count"
+      }
+    },
+    "optionalCorsi": {
+      "blocks": 9,
+      "layout": "irregular, fixed layout; suggested normalised centres (x, y in 0..1): [0.15,0.80],[0.42,0.88],[0.78,0.82],[0.30,0.60],[0.60,0.63],[0.88,0.50],[0.12,0.32],[0.50,0.30],[0.75,0.14] (site-designed, not the original board coordinates)",
+      "blockSizePct": 12,
+      "timing": {
+        "highlightMs": 500,
+        "onsetIntervalMs": 1000
+      },
+      "startLength": 2,
+      "trialsPerLength": 2,
+      "stopRule": "both trials at a length incorrect",
+      "sequences": "random, no block repeated within a sequence",
+      "metrics": {
+        "corsi_forward": "longest correct length",
+        "corsi_backward": "longest correct length (reverse order)"
+      },
+      "norms": "eCorsi tablet, young adults (n = 73): forward 6.11 ± 0.80, backward 5.29 ± 1.20 (Brunetti et al., 2014; slightly different stop rule); healthy adults ≈ 5–6 (Kessels et al., 2000)"
+    },
+    "siteImplementationNote": "Matches the current component (forward from 3, backward from 2, 2 tries per length, stop when both fail, max 10). The component draws digits 0–9 without immediate repeats – keep it; add the run-avoidance rule."
+  },
+  "dimensions": [
+    {
+      "id": "forward_span",
+      "name": {
+        "ru": "Прямой объём",
+        "en": "Forward span"
+      },
+      "description": {
+        "ru": "Самая длинная последовательность цифр, воспроизведённая в том же порядке.",
+        "en": "Longest digit sequence you repeated in the same order."
+      },
+      "lowLabel": {
+        "ru": "меньше цифр",
+        "en": "fewer digits"
+      },
+      "highLabel": {
+        "ru": "больше цифр",
+        "en": "more digits"
+      },
+      "color": "#CDE7F0",
+      "scoring": "sum",
+      "min": 0,
+      "max": 10,
+      "norms": {
+        "mean": 6.8,
+        "sd": 1.4,
+        "population": "US WAIS-IV normative sample, ages 35–54, longest digit span forward (auditory presentation); younger adults are similar, ages 70+ ≈ 6.0–6.2",
+        "source": "Wechsler (2008), as tabulated in Sebastián & Mediavilla (2015)"
+      },
+      "bands": [
+        {
+          "min": 0,
+          "max": 4,
+          "label": {
+            "ru": "Ниже типичного",
+            "en": "Below typical"
+          },
+          "summary": [
+            {
+              "ru": "Удерживается до 4 цифр",
+              "en": "Up to 4 digits held"
+            },
+            {
+              "ru": "Ниже обычного диапазона взрослых",
+              "en": "Below the usual adult range"
+            },
+            {
+              "ru": "Частые причины: отвлечения, усталость, непривычный формат",
+              "en": "Common causes: distraction, fatigue, unfamiliar format"
+            }
+          ],
+          "detailed": {
+            "ru": "Результат ниже обычного для взрослых (типично 6–7 цифр). В онлайн-формате это часто связано с отвлечениями или с тем, что цифры не проговаривались про себя. Попробуйте ещё раз, мысленно повторяя цифры и объединяя их в группы по 2–3. Если трудности с запоминанием заметны и в жизни, обсудите это со специалистом.",
+            "en": "Below the usual adult range (typically 6–7 digits). Online this is often due to distraction or not rehearsing the digits silently. Try again, rehearsing and grouping digits in 2s or 3s. If memory problems are noticeable in daily life, discuss them with a professional."
+          }
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "label": {
+            "ru": "Типично (нижняя половина)",
+            "en": "Typical (lower half)"
+          },
+          "summary": [
+            {
+              "ru": "5–6 цифр — обычный результат",
+              "en": "5–6 digits is a common result"
+            },
+            {
+              "ru": "Близко к «магическому числу» Миллера",
+              "en": "Close to Miller’s “magical number”"
+            },
+            {
+              "ru": "Группировка цифр поможет улучшить результат",
+              "en": "Grouping digits can improve it"
+            }
+          ],
+          "detailed": {
+            "ru": "Обычный объём кратковременной памяти. Многие взрослые удерживают 5–7 цифр; небольшие колебания между попытками нормальны.",
+            "en": "A normal short-term memory span. Many adults hold 5–7 digits; small fluctuations between attempts are normal."
+          }
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "label": {
+            "ru": "Типично (верхняя половина) — выше среднего",
+            "en": "Typical (upper) to above average"
+          },
+          "summary": [
+            {
+              "ru": "7–8 цифр",
+              "en": "7–8 digits"
+            },
+            {
+              "ru": "На уровне или выше среднего (6,8)",
+              "en": "At or above the average (6.8)"
+            },
+            {
+              "ru": "Хорошее кратковременное хранение",
+              "en": "Good short-term storage"
+            }
+          ],
+          "detailed": {
+            "ru": "Хороший результат — на уровне или выше среднего по нормам WAIS-IV (6,8 цифры). Скорее всего, вы эффективно проговариваете цифры про себя и группируете их.",
+            "en": "A good result – at or above the WAIS-IV average (6.8 digits). You probably rehearse and chunk the digits effectively."
+          }
+        },
+        {
+          "min": 9,
+          "max": 10,
+          "label": {
+            "ru": "Высокий",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "9–10 цифр",
+              "en": "9–10 digits"
+            },
+            {
+              "ru": "Встречается у небольшой доли взрослых",
+              "en": "Reached by a small share of adults"
+            },
+            {
+              "ru": "Вероятно, вы используете группировку",
+              "en": "You probably use chunking"
+            }
+          ],
+          "detailed": {
+            "ru": "Очень большой объём — около верхней границы теста. Такие результаты обычно достигаются с помощью стратегий группировки (например, «483-91-27»).",
+            "en": "A very large span – near the test ceiling. Such results usually involve chunking strategies (e.g. “483-91-27”)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "backward_span",
+      "name": {
+        "ru": "Обратный объём",
+        "en": "Backward span"
+      },
+      "description": {
+        "ru": "Самая длинная последовательность, воспроизведённая в обратном порядке, — показатель рабочей памяти (удержание + преобразование).",
+        "en": "Longest sequence you repeated in reverse – an index of working memory (holding + manipulating)."
+      },
+      "lowLabel": {
+        "ru": "меньше цифр",
+        "en": "fewer digits"
+      },
+      "highLabel": {
+        "ru": "больше цифр",
+        "en": "more digits"
+      },
+      "color": "#E8DFF5",
+      "scoring": "sum",
+      "min": 0,
+      "max": 10,
+      "norms": {
+        "mean": 5.7,
+        "sd": 1.2,
+        "n": 67,
+        "population": "Young adults 18–29 (mostly female Australian university students), visual digit span backward, 2 trials per length, start at 2, stop after 2 consecutive failures; older adults 60–81: 5.3 ± 1.3",
+        "source": "Ebaid & Crewther (2019), Frontiers in Aging Neuroscience"
+      },
+      "bands": [
+        {
+          "min": 0,
+          "max": 3,
+          "label": {
+            "ru": "Ниже типичного",
+            "en": "Below typical"
+          },
+          "summary": [
+            {
+              "ru": "Удерживается до 3 цифр в обратном порядке",
+              "en": "Up to 3 digits backwards"
+            },
+            {
+              "ru": "Обратный порядок труднее прямого у всех",
+              "en": "Backward is harder than forward for everyone"
+            },
+            {
+              "ru": "Помогает «увидеть» ряд и читать его справа налево",
+              "en": "It helps to “see” the row and read it right-to-left"
+            }
+          ],
+          "detailed": {
+            "ru": "Обратный порядок требует не только запомнить, но и переставить цифры, поэтому он всегда короче прямого. Результат ниже типичного — попробуйте стратегию «мысленно записать ряд и прочитать справа налево».",
+            "en": "Reversing requires both holding and rearranging, so it is always shorter than forward span. Your result is below typical – try the strategy of mentally writing the row and reading it right-to-left."
+          }
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "label": {
+            "ru": "Типично",
+            "en": "Typical"
+          },
+          "summary": [
+            {
+              "ru": "4–5 цифр — обычный результат",
+              "en": "4–5 digits is a common result"
+            },
+            {
+              "ru": "На 1–2 цифры меньше прямого объёма",
+              "en": "1–2 digits fewer than forward span"
+            },
+            {
+              "ru": "Нормальная работа рабочей памяти",
+              "en": "Normal working-memory function"
+            }
+          ],
+          "detailed": {
+            "ru": "Обычный результат для взрослых: обратный объём, как правило, на 1–2 цифры меньше прямого.",
+            "en": "A usual adult result: backward span is typically 1–2 digits shorter than forward span."
+          }
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "label": {
+            "ru": "Выше среднего",
+            "en": "Above average"
+          },
+          "summary": [
+            {
+              "ru": "6–7 цифр задом наперёд",
+              "en": "6–7 digits backwards"
+            },
+            {
+              "ru": "Хорошее управление рабочей памятью",
+              "en": "Good working-memory control"
+            },
+            {
+              "ru": "Обратный объём связан с текучим интеллектом",
+              "en": "Backward span is related to fluid intelligence"
+            }
+          ],
+          "detailed": {
+            "ru": "Хороший результат — на уровне студентов-добровольцев или выше. Обратный объём сильнее, чем прямой, связан с исполнительными функциями и интеллектом.",
+            "en": "A good result – at or above the level of student volunteers. Backward span is more strongly related to executive functions and intelligence than forward span."
+          }
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "label": {
+            "ru": "Высокий",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "8 и более цифр задом наперёд",
+              "en": "8+ digits backwards"
+            },
+            {
+              "ru": "Редкий результат",
+              "en": "A rare result"
+            },
+            {
+              "ru": "Отличная рабочая память",
+              "en": "Excellent working memory"
+            }
+          ],
+          "detailed": {
+            "ru": "Очень высокий обратный объём — встречается редко и говорит об отличной способности удерживать и преобразовывать информацию.",
+            "en": "A very high backward span – rare, indicating an excellent ability to hold and manipulate information."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [],
+  "scoringNotes": {
+    "ru": "Объём = самая длинная последовательность, в которой хотя бы одна из двух попыток выполнена без единой ошибки. Тест заканчивается, когда обе попытки одной длины неверны. Процентили: прямой объём — по нормам WAIS-IV (6,8 ± 1,4), обратный — по зрительному варианту у молодых взрослых (5,7 ± 1,2). Нормы ориентировочные: в стандартных тестах цифры произносятся вслух.",
+    "en": "Span = the longest length at which at least one of the two trials was perfect. The part ends when both trials at one length are wrong. Percentiles: forward span uses WAIS-IV norms (6.8 ± 1.4), backward span the visual version in young adults (5.7 ± 1.2). Norms are approximate: standard tests present digits aloud."
+  },
+  "resultIntro": {
+    "ru": "Прямой объём показывает, сколько информации вы удерживаете, обратный — насколько хорошо вы ею управляете.",
+    "en": "Forward span shows how much you can hold; backward span how well you can manipulate it."
+  }
+}

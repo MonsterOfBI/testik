@@ -1,0 +1,2175 @@
+{
+  "id": "jungian-types",
+  "category": "personality",
+  "kind": "likert",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "16 типов личности по Юнгу",
+    "en": "16 Jungian personality types"
+  },
+  "tagline": {
+    "ru": "Ваш четырёхбуквенный тип — на научной основе и со шкалами, а не ярлыками",
+    "en": "Your four-letter type, on a scientific footing, with scales instead of labels"
+  },
+  "description": {
+    "ru": "Узнайте, куда вы направляете энергию (E/I), как воспринимаете информацию (S/N), как принимаете решения (T/F) и как организуете жизнь (J/P). Тест построен на общедоступных научных шкалах, поэтому вы увидите не только свой тип, но и то, насколько ярко выражена каждая буква по сравнению с почти 20 тысячами людей.",
+    "en": "Find out where you direct your energy (E/I), how you take in information (S/N), how you make decisions (T/F) and how you organise your life (J/P). The test is built on public-domain scientific scales, so you see not only your type but also how strongly each letter is expressed compared with almost 20,000 people."
+  },
+  "emoji": "🧩",
+  "durationMin": 7,
+  "popularity": 5,
+  "tags": [
+    {
+      "ru": "16 типов",
+      "en": "16 types"
+    },
+    {
+      "ru": "Юнг",
+      "en": "Jung"
+    },
+    {
+      "ru": "типология",
+      "en": "typology"
+    },
+    {
+      "ru": "типы личности",
+      "en": "personality types"
+    },
+    {
+      "ru": "личность",
+      "en": "personality"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряется.** Четыре двуполюсных предпочтения из теории психологических типов Карла Юнга в том виде, в каком их позднее популяризировали Кэтрин Бриггс и Изабель Бриггс-Майерс: **экстраверсия — интроверсия (E/I), сенсорика — интуиция (S/N), логика (мышление) — чувство (T/F)** и **суждение — восприятие (J/P)**. Сочетание четырёх букв даёт один из 16 типов.\n\n**История.** Юнг описал установки (экстраверсию и интроверсию) и четыре функции (мышление, чувство, ощущение, интуицию) в книге «Психологические типы» (1921). Бриггс и Майерс добавили измерение суждения/восприятия и в 1940-е годы создали типологический опросник. Его коммерческий наследник — зарегистрированная торговая марка и защищённый авторским правом инструмент, поэтому его утверждения, название и фирменные описания здесь **не** используются.\n\n**Что говорит наука.** Маккрей и Коста (1989) проанализировали баллы типологического опросника вместе с NEO Personality Inventory на 468 взрослых. Они не нашли подтверждения тому, что опросник измеряет действительно дихотомические предпочтения или качественно разные типы. Люди не делятся на два «горба» по каждой шкале: баллы образуют одно непрерывное колоколообразное распределение. При этом четыре индекса измеряли стороны четырёх из пяти факторов «Большой пятёрки»: E/I связан с **экстраверсией**, S/N — с **открытостью опыту**, T/F — с **доброжелательностью**, J/P — с **добросовестностью**. Позднейшие обзоры критиковали и устойчивость типа: многие люди при повторном тестировании получают другой четырёхбуквенный код, в основном потому, что «перескакивают» баллы вблизи границы (Pittenger, 2005).\n\n**Как устроен этот тест.** Вслед за этими исследованиями тест измеряет четыре непрерывных измерения **общедоступными утверждениями IPIP**: 50-пунктовой IPIP-версией маркеров «Большой пятёрки» Голдберга (1992). Используются 40 утверждений шкал экстраверсии, интеллекта/воображения, доброжелательности и добросовестности, по 10 на каждую пару букв. Балл шкалы — сумма 10 ответов (10–50, обратные утверждения переворачиваются).\n\n**Надёжность и нормы.** На 19 607 респондентах открытого набора данных BIG5 проекта Open-Source Psychometrics (расчёт testik) α Кронбача составила: E/I .89, S/N .79, T/F .83, J/P .81. Средние и SD норм указаны у каждой шкалы; шкалы лишь слабо связаны между собой (r = .08–.33).\n\n**Определение типа.** Каждая буква определяется тем, выше или ниже вы **среднего по нормативной выборке** по этой шкале (а не середины шкалы). При таком правиле каждая буква делит людей примерно пополам, и встречаются все 16 типов (в нормативной выборке примерно по 4–12%). Технически у каждого типа есть целевой профиль (среднее ± 0,18 по нормированной шкале 0–1), и побеждает ближайший; это даёт ровно то же побуквенное правило. Уровни показывают, *насколько ярко* выражено каждое предпочтение. Если балл близок к среднему, буква легко может смениться в другой день, поэтому почитайте и описание соседнего типа.\n\n**Ограничения.**\n- Маркеры «Большой пятёрки» приближённо передают юнгианские предпочтения, но это не собственные конструкты Юнга. Особенно это касается T/F и J/P, которые измеряются через доброжелательность и добросовестность.\n- Утверждения шкалы интеллекта больше касаются вербального и интеллектуального образа себя, чем «интуиции» в понимании Юнга.\n- Нормы получены на самоотобранных англоязычных пользователях интернета; русский перевод новый и не валидизирован.\n- Типы — удобное обобщение непрерывных черт. Не используйте их для найма, отбора или решений об отношениях.\n- «Совместимые» типы (отличающиеся только буквой E/I или только J/P) — эвристика: они разделяют ваш способ воспринимать информацию и принимать решения. Исследования не показали, что сходство типов предсказывает успех отношений.",
+    "en": "**What is measured.** Four bipolar preferences from Carl Jung's theory of psychological types, as later popularised by Katharine Briggs and Isabel Briggs Myers: **Extraversion–Introversion (E/I), Sensing–Intuition (S/N), Thinking–Feeling (T/F)** and **Judging–Perceiving (J/P)**. The four letters combine into one of 16 types.\n\n**History.** Jung described attitude types (extraversion and introversion) and four functions (thinking, feeling, sensation, intuition) in *Psychological Types* (1921). Briggs and Myers added the judging/perceiving dimension and built a type questionnaire in the 1940s. Its commercial descendant is a trademarked, copyrighted instrument, so its items, name and trademarked descriptions are **not** used here.\n\n**What science says.** McCrae and Costa (1989) analysed type-questionnaire scores alongside the NEO Personality Inventory in 468 adults. They found *\"no support for the view that the MBTI measures truly dichotomous preferences or qualitatively distinct types\"*. People do not fall into two humps on each scale; scores form one continuous, bell-shaped distribution. The four indices did, however, measure aspects of four of the Big Five dimensions: E/I relates to **Extraversion**, S/N to **Openness**, T/F to **Agreeableness** and J/P to **Conscientiousness**. Later reviews also criticised type stability: many people get a different four-letter code on retest, mostly because scores near the cut-off flip (Pittenger, 2005).\n\n**How this test works.** Following that research, this test measures the four continuous dimensions with **public-domain IPIP items**: the 50-item IPIP representation of Goldberg's (1992) Big-Five factor markers. It uses the 40 Extraversion, Intellect/Imagination, Agreeableness and Conscientiousness items, 10 per letter pair. Each scale is a sum of 10 answers (10–50, reverse items flipped).\n\n**Reliability and norms.** On 19,607 respondents of the Open-Source Psychometrics Project's open BIG5 dataset (computed by testik), Cronbach's α was E/I .89, S/N .79, T/F .83 and J/P .81. The norm means and SDs are given with each scale; the scales correlate only weakly with each other (r = .08–.33).\n\n**Type assignment.** Each letter is set by whether you score above or below the **norm-sample average** on that scale, not the scale midpoint. With this rule each letter splits the population roughly in half, and all 16 types occur (about 4–12% each in the norm sample). Technically, each type has a target profile of mean ± 0.18 on the normalised 0–1 scale, and the nearest profile wins, which gives exactly the same per-letter rule. The bands show *how clear* each preference is. A score near the average means the letter could easily flip on another day, so read the neighbouring type too.\n\n**Limitations.**\n- The Big-Five markers approximate the Jungian preferences; they are not Jung's own constructs. T/F and J/P in particular are measured through agreeableness and conscientiousness.\n- The Intellect items emphasise verbal and intellectual self-image more than \"intuition\" as Jung defined it.\n- Norms come from self-selected English-speaking web users; the Russian translation is new and unvalidated.\n- Types are convenient summaries of continuous traits. They should not be used for hiring, selection or relationship decisions.\n- The \"compatible\" types (the type differing only in E/I and the one differing only in J/P) are a heuristic: they share your way of perceiving and deciding. Research has not shown that type similarity predicts relationship success."
+  },
+  "sources": [
+    {
+      "citation": "Jung, C. G. (1921). Psychologische Typen. Zürich: Rascher. (Юнг, К. Г. Психологические типы. Многие русские издания.)"
+    },
+    {
+      "citation": "McCrae, R. R., & Costa, P. T., Jr. (1989). Reinterpreting the Myers-Briggs Type Indicator from the perspective of the five-factor model of personality. Journal of Personality, 57(1), 17–40.",
+      "doi": "10.1111/j.1467-6494.1989.tb00759.x",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2709300/"
+    },
+    {
+      "citation": "Goldberg, L. R. (1992). The development of markers for the Big-Five factor structure. Psychological Assessment, 4(1), 26–42.",
+      "doi": "10.1037/1040-3590.4.1.26"
+    },
+    {
+      "citation": "Goldberg, L. R., Johnson, J. A., Eber, H. W., Hogan, R., Ashton, M. C., Cloninger, C. R., & Gough, H. G. (2006). The international personality item pool and the future of public-domain personality measures. Journal of Research in Personality, 40(1), 84–96.",
+      "doi": "10.1016/j.jrp.2005.08.007"
+    },
+    {
+      "citation": "Pittenger, D. J. (2005). Cautionary comments regarding the Myers-Briggs Type Indicator. Consulting Psychology Journal: Practice and Research, 57(3), 210–221.",
+      "doi": "10.1037/1065-9293.57.3.210"
+    },
+    {
+      "citation": "Open-Source Psychometrics Project. Raw data: answers to the IPIP Big Five Factor Markers (BIG5.zip, N = 19,719).",
+      "url": "https://github.com/haghish/openpsychometrics"
+    },
+    {
+      "citation": "International Personality Item Pool: 50-item IPIP representation of Goldberg's (1992) markers for the Big-Five factor structure.",
+      "url": "https://ipip.ori.org/"
+    }
+  ],
+  "license": "Public domain (IPIP). All 40 items are from the IPIP 50-item Big-Five Factor Markers: \"The items and scales are in the public domain, which means that one can copy, edit, translate, or use them for any purpose without asking permission and without paying a fee\" (https://ipip.ori.org/), so commercial use is allowed. Jung's type concepts are scientific ideas, not protected content. Do NOT use the trademarks \"MBTI\"/\"Myers-Briggs\" in the product name, and do not use 16Personalities' type nicknames; all type names and texts here are original. The alternative open instrument, the Open Extended Jungian Type Scales (OEJTS), was rejected because it is licensed CC BY-NC-SA 4.0 (non-commercial only; https://openpsychometrics.org/tests/OEJTS/development/). Norms are summary statistics computed from the open BIG5 dataset. Russian translation by testik.",
+  "instructions": {
+    "ru": "Перед вами 40 утверждений. Отметьте, насколько вы с каждым согласны, думая о том, каким вы обычно бываете, а не каким хотели бы быть. Не задерживайтесь подолгу: первая реакция обычно самая точная.",
+    "en": "You will see 40 statements. Indicate how much you agree with each, thinking about how you usually are, not how you would like to be. Do not linger: your first reaction is usually the most accurate."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Не согласен(на)",
+        "en": "Disagree"
+      },
+      {
+        "ru": "Скорее не согласен(на)",
+        "en": "Slightly disagree"
+      },
+      {
+        "ru": "Нейтрально",
+        "en": "Neutral"
+      },
+      {
+        "ru": "Скорее согласен(на)",
+        "en": "Slightly agree"
+      },
+      {
+        "ru": "Согласен(на)",
+        "en": "Agree"
+      }
+    ],
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "extraversion",
+      "name": {
+        "ru": "Экстраверсия — Интроверсия (E/I)",
+        "en": "Extraversion vs Introversion (E/I)"
+      },
+      "description": {
+        "ru": "Куда направлена ваша энергия: вовне — к людям, общению и действию (E) или внутрь — к размышлениям и спокойной обстановке (I). Измеряется шкалой экстраверсии из «Большой пятёрки».",
+        "en": "Where your energy flows: outwards, towards people, conversation and action (E), or inwards, towards reflection and calm settings (I). Measured with the Big Five Extraversion scale."
+      },
+      "lowLabel": {
+        "ru": "Интроверсия (I)",
+        "en": "Introversion (I)"
+      },
+      "highLabel": {
+        "ru": "Экстраверсия (E)",
+        "en": "Extraversion (E)"
+      },
+      "color": "#FFD8A8",
+      "scoring": "sum",
+      "min": 10,
+      "max": 50,
+      "norms": {
+        "mean": 30.11,
+        "sd": 9.23,
+        "n": 19607,
+        "population": "Visitors of the Open-Source Psychometrics Project who took the IPIP Big-Five Factor Markers online (c. 2012; 45% US, 8% UK, 7% India; 61% female; mean age 26.3); cleaned: no missing answers, age 13–100, non-constant responding",
+        "source": "Computed by testik from the open BIG5 dataset (openpsychometrics.org/_rawdata/BIG5.zip, mirrored at github.com/haghish/openpsychometrics); same items and 1–5 scale; α = 0.89"
+      },
+      "bands": [
+        {
+          "min": 10,
+          "max": 22,
+          "label": {
+            "ru": "Явная интроверсия",
+            "en": "Clear introversion"
+          },
+          "summary": [
+            {
+              "ru": "Энергию восстанавливаете в одиночестве",
+              "en": "You recharge alone"
+            },
+            {
+              "ru": "Сначала думаете, потом говорите",
+              "en": "You think before you speak"
+            },
+            {
+              "ru": "Предпочитаете глубокие разговоры с немногими",
+              "en": "You prefer deep talks with a few people"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы — выраженный интроверт (в нижних ~20% по экстраверсии). Шумные компании быстро утомляют, а лучшие идеи приходят в тишине. Совет: защищайте время на восстановление и выбирайте форматы общения один на один — так ваши сильные стороны (внимательность, глубина) раскрываются лучше всего.",
+            "en": "You are a clear introvert (roughly the bottom 20% for extraversion). Noisy groups tire you quickly, and your best ideas come in quiet. Tip: protect your recovery time and choose one-on-one formats; that is where your strengths, attentiveness and depth, shine."
+          }
+        },
+        {
+          "min": 23,
+          "max": 30,
+          "label": {
+            "ru": "Умеренная интроверсия",
+            "en": "Mild introversion"
+          },
+          "summary": [
+            {
+              "ru": "Скорее сдержанны, но общительны по ситуации",
+              "en": "Rather reserved, sociable when needed"
+            },
+            {
+              "ru": "Цените уединение",
+              "en": "You value solitude"
+            },
+            {
+              "ru": "Нужно время, чтобы освоиться в новой компании",
+              "en": "You need time to warm up to new people"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы чуть ближе к интроверсии, чем к экстраверсии: можете быть общительны, но после этого нужна пауза. Совет: планируйте чередование активных и тихих дней.",
+            "en": "You lean slightly towards introversion: you can be sociable, but you need a break afterwards. Tip: plan an alternation of busy and quiet days."
+          }
+        },
+        {
+          "min": 31,
+          "max": 37,
+          "label": {
+            "ru": "Умеренная экстраверсия",
+            "en": "Mild extraversion"
+          },
+          "summary": [
+            {
+              "ru": "Общение скорее заряжает",
+              "en": "Socialising tends to energise you"
+            },
+            {
+              "ru": "Легко включаетесь в разговор",
+              "en": "You join conversations easily"
+            },
+            {
+              "ru": "Но и тишина вам не в тягость",
+              "en": "But quiet does not bother you"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы чуть ближе к экстраверсии: любите компанию, но умеете и побыть наедине с собой. Совет: такая гибкость ценна — используйте её, переключаясь между командной и самостоятельной работой.",
+            "en": "You lean slightly towards extraversion: you enjoy company but can also be alone happily. Tip: this flexibility is valuable; use it by switching between teamwork and solo work."
+          }
+        },
+        {
+          "min": 38,
+          "max": 50,
+          "label": {
+            "ru": "Явная экстраверсия",
+            "en": "Clear extraversion"
+          },
+          "summary": [
+            {
+              "ru": "Вас заряжают люди и действие",
+              "en": "People and action energise you"
+            },
+            {
+              "ru": "Легко заводите знакомства",
+              "en": "You make acquaintances easily"
+            },
+            {
+              "ru": "Тишина быстро наскучивает",
+              "en": "Quiet quickly gets boring"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы — выраженный экстраверт (в верхних ~20%). Общение, движение и события дают вам энергию. Совет: оставляйте место для пауз и размышлений, а в разговорах давайте высказаться более тихим людям.",
+            "en": "You are a clear extravert (roughly the top 20%). People, movement and events give you energy. Tip: leave room for pauses and reflection, and let quieter people have their say."
+          }
+        }
+      ]
+    },
+    {
+      "id": "intuition",
+      "name": {
+        "ru": "Сенсорика — Интуиция (S/N)",
+        "en": "Sensing vs Intuition (S/N)"
+      },
+      "description": {
+        "ru": "Как вы предпочитаете воспринимать информацию: через конкретные факты, опыт и практику (S) или через идеи, абстракции, воображение и возможности (N). Измеряется шкалой интеллекта/воображения (открытости) из «Большой пятёрки».",
+        "en": "How you prefer to take in information: through concrete facts, experience and practice (S), or through ideas, abstractions, imagination and possibilities (N). Measured with the Big Five Intellect/Imagination (Openness) scale."
+      },
+      "lowLabel": {
+        "ru": "Сенсорика (S)",
+        "en": "Sensing (S)"
+      },
+      "highLabel": {
+        "ru": "Интуиция (N)",
+        "en": "Intuition (N)"
+      },
+      "color": "#C3B1E1",
+      "scoring": "sum",
+      "min": 10,
+      "max": 50,
+      "norms": {
+        "mean": 39.12,
+        "sd": 6.24,
+        "n": 19607,
+        "population": "Visitors of the Open-Source Psychometrics Project who took the IPIP Big-Five Factor Markers online (c. 2012; 45% US, 8% UK, 7% India; 61% female; mean age 26.3); cleaned: no missing answers, age 13–100, non-constant responding",
+        "source": "Computed by testik from the open BIG5 dataset (openpsychometrics.org/_rawdata/BIG5.zip, mirrored at github.com/haghish/openpsychometrics); same items and 1–5 scale; α = 0.79"
+      },
+      "bands": [
+        {
+          "min": 10,
+          "max": 33,
+          "label": {
+            "ru": "Явная сенсорика",
+            "en": "Clear sensing"
+          },
+          "summary": [
+            {
+              "ru": "Опираетесь на факты и опыт",
+              "en": "You rely on facts and experience"
+            },
+            {
+              "ru": "Цените практическую пользу",
+              "en": "You value practical usefulness"
+            },
+            {
+              "ru": "Скептичны к абстракциям",
+              "en": "Sceptical of abstractions"
+            }
+          ],
+          "detailed": {
+            "ru": "У вас выражено предпочтение конкретного и проверенного (нижние ~20%). Вы замечаете реальные детали и трезво оцениваете, что сработает. Совет: иногда давайте шанс новым идеям — пробуйте их в малом масштабе.",
+            "en": "You have a clear preference for the concrete and proven (roughly the bottom 20%). You notice real details and soberly judge what will work. Tip: give new ideas a chance now and then by trying them on a small scale."
+          }
+        },
+        {
+          "min": 34,
+          "max": 39,
+          "label": {
+            "ru": "Умеренная сенсорика",
+            "en": "Mild sensing"
+          },
+          "summary": [
+            {
+              "ru": "Скорее практик, чем теоретик",
+              "en": "More practitioner than theorist"
+            },
+            {
+              "ru": "Идеи цените, если они применимы",
+              "en": "You value ideas that can be applied"
+            },
+            {
+              "ru": "Доверяете опыту",
+              "en": "You trust experience"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы слегка склоняетесь к сенсорике: интересуетесь идеями, когда видите их практический смысл. Совет: сочетайте любимые практические задачи с изучением одного нового направления.",
+            "en": "You lean slightly towards sensing: ideas interest you when you can see their practical point. Tip: combine your favourite practical tasks with exploring one new field."
+          }
+        },
+        {
+          "min": 40,
+          "max": 44,
+          "label": {
+            "ru": "Умеренная интуиция",
+            "en": "Mild intuition"
+          },
+          "summary": [
+            {
+              "ru": "Любите идеи и возможности",
+              "en": "You enjoy ideas and possibilities"
+            },
+            {
+              "ru": "Замечаете связи и смыслы",
+              "en": "You notice links and meanings"
+            },
+            {
+              "ru": "Но не отрываетесь от реальности",
+              "en": "Yet you stay grounded"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы слегка склоняетесь к интуиции: вам интересно «что за этим стоит» и «что могло бы быть», но вы помните и о реальности. Совет: проверяйте идеи на практике — это делает их сильнее.",
+            "en": "You lean slightly towards intuition: you are interested in what lies behind things and what could be, while keeping reality in mind. Tip: test ideas in practice; it makes them stronger."
+          }
+        },
+        {
+          "min": 45,
+          "max": 50,
+          "label": {
+            "ru": "Явная интуиция",
+            "en": "Clear intuition"
+          },
+          "summary": [
+            {
+              "ru": "Богатое воображение",
+              "en": "A rich imagination"
+            },
+            {
+              "ru": "Любите абстракции и теории",
+              "en": "You love abstractions and theories"
+            },
+            {
+              "ru": "Мыслите будущим и возможностями",
+              "en": "You think in futures and possibilities"
+            }
+          ],
+          "detailed": {
+            "ru": "У вас выражено предпочтение идей, образов и возможностей (верхние ~20%). Совет: записывайте идеи и выбирайте лучшие для воплощения; союз с практиками поможет довести их до результата.",
+            "en": "You have a clear preference for ideas, images and possibilities (roughly the top 20%). Tip: write your ideas down and pick the best ones to build; teaming up with practical people helps you deliver them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "feeling",
+      "name": {
+        "ru": "Логика — Чувство (T/F)",
+        "en": "Thinking vs Feeling (T/F)"
+      },
+      "description": {
+        "ru": "На что вы опираетесь в решениях и отношениях: на объективный анализ, прямоту и справедливость (T) или на сочувствие, гармонию и заботу о людях (F). Измеряется шкалой доброжелательности из «Большой пятёрки».",
+        "en": "What you rely on in decisions and relationships: objective analysis, directness and fairness (T), or empathy, harmony and care for people (F). Measured with the Big Five Agreeableness scale."
+      },
+      "lowLabel": {
+        "ru": "Логика (T)",
+        "en": "Thinking (T)"
+      },
+      "highLabel": {
+        "ru": "Чувство (F)",
+        "en": "Feeling (F)"
+      },
+      "color": "#B5EAD7",
+      "scoring": "sum",
+      "min": 10,
+      "max": 50,
+      "norms": {
+        "mean": 38.46,
+        "sd": 7.15,
+        "n": 19607,
+        "population": "Visitors of the Open-Source Psychometrics Project who took the IPIP Big-Five Factor Markers online (c. 2012; 45% US, 8% UK, 7% India; 61% female; mean age 26.3); cleaned: no missing answers, age 13–100, non-constant responding",
+        "source": "Computed by testik from the open BIG5 dataset (openpsychometrics.org/_rawdata/BIG5.zip, mirrored at github.com/haghish/openpsychometrics); same items and 1–5 scale; α = 0.83"
+      },
+      "bands": [
+        {
+          "min": 10,
+          "max": 32,
+          "label": {
+            "ru": "Явная логика",
+            "en": "Clear thinking"
+          },
+          "summary": [
+            {
+              "ru": "Решаете по логике и фактам",
+              "en": "You decide by logic and facts"
+            },
+            {
+              "ru": "Прямолинейны и требовательны",
+              "en": "Direct and demanding"
+            },
+            {
+              "ru": "Не боитесь спорить",
+              "en": "Not afraid to argue"
+            }
+          ],
+          "detailed": {
+            "ru": "У вас выражено предпочтение объективного анализа (нижние ~20% по доброжелательности). Вы ставите правду и эффективность выше гармонии. Совет: добавляйте в общение признание и вопросы о чувствах — это повысит готовность людей следовать вашим решениям.",
+            "en": "You have a clear preference for objective analysis (roughly the bottom 20% for agreeableness). You put truth and effectiveness above harmony. Tip: add appreciation and questions about feelings to your communication; people will be more willing to go along with your decisions."
+          }
+        },
+        {
+          "min": 33,
+          "max": 38,
+          "label": {
+            "ru": "Умеренная логика",
+            "en": "Mild thinking"
+          },
+          "summary": [
+            {
+              "ru": "Скорее аналитичны, чем эмоциональны",
+              "en": "More analytical than emotional"
+            },
+            {
+              "ru": "Цените справедливость",
+              "en": "You value fairness"
+            },
+            {
+              "ru": "Умеете сказать «нет»",
+              "en": "You can say no"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы слегка склоняетесь к логике: учитываете людей, но в решениях опираетесь на аргументы. Совет: перед острой критикой напоминайте себе об общей цели с собеседником.",
+            "en": "You lean slightly towards thinking: you consider people, but you base decisions on arguments. Tip: before sharp criticism, remind yourself of the goal you share with the other person."
+          }
+        },
+        {
+          "min": 39,
+          "max": 44,
+          "label": {
+            "ru": "Умеренное чувство",
+            "en": "Mild feeling"
+          },
+          "summary": [
+            {
+              "ru": "Учитываете чувства людей",
+              "en": "You take people's feelings into account"
+            },
+            {
+              "ru": "Цените гармонию",
+              "en": "You value harmony"
+            },
+            {
+              "ru": "Но можете проявить твёрдость",
+              "en": "Yet you can be firm"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы слегка склоняетесь к чувству: для вас важно, как решение отразится на людях, но вы не теряете трезвости. Совет: такой баланс хорош для работы с людьми; продолжайте тренировать ассертивность.",
+            "en": "You lean slightly towards feeling: how a decision affects people matters to you, yet you stay clear-headed. Tip: this balance suits people-facing work; keep practising assertiveness."
+          }
+        },
+        {
+          "min": 45,
+          "max": 50,
+          "label": {
+            "ru": "Явное чувство",
+            "en": "Clear feeling"
+          },
+          "summary": [
+            {
+              "ru": "Глубоко сочувствуете",
+              "en": "You empathise deeply"
+            },
+            {
+              "ru": "Стремитесь к гармонии",
+              "en": "You strive for harmony"
+            },
+            {
+              "ru": "Тяжело переносите конфликты",
+              "en": "Conflict is hard for you"
+            }
+          ],
+          "detailed": {
+            "ru": "У вас выражено предпочтение ценностей, эмпатии и заботы (верхние ~20%). Совет: помните о своих потребностях и учитесь спокойно обозначать границы — доброта не требует самопожертвования.",
+            "en": "You have a clear preference for values, empathy and care (roughly the top 20%). Tip: remember your own needs and learn to set boundaries calmly; kindness does not require self-sacrifice."
+          }
+        }
+      ]
+    },
+    {
+      "id": "judging",
+      "name": {
+        "ru": "Восприятие — Суждение (P/J)",
+        "en": "Perceiving vs Judging (P/J)"
+      },
+      "description": {
+        "ru": "Как вы организуете жизнь: гибко, спонтанно, оставляя варианты открытыми (P) или по плану, упорядоченно и с доведением дел до конца (J). Измеряется шкалой добросовестности из «Большой пятёрки».",
+        "en": "How you organise your life: flexibly and spontaneously, keeping options open (P), or by plan, in an orderly way, seeing things through (J). Measured with the Big Five Conscientiousness scale."
+      },
+      "lowLabel": {
+        "ru": "Восприятие (P)",
+        "en": "Perceiving (P)"
+      },
+      "highLabel": {
+        "ru": "Суждение (J)",
+        "en": "Judging (J)"
+      },
+      "color": "#A0C4FF",
+      "scoring": "sum",
+      "min": 10,
+      "max": 50,
+      "norms": {
+        "mean": 33.47,
+        "sd": 7.31,
+        "n": 19607,
+        "population": "Visitors of the Open-Source Psychometrics Project who took the IPIP Big-Five Factor Markers online (c. 2012; 45% US, 8% UK, 7% India; 61% female; mean age 26.3); cleaned: no missing answers, age 13–100, non-constant responding",
+        "source": "Computed by testik from the open BIG5 dataset (openpsychometrics.org/_rawdata/BIG5.zip, mirrored at github.com/haghish/openpsychometrics); same items and 1–5 scale; α = 0.81"
+      },
+      "bands": [
+        {
+          "min": 10,
+          "max": 27,
+          "label": {
+            "ru": "Явное восприятие",
+            "en": "Clear perceiving"
+          },
+          "summary": [
+            {
+              "ru": "Живёте спонтанно и гибко",
+              "en": "You live spontaneously and flexibly"
+            },
+            {
+              "ru": "Оставляете варианты открытыми",
+              "en": "You keep options open"
+            },
+            {
+              "ru": "Сроки и планы даются с трудом",
+              "en": "Deadlines and plans are a struggle"
+            }
+          ],
+          "detailed": {
+            "ru": "У вас выражено предпочтение гибкости и импровизации (нижние ~20% по добросовестности). Совет: используйте внешние опоры — напоминания, чек-листы, короткие сроки — для действительно важных дел.",
+            "en": "You have a clear preference for flexibility and improvisation (roughly the bottom 20% for conscientiousness). Tip: use external supports such as reminders, checklists and short deadlines for the things that really matter."
+          }
+        },
+        {
+          "min": 28,
+          "max": 33,
+          "label": {
+            "ru": "Умеренное восприятие",
+            "en": "Mild perceiving"
+          },
+          "summary": [
+            {
+              "ru": "Скорее гибки, чем пунктуальны",
+              "en": "More flexible than punctual"
+            },
+            {
+              "ru": "Не любите жёстких рамок",
+              "en": "You dislike rigid frameworks"
+            },
+            {
+              "ru": "Справляетесь, но иногда в последний момент",
+              "en": "You get things done, sometimes at the last minute"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы слегка склоняетесь к восприятию: предпочитаете свободу, хотя умеете собраться. Совет: планируйте главные 2–3 дела дня, а остальное оставляйте гибким.",
+            "en": "You lean slightly towards perceiving: you prefer freedom, though you can pull yourself together. Tip: plan the two or three key tasks of each day and keep the rest flexible."
+          }
+        },
+        {
+          "min": 34,
+          "max": 39,
+          "label": {
+            "ru": "Умеренное суждение",
+            "en": "Mild judging"
+          },
+          "summary": [
+            {
+              "ru": "Любите ясность и план",
+              "en": "You like clarity and a plan"
+            },
+            {
+              "ru": "Обычно доводите дела до конца",
+              "en": "You usually finish what you start"
+            },
+            {
+              "ru": "Но умеете подстроиться",
+              "en": "Yet you can adapt"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы слегка склоняетесь к суждению: планируете и держите слово, но не впадаете в педантизм. Совет: это сбалансированный стиль — сохраняйте пространство для спонтанности.",
+            "en": "You lean slightly towards judging: you plan and keep your word without becoming pedantic. Tip: it is a balanced style; keep some room for spontaneity."
+          }
+        },
+        {
+          "min": 40,
+          "max": 50,
+          "label": {
+            "ru": "Явное суждение",
+            "en": "Clear judging"
+          },
+          "summary": [
+            {
+              "ru": "Организованны и пунктуальны",
+              "en": "Organised and punctual"
+            },
+            {
+              "ru": "Любите порядок и расписание",
+              "en": "You love order and schedules"
+            },
+            {
+              "ru": "Не любите незавершённости",
+              "en": "Loose ends bother you"
+            }
+          ],
+          "detailed": {
+            "ru": "У вас выражено предпочтение порядка и планирования (верхние ~20%). Совет: позволяйте себе «достаточно хорошо» в неважных делах и оставляйте в неделе время без планов.",
+            "en": "You have a clear preference for order and planning (roughly the top 20%). Tip: allow yourself \"good enough\" on unimportant tasks and keep some unplanned time in your week."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Я — душа компании.",
+        "en": "Am the life of the party."
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "У меня богатый словарный запас.",
+        "en": "Have a rich vocabulary."
+      },
+      "dimension": "intuition"
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Мало беспокоюсь о других.",
+        "en": "Feel little concern for others."
+      },
+      "dimension": "feeling",
+      "reverse": true
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Я всегда подготовлен(а).",
+        "en": "Am always prepared."
+      },
+      "dimension": "judging"
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Я немногословен(на).",
+        "en": "Don't talk a lot."
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "С трудом понимаю абстрактные идеи.",
+        "en": "Have difficulty understanding abstract ideas."
+      },
+      "dimension": "intuition",
+      "reverse": true
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Мне интересны люди.",
+        "en": "Am interested in people."
+      },
+      "dimension": "feeling"
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Разбрасываю свои вещи где попало.",
+        "en": "Leave my belongings around."
+      },
+      "dimension": "judging",
+      "reverse": true
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Чувствую себя комфортно среди людей.",
+        "en": "Feel comfortable around people."
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "У меня яркое воображение.",
+        "en": "Have a vivid imagination."
+      },
+      "dimension": "intuition"
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Оскорбляю людей.",
+        "en": "Insult people."
+      },
+      "dimension": "feeling",
+      "reverse": true
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Обращаю внимание на детали.",
+        "en": "Pay attention to details."
+      },
+      "dimension": "judging"
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Держусь в тени.",
+        "en": "Keep in the background."
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Абстрактные идеи мне неинтересны.",
+        "en": "Am not interested in abstract ideas."
+      },
+      "dimension": "intuition",
+      "reverse": true
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Сочувствую переживаниям других.",
+        "en": "Sympathize with others' feelings."
+      },
+      "dimension": "feeling"
+    },
+    {
+      "id": "q16",
+      "text": {
+        "ru": "Часто всё запутываю и порчу.",
+        "en": "Make a mess of things."
+      },
+      "dimension": "judging",
+      "reverse": true
+    },
+    {
+      "id": "q17",
+      "text": {
+        "ru": "Первым(ой) начинаю разговор.",
+        "en": "Start conversations."
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q18",
+      "text": {
+        "ru": "У меня бывают отличные идеи.",
+        "en": "Have excellent ideas."
+      },
+      "dimension": "intuition"
+    },
+    {
+      "id": "q19",
+      "text": {
+        "ru": "Чужие проблемы меня не интересуют.",
+        "en": "Am not interested in other people's problems."
+      },
+      "dimension": "feeling",
+      "reverse": true
+    },
+    {
+      "id": "q20",
+      "text": {
+        "ru": "Сразу берусь за домашние дела.",
+        "en": "Get chores done right away."
+      },
+      "dimension": "judging"
+    },
+    {
+      "id": "q21",
+      "text": {
+        "ru": "Мне обычно мало что есть сказать.",
+        "en": "Have little to say."
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q22",
+      "text": {
+        "ru": "Воображение у меня так себе.",
+        "en": "Do not have a good imagination."
+      },
+      "dimension": "intuition",
+      "reverse": true
+    },
+    {
+      "id": "q23",
+      "text": {
+        "ru": "У меня мягкое сердце.",
+        "en": "Have a soft heart."
+      },
+      "dimension": "feeling"
+    },
+    {
+      "id": "q24",
+      "text": {
+        "ru": "Часто забываю класть вещи на место.",
+        "en": "Often forget to put things back in their proper place."
+      },
+      "dimension": "judging",
+      "reverse": true
+    },
+    {
+      "id": "q25",
+      "text": {
+        "ru": "На вечеринках общаюсь с множеством разных людей.",
+        "en": "Talk to a lot of different people at parties."
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q26",
+      "text": {
+        "ru": "Быстро схватываю суть.",
+        "en": "Am quick to understand things."
+      },
+      "dimension": "intuition"
+    },
+    {
+      "id": "q27",
+      "text": {
+        "ru": "Другие люди мне не особенно интересны.",
+        "en": "Am not really interested in others."
+      },
+      "dimension": "feeling",
+      "reverse": true
+    },
+    {
+      "id": "q28",
+      "text": {
+        "ru": "Люблю порядок.",
+        "en": "Like order."
+      },
+      "dimension": "judging"
+    },
+    {
+      "id": "q29",
+      "text": {
+        "ru": "Не люблю привлекать к себе внимание.",
+        "en": "Don't like to draw attention to myself."
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q30",
+      "text": {
+        "ru": "Использую в речи сложные слова.",
+        "en": "Use difficult words."
+      },
+      "dimension": "intuition"
+    },
+    {
+      "id": "q31",
+      "text": {
+        "ru": "Нахожу время для других.",
+        "en": "Take time out for others."
+      },
+      "dimension": "feeling"
+    },
+    {
+      "id": "q32",
+      "text": {
+        "ru": "Увиливаю от своих обязанностей.",
+        "en": "Shirk my duties."
+      },
+      "dimension": "judging",
+      "reverse": true
+    },
+    {
+      "id": "q33",
+      "text": {
+        "ru": "Не против оказаться в центре внимания.",
+        "en": "Don't mind being the center of attention."
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q34",
+      "text": {
+        "ru": "Люблю поразмышлять о разных вещах.",
+        "en": "Spend time reflecting on things."
+      },
+      "dimension": "intuition"
+    },
+    {
+      "id": "q35",
+      "text": {
+        "ru": "Чувствую эмоции других людей.",
+        "en": "Feel others' emotions."
+      },
+      "dimension": "feeling"
+    },
+    {
+      "id": "q36",
+      "text": {
+        "ru": "Живу по расписанию.",
+        "en": "Follow a schedule."
+      },
+      "dimension": "judging"
+    },
+    {
+      "id": "q37",
+      "text": {
+        "ru": "С незнакомыми людьми я молчалив(а).",
+        "en": "Am quiet around strangers."
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q38",
+      "text": {
+        "ru": "Я полон(на) идей.",
+        "en": "Am full of ideas."
+      },
+      "dimension": "intuition"
+    },
+    {
+      "id": "q39",
+      "text": {
+        "ru": "Рядом со мной людям легко и спокойно.",
+        "en": "Make people feel at ease."
+      },
+      "dimension": "feeling"
+    },
+    {
+      "id": "q40",
+      "text": {
+        "ru": "Требователен(льна) к качеству своей работы.",
+        "en": "Am exacting in my work."
+      },
+      "dimension": "judging"
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "intj",
+      "title": {
+        "ru": "INTJ — Картограф будущего",
+        "en": "INTJ: The Cartographer"
+      },
+      "emoji": "🗺️",
+      "profile": {
+        "extraversion": 0.323,
+        "intuition": 0.908,
+        "feeling": 0.532,
+        "judging": 0.767
+      },
+      "summary": [
+        {
+          "ru": "Мыслит системно и на годы вперёд",
+          "en": "Thinks in systems and years ahead"
+        },
+        {
+          "ru": "Независим в суждениях",
+          "en": "Independent in judgement"
+        },
+        {
+          "ru": "Организован и целеустремлён",
+          "en": "Organised and goal-driven"
+        },
+        {
+          "ru": "Предпочитает логику эмоциям",
+          "en": "Prefers logic to emotion"
+        }
+      ],
+      "detailed": {
+        "ru": "Картограф видит мир как карту возможностей, на которую ещё не нанесены дороги. Ваше сочетание — сдержанность, любовь к идеям, трезвый аналитический взгляд и высокая организованность — делает вас человеком долгосрочных планов. Вы любите понимать, *как всё устроено*, и превращать понимание в стратегию.\n\nВы не стремитесь нравиться всем: для вас важнее, чтобы решение было верным. Вы доверяете фактам и аргументам, быстро замечаете слабые места в чужих планах и не боитесь сказать об этом прямо. Работа, где нужно выстроить систему, продумать архитектуру проекта или найти неочевидный путь, приносит вам настоящее удовольствие.\n\n**Зоны внимания:** окружающим ваша прямота может казаться холодностью, а высокие стандарты — придирчивостью. Полезно объяснять не только *что* вы решили, но и *почему*, и спрашивать мнение команды до того, как план окончательно готов. Не забывайте, что люди — не переменные в модели: признание чужого вклада делает ваши стратегии гораздо сильнее.",
+        "en": "The Cartographer sees the world as a map of possibilities with roads not yet drawn. Your combination of reserve, love of ideas, a sober analytical eye and strong organisation makes you a person of long-range plans. You like to understand *how things work* and turn that understanding into strategy.\n\nYou do not try to please everyone: what matters more is that the decision is right. You trust facts and arguments, spot weak points in other people's plans quickly and are not afraid to say so directly. Work that involves building a system, designing a project's architecture or finding a non-obvious path brings you real satisfaction.\n\n**Watch-outs:** others may read your directness as coldness and your high standards as nit-picking. It helps to explain not only *what* you decided but *why*, and to ask for the team's input before a plan is final. Remember that people are not variables in a model: acknowledging their contribution makes your strategies far stronger."
+      },
+      "strengths": [
+        {
+          "ru": "Стратегическое мышление",
+          "en": "Strategic thinking"
+        },
+        {
+          "ru": "Самостоятельность",
+          "en": "Self-reliance"
+        },
+        {
+          "ru": "Способность доводить сложные проекты",
+          "en": "Ability to deliver complex projects"
+        },
+        {
+          "ru": "Трезвость оценок",
+          "en": "Clear-eyed judgement"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Проявлять теплоту и признание",
+          "en": "Showing warmth and appreciation"
+        },
+        {
+          "ru": "Гибче относиться к чужим подходам",
+          "en": "Being more flexible about other approaches"
+        },
+        {
+          "ru": "Делиться планами раньше",
+          "en": "Sharing plans earlier"
+        }
+      ],
+      "compatibleWith": [
+        "entj",
+        "intp"
+      ],
+      "imagePrompt": "a thoughtful character studying a glowing map with a compass at a quiet desk, soft pastel indigo colors, cute flat-3D style"
+    },
+    {
+      "id": "intp",
+      "title": {
+        "ru": "INTP — Искатель закономерностей",
+        "en": "INTP: The Pattern Seeker"
+      },
+      "emoji": "🔍",
+      "profile": {
+        "extraversion": 0.323,
+        "intuition": 0.908,
+        "feeling": 0.532,
+        "judging": 0.407
+      },
+      "summary": [
+        {
+          "ru": "Любознателен и любит идеи",
+          "en": "Curious and in love with ideas"
+        },
+        {
+          "ru": "Анализирует и сомневается",
+          "en": "Analytical and questioning"
+        },
+        {
+          "ru": "Независим и спокоен",
+          "en": "Independent and calm"
+        },
+        {
+          "ru": "Гибок, не любит жёстких рамок",
+          "en": "Flexible, dislikes rigid frameworks"
+        }
+      ],
+      "detailed": {
+        "ru": "Искатель закономерностей живёт в мире вопросов «почему?» и «а что, если?». Сдержанность, богатое воображение, аналитичность и свободное отношение к планам делают вас исследователем по натуре: вам интереснее понять принцип, чем следовать инструкции.\n\nВы умеете смотреть на проблему с неожиданной стороны, замечаете противоречия и любите спорить ради истины, а не ради победы. Жёсткий распорядок вас утомляет; лучше всего вы работаете, когда можете погрузиться в задачу в своём темпе. Друзья ценят вашу честность, нестандартный юмор и способность объяснить сложное.\n\n**Зоны внимания:** идеи легко рождаются, но не всегда доходят до воплощения. Помогают внешние сроки, короткие итерации и партнёры, которые любят доводить дела до конца. В общении стоит помнить, что не всем нужна критика, — иногда человеку важнее поддержка, чем разбор ошибок.",
+        "en": "The Pattern Seeker lives in a world of \"why?\" and \"what if?\". Reserve, a rich imagination, an analytical mind and a relaxed attitude to plans make you a natural researcher: understanding the principle interests you more than following instructions.\n\nYou can look at a problem from an unexpected angle, notice contradictions and enjoy arguing for the sake of truth rather than victory. Rigid routines wear you out; you work best when you can dive into a task at your own pace. Friends value your honesty, offbeat humour and ability to explain complex things.\n\n**Watch-outs:** ideas come easily but do not always get built. External deadlines, short iterations and partners who love finishing things help. In conversations, remember that not everyone wants critique; sometimes a person needs support more than an analysis of their mistakes."
+      },
+      "strengths": [
+        {
+          "ru": "Глубокий анализ",
+          "en": "Deep analysis"
+        },
+        {
+          "ru": "Оригинальность мышления",
+          "en": "Original thinking"
+        },
+        {
+          "ru": "Объективность",
+          "en": "Objectivity"
+        },
+        {
+          "ru": "Спокойствие и независимость",
+          "en": "Calm independence"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить идеи до результата",
+          "en": "Turning ideas into results"
+        },
+        {
+          "ru": "Соблюдать сроки",
+          "en": "Keeping to deadlines"
+        },
+        {
+          "ru": "Проявлять эмпатию в общении",
+          "en": "Showing empathy in conversation"
+        }
+      ],
+      "compatibleWith": [
+        "entp",
+        "intj"
+      ],
+      "imagePrompt": "a curious character with a magnifying glass looking at floating geometric shapes, soft pastel teal colors, cute flat-3D style"
+    },
+    {
+      "id": "entj",
+      "title": {
+        "ru": "ENTJ — Рулевой",
+        "en": "ENTJ: The Helmsman"
+      },
+      "emoji": "🧭",
+      "profile": {
+        "extraversion": 0.683,
+        "intuition": 0.908,
+        "feeling": 0.532,
+        "judging": 0.767
+      },
+      "summary": [
+        {
+          "ru": "Берёт руководство на себя",
+          "en": "Takes the lead"
+        },
+        {
+          "ru": "Мыслит масштабно и стратегически",
+          "en": "Thinks big and strategically"
+        },
+        {
+          "ru": "Решителен и прямолинеен",
+          "en": "Decisive and direct"
+        },
+        {
+          "ru": "Ценит эффективность и порядок",
+          "en": "Values efficiency and order"
+        }
+      ],
+      "detailed": {
+        "ru": "Рулевой естественно оказывается у штурвала. Общительность и энергия, интерес к идеям, аналитическая прямота и организованность делают вас человеком, который видит цель, строит маршрут и ведёт к нему команду. Вам нравится наводить порядок в хаосе и превращать амбициозные замыслы в работающие системы.\n\nВы быстро принимаете решения, говорите по существу и ожидаете того же от других. Сложные задачи и конкуренция вас скорее заряжают, чем пугают. Люди часто идут за вами, потому что рядом с вами понятно, куда двигаться и зачем.\n\n**Зоны внимания:** высокий темп и требовательность могут подавлять более тихих коллег, а прямота — ранить. Полезно сознательно замедляться: задавать вопросы, слушать до конца, отмечать вклад других. Лучшие капитаны не только задают курс, но и следят за тем, чтобы экипаж был в порядке.",
+        "en": "The Helmsman naturally ends up at the wheel. Sociability and energy, an interest in ideas, analytical directness and strong organisation make you someone who sees the goal, plots the route and leads the team there. You enjoy bringing order to chaos and turning ambitious ideas into working systems.\n\nYou decide quickly, speak to the point and expect the same from others. Hard problems and competition energise you more than they scare you. People often follow you because around you it is clear where to go and why.\n\n**Watch-outs:** your high pace and demands can overwhelm quieter colleagues, and your directness can hurt. It helps to slow down on purpose: ask questions, listen to the end, recognise others' contributions. The best captains not only set the course but also make sure the crew is doing well."
+      },
+      "strengths": [
+        {
+          "ru": "Лидерство",
+          "en": "Leadership"
+        },
+        {
+          "ru": "Стратегическое видение",
+          "en": "Strategic vision"
+        },
+        {
+          "ru": "Решительность",
+          "en": "Decisiveness"
+        },
+        {
+          "ru": "Организаторские способности",
+          "en": "Organisational skill"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Слушать и учитывать чувства людей",
+          "en": "Listening and considering people's feelings"
+        },
+        {
+          "ru": "Делегировать без контроля каждой мелочи",
+          "en": "Delegating without micromanaging"
+        },
+        {
+          "ru": "Находить время для отдыха",
+          "en": "Making time for rest"
+        }
+      ],
+      "compatibleWith": [
+        "intj",
+        "entp"
+      ],
+      "imagePrompt": "a confident character steering a ship wheel on a small boat toward a bright horizon, soft pastel navy and gold colors, cute flat-3D style"
+    },
+    {
+      "id": "entp",
+      "title": {
+        "ru": "ENTP — Генератор идей",
+        "en": "ENTP: The Idea Generator"
+      },
+      "emoji": "💡",
+      "profile": {
+        "extraversion": 0.683,
+        "intuition": 0.908,
+        "feeling": 0.532,
+        "judging": 0.407
+      },
+      "summary": [
+        {
+          "ru": "Изобретателен и остроумен",
+          "en": "Inventive and witty"
+        },
+        {
+          "ru": "Любит споры и интеллектуальные вызовы",
+          "en": "Loves debate and intellectual challenge"
+        },
+        {
+          "ru": "Общителен и энергичен",
+          "en": "Outgoing and energetic"
+        },
+        {
+          "ru": "Импровизирует и легко меняет планы",
+          "en": "Improvises and changes plans easily"
+        }
+      ],
+      "detailed": {
+        "ru": "Генератор идей — человек, у которого на каждую проблему есть пять неожиданных решений. Общительность, любопытство, аналитическая прямота и гибкость делают вас мастером мозгового штурма. Вам скучно повторять то, что уже работает: гораздо интереснее придумать, как сделать иначе.\n\nВы любите спорить — не со зла, а потому что в споре рождается истина и проверяются идеи. Вы легко заводите разговор с кем угодно, быстро схватываете суть и умеете увидеть возможность там, где другие видят тупик. Новые проекты, стартапы, творческие задачи — ваша стихия.\n\n**Зоны внимания:** энтузиазм быстро гаснет, когда дело доходит до рутины и деталей. Ищите партнёров-«завершителей» и договаривайтесь о чётких сроках. Помните, что не всем приятен спор: иногда собеседнику нужно, чтобы с ним просто согласились или выслушали.",
+        "en": "The Idea Generator is the person with five unexpected solutions to every problem. Sociability, curiosity, analytical directness and flexibility make you a master of brainstorming. Repeating what already works bores you; inventing a different way is far more interesting.\n\nYou enjoy arguing, not out of malice, but because debate is where truth emerges and ideas get tested. You can strike up a conversation with anyone, grasp the essence quickly and see opportunity where others see a dead end. New projects, start-ups and creative challenges are your element.\n\n**Watch-outs:** enthusiasm fades fast once routine and details arrive. Find finisher partners and agree on clear deadlines. Remember that not everyone enjoys a debate; sometimes the other person just wants to be agreed with or heard."
+      },
+      "strengths": [
+        {
+          "ru": "Креативность",
+          "en": "Creativity"
+        },
+        {
+          "ru": "Быстрота мышления",
+          "en": "Quick thinking"
+        },
+        {
+          "ru": "Харизма и красноречие",
+          "en": "Charisma and eloquence"
+        },
+        {
+          "ru": "Умение видеть возможности",
+          "en": "Spotting opportunities"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить начатое до конца",
+          "en": "Finishing what you start"
+        },
+        {
+          "ru": "Уделять внимание деталям",
+          "en": "Paying attention to details"
+        },
+        {
+          "ru": "Бережнее относиться к чувствам собеседника",
+          "en": "Being gentler with other people's feelings"
+        }
+      ],
+      "compatibleWith": [
+        "intp",
+        "entj"
+      ],
+      "imagePrompt": "a lively character juggling glowing light bulbs with a mischievous smile, soft pastel orange colors, cute flat-3D style"
+    },
+    {
+      "id": "infj",
+      "title": {
+        "ru": "INFJ — Тихий маяк",
+        "en": "INFJ: The Quiet Lighthouse"
+      },
+      "emoji": "🕯️",
+      "profile": {
+        "extraversion": 0.323,
+        "intuition": 0.908,
+        "feeling": 0.891,
+        "judging": 0.767
+      },
+      "summary": [
+        {
+          "ru": "Глубоко чувствует людей",
+          "en": "Understands people deeply"
+        },
+        {
+          "ru": "Живёт ценностями и смыслами",
+          "en": "Guided by values and meaning"
+        },
+        {
+          "ru": "Сдержан и вдумчив",
+          "en": "Reserved and thoughtful"
+        },
+        {
+          "ru": "Организован и надёжен",
+          "en": "Organised and dependable"
+        }
+      ],
+      "detailed": {
+        "ru": "Тихий маяк не стремится быть в центре внимания, но к его свету тянутся. Сдержанность, богатый внутренний мир, теплота к людям и организованность делают вас человеком, который понимает других глубже, чем они сами себя, и умеет мягко направлять.\n\nВы цените смысл и искренность, замечаете невысказанные чувства и думаете о том, как сделать мир немного лучше. Вам близки помогающие и творческие профессии, наставничество, работа с идеями о людях. В дружбе вы преданы и внимательны, хотя открываетесь не каждому.\n\n**Зоны внимания:** привычка заботиться о других может оставлять вас без сил, а высокие идеалы — разочаровывать. Берегите время для уединения и восстановления, учитесь говорить «нет» и делиться своими потребностями так же открыто, как вы откликаетесь на чужие.",
+        "en": "The Quiet Lighthouse does not seek the spotlight, yet people are drawn to its light. Reserve, a rich inner world, warmth towards people and good organisation make you someone who understands others more deeply than they understand themselves, and who can guide them gently.\n\nYou value meaning and sincerity, notice unspoken feelings and think about how to make the world a little better. Helping and creative professions, mentoring and working with ideas about people suit you. In friendship you are loyal and attentive, though you do not open up to everyone.\n\n**Watch-outs:** the habit of caring for others can leave you drained, and high ideals can lead to disappointment. Protect time for solitude and recovery, practise saying no, and share your own needs as openly as you respond to other people's."
+      },
+      "strengths": [
+        {
+          "ru": "Эмпатия и проницательность",
+          "en": "Empathy and insight"
+        },
+        {
+          "ru": "Верность ценностям",
+          "en": "Commitment to values"
+        },
+        {
+          "ru": "Умение вдохновлять",
+          "en": "Ability to inspire"
+        },
+        {
+          "ru": "Основательность",
+          "en": "Thoroughness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Заботиться о себе так же, как о других",
+          "en": "Caring for yourself as much as for others"
+        },
+        {
+          "ru": "Принимать несовершенство",
+          "en": "Accepting imperfection"
+        },
+        {
+          "ru": "Говорить о своих потребностях прямо",
+          "en": "Stating your needs directly"
+        }
+      ],
+      "compatibleWith": [
+        "enfj",
+        "infp"
+      ],
+      "imagePrompt": "a gentle character holding a small lantern on a lighthouse balcony at dusk, soft pastel lavender colors, cute flat-3D style"
+    },
+    {
+      "id": "infp",
+      "title": {
+        "ru": "INFP — Садовник смыслов",
+        "en": "INFP: The Gardener of Meaning"
+      },
+      "emoji": "🌱",
+      "profile": {
+        "extraversion": 0.323,
+        "intuition": 0.908,
+        "feeling": 0.891,
+        "judging": 0.407
+      },
+      "summary": [
+        {
+          "ru": "Мечтательный и творческий",
+          "en": "Dreamy and creative"
+        },
+        {
+          "ru": "Тёплый и сострадательный",
+          "en": "Warm and compassionate"
+        },
+        {
+          "ru": "Живёт по внутренним ценностям",
+          "en": "Lives by inner values"
+        },
+        {
+          "ru": "Гибок и не любит рутины",
+          "en": "Flexible, dislikes routine"
+        }
+      ],
+      "detailed": {
+        "ru": "Садовник смыслов терпеливо выращивает то, что для него по-настоящему важно, — идеи, отношения, творчество. Сдержанность, воображение, мягкость и гибкость делают вас человеком с богатым внутренним миром и тонким чувством того, что правильно и красиво.\n\nВы глубоко сопереживаете, цените искренность и не любите притворства. Вам ближе работа, в которой есть смысл: творчество, помощь людям, гуманитарные и социальные проекты. В спокойной атмосфере вы раскрываетесь как внимательный друг и оригинальный автор.\n\n**Зоны внимания:** рутина, жёсткие сроки и критика даются вам нелегко, а мечты иногда опережают действия. Помогают маленькие ежедневные шаги к большой цели, внешние напоминания и люди, которые верят в ваши идеи. Помните: ваши ценности — сила, но границы и практичность помогают их защищать.",
+        "en": "The Gardener of Meaning patiently grows what truly matters to them: ideas, relationships, creative work. Reserve, imagination, gentleness and flexibility make you a person with a rich inner world and a fine sense of what is right and beautiful.\n\nYou empathise deeply, value sincerity and dislike pretence. You are drawn to meaningful work: creative fields, helping people, humanitarian and social projects. In a calm atmosphere you blossom as an attentive friend and an original creator.\n\n**Watch-outs:** routine, tight deadlines and criticism are hard for you, and dreams sometimes run ahead of action. Small daily steps towards a big goal, external reminders and people who believe in your ideas all help. Remember: your values are a strength, and boundaries and practicality help protect them."
+      },
+      "strengths": [
+        {
+          "ru": "Воображение и творчество",
+          "en": "Imagination and creativity"
+        },
+        {
+          "ru": "Сострадание",
+          "en": "Compassion"
+        },
+        {
+          "ru": "Искренность",
+          "en": "Sincerity"
+        },
+        {
+          "ru": "Открытость разным людям",
+          "en": "Openness to all kinds of people"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Переходить от мечты к делу",
+          "en": "Moving from dream to action"
+        },
+        {
+          "ru": "Спокойнее принимать критику",
+          "en": "Taking criticism more calmly"
+        },
+        {
+          "ru": "Выстраивать распорядок",
+          "en": "Building a routine"
+        }
+      ],
+      "compatibleWith": [
+        "enfp",
+        "infj"
+      ],
+      "imagePrompt": "a soft-hearted character watering a glowing sprout in a small garden of flowers, soft pastel green colors, cute flat-3D style"
+    },
+    {
+      "id": "enfj",
+      "title": {
+        "ru": "ENFJ — Строитель мостов",
+        "en": "ENFJ: The Bridge Builder"
+      },
+      "emoji": "🌉",
+      "profile": {
+        "extraversion": 0.683,
+        "intuition": 0.908,
+        "feeling": 0.891,
+        "judging": 0.767
+      },
+      "summary": [
+        {
+          "ru": "Тёплый и общительный",
+          "en": "Warm and outgoing"
+        },
+        {
+          "ru": "Объединяет и вдохновляет людей",
+          "en": "Unites and inspires people"
+        },
+        {
+          "ru": "Организован и ответственен",
+          "en": "Organised and responsible"
+        },
+        {
+          "ru": "Видит потенциал в каждом",
+          "en": "Sees potential in everyone"
+        }
+      ],
+      "detailed": {
+        "ru": "Строитель мостов соединяет людей, идеи и возможности. Общительность, открытость новому, теплота и организованность делают вас прирождённым наставником и координатором: вы чувствуете, что нужно каждому, и умеете собрать всех вокруг общей цели.\n\nВам важно, чтобы людям рядом было хорошо, и вы готовы вкладывать в это силы. Вы легко выступаете, мотивируете, разрешаете конфликты и замечаете тех, кого другие не видят. Образование, HR, психология, управление сообществами и командами — сферы, где вы особенно сильны.\n\n**Зоны внимания:** стремление помогать может перерасти в гиперответственность за чужие чувства, а желание гармонии — в избегание неприятных разговоров. Помните, что вы не обязаны спасать всех, и оставляйте в расписании время для себя.",
+        "en": "The Bridge Builder connects people, ideas and opportunities. Sociability, openness to the new, warmth and organisation make you a natural mentor and coordinator: you sense what each person needs and can rally everyone around a shared goal.\n\nIt matters to you that the people around you are doing well, and you are willing to invest effort in that. You speak in public easily, motivate others, resolve conflicts and notice people whom others overlook. Education, HR, psychology, and leading communities and teams are areas where you are especially strong.\n\n**Watch-outs:** the urge to help can turn into over-responsibility for other people's feelings, and the wish for harmony into avoiding difficult conversations. Remember that you do not have to rescue everyone, and keep time in your schedule for yourself."
+      },
+      "strengths": [
+        {
+          "ru": "Эмпатия и харизма",
+          "en": "Empathy and charisma"
+        },
+        {
+          "ru": "Умение мотивировать",
+          "en": "Ability to motivate"
+        },
+        {
+          "ru": "Организация людей",
+          "en": "Organising people"
+        },
+        {
+          "ru": "Дипломатичность",
+          "en": "Diplomacy"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Ставить личные границы",
+          "en": "Setting personal boundaries"
+        },
+        {
+          "ru": "Вести трудные разговоры",
+          "en": "Having difficult conversations"
+        },
+        {
+          "ru": "Не брать ответственность за всех",
+          "en": "Not taking responsibility for everyone"
+        }
+      ],
+      "compatibleWith": [
+        "infj",
+        "enfp"
+      ],
+      "imagePrompt": "a warm character building a small rainbow bridge between two groups of smiling friends, soft pastel pink colors, cute flat-3D style"
+    },
+    {
+      "id": "enfp",
+      "title": {
+        "ru": "ENFP — Искра вдохновения",
+        "en": "ENFP: The Spark of Inspiration"
+      },
+      "emoji": "✨",
+      "profile": {
+        "extraversion": 0.683,
+        "intuition": 0.908,
+        "feeling": 0.891,
+        "judging": 0.407
+      },
+      "summary": [
+        {
+          "ru": "Энергичный, тёплый и любознательный",
+          "en": "Energetic, warm and curious"
+        },
+        {
+          "ru": "Заражает энтузиазмом",
+          "en": "Spreads enthusiasm"
+        },
+        {
+          "ru": "Видит возможности и связи",
+          "en": "Sees possibilities and connections"
+        },
+        {
+          "ru": "Спонтанен и не любит рамок",
+          "en": "Spontaneous, dislikes constraints"
+        }
+      ],
+      "detailed": {
+        "ru": "Искра вдохновения зажигает людей и идеи. Общительность, воображение, доброжелательность и гибкость делают вас человеком, рядом с которым хочется пробовать новое. Вы легко знакомитесь, искренне интересуетесь людьми и умеете увидеть в каждом что-то особенное.\n\nВам нравится начинать: новые проекты, путешествия, знакомства, творческие эксперименты. Вы мыслите ассоциативно, быстро загораетесь и умеете зажечь других. В работе вам нужны свобода, разнообразие и смысл; монотонность вас буквально гасит.\n\n**Зоны внимания:** множество увлечений конкурирует за ваше время, и многое остаётся незавершённым. Помогают короткий список приоритетов, напоминания и партнёры, которые любят структуру. Не забывайте и про отдых: даже самой яркой искре нужно топливо.",
+        "en": "The Spark of Inspiration lights up people and ideas. Sociability, imagination, kindness and flexibility make you someone with whom others want to try new things. You meet people easily, are genuinely interested in them and can see something special in everyone.\n\nYou love beginnings: new projects, trips, acquaintances, creative experiments. You think associatively, catch fire quickly and can set others alight too. At work you need freedom, variety and meaning; monotony literally dims you.\n\n**Watch-outs:** many interests compete for your time, and a lot stays unfinished. A short priority list, reminders and partners who love structure help. And do not forget rest: even the brightest spark needs fuel."
+      },
+      "strengths": [
+        {
+          "ru": "Энтузиазм и оптимизм",
+          "en": "Enthusiasm and optimism"
+        },
+        {
+          "ru": "Креативность",
+          "en": "Creativity"
+        },
+        {
+          "ru": "Лёгкость в общении",
+          "en": "Ease with people"
+        },
+        {
+          "ru": "Умение вдохновлять",
+          "en": "Inspiring others"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Фокусироваться на главном",
+          "en": "Focusing on what matters most"
+        },
+        {
+          "ru": "Доводить проекты до конца",
+          "en": "Finishing projects"
+        },
+        {
+          "ru": "Планировать время и силы",
+          "en": "Planning your time and energy"
+        }
+      ],
+      "compatibleWith": [
+        "infp",
+        "enfj"
+      ],
+      "imagePrompt": "a joyful character releasing sparkling fireflies into the night sky, soft pastel coral and gold colors, cute flat-3D style"
+    },
+    {
+      "id": "istj",
+      "title": {
+        "ru": "ISTJ — Якорь",
+        "en": "ISTJ: The Anchor"
+      },
+      "emoji": "⚓",
+      "profile": {
+        "extraversion": 0.323,
+        "intuition": 0.548,
+        "feeling": 0.532,
+        "judging": 0.767
+      },
+      "summary": [
+        {
+          "ru": "Надёжный и последовательный",
+          "en": "Reliable and consistent"
+        },
+        {
+          "ru": "Практичный и конкретный",
+          "en": "Practical and concrete"
+        },
+        {
+          "ru": "Организованный, держит слово",
+          "en": "Organised, keeps their word"
+        },
+        {
+          "ru": "Сдержанный и рассудительный",
+          "en": "Reserved and level-headed"
+        }
+      ],
+      "detailed": {
+        "ru": "Якорь удерживает корабль, когда вокруг штормит. Сдержанность, практичность, трезвый аналитический подход и высокая организованность делают вас человеком, на которого можно положиться в любом деле. Вы предпочитаете проверенные методы, ясные правила и факты.\n\nВы внимательны к деталям, тщательно выполняете обязательства и не любите пустых обещаний. Вам комфортно там, где есть порядок и понятные ожидания: финансы, инженерия, право, управление процессами, любая работа, где важна точность. Близкие ценят вашу честность и постоянство.\n\n**Зоны внимания:** любовь к проверенному может делать вас настороженным к переменам, а прямота — казаться суховатой. Полезно иногда пробовать новое в небольших дозах и словами выражать признательность близким: они могут не догадываться, как много значат для вас.",
+        "en": "The Anchor holds the ship steady when the sea gets rough. Reserve, practicality, a sober analytical approach and strong organisation make you someone people can rely on for anything. You prefer proven methods, clear rules and facts.\n\nYou pay attention to detail, fulfil your obligations carefully and dislike empty promises. You are comfortable wherever there is order and clear expectations: finance, engineering, law, process management, any work where precision matters. Loved ones value your honesty and constancy.\n\n**Watch-outs:** a love of the proven can make you wary of change, and your directness can come across as dry. It helps to try new things in small doses now and then, and to put your appreciation for loved ones into words; they may not realise how much they mean to you."
+      },
+      "strengths": [
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        },
+        {
+          "ru": "Внимание к деталям",
+          "en": "Attention to detail"
+        },
+        {
+          "ru": "Практичность",
+          "en": "Practicality"
+        },
+        {
+          "ru": "Ответственность",
+          "en": "Responsibility"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Гибче относиться к переменам",
+          "en": "Being more flexible about change"
+        },
+        {
+          "ru": "Открыто выражать тёплые чувства",
+          "en": "Expressing warm feelings openly"
+        },
+        {
+          "ru": "Допускать иные способы делать дело",
+          "en": "Accepting other ways of getting things done"
+        }
+      ],
+      "compatibleWith": [
+        "estj",
+        "istp"
+      ],
+      "imagePrompt": "a steady character standing on a pier next to a big friendly anchor, soft pastel slate blue colors, cute flat-3D style"
+    },
+    {
+      "id": "isfj",
+      "title": {
+        "ru": "ISFJ — Хранитель очага",
+        "en": "ISFJ: The Hearth Keeper"
+      },
+      "emoji": "🏡",
+      "profile": {
+        "extraversion": 0.323,
+        "intuition": 0.548,
+        "feeling": 0.891,
+        "judging": 0.767
+      },
+      "summary": [
+        {
+          "ru": "Заботливый и внимательный",
+          "en": "Caring and attentive"
+        },
+        {
+          "ru": "Надёжный и трудолюбивый",
+          "en": "Reliable and hard-working"
+        },
+        {
+          "ru": "Практичный, любит порядок",
+          "en": "Practical and orderly"
+        },
+        {
+          "ru": "Скромный и сдержанный",
+          "en": "Modest and reserved"
+        }
+      ],
+      "detailed": {
+        "ru": "Хранитель очага создаёт вокруг себя тепло и уют. Сдержанность, практичность, доброжелательность и организованность делают вас человеком, который тихо и надёжно заботится о других: помнит о днях рождения, замечает усталость близких и всегда готов помочь делом.\n\nВы цените стабильность, традиции и проверенные способы. Вам близки профессии, где важны внимание к людям и аккуратность: медицина, образование, социальная работа, администрирование. Ваша доброта не бросается в глаза, но на ней держится очень многое.\n\n**Зоны внимания:** привычка ставить чужие нужды выше своих может приводить к усталости и непризнанности. Учитесь просить о помощи, говорить «нет» без чувства вины и открыто рассказывать о своих заслугах — это не хвастовство, а справедливость.",
+        "en": "The Hearth Keeper creates warmth and comfort around them. Reserve, practicality, kindness and organisation make you someone who quietly and reliably cares for others: you remember birthdays, notice when loved ones are tired and are always ready to help in practical ways.\n\nYou value stability, tradition and proven ways of doing things. Professions that call for attentiveness to people and care suit you: medicine, education, social work, administration. Your kindness does not draw attention to itself, but a great deal rests on it.\n\n**Watch-outs:** the habit of putting others' needs above your own can lead to exhaustion and feeling unappreciated. Practise asking for help, saying no without guilt and speaking openly about your contributions; that is not boasting, it is fairness."
+      },
+      "strengths": [
+        {
+          "ru": "Заботливость",
+          "en": "Caring"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Dependability"
+        },
+        {
+          "ru": "Аккуратность",
+          "en": "Carefulness"
+        },
+        {
+          "ru": "Терпение",
+          "en": "Patience"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Заботиться о собственных нуждах",
+          "en": "Looking after your own needs"
+        },
+        {
+          "ru": "Принимать перемены",
+          "en": "Embracing change"
+        },
+        {
+          "ru": "Заявлять о своих достижениях",
+          "en": "Speaking up about your achievements"
+        }
+      ],
+      "compatibleWith": [
+        "esfj",
+        "isfp"
+      ],
+      "imagePrompt": "a kind character with a cozy blanket pouring tea by a warm fireplace in a small cottage, soft pastel peach colors, cute flat-3D style"
+    },
+    {
+      "id": "estj",
+      "title": {
+        "ru": "ESTJ — Дирижёр",
+        "en": "ESTJ: The Conductor"
+      },
+      "emoji": "🎼",
+      "profile": {
+        "extraversion": 0.683,
+        "intuition": 0.548,
+        "feeling": 0.532,
+        "judging": 0.767
+      },
+      "summary": [
+        {
+          "ru": "Организует людей и процессы",
+          "en": "Organises people and processes"
+        },
+        {
+          "ru": "Практичен и решителен",
+          "en": "Practical and decisive"
+        },
+        {
+          "ru": "Прямолинеен и требователен",
+          "en": "Direct and demanding"
+        },
+        {
+          "ru": "Ценит правила и результат",
+          "en": "Values rules and results"
+        }
+      ],
+      "detailed": {
+        "ru": "Дирижёр добивается того, чтобы весь оркестр играл слаженно. Общительность, практичность, деловая прямота и высокая организованность делают вас прирождённым управленцем: вы видите, что нужно сделать, распределяете роли и следите, чтобы всё было выполнено вовремя.\n\nВы опираетесь на факты, опыт и понятные правила, не любите пустых разговоров и неопределённости. С вами команды работают предсказуемо и эффективно. Вы надёжны, держите слово и ожидаете того же от других.\n\n**Зоны внимания:** уверенность в «правильном способе» может мешать слышать новые идеи, а требовательность — восприниматься как жёсткость. Полезно спрашивать «а как бы ты это сделал?», хвалить за усилия, а не только за результат, и иногда позволять себе импровизацию.",
+        "en": "The Conductor makes sure the whole orchestra plays in time. Sociability, practicality, businesslike directness and strong organisation make you a natural manager: you see what needs doing, assign roles and make sure everything is done on time.\n\nYou rely on facts, experience and clear rules, and dislike idle talk and uncertainty. Teams work predictably and efficiently with you. You are dependable, keep your word and expect the same from others.\n\n**Watch-outs:** certainty about \"the right way\" can keep you from hearing new ideas, and your demands may come across as harsh. It helps to ask \"how would you do it?\", praise effort and not only results, and allow yourself to improvise now and then."
+      },
+      "strengths": [
+        {
+          "ru": "Организаторский талант",
+          "en": "Organisational talent"
+        },
+        {
+          "ru": "Ответственность",
+          "en": "Responsibility"
+        },
+        {
+          "ru": "Решительность",
+          "en": "Decisiveness"
+        },
+        {
+          "ru": "Практичность",
+          "en": "Practicality"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Слушать альтернативные мнения",
+          "en": "Listening to alternative views"
+        },
+        {
+          "ru": "Проявлять мягкость и признание",
+          "en": "Showing gentleness and appreciation"
+        },
+        {
+          "ru": "Принимать неопределённость",
+          "en": "Tolerating uncertainty"
+        }
+      ],
+      "compatibleWith": [
+        "istj",
+        "estp"
+      ],
+      "imagePrompt": "a confident character with a baton conducting a small orchestra of cheerful musical notes, soft pastel burgundy colors, cute flat-3D style"
+    },
+    {
+      "id": "esfj",
+      "title": {
+        "ru": "ESFJ — Радушный хозяин",
+        "en": "ESFJ: The Gracious Host"
+      },
+      "emoji": "🤗",
+      "profile": {
+        "extraversion": 0.683,
+        "intuition": 0.548,
+        "feeling": 0.891,
+        "judging": 0.767
+      },
+      "summary": [
+        {
+          "ru": "Общительный и заботливый",
+          "en": "Sociable and caring"
+        },
+        {
+          "ru": "Создаёт гармонию в коллективе",
+          "en": "Creates harmony in groups"
+        },
+        {
+          "ru": "Организованный и обязательный",
+          "en": "Organised and dependable"
+        },
+        {
+          "ru": "Практичный и внимательный к людям",
+          "en": "Practical and attentive to people"
+        }
+      ],
+      "detailed": {
+        "ru": "Радушный хозяин делает так, чтобы всем было хорошо. Общительность, практичность, теплота и организованность делают вас центром любой компании и любого коллектива: вы знаете, кому что нужно, умеете всех познакомить, накормить и вовремя поддержать.\n\nВам важны отношения, традиции и общие ритуалы. Вы надёжны, держите слово и замечаете, когда кому-то плохо. Профессии, связанные с сервисом, заботой о людях, организацией событий и командной работой, особенно вам подходят.\n\n**Зоны внимания:** чувствительность к оценке окружающих может мешать говорить неудобную правду, а забота о других — вытеснять заботу о себе. Помните, что ваша ценность не зависит от того, насколько всем вокруг комфортно; честный разговор иногда полезнее гладкой атмосферы.",
+        "en": "The Gracious Host makes sure everyone is doing well. Sociability, practicality, warmth and organisation make you the heart of any group or team: you know who needs what, can introduce everyone, feed everyone and offer support at the right moment.\n\nRelationships, traditions and shared rituals matter to you. You are dependable, keep your word and notice when someone is unhappy. Professions involving service, caring for people, organising events and teamwork suit you especially well.\n\n**Watch-outs:** sensitivity to others' opinions can make it hard to say uncomfortable truths, and caring for others can crowd out caring for yourself. Remember that your worth does not depend on how comfortable everyone around you is; an honest conversation is sometimes more useful than a smooth atmosphere."
+      },
+      "strengths": [
+        {
+          "ru": "Забота и гостеприимство",
+          "en": "Care and hospitality"
+        },
+        {
+          "ru": "Умение сплотить людей",
+          "en": "Bringing people together"
+        },
+        {
+          "ru": "Обязательность",
+          "en": "Dependability"
+        },
+        {
+          "ru": "Практическая помощь",
+          "en": "Practical help"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Говорить неудобную правду",
+          "en": "Saying uncomfortable truths"
+        },
+        {
+          "ru": "Меньше зависеть от одобрения",
+          "en": "Depending less on approval"
+        },
+        {
+          "ru": "Оставлять время для себя",
+          "en": "Keeping time for yourself"
+        }
+      ],
+      "compatibleWith": [
+        "isfj",
+        "esfp"
+      ],
+      "imagePrompt": "a cheerful character hosting a small garden party with snacks and string lights, soft pastel yellow colors, cute flat-3D style"
+    },
+    {
+      "id": "istp",
+      "title": {
+        "ru": "ISTP — Умелец",
+        "en": "ISTP: The Tinkerer"
+      },
+      "emoji": "🔧",
+      "profile": {
+        "extraversion": 0.323,
+        "intuition": 0.548,
+        "feeling": 0.532,
+        "judging": 0.407
+      },
+      "summary": [
+        {
+          "ru": "Спокойный и наблюдательный",
+          "en": "Calm and observant"
+        },
+        {
+          "ru": "Практичный, любит разбираться руками",
+          "en": "Practical, likes hands-on problem-solving"
+        },
+        {
+          "ru": "Независим и прямолинеен",
+          "en": "Independent and direct"
+        },
+        {
+          "ru": "Гибок и импровизирует",
+          "en": "Flexible and improvising"
+        }
+      ],
+      "detailed": {
+        "ru": "Умелец лучше всего понимает мир, когда может его разобрать и собрать. Сдержанность, практичность, аналитическая трезвость и гибкость делают вас человеком, который спокойно решает реальные проблемы — от сломанного прибора до неожиданного кризиса на работе.\n\nВы не тратите слов попусту, предпочитаете действовать и учиться на опыте. Вам нравятся техника, инструменты, спорт, путешествия, задачи с понятным осязаемым результатом. В экстренной ситуации вы часто сохраняете голову холодной, когда остальные паникуют.\n\n**Зоны внимания:** долгосрочное планирование и обязательства «на годы вперёд» могут казаться вам скучными, а сдержанность — восприниматься как отстранённость. Полезно иногда проговаривать свои чувства и планы вслух, чтобы близким было легче на вас опираться.",
+        "en": "The Tinkerer understands the world best by taking it apart and putting it back together. Reserve, practicality, analytical sobriety and flexibility make you someone who calmly solves real problems, from a broken gadget to an unexpected crisis at work.\n\nYou do not waste words, preferring to act and learn from experience. You enjoy technology, tools, sport, travel and tasks with a clear, tangible result. In an emergency you often keep a cool head while others panic.\n\n**Watch-outs:** long-term planning and years-ahead commitments may feel dull to you, and your reserve can be read as detachment. It helps to voice your feelings and plans now and then, so that loved ones find it easier to rely on you."
+      },
+      "strengths": [
+        {
+          "ru": "Практическая смекалка",
+          "en": "Practical ingenuity"
+        },
+        {
+          "ru": "Хладнокровие",
+          "en": "Composure"
+        },
+        {
+          "ru": "Независимость",
+          "en": "Independence"
+        },
+        {
+          "ru": "Умение импровизировать",
+          "en": "Improvisation"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Планировать на перспективу",
+          "en": "Planning for the long term"
+        },
+        {
+          "ru": "Делиться чувствами",
+          "en": "Sharing feelings"
+        },
+        {
+          "ru": "Брать на себя долгосрочные обязательства",
+          "en": "Taking on long-term commitments"
+        }
+      ],
+      "compatibleWith": [
+        "estp",
+        "istj"
+      ],
+      "imagePrompt": "a relaxed character with goggles fixing a small cute robot at a workbench full of tools, soft pastel mint colors, cute flat-3D style"
+    },
+    {
+      "id": "isfp",
+      "title": {
+        "ru": "ISFP — Тихий художник",
+        "en": "ISFP: The Quiet Artist"
+      },
+      "emoji": "🎨",
+      "profile": {
+        "extraversion": 0.323,
+        "intuition": 0.548,
+        "feeling": 0.891,
+        "judging": 0.407
+      },
+      "summary": [
+        {
+          "ru": "Мягкий и чуткий",
+          "en": "Gentle and sensitive"
+        },
+        {
+          "ru": "Живёт настоящим моментом",
+          "en": "Lives in the present moment"
+        },
+        {
+          "ru": "Ценит красоту и гармонию",
+          "en": "Values beauty and harmony"
+        },
+        {
+          "ru": "Гибок и не любит давления",
+          "en": "Flexible, dislikes pressure"
+        }
+      ],
+      "detailed": {
+        "ru": "Тихий художник воспринимает мир через ощущения, цвета, звуки и чувства. Сдержанность, практичность, доброта и гибкость делают вас человеком, который умеет радоваться простым вещам и создавать красоту вокруг себя — в доме, в одежде, в отношениях.\n\nВы не любите навязывать своё мнение и спорить, зато внимательны к настроению окружающих и всегда готовы помочь делом. Вам близки ремёсла, дизайн, природа, животные, работа, где можно действовать в своём темпе. Вы цените свободу и искренность.\n\n**Зоны внимания:** нелюбовь к конфликтам может приводить к тому, что ваши желания остаются невысказанными, а спонтанность — к отложенным делам. Полезно тренировать спокойное «мне это не подходит» и разбивать большие задачи на маленькие приятные шаги.",
+        "en": "The Quiet Artist experiences the world through sensations, colours, sounds and feelings. Reserve, practicality, kindness and flexibility make you someone who can enjoy simple things and create beauty around you, in your home, your style, your relationships.\n\nYou do not like imposing your views or arguing, but you are attentive to others' moods and always ready to help in practical ways. Crafts, design, nature, animals and work you can do at your own pace appeal to you. You value freedom and sincerity.\n\n**Watch-outs:** a dislike of conflict can leave your wishes unspoken, and spontaneity can lead to postponed tasks. It helps to practise a calm \"this doesn't work for me\" and to break big tasks into small, pleasant steps."
+      },
+      "strengths": [
+        {
+          "ru": "Чуткость",
+          "en": "Sensitivity"
+        },
+        {
+          "ru": "Эстетическое чувство",
+          "en": "Aesthetic sense"
+        },
+        {
+          "ru": "Доброта и терпимость",
+          "en": "Kindness and tolerance"
+        },
+        {
+          "ru": "Умение жить настоящим",
+          "en": "Living in the moment"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Открыто заявлять о своих желаниях",
+          "en": "Stating your wishes openly"
+        },
+        {
+          "ru": "Планировать заранее",
+          "en": "Planning ahead"
+        },
+        {
+          "ru": "Справляться с критикой",
+          "en": "Coping with criticism"
+        }
+      ],
+      "compatibleWith": [
+        "esfp",
+        "isfj"
+      ],
+      "imagePrompt": "a shy character painting flowers on a canvas in a sunny meadow, soft pastel rose and green colors, cute flat-3D style"
+    },
+    {
+      "id": "estp",
+      "title": {
+        "ru": "ESTP — Первопроходец",
+        "en": "ESTP: The Trailblazer"
+      },
+      "emoji": "🏄",
+      "profile": {
+        "extraversion": 0.683,
+        "intuition": 0.548,
+        "feeling": 0.532,
+        "judging": 0.407
+      },
+      "summary": [
+        {
+          "ru": "Энергичный и смелый",
+          "en": "Energetic and bold"
+        },
+        {
+          "ru": "Действует здесь и сейчас",
+          "en": "Acts in the here and now"
+        },
+        {
+          "ru": "Практичный и прямолинейный",
+          "en": "Practical and direct"
+        },
+        {
+          "ru": "Любит риск и новые впечатления",
+          "en": "Loves risk and new experiences"
+        }
+      ],
+      "detailed": {
+        "ru": "Первопроходец идёт туда, где ещё никто не был, и не ждёт идеальных условий. Общительность, практичность, деловая прямота и гибкость делают вас человеком действия: вы быстро оцениваете ситуацию, принимаете решение и действуете, пока другие ещё обсуждают.\n\nВам нравятся движение, соревнование, переговоры, спорт, путешествия — всё, где есть азарт и быстрая обратная связь. Вы легко находите общий язык с людьми, умеете разрядить обстановку и прекрасно справляетесь в неожиданных ситуациях.\n\n**Зоны внимания:** любовь к моменту может оборачиваться импульсивными решениями и недооценкой долгосрочных последствий. Перед крупными шагами давайте себе паузу «на ночь», а для рутинных обязательств используйте напоминания — так ваша энергия будет работать на вас.",
+        "en": "The Trailblazer goes where nobody has been and does not wait for perfect conditions. Sociability, practicality, businesslike directness and flexibility make you a person of action: you size up a situation fast, decide and act while others are still talking.\n\nYou love movement, competition, negotiation, sport and travel, anything with excitement and quick feedback. You get along with people easily, can defuse tension and handle the unexpected superbly.\n\n**Watch-outs:** a love of the moment can lead to impulsive decisions and underestimating long-term consequences. Before big moves, give yourself an overnight pause, and use reminders for routine obligations, so your energy works for you."
+      },
+      "strengths": [
+        {
+          "ru": "Смелость и решительность",
+          "en": "Courage and decisiveness"
+        },
+        {
+          "ru": "Находчивость",
+          "en": "Resourcefulness"
+        },
+        {
+          "ru": "Харизма",
+          "en": "Charisma"
+        },
+        {
+          "ru": "Практичность",
+          "en": "Practicality"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Думать о долгосрочных последствиях",
+          "en": "Thinking about long-term consequences"
+        },
+        {
+          "ru": "Выдерживать рутину",
+          "en": "Tolerating routine"
+        },
+        {
+          "ru": "Учитывать чувства других",
+          "en": "Considering others' feelings"
+        }
+      ],
+      "compatibleWith": [
+        "istp",
+        "estj"
+      ],
+      "imagePrompt": "an adventurous character surfing a big friendly wave with a big grin, soft pastel aqua colors, cute flat-3D style"
+    },
+    {
+      "id": "esfp",
+      "title": {
+        "ru": "ESFP — Праздник жизни",
+        "en": "ESFP: The Celebration"
+      },
+      "emoji": "🎉",
+      "profile": {
+        "extraversion": 0.683,
+        "intuition": 0.548,
+        "feeling": 0.891,
+        "judging": 0.407
+      },
+      "summary": [
+        {
+          "ru": "Жизнерадостный и общительный",
+          "en": "Cheerful and sociable"
+        },
+        {
+          "ru": "Тёплый и щедрый",
+          "en": "Warm and generous"
+        },
+        {
+          "ru": "Живёт ярко и спонтанно",
+          "en": "Lives vividly and spontaneously"
+        },
+        {
+          "ru": "Практичный, любит действие",
+          "en": "Practical and action-oriented"
+        }
+      ],
+      "detailed": {
+        "ru": "Праздник жизни приносит радость везде, где появляется. Общительность, практичность, теплота и спонтанность делают вас человеком, с которым весело и легко: вы любите людей, впечатления и умеете превратить обычный день в маленькое событие.\n\nВы щедры, отзывчивы и замечаете, когда кому-то нужна поддержка, причём помогаете не словами, а делом. Вам подходят профессии, связанные с людьми, сценой, сервисом, событиями, спортом — везде, где важны энергия и живое общение.\n\n**Зоны внимания:** стремление жить моментом может мешать планированию, особенно в финансах и долгосрочных целях, а нелюбовь к неприятному — откладывать трудные разговоры. Помогают простые системы: автоматические накопления, календарь с напоминаниями и друг, который поможет довести дело до конца.",
+        "en": "The Celebration brings joy wherever it goes. Sociability, practicality, warmth and spontaneity make you someone who is fun and easy to be with: you love people and experiences and can turn an ordinary day into a small event.\n\nYou are generous and responsive and notice when someone needs support, and you help with actions rather than words. Professions involving people, the stage, service, events and sport suit you, anywhere energy and live interaction matter.\n\n**Watch-outs:** the urge to live in the moment can get in the way of planning, especially for money and long-term goals, and a dislike of unpleasantness can delay difficult conversations. Simple systems help: automatic savings, a calendar with reminders and a friend who helps you see things through."
+      },
+      "strengths": [
+        {
+          "ru": "Жизнерадостность",
+          "en": "Joyfulness"
+        },
+        {
+          "ru": "Щедрость и теплота",
+          "en": "Generosity and warmth"
+        },
+        {
+          "ru": "Умение сплотить компанию",
+          "en": "Bringing a group together"
+        },
+        {
+          "ru": "Практическая отзывчивость",
+          "en": "Practical helpfulness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Планировать финансы и будущее",
+          "en": "Planning finances and the future"
+        },
+        {
+          "ru": "Вести трудные разговоры",
+          "en": "Having difficult conversations"
+        },
+        {
+          "ru": "Доводить дела до конца",
+          "en": "Seeing tasks through"
+        }
+      ],
+      "compatibleWith": [
+        "isfp",
+        "esfj"
+      ],
+      "imagePrompt": "a joyful character dancing with confetti and balloons at a festive party, soft pastel magenta colors, cute flat-3D style"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Ответы 1–5, обратные утверждения = 6 − ответ. Каждая шкала — сумма 10 утверждений (10–50). Буква: балл выше среднего нормативной выборки → E / N / F / J, ниже → I / S / T / P (средние: E/I 30.11, S/N 39.12, T/F 38.46, J/P 33.47). Процентиль = Φ((балл − среднее)/SD). Тип — ближайший из 16 профилей (среднее ± 0,18 по нормированной шкале), что эквивалентно побуквенному правилу.",
+    "en": "Answers 1–5; reverse items = 6 − answer. Each scale is the sum of 10 items (10–50). Letter: above the norm-sample mean → E / N / F / J, below → I / S / T / P (means: E/I 30.11, S/N 39.12, T/F 38.46, J/P 33.47). Percentile = Φ((score − mean)/SD). The type is the nearest of 16 profiles (mean ± 0.18 on the normalised scale), which is equivalent to the per-letter rule."
+  },
+  "resultIntro": {
+    "ru": "Ваш тип — это сокращённая запись четырёх непрерывных шкал. Посмотрите на полоски: буква, близкая к середине, выражена слабо и может меняться, а далёкая от середины — ваша устойчивая черта. Ни один тип не лучше другого.",
+    "en": "Your type is shorthand for four continuous scales. Look at the bars: a letter close to the middle is weakly expressed and may change, while one far from the middle is a stable trait of yours. No type is better than another."
+  }
+}

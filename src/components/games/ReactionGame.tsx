@@ -4,10 +4,10 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
 import { deriveResult } from "@/lib/scoring";
 import type { GameProps } from "./GameHost";
-import { Countdown, StageCard, TrialDots, median, sd } from "./shared";
+import { Countdown, StageCard, TrialDots, median, sd, shuffle } from "./shared";
 
-const SIMPLE_TRIALS = 10;
-const CHOICE_TRIALS = 16;
+const SIMPLE_TRIALS = 12;
+const CHOICE_TRIALS = 24; // each of the 4 positions 6 times, shuffled
 const KEYS = ["d", "f", "j", "k"];
 
 const T = {
@@ -46,6 +46,7 @@ export function ReactionGame({ test, lang, onDone }: GameProps) {
   const [target, setTarget] = useState<number | null>(null);
   const [last, setLast] = useState<number | null>(null);
   const shownAt = useRef(0);
+  const order = useRef<number[]>(shuffle(Array.from({ length: CHOICE_TRIALS }, (_, k) => k % 4)));
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const startSimpleTrial = useCallback(() => {
@@ -54,15 +55,18 @@ export function ReactionGame({ test, lang, onDone }: GameProps) {
     timer.current = setTimeout(() => {
       shownAt.current = performance.now();
       setArmed("go");
+      // stamp the onset in the frame the stimulus gets painted
+      requestAnimationFrame(() => (shownAt.current = performance.now()));
     }, fore);
   }, []);
 
-  const startChoiceTrial = useCallback(() => {
+  const startChoiceTrial = useCallback((k: number) => {
     setTarget(null);
     const fore = 700 + Math.random() * 1600;
     timer.current = setTimeout(() => {
       shownAt.current = performance.now();
-      setTarget(Math.floor(Math.random() * 4));
+      setTarget(order.current[k % CHOICE_TRIALS]);
+      requestAnimationFrame(() => (shownAt.current = performance.now()));
     }, fore);
   }, []);
 
@@ -72,11 +76,12 @@ export function ReactionGame({ test, lang, onDone }: GameProps) {
 
   const finish = useCallback(
     (s: number[], c: { rt: number; ok: boolean }[]) => {
-      const okRts = c.filter((x) => x.ok).map((x) => x.rt);
+      const okRts = c.filter((x) => x.ok && x.rt >= 100 && x.rt <= 2000).map((x) => x.rt);
+      const sv = s.filter((x) => x >= 100 && x <= 1500);
       const raws = {
-        simple_rt: Math.round(median(s)),
+        simple_rt: Math.round(median(sv.length ? sv : s)),
         choice_rt: Math.round(median(okRts)),
-        consistency: Math.round(sd(s)),
+        consistency: Math.round(sd(sv.length ? sv : s)),
         choice_accuracy: Math.round((c.filter((x) => x.ok).length / Math.max(1, c.length)) * 100),
       };
       onDone(deriveResult(test, raws, { at: Date.now(), extra: { simple: s, choice: c } }));
@@ -94,6 +99,12 @@ export function ReactionGame({ test, lang, onDone }: GameProps) {
     }
     if (armed !== "go") return;
     const rt = performance.now() - shownAt.current;
+    if (rt < 100) {
+      // anticipation, not a reaction: treat as a false start
+      setArmed("early");
+      setTimeout(startSimpleTrial, 1100);
+      return;
+    }
     setLast(Math.round(rt));
     setArmed(null);
     const next = [...simple, rt];
@@ -111,7 +122,7 @@ export function ReactionGame({ test, lang, onDone }: GameProps) {
       setLast(Math.round(rt));
       setTarget(null);
       if (next.length >= CHOICE_TRIALS) setTimeout(() => finish(simple, next), 400);
-      else startChoiceTrial();
+      else startChoiceTrial(next.length);
     },
     [stage, target, choice, simple, finish, startChoiceTrial],
   );
@@ -157,7 +168,7 @@ export function ReactionGame({ test, lang, onDone }: GameProps) {
         onDone={() => {
           setStage("choice");
           setLast(null);
-          startChoiceTrial();
+          startChoiceTrial(0);
         }}
       />
     );

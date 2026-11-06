@@ -1,0 +1,1663 @@
+{
+  "id": "hexaco",
+  "category": "personality",
+  "kind": "likert",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "HEXACO: шесть измерений личности",
+    "en": "HEXACO: six dimensions of personality"
+  },
+  "tagline": {
+    "ru": "«Большая пятёрка» плюс шестой фактор — честность и скромность",
+    "en": "The Big Five plus a sixth factor: honesty and humility"
+  },
+  "description": {
+    "ru": "Современная шестифакторная модель личности, выросшая из исследований на десятках языков. Кроме привычных черт она измеряет честность — скромность: насколько вы искренни, справедливы и равнодушны к статусу. Вы получите профиль по шести факторам и сравнение с более чем 20 тысячами людей.",
+    "en": "A modern six-factor model of personality that grew out of research in dozens of languages. Besides the familiar traits, it measures Honesty-Humility: how sincere and fair you are and how little status matters to you. You will get a six-factor profile compared with more than 20,000 people."
+  },
+  "emoji": "🔷",
+  "durationMin": 9,
+  "popularity": 3,
+  "tags": [
+    {
+      "ru": "HEXACO",
+      "en": "HEXACO"
+    },
+    {
+      "ru": "честность",
+      "en": "honesty"
+    },
+    {
+      "ru": "личность",
+      "en": "personality"
+    },
+    {
+      "ru": "IPIP",
+      "en": "IPIP"
+    },
+    {
+      "ru": "научный тест",
+      "en": "scientific test"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряется.** Модель HEXACO описывает личность шестью широкими факторами: **честность — скромность (H), эмоциональность (E), экстраверсия (X), доброжелательность (A), добросовестность (C)** и **открытость опыту (O)**. У каждого фактора по четыре фасеты, например H = искренность, справедливость, избегание жадности и скромность.\n\n**История и теория.** Модель предложили Кибом Ли и Майкл Эштон в начале 2000-х. Когда лексические исследования повторили на многих языках помимо английского (нидерландском, французском, немецком, венгерском, итальянском, корейском, польском и других), они обычно давали **шесть** факторов личности, а не пять (Ashton et al., 2004). Шестой фактор, честность — скромность, описывает искренность, справедливость и скромность в противовес склонности к манипуляциям, жадности и чувству избранности. Модель HEXACO также перераспределяет две черты «Большой пятёрки»: гнев переходит из нейротизма на низкий полюс доброжелательности, а сентиментальность и сопереживание — в эмоциональность (Ashton & Lee, 2007). Низкая честность — скромность — общее ядро «тёмных» черт (макиавеллизма, психопатии, нарциссизма; Lee & Ashton, 2005), и она предсказывает нарушения на работе, жульничество и эксплуатацию других лучше, чем «Большая пятёрка».\n\n**Инструмент и почему именно он.** Официальный опросник HEXACO-PI-R (100/60/200 утверждений, hexaco.org) бесплатен *только для некоммерческих академических исследований*; для другого использования нужно разрешение авторов. Поэтому на сайте используются **шкалы IPIP-HEXACO** (Ashton, Lee & Goldberg, 2007). Это общедоступные утверждения IPIP, собранные для измерения тех же 24 фасет (240 утверждений, по 10 на фасету). Из них testik отобрал **60 утверждений (по 10 на фактор, по 2–3 на фасету, примерно половина обратных)**. Отбор шёл по самым высоким корреляциям утверждения с фактором в открытых данных 21 643 респондентов, с сохранением всех фасет. Это повторяет устройство официального HEXACO-60 (Ashton & Lee, 2009), но на других, общедоступных утверждениях.\n\n**Надёжность и нормы (анализ открытых данных testik, N = 21643).** α Кронбача 10-пунктовых шкал: H 0.78, E 0.82, X 0.87, A 0.83, C 0.79, O 0.71. Баллы 10-пунктовых шкал коррелируют .90–.95 с баллами полных 40-пунктовых факторов IPIP-HEXACO. Факторы достаточно независимы (|r| ≤ .41; сильнее всего связаны H и A). Средние и SD норм указаны у каждой шкалы. Опубликованные нормы HEXACO-60 (Ashton & Lee, 2009) *не* использованы, так как они относятся к другому набору утверждений.\n\n**Подсчёт.** Ответы даются по 7-балльной шкале согласия (1–7). Обратные утверждения считаются как 8 − ответ. Балл фактора — сумма 10 утверждений (10–70). Процентиль сравнивает ваш балл с нормами по открытым данным (нормальная аппроксимация). Границы уровней — 10-й, 30-й, 70-й и 90-й процентили.\n\n**Ограничения.**\n- Отбор 60 утверждений и нормы — собственный анализ testik по открытым данным; он не прошёл рецензирования.\n- Нормативная выборка — самоотобранные англоязычные пользователи интернета (в основном из США).\n- Русский перевод новый и не валидизирован. Русская адаптация официального HEXACO-PI-R существует, но на неё распространяется то же некоммерческое ограничение.\n- По 2–3 утверждения на фасету недостаточно, поэтому баллы фасет не выводятся.\n- Это самоотчёт; особенно уязвима к социально желательным ответам шкала честности — скромности.\n- Это не тест для найма и не тест на благонадёжность.",
+    "en": "**What is measured.** The HEXACO model describes personality with six broad factors: **Honesty-Humility (H), Emotionality (E), eXtraversion (X), Agreeableness (A), Conscientiousness (C)** and **Openness to Experience (O)**. Each has four facets, for example H = sincerity, fairness, greed avoidance and modesty.\n\n**History and theory.** Kibeom Lee and Michael Ashton proposed the model in the early 2000s. When lexical studies were repeated in many languages beyond English (Dutch, French, German, Hungarian, Italian, Korean, Polish and others), they usually produced **six** personality factors rather than five (Ashton et al., 2004). The sixth, Honesty-Humility, captures sincerity, fairness and modesty versus manipulativeness, greed and entitlement. The HEXACO model also redistributes two Big Five traits: anger moves from Neuroticism to the low pole of Agreeableness, and sentimentality and empathic concern move to Emotionality (Ashton & Lee, 2007). Low Honesty-Humility is the common core of the \"dark\" traits (Machiavellianism, psychopathy, narcissism; Lee & Ashton, 2005) and predicts workplace delinquency, cheating and exploitative behaviour better than the Big Five do.\n\n**The instrument and why.** The official HEXACO-PI-R (100/60/200 items, hexaco.org) is free *only for non-profit academic research*; other uses require the authors' permission. This site therefore uses the **IPIP-HEXACO scales** (Ashton, Lee & Goldberg, 2007). These are public-domain IPIP items assembled to measure the same 24 facets (240 items, 10 per facet). From them, testik selected **60 items (10 per factor, 2–3 per facet, about half reverse-keyed)**. Selection used the highest item–factor correlations in open data from 21,643 respondents, while keeping every facet represented. This mirrors the design of the official HEXACO-60 (Ashton & Lee, 2009) but uses different, public-domain items.\n\n**Reliability and norms (testik analysis of the open dataset, N = 21643).** Cronbach's α for the 10-item scales: H 0.78, E 0.82, X 0.87, A 0.83, C 0.79, O 0.71. The 10-item scores correlate .90–.95 with the full 40-item IPIP-HEXACO factor scores. The factors are fairly independent (|r| ≤ .41; the largest is H with A). Norm means and SDs are given with each scale. Published norms for the HEXACO-60 (Ashton & Lee, 2009) were *not* used, because they apply to a different item set.\n\n**Scoring.** Answers are given on a 7-point agreement scale (1–7). Reverse-keyed items are scored 8 − answer. Each factor is the sum of 10 items (10–70). The percentile compares your score with the open-data norms (normal approximation). Bands cut at the 10th, 30th, 70th and 90th percentiles.\n\n**Limitations.**\n- The selection of 60 items and the norms are testik's own analysis of public data and have not been peer-reviewed.\n- The norm sample consists of self-selected English-speaking web users (mostly from the US).\n- The Russian translation is new and unvalidated. A Russian adaptation of the official HEXACO-PI-R exists, but it carries the same non-commercial restriction.\n- With 2–3 items per facet, facet scores are not reported.\n- Self-report: Honesty-Humility in particular is susceptible to socially desirable responding.\n- It is not a hiring or integrity test."
+  },
+  "sources": [
+    {
+      "citation": "Ashton, M. C., Lee, K., & Goldberg, L. R. (2007). The IPIP–HEXACO scales: An alternative, public-domain measure of the personality constructs in the HEXACO model. Personality and Individual Differences, 42(8), 1515–1526.",
+      "doi": "10.1016/j.paid.2006.10.027"
+    },
+    {
+      "citation": "International Personality Item Pool: IPIP-HEXACO scoring key (240 items, 24 facets).",
+      "url": "https://ipip.ori.org/newHEXACO_PI_key.htm"
+    },
+    {
+      "citation": "Ashton, M. C., & Lee, K. (2007). Empirical, theoretical, and practical advantages of the HEXACO model of personality structure. Personality and Social Psychology Review, 11(2), 150–166.",
+      "doi": "10.1177/1088868306294907"
+    },
+    {
+      "citation": "Ashton, M. C., Lee, K., Perugini, M., Szarota, P., de Vries, R. E., Di Blas, L., Boies, K., & De Raad, B. (2004). A six-factor structure of personality-descriptive adjectives: Solutions from psycholexical studies in seven languages. Journal of Personality and Social Psychology, 86(2), 356–366.",
+      "doi": "10.1037/0022-3514.86.2.356"
+    },
+    {
+      "citation": "Lee, K., & Ashton, M. C. (2004). Psychometric properties of the HEXACO personality inventory. Multivariate Behavioral Research, 39(2), 329–358.",
+      "doi": "10.1207/s15327906mbr3902_8"
+    },
+    {
+      "citation": "Ashton, M. C., & Lee, K. (2009). The HEXACO-60: A short measure of the major dimensions of personality. Journal of Personality Assessment, 91(4), 340–345.",
+      "doi": "10.1080/00223890902935878"
+    },
+    {
+      "citation": "Lee, K., & Ashton, M. C. (2005). Psychopathy, Machiavellianism, and narcissism in the Five-Factor Model and the HEXACO model of personality structure. Personality and Individual Differences, 38(7), 1571–1582.",
+      "doi": "10.1016/j.paid.2004.09.016"
+    },
+    {
+      "citation": "Open-Source Psychometrics Project. Raw data: answers to the IPIP HEXACO equivalent scales (HEXACO.zip, N = 22,786).",
+      "url": "https://github.com/haghish/openpsychometrics"
+    },
+    {
+      "citation": "HEXACO Personality Inventory – Revised (official site; terms of use).",
+      "url": "https://hexaco.org/"
+    }
+  ],
+  "license": "Public domain (IPIP). The 60 items come from the IPIP-HEXACO scales (https://ipip.ori.org/newHEXACO_PI_key.htm). IPIP: \"The items and scales are in the public domain, which means that one can copy, edit, translate, or use them for any purpose without asking permission and without paying a fee\", so commercial use is allowed. English wording is verbatim from the IPIP key (as recorded in the open dataset's codebook, with the added leading \"I\" removed). The official HEXACO-PI-R / HEXACO-60 items are NOT used: hexaco.org allows them \"only for the purpose of non-profit academic research\". Norms are summary statistics computed from an open dataset. Russian translation and all result texts by testik.",
+  "instructions": {
+    "ru": "Перед вами 60 утверждений о вас. Отметьте, насколько вы согласны с каждым, по шкале от «совершенно не согласен» до «совершенно согласен». Отвечайте честно и не задумывайтесь слишком долго — правильных ответов нет.",
+    "en": "You will see 60 statements about yourself. Indicate how much you agree with each, from \"strongly disagree\" to \"strongly agree\". Answer honestly and do not think too long; there are no right answers."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Совершенно не согласен(на)",
+        "en": "Strongly disagree"
+      },
+      {
+        "ru": "Не согласен(на)",
+        "en": "Disagree"
+      },
+      {
+        "ru": "Скорее не согласен(на)",
+        "en": "Slightly disagree"
+      },
+      {
+        "ru": "Нейтрально",
+        "en": "Neutral"
+      },
+      {
+        "ru": "Скорее согласен(на)",
+        "en": "Slightly agree"
+      },
+      {
+        "ru": "Согласен(на)",
+        "en": "Agree"
+      },
+      {
+        "ru": "Совершенно согласен(на)",
+        "en": "Strongly agree"
+      }
+    ],
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "honesty-humility",
+      "name": {
+        "ru": "Честность — скромность (H)",
+        "en": "Honesty-Humility (H)"
+      },
+      "description": {
+        "ru": "Шестой фактор, которого нет в «Большой пятёрке»: искренность, справедливость, равнодушие к богатству и статусу, скромность. Высокие баллы — нежелание манипулировать и обманывать ради выгоды; низкие — прагматизм, тяга к статусу и готовность «играть по своим правилам». Фасеты: искренность, справедливость, избегание жадности, скромность.",
+        "en": "The sixth factor missing from the Big Five: sincerity, fairness, indifference to wealth and status, and modesty. High scorers avoid manipulating or cheating for gain; low scorers are pragmatic, status-seeking and willing to play by their own rules. Facets: Sincerity, Fairness, Greed Avoidance, Modesty."
+      },
+      "lowLabel": {
+        "ru": "прагматичный, статусный",
+        "en": "pragmatic, status-seeking"
+      },
+      "highLabel": {
+        "ru": "искренний, скромный",
+        "en": "sincere, modest"
+      },
+      "color": "#FDE2A7",
+      "scoring": "sum",
+      "min": 10,
+      "max": 70,
+      "norms": {
+        "mean": 46.43,
+        "sd": 10.48,
+        "n": 21643,
+        "population": "Online respondents to the IPIP-HEXACO scales at the Open-Source Psychometrics Project (2014; 66% US, 8% Canada, 5% UK, 4% Australia); cleaned: both validity questions ≥5/7, no missing answers, non-constant responding",
+        "source": "Computed by testik from the open dataset openpsychometrics.org/_rawdata/HEXACO.zip (mirrored at github.com/haghish/openpsychometrics), for exactly these 10 items on the same 7-point scale; α = 0.78"
+      },
+      "bands": [
+        {
+          "min": 10,
+          "max": 32,
+          "label": {
+            "ru": "Очень низкий уровень",
+            "en": "Very low"
+          },
+          "summary": [
+            {
+              "ru": "Цель для вас важнее средств",
+              "en": "For you, the goal matters more than the means"
+            },
+            {
+              "ru": "Цените статус, власть и роскошь",
+              "en": "You value status, power and luxury"
+            },
+            {
+              "ru": "Готовы польстить или схитрить ради выгоды",
+              "en": "Willing to flatter or bend rules for gain"
+            },
+            {
+              "ru": "Уверены в своём превосходстве",
+              "en": "Confident you are a cut above"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в нижних ~10%. Вы прагматичны и амбициозны: не считаете зазорным произвести нужное впечатление, «подыграть» влиятельным людям или воспользоваться выгодной ситуацией. Это может помогать в конкурентной среде и переговорах.\n\nОднако низкая честность-скромность — один из самых надёжных предикторов конфликтов, потери доверия и рискованного поведения в долгосрочной перспективе. Совет: проверяйте решения вопросом «как бы это выглядело, если бы о нём узнали все?». Репутация надёжного человека — капитал, который со временем приносит больше, чем быстрая выгода.",
+            "en": "Your score is in the bottom ~10%. You are pragmatic and ambitious: you see nothing wrong with making the right impression, playing up to influential people or using an advantageous situation. This can help in competitive settings and negotiations.\n\nHowever, low Honesty-Humility is one of the most reliable predictors of conflict, lost trust and risky behaviour in the long run. Tip: test decisions with the question \"how would this look if everyone knew about it?\". A reputation for trustworthiness is capital that pays more over time than quick gains."
+          }
+        },
+        {
+          "min": 33,
+          "max": 40,
+          "label": {
+            "ru": "Низкий уровень",
+            "en": "Low"
+          },
+          "summary": [
+            {
+              "ru": "Прагматичны в отношениях",
+              "en": "Pragmatic in relationships"
+            },
+            {
+              "ru": "Цените успех и признание",
+              "en": "You value success and recognition"
+            },
+            {
+              "ru": "Иногда допускаете «стратегическую» неискренность",
+              "en": "Occasionally strategically insincere"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы скорее прагматик: статус, деньги и признание для вас значимы, и ради цели вы можете проявить хитрость или польстить. При этом вы не лишены принципов. Совет: определите для себя «красные линии», которые вы не переходите ни при каких условиях — это упрощает решения и укрепляет доверие к вам.",
+            "en": "You are more of a pragmatist: status, money and recognition matter to you, and you may use cunning or flattery to reach a goal. Still, you have principles. Tip: define for yourself the red lines you never cross; it simplifies decisions and strengthens trust in you."
+          }
+        },
+        {
+          "min": 41,
+          "max": 51,
+          "label": {
+            "ru": "Средний уровень",
+            "en": "Average"
+          },
+          "summary": [
+            {
+              "ru": "Обычно честны и справедливы",
+              "en": "Usually honest and fair"
+            },
+            {
+              "ru": "Умеренный интерес к статусу и деньгам",
+              "en": "Moderate interest in status and money"
+            },
+            {
+              "ru": "Можете проявить дипломатичность",
+              "en": "You can be diplomatic"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень честности-скромности близок к среднему. Вы в целом честны и не используете людей, хотя статус и материальные блага для вас не безразличны, а в сложных ситуациях вы можете прибегнуть к дипломатичной неправде. Совет: замечайте ситуации, где выгода соблазняет «срезать угол», — именно там формируется репутация.",
+            "en": "Your Honesty-Humility is close to average. You are generally honest and do not use people, although status and material goods are not unimportant to you, and in tricky situations you may resort to a diplomatic untruth. Tip: notice situations where gain tempts you to cut corners; that is exactly where reputations are made."
+          }
+        },
+        {
+          "min": 52,
+          "max": 59,
+          "label": {
+            "ru": "Высокий уровень",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Искренни и не манипулируете",
+              "en": "Sincere, you do not manipulate"
+            },
+            {
+              "ru": "Справедливы даже без контроля",
+              "en": "Fair even when nobody checks"
+            },
+            {
+              "ru": "Равнодушны к роскоши и статусу",
+              "en": "Indifferent to luxury and status"
+            },
+            {
+              "ru": "Скромны",
+              "en": "Modest"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы честны и скромны: не льстите ради выгоды, не нарушаете правила, когда никто не видит, и не стремитесь к роскоши и власти. Люди вам доверяют, и это прочная основа отношений и сотрудничества. Совет: ваша порядочность — сила, но будьте внимательны к тем, кто может ею воспользоваться; доверяйте, но замечайте манипуляции.",
+            "en": "You are honest and modest: you do not flatter for gain, do not break rules when nobody is watching and do not chase luxury or power. People trust you, and that is a solid foundation for relationships and cooperation. Tip: your decency is a strength, but watch out for those who might exploit it; trust, but notice manipulation."
+          }
+        },
+        {
+          "min": 60,
+          "max": 70,
+          "label": {
+            "ru": "Очень высокий уровень",
+            "en": "Very high"
+          },
+          "summary": [
+            {
+              "ru": "Высокая принципиальность",
+              "en": "Strongly principled"
+            },
+            {
+              "ru": "Чужое для вас неприкосновенно",
+              "en": "Others' property is untouchable to you"
+            },
+            {
+              "ru": "Совершенно не стремитесь выделяться",
+              "en": "No wish to stand out"
+            },
+            {
+              "ru": "Можете недооценивать свои заслуги",
+              "en": "May undersell your achievements"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в верхних ~10%. Честность и скромность — ядро вашей личности: вы скорее проиграете, чем схитрите, и не придаёте значения богатству и статусу. Такие люди — опора доверия в командах и семьях.\n\nСовет: крайняя скромность может мешать продвижению и признанию. Спокойно и фактически рассказывать о своих результатах — не хвастовство, а честность по отношению к себе. И помните, что не все разделяют ваши правила: здоровая осторожность защищает от тех, кто склонен пользоваться чужой порядочностью.",
+            "en": "Your score is in the top ~10%. Honesty and modesty are the core of your personality: you would rather lose than cheat, and wealth and status mean little to you. People like you are the anchors of trust in teams and families.\n\nTip: extreme modesty can hold back your advancement and recognition. Describing your results calmly and factually is not boasting; it is honesty towards yourself. And remember that not everyone shares your rules: healthy caution protects you from people who exploit decency."
+          }
+        }
+      ]
+    },
+    {
+      "id": "emotionality",
+      "name": {
+        "ru": "Эмоциональность (E)",
+        "en": "Emotionality (E)"
+      },
+      "description": {
+        "ru": "Боязливость, тревожность, потребность в поддержке и сентиментальность. В отличие от «нейротизма» Большой пятёрки, сюда не входит гнев (он — на полюсе доброжелательности), зато входят привязанность и сопереживание. Фасеты: боязливость, тревожность, зависимость, сентиментальность.",
+        "en": "Fearfulness, anxiety, need for support and sentimentality. Unlike Big Five Neuroticism, this factor does not include anger (which belongs to the Agreeableness pole), but it does include attachment and empathic concern. Facets: Fearfulness, Anxiety, Dependence, Sentimentality."
+      },
+      "lowLabel": {
+        "ru": "бесстрашный, независимый",
+        "en": "fearless, independent"
+      },
+      "highLabel": {
+        "ru": "чувствительный, привязчивый",
+        "en": "sensitive, attached"
+      },
+      "color": "#F4B6C2",
+      "scoring": "sum",
+      "min": 10,
+      "max": 70,
+      "norms": {
+        "mean": 43.9,
+        "sd": 10.46,
+        "n": 21643,
+        "population": "Online respondents to the IPIP-HEXACO scales at the Open-Source Psychometrics Project (2014; 66% US, 8% Canada, 5% UK, 4% Australia); cleaned: both validity questions ≥5/7, no missing answers, non-constant responding",
+        "source": "Computed by testik from the open dataset openpsychometrics.org/_rawdata/HEXACO.zip (mirrored at github.com/haghish/openpsychometrics), for exactly these 10 items on the same 7-point scale; α = 0.82"
+      },
+      "bands": [
+        {
+          "min": 10,
+          "max": 30,
+          "label": {
+            "ru": "Очень низкий уровень",
+            "en": "Very low"
+          },
+          "summary": [
+            {
+              "ru": "Почти не боитесь опасности",
+              "en": "You hardly fear danger"
+            },
+            {
+              "ru": "Редко тревожитесь",
+              "en": "You rarely worry"
+            },
+            {
+              "ru": "Не нуждаетесь в чужой поддержке",
+              "en": "You do not need others' support"
+            },
+            {
+              "ru": "Эмоционально сдержанны",
+              "en": "Emotionally reserved"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в нижних ~10%. Вы бесстрашны, независимы и спокойны: опасность, стресс и неудачи мало вас пугают, а проблемы вы предпочитаете решать сами. Это ценно в рискованных и кризисных ролях.\n\nСовет: очень низкая эмоциональность иногда сопровождается недооценкой рисков и меньшей чуткостью к переживаниям других. Перед рискованными решениями взвешивайте последствия, а в отношениях проговаривайте участие словами — близким это важно.",
+            "en": "Your score is in the bottom ~10%. You are fearless, independent and calm: danger, stress and setbacks barely frighten you, and you prefer to solve problems on your own. This is valuable in risky and crisis roles.\n\nTip: very low Emotionality sometimes comes with underestimating risks and being less attuned to others' feelings. Weigh the consequences before risky decisions, and in relationships put your care into words; it matters to the people close to you."
+          }
+        },
+        {
+          "min": 31,
+          "max": 38,
+          "label": {
+            "ru": "Низкий уровень",
+            "en": "Low"
+          },
+          "summary": [
+            {
+              "ru": "Скорее смелы и спокойны",
+              "en": "Rather brave and calm"
+            },
+            {
+              "ru": "Справляетесь с проблемами самостоятельно",
+              "en": "You handle problems on your own"
+            },
+            {
+              "ru": "Сдержанно проявляете чувства",
+              "en": "You show feelings sparingly"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы скорее эмоционально независимы: стресс и опасность вас не парализуют, а поддержку вы ищете нечасто. Совет: самостоятельность — сила, но принимать помощь тоже полезно, особенно в трудные периоды.",
+            "en": "You are rather emotionally independent: stress and danger do not paralyse you, and you seldom look for support. Tip: self-reliance is a strength, but accepting help is useful too, especially in hard times."
+          }
+        },
+        {
+          "min": 39,
+          "max": 49,
+          "label": {
+            "ru": "Средний уровень",
+            "en": "Average"
+          },
+          "summary": [
+            {
+              "ru": "Обычная чувствительность",
+              "en": "Typical sensitivity"
+            },
+            {
+              "ru": "Переживаете, когда есть повод",
+              "en": "You worry when there is reason to"
+            },
+            {
+              "ru": "Цените поддержку близких",
+              "en": "You value support from loved ones"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень эмоциональности средний: вы переживаете и тревожитесь соразмерно ситуации, сочувствуете другим и цените поддержку, но не зависите от неё. Совет: продолжайте опираться на близких и простые способы снятия стресса — сон, движение, разговор.",
+            "en": "Your Emotionality is average: you worry in proportion to the situation, feel for others and value support without depending on it. Tip: keep leaning on loved ones and simple stress relievers: sleep, movement, conversation."
+          }
+        },
+        {
+          "min": 50,
+          "max": 57,
+          "label": {
+            "ru": "Высокий уровень",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Тонко чувствуете и сопереживаете",
+              "en": "You feel keenly and empathise"
+            },
+            {
+              "ru": "Склонны тревожиться",
+              "en": "Prone to worry"
+            },
+            {
+              "ru": "Важна поддержка близких",
+              "en": "Support from loved ones matters"
+            },
+            {
+              "ru": "Осторожны перед лицом опасности",
+              "en": "Cautious in the face of danger"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы эмоционально чувствительны: остро переживаете события, сочувствуете чужой боли, цените близость и поддержку и избегаете ненужного риска. Это делает вас чутким другом и партнёром. Совет: развивайте навыки самоуспокоения (дыхание, переформулирование мыслей) и не стесняйтесь просить о поддержке — это нормально.",
+            "en": "You are emotionally sensitive: you experience events intensely, feel others' pain, value closeness and support, and avoid unnecessary risk. That makes you a caring friend and partner. Tip: build self-soothing skills (breathing, reframing thoughts) and do not hesitate to ask for support; it is normal."
+          }
+        },
+        {
+          "min": 58,
+          "max": 70,
+          "label": {
+            "ru": "Очень высокий уровень",
+            "en": "Very high"
+          },
+          "summary": [
+            {
+              "ru": "Очень сильные переживания",
+              "en": "Very strong feelings"
+            },
+            {
+              "ru": "Частая тревога и страхи",
+              "en": "Frequent worry and fears"
+            },
+            {
+              "ru": "Сильная потребность в поддержке",
+              "en": "A strong need for support"
+            },
+            {
+              "ru": "Глубокая эмпатия",
+              "en": "Deep empathy"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в верхних ~10%. Вы очень глубоко чувствуете — и своё, и чужое; тревога и страх могут возникать часто, а поддержка близких для вас особенно важна. Это источник эмпатии и тёплых привязанностей.\n\nСовет: заботьтесь о своей нервной системе — режим, движение, техники осознанности и когнитивно-поведенческие приёмы хорошо помогают. Если тревога мешает жить, обратитесь к психологу; в кризисе — за экстренной помощью (экстренные службы — 112; в Москве — служба психологической помощи 051 (с мобильного 8-495-051), бесплатно и круглосуточно; детям и подросткам — Детский телефон доверия 8-800-2000-122).",
+            "en": "Your score is in the top ~10%. You feel very deeply, both your own emotions and other people's; worry and fear may come often, and support from loved ones is especially important to you. This is a source of empathy and warm attachments.\n\nTip: look after your nervous system with routine, exercise, mindfulness and CBT techniques, which help a lot. If anxiety gets in the way of life, see a psychologist; in a crisis, get urgent help (emergency services: 112 (Russia and EU); in Moscow, the free 24/7 psychological help service 051 (8-495-051 from a mobile); children and teens in Russia: 8-800-2000-122)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "extraversion",
+      "name": {
+        "ru": "Экстраверсия (X)",
+        "en": "eXtraversion (X)"
+      },
+      "description": {
+        "ru": "Социальная самооценка, смелость в общении, общительность и жизненная энергия. Высокие баллы — уверенность в себе среди людей, любовь к компаниям и бодрость; низкие — сдержанность и предпочтение спокойной обстановки. Фасеты: экспрессивность, социальная смелость, общительность, жизнерадостность.",
+        "en": "Social self-esteem, social boldness, sociability and liveliness. High scorers feel confident among people, enjoy company and are full of energy; low scorers are reserved and prefer calm settings. Facets: Expressiveness, Social Boldness, Sociability, Liveliness."
+      },
+      "lowLabel": {
+        "ru": "сдержанный, тихий",
+        "en": "reserved, quiet"
+      },
+      "highLabel": {
+        "ru": "общительный, уверенный",
+        "en": "outgoing, confident"
+      },
+      "color": "#FFD8A8",
+      "scoring": "sum",
+      "min": 10,
+      "max": 70,
+      "norms": {
+        "mean": 36.18,
+        "sd": 12.03,
+        "n": 21643,
+        "population": "Online respondents to the IPIP-HEXACO scales at the Open-Source Psychometrics Project (2014; 66% US, 8% Canada, 5% UK, 4% Australia); cleaned: both validity questions ≥5/7, no missing answers, non-constant responding",
+        "source": "Computed by testik from the open dataset openpsychometrics.org/_rawdata/HEXACO.zip (mirrored at github.com/haghish/openpsychometrics), for exactly these 10 items on the same 7-point scale; α = 0.87"
+      },
+      "bands": [
+        {
+          "min": 10,
+          "max": 20,
+          "label": {
+            "ru": "Очень низкий уровень",
+            "en": "Very low"
+          },
+          "summary": [
+            {
+              "ru": "Явно предпочитаете тишину и уединение",
+              "en": "A clear preference for quiet and solitude"
+            },
+            {
+              "ru": "Неуютно в центре внимания",
+              "en": "Uncomfortable in the spotlight"
+            },
+            {
+              "ru": "Общение быстро утомляет",
+              "en": "Socialising tires you quickly"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в нижних ~10%. Вам комфортнее в спокойной обстановке, вдали от шумных компаний и публичности; энергия восстанавливается в одиночестве. Совет: выбирайте роли и форматы, где ценится глубина и самостоятельность, а важные выступления готовьте заранее — подготовка заметно снижает дискомфорт.",
+            "en": "Your score is in the bottom ~10%. You are most comfortable in calm settings, away from noisy groups and publicity, and you recharge alone. Tip: choose roles and formats that value depth and independence, and prepare important presentations in advance; preparation noticeably reduces discomfort."
+          }
+        },
+        {
+          "min": 21,
+          "max": 29,
+          "label": {
+            "ru": "Низкий уровень",
+            "en": "Low"
+          },
+          "summary": [
+            {
+              "ru": "Скорее сдержанны",
+              "en": "Rather reserved"
+            },
+            {
+              "ru": "Предпочитаете узкий круг",
+              "en": "You prefer a small circle"
+            },
+            {
+              "ru": "Не стремитесь лидировать",
+              "en": "You do not seek to lead"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы склоняетесь к интроверсии: общаетесь охотно, но в небольших дозах и с близкими людьми. Совет: если хочется больше уверенности на людях, тренируйтесь маленькими шагами — один вопрос на встрече, одно новое знакомство.",
+            "en": "You lean towards introversion: you socialise willingly, but in small doses and with close people. Tip: if you want more confidence among people, practise in small steps, one question in a meeting, one new acquaintance."
+          }
+        },
+        {
+          "min": 30,
+          "max": 42,
+          "label": {
+            "ru": "Средний уровень",
+            "en": "Average"
+          },
+          "summary": [
+            {
+              "ru": "Баланс общения и уединения",
+              "en": "A balance of people and solitude"
+            },
+            {
+              "ru": "Уверенно чувствуете себя в знакомой среде",
+              "en": "Confident in familiar settings"
+            },
+            {
+              "ru": "Энергия на среднем уровне",
+              "en": "Average energy level"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень экстраверсии средний: вы можете быть и душой компании, и тихим наблюдателем — по ситуации. Совет: прислушивайтесь к своему состоянию и чередуйте насыщенные и спокойные дни.",
+            "en": "Your eXtraversion is average: you can be the life of the party or a quiet observer, depending on the situation. Tip: listen to how you feel and alternate busy and quiet days."
+          }
+        },
+        {
+          "min": 43,
+          "max": 51,
+          "label": {
+            "ru": "Высокий уровень",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Общительны и уверены в себе",
+              "en": "Sociable and self-confident"
+            },
+            {
+              "ru": "Легко заводите друзей",
+              "en": "You make friends easily"
+            },
+            {
+              "ru": "Бодры и энергичны",
+              "en": "Lively and energetic"
+            },
+            {
+              "ru": "Охотно берёте инициативу",
+              "en": "You readily take the initiative"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы экстраверт: уверенно чувствуете себя среди людей, легко знакомитесь, охотно выступаете и заряжаете окружающих энергией. Совет: оставляйте место для других голосов в разговоре и время на восстановление — так ваша энергия не иссякнет.",
+            "en": "You are an extravert: you feel confident among people, meet others easily, speak up readily and energise those around you. Tip: leave room for other voices in conversation and time for recovery so your energy does not run dry."
+          }
+        },
+        {
+          "min": 52,
+          "max": 70,
+          "label": {
+            "ru": "Очень высокий уровень",
+            "en": "Very high"
+          },
+          "summary": [
+            {
+              "ru": "Очень общительны и энергичны",
+              "en": "Very outgoing and energetic"
+            },
+            {
+              "ru": "Любите быть в центре внимания",
+              "en": "You love the spotlight"
+            },
+            {
+              "ru": "Естественный лидер в компании",
+              "en": "A natural leader in any group"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в верхних ~10%. Вы полны энергии, уверены в себе, обожаете общение и естественно становитесь центром компании. Совет: такая яркость вдохновляет, но может «перекрывать» других; сознательно задавайте вопросы и слушайте — это сделает ваше влияние ещё сильнее.",
+            "en": "Your score is in the top ~10%. You are full of energy, self-confident, love socialising and naturally become the centre of any group. Tip: such brightness inspires, but it can drown others out; deliberately ask questions and listen, and your influence will grow even stronger."
+          }
+        }
+      ]
+    },
+    {
+      "id": "agreeableness",
+      "name": {
+        "ru": "Доброжелательность (A)",
+        "en": "Agreeableness (A)"
+      },
+      "description": {
+        "ru": "В модели HEXACO — прежде всего терпимость: готовность прощать, мягкость в оценках, гибкость и терпеливость. Низкие баллы — злопамятность, критичность, упрямство и вспыльчивость. Фасеты: прощение, мягкость, гибкость, терпеливость.",
+        "en": "In the HEXACO model, mainly tolerance: forgiveness, gentleness in judging others, flexibility and patience. Low scorers hold grudges and are critical, stubborn and quick-tempered. Facets: Forgiveness, Gentleness, Flexibility, Patience."
+      },
+      "lowLabel": {
+        "ru": "критичный, вспыльчивый",
+        "en": "critical, quick-tempered"
+      },
+      "highLabel": {
+        "ru": "терпимый, прощающий",
+        "en": "tolerant, forgiving"
+      },
+      "color": "#B5EAD7",
+      "scoring": "sum",
+      "min": 10,
+      "max": 70,
+      "norms": {
+        "mean": 41.21,
+        "sd": 10.84,
+        "n": 21643,
+        "population": "Online respondents to the IPIP-HEXACO scales at the Open-Source Psychometrics Project (2014; 66% US, 8% Canada, 5% UK, 4% Australia); cleaned: both validity questions ≥5/7, no missing answers, non-constant responding",
+        "source": "Computed by testik from the open dataset openpsychometrics.org/_rawdata/HEXACO.zip (mirrored at github.com/haghish/openpsychometrics), for exactly these 10 items on the same 7-point scale; α = 0.83"
+      },
+      "bands": [
+        {
+          "min": 10,
+          "max": 27,
+          "label": {
+            "ru": "Очень низкий уровень",
+            "en": "Very low"
+          },
+          "summary": [
+            {
+              "ru": "Легко раздражаетесь и сердитесь",
+              "en": "You get irritated and angry easily"
+            },
+            {
+              "ru": "Долго помните обиды",
+              "en": "You remember grudges for a long time"
+            },
+            {
+              "ru": "Критичны к чужим ошибкам",
+              "en": "Critical of others' mistakes"
+            },
+            {
+              "ru": "Отстаиваете позицию до конца",
+              "en": "You hold your ground to the end"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в нижних ~10%. Вам свойственны требовательность, прямота и быстрая реакция на несправедливость; вы не спешите прощать и не любите уступать. Это помогает отстаивать интересы, но может создавать напряжение в отношениях.\n\nСовет: замечайте ранние признаки раздражения и делайте паузу перед ответом; попробуйте отделять поступок от человека («ошибка — не характер»). Навыки управления гневом хорошо тренируются и заметно улучшают отношения.",
+            "en": "Your score is in the bottom ~10%. You tend to be demanding, direct and quick to react to unfairness; you are slow to forgive and dislike giving in. This helps you defend your interests but can create tension in relationships.\n\nTip: notice early signs of irritation and pause before responding; try to separate the act from the person (\"a mistake is not a character\"). Anger-management skills are very trainable and noticeably improve relationships."
+          }
+        },
+        {
+          "min": 28,
+          "max": 35,
+          "label": {
+            "ru": "Низкий уровень",
+            "en": "Low"
+          },
+          "summary": [
+            {
+              "ru": "Требовательны к людям",
+              "en": "Demanding of others"
+            },
+            {
+              "ru": "Можете вспылить",
+              "en": "You can flare up"
+            },
+            {
+              "ru": "Прощаете не сразу",
+              "en": "You do not forgive right away"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы скорее требовательны и прямолинейны: чужие ошибки вас раздражают, а обиды забываются не сразу. Совет: перед критикой ищите, что можно отметить положительного, — так вас услышат лучше.",
+            "en": "You are rather demanding and direct: others' mistakes annoy you, and you do not forget offences right away. Tip: before criticising, look for something positive to mention; people will hear you better."
+          }
+        },
+        {
+          "min": 36,
+          "max": 46,
+          "label": {
+            "ru": "Средний уровень",
+            "en": "Average"
+          },
+          "summary": [
+            {
+              "ru": "Обычно терпимы",
+              "en": "Usually tolerant"
+            },
+            {
+              "ru": "Сердитесь, когда есть повод",
+              "en": "You get angry when there is reason"
+            },
+            {
+              "ru": "Умеете идти на компромисс",
+              "en": "You can compromise"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень доброжелательности средний: вы можете рассердиться, но умеете остыть, простить и договориться. Совет: такая гибкость помогает сохранять отношения, не теряя себя.",
+            "en": "Your Agreeableness is average: you can get angry, but you know how to cool down, forgive and reach agreement. Tip: this flexibility helps preserve relationships without losing yourself."
+          }
+        },
+        {
+          "min": 47,
+          "max": 55,
+          "label": {
+            "ru": "Высокий уровень",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Терпеливы и спокойны",
+              "en": "Patient and calm"
+            },
+            {
+              "ru": "Легко прощаете",
+              "en": "You forgive easily"
+            },
+            {
+              "ru": "Мягки в оценках",
+              "en": "Gentle in your judgements"
+            },
+            {
+              "ru": "Открыты к чужому мнению",
+              "en": "Open to other opinions"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы терпимы и миролюбивы: редко сердитесь, легко прощаете и не спешите осуждать. С вами легко работать и жить. Совет: проследите, чтобы терпимость не превращалась в молчаливое согласие с тем, что вас действительно не устраивает.",
+            "en": "You are tolerant and peaceable: you rarely get angry, forgive easily and are slow to judge. You are easy to work and live with. Tip: make sure tolerance does not turn into silent acceptance of things that genuinely bother you."
+          }
+        },
+        {
+          "min": 56,
+          "max": 70,
+          "label": {
+            "ru": "Очень высокий уровень",
+            "en": "Very high"
+          },
+          "summary": [
+            {
+              "ru": "Почти невозможно вывести из себя",
+              "en": "Almost impossible to provoke"
+            },
+            {
+              "ru": "Прощаете практически всё",
+              "en": "You forgive almost anything"
+            },
+            {
+              "ru": "Избегаете критики и споров",
+              "en": "You avoid criticism and arguments"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в верхних ~10%. Ваше терпение и готовность прощать исключительны; вы редко кого-то осуждаете и почти не держите зла. Совет: очень высокая терпимость может делать вас удобной мишенью для тех, кто злоупотребляет добротой. Учитесь спокойно обозначать границы — это не противоречит миролюбию.",
+            "en": "Your score is in the top ~10%. Your patience and willingness to forgive are exceptional; you rarely judge anyone and hardly ever hold a grudge. Tip: very high tolerance can make you an easy target for people who abuse kindness. Learn to set boundaries calmly; it does not contradict being peaceable."
+          }
+        }
+      ]
+    },
+    {
+      "id": "conscientiousness",
+      "name": {
+        "ru": "Добросовестность (C)",
+        "en": "Conscientiousness (C)"
+      },
+      "description": {
+        "ru": "Организованность, усердие, перфекционизм и благоразумие. Высокие баллы — порядок, трудолюбие, тщательность и обдуманность решений; низкие — спонтанность, небрежность к деталям и импульсивность. Фасеты: организованность, усердие, перфекционизм, благоразумие.",
+        "en": "Organisation, diligence, perfectionism and prudence. High scorers are orderly, hard-working, thorough and deliberate; low scorers are spontaneous, casual about details and impulsive. Facets: Organization, Diligence, Perfectionism, Prudence."
+      },
+      "lowLabel": {
+        "ru": "спонтанный, импульсивный",
+        "en": "spontaneous, impulsive"
+      },
+      "highLabel": {
+        "ru": "организованный, тщательный",
+        "en": "organised, thorough"
+      },
+      "color": "#A0C4FF",
+      "scoring": "sum",
+      "min": 10,
+      "max": 70,
+      "norms": {
+        "mean": 42.03,
+        "sd": 9.9,
+        "n": 21643,
+        "population": "Online respondents to the IPIP-HEXACO scales at the Open-Source Psychometrics Project (2014; 66% US, 8% Canada, 5% UK, 4% Australia); cleaned: both validity questions ≥5/7, no missing answers, non-constant responding",
+        "source": "Computed by testik from the open dataset openpsychometrics.org/_rawdata/HEXACO.zip (mirrored at github.com/haghish/openpsychometrics), for exactly these 10 items on the same 7-point scale; α = 0.79"
+      },
+      "bands": [
+        {
+          "min": 10,
+          "max": 29,
+          "label": {
+            "ru": "Очень низкий уровень",
+            "en": "Very low"
+          },
+          "summary": [
+            {
+              "ru": "Живёте спонтанно",
+              "en": "You live spontaneously"
+            },
+            {
+              "ru": "Не любите планов и рутины",
+              "en": "You dislike plans and routine"
+            },
+            {
+              "ru": "Решения принимаете быстро и сходу",
+              "en": "You decide quickly, on the spot"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в нижних ~10%. Вы цените свободу и импровизацию, не любите расписаний и мелочей и часто действуете под влиянием момента. Совет: используйте внешние опоры — напоминания, чек-листы, правило «ночь на размышление» для крупных решений. Начните с одной полезной привычки и закрепите её.",
+            "en": "Your score is in the bottom ~10%. You value freedom and improvisation, dislike schedules and details and often act on the spur of the moment. Tip: use external supports such as reminders, checklists and a sleep-on-it rule for big decisions. Start with one useful habit and make it stick."
+          }
+        },
+        {
+          "min": 30,
+          "max": 36,
+          "label": {
+            "ru": "Низкий уровень",
+            "en": "Low"
+          },
+          "summary": [
+            {
+              "ru": "Скорее гибки, чем педантичны",
+              "en": "More flexible than meticulous"
+            },
+            {
+              "ru": "Иногда откладываете дела",
+              "en": "You sometimes procrastinate"
+            },
+            {
+              "ru": "Детали — не главное",
+              "en": "Details are not your focus"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы скорее непринуждённы: справляетесь с делами, но без лишнего перфекционизма и строгих планов. Совет: выберите 2–3 важные сферы (здоровье, деньги, ключевые обязательства) и введите для них простые правила.",
+            "en": "You are rather easy-going: you get things done, but without extra perfectionism or strict plans. Tip: choose two or three important areas (health, money, key commitments) and set simple rules for them."
+          }
+        },
+        {
+          "min": 37,
+          "max": 47,
+          "label": {
+            "ru": "Средний уровень",
+            "en": "Average"
+          },
+          "summary": [
+            {
+              "ru": "Достаточно организованны",
+              "en": "Reasonably organised"
+            },
+            {
+              "ru": "Усердны в важном",
+              "en": "Diligent about what matters"
+            },
+            {
+              "ru": "Обдумываете серьёзные решения",
+              "en": "You think serious decisions through"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень добросовестности средний: вы планируете и стараетесь, когда это важно, но не превращаете жизнь в расписание. Совет: конкретные цели и отслеживание прогресса — лучший способ при желании усилить эту черту.",
+            "en": "Your Conscientiousness is average: you plan and make an effort when it matters, but you do not turn life into a timetable. Tip: concrete goals and progress tracking are the best way to strengthen this trait if you want to."
+          }
+        },
+        {
+          "min": 48,
+          "max": 54,
+          "label": {
+            "ru": "Высокий уровень",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Организованны и трудолюбивы",
+              "en": "Organised and hard-working"
+            },
+            {
+              "ru": "Внимательны к деталям",
+              "en": "Attentive to details"
+            },
+            {
+              "ru": "Думаете, прежде чем действовать",
+              "en": "You think before acting"
+            },
+            {
+              "ru": "Доводите дела до конца",
+              "en": "You finish what you start"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы добросовестны: держите вещи и дела в порядке, много работаете, обращаете внимание на детали и обдумываете решения. Это один из сильнейших предикторов успеха в работе и учёбе. Совет: планируйте не только задачи, но и отдых — это часть эффективности.",
+            "en": "You are conscientious: you keep things and tasks in order, work hard, pay attention to details and think decisions through. This is one of the strongest predictors of success at work and school. Tip: schedule rest as well as tasks; it is part of effectiveness."
+          }
+        },
+        {
+          "min": 55,
+          "max": 70,
+          "label": {
+            "ru": "Очень высокий уровень",
+            "en": "Very high"
+          },
+          "summary": [
+            {
+              "ru": "Очень высокая требовательность к себе",
+              "en": "Very demanding of yourself"
+            },
+            {
+              "ru": "Стремитесь к идеалу",
+              "en": "You strive for perfection"
+            },
+            {
+              "ru": "Всё планируете и контролируете",
+              "en": "You plan and check everything"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в верхних ~10%. Вы исключительно организованны, усердны и тщательны; на вас можно положиться в самом сложном деле. Совет: оборотная сторона — перфекционизм и трудность расслабиться. Разрешайте себе «достаточно хорошо» в неважных делах, делегируйте и оставляйте в неделе время без целей.",
+            "en": "Your score is in the top ~10%. You are exceptionally organised, diligent and thorough; people can rely on you for the hardest jobs. Tip: the flip side is perfectionism and difficulty relaxing. Allow yourself \"good enough\" on unimportant tasks, delegate and keep some goal-free time in your week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "openness",
+      "name": {
+        "ru": "Открытость опыту (O)",
+        "en": "Openness to Experience (O)"
+      },
+      "description": {
+        "ru": "Эстетическое восприятие, пытливость ума, креативность и нестандартность. Высокие баллы — интерес к искусству, идеям и необычному; низкие — практичность, конкретность и приверженность привычному. Фасеты: эстетическое восприятие, пытливость, креативность, нестандартность.",
+        "en": "Aesthetic appreciation, inquisitiveness, creativity and unconventionality. High scorers are drawn to art, ideas and the unusual; low scorers are practical, concrete and attached to the familiar. Facets: Aesthetic Appreciation, Inquisitiveness, Creativity, Unconventionality."
+      },
+      "lowLabel": {
+        "ru": "практичный, традиционный",
+        "en": "practical, conventional"
+      },
+      "highLabel": {
+        "ru": "любознательный, нестандартный",
+        "en": "curious, unconventional"
+      },
+      "color": "#C3B1E1",
+      "scoring": "sum",
+      "min": 10,
+      "max": 70,
+      "norms": {
+        "mean": 54.31,
+        "sd": 7.67,
+        "n": 21643,
+        "population": "Online respondents to the IPIP-HEXACO scales at the Open-Source Psychometrics Project (2014; 66% US, 8% Canada, 5% UK, 4% Australia); cleaned: both validity questions ≥5/7, no missing answers, non-constant responding",
+        "source": "Computed by testik from the open dataset openpsychometrics.org/_rawdata/HEXACO.zip (mirrored at github.com/haghish/openpsychometrics), for exactly these 10 items on the same 7-point scale; α = 0.71"
+      },
+      "bands": [
+        {
+          "min": 10,
+          "max": 44,
+          "label": {
+            "ru": "Очень низкий уровень",
+            "en": "Very low"
+          },
+          "summary": [
+            {
+              "ru": "Цените проверенное и практичное",
+              "en": "You value the proven and practical"
+            },
+            {
+              "ru": "Равнодушны к искусству и теориям",
+              "en": "Indifferent to art and theory"
+            },
+            {
+              "ru": "Предпочитаете быть «как все»",
+              "en": "You prefer to fit in"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в нижних ~10%. Вы человек конкретных дел: вам ближе практическая польза, чем отвлечённые идеи, искусство или эксперименты. Совет: иногда пробуйте маленькие новшества — книгу нового жанра, другой маршрут, новый инструмент — чтобы не упускать действительно полезные возможности.",
+            "en": "Your score is in the bottom ~10%. You are a person of concrete deeds: practical use appeals to you more than abstract ideas, art or experiments. Tip: try small novelties now and then (a book in a new genre, a different route, a new tool) so you do not miss genuinely useful opportunities."
+          }
+        },
+        {
+          "min": 45,
+          "max": 50,
+          "label": {
+            "ru": "Низкий уровень",
+            "en": "Low"
+          },
+          "summary": [
+            {
+              "ru": "Скорее практичны",
+              "en": "Rather practical"
+            },
+            {
+              "ru": "Новое принимаете с осторожностью",
+              "en": "Cautious about novelty"
+            },
+            {
+              "ru": "Умеренный интерес к идеям",
+              "en": "Moderate interest in ideas"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы скорее реалист: предпочитаете понятное и применимое, к новшествам относитесь осторожно. Совет: правило «одного эксперимента в месяц» помогает развивать гибкость без стресса.",
+            "en": "You are more of a realist: you prefer what is clear and applicable and treat novelty with caution. Tip: a one-experiment-a-month rule helps build flexibility without stress."
+          }
+        },
+        {
+          "min": 51,
+          "max": 58,
+          "label": {
+            "ru": "Средний уровень",
+            "en": "Average"
+          },
+          "summary": [
+            {
+              "ru": "Любопытство в меру",
+              "en": "Curiosity in moderation"
+            },
+            {
+              "ru": "Интерес к новому избирательный",
+              "en": "Selective interest in the new"
+            },
+            {
+              "ru": "Баланс традиций и новизны",
+              "en": "A balance of tradition and novelty"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень открытости средний: в одних областях вы любознательны и смелы, в других предпочитаете привычное. Совет: развивайте те грани открытости, что приносят радость, — искусство, идеи или эксперименты.",
+            "en": "Your Openness is average: in some areas you are curious and bold, in others you prefer the familiar. Tip: develop the facets of openness that bring you joy, whether art, ideas or experiments."
+          }
+        },
+        {
+          "min": 59,
+          "max": 64,
+          "label": {
+            "ru": "Высокий уровень",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Любознательны и изобретательны",
+              "en": "Curious and inventive"
+            },
+            {
+              "ru": "Цените красоту и искусство",
+              "en": "You value beauty and art"
+            },
+            {
+              "ru": "Не боитесь быть необычным",
+              "en": "Not afraid to be unusual"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы открыты опыту: вас привлекают сложные идеи, искусство и нестандартные решения, и вы не боитесь идти своим путём. Совет: выбирайте 1–2 главных проекта и доводите их до результата — широта интересов тогда превращается в достижения.",
+            "en": "You are open to experience: complex ideas, art and unconventional solutions draw you in, and you are not afraid to go your own way. Tip: pick one or two main projects and see them through; then breadth of interest turns into achievement."
+          }
+        },
+        {
+          "min": 65,
+          "max": 70,
+          "label": {
+            "ru": "Очень высокий уровень",
+            "en": "Very high"
+          },
+          "summary": [
+            {
+              "ru": "Очень богатое воображение",
+              "en": "A very rich imagination"
+            },
+            {
+              "ru": "Жадный интерес к идеям",
+              "en": "A hunger for ideas"
+            },
+            {
+              "ru": "Нестандартность — часть вашего «я»",
+              "en": "Being unconventional is part of who you are"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в верхних ~10%. Вы постоянно исследуете, фантазируете и ищете новое, остро чувствуете красоту и легко принимаете необычное. Совет: союз с практичными людьми помогает превращать идеи в результат, а регулярная проверка идей фактами делает их сильнее.",
+            "en": "Your score is in the top ~10%. You are constantly exploring, imagining and seeking the new; you feel beauty keenly and readily embrace the unusual. Tip: teaming up with practical people helps turn ideas into results, and regularly testing ideas against facts makes them stronger."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Не притворяюсь, будто я значу больше, чем на самом деле.",
+        "en": "Don't pretend to be more than I am."
+      },
+      "dimension": "honesty-humility"
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Когда возникает опасность, начинаю паниковать.",
+        "en": "Begin to panic when there is danger."
+      },
+      "dimension": "emotionality"
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Я — душа компании.",
+        "en": "Am the life of the party."
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Склонен(на) прощать других.",
+        "en": "Am inclined to forgive others."
+      },
+      "dimension": "agreeableness"
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Поддерживаю порядок в своих вещах.",
+        "en": "Keep things tidy."
+      },
+      "dimension": "conscientiousness"
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Вижу красоту в том, чего другие могут не заметить.",
+        "en": "See beauty in things that others might not notice."
+      },
+      "dimension": "openness"
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Говорю людям то, что они хотят услышать, чтобы они сделали то, что нужно мне.",
+        "en": "Tell other people what they want to hear so that they will do what I want them to do."
+      },
+      "dimension": "honesty-humility",
+      "reverse": true
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Уверенно встречаю опасность.",
+        "en": "Face danger confidently."
+      },
+      "dimension": "emotionality",
+      "reverse": true
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Говорю мало.",
+        "en": "Say little."
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Долго держу обиду.",
+        "en": "Hold a grudge."
+      },
+      "dimension": "agreeableness",
+      "reverse": true
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Часто забываю класть вещи на место.",
+        "en": "Often forget to put things back in their proper place."
+      },
+      "dimension": "conscientiousness",
+      "reverse": true
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Считаю искусство важным.",
+        "en": "Believe in the importance of art."
+      },
+      "dimension": "openness"
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Пользуюсь лестью, чтобы продвинуться.",
+        "en": "Use flattery to get ahead."
+      },
+      "dimension": "honesty-humility",
+      "reverse": true
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Готов(а) идти на риск.",
+        "en": "Am willing to take risks."
+      },
+      "dimension": "emotionality",
+      "reverse": true
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Чувствую себя комфортно среди людей.",
+        "en": "Feel comfortable around people."
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q16",
+      "text": {
+        "ru": "Для каждого найду доброе слово.",
+        "en": "Have a good word for everyone."
+      },
+      "dimension": "agreeableness"
+    },
+    {
+      "id": "q17",
+      "text": {
+        "ru": "Много и усердно работаю.",
+        "en": "Work hard."
+      },
+      "dimension": "conscientiousness"
+    },
+    {
+      "id": "q18",
+      "text": {
+        "ru": "Не люблю поэзию.",
+        "en": "Do not like poetry."
+      },
+      "dimension": "openness",
+      "reverse": true
+    },
+    {
+      "id": "q19",
+      "text": {
+        "ru": "Никогда не возьму чужого.",
+        "en": "Would never take things that aren't mine."
+      },
+      "dimension": "honesty-humility"
+    },
+    {
+      "id": "q20",
+      "text": {
+        "ru": "Беспокоюсь по разным поводам.",
+        "en": "Worry about things."
+      },
+      "dimension": "emotionality"
+    },
+    {
+      "id": "q21",
+      "text": {
+        "ru": "Держусь в тени.",
+        "en": "Keep in the background."
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q22",
+      "text": {
+        "ru": "Плохо отзываюсь о других.",
+        "en": "Speak ill of others."
+      },
+      "dimension": "agreeableness",
+      "reverse": true
+    },
+    {
+      "id": "q23",
+      "text": {
+        "ru": "Работаю слишком мало.",
+        "en": "Do too little work."
+      },
+      "dimension": "conscientiousness",
+      "reverse": true
+    },
+    {
+      "id": "q24",
+      "text": {
+        "ru": "Люблю читать сложные, интеллектуально насыщенные тексты.",
+        "en": "Love to read challenging material."
+      },
+      "dimension": "openness"
+    },
+    {
+      "id": "q25",
+      "text": {
+        "ru": "Если бы я у кого-то что-то украл(а), меня бы долго мучила совесть.",
+        "en": "Would feel very badly for a long time if I were to steal from someone."
+      },
+      "dimension": "honesty-humility"
+    },
+    {
+      "id": "q26",
+      "text": {
+        "ru": "Легко поддаюсь стрессу.",
+        "en": "Get stressed out easily."
+      },
+      "dimension": "emotionality"
+    },
+    {
+      "id": "q27",
+      "text": {
+        "ru": "У меня есть лидерские способности.",
+        "en": "Have leadership abilities."
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q28",
+      "text": {
+        "ru": "Меня раздражают чужие ошибки.",
+        "en": "Am annoyed by others' mistakes."
+      },
+      "dimension": "agreeableness",
+      "reverse": true
+    },
+    {
+      "id": "q29",
+      "text": {
+        "ru": "Изо всех сил подгоняю себя, чтобы добиться успеха.",
+        "en": "Push myself very hard to succeed."
+      },
+      "dimension": "conscientiousness"
+    },
+    {
+      "id": "q30",
+      "text": {
+        "ru": "Не стану глубоко вникать в какой-либо предмет.",
+        "en": "Will not probe deeply into a subject."
+      },
+      "dimension": "openness",
+      "reverse": true
+    },
+    {
+      "id": "q31",
+      "text": {
+        "ru": "Жульничаю, чтобы получить преимущество.",
+        "en": "Cheat to get ahead."
+      },
+      "dimension": "honesty-humility",
+      "reverse": true
+    },
+    {
+      "id": "q32",
+      "text": {
+        "ru": "Сохраняю спокойствие под давлением.",
+        "en": "Remain calm under pressure."
+      },
+      "dimension": "emotionality",
+      "reverse": true
+    },
+    {
+      "id": "q33",
+      "text": {
+        "ru": "Легко завожу друзей.",
+        "en": "Make friends easily."
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q34",
+      "text": {
+        "ru": "Умею прислушиваться к советам.",
+        "en": "Am good at taking advice."
+      },
+      "dimension": "agreeableness"
+    },
+    {
+      "id": "q35",
+      "text": {
+        "ru": "Продолжаю работать, пока всё не станет идеально.",
+        "en": "Continue until everything is perfect."
+      },
+      "dimension": "conscientiousness"
+    },
+    {
+      "id": "q36",
+      "text": {
+        "ru": "Я полон(на) идей.",
+        "en": "Am full of ideas."
+      },
+      "dimension": "openness"
+    },
+    {
+      "id": "q37",
+      "text": {
+        "ru": "Мне бы не понравилось быть знаменитостью.",
+        "en": "Would not enjoy being a famous celebrity."
+      },
+      "dimension": "honesty-humility"
+    },
+    {
+      "id": "q38",
+      "text": {
+        "ru": "Мне нужно, чтобы меня ободряли и успокаивали.",
+        "en": "Need reassurance."
+      },
+      "dimension": "emotionality"
+    },
+    {
+      "id": "q39",
+      "text": {
+        "ru": "Похоже, общение с людьми доставляет мне меньше удовольствия, чем другим.",
+        "en": "Seem to derive less enjoyment from interacting with people than others do."
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q40",
+      "text": {
+        "ru": "Терпеть не могу, когда мне возражают.",
+        "en": "Can't stand being contradicted."
+      },
+      "dimension": "agreeableness",
+      "reverse": true
+    },
+    {
+      "id": "q41",
+      "text": {
+        "ru": "Уделяю слишком мало внимания деталям.",
+        "en": "Pay too little attention to details."
+      },
+      "dimension": "conscientiousness",
+      "reverse": true
+    },
+    {
+      "id": "q42",
+      "text": {
+        "ru": "Воображение у меня так себе.",
+        "en": "Do not have a good imagination."
+      },
+      "dimension": "openness",
+      "reverse": true
+    },
+    {
+      "id": "q43",
+      "text": {
+        "ru": "У меня сильная потребность во власти.",
+        "en": "Have a strong need for power."
+      },
+      "dimension": "honesty-humility",
+      "reverse": true
+    },
+    {
+      "id": "q44",
+      "text": {
+        "ru": "Ищу поддержки у других.",
+        "en": "Seek support."
+      },
+      "dimension": "emotionality"
+    },
+    {
+      "id": "q45",
+      "text": {
+        "ru": "Мне бы не понравилась работа, где нужно много общаться с людьми.",
+        "en": "Would not enjoy a job that involves a lot of social interaction."
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q46",
+      "text": {
+        "ru": "Меня легко разозлить.",
+        "en": "Get angry easily."
+      },
+      "dimension": "agreeableness",
+      "reverse": true
+    },
+    {
+      "id": "q47",
+      "text": {
+        "ru": "Делаю всё по плану.",
+        "en": "Do things according to a plan."
+      },
+      "dimension": "conscientiousness"
+    },
+    {
+      "id": "q48",
+      "text": {
+        "ru": "Плыву против течения.",
+        "en": "Swim against the current."
+      },
+      "dimension": "openness"
+    },
+    {
+      "id": "q49",
+      "text": {
+        "ru": "Не считаю, что я лучше других людей.",
+        "en": "Don't think that I'm better than other people."
+      },
+      "dimension": "honesty-humility"
+    },
+    {
+      "id": "q50",
+      "text": {
+        "ru": "Сразу расстраиваюсь, когда слышу о чьём-то несчастье.",
+        "en": "Immediately feel sad when hearing of an unhappy event."
+      },
+      "dimension": "emotionality"
+    },
+    {
+      "id": "q51",
+      "text": {
+        "ru": "Обычно я активен(на) и полон(на) энергии.",
+        "en": "Am usually active and full of energy."
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q52",
+      "text": {
+        "ru": "Редко сержусь на людей.",
+        "en": "Rarely feel angry with people."
+      },
+      "dimension": "agreeableness"
+    },
+    {
+      "id": "q53",
+      "text": {
+        "ru": "Действую, не думая о последствиях.",
+        "en": "Do things without thinking of the consequences."
+      },
+      "dimension": "conscientiousness",
+      "reverse": true
+    },
+    {
+      "id": "q54",
+      "text": {
+        "ru": "Знаю, что мои идеи порой удивляют людей.",
+        "en": "Know that my ideas sometimes surprise people."
+      },
+      "dimension": "openness"
+    },
+    {
+      "id": "q55",
+      "text": {
+        "ru": "При случае не упущу возможности покрасоваться.",
+        "en": "Am likely to show off if I get the chance."
+      },
+      "dimension": "honesty-humility",
+      "reverse": true
+    },
+    {
+      "id": "q56",
+      "text": {
+        "ru": "Редко поддаюсь эмоциям.",
+        "en": "Seldom get emotional."
+      },
+      "dimension": "emotionality",
+      "reverse": true
+    },
+    {
+      "id": "q57",
+      "text": {
+        "ru": "Быстро устаю.",
+        "en": "Tire out quickly."
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q58",
+      "text": {
+        "ru": "Чтобы я на кого-то рассердился(ась), нужно очень постараться.",
+        "en": "Find that it takes a lot to make me feel angry at someone."
+      },
+      "dimension": "agreeableness"
+    },
+    {
+      "id": "q59",
+      "text": {
+        "ru": "Принимаю опрометчивые решения.",
+        "en": "Make rash decisions."
+      },
+      "dimension": "conscientiousness",
+      "reverse": true
+    },
+    {
+      "id": "q60",
+      "text": {
+        "ru": "Мне нравится, когда меня считают обычным, нормальным человеком.",
+        "en": "Like to be thought of as a normal kind of person."
+      },
+      "dimension": "openness",
+      "reverse": true
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Ответы 1–7; обратные утверждения = 8 − ответ. Каждый фактор — сумма 10 утверждений (10–70). Процентиль = Φ((балл − среднее)/SD) по нормам открытых данных IPIP-HEXACO (N = 21643).",
+    "en": "Answers 1–7; reverse items = 8 − answer. Each factor is the sum of 10 items (10–70). Percentile = Φ((score − mean)/SD) using norms from the open IPIP-HEXACO data (N = 21643)."
+  },
+  "resultIntro": {
+    "ru": "Шесть факторов HEXACO описывают разные стороны того, как вы относитесь к людям, задачам, эмоциям и идеям. Особенно интересен фактор честности — скромности: в «Большой пятёрке» его нет, а он хорошо предсказывает, насколько человеку можно доверять в делах и отношениях.",
+    "en": "The six HEXACO factors describe different sides of how you relate to people, tasks, emotions and ideas. The Honesty-Humility factor is especially interesting: the Big Five lacks it, yet it predicts well how far a person can be trusted in business and relationships."
+  }
+}

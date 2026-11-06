@@ -1,0 +1,718 @@
+{
+  "id": "stroop",
+  "category": "cognitive",
+  "kind": "game",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Тест Струпа",
+    "en": "Stroop Test"
+  },
+  "tagline": {
+    "ru": "Слово «КРАСНЫЙ» синим цветом: какой кнопкой ответить?",
+    "en": "The word RED in blue ink: which button do you press?"
+  },
+  "description": {
+    "ru": "Классический тест на внимание и контроль импульсов: нужно называть цвет букв, не обращая внимания на смысл слова. Вы узнаете, насколько смысл слова замедляет вас (эффект интерференции), и как быстро и точно вы отвечаете.",
+    "en": "The classic test of attention and impulse control: name the ink colour while ignoring what the word says. Find out how much the word’s meaning slows you down (the interference effect), and how fast and accurately you respond."
+  },
+  "emoji": "🎨",
+  "durationMin": 4,
+  "popularity": 3,
+  "tags": [
+    {
+      "ru": "внимание",
+      "en": "attention"
+    },
+    {
+      "ru": "самоконтроль",
+      "en": "self-control"
+    },
+    {
+      "ru": "исполнительные функции",
+      "en": "executive functions"
+    },
+    {
+      "ru": "мини-игра",
+      "en": "mini-game"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что измеряется\n**Эффект Струпа** (Stroop, 1935): назвать цвет, которым напечатано слово, труднее и дольше, если само слово обозначает другой цвет (слово «СИНИЙ», напечатанное красным). Чтение у взрослых автоматизировано и вмешивается в задачу называния цвета, поэтому для правильного ответа нужно подавить автоматическую реакцию. Эффект интерференции — один из самых устойчивых в психологии (обзор: MacLeod, 1991) и используется как мера избирательного внимания и тормозного контроля (одной из исполнительных функций). Тест входит во многие нейропсихологические батареи (Lezak и др., 2012). В русскоязычной литературе он описывается как «тест Струпа» или «цветословесный тест».\n\n### Протокол (машиночитаемая версия — в `protocol`)\n- Цвета: красный, зелёный, синий, жёлтый; слова — на языке интерфейса заглавными буквами (КРАСНЫЙ / RED и т. д.).\n- Три типа проб: **конгруэнтные** (слово совпадает с цветом), **неконгруэнтные** (слово называет другой цвет), **нейтральные** (ХХХХ — строка из букв Х примерно той же длины, что и цветовые слова).\n- 12 тренировочных проб с обратной связью, затем 48 зачётных (по 16 каждого типа) в случайном порядке: не более 3 проб одного типа подряд, цвет букв не повторяется на соседних пробах, цвет букв не совпадает со словом предыдущей пробы (чтобы не было эффекта негативного прайминга).\n- Проба: фиксационный крестик 500 мс → слово (до ответа, максимум 3000 мс) → пауза 500 мс. Ответ — одна из 4 кнопок с цветными квадратиками и названиями цветов (чёрным шрифтом), расположение кнопок постоянное; на клавиатуре — D, F, J, K.\n\n### Показатели\n- **interference** = среднее ВР верных неконгруэнтных − среднее ВР верных конгруэнтных проб (мс). Это главный показатель: чем меньше, тем лучше вы игнорируете смысл слова.\n- **congruent_rt**, **incongruent_rt** — средние ВР верных ответов по типам (мс).\n- **accuracy** — процент верных ответов по всем зачётным пробам.\n- Дополнительно (в extra): облегчение = нейтральные − конгруэнтные; торможение = неконгруэнтные − нейтральные.\n- Очистка: учитываются только верные ответы с ВР 200–3000 мс; затем исключаются ответы, отклоняющиеся более чем на 2,5 SD от среднего человека в данном условии.\n\n### Нормы\n- Онлайн-вариант с **набором названия цвета на клавиатуре** (Crump и др., 2013; Amazon Mechanical Turk, N = 40, 4 цвета, 96 проб): конгруэнтные 859 мс, неконгруэнтные 1152 мс, интерференция **293 мс**; ошибки 4,5% и 5,9%. Лабораторный аналог (Logan & Zbrodoff): 809 и 1023 мс.\n- При ответе **кнопками** ВР и интерференция обычно меньше, чем при назывании цвета вслух или наборе слова (MacLeod, 1991, отмечает меньшую интерференцию при ручных ответах). Опубликованных норм для формата «4 цветные кнопки в браузере» не найдено, поэтому сайт показывает ориентировочные диапазоны; процентили нужно строить по собственным данным.\n- Браузерное измерение добавляет задержку, зависящую от устройства (частота обновления экрана, задержка ввода, сенсорный экран): по данным Semmelmann & Weigelt (2017), веб-технологии сами по себе замедляют RT примерно на 37 мс, а при прохождении дома онлайн — примерно на 87 мс по сравнению с лабораторией. Записывайте тип устройства (мышь/клавиатура или сенсор) и стройте отдельные нормы сайта по классам устройств.\n\n### Двуязычность\nУ двуязычных людей интерференция обычно сильнее на более привычном языке чтения, а при несовпадении языка слова и языка ответа — слабее (MacLeod, 1991). Поэтому результаты, полученные на русском и английском, сравнивать между собой нельзя: нормы ведутся отдельно по языку. Русские цветовые слова длиннее английских (6–7 букв против 3–6), что тоже может влиять на время.\n\n### Надёжность и ограничения\nЭффект Струпа очень устойчив на уровне групп, но как мера индивидуальных различий его надёжность лишь умеренная (Hedge, Powell & Sumner, 2018): разница в несколько десятков миллисекунд между двумя людьми или двумя попытками — часто случайность. Тренировка уменьшает эффект. Для людей с нарушениями цветового зрения тест не подходит (предложите вариант с другими цветами или откажитесь от него).",
+    "en": "### What is measured\n**The Stroop effect** (Stroop, 1935): naming the ink colour of a word is harder and slower when the word itself names a different colour (the word BLUE printed in red). Reading is automatic in adults and interferes with colour naming, so the automatic response has to be suppressed. Stroop interference is one of the most robust effects in psychology (review: MacLeod, 1991) and is used as a measure of selective attention and inhibitory control (an executive function). It is part of many neuropsychological batteries (Lezak et al., 2012).\n\n### Protocol (machine-readable version in `protocol`)\n- Colours: red, green, blue, yellow; words in the interface language, upper case (RED / КРАСНЫЙ, etc.).\n- Three trial types: **congruent** (word = ink colour), **incongruent** (word names another colour), **neutral** (XXXX – a row of X’s of about the same length as the colour words).\n- 12 practice trials with feedback, then 48 test trials (16 of each type) in random order: no more than 3 trials of one type in a row, ink colour never repeats on consecutive trials, and ink colour never equals the previous trial’s word (to avoid negative priming).\n- Trial: fixation cross 500 ms → word (until response, max 3 000 ms) → 500 ms blank. Respond with one of 4 buttons showing a colour patch and the colour name in black text, in fixed positions; keyboard D, F, J, K.\n\n### Metrics\n- **interference** = mean RT of correct incongruent − mean RT of correct congruent trials (ms). The key measure: lower = better at ignoring the word.\n- **congruent_rt**, **incongruent_rt** – mean RT of correct responses by type (ms).\n- **accuracy** – percentage correct across all test trials.\n- Extra: facilitation = neutral − congruent; inhibition cost = incongruent − neutral.\n- Cleaning: correct responses with RT 200–3 000 ms only; then drop responses more than 2.5 SD from the person’s mean in that condition.\n\n### Norms\n- Online version with **typed colour names** (Crump et al., 2013; Amazon Mechanical Turk, N = 40, 4 colours, 96 trials): congruent 859 ms, incongruent 1 152 ms, interference **293 ms**; errors 4.5% and 5.9%. Lab comparison (Logan & Zbrodoff): 809 and 1 023 ms.\n- With **button** responses RTs and interference are usually smaller than with vocal naming or typing (MacLeod, 1991, notes smaller interference with manual responses). No published norms were found for the “4 colour buttons in a browser” format, so the site shows rule-of-thumb bands; percentiles should be built from the site’s own data.\n- Browser timing adds a device-dependent delay (display refresh, input lag, touch screens); Semmelmann & Weigelt (2017) found web RTs ≈ 37 ms slower than lab RTs due to web technology alone and ≈ 87 ms slower when recorded online at home. Record device type (mouse/keyboard vs touch) with every result and build separate site norms per device class.\n\n### Bilingual use\nIn bilinguals interference is usually stronger in the more practised reading language, and weaker when word language and response language differ (MacLeod, 1991). So Russian and English results must not be compared directly – keep norms separate by language. Russian colour words are longer (6–7 letters vs 3–6), which may also affect RTs.\n\n### Reliability and limitations\nThe Stroop effect is extremely robust at the group level, but as an individual-differences measure its reliability is only moderate (Hedge, Powell & Sumner, 2018): a difference of a few tens of milliseconds between two people or two attempts is often noise. Practice reduces the effect. The test is unsuitable for people with colour-vision deficiency (offer other colours or skip it)."
+  },
+  "sources": [
+    {
+      "citation": "Stroop, J. R. (1935). Studies of interference in serial verbal reactions. Journal of Experimental Psychology, 18(6), 643–662.",
+      "doi": "10.1037/h0054651"
+    },
+    {
+      "citation": "MacLeod, C. M. (1991). Half a century of research on the Stroop effect: An integrative review. Psychological Bulletin, 109(2), 163–203.",
+      "doi": "10.1037/0033-2909.109.2.163"
+    },
+    {
+      "citation": "Crump, M. J. C., McDonnell, J. V., & Gureckis, T. M. (2013). Evaluating Amazon’s Mechanical Turk as a tool for experimental behavioral research. PLoS ONE, 8(3), e57410.",
+      "doi": "10.1371/journal.pone.0057410"
+    },
+    {
+      "citation": "Semmelmann, K., & Weigelt, S. (2017). Online psychophysics: Reaction time effects in cognitive experiments. Behavior Research Methods, 49(4), 1241–1260.",
+      "doi": "10.3758/s13428-016-0783-4"
+    },
+    {
+      "citation": "Hedge, C., Powell, G., & Sumner, P. (2018). The reliability paradox: Why robust cognitive tasks do not produce reliable individual differences. Behavior Research Methods, 50(3), 1166–1186.",
+      "doi": "10.3758/s13428-017-0935-1"
+    },
+    {
+      "citation": "Lezak, M. D., Howieson, D. B., Bigler, E. D., & Tranel, D. (2012). Neuropsychological assessment (5th ed.). Oxford University Press."
+    },
+    {
+      "citation": "Miyake, A., Friedman, N. P., Emerson, M. J., Witzki, A. H., Howerter, A., & Wager, T. D. (2000). The unity and diversity of executive functions and their contributions to complex “frontal lobe” tasks: A latent variable analysis. Cognitive Psychology, 41(1), 49–100.",
+      "doi": "10.1006/cogp.1999.0734"
+    }
+  ],
+  "license": "The colour–word Stroop paradigm (Stroop, 1935) is a generic experimental procedure in the public domain; commercial normed versions (e.g. Golden’s Stroop Color and Word Test, D-KEFS) are NOT used. Stimuli, texts and implementation are original to the site.",
+  "disclaimer": {
+    "ru": "Это обучающая мини-игра на основе классической научной методики, а не медицинское или нейропсихологическое обследование. На результат сильно влияют устройство, браузер, усталость, сон, кофеин, отвлечения и опыт. Если вас беспокоят внимание, память или скорость реакции в повседневной жизни, обратитесь к неврологу или клиническому (нейро)психологу.",
+    "en": "This is an educational mini-game based on a classic scientific task, not a medical or neuropsychological assessment. Results depend strongly on your device, browser, fatigue, sleep, caffeine, distractions and practice. If you are worried about attention, memory or reaction speed in everyday life, please see a neurologist or a clinical (neuro)psychologist."
+  },
+  "instructions": {
+    "ru": "На экране будут появляться слова, напечатанные разными цветами. Нажимайте кнопку **цвета букв**, а не того, что написано. Например, слово «СИНИЙ», написанное красным, — нажмите «Красный». Отвечайте как можно быстрее и без ошибок. Сначала короткая тренировка. Если у вас нарушено цветовое зрение, этот тест может вам не подойти.",
+    "en": "Words will appear in different ink colours. Press the button for the **ink colour**, not for what the word says. For example, the word BLUE printed in red – press “Red”. Answer as fast as you can without mistakes. A short practice comes first. If you have a colour-vision deficiency this test may not suit you."
+  },
+  "protocol": {
+    "version": 1,
+    "colors": [
+      {
+        "id": "red",
+        "hex": "#E53935",
+        "word": {
+          "ru": "КРАСНЫЙ",
+          "en": "RED"
+        }
+      },
+      {
+        "id": "green",
+        "hex": "#2E9E4F",
+        "word": {
+          "ru": "ЗЕЛЁНЫЙ",
+          "en": "GREEN"
+        }
+      },
+      {
+        "id": "blue",
+        "hex": "#1E5BD8",
+        "word": {
+          "ru": "СИНИЙ",
+          "en": "BLUE"
+        }
+      },
+      {
+        "id": "yellow",
+        "hex": "#E8B400",
+        "word": {
+          "ru": "ЖЁЛТЫЙ",
+          "en": "YELLOW"
+        }
+      }
+    ],
+    "colorNote": "Use saturated, clearly distinct inks on a neutral (white or dark grey) background with contrast ≥ 3:1; pastel inks make colour naming slower and noisier.",
+    "neutral": {
+      "ru": "ХХХХХХ",
+      "en": "XXXXX",
+      "note": "letter string of roughly matched length (RU words 5–7 letters, EN 3–6)"
+    },
+    "trialTypes": {
+      "congruent": 16,
+      "incongruent": 16,
+      "neutral": 16
+    },
+    "practice": {
+      "trials": 12,
+      "feedback": true,
+      "mix": "equal mix of the three types"
+    },
+    "order": {
+      "randomize": true,
+      "maxSameTypeRun": 3,
+      "noInkRepeat": true,
+      "inkNotPreviousWord": true
+    },
+    "timing": {
+      "fixationMs": 500,
+      "stimulusMaxMs": 3000,
+      "itiMs": 500,
+      "fontPx": 56
+    },
+    "response": {
+      "buttons": "four fixed buttons with colour patch + colour name in black",
+      "keys": [
+        "d",
+        "f",
+        "j",
+        "k"
+      ],
+      "buttonOrder": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ]
+    },
+    "feedback": {
+      "practice": "correct/incorrect + RT",
+      "test": "none (or 200 ms neutral flash)"
+    },
+    "trimming": {
+      "useCorrectOnly": true,
+      "minMs": 200,
+      "maxMs": 3000,
+      "sdCutoff": 2.5
+    },
+    "metrics": {
+      "interference": "mean RT(correct incongruent) − mean RT(correct congruent), ms",
+      "congruent_rt": "mean RT of correct congruent trials, ms",
+      "incongruent_rt": "mean RT of correct incongruent trials, ms",
+      "accuracy": "100 × correct / all test trials (timeouts count as errors)",
+      "extra": {
+        "facilitation": "neutral − congruent",
+        "inhibition": "incongruent − neutral",
+        "neutral_rt": "mean RT of correct neutral trials"
+      }
+    },
+    "record": [
+      "language",
+      "deviceType",
+      "timeouts"
+    ],
+    "siteImplementationNote": "The current component uses 16 trials per type and 6 practice trials – consistent with this protocol. Make sure interference is computed from correct trials only, after trimming."
+  },
+  "dimensions": [
+    {
+      "id": "interference",
+      "name": {
+        "ru": "Интерференция (эффект Струпа)",
+        "en": "Interference (Stroop effect)"
+      },
+      "description": {
+        "ru": "На сколько миллисекунд вы отвечаете медленнее, когда слово и цвет не совпадают. Чем меньше, тем лучше вы игнорируете смысл слова.",
+        "en": "How many milliseconds slower you are when word and ink conflict. Lower = better at ignoring the word."
+      },
+      "lowLabel": {
+        "ru": "слабая интерференция",
+        "en": "little interference"
+      },
+      "highLabel": {
+        "ru": "сильная интерференция",
+        "en": "strong interference"
+      },
+      "color": "#F9D5E5",
+      "lowerIsBetter": true,
+      "scoring": "mean",
+      "min": -1000,
+      "max": 2000,
+      "bands": [
+        {
+          "min": -1000,
+          "max": 29,
+          "label": {
+            "ru": "Почти без интерференции",
+            "en": "Almost no interference"
+          },
+          "summary": [
+            {
+              "ru": "Смысл слова вас почти не замедляет",
+              "en": "The word barely slows you down"
+            },
+            {
+              "ru": "Встречается редко — или после тренировки",
+              "en": "Rare – or after practice"
+            },
+            {
+              "ru": "Проверьте точность в неконгруэнтных пробах",
+              "en": "Check your accuracy on conflict trials"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы почти не замедляетесь при конфликте слова и цвета. Это бывает после тренировки, но может означать и ответы «наугад» в трудных пробах — сравните с точностью. Небольшая отрицательная интерференция — случайный шум. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "You barely slow down on conflict trials. This happens after practice but can also mean guessing on hard trials – compare with your accuracy. A small negative value is random noise. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 30,
+          "max": 99,
+          "label": {
+            "ru": "Слабая",
+            "en": "Small"
+          },
+          "summary": [
+            {
+              "ru": "Интерференция меньше типичной",
+              "en": "Smaller than typical"
+            },
+            {
+              "ru": "Хороший контроль внимания",
+              "en": "Good attentional control"
+            },
+            {
+              "ru": "Автоматическое чтение почти не мешает",
+              "en": "Automatic reading hardly interferes"
+            }
+          ],
+          "detailed": {
+            "ru": "Интерференция небольшая: вы хорошо отсекаете смысл слова и сосредоточиваетесь на цвете. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Small interference: you filter out the word’s meaning well and focus on the colour. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 100,
+          "max": 199,
+          "label": {
+            "ru": "Типичная",
+            "en": "Typical"
+          },
+          "summary": [
+            {
+              "ru": "Обычная величина эффекта Струпа для ответов кнопками",
+              "en": "A usual Stroop effect for button responses"
+            },
+            {
+              "ru": "Чтение автоматизировано — это нормально",
+              "en": "Reading is automatic – that is normal"
+            },
+            {
+              "ru": "Различия в пределах десятков мс — шум",
+              "en": "Differences of tens of ms are noise"
+            }
+          ],
+          "detailed": {
+            "ru": "Типичный эффект: у всех грамотных взрослых чтение происходит автоматически и мешает называть цвет. Сам по себе эффект — признак хорошо развитого навыка чтения, а не «плохого внимания». Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "A typical effect: in every literate adult reading is automatic and interferes with naming the colour. The effect itself reflects skilled reading, not “poor attention”. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 200,
+          "max": 349,
+          "label": {
+            "ru": "Выраженная",
+            "en": "Large"
+          },
+          "summary": [
+            {
+              "ru": "Конфликт слова и цвета заметно замедляет вас",
+              "en": "Conflict slows you down noticeably"
+            },
+            {
+              "ru": "Часто так бывает при первой попытке",
+              "en": "Common on a first attempt"
+            },
+            {
+              "ru": "Помогает фокус на цвете, а не на слове",
+              "en": "Focusing on the colour, not the word, helps"
+            }
+          ],
+          "detailed": {
+            "ru": "Интерференция выше типичной. Часто это бывает при первом знакомстве с тестом, при усталости или при ответе на непривычном языке. Попробуйте ещё раз: эффект обычно уменьшается с практикой. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Larger than typical. This is common on a first attempt, when tired or when answering in a less familiar language. Try again: the effect usually shrinks with practice. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 350,
+          "max": 2000,
+          "label": {
+            "ru": "Очень выраженная",
+            "en": "Very large"
+          },
+          "summary": [
+            {
+              "ru": "Очень сильное замедление при конфликте",
+              "en": "Very strong slowing on conflict"
+            },
+            {
+              "ru": "Проверьте, не мешали ли кнопки или устройство",
+              "en": "Check whether buttons or device got in the way"
+            },
+            {
+              "ru": "Результат стоит перепроверить",
+              "en": "Worth re-checking"
+            }
+          ],
+          "detailed": {
+            "ru": "Очень большая интерференция. Иногда причина техническая — неудобные кнопки на телефоне, задержки устройства. Если результат повторяется, это лишь повод внимательнее отнестись к утомлению и концентрации, а не диагноз. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Very large interference. Sometimes the cause is technical – awkward buttons on a phone, device lag. If it repeats, it is a hint to look at fatigue and concentration, not a diagnosis. Band limits are a rule of thumb, not a published norm."
+          }
+        }
+      ]
+    },
+    {
+      "id": "congruent_rt",
+      "name": {
+        "ru": "Скорость: совпадающие пробы",
+        "en": "Speed: congruent trials"
+      },
+      "description": {
+        "ru": "Среднее время верных ответов, когда слово и цвет совпадают.",
+        "en": "Mean time of correct responses when word and ink match."
+      },
+      "lowLabel": {
+        "ru": "быстрее",
+        "en": "faster"
+      },
+      "highLabel": {
+        "ru": "медленнее",
+        "en": "slower"
+      },
+      "color": "#CDE7F0",
+      "lowerIsBetter": true,
+      "scoring": "mean",
+      "min": 200,
+      "max": 3000,
+      "bands": [
+        {
+          "min": 200,
+          "max": 599,
+          "label": {
+            "ru": "Быстро",
+            "en": "Fast"
+          },
+          "summary": [
+            {
+              "ru": "Быстрые ответы без конфликта",
+              "en": "Fast responses without conflict"
+            },
+            {
+              "ru": "Хорошая скорость выбора кнопки",
+              "en": "Good button-selection speed"
+            },
+            {
+              "ru": "Сравните с неконгруэнтными",
+              "en": "Compare with incongruent trials"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы быстро отвечаете, когда слово подсказывает цвет. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "You respond quickly when the word supports the colour. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 600,
+          "max": 899,
+          "label": {
+            "ru": "Типично",
+            "en": "Typical"
+          },
+          "summary": [
+            {
+              "ru": "Обычная скорость",
+              "en": "Normal speed"
+            },
+            {
+              "ru": "Ответ кнопкой из 4 вариантов занимает 0,6–0,9 с",
+              "en": "A 4-button response takes 0.6–0.9 s"
+            },
+            {
+              "ru": "Зависит от устройства",
+              "en": "Depends on the device"
+            }
+          ],
+          "detailed": {
+            "ru": "Типичная скорость для теста с четырьмя кнопками в браузере. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Typical speed for a four-button browser test. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 900,
+          "max": 1199,
+          "label": {
+            "ru": "Медленнее типичного",
+            "en": "Slower than typical"
+          },
+          "summary": [
+            {
+              "ru": "Ответы неторопливые",
+              "en": "Unhurried responses"
+            },
+            {
+              "ru": "Возможно, вы искали нужную кнопку",
+              "en": "Perhaps you were searching for the button"
+            },
+            {
+              "ru": "С практикой станет быстрее",
+              "en": "Practice will speed this up"
+            }
+          ],
+          "detailed": {
+            "ru": "Медленнее среднего — часто из-за поиска кнопки или осторожной стратегии. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Slower than average – often due to searching for the button or a cautious strategy. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 1200,
+          "max": 3000,
+          "label": {
+            "ru": "Медленно",
+            "en": "Slow"
+          },
+          "summary": [
+            {
+              "ru": "Очень неторопливые ответы",
+              "en": "Very slow responses"
+            },
+            {
+              "ru": "Возможны отвлечения",
+              "en": "Distraction possible"
+            },
+            {
+              "ru": "Повторите в спокойной обстановке",
+              "en": "Retake somewhere quiet"
+            }
+          ],
+          "detailed": {
+            "ru": "Ответы очень медленные даже без конфликта. Повторите тест на компьютере, без отвлечений. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Very slow responses even without conflict. Retake on a computer without distractions. Band limits are a rule of thumb, not a published norm."
+          }
+        }
+      ]
+    },
+    {
+      "id": "incongruent_rt",
+      "name": {
+        "ru": "Скорость: конфликтные пробы",
+        "en": "Speed: incongruent trials"
+      },
+      "description": {
+        "ru": "Среднее время верных ответов, когда слово называет другой цвет.",
+        "en": "Mean time of correct responses when the word names a different colour."
+      },
+      "lowLabel": {
+        "ru": "быстрее",
+        "en": "faster"
+      },
+      "highLabel": {
+        "ru": "медленнее",
+        "en": "slower"
+      },
+      "color": "#FFD8BE",
+      "lowerIsBetter": true,
+      "scoring": "mean",
+      "min": 200,
+      "max": 3000,
+      "bands": [
+        {
+          "min": 200,
+          "max": 699,
+          "label": {
+            "ru": "Быстро",
+            "en": "Fast"
+          },
+          "summary": [
+            {
+              "ru": "Быстро справляетесь с конфликтом",
+              "en": "You handle conflict quickly"
+            },
+            {
+              "ru": "Сильный контроль внимания",
+              "en": "Strong attentional control"
+            },
+            {
+              "ru": "Проверьте точность",
+              "en": "Check accuracy"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы быстро отвечаете даже при конфликте слова и цвета. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "You respond quickly even when word and colour conflict. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 700,
+          "max": 1049,
+          "label": {
+            "ru": "Типично",
+            "en": "Typical"
+          },
+          "summary": [
+            {
+              "ru": "Обычная скорость при конфликте",
+              "en": "Normal speed under conflict"
+            },
+            {
+              "ru": "На 100–200 мс медленнее совпадающих проб",
+              "en": "100–200 ms slower than congruent trials"
+            },
+            {
+              "ru": "Так у большинства",
+              "en": "Like most people"
+            }
+          ],
+          "detailed": {
+            "ru": "Типичная скорость в конфликтных пробах. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Typical speed on conflict trials. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 1050,
+          "max": 1449,
+          "label": {
+            "ru": "Медленнее типичного",
+            "en": "Slower than typical"
+          },
+          "summary": [
+            {
+              "ru": "Конфликт заметно замедляет",
+              "en": "Conflict slows you noticeably"
+            },
+            {
+              "ru": "Типично для первой попытки",
+              "en": "Typical of a first attempt"
+            },
+            {
+              "ru": "Тренировка помогает",
+              "en": "Practice helps"
+            }
+          ],
+          "detailed": {
+            "ru": "Медленнее среднего: смысл слова заметно мешает выбрать цвет. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Slower than average: the word noticeably interferes with choosing the colour. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 1450,
+          "max": 3000,
+          "label": {
+            "ru": "Медленно",
+            "en": "Slow"
+          },
+          "summary": [
+            {
+              "ru": "Очень медленно при конфликте",
+              "en": "Very slow under conflict"
+            },
+            {
+              "ru": "Возможно, вы перепроверяли каждый ответ",
+              "en": "Perhaps you double-checked every answer"
+            },
+            {
+              "ru": "Повторите тест",
+              "en": "Retake the test"
+            }
+          ],
+          "detailed": {
+            "ru": "Очень медленные ответы в конфликтных пробах — часто из-за перепроверки каждого ответа или технических причин. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Very slow responses on conflict trials – often from double-checking every answer or technical reasons. Band limits are a rule of thumb, not a published norm."
+          }
+        }
+      ]
+    },
+    {
+      "id": "accuracy",
+      "name": {
+        "ru": "Точность",
+        "en": "Accuracy"
+      },
+      "description": {
+        "ru": "Процент верных ответов во всех зачётных пробах.",
+        "en": "Percentage of correct responses across all test trials."
+      },
+      "lowLabel": {
+        "ru": "много ошибок",
+        "en": "many errors"
+      },
+      "highLabel": {
+        "ru": "без ошибок",
+        "en": "error-free"
+      },
+      "color": "#D9F2D0",
+      "scoring": "mean",
+      "min": 0,
+      "max": 100,
+      "bands": [
+        {
+          "min": 0,
+          "max": 79,
+          "label": {
+            "ru": "Много ошибок",
+            "en": "Many errors"
+          },
+          "summary": [
+            {
+              "ru": "Каждый пятый ответ или чаще неверен",
+              "en": "One in five answers or more is wrong"
+            },
+            {
+              "ru": "Скорее всего, вы отвечали по слову",
+              "en": "You probably responded to the word"
+            },
+            {
+              "ru": "Замедлитесь и смотрите на цвет",
+              "en": "Slow down and look at the colour"
+            }
+          ],
+          "detailed": {
+            "ru": "Ошибок много — вероятно, автоматическое чтение «перехватывало» ответ. Типичная доля ошибок в онлайн-исследованиях — около 5%. Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Many errors – automatic reading probably hijacked your response. Typical error rates in online studies are about 5%. Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 80,
+          "max": 91,
+          "label": {
+            "ru": "Несколько ошибок",
+            "en": "Some errors"
+          },
+          "summary": [
+            {
+              "ru": "Ошибок больше обычного",
+              "en": "More errors than usual"
+            },
+            {
+              "ru": "Скорость в ущерб точности",
+              "en": "Speed over accuracy"
+            },
+            {
+              "ru": "Обычно ошибки — в конфликтных пробах",
+              "en": "Errors usually occur on conflict trials"
+            }
+          ],
+          "detailed": {
+            "ru": "Немного больше ошибок, чем обычно (типично около 95% верных). Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "Slightly more errors than usual (typical ≈ 95% correct). Band limits are a rule of thumb, not a published norm."
+          }
+        },
+        {
+          "min": 92,
+          "max": 100,
+          "label": {
+            "ru": "Точно",
+            "en": "Accurate"
+          },
+          "summary": [
+            {
+              "ru": "Почти без ошибок",
+              "en": "Almost error-free"
+            },
+            {
+              "ru": "Типично или лучше",
+              "en": "Typical or better"
+            },
+            {
+              "ru": "Время реакции можно интерпретировать",
+              "en": "Your RTs are interpretable"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы отвечали точно. Онлайн-участники в среднем ошибаются примерно в 4–6% проб (Crump и др., 2013). Границы диапазонов — ориентировочное правило, а не опубликованная норма.",
+            "en": "You responded accurately. Online participants err on about 4–6% of trials on average (Crump et al., 2013). Band limits are a rule of thumb, not a published norm."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [],
+  "scoringNotes": {
+    "ru": "Учитываются только верные ответы со временем 200–3000 мс; затем отбрасываются ответы дальше 2,5 SD от вашего среднего в этом типе проб. Интерференция = среднее ВР неконгруэнтных − среднее ВР конгруэнтных. Точность = доля верных ответов (пропуски — ошибки). Опубликованных норм для ответа кнопками в браузере нет, поэтому процентили не показываются, пока сайт не накопит собственные данные (отдельно для русского и английского).",
+    "en": "Only correct responses with RTs of 200–3 000 ms are used; then responses beyond 2.5 SD from your mean for that trial type are dropped. Interference = mean incongruent RT − mean congruent RT. Accuracy = share of correct responses (timeouts count as errors). No published norms exist for button responses in a browser, so percentiles are not shown until the site has its own data (separately for Russian and English)."
+  },
+  "resultIntro": {
+    "ru": "Главный показатель — интерференция: насколько смысл слова замедляет вас. Небольшой эффект есть у всех, кто бегло читает.",
+    "en": "The key measure is interference: how much the word’s meaning slows you down. Every fluent reader shows some effect."
+  }
+}

@@ -19,6 +19,24 @@ import { ShareBar } from "./ShareBar";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
+/** a compact citation for the norm line; the full text lives in the method panel */
+function shortSource(src: string, lang: Locale) {
+  if (/^computed by testik/i.test(src)) return lang === "ru" ? "расчёт testik по открытым данным" : "testik's calculation on open data";
+  const cite = src.match(/^[^;(]*?\(\d{4}[a-z]?\)/);
+  if (cite) return cite[0];
+  const s = src.split(";")[0].replace(/\s*\([^)]*\/[^)]*\)/g, "").trim();
+  return s.length > 90 ? s.slice(0, 88).replace(/\s+\S*$/, "") + "…" : s;
+}
+
+/** unit for game metrics, inferred from the dimension id */
+function unitFor(id: string, lang: Locale) {
+  if (/(_rt|interference|consistency)$/.test(id)) return lang === "ru" ? "мс" : "ms";
+  if (/(accuracy|rate)$/.test(id)) return "%";
+  if (/span$/.test(id)) return lang === "ru" ? "цифр" : "digits";
+  if (id === "dprime") return "d′";
+  return "";
+}
+
 export function ResultView({
   test,
   code,
@@ -65,6 +83,9 @@ export function ResultView({
     headline = mainDims.length === 1 || test.seriousness === "screening" ? b?.label[lang] : undefined;
   }
   if (test.kind === "cognitive" && !headline) headEmoji = "🧠";
+  const g0 = test.kind === "game" ? mainDims[0] : undefined;
+  const g0r = g0 && byId[g0.id];
+  const gameHead = g0 && g0r ? { value: g0r.raw, unit: unitFor(g0.id, lang), name: g0.name[lang], band: g0.bands[g0r.bandIndex]?.label[lang] } : null;
 
   const summary: string[] = outcome
     ? outcome.summary.map((s) => s[lang])
@@ -81,7 +102,6 @@ export function ResultView({
           <p className="text-sm text-muted">
             {dict.result.yourResult} • {test.title[lang]}
           </p>
-          {test.resultIntro && <p className="mt-3 max-w-md text-[15px] text-ink-2 text-pretty">{test.resultIntro[lang].replace(/\*\*/g, "")}</p>}
           <motion.div initial={{ scale: 0.4, opacity: 0, rotate: -12 }} animate={{ scale: 1, opacity: 1, rotate: 0 }} transition={{ type: "spring", stiffness: 200, damping: 14, delay: 0.1 }} className="mt-5 text-7xl">
             {headEmoji}
           </motion.div>
@@ -89,6 +109,17 @@ export function ResultView({
             <h1 className="font-display mt-4 text-[clamp(2rem,6vw,3.6rem)] font-semibold leading-[1.02] tracking-[-0.03em]">
               {result.correct} <span className="text-muted">/ {result.total}</span>
             </h1>
+          ) : gameHead ? (
+            <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease, delay: 0.25 }}>
+              <h1 className="font-display mt-4 text-[clamp(2.4rem,7vw,4.2rem)] font-semibold leading-[1.02] tracking-[-0.03em] tabular-nums">
+                {gameHead.value}
+                {gameHead.unit && <span className="ml-2 text-[0.5em] text-muted">{gameHead.unit}</span>}
+              </h1>
+              <p className="mt-2 text-ink-2">
+                {gameHead.name}
+                {gameHead.band && <span className="ml-2 rounded-full bg-surface-2 px-2.5 py-0.5 text-sm text-ink">{gameHead.band}</span>}
+              </p>
+            </motion.div>
           ) : (
             headline && (
               <motion.h1 initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease, delay: 0.25 }} className="font-display mt-4 text-[clamp(2rem,6vw,3.6rem)] font-semibold leading-[1.02] tracking-[-0.03em] text-balance">
@@ -96,6 +127,7 @@ export function ResultView({
               </motion.h1>
             )
           )}
+          {test.resultIntro && <p className="mt-4 max-w-md text-[15px] text-ink-2 text-pretty">{test.resultIntro[lang].replace(/\*\*/g, "")}</p>}
           {friend && (
             <p className="mt-3 text-sm text-ink-2">
               <span className="mr-2 inline-block size-2.5 rounded-full bg-[var(--rose)]" />
@@ -375,11 +407,18 @@ function DimRow({
       <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
         <h3 className="font-medium">{dim.name[lang]}</h3>
         <span className="text-sm tabular-nums text-ink-2">
-          {test.seriousness !== "fun" && (
+          {test.kind === "game" ? (
             <>
               {fmtRaw(r.raw)}
-              <span className="text-muted"> / {fmtRaw(dim.max)}</span>
+              {unitFor(dim.id, lang) && <span className="text-muted"> {unitFor(dim.id, lang)}</span>}
             </>
+          ) : (
+            test.seriousness !== "fun" && (
+              <>
+                {fmtRaw(r.raw)}
+                <span className="text-muted"> / {fmtRaw(dim.max)}</span>
+              </>
+            )
           )}
           {band && <span className="ml-2 rounded-full px-2 py-0.5 text-xs text-ink" style={{ background: `color-mix(in oklab, ${color} 35%, transparent)` }}>{band.label[lang]}</span>}
         </span>
@@ -387,17 +426,18 @@ function DimRow({
       <div className="mt-3">
         <ScaleBar value={r.norm} compare={f?.norm} color={color} ticks={test.seriousness === "screening" ? ticks : []} />
         <div className="mt-1.5 flex justify-between text-[11.5px] text-muted">
-          <span>{dim.lowLabel[lang]}</span>
-          <span>{dim.highLabel[lang]}</span>
+          {/* the bar is drawn on the "better" axis, so lower-is-better scales swap ends */}
+          <span>{(dim.lowerIsBetter ? dim.highLabel : dim.lowLabel)[lang]}</span>
+          <span>{(dim.lowerIsBetter ? dim.lowLabel : dim.highLabel)[lang]}</span>
         </div>
       </div>
       {r.percentile !== undefined && (
         <div className="mt-4">
           <NormCurve percentile={r.percentile} compare={f?.percentile} color={color} />
           <p className="mt-1 text-sm">
-            <span className="font-medium">{fmt(dim.lowerIsBetter ? dict.result.higherThan : r.percentile >= 50 ? dict.result.higherThan : dict.result.lowerThan, { p: r.percentile >= 50 || dim.lowerIsBetter ? r.percentile : 100 - r.percentile })}</span>
+            <span className="font-medium">{fmt(dim.lowerIsBetter ? dict.result.betterThan : r.percentile >= 50 ? dict.result.higherThan : dict.result.lowerThan, { p: r.percentile >= 50 || dim.lowerIsBetter ? r.percentile : 100 - r.percentile })}</span>
           </p>
-          {dim.norms && <p className="mt-1 text-[11.5px] text-muted">{fmt(dict.result.percentileNote, { src: `${dim.norms.population}; ${dim.norms.source}` })}</p>}
+          {dim.norms && <p className="mt-1 text-[11.5px] text-muted">{fmt(dict.result.percentileNote, { src: shortSource(dim.norms.source, lang) })}</p>}
         </div>
       )}
       {facets.length > 0 && (

@@ -1,0 +1,771 @@
+{
+  "id": "dark-triad",
+  "category": "personality",
+  "kind": "likert",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Тёмная триада: макиавеллизм, нарциссизм, психопатия (SD3)",
+    "en": "Dark Triad: Machiavellianism, narcissism, psychopathy (SD3)"
+  },
+  "tagline": {
+    "ru": "Бережный научный взгляд на «тёмные» стороны, которые есть у каждого",
+    "en": "A careful scientific look at the darker traits we all have to some degree"
+  },
+  "description": {
+    "ru": "Короткий научный опросник (SD3) измеряет три черты «тёмной триады» в их обычной, не болезненной форме: стратегичность и расчётливость, потребность в восхищении и импульсивную жёсткость. Вы узнаете, где вы находитесь относительно других людей, какие плюсы и риски несёт ваш профиль и что с этим можно делать.",
+    "en": "A short scientific questionnaire (the SD3) measures the three Dark Triad traits in their everyday, non-pathological form: strategic calculation, the need for admiration and impulsive toughness. You will see where you stand relative to other people, what benefits and risks your profile brings and what you can do about it."
+  },
+  "emoji": "🎭",
+  "durationMin": 5,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "тёмная триада",
+      "en": "dark triad"
+    },
+    {
+      "ru": "макиавеллизм",
+      "en": "Machiavellianism"
+    },
+    {
+      "ru": "нарциссизм",
+      "en": "narcissism"
+    },
+    {
+      "ru": "психопатия",
+      "en": "psychopathy"
+    },
+    {
+      "ru": "SD3",
+      "en": "SD3"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряется.** *Тёмная триада* (Paulhus & Williams, 2002) — три родственные, но самостоятельные «социально неприятные» черты личности в нормальном (субклиническом) диапазоне:\n- **Макиавеллизм** — стратегическое манипулирование, цинизм и расчётливый эгоизм.\n- **Нарциссизм** — грандиозность, чувство особых прав и жажда восхищения.\n- **Психопатия** — импульсивность, тяга к острым ощущениям, чёрствость и низкая тревожность.\n\nОбщее ядро всех трёх — сниженная эмпатия и низкая честность — скромность (Lee & Ashton, 2005). По данным метаанализов, они связаны с более агрессивным и антисоциальным поведением, а также с некоторыми краткосрочными социальными успехами (Muris et al., 2017).\n\n**История.** Кристи и Гейс (1970) операционализировали макиавеллизм опросником MACH-IV. Раскин и Холл (1979) и Раскин и Терри (1988) создали Опросник нарциссической личности (NPI). Исследования клинической психопатии восходят к Клекли (1941) и методике PCL-R Хаэра. Полхус и Уильямс (2002) показали, что три черты пересекаются, но не взаимозаменяемы. Затем появились краткие методики: 12-пунктовая *«Грязная дюжина»* (Jonason & Webster, 2010) и 27-пунктовый **Короткий опросник тёмной триады, SD3** (Jones & Paulhus, 2014), который используется здесь.\n\n**Почему SD3, а не «Грязная дюжина».** Обе методики опубликованы в журналах под авторским правом и не имеют явной открытой лицензии (см. поле «лицензия»). SD3 выбран потому, что в нём по 9 утверждений на черту вместо 4. Его подшкалы лучше охватывают конструкты, а шкалу психопатии «Грязной дюжины» особенно критиковали за слабую валидность (Miller et al., 2012). Кроме того, у SD3 есть русскоязычная адаптация: Егорова, Ситникова и Паршикова (2015), N = 571, α = .72 / .74 / .70.\n\n**Психометрика** (Jones & Paulhus, 2014; четыре исследования, 1 063 участника (исследования 1–3 — на MTurk) плюс 65 информантов):\n- α .71–.77 (макиавеллизм), .68–.78 (нарциссизм), .72–.80 (психопатия).\n- Корреляции подшкал: M–P .40–.50, M–N .18–.29, N–P .31–.42.\n- Авторы проверили подшкалы по соответствию устоявшимся длинным методикам каждой черты, а в исследовании 4 — по оценкам знакомых (информантов).\n\n**Подсчёт.** Ответы даются по шкале согласия 1–5. Пять утверждений обратные (нарциссизм 2, 6, 8; психопатия 2, 7) и считаются как 6 − ответ. В оригинале балл — **среднее** 9 утверждений подшкалы (1–5); здесь показывается **сумма** (9–45), то есть среднее × 9. Нормы объединены по Jones & Paulhus (2014, табл. 3, исследования 1–3, n ≈ 998):\n- Макиавеллизм: среднее по утверждению 3.20 (SD 0.59) → сумма 28.78 (5.27)\n- Нарциссизм: 2.83 (0.53) → 25.46 (4.74)\n- Психопатия: 2.16 (0.62) → 19.45 (5.54)\n\nГраницы уровней — 30-й, 70-й и 90-й процентили. Для сравнения: 17 740 самоотобранных посетителей онлайн-версии SD3 (данные Open-Source Psychometrics Project) набрали больше — средние по утверждению 3,71 / 3,07 / 2,82 (расчёт testik). Люди, которые сами ищут «тест на тёмную личность», не являются репрезентативной выборкой, поэтому используются нормы MTurk.\n\n**Ограничения.**\n- Это самоотчёт о чертах *нормального диапазона*. Он не диагностирует психопатию, антисоциальное или нарциссическое расстройство личности.\n- Результаты зависят от откровенности: люди с выраженными чертами могут как занижать, так и завышать ответы.\n- Нормы получены на североамериканских онлайн-работниках; русский перевод — собственный перевод testik.\n- Утверждение P8 касается случайного секса; оно входит в валидизированную шкалу, и его удаление сделало бы нормы неприменимыми.\n- Не используйте результаты, чтобы навешивать ярлыки на других людей, отбирать или судить их.",
+    "en": "**What is measured.** The *Dark Triad* (Paulhus & Williams, 2002) is a set of three related but distinct \"socially aversive\" personality traits in the normal (subclinical) range:\n- **Machiavellianism:** strategic manipulation, cynicism and calculated self-interest.\n- **Narcissism:** grandiosity, entitlement and a hunger for admiration.\n- **Psychopathy:** impulsivity, thrill-seeking, callousness and low anxiety.\n\nAll three share a core of low empathy and low Honesty-Humility (Lee & Ashton, 2005). In meta-analyses, they relate to more aggressive and antisocial behaviour, as well as to some short-term social successes (Muris et al., 2017).\n\n**History.** Christie and Geis (1970) operationalised Machiavellianism with the MACH-IV. Raskin and Hall (1979) and Raskin and Terry (1988) built the Narcissistic Personality Inventory (NPI). Clinical psychopathy research goes back to Cleckley (1941) and Hare's PCL-R. Paulhus and Williams (2002) showed that the three traits overlap but are not interchangeable. Brief measures followed: the 12-item *Dirty Dozen* (Jonason & Webster, 2010) and the 27-item **Short Dark Triad, SD3** (Jones & Paulhus, 2014), used here.\n\n**Why the SD3 and not the Dirty Dozen.** Both are copyrighted journal publications with no explicit open licence (see the licence field). The SD3 was chosen because it has 9 items per trait instead of 4. Its subscales show better construct coverage, and the Dirty Dozen's psychopathy scale in particular has been criticised for weak validity (Miller et al., 2012). The SD3 also has a Russian adaptation: Egorova, Sitnikova & Parshikova (2015), N = 571, α = .72 / .74 / .70.\n\n**Psychometrics** (Jones & Paulhus, 2014; four studies, N = 1,063 participants (Studies 1–3 on MTurk) plus 65 informants):\n- α .71–.77 (Machiavellianism), .68–.78 (narcissism), .72–.80 (psychopathy).\n- Subscale intercorrelations: M–P .40–.50, M–N .18–.29, N–P .31–.42.\n- The authors validated the subscales against established longer measures of each trait and, in Study 4, against informant (acquaintance) ratings.\n\n**Scoring.** Items are answered on a 1–5 agreement scale. Five items are reverse-keyed (narcissism 2, 6, 8; psychopathy 2, 7) and scored as 6 − answer. The original scoring is the **mean** of each 9-item subscale (1–5); here the **sum** (9–45) is shown, which equals the mean × 9. Norms are pooled from Jones & Paulhus (2014, Table 3, Studies 1–3, n ≈ 998):\n- Machiavellianism: item mean 3.20 (SD 0.59) → sum 28.78 (5.27)\n- Narcissism: 2.83 (0.53) → 25.46 (4.74)\n- Psychopathy: 2.16 (0.62) → 19.45 (5.54)\n\nBands cut at the 30th, 70th and 90th percentiles. For comparison, 17,740 self-selected visitors of an online SD3 test (Open-Source Psychometrics Project data) scored higher: item means 3.71 / 3.07 / 2.82 (testik calculation). People who seek out a \"dark personality test\" are not a representative sample, so the MTurk norms are used.\n\n**Limitations.**\n- This is a self-report measure of *normal-range* traits. It is not a diagnostic tool for psychopathy, antisocial personality disorder or narcissistic personality disorder.\n- Scores depend on candour; people high on these traits may under- or over-report.\n- Norms are North American online workers; the Russian translation used here is testik's own.\n- Item P8 asks about casual sex; it is part of the validated scale, and removing it would invalidate the norms.\n- Do not use the results to label, screen or judge other people."
+  },
+  "sources": [
+    {
+      "citation": "Jones, D. N., & Paulhus, D. L. (2014). Introducing the Short Dark Triad (SD3): A brief measure of dark personality traits. Assessment, 21(1), 28–41.",
+      "doi": "10.1177/1073191113514105",
+      "url": "https://www2.psych.ubc.ca/~dpaulhus/research/DARK_TRAITS/ARTICLES/ASSESST.2014.with.Jones.pdf"
+    },
+    {
+      "citation": "Paulhus, D. L., & Williams, K. M. (2002). The Dark Triad of personality: Narcissism, Machiavellianism, and psychopathy. Journal of Research in Personality, 36(6), 556–563.",
+      "doi": "10.1016/S0092-6566(02)00505-6"
+    },
+    {
+      "citation": "Егорова, М. С., Ситникова, М. А., & Паршикова, О. В. (2015). Адаптация Короткого опросника Темной триады. Психологические исследования, 8(43).",
+      "doi": "10.54359/ps.v8i43.1052",
+      "url": "https://psystudy.ru/index.php/num/article/view/1052"
+    },
+    {
+      "citation": "Jonason, P. K., & Webster, G. D. (2010). The Dirty Dozen: A concise measure of the Dark Triad. Psychological Assessment, 22(2), 420–432.",
+      "doi": "10.1037/a0019265"
+    },
+    {
+      "citation": "Miller, J. D., Few, L. R., Seibert, L. A., Watts, A., Zeichner, A., & Lynam, D. R. (2012). An examination of the Dirty Dozen measure of psychopathy: A cautionary tale about the costs of brief measures. Psychological Assessment, 24(4), 1048–1053."
+    },
+    {
+      "citation": "Lee, K., & Ashton, M. C. (2005). Psychopathy, Machiavellianism, and narcissism in the Five-Factor Model and the HEXACO model of personality structure. Personality and Individual Differences, 38(7), 1571–1582.",
+      "doi": "10.1016/j.paid.2004.09.016"
+    },
+    {
+      "citation": "Muris, P., Merckelbach, H., Otgaar, H., & Meijer, E. (2017). The malevolent side of human nature: A meta-analysis and critical review of the literature on the Dark Triad (narcissism, Machiavellianism, and psychopathy). Perspectives on Psychological Science, 12(2), 183–204.",
+      "doi": "10.1177/1745691616666070"
+    },
+    {
+      "citation": "Christie, R., & Geis, F. L. (1970). Studies in Machiavellianism. New York: Academic Press."
+    },
+    {
+      "citation": "Raskin, R., & Terry, H. (1988). A principal-components analysis of the Narcissistic Personality Inventory and further evidence of its construct validity. Journal of Personality and Social Psychology, 54(5), 890–902.",
+      "doi": "10.1037/0022-3514.54.5.890"
+    },
+    {
+      "citation": "Open-Source Psychometrics Project. Raw data: answers to the Short Dark Triad (SD3.zip, N = 18,192).",
+      "url": "https://github.com/haghish/openpsychometrics"
+    }
+  ],
+  "license": "NOT public domain: copyrighted research instrument (Jones & Paulhus, 2014, SAGE). No explicit open licence was found. The article carries only SAGE's \"Reprints and permissions\" line; the authors' lab page (www2.psych.ubc.ca/~dpaulhus/research/DARK_TRAITS/) hosts the article but could not be checked for terms; the Item Response Warehouse rights register lists the SD3 as \"hold\" (no originator terms located). The SD3 is widely reproduced for free in research and on non-commercial test sites with citation. The Dirty Dozen (APA journal, 2010) has the same status. RECOMMENDATION: before commercial launch, request written permission from the authors (Delroy L. Paulhus, University of British Columbia; Daniel N. Jones). If permission is refused, drop this test and rely on the public-domain Honesty-Humility scale of the 'hexaco' test, the shared core of the Dark Triad. Russian wording and result texts are testik's own.",
+  "disclaimer": {
+    "ru": "Этот тест измеряет обычные черты личности, которые в той или иной степени есть у каждого человека. Он **не является диагнозом** и не может выявить психопатию, нарциссическое или антисоциальное расстройство личности — их диагностируют только специалисты с помощью клинического интервью. Высокий балл не делает человека «плохим», а низкий — «хорошим». Не используйте результаты, чтобы навешивать ярлыки на себя или других. Если вы страдаете от манипуляций или агрессии другого человека, обратитесь за поддержкой: в опасной ситуации — 112; в Москве — служба психологической помощи 051 (с мобильного 8-495-051); телефон доверия для пострадавших от домашнего насилия (центр «Анна») — 8-800-7000-600; детям и подросткам — 8-800-2000-122; в других странах — местные службы помощи.",
+    "en": "This test measures ordinary personality traits that everyone has to some degree. It is **not a diagnosis** and cannot detect psychopathy or narcissistic or antisocial personality disorder; only professionals diagnose those, using clinical interviews. A high score does not make a person \"bad\", and a low score does not make them \"good\". Do not use the results to label yourself or others. If you are suffering from someone else's manipulation or aggression, please seek support: in danger, call 112; in Moscow, the psychological help service 051 (8-495-051 from a mobile); in Russia, the domestic-violence helpline of the ANNA Centre 8-800-7000-600 and, for children and teens, 8-800-2000-122; elsewhere, your local support services."
+  },
+  "instructions": {
+    "ru": "Ниже 27 утверждений. Отметьте, насколько вы с каждым согласны. Здесь нет правильных и неправильных ответов, и никто, кроме вас, не увидит результат — отвечайте максимально честно, это делает результат точнее.",
+    "en": "Below are 27 statements. Indicate how much you agree with each. There are no right or wrong answers and nobody but you will see the result, so answer as honestly as you can; it makes the result more accurate."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Совершенно не согласен(на)",
+        "en": "Disagree strongly"
+      },
+      {
+        "ru": "Не согласен(на)",
+        "en": "Disagree"
+      },
+      {
+        "ru": "Ни да, ни нет",
+        "en": "Neither agree nor disagree"
+      },
+      {
+        "ru": "Согласен(на)",
+        "en": "Agree"
+      },
+      {
+        "ru": "Полностью согласен(на)",
+        "en": "Agree strongly"
+      }
+    ],
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "machiavellianism",
+      "name": {
+        "ru": "Макиавеллизм",
+        "en": "Machiavellianism"
+      },
+      "description": {
+        "ru": "Стратегический, расчётливый взгляд на отношения: убеждённость, что люди манипулируемы, готовность действовать хитростью, планировать на перспективу и использовать других ради своих целей. Назван в честь Никколо Макиавелли, автора трактата «Государь».",
+        "en": "A strategic, calculating view of social life: the belief that people can be manipulated, readiness to use cunning, plan ahead and use others for one's own ends. Named after Niccolò Machiavelli, author of The Prince."
+      },
+      "lowLabel": {
+        "ru": "открытый, доверчивый",
+        "en": "open, trusting"
+      },
+      "highLabel": {
+        "ru": "стратегичный, расчётливый",
+        "en": "strategic, calculating"
+      },
+      "color": "#C9B6E4",
+      "scoring": "sum",
+      "min": 9,
+      "max": 45,
+      "norms": {
+        "mean": 28.78,
+        "sd": 5.27,
+        "n": 998,
+        "population": "US/Canadian adults recruited on Amazon Mechanical Turk (Studies 1–3; ~50% women; mean age ≈ 29–31)",
+        "source": "Jones & Paulhus (2014), Assessment 21(1), Table 3: sex-specific item means pooled by testik across Studies 1–3 (item mean 3.20, SD 0.59) and multiplied by 9 for the sum score"
+      },
+      "bands": [
+        {
+          "min": 9,
+          "max": 26,
+          "label": {
+            "ru": "Низкий уровень",
+            "en": "Low"
+          },
+          "summary": [
+            {
+              "ru": "Открыто говорите, что думаете",
+              "en": "You say openly what you think"
+            },
+            {
+              "ru": "Склонны доверять людям",
+              "en": "You tend to trust people"
+            },
+            {
+              "ru": "Не любите интриг и «многоходовок»",
+              "en": "You dislike intrigue and scheming"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам чужд расчётливый подход к людям: вы предпочитаете открытость, не держите «камня за пазухой» и не планируете, как кого-то использовать. Это основа доверия к вам.\n\nСовет: высокая открытость иногда делает людей уязвимыми для чужих манипуляций. Полезно знать базовые приёмы влияния (лесть, давление сроками, «эффект взаимности»), чтобы вовремя их замечать, и не спешить делиться личной информацией с малознакомыми людьми.",
+            "en": "A calculating approach to people is foreign to you: you prefer openness, do not hide ulterior motives and do not plan how to use anyone. That is the foundation of people's trust in you.\n\nTip: a lot of openness can make people vulnerable to others' manipulation. It helps to know the basic influence tactics (flattery, deadline pressure, the reciprocity effect) so you can spot them, and to be in no hurry to share personal information with people you hardly know."
+          }
+        },
+        {
+          "min": 27,
+          "max": 31,
+          "label": {
+            "ru": "Средний уровень",
+            "en": "Average"
+          },
+          "summary": [
+            {
+              "ru": "Сочетаете открытость и осторожность",
+              "en": "You combine openness and caution"
+            },
+            {
+              "ru": "Понимаете, что в отношениях есть «политика»",
+              "en": "You know relationships involve some politics"
+            },
+            {
+              "ru": "Хитрите редко и по мелочи",
+              "en": "You rarely scheme, and only in small ways"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень макиавеллизма близок к среднему: вы понимаете, что люди преследуют свои интересы, иногда проявляете осторожность и дипломатичность, но не строите отношения на манипуляциях. Совет: это здоровый баланс — сохраняйте прозрачность там, где важна долгосрочная репутация.",
+            "en": "Your Machiavellianism is close to average: you understand that people pursue their own interests and are sometimes cautious and diplomatic, but you do not build relationships on manipulation. Tip: this is a healthy balance; stay transparent wherever long-term reputation matters."
+          }
+        },
+        {
+          "min": 32,
+          "max": 35,
+          "label": {
+            "ru": "Повышенный уровень",
+            "en": "Elevated"
+          },
+          "summary": [
+            {
+              "ru": "Мыслите стратегически о людях",
+              "en": "You think strategically about people"
+            },
+            {
+              "ru": "Осторожны и скрытны",
+              "en": "Guarded and secretive"
+            },
+            {
+              "ru": "Считаете, что цель часто оправдывает средства",
+              "en": "You often feel the end justifies the means"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы выше большинства по макиавеллизму: склонны просчитывать отношения, держать информацию при себе, выстраивать союзы с влиятельными людьми и действовать в своих интересах. Это может помогать в переговорах и политике организаций.\n\nСовет: исследования показывают, что стратегическое поведение работает в коротких взаимодействиях, но в длинных — подрывает доверие. Попробуйте чаще делать ставку на открытое сотрудничество там, где отношения важны надолго, и проверяйте свои решения вопросом: «Готов(а) ли я, чтобы человек узнал, как я рассуждал(а)?»",
+            "en": "You are higher than most people on Machiavellianism: you tend to calculate relationships, keep information to yourself, build alliances with influential people and act in your own interest. This can help in negotiations and office politics.\n\nTip: research suggests strategic behaviour pays off in short interactions but erodes trust in long ones. Try betting more often on open cooperation where relationships matter long-term, and test your decisions with the question: \"Would I be fine with this person knowing how I reasoned?\""
+          }
+        },
+        {
+          "min": 36,
+          "max": 45,
+          "label": {
+            "ru": "Высокий уровень",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Цинично смотрите на человеческую природу",
+              "en": "A cynical view of human nature"
+            },
+            {
+              "ru": "Манипуляция кажется нормальным инструментом",
+              "en": "Manipulation seems a normal tool"
+            },
+            {
+              "ru": "Мало кому доверяете по-настоящему",
+              "en": "You truly trust few people"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат выше, чем у ~90% людей в нормативной выборке. Вам близок циничный взгляд на людей и уверенность, что добиваться своего лучше всего обходными путями. Это не диагноз и не приговор: такой стиль часто формируется как защита в среде, где доверие не оправдывалось.\n\nСовет: высокая цена такого стиля — одиночество, постоянная настороженность и хрупкие отношения. Попробуйте экспериментально проявлять открытость в безопасных ситуациях и замечать, что происходит. Если вы чувствуете, что недоверие мешает близости или работе, разговор с психологом может помочь понять его истоки.",
+            "en": "Your score is higher than ~90% of the norm sample. A cynical view of people and the belief that you get your way best through indirect routes come naturally to you. This is not a diagnosis or a verdict: such a style often develops as protection in environments where trust did not pay off.\n\nTip: the high price of this style is loneliness, constant vigilance and fragile relationships. Try being open, as an experiment, in safe situations and notice what happens. If you feel distrust is getting in the way of closeness or work, talking to a psychologist can help you understand where it comes from."
+          }
+        }
+      ]
+    },
+    {
+      "id": "narcissism",
+      "name": {
+        "ru": "Нарциссизм",
+        "en": "Narcissism"
+      },
+      "description": {
+        "ru": "Субклинический (обычный, не болезненный) нарциссизм: уверенность в своей исключительности, стремление к вниманию, восхищению и статусу, лидерские амбиции. Здесь речь не о расстройстве личности, а о черте, которая в разной степени есть у всех.",
+        "en": "Subclinical (everyday, non-pathological) narcissism: a sense of being special, a wish for attention, admiration and status, and leadership ambitions. This is not the personality disorder but a trait everyone has to some degree."
+      },
+      "lowLabel": {
+        "ru": "скромный, сдержанный",
+        "en": "modest, unassuming"
+      },
+      "highLabel": {
+        "ru": "уверенный, ищущий признания",
+        "en": "self-assured, admiration-seeking"
+      },
+      "color": "#FFC8A2",
+      "scoring": "sum",
+      "min": 9,
+      "max": 45,
+      "norms": {
+        "mean": 25.46,
+        "sd": 4.74,
+        "n": 998,
+        "population": "US/Canadian adults recruited on Amazon Mechanical Turk (Studies 1–3; ~50% women; mean age ≈ 29–31)",
+        "source": "Jones & Paulhus (2014), Assessment 21(1), Table 3: sex-specific item means pooled by testik across Studies 1–3 (item mean 2.83, SD 0.53) and multiplied by 9 for the sum score"
+      },
+      "bands": [
+        {
+          "min": 9,
+          "max": 22,
+          "label": {
+            "ru": "Низкий уровень",
+            "en": "Low"
+          },
+          "summary": [
+            {
+              "ru": "Скромны и не ищете внимания",
+              "en": "Modest, you do not seek attention"
+            },
+            {
+              "ru": "Неловко от комплиментов",
+              "en": "Compliments make you uncomfortable"
+            },
+            {
+              "ru": "Считаете себя обычным человеком",
+              "en": "You see yourself as an ordinary person"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам не свойственно выставлять себя напоказ: вы скромны, не стремитесь к центру внимания и не считаете себя особенным. Людям легко рядом с вами.\n\nСовет: очень низкий нарциссизм иногда сочетается с недооценкой себя. Ваши достижения заслуживают признания — тренируйтесь спокойно принимать комплименты («спасибо, мне приятно») и рассказывать о своих результатах фактически, без самоуничижения.",
+            "en": "Showing off is not your style: you are modest, do not seek the spotlight and do not think of yourself as special. People feel at ease around you.\n\nTip: very low narcissism sometimes goes with underrating yourself. Your achievements deserve recognition; practise accepting compliments calmly (\"thank you, that's nice to hear\") and describing your results factually, without self-deprecation."
+          }
+        },
+        {
+          "min": 23,
+          "max": 27,
+          "label": {
+            "ru": "Средний уровень",
+            "en": "Average"
+          },
+          "summary": [
+            {
+              "ru": "Здоровая уверенность в себе",
+              "en": "Healthy self-confidence"
+            },
+            {
+              "ru": "Признание приятно, но не необходимо",
+              "en": "Recognition is nice but not essential"
+            },
+            {
+              "ru": "Можете и лидировать, и уступить сцену",
+              "en": "You can lead or let others shine"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень нарциссизма близок к среднему: вы цените признание и уверены в себе, но не зависите от восхищения окружающих. Совет: это хороший баланс между самоуважением и уважением к другим.",
+            "en": "Your narcissism is close to average: you value recognition and are self-confident, but you do not depend on admiration. Tip: it is a good balance between self-respect and respect for others."
+          }
+        },
+        {
+          "min": 28,
+          "max": 31,
+          "label": {
+            "ru": "Повышенный уровень",
+            "en": "Elevated"
+          },
+          "summary": [
+            {
+              "ru": "Уверены в своих силах и лидерских качествах",
+              "en": "Confident in your abilities and leadership"
+            },
+            {
+              "ru": "Любите внимание и статус",
+              "en": "You enjoy attention and status"
+            },
+            {
+              "ru": "Остро реагируете на неуважение",
+              "en": "You react strongly to disrespect"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы выше большинства по нарциссизму: вам нравится быть заметным(ой), вы уверены в своих способностях и стремитесь к признанию. Такие люди часто легко становятся лидерами и хорошо производят первое впечатление.\n\nСовет: исследования показывают, что первое яркое впечатление со временем может тускнеть, если окружающие чувствуют, что их вклад не замечают. Делитесь успехом с командой, интересуйтесь мнением других и относитесь к критике как к информации, а не к угрозе.",
+            "en": "You are higher than most on narcissism: you like being noticed, are confident in your abilities and seek recognition. People like this often emerge as leaders and make a strong first impression.\n\nTip: research suggests a dazzling first impression can fade over time if others feel their contribution goes unnoticed. Share success with your team, ask others for their views and treat criticism as information rather than a threat."
+          }
+        },
+        {
+          "min": 32,
+          "max": 45,
+          "label": {
+            "ru": "Высокий уровень",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Сильная потребность в восхищении",
+              "en": "A strong need for admiration"
+            },
+            {
+              "ru": "Ощущение собственной исключительности",
+              "en": "A sense of being exceptional"
+            },
+            {
+              "ru": "Трудно переносить критику и «вторые роли»",
+              "en": "Criticism and supporting roles are hard to bear"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат выше, чем у ~90% людей в нормативной выборке. Для вас очень важны статус, уважение и восхищение, и вы ощущаете себя особенным человеком. Это может давать энергию и смелость, но также делает самооценку зависимой от внешней оценки.\n\nСовет: попробуйте замечать, как вы реагируете на критику или чужой успех — если это вызывает сильный гнев или опустошение, это сигнал, что самооценке нужна внутренняя опора. Практики благодарности, интерес к чувствам других и, при желании, работа с психологом помогают сделать уверенность устойчивой. Это не диагноз: опросник измеряет черту, а не расстройство.",
+            "en": "Your score is higher than ~90% of the norm sample. Status, respect and admiration matter a great deal to you, and you feel like an exceptional person. This can give energy and courage, but it also makes self-esteem dependent on outside approval.\n\nTip: notice how you react to criticism or other people's success. If it triggers strong anger or a sense of emptiness, that is a signal that your self-esteem needs an inner anchor. Gratitude practices, curiosity about others' feelings and, if you wish, work with a psychologist help make confidence stable. This is not a diagnosis: the questionnaire measures a trait, not a disorder."
+          }
+        }
+      ]
+    },
+    {
+      "id": "psychopathy",
+      "name": {
+        "ru": "Психопатия (субклиническая)",
+        "en": "Psychopathy (subclinical)"
+      },
+      "description": {
+        "ru": "Субклиническая психопатия — импульсивность, тяга к острым ощущениям, сниженная тревожность и эмпатия, жёсткость в ответ на обиды. Важно: это шкала обычных черт личности, а не клиническая психопатия, которую диагностируют только специалисты с помощью интервью.",
+        "en": "Subclinical psychopathy: impulsivity, thrill-seeking, low anxiety and low empathy, and harshness in response to provocation. Important: this is a scale of normal personality traits, not clinical psychopathy, which only professionals diagnose through interviews."
+      },
+      "lowLabel": {
+        "ru": "осторожный, мягкий",
+        "en": "cautious, gentle"
+      },
+      "highLabel": {
+        "ru": "импульсивный, жёсткий",
+        "en": "impulsive, tough"
+      },
+      "color": "#F7A8A8",
+      "scoring": "sum",
+      "min": 9,
+      "max": 45,
+      "norms": {
+        "mean": 19.45,
+        "sd": 5.54,
+        "n": 998,
+        "population": "US/Canadian adults recruited on Amazon Mechanical Turk (Studies 1–3; ~50% women; mean age ≈ 29–31)",
+        "source": "Jones & Paulhus (2014), Assessment 21(1), Table 3: sex-specific item means pooled by testik across Studies 1–3 (item mean 2.16, SD 0.62) and multiplied by 9 for the sum score"
+      },
+      "bands": [
+        {
+          "min": 9,
+          "max": 16,
+          "label": {
+            "ru": "Низкий уровень",
+            "en": "Low"
+          },
+          "summary": [
+            {
+              "ru": "Осторожны и избегаете риска",
+              "en": "Cautious and risk-averse"
+            },
+            {
+              "ru": "Мягки и не мстительны",
+              "en": "Gentle and not vengeful"
+            },
+            {
+              "ru": "Хорошо контролируете импульсы",
+              "en": "Good impulse control"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам свойственны осторожность, самоконтроль и мягкость: вы не ищете опасных приключений, не мстите и не говорите людям обидных вещей ради выгоды. Окружающие чувствуют себя с вами в безопасности.\n\nСовет: если осторожность иногда мешает вам отстаивать себя или пробовать новое, тренируйте «дозированную смелость» — небольшие оправданные риски и спокойное, твёрдое «нет».",
+            "en": "You tend to be cautious, self-controlled and gentle: you do not seek dangerous adventures, do not take revenge and do not say hurtful things for gain. People feel safe around you.\n\nTip: if caution sometimes stops you from standing up for yourself or trying new things, practise measured boldness: small, justified risks and a calm, firm \"no\"."
+          }
+        },
+        {
+          "min": 17,
+          "max": 22,
+          "label": {
+            "ru": "Средний уровень",
+            "en": "Average"
+          },
+          "summary": [
+            {
+              "ru": "Иногда любите риск и азарт",
+              "en": "You sometimes enjoy risk and excitement"
+            },
+            {
+              "ru": "Можете дать отпор, если задели",
+              "en": "You can push back if provoked"
+            },
+            {
+              "ru": "В целом контролируете себя",
+              "en": "Generally in control of yourself"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат близок к среднему: вы способны на смелость и жёсткость, когда это нужно, но в целом контролируете импульсы и учитываете чувства других. Совет: продолжайте сочетать решительность с эмпатией.",
+            "en": "Your score is close to average: you can be bold and tough when needed, but on the whole you control your impulses and consider others' feelings. Tip: keep combining decisiveness with empathy."
+          }
+        },
+        {
+          "min": 23,
+          "max": 26,
+          "label": {
+            "ru": "Повышенный уровень",
+            "en": "Elevated"
+          },
+          "summary": [
+            {
+              "ru": "Тянет к острым ощущениям",
+              "en": "Drawn to thrills"
+            },
+            {
+              "ru": "Бываете резки и мстительны",
+              "en": "You can be harsh and vengeful"
+            },
+            {
+              "ru": "Действуете импульсивно",
+              "en": "You act on impulse"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы выше большинства по субклинической психопатии: вас привлекает риск, вы можете действовать импульсивно, резко отвечать на обиды и не слишком переживать о чувствах тех, кто вас задел. В экстремальных ситуациях такие черты дают хладнокровие и смелость.\n\nСовет: обратите внимание на цену импульсивных решений — конфликты, проблемы с законом, разрушенные отношения. Помогают правило паузы («сначала 10 вдохов»), безопасные выходы для адреналина (спорт, экстремальные хобби с инструктором) и привычка спрашивать себя: «Как это скажется на мне через месяц?»",
+            "en": "You are higher than most on subclinical psychopathy: risk attracts you, you may act on impulse, respond harshly to offences and not worry much about the feelings of those who crossed you. In extreme situations these traits give coolness and courage.\n\nTip: pay attention to the cost of impulsive decisions: conflicts, legal trouble, damaged relationships. A pause rule (\"ten breaths first\"), safe outlets for adrenaline (sport, extreme hobbies with an instructor) and the habit of asking \"how will this affect me in a month?\" all help."
+          }
+        },
+        {
+          "min": 27,
+          "max": 45,
+          "label": {
+            "ru": "Высокий уровень",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Высокая импульсивность и тяга к риску",
+              "en": "High impulsivity and risk-taking"
+            },
+            {
+              "ru": "Жёсткость и мстительность в конфликтах",
+              "en": "Harshness and vengefulness in conflict"
+            },
+            {
+              "ru": "Сниженное сочувствие к тем, кто «перешёл дорогу»",
+              "en": "Little sympathy for those who cross you"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат выше, чем у ~90% людей в нормативной выборке. Вам свойственны смелость, импульсивность, жёсткость в конфликтах и сниженная чувствительность к чужой боли. Это **не** означает, что вы «психопат» в клиническом смысле: опросник измеряет обычные черты, а клинический диагноз ставят только специалисты.\n\nСовет: такие черты повышают риск конфликтов, травм, финансовых и юридических проблем. Работа над самоконтролем (паузы, планирование, отказ от решений «на взводе») реально помогает. Если вы замечаете, что причиняете вред другим или себе, или гнев выходит из-под контроля, обратитесь к психологу или психотерапевту — это признак силы, а не слабости.",
+            "en": "Your score is higher than ~90% of the norm sample. You tend towards boldness, impulsivity, harshness in conflict and reduced sensitivity to others' pain. This does **not** mean you are a psychopath in the clinical sense: the questionnaire measures ordinary traits, and only professionals make a clinical diagnosis.\n\nTip: these traits raise the risk of conflicts, injuries, financial and legal problems. Working on self-control (pausing, planning, never deciding while worked up) genuinely helps. If you notice you are hurting others or yourself, or your anger gets out of control, see a psychologist or therapist; it is a sign of strength, not weakness."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "m1",
+      "text": {
+        "ru": "Неразумно рассказывать другим свои секреты.",
+        "en": "It's not wise to tell your secrets."
+      },
+      "dimension": "machiavellianism"
+    },
+    {
+      "id": "m2",
+      "text": {
+        "ru": "Мне нравится добиваться своего с помощью ловких манипуляций.",
+        "en": "I like to use clever manipulation to get my way."
+      },
+      "dimension": "machiavellianism"
+    },
+    {
+      "id": "m3",
+      "text": {
+        "ru": "Чего бы это ни стоило, важных людей нужно перетянуть на свою сторону.",
+        "en": "Whatever it takes, you must get the important people on your side."
+      },
+      "dimension": "machiavellianism"
+    },
+    {
+      "id": "m4",
+      "text": {
+        "ru": "Избегайте открытых конфликтов с людьми: они могут пригодиться в будущем.",
+        "en": "Avoid direct conflict with others because they may be useful in the future."
+      },
+      "dimension": "machiavellianism"
+    },
+    {
+      "id": "m5",
+      "text": {
+        "ru": "Разумно запоминать сведения, которые потом можно использовать против людей.",
+        "en": "It's wise to keep track of information that you can use against people later."
+      },
+      "dimension": "machiavellianism"
+    },
+    {
+      "id": "m6",
+      "text": {
+        "ru": "Чтобы отплатить человеку, нужно дождаться подходящего момента.",
+        "en": "You should wait for the right time to get back at people."
+      },
+      "dimension": "machiavellianism"
+    },
+    {
+      "id": "m7",
+      "text": {
+        "ru": "Есть вещи, которые стоит скрывать от других: им незачем это знать.",
+        "en": "There are things you should hide from other people because they don't need to know."
+      },
+      "dimension": "machiavellianism"
+    },
+    {
+      "id": "m8",
+      "text": {
+        "ru": "Следите, чтобы ваши планы приносили выгоду вам, а не другим.",
+        "en": "Make sure your plans benefit you, not others."
+      },
+      "dimension": "machiavellianism"
+    },
+    {
+      "id": "m9",
+      "text": {
+        "ru": "Большинством людей можно манипулировать.",
+        "en": "Most people can be manipulated."
+      },
+      "dimension": "machiavellianism"
+    },
+    {
+      "id": "n1",
+      "text": {
+        "ru": "Люди видят во мне прирождённого лидера.",
+        "en": "People see me as a natural leader."
+      },
+      "dimension": "narcissism"
+    },
+    {
+      "id": "n2",
+      "text": {
+        "ru": "Терпеть не могу быть в центре внимания.",
+        "en": "I hate being the center of attention."
+      },
+      "dimension": "narcissism",
+      "reverse": true
+    },
+    {
+      "id": "n3",
+      "text": {
+        "ru": "Многие общие мероприятия без меня довольно скучны.",
+        "en": "Many group activities tend to be dull without me."
+      },
+      "dimension": "narcissism"
+    },
+    {
+      "id": "n4",
+      "text": {
+        "ru": "Я знаю, что я особенный(ая), потому что мне все постоянно об этом говорят.",
+        "en": "I know that I am special because everyone keeps telling me so."
+      },
+      "dimension": "narcissism"
+    },
+    {
+      "id": "n5",
+      "text": {
+        "ru": "Мне нравится знакомиться с важными людьми.",
+        "en": "I like to get acquainted with important people."
+      },
+      "dimension": "narcissism"
+    },
+    {
+      "id": "n6",
+      "text": {
+        "ru": "Мне неловко, когда меня хвалят.",
+        "en": "I feel embarrassed if someone compliments me."
+      },
+      "dimension": "narcissism",
+      "reverse": true
+    },
+    {
+      "id": "n7",
+      "text": {
+        "ru": "Меня сравнивали с известными людьми.",
+        "en": "I have been compared to famous people."
+      },
+      "dimension": "narcissism"
+    },
+    {
+      "id": "n8",
+      "text": {
+        "ru": "Я самый обычный человек.",
+        "en": "I am an average person."
+      },
+      "dimension": "narcissism",
+      "reverse": true
+    },
+    {
+      "id": "n9",
+      "text": {
+        "ru": "Я настаиваю на том уважении, которого заслуживаю.",
+        "en": "I insist on getting the respect I deserve."
+      },
+      "dimension": "narcissism"
+    },
+    {
+      "id": "p1",
+      "text": {
+        "ru": "Мне нравится мстить тем, у кого есть власть (начальству, властям).",
+        "en": "I like to get revenge on authorities."
+      },
+      "dimension": "psychopathy"
+    },
+    {
+      "id": "p2",
+      "text": {
+        "ru": "Я избегаю опасных ситуаций.",
+        "en": "I avoid dangerous situations."
+      },
+      "dimension": "psychopathy",
+      "reverse": true
+    },
+    {
+      "id": "p3",
+      "text": {
+        "ru": "Расплата должна быть быстрой и жёсткой.",
+        "en": "Payback needs to be quick and nasty."
+      },
+      "dimension": "psychopathy"
+    },
+    {
+      "id": "p4",
+      "text": {
+        "ru": "Люди часто говорят, что я себя не контролирую.",
+        "en": "People often say I'm out of control."
+      },
+      "dimension": "psychopathy"
+    },
+    {
+      "id": "p5",
+      "text": {
+        "ru": "Что правда, то правда: я могу быть жестоким(ой) с другими.",
+        "en": "It's true that I can be mean to others."
+      },
+      "dimension": "psychopathy"
+    },
+    {
+      "id": "p6",
+      "text": {
+        "ru": "Тот, кто со мной свяжется, всегда об этом пожалеет.",
+        "en": "People who mess with me always regret it."
+      },
+      "dimension": "psychopathy"
+    },
+    {
+      "id": "p7",
+      "text": {
+        "ru": "У меня никогда не было проблем с законом.",
+        "en": "I have never gotten into trouble with the law."
+      },
+      "dimension": "psychopathy",
+      "reverse": true
+    },
+    {
+      "id": "p8",
+      "text": {
+        "ru": "Мне нравится заниматься сексом с людьми, которых я почти не знаю.",
+        "en": "I enjoy having sex with people I hardly know."
+      },
+      "dimension": "psychopathy"
+    },
+    {
+      "id": "p9",
+      "text": {
+        "ru": "Я скажу что угодно, чтобы получить желаемое.",
+        "en": "I'll say anything to get what I want."
+      },
+      "dimension": "psychopathy"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Ответы 1–5; обратные утверждения (нарциссизм 2, 6, 8; психопатия 2, 7) = 6 − ответ. Балл шкалы — сумма 9 утверждений (9–45); средний балл по оригинальной методике = сумма / 9. Процентиль = Φ((балл − среднее)/SD) по нормам Jones & Paulhus (2014).",
+    "en": "Answers 1–5; reverse items (narcissism 2, 6, 8; psychopathy 2, 7) = 6 − answer. Scale score = sum of 9 items (9–45); the original mean score = sum / 9. Percentile = Φ((score − mean)/SD) using the Jones & Paulhus (2014) norms."
+  },
+  "resultIntro": {
+    "ru": "У каждого человека есть немного макиавеллизма, нарциссизма и психопатии — это обычные черты, которые в умеренной степени могут даже помогать: в переговорах, лидерстве или в кризисе. Важно не «сколько у меня тёмного», а как эти черты проявляются в ваших отношениях и решениях. Читайте результат как зеркало, а не как приговор.",
+    "en": "Everyone has a little Machiavellianism, narcissism and psychopathy. These are ordinary traits that, in moderation, can even help in negotiation, leadership or a crisis. What matters is not \"how dark am I\" but how these traits show up in your relationships and decisions. Read the result as a mirror, not a verdict."
+  },
+  "draft": true
+}

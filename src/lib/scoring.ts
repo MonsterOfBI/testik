@@ -118,7 +118,13 @@ export function rawScores(test: TestDef, answers: Answers): Record<string, numbe
     for (const dim of test.dimensions) raws[dim.id] = 0;
     for (const q of test.questions) {
       const idx = answers[q.id];
-      const ok = idx !== undefined && q.options?.[idx]?.correct;
+      const opt = idx !== undefined ? q.options?.[idx] : undefined;
+      const ok = !!opt?.correct;
+      // extra option scores (e.g. CRT "intuitive" lures); total/g are counted from correctness
+      for (const [k, v] of Object.entries(opt?.scores ?? {})) {
+        if (k === "total" || k === "g" || (ok && k === q.dimension)) continue;
+        if (raws[k] !== undefined) raws[k] += v;
+      }
       if (!ok) continue;
       if (q.dimension && raws[q.dimension] !== undefined) raws[q.dimension] += 1;
       if (raws.total !== undefined && q.dimension !== "total") raws.total += 1;
