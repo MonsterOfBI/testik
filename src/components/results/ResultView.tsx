@@ -103,7 +103,13 @@ export function ResultView({
             </p>
           )}
         </div>
-        <div className="relative mx-auto aspect-square w-full max-w-[380px]">
+        <div
+          className={
+            test.kind === "cognitive"
+              ? "relative mx-auto aspect-square w-full max-w-[380px]"
+              : "pointer-events-none absolute -right-20 -top-2 -z-10 size-80 opacity-80 md:pointer-events-auto md:relative md:right-auto md:top-auto md:z-auto md:mx-auto md:aspect-square md:size-auto md:w-full md:max-w-[380px] md:opacity-100"
+          }
+        >
           <Aura className="absolute inset-0" colors={aura.colors} sizes={aura.sizes} seed={aura.seed} />
           {test.kind === "cognitive" && result.iq && (
             <div className="absolute inset-0 grid place-items-center">
