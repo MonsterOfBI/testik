@@ -1,6 +1,6 @@
 "use client";
 
-import { ViewTransition, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
+import { ViewTransition, useEffect, useLayoutEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import type { Answers, Locale, TestDef, TestMeta, TestResult } from "@/lib/types";
@@ -11,7 +11,8 @@ import { Md } from "@/components/ui/Disclosure";
 import { MethodPanel } from "./MethodPanel";
 import { Runner } from "./Runner";
 import { GameHost } from "@/components/games/GameHost";
-import { canSaveProgress, clearProgress, getProgress, saveToHistory } from "@/lib/history";
+import { canSaveProgress, clearProgress, getProgress, latestByTest, saveToHistory, useLocalData } from "@/lib/history";
+import Link from "next/link";
 import { fmt } from "@/i18n/dict";
 import { encodeResult, scoreTest } from "@/lib/scoring";
 import { Aura } from "@/components/ui/Aura";
@@ -28,7 +29,18 @@ const subscribeProgress = (cb: () => void) => {
   };
 };
 
-export function TestExperience({ test, lang, dict }: { test: TestDef; lang: Locale; dict: Dict; related: TestMeta[] }) {
+type Props = { test: TestDef; lang: Locale; dict: Dict; related: TestMeta[] };
+
+/**
+ * Next keeps visited pages alive (hidden) between navigations. A link or redirect to this
+ * page starts a fresh attempt (new key), while browser back/forward restores the old one.
+ */
+export function TestExperience(props: Props) {
+  const { bfcacheId } = useRouter();
+  return <TestExperienceInner key={bfcacheId} {...props} />;
+}
+
+function TestExperienceInner({ test, lang, dict }: Props) {
   const router = useRouter();
   // read ?vs= on the client instead of useSearchParams, so the intro prerenders as static HTML (SEO)
   const vs = useSyncExternalStore(
@@ -36,8 +48,19 @@ export function TestExperience({ test, lang, dict }: { test: TestDef; lang: Loca
     () => new URLSearchParams(window.location.search).get("vs"),
     () => null,
   );
-  const [phase, setPhase] = useState<Phase>("intro");
+  // ?retake=1 (from "Take it again" on a result) skips the intro
+  const retake = useSyncExternalStore(
+    noopSubscribe,
+    () => new URLSearchParams(window.location.search).has("retake"),
+    () => false,
+  );
+  const [chosenPhase, setPhase] = useState<Phase | null>(null);
+  const phase: Phase = chosenPhase ?? (retake ? "run" : "intro");
   const persist = canSaveProgress(test);
+
+  // the latest finished result of this test in this browser
+  const localVersion = useLocalData();
+  const last = useMemo(() => (localVersion ? latestByTest()[test.id] : undefined), [localVersion, test.id]);
 
   // saved progress, kept in sync with localStorage (also across tabs)
   const progressKey = `testik:progress:${test.id}`;
@@ -82,6 +105,16 @@ export function TestExperience({ test, lang, dict }: { test: TestDef; lang: Loca
   }, [phase]);
 
   const finished = useRef(false);
+  // once the result page takes over, coming back (browser back) shows the intro, not "calculating…"
+  useLayoutEffect(
+    () => () => {
+      if (finished.current) {
+        finished.current = false;
+        setPhase("intro");
+      }
+    },
+    [],
+  );
   const finish = (result: TestResult, answers?: Answers) => {
     if (finished.current) return;
     finished.current = true;
@@ -151,12 +184,21 @@ export function TestExperience({ test, lang, dict }: { test: TestDef; lang: Loca
               </div>
             )}
 
+            {last && resumeAt === null && (
+              <p className="mt-6 text-sm text-ink-2">
+                {fmt(dict.test.doneBefore, { date: new Date(last.result.at).toLocaleDateString(lang === "ru" ? "ru-RU" : "en-GB") })}{" "}
+                <Link href={`/${lang}/r/${test.id}/${last.code}`} className="text-ink underline decoration-[var(--line-strong)] underline-offset-4 hover:decoration-current">
+                  {dict.test.seeResult}
+                </Link>
+              </p>
+            )}
+
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <button
                 onClick={() => setPhase("run")}
                 className="rounded-2xl bg-ink px-7 py-4 font-medium text-bg transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
               >
-                {resumeAt !== null ? `${dict.test.resume} ${resumeAt + 1}` : dict.test.start}
+                {resumeAt !== null ? `${dict.test.resume} ${resumeAt + 1}` : last ? `↻ ${dict.test.retake}` : dict.test.start}
               </button>
               {resumeAt !== null && (
                 <button
