@@ -63,10 +63,12 @@ export function Runner({
   }, []);
 
   // whole-test timer (cognitive tests); a deadline survives tab sleep better than counting ticks
+  // The deadline is fixed once per attempt: the page can be hidden and shown again
+  // (navigation keeps it alive), and the clock must not restart when that happens.
   const [left, setLeft] = useState<number | null>(test.timeLimitSec ?? null);
+  const [deadline] = useState(() => Date.now() + (test.timeLimitSec ?? 0) * 1000);
   useEffect(() => {
     if (!test.timeLimitSec) return;
-    const deadline = Date.now() + test.timeLimitSec * 1000;
     const tick = () => {
       const s = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
       setLeft(s);
@@ -77,7 +79,7 @@ export function Runner({
     };
     const t = setInterval(tick, 250);
     return () => clearInterval(t);
-  }, [test.timeLimitSec, complete]);
+  }, [test.timeLimitSec, deadline, complete]);
 
   // save after every answer; ability tests and games are never resumed
   useEffect(() => {
@@ -150,14 +152,18 @@ export function Runner({
       {/* top bar: sits right under the header and slides up with it when the header hides */}
       <div className="sticky top-[var(--header-offset,76px)] z-10 -mx-5 bg-[color-mix(in_oklab,var(--bg)_86%,transparent)] px-5 pb-3 pt-2 backdrop-blur-md transition-[top] duration-300 ease-out">
         <div className="flex items-center gap-3 text-sm text-muted">
-          <button onClick={() => (index === 0 ? onExit() : go(-1))} className="-ml-2 min-h-11 rounded-lg px-2 py-1 hover:bg-surface-2 hover:text-ink">
-            ← {dict.test.back}
+          <button
+            onClick={() => (index === 0 ? onExit() : go(-1))}
+            className="-ml-2 min-h-11 min-w-0 rounded-lg px-2 py-1 text-left leading-tight hover:bg-surface-2 hover:text-ink"
+          >
+            ← {index === 0 ? dict.test.toIntro : dict.test.prevQuestion}
           </button>
-          <span className="ml-auto tabular-nums">
-            {dict.test.question} {index + 1} {dict.test.of} {qs.length}
+          <span className="ml-auto shrink-0 tabular-nums">
+            <span className="hidden sm:inline">{dict.test.question} </span>
+            {index + 1} {dict.test.of} {qs.length}
           </span>
           {left !== null && (
-            <span className={cx("rounded-lg px-2 py-1 tabular-nums", left < 60 ? "bg-[color-mix(in_oklab,var(--danger)_20%,transparent)] text-ink" : "bg-surface-2")}>
+            <span className={cx("shrink-0 rounded-lg px-2 py-1 tabular-nums", left < 60 ? "bg-[color-mix(in_oklab,var(--danger)_20%,transparent)] text-ink" : "bg-surface-2")}>
               ⏱ {Math.floor(left / 60)}:{String(left % 60).padStart(2, "0")}
             </span>
           )}

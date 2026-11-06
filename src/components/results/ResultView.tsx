@@ -16,9 +16,12 @@ import { Visual } from "@/components/runner/Visual";
 import { CAT_GRADIENT, PALETTE } from "@/lib/ui";
 import { Gauge, NormCurve, Radar, ScaleBar } from "./Charts";
 import { ShareBar } from "./ShareBar";
+import { clearProgress, getHistory, useLocalData } from "@/lib/history";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 const noopSubscribe = () => () => {};
+const heroBtn =
+  "inline-flex items-center gap-2 rounded-2xl border border-line-strong bg-[color-mix(in_oklab,var(--surface)_70%,transparent)] px-4 py-2.5 text-sm font-medium backdrop-blur-sm transition-colors hover:bg-surface-2";
 
 /** a compact citation for the norm line; the full text lives in the method panel */
 function shortSource(src: string, lang: Locale) {
@@ -74,6 +77,10 @@ export function ResultView({
       return null;
     }
   }, [answersRaw]);
+
+  // whether this result is in this browser's history: then offer a retake, otherwise "take it and compare"
+  const localVersion = useLocalData();
+  const own = useMemo(() => !!localVersion && getHistory().some((e) => e.code === code && e.result.testId === test.id), [localVersion, code, test.id]);
 
   if (!result) return <p className="py-24 text-center text-muted">404</p>;
 
@@ -150,6 +157,19 @@ export function ResultView({
             )
           )}
           {introText && !leadIn && <p className="mt-4 max-w-md text-[15px] text-ink-2 text-pretty">{introText}</p>}
+          {localVersion && (
+            <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease, delay: 0.4 }} className="mt-6 flex flex-wrap gap-2.5">
+              {own ? (
+                <Link href={`/${lang}/tests/${test.id}?retake=1`} onClick={() => clearProgress(test.id)} className={heroBtn}>
+                  <span aria-hidden>↻</span> {dict.result.retake}
+                </Link>
+              ) : (
+                <Link href={`/${lang}/tests/${test.id}?vs=${encodeURIComponent(code)}`} className={heroBtn}>
+                  <span aria-hidden>🤝</span> {dict.result.takeAndCompare}
+                </Link>
+              )}
+            </motion.div>
+          )}
           {friend && (
             <p className="mt-3 text-sm text-ink-2">
               <span className="mr-2 inline-block size-2.5 rounded-full bg-[var(--rose)]" />

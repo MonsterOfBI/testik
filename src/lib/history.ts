@@ -126,9 +126,10 @@ function storeSnapshot() {
       const k = localStorage.key(i);
       if (k?.startsWith("testik:progress:")) parts.push(`${k}=${localStorage.getItem(k)}`);
     }
-    return parts.join("\n");
+    // never empty in the browser, so "" always means "not read yet" (server render, hydration)
+    return `v1\n${parts.join("\n")}`;
   } catch {
-    return "";
+    return "v1";
   }
 }
 
