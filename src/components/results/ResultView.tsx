@@ -168,6 +168,10 @@ export function ResultView({
         </div>
       )}
 
+      {test.seriousness === "screening" && (
+        <p className="mb-8 rounded-2xl border border-line bg-surface px-4 py-3 text-sm text-ink-2">ⓘ {dict.legal.screeningNote}</p>
+      )}
+
       {/* ---------- summary ---------- */}
       {summary.length > 0 && (
         <section className="rounded-3xl border border-line bg-surface p-6 sm:p-8">

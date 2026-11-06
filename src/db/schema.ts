@@ -7,6 +7,9 @@ export const users = pgTable("user", {
   emailVerified: timestamp("emailVerified", { mode: "date" }),
   image: text("image"),
   createdAt: timestamp("created_at", { mode: "date" }).defaultNow(),
+  /** when and which version of the personal-data consent (/consent) the user accepted */
+  consentAt: timestamp("consent_at", { mode: "date" }),
+  consentVersion: text("consent_version"),
 });
 
 export const accounts = pgTable(

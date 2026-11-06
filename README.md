@@ -21,3 +21,8 @@ cp .env.example .env.local   # everything is optional for local dev
 npm run dev
 ```
 With `DATABASE_URL` set, run `npm run db:push` once to create tables.
+
+## Deploy and legal
+- Beget VPS deployment (nginx, systemd, Postgres, auto-deploy): `docs/deploy-beget.md`, files in `deploy/beget/`.
+- Russian law checklist (152-ФЗ, 149-ФЗ, 436-ФЗ) and what is implemented: `docs/legal-ru.md`.
+  Legal texts live in `src/content/legal.ts`; owner details come from `OPERATOR_*` env vars.
