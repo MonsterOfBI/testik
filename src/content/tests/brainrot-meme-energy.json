@@ -1,0 +1,2661 @@
+{
+  "id": "brainrot-meme-energy",
+  "category": "fun",
+  "kind": "choice",
+  "seriousness": "fun",
+  "title": {
+    "ru": "Какой у тебя мем-вайб?",
+    "en": "What's Your Meme Energy?"
+  },
+  "tagline": {
+    "ru": "Главный герой, NPC с побочным квестом или энергия 3 часа ночи? Узнай свой интернет-архетип",
+    "en": "Main character, side-quest NPC or 3 a.m. energy? Find your internet archetype"
+  },
+  "description": {
+    "ru": "Психологи выделяют четыре стиля юмора: объединяющий, «юмор-броня», колкий и самоироничный. Добавь к ним уровень «терминального онлайна» и тягу к абсурду — и получится твой мем-архетип. 15 вопросов про голосовые на 7 минут, споры в комментариях и групповые фото.",
+    "en": "Psychologists describe four humor styles: affiliative, self-enhancing, aggressive and self-defeating. Add your level of ‘terminally online’ and your taste for the absurd, and you get your meme archetype. 15 questions about 7-minute voice notes, comment-section wars and group photos."
+  },
+  "emoji": "🤡",
+  "durationMin": 4,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "мемы",
+      "en": "memes"
+    },
+    {
+      "ru": "юмор",
+      "en": "humor"
+    },
+    {
+      "ru": "интернет",
+      "en": "internet"
+    },
+    {
+      "ru": "весёлые тесты",
+      "en": "fun quizzes"
+    }
+  ],
+  "methodology": {
+    "ru": "## На чём основан тест\n\n- **Четыре стиля юмора.** Martin и коллеги (2003, *Journal of Research in Personality*) создали опросник стилей юмора (HSQ, 32 пункта). Он различает **объединяющий** юмор (шутить, чтобы сблизиться с людьми), **самоподдерживающий** (смеяться над абсурдом жизни, чтобы справиться со стрессом), **агрессивный** (сарказм, подколы, высмеивание) и **самоуничижительный** (шутить над собой за свой счёт, чтобы понравиться или спрятать чувства). Надёжность шкал — α ≈ 0,77–0,81, повторная надёжность — 0,80–0,85. Первые два стиля в целом связаны с лучшим самочувствием, а самоуничижительный — с худшим. Поэтому архетип «клоуна» в тесте получает бережный совет.\n- **Юмор и «Большая пятёрка».** Метаанализы Mendiburo-Seguel, Páez и Martínez-Sánchez (2015) и Plessen и коллег (2020) обобщили связи стилей юмора с чертами личности. В метаанализе Plessen и коллег (24 исследования, 11 791 участник) объединяющий и самоподдерживающий юмор были связаны с экстраверсией, доброжелательностью и открытостью. Агрессивный юмор сильно связан с низкой доброжелательностью и связан с низкой добросовестностью, а самоуничижительный — с низкой добросовестностью. Люди с высоким нейротизмом реже пользуются «здоровыми» стилями.\n- **Личность и поведение в сети.** Kosinski, Stillwell и Graepel (2013, *PNAS*) показали, что по лайкам в Facebook можно с заметной точностью предсказывать черты личности. Youyou и коллеги (2015, *PNAS*) нашли, что модель по лайкам оценивала личность точнее, чем друзья человека. Seidman (2013) описала, как личность связана с мотивами использования соцсетей: экстраверсия — с общением, нейротизм — с самопрезентацией и поиском принадлежности. Buckels, Trapnell и Paulhus (2014) связали удовольствие от троллинга с «тёмными» чертами, особенно с садизмом. Поэтому «прожарка» в тесте — только добрая и по согласию.\n- **«Brain rot».** Оксфордский университет назвал «brain rot» словом 2024 года — как символ тревоги о бесконечном потреблении низкокачественного онлайн-контента. Наш тест подаёт это с иронией и без оценок.\n\n## Как работает тест\n\n1. 15 оригинальных ситуационных вопросов, 5–6 вариантов.\n2. Ответы дают баллы по шести шкалам: четыре стиля юмора (AF, SE, AG, SD), онлайн-статус (TO) и хаос (CH).\n3. Суммы нормируются к 0–1 и сравниваются с профилями 12 оригинальных архетипов; побеждает ближайший.\n4. Калибровка на 120 000 симулированных случайных прохождений. Доля каждого результата:\n\n- 🎬 Главный герой: 8.1%\n- 🗺️ NPC с побочным квестом: 8.1%\n- 🐈 Кот, который всё сломал: 8.6%\n- 🗿 Сигма-философ: 8.2%\n- 🐕 Энергия золотистого ретривера: 8.1%\n- 🌙 Энергия 3 часа ночи: 7.9%\n- 📋 Уставшая мама из чата: 8.6%\n- 📰 Дед, читающий новости вслух: 8.4%\n- 🤡 Клоун со стажем: 8.2%\n- 🗂️ Мем-архивариус: 8.2%\n- 🔥 Ведущий(ая) прожарки: 8.8%\n- 👀 Тихий наблюдатель: 8.8%\n\nТакже проверено, что «персонаж», отвечающий в духе архетипа, получает именно его.\n\n## Ограничения\n\nЭто не HSQ: вопросы авторские, шкалы не валидированы, а архетипы — шуточные образы. Все архетипы придуманы для testik и не изображают существующих персонажей.",
+    "en": "## What this quiz is based on\n\n- **Four humor styles.** Martin and colleagues (2003, *Journal of Research in Personality*) developed the Humor Styles Questionnaire (HSQ, 32 items). It distinguishes **affiliative** humor (joking to bond with others), **self-enhancing** humor (laughing at life's absurdities to cope with stress), **aggressive** humor (sarcasm, teasing, put-downs) and **self-defeating** humor (joking at your own expense to be liked or to hide feelings). Scale reliabilities were α ≈ .77–.81, with test-retest .80–.85. The first two styles generally go with better well-being, the self-defeating style with worse — which is why our ‘clown’ archetype gets gentle advice.\n- **Humor and the Big Five.** Meta-analyses by Mendiburo-Seguel, Páez & Martínez-Sánchez (2015) and Plessen and colleagues (2020) summarized links between humor styles and personality. In Plessen and colleagues' meta-analysis (24 studies, 11,791 participants), affiliative and self-enhancing humor went with extraversion, agreeableness and openness; aggressive humor with low agreeableness (strongly) and low conscientiousness; self-defeating humor with low conscientiousness; and high neuroticism with less use of the ‘healthy’ styles.\n- **Personality and online behavior.** Kosinski, Stillwell & Graepel (2013, *PNAS*) showed Facebook likes predict personality traits with notable accuracy, and Youyou and colleagues (2015, *PNAS*) found a likes-based model judged personality more accurately than a person's friends. Seidman (2013) described how personality relates to motives for social media use: extraversion to socializing, neuroticism to self-presentation and belonging. Buckels, Trapnell & Paulhus (2014) linked enjoyment of trolling to ‘dark’ traits, especially sadism — so our ‘roast’ is strictly friendly and consensual.\n- **‘Brain rot’.** Oxford University Press named ‘brain rot’ its 2024 Word of the Year, reflecting worries about endless consumption of low-quality online content. We treat it with irony and without judgment.\n\n## How the quiz works\n\n1. 15 original situational questions with 5–6 options.\n2. Answers add points on six scales: four humor styles (AF, SE, AG, SD), online status (TO) and chaos (CH).\n3. Sums are rescaled to 0–1 and compared to 12 original archetype profiles; the nearest wins.\n4. Calibrated on 120,000 simulated random runs. Share of each result:\n\n- 🎬 Main Character: 8.1%\n- 🗺️ Side-Quest NPC: 8.1%\n- 🐈 The Cat Who Broke Everything: 8.6%\n- 🗿 Sigma Philosopher: 8.2%\n- 🐕 Golden Retriever Energy: 8.1%\n- 🌙 3 A.M. Energy: 7.9%\n- 📋 Tired Group-Chat Mom: 8.6%\n- 📰 Grandpa Reading the News Aloud: 8.4%\n- 🤡 Veteran Clown: 8.2%\n- 🗂️ Meme Archivist: 8.2%\n- 🔥 Roast Master: 8.8%\n- 👀 Silent Lurker: 8.8%\n\nWe also verified that a ‘persona’ answering in each archetype's spirit gets that archetype.\n\n## Limitations\n\nThis is not the HSQ: the items are our own, the scales are unvalidated and the archetypes are playful images. All archetypes were invented for testik and don't depict any existing characters."
+  },
+  "sources": [
+    {
+      "citation": "Martin, R. A., Puhlik-Doris, P., Larsen, G., Gray, J., & Weir, K. (2003). Individual differences in uses of humor and their relation to psychological well-being: Development of the Humor Styles Questionnaire. Journal of Research in Personality, 37(1), 48–75.",
+      "doi": "10.1016/S0092-6566(02)00534-2",
+      "url": "https://humorstudies.org/ISHS%20Test%20Bank/TestCat_HSQ.htm"
+    },
+    {
+      "citation": "Mendiburo-Seguel, A., Páez, D., & Martínez-Sánchez, F. (2015). Humor styles and personality: A meta-analysis of the relation between humor styles and the Big Five personality traits. Scandinavian Journal of Psychology, 56(3), 335–340.",
+      "doi": "10.1111/sjop.12209"
+    },
+    {
+      "citation": "Plessen, C. Y., Franken, F. R., Ster, C., Schmid, R. R., Wolfmayr, C., Mayer, A.-M., Sobisch, M., Kathofer, M., Rattner, K., Kotlyar, E., Maierwieser, R. J., & Tran, U. S. (2020). Humor styles and personality: A systematic review and meta-analysis on the relations between humor styles and the Big Five personality traits. Personality and Individual Differences, 154, 109676.",
+      "doi": "10.1016/j.paid.2019.109676"
+    },
+    {
+      "citation": "Kosinski, M., Stillwell, D., & Graepel, T. (2013). Private traits and attributes are predictable from digital records of human behavior. Proceedings of the National Academy of Sciences, 110(15), 5802–5805.",
+      "doi": "10.1073/pnas.1218772110"
+    },
+    {
+      "citation": "Youyou, W., Kosinski, M., & Stillwell, D. (2015). Computer-based personality judgments are more accurate than those made by humans. Proceedings of the National Academy of Sciences, 112(4), 1036–1040.",
+      "doi": "10.1073/pnas.1418680112"
+    },
+    {
+      "citation": "Seidman, G. (2013). Self-presentation and belonging on Facebook: How personality influences social media use and motivations. Personality and Individual Differences, 54(3), 402–407.",
+      "doi": "10.1016/j.paid.2012.10.009"
+    },
+    {
+      "citation": "Buckels, E. E., Trapnell, P. D., & Paulhus, D. L. (2014). Trolls just want to have fun. Personality and Individual Differences, 67, 97–102.",
+      "doi": "10.1016/j.paid.2014.01.016"
+    },
+    {
+      "citation": "Greengross, G. (2019, December). The relationship between humor styles and personality. Psychology Today (summary of Plessen et al.).",
+      "url": "https://psychologytoday.com/au/blog/humor-sapiens/201912/the-relationship-between-humor-styles-and-personality"
+    },
+    {
+      "citation": "Oxford University Press (2024). ‘Brain rot’ named Oxford Word of the Year 2024 (as reported by ABC News/AP, Dec. 2, 2024).",
+      "url": "https://abcnews.go.com/Lifestyle/wireStory/sum-2024-oxford-university-press-word-year-brain-116366300"
+    }
+  ],
+  "license": "Original content © testik. All questions, archetypes and texts were written from scratch for this site; no HSQ items are reproduced (the HSQ is cited only as theoretical inspiration). Archetypes are original and do not depict copyrighted characters or real people.",
+  "disclaimer": {
+    "ru": "Развлекательный тест. Шкалы вдохновлены опросником стилей юмора (Humor Styles Questionnaire), но мы не используем его вопросы и не измеряем стили валидно. Архетипы — оригинальные шуточные образы, а не реальные персонажи. Если шутки над собой давно стали способом прятать боль, а не просто смеяться, — поговори с кем-нибудь близким или специалистом. Это нормально и смело.",
+    "en": "Entertainment quiz. The scales are inspired by the Humor Styles Questionnaire, but we don't use its items or measure styles validly. Archetypes are original playful images, not real characters. If joking about yourself has become a way to hide pain rather than just to laugh, talk to someone close or a professional — that's normal and brave."
+  },
+  "instructions": {
+    "ru": "Отвечай как есть, без фильтров (их и так хватает в сторис). В каждом вопросе — один вариант. Кринж разрешён, токсичность — нет.",
+    "en": "Answer honestly, no filters (your stories have plenty). One option per question. Cringe is allowed; toxicity isn't."
+  },
+  "dimensions": [
+    {
+      "id": "AF",
+      "name": {
+        "ru": "Душа чата",
+        "en": "Chat glue"
+      },
+      "description": {
+        "ru": "Объединяющий юмор: шутишь, чтобы людям было хорошо вместе.",
+        "en": "Affiliative humor: joking so people feel good together."
+      },
+      "lowLabel": {
+        "ru": "Шучу для себя",
+        "en": "Jokes for one"
+      },
+      "highLabel": {
+        "ru": "Мемы для всех",
+        "en": "Memes for everyone"
+      },
+      "color": "#FFD3B6",
+      "scoring": "sum",
+      "min": -9,
+      "max": 22,
+      "bands": [
+        {
+          "min": -9,
+          "max": 2,
+          "label": {
+            "ru": "Шучу для себя",
+            "en": "Jokes for one"
+          },
+          "summary": [
+            {
+              "ru": "Юмор внутренний",
+              "en": "Inner humor"
+            },
+            {
+              "ru": "Не стремишься развлекать",
+              "en": "Not out to entertain"
+            },
+            {
+              "ru": "Ценишь тишину в чате",
+              "en": "Value a quiet chat"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты смеёшься скорее про себя, чем на публику. Это нормально; но иногда поделиться мемом — самый простой способ сказать «я о тебе думаю».",
+            "en": "You laugh more inwardly than publicly — fine. But sharing a meme is sometimes the easiest way to say ‘thinking of you’."
+          }
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "label": {
+            "ru": "Шучу по настроению",
+            "en": "Jokes when it fits"
+          },
+          "summary": [
+            {
+              "ru": "Можешь рассмешить",
+              "en": "Can make people laugh"
+            },
+            {
+              "ru": "Но не обязан(а)",
+              "en": "But don't have to"
+            },
+            {
+              "ru": "Баланс",
+              "en": "Balance"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь поддержать шутку и разрядить обстановку, когда это уместно.",
+            "en": "You can join in and lighten the mood when it fits."
+          }
+        },
+        {
+          "min": 6,
+          "max": 22,
+          "label": {
+            "ru": "Мемы для всех",
+            "en": "Memes for everyone"
+          },
+          "summary": [
+            {
+              "ru": "Сближаешь людей смехом",
+              "en": "Bond people through laughter"
+            },
+            {
+              "ru": "Главный по мемам в чате",
+              "en": "Chief meme officer"
+            },
+            {
+              "ru": "Тепло и смех",
+              "en": "Warmth and laughs"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты используешь юмор, чтобы людям было хорошо вместе. По Martin и коллегам, этот стиль связан с хорошими отношениями и благополучием.",
+            "en": "You use humor to bring people together — a style Martin and colleagues linked to good relationships and well-being."
+          }
+        }
+      ]
+    },
+    {
+      "id": "SE",
+      "name": {
+        "ru": "Ирония-броня",
+        "en": "Irony armor"
+      },
+      "description": {
+        "ru": "Самоподдерживающий юмор: находишь смешное в трудностях и так справляешься.",
+        "en": "Self-enhancing humor: finding the funny side of trouble to cope."
+      },
+      "lowLabel": {
+        "ru": "Всё всерьёз",
+        "en": "Takes it hard"
+      },
+      "highLabel": {
+        "ru": "Смеюсь, значит живу",
+        "en": "Laugh to live"
+      },
+      "color": "#FFF1A8",
+      "scoring": "sum",
+      "min": 0,
+      "max": 14,
+      "bands": [
+        {
+          "min": 0,
+          "max": 3,
+          "label": {
+            "ru": "Всё всерьёз",
+            "en": "Takes it hard"
+          },
+          "summary": [
+            {
+              "ru": "Трудности — не повод шутить",
+              "en": "Troubles aren't funny"
+            },
+            {
+              "ru": "Переживаешь честно",
+              "en": "Feel things honestly"
+            },
+            {
+              "ru": "Юмор — потом",
+              "en": "Humor later"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты не прячешь чувства за шутками — это честно. Иногда маленькая доля иронии помогает пережить сложный день легче.",
+            "en": "You don't hide feelings behind jokes — that's honest. A little irony can make a hard day lighter."
+          }
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "label": {
+            "ru": "Ирония по ситуации",
+            "en": "Situational irony"
+          },
+          "summary": [
+            {
+              "ru": "Можешь посмеяться над проблемой",
+              "en": "Can laugh at problems"
+            },
+            {
+              "ru": "Но не всегда",
+              "en": "Not always"
+            },
+            {
+              "ru": "Гибкость",
+              "en": "Flexibility"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь смотреть на трудности с юмором, когда для этого есть силы.",
+            "en": "You can see the funny side when you have the energy."
+          }
+        },
+        {
+          "min": 6,
+          "max": 14,
+          "label": {
+            "ru": "Смеюсь, значит живу",
+            "en": "Laugh to live"
+          },
+          "summary": [
+            {
+              "ru": "Юмор — твоя броня",
+              "en": "Humor is your armor"
+            },
+            {
+              "ru": "Неудачи становятся анекдотами",
+              "en": "Fails become anecdotes"
+            },
+            {
+              "ru": "Оптимизм",
+              "en": "Optimism"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты находишь смешное даже в провалах. Этот стиль стабильно связан с жизнестойкостью. Главное — не обесценивать свои чувства шуткой, когда на самом деле больно.",
+            "en": "You find humor even in failure — a style consistently linked to resilience. Just don't joke your feelings away when it really hurts."
+          }
+        }
+      ]
+    },
+    {
+      "id": "AG",
+      "name": {
+        "ru": "Прожарка",
+        "en": "Roast"
+      },
+      "description": {
+        "ru": "Колкий юмор: сарказм, подколы, «прожарка» друзей. Вдохновлено шкалой агрессивного юмора — у нас только добрая версия.",
+        "en": "Teasing humor: sarcasm, banter, roasting friends. Inspired by the aggressive-humor scale — friendly version only."
+      },
+      "lowLabel": {
+        "ru": "Только по-доброму",
+        "en": "Strictly wholesome"
+      },
+      "highLabel": {
+        "ru": "Мастер прожарки",
+        "en": "Roast master"
+      },
+      "color": "#FFAAA5",
+      "scoring": "sum",
+      "min": -5,
+      "max": 16,
+      "bands": [
+        {
+          "min": -5,
+          "max": 1,
+          "label": {
+            "ru": "Только по-доброму",
+            "en": "Strictly wholesome"
+          },
+          "summary": [
+            {
+              "ru": "Не шутишь за чужой счёт",
+              "en": "Never at others' expense"
+            },
+            {
+              "ru": "Бережёшь чувства",
+              "en": "Protect feelings"
+            },
+            {
+              "ru": "Мягкий юмор",
+              "en": "Gentle humor"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты не шутишь так, чтобы кому-то было обидно. Людям с тобой безопасно — это ценно.",
+            "en": "You never joke in hurtful ways — people feel safe with you, which is valuable."
+          }
+        },
+        {
+          "min": 2,
+          "max": 3,
+          "label": {
+            "ru": "Иногда с перчинкой",
+            "en": "A dash of spice"
+          },
+          "summary": [
+            {
+              "ru": "Подколы для своих",
+              "en": "Banter for close friends"
+            },
+            {
+              "ru": "Чувствуешь грань",
+              "en": "Know the line"
+            },
+            {
+              "ru": "Сарказм дозированно",
+              "en": "Sarcasm in doses"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь пошутить остро, но знаешь меру.",
+            "en": "You can be sharp but know your limits."
+          }
+        },
+        {
+          "min": 4,
+          "max": 16,
+          "label": {
+            "ru": "Мастер прожарки",
+            "en": "Roast master"
+          },
+          "summary": [
+            {
+              "ru": "Острый язык",
+              "en": "Sharp tongue"
+            },
+            {
+              "ru": "Сарказм — родной язык",
+              "en": "Sarcasm is your native tongue"
+            },
+            {
+              "ru": "Смешно и чуть-чуть больно",
+              "en": "Funny with a sting"
+            }
+          ],
+          "detailed": {
+            "ru": "Твой юмор острый и точный. Martin и коллеги связывали агрессивный юмор с напряжением в отношениях, поэтому прожаривай только тех, кто согласен, и следи, чтобы смеялись все.",
+            "en": "Your humor is sharp and precise. Martin and colleagues linked aggressive humor to relationship strain — so roast only the willing, and make sure everyone's laughing."
+          }
+        }
+      ]
+    },
+    {
+      "id": "SD",
+      "name": {
+        "ru": "Самоирония",
+        "en": "Self-roast"
+      },
+      "description": {
+        "ru": "Шутки над собой: «я клоун» в каждом втором сообщении. Вдохновлено шкалой самоуничижительного юмора.",
+        "en": "Jokes about yourself: ‘I'm a clown’ in every other message. Inspired by the self-defeating humor scale."
+      },
+      "lowLabel": {
+        "ru": "Себя не обижаю",
+        "en": "Self-respecting"
+      },
+      "highLabel": {
+        "ru": "Клоун со стажем",
+        "en": "Veteran clown"
+      },
+      "color": "#C7CEEA",
+      "scoring": "sum",
+      "min": -5,
+      "max": 16,
+      "bands": [
+        {
+          "min": -5,
+          "max": 1,
+          "label": {
+            "ru": "Себя не обижаю",
+            "en": "Self-respecting"
+          },
+          "summary": [
+            {
+              "ru": "Не шутишь над собой",
+              "en": "Don't joke at your own expense"
+            },
+            {
+              "ru": "Уверенность",
+              "en": "Confidence"
+            },
+            {
+              "ru": "Себя бережёшь",
+              "en": "Protect yourself"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебе не нужно принижать себя, чтобы рассмешить. Иногда лёгкая самоирония всё же делает тебя ближе к людям.",
+            "en": "You don't need to put yourself down to be funny. A little light self-irony can still bring people closer."
+          }
+        },
+        {
+          "min": 2,
+          "max": 3,
+          "label": {
+            "ru": "Здоровая самоирония",
+            "en": "Healthy self-irony"
+          },
+          "summary": [
+            {
+              "ru": "Можешь посмеяться над собой",
+              "en": "Can laugh at yourself"
+            },
+            {
+              "ru": "Без самобичевания",
+              "en": "Without self-flagellation"
+            },
+            {
+              "ru": "Баланс",
+              "en": "Balance"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь не принимать себя слишком всерьёз — это здорово.",
+            "en": "You don't take yourself too seriously — great."
+          }
+        },
+        {
+          "min": 4,
+          "max": 16,
+          "label": {
+            "ru": "Клоун со стажем",
+            "en": "Veteran clown"
+          },
+          "summary": [
+            {
+              "ru": "Шутишь над собой постоянно",
+              "en": "Joke about yourself constantly"
+            },
+            {
+              "ru": "Смешишь, принижая себя",
+              "en": "Get laughs by putting yourself down"
+            },
+            {
+              "ru": "Иногда прячешь чувства",
+              "en": "Sometimes hide feelings"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты мастер самоиронии, и с тобой весело. Но исследования связывают постоянные шутки над собой с худшим самочувствием. Попробуй иногда говорить о себе по-доброму — смешно может быть и без самоунижения.",
+            "en": "You're a self-roast master and great fun. But research links constant self-put-down humor to lower well-being. Try talking about yourself kindly sometimes — funny doesn't require self-deprecation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "TO",
+      "name": {
+        "ru": "Онлайн-статус",
+        "en": "Online status"
+      },
+      "description": {
+        "ru": "Насколько ты «в интернете»: знание трендов, экранное время, мем-лор.",
+        "en": "How ‘online’ you are: trend awareness, screen time, meme lore."
+      },
+      "lowLabel": {
+        "ru": "Тач травы",
+        "en": "Touches grass"
+      },
+      "highLabel": {
+        "ru": "Терминально онлайн",
+        "en": "Terminally online"
+      },
+      "color": "#B5EAD7",
+      "scoring": "sum",
+      "min": -11,
+      "max": 16,
+      "bands": [
+        {
+          "min": -11,
+          "max": 0,
+          "label": {
+            "ru": "Тач травы",
+            "en": "Touches grass"
+          },
+          "summary": [
+            {
+              "ru": "Живёшь офлайн",
+              "en": "Live offline"
+            },
+            {
+              "ru": "Тренды узнаёшь последним(ей)",
+              "en": "Last to hear of trends"
+            },
+            {
+              "ru": "Телефон — инструмент",
+              "en": "Phone is a tool"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты живёшь в реальном мире — и это редкость. Иногда полезно спросить у младших, что за мем, — посмеётесь вместе.",
+            "en": "You live in the real world — a rarity. Ask younger folks what a meme means sometimes — you'll laugh together."
+          }
+        },
+        {
+          "min": 1,
+          "max": 4,
+          "label": {
+            "ru": "Сбалансированный онлайн",
+            "en": "Balanced online"
+          },
+          "summary": [
+            {
+              "ru": "В курсе, но не зависим(а)",
+              "en": "Up to date, not hooked"
+            },
+            {
+              "ru": "Знаешь главные мемы",
+              "en": "Know the big memes"
+            },
+            {
+              "ru": "Умеешь отложить телефон",
+              "en": "Can put the phone down"
+            }
+          ],
+          "detailed": {
+            "ru": "У тебя здоровые отношения с интернетом.",
+            "en": "You have a healthy relationship with the internet."
+          }
+        },
+        {
+          "min": 5,
+          "max": 16,
+          "label": {
+            "ru": "Терминально онлайн",
+            "en": "Terminally online"
+          },
+          "summary": [
+            {
+              "ru": "Знаешь лор всех мемов",
+              "en": "Know the lore of every meme"
+            },
+            {
+              "ru": "Тренды — раньше всех",
+              "en": "Trends before everyone"
+            },
+            {
+              "ru": "Экранное время пугает",
+              "en": "Screen time is scary"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты эксперт по интернет-культуре. Не забывай про сон и офлайн-радости: мозгу тоже нужен «оффлайн-режим», а «потрогать траву» — не только мем.",
+            "en": "You're an internet-culture expert. Don't forget sleep and offline joys — your brain needs airplane mode too, and ‘touch grass’ isn't only a meme."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CH",
+      "name": {
+        "ru": "Хаос",
+        "en": "Chaos"
+      },
+      "description": {
+        "ru": "Тяга к абсурду, спонтанности и странным шуткам. Близко к открытости и импульсивности.",
+        "en": "A taste for the absurd, spontaneity and weird jokes — akin to openness and impulsivity."
+      },
+      "lowLabel": {
+        "ru": "Порядок и логика",
+        "en": "Order and logic"
+      },
+      "highLabel": {
+        "ru": "Абсурд — мой язык",
+        "en": "Absurdity is my language"
+      },
+      "color": "#CDB4F6",
+      "scoring": "sum",
+      "min": -5,
+      "max": 21,
+      "bands": [
+        {
+          "min": -5,
+          "max": 2,
+          "label": {
+            "ru": "Порядок и логика",
+            "en": "Order and logic"
+          },
+          "summary": [
+            {
+              "ru": "Шутки с понятным смыслом",
+              "en": "Jokes that make sense"
+            },
+            {
+              "ru": "Предсказуемость",
+              "en": "Predictability"
+            },
+            {
+              "ru": "Организованность",
+              "en": "Organization"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебе ближе понятный юмор и порядок. Иногда абсурдная шутка может удивить даже тебя.",
+            "en": "You prefer clear humor and order. An absurd joke might surprise even you sometimes."
+          }
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "label": {
+            "ru": "Немного странный(ая)",
+            "en": "A little weird"
+          },
+          "summary": [
+            {
+              "ru": "Ценишь абсурд",
+              "en": "Appreciate absurdity"
+            },
+            {
+              "ru": "Но в меру",
+              "en": "In moderation"
+            },
+            {
+              "ru": "Спонтанность по настроению",
+              "en": "Spontaneous when in the mood"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь и в логику, и в абсурд.",
+            "en": "You do both logic and absurdity."
+          }
+        },
+        {
+          "min": 5,
+          "max": 21,
+          "label": {
+            "ru": "Абсурд — мой язык",
+            "en": "Absurdity is my language"
+          },
+          "summary": [
+            {
+              "ru": "Сюрреалистичные мемы",
+              "en": "Surreal memes"
+            },
+            {
+              "ru": "Непредсказуемость",
+              "en": "Unpredictability"
+            },
+            {
+              "ru": "Креатив без тормозов",
+              "en": "Creativity without brakes"
+            }
+          ],
+          "detailed": {
+            "ru": "Твой юмор не понять с первого раза — и в этом его прелесть. Чаще всего абсурд — признак богатого воображения.",
+            "en": "Your humor takes a second to get — that's its charm. Absurdity often signals a rich imagination."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Друг прислал мем в 2 часа ночи. Ты…",
+        "en": "A friend sends you a meme at 2 a.m. You…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Отвечаю тремя мемами и голосовым «АХАХАХА»",
+            "en": "Reply with three memes and a voice note going ‘HAHAHA’"
+          },
+          "scores": {
+            "AF": 2,
+            "TO": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Отвечаю мемом настолько странным, что друг не спит до утра",
+            "en": "Reply with a meme so cursed my friend stays up till dawn"
+          },
+          "scores": {
+            "CH": 2,
+            "TO": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ставлю 💀 и сплю дальше — у меня режим",
+            "en": "React with 💀 and go back to sleep — I have a routine"
+          },
+          "scores": {
+            "CH": -1,
+            "SE": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу «это я» и выкладываю в сторис с подписью «мой жизненный путь»",
+            "en": "Reply ‘this is me’ and post it with the caption ‘my life story’"
+          },
+          "scores": {
+            "SD": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Утром отвечаю: «Смешно. Но смешнее, что ты не спишь в 2 ночи»",
+            "en": "Reply in the morning: ‘Funny. Funnier that you're awake at 2 a.m.’"
+          },
+          "scores": {
+            "AG": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Вижу. Молчу. Сохраняю в папку «на потом»",
+            "en": "Seen. Silent. Saved to my ‘for later’ folder"
+          },
+          "scores": {
+            "TO": 1,
+            "AF": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Ты споткнулся(лась) на ровном месте при людях.",
+        "en": "You trip over nothing in front of people."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Делаю вид, что так и задумано: «это был танец»",
+            "en": "Act like it was on purpose: ‘that was choreography’"
+          },
+          "scores": {
+            "SE": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«Я клоун, держите меня семеро 🤡» — и смеюсь первым(ой)",
+            "en": "‘I'm a clown, someone stop me 🤡’ — and laugh first"
+          },
+          "scores": {
+            "SD": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Смеюсь вместе со всеми — так даже веселее",
+            "en": "Laugh along with everyone — it's more fun that way"
+          },
+          "scores": {
+            "AF": 1,
+            "SE": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Делаю кувырок, раз уж начал(а)",
+            "en": "Do a forward roll, since I'm already down there"
+          },
+          "scores": {
+            "CH": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Холодно смотрю на асфальт: «Кто это здесь положил?»",
+            "en": "Glare coldly at the pavement: ‘Who put that there?’"
+          },
+          "scores": {
+            "AG": 1,
+            "SE": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Твоё экранное время за неделю?",
+        "en": "Your weekly screen time?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Лучше не спрашивать. Телефон сам прислал мне уведомление с беспокойством",
+            "en": "Don't ask. My phone sent me a worried notification"
+          },
+          "scores": {
+            "TO": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Пара часов в день, в основном семейный чат",
+            "en": "A couple of hours a day, mostly the family chat"
+          },
+          "scores": {
+            "TO": -1,
+            "AF": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "А что это? У меня кнопочный… шучу. Но почти",
+            "en": "What's that? I have a flip phone… kidding. Almost"
+          },
+          "scores": {
+            "TO": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Много, но это ради работы. И мемов. В основном мемов",
+            "en": "A lot, but it's for work. And memes. Mostly memes"
+          },
+          "scores": {
+            "TO": 1,
+            "SE": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Меньше, чем у друзей, но все тренды я всё равно знаю",
+            "en": "Less than my friends, but I still know every trend"
+          },
+          "scores": {
+            "TO": 1,
+            "CH": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "В общем чате кто-то написал полную глупость.",
+        "en": "Someone posts something truly dumb in the group chat."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Прожариваю. Нежно, но прожариваю",
+            "en": "Roast them. Gently — but roast them"
+          },
+          "scores": {
+            "AG": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу «ахах, бывает» и поддерживаю человека",
+            "en": "Write ‘haha, happens to everyone’ and back them up"
+          },
+          "scores": {
+            "AF": 1,
+            "AG": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Отвечаю картинкой с котом в шлеме — без объяснений",
+            "en": "Reply with a picture of a cat in a helmet — no explanation"
+          },
+          "scores": {
+            "CH": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Читаю и молча закатываю глаза",
+            "en": "Read it and silently roll my eyes"
+          },
+          "scores": {
+            "AF": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу: «Я бы тоже так написал(а), я вообще клоун»",
+            "en": "Write: ‘I'd have said the same, I'm a total clown’"
+          },
+          "scores": {
+            "SD": 1,
+            "AF": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Как ты справляешься с плохим днём?",
+        "en": "How do you deal with a bad day?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Шучу о нём так, что он превращается в смешную историю",
+            "en": "Joke about it until it becomes a funny story"
+          },
+          "scores": {
+            "SE": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу в сторис: «Главный герой проходит через испытания»",
+            "en": "Post a story: ‘The main character faces trials’"
+          },
+          "scores": {
+            "SE": 1,
+            "TO": 1,
+            "SD": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу друзьям — вместе поржём, и станет легче",
+            "en": "Text friends — we'll laugh it off together"
+          },
+          "scores": {
+            "AF": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Шучу про себя: «Ну конечно, это же я»",
+            "en": "Joke at my own expense: ‘Of course, it's me’"
+          },
+          "scores": {
+            "SD": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Ворчу на мир, на начальство и на погоду",
+            "en": "Grumble about the world, the boss and the weather"
+          },
+          "scores": {
+            "AG": 1,
+            "TO": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Делаю что-то странное: пеку торт в 3 ночи и танцую с котом",
+            "en": "Do something weird: bake a cake at 3 a.m. and dance with the cat"
+          },
+          "scores": {
+            "CH": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Твой любимый тип мемов?",
+        "en": "Your favorite type of meme?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Абсурдные: картошка в шляпе с подписью «мама, я в Париже»",
+            "en": "Absurd: a potato in a hat captioned ‘Mom, I'm in Paris’"
+          },
+          "scores": {
+            "CH": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Жизненные: «я после одного дня в офисе»",
+            "en": "Relatable: ‘me after one day at the office’"
+          },
+          "scores": {
+            "AF": 1,
+            "SD": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Мемы, которые понимают 12 человек во всём интернете",
+            "en": "Memes only 12 people on the internet understand"
+          },
+          "scores": {
+            "TO": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Острые и саркастичные — смешно и чуть-чуть больно",
+            "en": "Sharp and sarcastic — funny with a sting"
+          },
+          "scores": {
+            "AG": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Добрые: котики, собачки, бабушки, освоившие смартфон",
+            "en": "Wholesome: cats, dogs, grandmas who mastered smartphones"
+          },
+          "scores": {
+            "AF": 2,
+            "AG": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Открытки «Хорошего дня» с розами — и мне не стыдно",
+            "en": "‘Have a nice day’ cards with roses — and I'm not ashamed"
+          },
+          "scores": {
+            "TO": -2,
+            "AF": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "На вечеринке ты…",
+        "en": "At a party you…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "В центре: рассказываю историю о себе, и это лучшая история вечера",
+            "en": "Center stage: telling a story about myself — the best story of the night"
+          },
+          "scores": {
+            "SE": 1,
+            "AF": 1,
+            "SD": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Знакомлю всех со всеми и организую общую фотку",
+            "en": "Introduce everyone to everyone and organize a group photo"
+          },
+          "scores": {
+            "AF": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Стою в углу и комментирую происходящее другу на ухо",
+            "en": "Stand in a corner whispering commentary to a friend"
+          },
+          "scores": {
+            "AG": 1,
+            "AF": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ищу хозяйского кота. Нашёл(ла). Теперь мы вдвоём на балконе",
+            "en": "Look for the host's cat. Found it. Now we're on the balcony together"
+          },
+          "scores": {
+            "CH": 1,
+            "AF": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Слежу, чтобы всем хватило еды, и потихоньку собираю мусор",
+            "en": "Make sure there's enough food and quietly clean up"
+          },
+          "scores": {
+            "AF": 1,
+            "CH": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Новый тренд в соцсетях. Твоя реакция?",
+        "en": "A new social media trend drops. Your reaction?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Я знал(а) о нём ещё неделю назад",
+            "en": "I knew about it a week ago"
+          },
+          "scores": {
+            "TO": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Узнаю о нём от мамы через полгода",
+            "en": "I'll hear about it from my mom in six months"
+          },
+          "scores": {
+            "TO": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Сразу снимаю на него пародию",
+            "en": "Immediately film a parody"
+          },
+          "scores": {
+            "AG": 1,
+            "CH": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Повторяю вместе с друзьями — весело же",
+            "en": "Do it with friends — it's fun"
+          },
+          "scores": {
+            "AF": 1,
+            "TO": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу длинный пост о том, куда катится мир",
+            "en": "Write a long post about where the world is heading"
+          },
+          "scores": {
+            "AG": 1,
+            "TO": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Как ты отвечаешь на «как дела?»",
+        "en": "How do you answer ‘how are you?’"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "«Лучше всех. Как всегда»",
+            "en": "‘Best ever. As usual’"
+          },
+          "scores": {
+            "SE": 2,
+            "SD": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Ну, я жив(а). Это уже успех 💀»",
+            "en": "‘Well, I'm alive. That's a win 💀’"
+          },
+          "scores": {
+            "SD": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«А у тебя? Рассказывай!»",
+            "en": "‘And you? Tell me everything!’"
+          },
+          "scores": {
+            "AF": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Присылаю гифку с горящим поездом — без слов",
+            "en": "Send a GIF of a burning train — no words"
+          },
+          "scores": {
+            "CH": 1,
+            "TO": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Нормально». Точка. Конец разговора",
+            "en": "‘Fine.’ Period. End of conversation"
+          },
+          "scores": {
+            "AF": -1,
+            "CH": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Тебе пришло голосовое на 7 минут.",
+        "en": "You get a 7-minute voice message."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Слушаю на 2x и отвечаю голосовым на 9 минут",
+            "en": "Listen at 2x and reply with a 9-minute voice note"
+          },
+          "scores": {
+            "AF": 1,
+            "TO": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Отвечаю: «Можно текстом? Я в библиотеке» (я не в библиотеке)",
+            "en": "Reply: ‘Can you text? I'm in the library’ (I'm not in the library)"
+          },
+          "scores": {
+            "AF": -1,
+            "SE": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Слушаю внимательно, а потом перезваниваю",
+            "en": "Listen carefully, then call back"
+          },
+          "scores": {
+            "TO": -1,
+            "AF": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Перевожу в текст и цитирую лучшие моменты в общий чат",
+            "en": "Transcribe it and quote the best bits in the group chat"
+          },
+          "scores": {
+            "AG": 1,
+            "TO": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Записываю в ответ голосовое из звуков дельфина",
+            "en": "Reply with a voice note of dolphin noises"
+          },
+          "scores": {
+            "CH": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Какое у тебя лицо на групповом фото?",
+        "en": "Your face in group photos?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Идеальный ракурс, и я в центре",
+            "en": "Perfect angle, and I'm in the middle"
+          },
+          "scores": {
+            "SE": 1,
+            "SD": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Корчу рожу. Всегда. Принципиально",
+            "en": "Pulling a face. Always. On principle"
+          },
+          "scores": {
+            "CH": 1,
+            "SD": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Обнимаю всех, до кого дотягиваюсь",
+            "en": "Hugging everyone within reach"
+          },
+          "scores": {
+            "AF": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Невозмутимое, как у статуи",
+            "en": "Expressionless, like a statue"
+          },
+          "scores": {
+            "AF": -1,
+            "SE": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Меня нет — я всех фотографирую",
+            "en": "I'm not in it — I'm taking the picture"
+          },
+          "scores": {
+            "AF": 1,
+            "AG": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Видишь жаркий спор в комментариях. Твои действия?",
+        "en": "You spot a heated comment-section war. You…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Читаю всё до конца, с попкорном",
+            "en": "Read every comment, with popcorn"
+          },
+          "scores": {
+            "TO": 2,
+            "AF": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Вставляю пять копеек с сарказмом",
+            "en": "Drop in my two cents, with sarcasm"
+          },
+          "scores": {
+            "AG": 2,
+            "TO": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу «ребят, давайте жить дружно»",
+            "en": "Post ‘guys, can we all just get along’"
+          },
+          "scores": {
+            "AF": 1,
+            "AG": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Закрываю. У меня есть реальная жизнь (огород)",
+            "en": "Close it. I have a real life (a vegetable garden)"
+          },
+          "scores": {
+            "TO": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу что-то настолько странное, что все забывают, о чём спорили",
+            "en": "Post something so bizarre everyone forgets what they were fighting about"
+          },
+          "scores": {
+            "CH": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Твой стиль в мессенджере?",
+        "en": "Your messaging style?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Стикеры, гифки и 40 сообщений подряд",
+            "en": "Stickers, GIFs and 40 messages in a row"
+          },
+          "scores": {
+            "AF": 1,
+            "CH": 1,
+            "TO": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Точка в конце каждого сообщения. Пугаю людей",
+            "en": "A period after every message. I scare people"
+          },
+          "scores": {
+            "AG": 1,
+            "AF": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Ок» и 👍 — классика",
+            "en": "‘Ok’ and 👍 — a classic"
+          },
+          "scores": {
+            "TO": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Ахаха я дурак(а)» в каждом втором сообщении",
+            "en": "‘Haha I'm an idiot’ in every other message"
+          },
+          "scores": {
+            "SD": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Организационные вопросы: «Так, кто что приносит?»",
+            "en": "Logistics: ‘Okay, who's bringing what?’"
+          },
+          "scores": {
+            "AF": 1,
+            "CH": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу в 3 ночи: «А вы знали, что улитки…»",
+            "en": "Text at 3 a.m.: ‘Did you know snails…’"
+          },
+          "scores": {
+            "CH": 1,
+            "TO": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Какой квест тебе ближе?",
+        "en": "Which quest is most you?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Спасти мир. Ну или хотя бы свою репутацию",
+            "en": "Save the world. Or at least my reputation"
+          },
+          "scores": {
+            "SE": 1,
+            "SD": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Помочь соседу донести шкаф и уйти без благодарностей",
+            "en": "Help a neighbor carry a wardrobe and leave without a thank-you"
+          },
+          "scores": {
+            "AF": 1,
+            "AG": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Столкнуть что-нибудь со стола — просто посмотреть, что будет",
+            "en": "Knock something off the table — just to see what happens"
+          },
+          "scores": {
+            "CH": 1,
+            "AG": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Найти первоисточник мема 2012 года",
+            "en": "Track down the origin of a meme from 2012"
+          },
+          "scores": {
+            "TO": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Пережить понедельник. Это уже эпос",
+            "en": "Survive Monday. That's an epic already"
+          },
+          "scores": {
+            "SD": 1,
+            "SE": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Твой девиз?",
+        "en": "Your motto?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "«Я — главный герой своей истории»",
+            "en": "‘I'm the main character of my own story’"
+          },
+          "scores": {
+            "SE": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«Смешно, потому что правда»",
+            "en": "‘It's funny because it's true’"
+          },
+          "scores": {
+            "AG": 1,
+            "SE": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Я не странный(ая), я лимитированная коллекция»",
+            "en": "‘I'm not weird, I'm a limited edition’"
+          },
+          "scores": {
+            "CH": 1,
+            "SE": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Всем добра и котиков»",
+            "en": "‘Kindness and kittens for all’"
+          },
+          "scores": {
+            "AF": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«Клоун, но с душой 🤡»",
+            "en": "‘A clown, but a soulful one 🤡’"
+          },
+          "scores": {
+            "SD": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«Без комментариев»",
+            "en": "‘No comment’"
+          },
+          "scores": {
+            "AF": -1,
+            "TO": 1
+          }
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "main-character",
+      "title": {
+        "ru": "Главный герой — жизнь как сериал, и ты в главной роли",
+        "en": "Main Character — life's a series and you're the lead"
+      },
+      "emoji": "🎬",
+      "profile": {
+        "AF": 0.47,
+        "SE": 0.46,
+        "AG": 0.34,
+        "SD": 0.18,
+        "TO": 0.56,
+        "CH": 0.31
+      },
+      "summary": [
+        {
+          "ru": "Уверенность в себе как у героя в финальной серии",
+          "en": "Season-finale levels of self-confidence"
+        },
+        {
+          "ru": "Даже поход за хлебом у тебя — сюжетная арка",
+          "en": "Even a bread run is a story arc for you"
+        },
+        {
+          "ru": "Неудачи — просто сюжетный поворот",
+          "en": "Failures are just plot twists"
+        },
+        {
+          "ru": "Тебя невозможно не заметить",
+          "en": "You're impossible to miss"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты проживаешь жизнь так, будто за тобой следует съёмочная группа: красиво, драматично и с саундтреком в голове. Ты уверен(а) в себе, умеешь подать любую историю и никогда не принижаешь себя ради смеха. Неудачи для тебя — сюжетный поворот, а не конец сезона.\n\nПсихологически это похоже на сильный **самоподдерживающий** юмор: по Martin и коллегам (2003), умение смеяться над трудностями связано с жизнестойкостью и хорошим самочувствием. Seidman (2013) показала, что личность влияет и на самопрезентацию в соцсетях, — твои сторис это подтверждают. Зона роста — дать другим тоже побыть главными героями: лучшие сериалы держатся на сильном актёрском составе.",
+        "en": "You live like a film crew is following you: beautifully, dramatically, with a soundtrack in your head. You're confident, can tell any story well and never put yourself down for a laugh. Failures are plot twists, not season finales.\n\nPsychologically that looks like strong **self-enhancing** humor: Martin and colleagues (2003) linked laughing at difficulties to resilience and well-being. Seidman (2013) showed personality shapes self-presentation on social media — your stories confirm it. Growth zone: let others be the main character too; the best shows have a strong ensemble cast."
+      },
+      "strengths": [
+        {
+          "ru": "Уверенность",
+          "en": "Confidence"
+        },
+        {
+          "ru": "Жизнестойкость",
+          "en": "Resilience"
+        },
+        {
+          "ru": "Харизма",
+          "en": "Charisma"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Давать место другим",
+          "en": "Make room for others"
+        },
+        {
+          "ru": "Иногда просто слушать",
+          "en": "Sometimes just listen"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты идёшь под дождём без зонта, и в голове играет музыка из финала фильма",
+          "en": "You walk in the rain with no umbrella while end-credits music plays in your head"
+        },
+        {
+          "ru": "Твоё «я на минутку в магазин» снято в сторис как трейлер",
+          "en": "Your ‘quick trip to the store’ is filmed for your story like a trailer"
+        },
+        {
+          "ru": "Мама: «Не делай из всего драму». Ты: «Мам, это не драма, это сюжет»",
+          "en": "Mom: ‘Stop making everything a drama.’ You: ‘Mom, it's not drama, it's plot’"
+        },
+        {
+          "ru": "Ты смотришь в окно автобуса так, будто у тебя в жизни кульминация. А ты едешь за картошкой",
+          "en": "You gaze out the bus window like it's your climax scene. You're going to buy potatoes"
+        }
+      ],
+      "compatibleWith": [
+        "golden-retriever",
+        "roast-master",
+        "meme-archivist"
+      ],
+      "imagePrompt": "A cute confident character with sparkly eyes walking under a tiny spotlight with a little film clapperboard, wind dramatically blowing a scarf, soft pastel gold, pink and lilac tones, glossy flat-3D style, smooth peach-to-lilac gradient background, minimal, no text"
+    },
+    {
+      "id": "npc-sidequest",
+      "title": {
+        "ru": "NPC с побочным квестом — тихий герой второго плана",
+        "en": "Side-Quest NPC — the quiet hero in the background"
+      },
+      "emoji": "🗺️",
+      "profile": {
+        "AF": 0.51,
+        "SE": 0.28,
+        "AG": 0.13,
+        "SD": 0.44,
+        "TO": 0.37,
+        "CH": 0.21
+      },
+      "summary": [
+        {
+          "ru": "Помогаешь всем, не требуя титров",
+          "en": "You help everyone without needing credits"
+        },
+        {
+          "ru": "Спокойный(ая), добрый(ая), немного незаметный(ая)",
+          "en": "Calm, kind, a little low-key"
+        },
+        {
+          "ru": "Твоя фраза: «Могу помочь, если надо»",
+          "en": "Your line: ‘I can help, if you need’"
+        },
+        {
+          "ru": "Без тебя сюжет бы не сдвинулся",
+          "en": "Without you, the plot wouldn't move"
+        }
+      ],
+      "detailed": {
+        "ru": "В любой игре есть персонаж, который стоит у дороги и говорит: «Путник, помоги найти мою козу». Именно он запускает самые душевные квесты. Это ты. Ты не стремишься быть в центре внимания, но всегда готов(а) подсказать, помочь донести шкаф и выслушать. Твой юмор мягкий и добрый, и ты никогда не шутишь за чужой счёт.\n\nПо шкалам у тебя низкий «колкий» юмор, умеренно объединяющий и капля самоиронии. Martin и коллеги связывали отказ от агрессивного юмора с более тёплыми отношениями. Зона роста — заявлять о себе: ты не NPC в своей жизни. Иногда стоит взять главный квест для себя.",
+        "en": "Every game has a character standing by the road saying ‘Traveler, help me find my goat’ — and they trigger the most heartfelt quests. That's you. You don't seek the spotlight, but you're always ready to give directions, help carry a wardrobe or listen. Your humor is soft and kind; you never joke at others' expense.\n\nOn our scales you're low on teasing humor, moderately affiliative, with a dash of self-irony. Martin and colleagues linked avoiding aggressive humor to warmer relationships. Growth zone: speak up for yourself. You're not an NPC in your own life — take the main quest sometimes."
+      },
+      "strengths": [
+        {
+          "ru": "Доброта",
+          "en": "Kindness"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Dependability"
+        },
+        {
+          "ru": "Скромность",
+          "en": "Modesty"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Заявлять о своих желаниях",
+          "en": "Voice your wishes"
+        },
+        {
+          "ru": "Брать главную роль",
+          "en": "Take the lead role"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты каждый день говоришь одну и ту же фразу коллегам: «Доброе утро, кофе в чайнике»",
+          "en": "You say the same line to coworkers every day: ‘Morning, coffee's in the pot’"
+        },
+        {
+          "ru": "Незнакомцы постоянно спрашивают у тебя дорогу. Даже в других городах",
+          "en": "Strangers always ask you for directions. Even in cities you're visiting"
+        },
+        {
+          "ru": "Ты помог(ла) другу переехать, починил(а) соседке кран и ушёл(ушла), пока не начали благодарить",
+          "en": "You helped a friend move, fixed a neighbor's tap and left before anyone could thank you"
+        },
+        {
+          "ru": "Бабушка: «Ты у нас такой(ая) тихий(ая)». Ты: «Я просто жду, когда понадоблюсь»",
+          "en": "Grandma: ‘You're so quiet.’ You: ‘Just waiting to be needed’"
+        }
+      ],
+      "compatibleWith": [
+        "tired-chat-mom",
+        "golden-retriever",
+        "silent-lurker"
+      ],
+      "imagePrompt": "A cute gentle character in a simple tunic standing by a little signpost with a tiny exclamation mark floating above its head, holding a small map, soft pastel sage green, cream and sky-blue tones, glossy flat-3D style, smooth mint-to-cream gradient background, minimal, no text"
+    },
+    {
+      "id": "chaos-cat",
+      "title": {
+        "ru": "Кот, который всё сломал — милый хаос без сожалений",
+        "en": "The Cat Who Broke Everything — adorable, remorseless chaos"
+      },
+      "emoji": "🐈",
+      "profile": {
+        "AF": 0.33,
+        "SE": 0.39,
+        "AG": 0.43,
+        "SD": 0.24,
+        "TO": 0.48,
+        "CH": 0.48
+      },
+      "summary": [
+        {
+          "ru": "Ты делаешь странное — и не извиняешься",
+          "en": "You do weird things — and don't apologize"
+        },
+        {
+          "ru": "Хаос — твоё естественное состояние",
+          "en": "Chaos is your natural state"
+        },
+        {
+          "ru": "Немного вредный(ая), очень обаятельный(ая)",
+          "en": "A little naughty, very charming"
+        },
+        {
+          "ru": "Тебе всё прощают за лицо",
+          "en": "Everyone forgives you because of that face"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — тот самый кот, который смотрит тебе в глаза и медленно сталкивает кружку со стола. Не со зла, а просто интересно. Ты спонтанный(ая), непредсказуемый(ая) и немного вредный(ая): твой юмор абсурдный, с лёгкой издёвкой, а твои идеи никто не может предугадать. Самое удивительное, что тебе всё прощают, потому что это мило.\n\nПо шкалам у тебя максимум хаоса, немного колкости и уверенность без самоунижения. Абсурдный юмор часто связан с богатым воображением и открытостью опыту. Зона роста — помнить про чужие кружки: иногда хаос стоит направлять в творчество, а не в чужие планы.",
+        "en": "You're that cat who looks you in the eye while slowly nudging a mug off the table. Not out of malice — just curiosity. You're spontaneous, unpredictable and a little mischievous: your humor is absurd with a playful sting, and nobody can predict your ideas. Amazingly, everyone forgives you because it's cute.\n\nOn our scales you're maxed on chaos, a bit teasing and confident without self-put-downs. Absurd humor often goes with rich imagination and openness. Growth zone: mind other people's mugs — channel the chaos into creativity rather than into others' plans."
+      },
+      "strengths": [
+        {
+          "ru": "Креативность",
+          "en": "Creativity"
+        },
+        {
+          "ru": "Спонтанность",
+          "en": "Spontaneity"
+        },
+        {
+          "ru": "Обаяние",
+          "en": "Charm"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Не ломать чужие планы",
+          "en": "Don't knock over others' plans"
+        },
+        {
+          "ru": "Иногда извиняться",
+          "en": "Apologize sometimes"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Тебе сказали «не трогай». Ты потрогал(а). Медленно. Глядя в глаза",
+          "en": "You were told ‘don't touch’. You touched it. Slowly. Maintaining eye contact"
+        },
+        {
+          "ru": "Ты пришёл(шла) на собеседование и спросил(а), какая у офисного фикуса любимая музыка",
+          "en": "You went to a job interview and asked what music the office ficus likes"
+        },
+        {
+          "ru": "В три часа ночи ты внезапно решил(а) переставить мебель. Соседи в курсе",
+          "en": "At 3 a.m. you suddenly decided to rearrange the furniture. The neighbors know"
+        },
+        {
+          "ru": "Мама: «Кто это сделал?» Ты: «Не знаю. Но выглядит красиво, да?»",
+          "en": "Mom: ‘Who did this?’ You: ‘No idea. But it looks nice, right?’"
+        }
+      ],
+      "compatibleWith": [
+        "three-am-energy",
+        "roast-master",
+        "sigma-philosopher"
+      ],
+      "imagePrompt": "A cute mischievous fluffy cat character sitting on a table edge, gently pushing a tiny mug with one paw while looking straight ahead with an innocent smile, a few sparkles of chaos around, soft pastel orange, lilac and cream tones, glossy flat-3D style, smooth lilac-to-peach gradient background, minimal, no text"
+    },
+    {
+      "id": "sigma-philosopher",
+      "title": {
+        "ru": "Сигма-философ — невозмутимость с ироничной подписью",
+        "en": "Sigma Philosopher — stone-faced calm with an ironic caption"
+      },
+      "emoji": "🗿",
+      "profile": {
+        "AF": 0.29,
+        "SE": 0.37,
+        "AG": 0.41,
+        "SD": 0.26,
+        "TO": 0.56,
+        "CH": 0.25
+      },
+      "summary": [
+        {
+          "ru": "Лицо статуи, юмор — сухой, как пустыня",
+          "en": "Statue face, desert-dry humor"
+        },
+        {
+          "ru": "Сам(а) по себе — и иронично это осознаёшь",
+          "en": "A lone wolf — and ironically aware of it"
+        },
+        {
+          "ru": "Короткие ответы, точные шутки",
+          "en": "Short replies, precise jokes"
+        },
+        {
+          "ru": "Если ты засмеялся(лась), шутка была гениальной",
+          "en": "If you laughed, the joke was genius"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — человек с невозмутимым лицом и шутками, которые доходят через три секунды и попадают точно в цель. Ты любишь независимость, не гонишься за одобрением и терпеть не можешь пустую болтовню. При этом ты прекрасно понимаешь всю иронию образа «одинокого волка» и с удовольствием её обыгрываешь. Твоё «интересно» может значить что угодно.\n\nПо шкалам у тебя сухой самоподдерживающий юмор, немного колкости и низкая потребность объединяться через шутки. Это стиль наблюдателя: ты видишь абсурд мира и комментируешь его одной фразой. Зона роста — тепло: иногда стоит снять маску статуи и просто сказать другу, что рад(а) его видеть. Даже сигмам нужна стая.",
+        "en": "You're the person with a stone face and jokes that land three seconds later — right on target. You love independence, don't chase approval and can't stand small talk. And you fully grasp the irony of the ‘lone wolf’ image and play it up with relish. Your ‘interesting’ can mean anything.\n\nOn our scales you have dry self-enhancing humor, a bit of a sting and low need to bond through jokes — an observer's style: you see the world's absurdity and caption it in one line. Growth zone: warmth. Take off the statue mask sometimes and just tell a friend you're glad to see them. Even sigmas need a pack."
+      },
+      "strengths": [
+        {
+          "ru": "Самообладание",
+          "en": "Composure"
+        },
+        {
+          "ru": "Точный юмор",
+          "en": "Precise humor"
+        },
+        {
+          "ru": "Независимость",
+          "en": "Independence"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Показывать тепло",
+          "en": "Show warmth"
+        },
+        {
+          "ru": "Пускать людей ближе",
+          "en": "Let people in"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твоя реакция на сюрприз-вечеринку: «Понятно». Внутри ты очень растроган(а)",
+          "en": "Your reaction to a surprise party: ‘I see.’ Inside, you're deeply moved"
+        },
+        {
+          "ru": "Ты ставишь точку в конце сообщения «ок.», и коллеги неделю гадают, что ты имел(а) в виду",
+          "en": "You end ‘ok.’ with a period and coworkers spend a week decoding it"
+        },
+        {
+          "ru": "Ты пьёшь чёрный кофе, смотришь в окно и думаешь о вечном. Ну, или о том, что заказать на ужин",
+          "en": "You sip black coffee, stare out the window and contemplate eternity. Or what to order for dinner"
+        },
+        {
+          "ru": "Бабушка: «Улыбнись хоть!» Ты улыбаешься. Бабушке становится тревожно",
+          "en": "Grandma: ‘At least smile!’ You smile. Grandma becomes concerned"
+        }
+      ],
+      "compatibleWith": [
+        "chaos-cat",
+        "silent-lurker",
+        "roast-master"
+      ],
+      "imagePrompt": "A cute small stone statue-head character with a calm deadpan expression wearing tiny sunglasses, sitting on a little pedestal holding a coffee cup, a few drifting philosophical thought bubbles, soft pastel grey, lavender and sky tones, glossy flat-3D style, smooth slate-blue to lavender gradient background, minimal, no text"
+    },
+    {
+      "id": "golden-retriever",
+      "title": {
+        "ru": "Энергия золотистого ретривера — бесконечно добрый вайб",
+        "en": "Golden Retriever Energy — endlessly wholesome vibes"
+      },
+      "emoji": "🐕",
+      "profile": {
+        "AF": 0.55,
+        "SE": 0.38,
+        "AG": 0.18,
+        "SD": 0.33,
+        "TO": 0.48,
+        "CH": 0.39
+      },
+      "summary": [
+        {
+          "ru": "Радуешься всем и всему",
+          "en": "Excited about everyone and everything"
+        },
+        {
+          "ru": "Твои мемы — котики, собачки и поддержка",
+          "en": "Your memes: kittens, puppies and support"
+        },
+        {
+          "ru": "Прожарка? Только объятия",
+          "en": "Roast? Only hugs"
+        },
+        {
+          "ru": "С тобой интернет становится лучше",
+          "en": "The internet is better with you in it"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — ходячее «ты справишься! ❤️». Ты искренне радуешься людям, ставишь лайки всем друзьям, пишешь тёплые комментарии незнакомцам и шлёшь мемы с котиками, когда кому-то грустно. Твой юмор добрый, немного дурашливый и никогда не обидный. «Энергия золотистого ретривера» давно стала интернет-комплиментом, и ты — её эталон.\n\nПо шкалам у тебя максимум объединяющего юмора и минимум колкости. Martin и коллеги нашли, что объединяющий юмор связан с лучшими отношениями и самочувствием, а метаанализы — что он идёт рука об руку с экстраверсией. Зона роста — границы: не все заслуживают твоей бесконечной поддержки, и иногда нужно поддержать себя.",
+        "en": "You're a walking ‘you've got this! ❤️’. You genuinely light up for people, like all your friends' posts, leave warm comments for strangers and send kitten memes whenever someone's down. Your humor is kind, a bit goofy and never hurtful. ‘Golden retriever energy’ became an internet compliment long ago, and you're the gold standard.\n\nOn our scales you're maxed on affiliative humor, minimal on teasing. Martin and colleagues found affiliative humor relates to better relationships and well-being; meta-analyses tie it to extraversion. Growth zone: boundaries. Not everyone deserves your endless support, and sometimes you need to support yourself."
+      },
+      "strengths": [
+        {
+          "ru": "Доброта",
+          "en": "Kindness"
+        },
+        {
+          "ru": "Энтузиазм",
+          "en": "Enthusiasm"
+        },
+        {
+          "ru": "Поддержка",
+          "en": "Support"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Ставить границы",
+          "en": "Set boundaries"
+        },
+        {
+          "ru": "Поддерживать себя",
+          "en": "Support yourself"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты пишешь «ты лучший(ая)!!!» под постом человека, с которым виделся(лась) один раз в 2019-м",
+          "en": "You comment ‘you're the best!!!’ on a post from someone you met once in 2019"
+        },
+        {
+          "ru": "Твоя реакция на любую новость друга: «АААА, я так рад(а) за тебя!!!» Даже если он купил хлеб",
+          "en": "Your reaction to any friend's news: ‘AAAA I'm so happy for you!!!’ Even if they just bought bread"
+        },
+        {
+          "ru": "Ты здороваешься с каждой собакой на улице. Собаки здороваются в ответ",
+          "en": "You greet every dog on the street. The dogs greet you back"
+        },
+        {
+          "ru": "Мама: «Ты со всеми так дружелюбен(на)?» Ты: «А можно было по-другому?»",
+          "en": "Mom: ‘Are you this friendly with everyone?’ You: ‘Wait, there's another option?’"
+        }
+      ],
+      "compatibleWith": [
+        "main-character",
+        "npc-sidequest",
+        "clown-mode"
+      ],
+      "imagePrompt": "A cute fluffy golden puppy character with a huge joyful smile and wagging tail, holding a tiny phone with heart reactions floating out, soft pastel golden, peach and pink tones, glossy flat-3D style, smooth butter-yellow to pink gradient background, minimal, no text"
+    },
+    {
+      "id": "three-am-energy",
+      "title": {
+        "ru": "Энергия 3 часа ночи — гениальные идеи и странные мемы",
+        "en": "3 A.M. Energy — genius ideas and cursed memes"
+      },
+      "emoji": "🌙",
+      "profile": {
+        "AF": 0.41,
+        "SE": 0.28,
+        "AG": 0.34,
+        "SD": 0.41,
+        "TO": 0.65,
+        "CH": 0.46
+      },
+      "summary": [
+        {
+          "ru": "Мозг включается, когда все спят",
+          "en": "Your brain switches on when everyone's asleep"
+        },
+        {
+          "ru": "Мемы, которые понимаешь только ты и сова",
+          "en": "Memes only you and an owl understand"
+        },
+        {
+          "ru": "Гениальная идея в 3:12, кринж в 9:00",
+          "en": "Genius idea at 3:12, cringe at 9:00"
+        },
+        {
+          "ru": "Терминально онлайн и абсолютно непредсказуем(а)",
+          "en": "Terminally online and utterly unpredictable"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты оживаешь, когда мир засыпает. В три часа ночи у тебя рождаются великие идеи, глубокие мысли о Вселенной и сообщения в общий чат вроде «а вы знали, что у осьминога три сердца?». Твой юмор абсурдный, сюрреалистичный и очень онлайн. Ты знаешь мемы, о которых ещё никто не слышал, и сам(а) создаёшь новые.\n\nПо шкалам у тебя максимум хаоса и онлайн-статуса, немного самоиронии. Исследования хронотипов показывают, что «совы» в среднем чуть открытее новому, и это заметно по твоему креативу. Зона роста — сон. Правда. Недосып бьёт по настроению и здоровью, а гениальные идеи можно записать в заметки и обдумать утром — после кофе.",
+        "en": "You come alive when the world falls asleep. At 3 a.m. you birth great ideas, deep thoughts about the universe and group-chat messages like ‘did you know octopuses have three hearts?’. Your humor is absurd, surreal and very online. You know memes nobody's heard of yet — and make new ones.\n\nOn our scales you're maxed on chaos and online status, with some self-irony. Chronotype research shows night owls tend to be slightly more open — it shows in your creativity. Growth zone: sleep. Really. Sleep debt hits mood and health, and genius ideas can wait in your notes app until morning — after coffee."
+      },
+      "strengths": [
+        {
+          "ru": "Креативность",
+          "en": "Creativity"
+        },
+        {
+          "ru": "Оригинальный юмор",
+          "en": "Original humor"
+        },
+        {
+          "ru": "Знание интернет-культуры",
+          "en": "Internet-culture fluency"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Режим сна",
+          "en": "Sleep schedule"
+        },
+        {
+          "ru": "Перечитывать сообщения утром",
+          "en": "Reread messages in the morning"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "В 3:07 ты пишешь в общий чат: «Ребят, а если рыбы пьют воду, они всегда пьяны водой?»",
+          "en": "At 3:07 a.m. you text the group: ‘Guys, if fish drink water, are they always drunk on water?’"
+        },
+        {
+          "ru": "Утром ты читаешь свои ночные сообщения и думаешь, что тебя взломали",
+          "en": "In the morning you read your night messages and assume you were hacked"
+        },
+        {
+          "ru": "Твой алгоритм рекомендаций настолько странный, что даже он, кажется, устал",
+          "en": "Your recommendation algorithm is so strange even it seems tired"
+        },
+        {
+          "ru": "Мама: «Ты почему не спишь?» Ты: «Я сплю. Это мой цифровой двойник»",
+          "en": "Mom: ‘Why aren't you asleep?’ You: ‘I am. This is my digital twin’"
+        }
+      ],
+      "compatibleWith": [
+        "chaos-cat",
+        "clown-mode",
+        "meme-archivist"
+      ],
+      "imagePrompt": "A cute sleepy-but-excited character with glowing eyes lit by a tiny phone screen under a blanket fort at night, a crescent moon, stars and floating doodle ideas around, soft pastel navy, lilac and neon-mint tones, glossy flat-3D style, smooth midnight-blue to violet gradient background, minimal, no text"
+    },
+    {
+      "id": "tired-chat-mom",
+      "title": {
+        "ru": "Уставшая мама из чата — держит всё на себе (и на сарказме)",
+        "en": "Tired Group-Chat Mom — holding it all together (with sarcasm)"
+      },
+      "emoji": "📋",
+      "profile": {
+        "AF": 0.5,
+        "SE": 0.28,
+        "AG": 0.44,
+        "SD": 0.43,
+        "TO": 0.48,
+        "CH": 0.14
+      },
+      "summary": [
+        {
+          "ru": "Ты знаешь, кто что приносит, и напоминаешь три раза",
+          "en": "You know who's bringing what — and remind everyone three times"
+        },
+        {
+          "ru": "Заботишься обо всех, ворча и закатывая глаза",
+          "en": "You care for everyone while sighing and eye-rolling"
+        },
+        {
+          "ru": "Порядок в хаосе — твоя суперсила",
+          "en": "Order amid chaos is your superpower"
+        },
+        {
+          "ru": "Сарказм с любовью",
+          "en": "Sarcasm, with love"
+        }
+      ],
+      "detailed": {
+        "ru": "В каждом чате — семейном, рабочем, школьном или дружеском — есть человек, на котором держится всё: «Так, напоминаю, сбор в 18:00», «Кто не сдал деньги на подарок?», «Я одна это читаю?». Это ты. Ты устал(а), но не сдаёшься. Твой юмор — смесь заботы, лёгкого сарказма и самоиронии о том, что без тебя всё развалится. И это правда.\n\nПо шкалам у тебя объединяющий юмор, лёгкая колкость, самоирония и максимальная организованность. Такая роль невероятно ценна, но выматывает. Зона роста — делегировать и отдыхать: мир не рухнет, если один раз кто-то другой напишет «кто что приносит?». А если рухнет — это будет хороший урок для всех.",
+        "en": "Every chat — family, work, school or friends — has someone holding it all together: ‘Reminder: we meet at 6 pm’, ‘Who hasn't chipped in for the gift?’, ‘Am I the only one reading this?’. That's you. You're tired but you don't give up. Your humor mixes care, light sarcasm and self-irony about how everything would collapse without you. Which is true.\n\nOn our scales you're affiliative, a little teasing, self-ironic and maximally organized. This role is incredibly valuable — and exhausting. Growth zone: delegate and rest. The world won't end if someone else asks ‘who's bringing what?’ for once. And if it does, it'll be a great lesson for everyone."
+      },
+      "strengths": [
+        {
+          "ru": "Организованность",
+          "en": "Organization"
+        },
+        {
+          "ru": "Забота",
+          "en": "Care"
+        },
+        {
+          "ru": "Ответственность",
+          "en": "Responsibility"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Делегировать",
+          "en": "Delegate"
+        },
+        {
+          "ru": "Отдыхать без чувства вины",
+          "en": "Rest without guilt"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "«Так. Ещё раз. Для тех, кто не читает: встреча в субботу. В СУББОТУ.»",
+          "en": "‘Okay. Once more. For those who don't read: the meeting is Saturday. SATURDAY.’"
+        },
+        {
+          "ru": "Ты закрепил(а) сообщение, продублировал(а) его и всё равно получил(а) вопрос «а когда встреча?»",
+          "en": "You pinned the message, reposted it and still got asked ‘so when's the meeting?’"
+        },
+        {
+          "ru": "Твой статус: «Я не злюсь, я просто устала напоминать»",
+          "en": "Your status: ‘I'm not mad, I'm just tired of reminding everyone’"
+        },
+        {
+          "ru": "У тебя в сумке пластыри, влажные салфетки, зарядка и терпение. Последнее заканчивается",
+          "en": "Your bag holds band-aids, wet wipes, a charger and patience. The last one's running out"
+        }
+      ],
+      "compatibleWith": [
+        "npc-sidequest",
+        "grandpa-news",
+        "golden-retriever"
+      ],
+      "imagePrompt": "A cute tired-but-loving character with a messy bun and a tiny clipboard checklist, holding a big mug of tea, little chat bubbles with exclamation marks floating around, soft pastel peach, sage and lavender tones, glossy flat-3D style, smooth peach-to-sage gradient background, minimal, no text"
+    },
+    {
+      "id": "grandpa-news",
+      "title": {
+        "ru": "Дед, читающий новости вслух — ворчливая мудрость офлайн",
+        "en": "Grandpa Reading the News Aloud — grumpy offline wisdom"
+      },
+      "emoji": "📰",
+      "profile": {
+        "AF": 0.48,
+        "SE": 0.38,
+        "AG": 0.42,
+        "SD": 0.17,
+        "TO": 0.31,
+        "CH": 0.24
+      },
+      "summary": [
+        {
+          "ru": "Тренды узнаёшь последним(ей) — и гордишься этим",
+          "en": "Last to learn about trends — and proud of it"
+        },
+        {
+          "ru": "Комментируешь мир с иронией бывалого",
+          "en": "You comment on the world with a veteran's irony"
+        },
+        {
+          "ru": "Шутки уровня «папа-шутка» — и все тайно смеются",
+          "en": "Dad-joke-level puns — and everyone secretly laughs"
+        },
+        {
+          "ru": "Лучше живой разговор, чем сто сообщений",
+          "en": "A real conversation beats a hundred texts"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — тот человек, который читает новости и обязательно комментирует их вслух: «Ну вы посмотрите, что творят!». Ты не гонишься за трендами, не понимаешь половину мемов и не особо хочешь понимать. Зато у тебя есть живой юмор, мудрые истории и шутки, над которыми сначала закатывают глаза, а потом смеются. Ты уверен(а) в себе и никогда не принижаешь себя ради смеха.\n\nПо шкалам у тебя минимальный онлайн-статус, самоподдерживающий юмор, немного ворчливой колкости и тёплая общительность. Ты — живое напоминание, что юмор не обязан быть интернетным, чтобы работать. Зона роста — открытость новому: иногда младшие показывают действительно смешные вещи. Попроси объяснить мем — это отличный повод поболтать.",
+        "en": "You're the one who reads the news and must comment aloud: ‘Would you look at what they're doing now!’. You don't chase trends, don't get half the memes and don't especially want to. But you have live humor, wise stories and jokes that earn eye-rolls first, laughs second. You're self-assured and never put yourself down for a laugh.\n\nOn our scales you're minimal on online status, self-enhancing, a bit grumpily teasing and warmly sociable — a living reminder that humor doesn't need the internet to work. Growth zone: openness to the new. Sometimes the young ones show you genuinely funny stuff. Ask them to explain a meme — it's a great excuse to chat."
+      },
+      "strengths": [
+        {
+          "ru": "Жизненная мудрость",
+          "en": "Life wisdom"
+        },
+        {
+          "ru": "Живой юмор",
+          "en": "Live humor"
+        },
+        {
+          "ru": "Уверенность",
+          "en": "Self-assurance"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Открытость новому",
+          "en": "Openness to the new"
+        },
+        {
+          "ru": "Меньше ворчать",
+          "en": "Grumble less"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты отправляешь в семейный чат открытку «Хорошего воскресенья» с котёнком в чашке. Каждое воскресенье. С 2015 года",
+          "en": "You send the family chat a ‘Happy Sunday’ card with a kitten in a teacup. Every Sunday. Since 2015"
+        },
+        {
+          "ru": "Внук объясняет тебе мем 10 минут. Ты: «Понятно. Не смешно». Потом пересказываешь его всем друзьям",
+          "en": "Your grandkid explains a meme for 10 minutes. You: ‘Got it. Not funny.’ Then you retell it to all your friends"
+        },
+        {
+          "ru": "Твоя любимая шутка: «Почему трамвай не опаздывает? Потому что у него рельсы!» Никто не понимает, но все смеются",
+          "en": "Your favorite joke involves a pun about trains being ‘on track’. Nobody gets it, everyone laughs"
+        },
+        {
+          "ru": "Ты читаешь новости вслух, даже если в комнате никого нет. Кот в курсе мировой политики",
+          "en": "You read the news aloud even when no one's in the room. The cat is well briefed on world affairs"
+        }
+      ],
+      "compatibleWith": [
+        "tired-chat-mom",
+        "main-character",
+        "npc-sidequest"
+      ],
+      "imagePrompt": "A cute cheerful grandpa character with round glasses, a fluffy mustache and a knitted vest reading a big newspaper aloud in an armchair, a sleepy cat on the armrest, soft pastel beige, sage and dusty-blue tones, glossy flat-3D style, smooth cream-to-sky gradient background, minimal, no text"
+    },
+    {
+      "id": "clown-mode",
+      "title": {
+        "ru": "Клоун со стажем — смешишь всех, особенно собой",
+        "en": "Veteran Clown — making everyone laugh, mostly at yourself"
+      },
+      "emoji": "🤡",
+      "profile": {
+        "AF": 0.51,
+        "SE": 0.15,
+        "AG": 0.34,
+        "SD": 0.55,
+        "TO": 0.6,
+        "CH": 0.41
+      },
+      "summary": [
+        {
+          "ru": "Самоирония — твой суперспособ шутить",
+          "en": "Self-irony is your comedy superpower"
+        },
+        {
+          "ru": "«Я опять клоун 🤡» — твоя подпись",
+          "en": "‘Clowned myself again 🤡’ is your signature"
+        },
+        {
+          "ru": "С тобой невозможно не смеяться",
+          "en": "Impossible not to laugh with you"
+        },
+        {
+          "ru": "Под гримом — очень тёплое сердце",
+          "en": "Under the makeup: a very warm heart"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — мастер шуток над собой. Опоздал(а)? «Ну, это же я». Перепутал(а) чат? «Клоун года, получите-распишитесь». Ты превращаешь свои неловкости в стендап, и люди тебя обожают за искренность. С тобой легко, потому что ты не строишь из себя идеального человека.\n\nПо Martin и коллегам (2003) это **самоуничижительный** стиль: он смешной и сближает, но, если становится постоянным, связан с худшим самочувствием. Иногда за ним прячется желание понравиться или скрыть боль. Поэтому зона роста бережная: шути над ситуациями, а не над собой. Ты не клоун, ты человек с отличным чувством юмора, и это совсем разные вещи. Если шутки начали прикрывать что-то тяжёлое, поговори с близкими или специалистом.",
+        "en": "You're a master of self-deprecating jokes. Late? ‘Well, it's me.’ Wrong chat? ‘Clown of the year, sign here.’ You turn your awkward moments into stand-up, and people adore your honesty. You're easy to be around because you don't pretend to be perfect.\n\nMartin and colleagues (2003) call this the **self-defeating** style: funny and bonding, but when constant, linked to lower well-being — sometimes it hides a wish to be liked or to cover pain. So the growth zone is gentle: joke about situations, not about yourself. You're not a clown; you're a person with a great sense of humor, and those are very different things. If the jokes have started covering something heavy, talk to someone close or a professional."
+      },
+      "strengths": [
+        {
+          "ru": "Искренность",
+          "en": "Sincerity"
+        },
+        {
+          "ru": "Умение рассмешить",
+          "en": "Making people laugh"
+        },
+        {
+          "ru": "Отсутствие пафоса",
+          "en": "Zero pretension"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Говорить о себе по-доброму",
+          "en": "Talk about yourself kindly"
+        },
+        {
+          "ru": "Не прятать чувства за шутками",
+          "en": "Don't hide feelings behind jokes"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты отправил(а) «люблю тебя» в рабочий чат вместо маминого — и теперь коллеги тоже тебя любят",
+          "en": "You sent ‘love you’ to the work chat instead of your mom — now your coworkers love you too"
+        },
+        {
+          "ru": "Твоя самооценка в эмодзи: 🤡✨",
+          "en": "Your self-esteem in emoji: 🤡✨"
+        },
+        {
+          "ru": "Ты рассказываешь о своём провале так смешно, что друзья просят повторить на бис",
+          "en": "You tell your fail so hilariously friends ask for an encore"
+        },
+        {
+          "ru": "Бабушка: «Ты у нас самый(ая) весёлый(ая)». Ты: «Это защитный механизм, ба». Бабушка: «Молодец!»",
+          "en": "Grandma: ‘You're the funniest one in the family.’ You: ‘It's a coping mechanism, Grandma.’ Grandma: ‘Good for you!’"
+        }
+      ],
+      "compatibleWith": [
+        "golden-retriever",
+        "three-am-energy",
+        "tired-chat-mom"
+      ],
+      "imagePrompt": "A cute cheerful character with a tiny red clown nose and rainbow curly wig taking a playful bow, a few confetti pieces and a small heart balloon, soft pastel rainbow tones, glossy flat-3D style, smooth pink-to-sky-blue gradient background, minimal, no text"
+    },
+    {
+      "id": "meme-archivist",
+      "title": {
+        "ru": "Мем-архивариус — у тебя есть мем на любой случай",
+        "en": "Meme Archivist — you have a meme for every occasion"
+      },
+      "emoji": "🗂️",
+      "profile": {
+        "AF": 0.49,
+        "SE": 0.28,
+        "AG": 0.34,
+        "SD": 0.33,
+        "TO": 0.67,
+        "CH": 0.24
+      },
+      "summary": [
+        {
+          "ru": "Помнишь лор каждого мема с 2010 года",
+          "en": "You know every meme's lore since 2010"
+        },
+        {
+          "ru": "Нужная реакция — за 0,3 секунды",
+          "en": "The perfect reaction in 0.3 seconds"
+        },
+        {
+          "ru": "Твоя галерея — музей интернет-культуры",
+          "en": "Your camera roll is a museum of internet culture"
+        },
+        {
+          "ru": "Объясняешь мемы так, что смешно даже бабушке",
+          "en": "You explain memes so well even Grandma laughs"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — живая энциклопедия интернет-культуры. У тебя есть мем на любую жизненную ситуацию, аккуратно разложенный по папкам: «работа», «понедельник», «для мамы», «когда друг опоздал». Ты знаешь, откуда пошёл каждый тренд, и можешь объяснить шутку так, что поймёт любой. Ты используешь мемы как язык общения: прислать нужную картинку в нужный момент — твоё искусство.\n\nПо шкалам у тебя максимальный онлайн-статус, объединяющий юмор и любовь к порядку. Kosinski и коллеги (2013) показали, что цифровые следы, даже лайки, многое рассказывают о личности. Твоя галерея — настоящий автопортрет. Зона роста — офлайн: иногда лучший мем — это момент, который ты прожил(а), а не сохранил(а).",
+        "en": "You're a living encyclopedia of internet culture. You have a meme for every life situation, neatly filed into folders: ‘work’, ‘Monday’, ‘for Mom’, ‘when a friend is late’. You know where every trend started and can explain any joke so anyone gets it. Memes are your language: sending the right picture at the right moment is your art.\n\nOn our scales you're maxed on online status, affiliative and fond of order. Kosinski and colleagues (2013) showed digital footprints — even likes — reveal a lot about personality; your camera roll is a true self-portrait. Growth zone: offline life. Sometimes the best meme is a moment you lived, not saved."
+      },
+      "strengths": [
+        {
+          "ru": "Эрудиция",
+          "en": "Erudition"
+        },
+        {
+          "ru": "Точность реакций",
+          "en": "Perfect timing"
+        },
+        {
+          "ru": "Объединяющий юмор",
+          "en": "Bonding humor"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Больше офлайн-моментов",
+          "en": "More offline moments"
+        },
+        {
+          "ru": "Иногда отвечать словами",
+          "en": "Sometimes reply in words"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "У тебя в галерее 14 000 мемов и 3 фото документов",
+          "en": "Your gallery has 14,000 memes and 3 photos of documents"
+        },
+        {
+          "ru": "Друг: «Помнишь тот мем про…» Ты уже отправил(а) его. В трёх вариантах",
+          "en": "Friend: ‘Remember that meme about…’ You've already sent it. In three versions"
+        },
+        {
+          "ru": "Ты объяснил(а) маме мем, она засмеялась и теперь отправляет его всем подругам",
+          "en": "You explained a meme to your mom, she laughed and now sends it to all her friends"
+        },
+        {
+          "ru": "Твоя суперспособность — найти мем 2011 года быстрее, чем гугл",
+          "en": "Your superpower: finding a 2011 meme faster than a search engine"
+        }
+      ],
+      "compatibleWith": [
+        "three-am-energy",
+        "main-character",
+        "silent-lurker"
+      ],
+      "imagePrompt": "A cute nerdy character with round glasses in a cozy library of floating picture frames and tiny folders, holding a glowing phone like a precious book, soft pastel mint, lavender and cream tones, glossy flat-3D style, smooth mint-to-lavender gradient background, minimal, no text"
+    },
+    {
+      "id": "roast-master",
+      "title": {
+        "ru": "Ведущий(ая) прожарки — острый язык, доброе сердце",
+        "en": "Roast Master — sharp tongue, kind heart"
+      },
+      "emoji": "🔥",
+      "profile": {
+        "AF": 0.41,
+        "SE": 0.37,
+        "AG": 0.49,
+        "SD": 0.33,
+        "TO": 0.56,
+        "CH": 0.31
+      },
+      "summary": [
+        {
+          "ru": "Твой сарказм — отдельный жанр",
+          "en": "Your sarcasm is a genre of its own"
+        },
+        {
+          "ru": "Подколы по любви (и по согласию)",
+          "en": "Banter with love (and consent)"
+        },
+        {
+          "ru": "Самый смешной комментарий под постом — твой",
+          "en": "The funniest comment under the post is yours"
+        },
+        {
+          "ru": "Если ты шутишь над человеком — значит, он тебе дорог",
+          "en": "If you roast someone, they matter to you"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — мастер острого слова. Твои комментарии собирают больше лайков, чем сам пост, а друзья одновременно боятся и обожают твои подколы. Ты видишь смешное в людях и ситуациях и формулируешь это так точно, что спорить бесполезно. Для своих ты прожариваешь любя, и все это знают.\n\nПо шкалам у тебя высокий «колкий» юмор и уверенность. Martin и коллеги связывали агрессивный юмор с напряжением в отношениях, а Buckels и коллеги (2014) — удовольствие от троллинга с тёмными чертами. Важная грань: прожарка — это шоу, где смеются все, включая «жертву». Зона роста — проверять, всем ли смешно, и иногда направлять острый язык на ситуации и самого(саму) себя, а не на людей.",
+        "en": "You're a master of the sharp line. Your comments get more likes than the post itself, and friends both fear and adore your banter. You spot what's funny in people and situations and phrase it so precisely there's no comeback. With your people, you roast out of love — and everyone knows it.\n\nOn our scales you're high on teasing humor and confidence. Martin and colleagues linked aggressive humor to relationship strain, and Buckels and colleagues (2014) linked enjoying trolling to dark traits. The key line: a roast is a show where everyone laughs, including the ‘target’. Growth zone: check that everyone's laughing, and sometimes aim the sharp tongue at situations — or yourself — rather than people."
+      },
+      "strengths": [
+        {
+          "ru": "Остроумие",
+          "en": "Wit"
+        },
+        {
+          "ru": "Наблюдательность",
+          "en": "Observation"
+        },
+        {
+          "ru": "Уверенность",
+          "en": "Confidence"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Проверять, всем ли смешно",
+          "en": "Check everyone's laughing"
+        },
+        {
+          "ru": "Шутить над ситуациями, а не над людьми",
+          "en": "Joke about situations, not people"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Друг выложил фото, ты написал(а) один комментарий — и теперь это мем всей компании",
+          "en": "A friend posted a photo, you left one comment — and now it's the whole group's inside joke"
+        },
+        {
+          "ru": "Ты прожарил(а) родственников за праздничным столом так, что бабушка смеялась до слёз",
+          "en": "You roasted the relatives at the holiday table so well Grandma laughed till she cried"
+        },
+        {
+          "ru": "Твой комплимент: «Неплохо. Для тебя»",
+          "en": "Your compliment: ‘Not bad. For you’"
+        },
+        {
+          "ru": "Мама: «Ты можешь хоть раз без сарказма?» Ты: «Конечно, могу. Без проблем. Вообще»",
+          "en": "Mom: ‘Can you go one day without sarcasm?’ You: ‘Of course. Absolutely. No problem at all’"
+        }
+      ],
+      "compatibleWith": [
+        "chaos-cat",
+        "sigma-philosopher",
+        "main-character"
+      ],
+      "imagePrompt": "A cute confident character holding a tiny microphone on a little stage with a playful smirk, small friendly flames and laughing emoji bubbles around, soft pastel coral, orange and lilac tones, glossy flat-3D style, smooth coral-to-lilac gradient background, minimal, no text"
+    },
+    {
+      "id": "silent-lurker",
+      "title": {
+        "ru": "Тихий наблюдатель — читает всё, пишет никогда",
+        "en": "Silent Lurker — reads everything, posts never"
+      },
+      "emoji": "👀",
+      "profile": {
+        "AF": 0.26,
+        "SE": 0.28,
+        "AG": 0.26,
+        "SD": 0.33,
+        "TO": 0.57,
+        "CH": 0.24
+      },
+      "summary": [
+        {
+          "ru": "Ты видел(а) всё. Ты знаешь всё. Ты молчишь",
+          "en": "You've seen it all. You know it all. You say nothing"
+        },
+        {
+          "ru": "Одна реакция 👀 — и все понимают",
+          "en": "One 👀 reaction and everyone gets it"
+        },
+        {
+          "ru": "Наблюдатель, а не участник",
+          "en": "An observer, not a participant"
+        },
+        {
+          "ru": "Твоё «прочитано» — это целая позиция",
+          "en": "Your ‘seen’ is a whole statement"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты читаешь каждый чат, следишь за всеми драмами и знаешь, кто с кем поссорился, хотя сам(а) ни разу ничего не написал(а). Твоя суперсила — наблюдение. Ты не участвуешь в спорах, не ставишь лишних лайков и не шутишь на публику. Зато когда ты всё-таки отвечаешь, это событие, и все замирают.\n\nПо шкалам у тебя средний онлайн-статус, низкая потребность объединяться через юмор и отсутствие колкости. Это спокойный, бережный к себе стиль: ты потребляешь контент, но не отдаёшь ему свою энергию. Зона роста — иногда выходить из тени: друзья будут рады твоему «ахах» или реакции. Твоё мнение тоже важно, даже если ты привык(ла) держать его при себе.",
+        "en": "You read every chat, follow every drama and know who's fallen out with whom — without ever posting a word. Your superpower is observation. You stay out of arguments, don't spray likes and don't joke for an audience. But when you finally reply, it's an event — everyone freezes.\n\nOn our scales you're moderately online, low on bonding-through-humor and free of teasing — a calm, self-protective style: you consume content without giving it your energy. Growth zone: step out of the shadows sometimes. Friends will be glad of your ‘haha’ or a reaction. Your opinion matters too, even if you're used to keeping it to yourself."
+      },
+      "strengths": [
+        {
+          "ru": "Наблюдательность",
+          "en": "Observation"
+        },
+        {
+          "ru": "Сдержанность",
+          "en": "Restraint"
+        },
+        {
+          "ru": "Бережное отношение к своей энергии",
+          "en": "Protecting your energy"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Иногда высказываться",
+          "en": "Speak up sometimes"
+        },
+        {
+          "ru": "Делиться реакциями с друзьями",
+          "en": "Share reactions with friends"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "В чате 847 непрочитанных. Ты прочитал(а) все. Ответил(а): «👍»",
+          "en": "847 unread in the chat. You read every one. Replied: ‘👍’"
+        },
+        {
+          "ru": "Друзья узнают, что ты жив(а), только по галочкам «прочитано»",
+          "en": "Friends only know you're alive from the ‘seen’ checkmarks"
+        },
+        {
+          "ru": "Ты знаешь о драме в чате больше, чем её участники, но тебя там как бы нет",
+          "en": "You know more about the chat drama than the people in it, yet you're technically not there"
+        },
+        {
+          "ru": "Мама: «Ты видел(а) моё сообщение?» Ты: видел(а) его 3 дня назад и всё ещё думаешь над ответом",
+          "en": "Mom: ‘Did you see my message?’ You saw it three days ago and are still drafting a reply"
+        }
+      ],
+      "compatibleWith": [
+        "sigma-philosopher",
+        "meme-archivist",
+        "npc-sidequest"
+      ],
+      "imagePrompt": "A cute shy character peeking out from behind a giant soft phone screen with big curious eyes, tiny chat bubbles floating past, soft pastel lilac, mint and grey tones, glossy flat-3D style, smooth lavender-to-mint gradient background, minimal, no text"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ добавляет баллы к шести шкалам: «Душа чата» (AF, объединяющий юмор), «Ирония-броня» (SE, юмор как способ справляться), «Прожарка» (AG, колкий юмор), «Самоирония» (SD), «Онлайн-статус» (TO, насколько ты в интернете) и «Хаос» (CH, абсурд и спонтанность). Суммы приводятся к 0–1: (сумма − минимум) / (максимум − минимум), и выбирается архетип с ближайшим профилем (евклидово расстояние). Профили откалиброваны так, чтобы при случайных ответах все 12 архетипов выпадали примерно поровну.",
+    "en": "Each answer adds points to six scales: Chat Glue (AF, affiliative humor), Irony Armor (SE, humor as coping), Roast (AG, teasing humor), Self-Roast (SD), Online Status (TO, how online you are) and Chaos (CH, absurdity and spontaneity). Sums are rescaled to 0–1 as (sum − min) / (max − min), and you get the archetype with the nearest profile (Euclidean distance). Profiles were calibrated so all 12 archetypes come up about equally often under random answering."
+  },
+  "resultIntro": {
+    "ru": "Алгоритм посмотрел твои ответы, лайкнул и добавил в рекомендации. Твой вайб —",
+    "en": "The algorithm saw your answers, liked them and put you on the For You page. Your vibe is…"
+  }
+}

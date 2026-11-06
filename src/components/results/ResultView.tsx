@@ -83,6 +83,13 @@ export function ResultView({
     headline = mainDims.length === 1 || test.seriousness === "screening" ? b?.label[lang] : undefined;
   }
   if (test.kind === "cognitive" && !headline) headEmoji = "🧠";
+  // long "Title — tagline" headlines split into a title and a smaller tagline
+  const split = headline && headline.length > 26 ? headline.split(/\s+[—–]\s+|:\s+/) : [];
+  const headMain = split.length > 1 ? split[0] : headline;
+  const headSub = split.length > 1 ? split.slice(1).join(": ") : undefined;
+  // intros like "Твой вайб —" lead into the title, so they sit above it
+  const introText = test.resultIntro?.[lang].replace(/\*\*/g, "");
+  const leadIn = !!introText && /([—–:]|…|\.\.\.)\s*$/.test(introText);
   const g0 = test.kind === "game" ? mainDims[0] : undefined;
   const g0r = g0 && byId[g0.id];
   const gameHead = g0 && g0r ? { value: g0r.raw, unit: unitFor(g0.id, lang), name: g0.name[lang], band: g0.bands[g0r.bandIndex]?.label[lang] } : null;
@@ -102,6 +109,7 @@ export function ResultView({
           <p className="text-sm text-muted">
             {dict.result.yourResult} • {test.title[lang]}
           </p>
+          {introText && leadIn && <p className="mt-3 max-w-md text-[15px] text-ink-2 text-pretty">{introText}</p>}
           <motion.div initial={{ scale: 0.4, opacity: 0, rotate: -12 }} animate={{ scale: 1, opacity: 1, rotate: 0 }} transition={{ type: "spring", stiffness: 200, damping: 14, delay: 0.1 }} className="mt-5 text-7xl">
             {headEmoji}
           </motion.div>
@@ -123,11 +131,12 @@ export function ResultView({
           ) : (
             headline && (
               <motion.h1 initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease, delay: 0.25 }} className="font-display mt-4 text-[clamp(2rem,6vw,3.6rem)] font-semibold leading-[1.02] tracking-[-0.03em] text-balance">
-                {headline}
+                {headMain}
+                {headSub && <span className="mt-3 block font-sans text-[0.42em] font-medium leading-snug tracking-normal text-ink-2">{headSub}</span>}
               </motion.h1>
             )
           )}
-          {test.resultIntro && <p className="mt-4 max-w-md text-[15px] text-ink-2 text-pretty">{test.resultIntro[lang].replace(/\*\*/g, "")}</p>}
+          {introText && !leadIn && <p className="mt-4 max-w-md text-[15px] text-ink-2 text-pretty">{introText}</p>}
           {friend && (
             <p className="mt-3 text-sm text-ink-2">
               <span className="mr-2 inline-block size-2.5 rounded-full bg-[var(--rose)]" />

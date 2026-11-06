@@ -1,0 +1,2661 @@
+{
+  "id": "cosmic-object",
+  "category": "fun",
+  "kind": "choice",
+  "seriousness": "fun",
+  "title": {
+    "ru": "Какой ты космический объект?",
+    "en": "Which cosmic object are you?"
+  },
+  "tagline": {
+    "ru": "Звезда, чёрная дыра или комета? 16 вопросов, «Большая пятёрка» и немного настоящей астрономии",
+    "en": "A star, a black hole or a comet? 16 questions, the Big Five and a bit of real astronomy"
+  },
+  "description": {
+    "ru": "Узнай, кто ты во Вселенной: тёплая звезда, загадочная чёрная дыра, пунктуальный пульсар или амбициозный квазар. Тест переводит твои ответы в черты «Большой пятёрки», а в результатах ждут разбор характера, смешные жизненные ситуации и удивительные факты о космосе.",
+    "en": "Find out who you are in the Universe: a warm star, a mysterious black hole, a punctual pulsar or an ambitious quasar. The quiz turns your answers into Big Five traits, and your results come with a personality breakdown, funny everyday moments and amazing space facts."
+  },
+  "emoji": "🪐",
+  "durationMin": 5,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "космос",
+      "en": "space"
+    },
+    {
+      "ru": "Большая пятёрка",
+      "en": "Big Five"
+    },
+    {
+      "ru": "астрономия",
+      "en": "astronomy"
+    },
+    {
+      "ru": "развлечение",
+      "en": "fun"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что это за тест\nРазвлекательный тест, **вдохновлённый наукой о личности**. 16 ситуаций — от выбора роли в экипаже звездолёта до реакции на сообщение «нам нужно поговорить» — оцениваются по пяти чертам «Большой пятёрки»: открытость опыту (O), добросовестность (C), экстраверсия (E), доброжелательность (A) и эмоциональная чувствительность (N). Затем твой профиль сравнивается с игровыми профилями 12 космических объектов.\n\n### Научная основа\n- **«Большая пятёрка»** — наиболее изученная и воспроизводимая модель черт личности (Goldberg, 1990); открытые наборы вопросов к ней доступны в пуле IPIP (Goldberg et al., 2006).\n- Связь «объект ↔ черты» — метафора, а не астрономическая закономерность: квазар «амбициозный», потому что очень яркий, а Луна «верная», потому что всегда повёрнута к нам одной стороной. Планеты и звёзды никак не влияют на характер — это не астрология.\n- Космические факты в описаниях взяты из материалов NASA, ESA и классических научных публикаций (см. источники).\n\n### Ограничения\nВопросы оригинальные; тест не проходил психометрическую проверку, надёжность не измерялась. Помни про эффект Форера: общие описания кажутся очень личными. Для точной оценки черт используй валидированный опросник «Большой пятёрки».\n\n### Как считается результат\nКаждый ответ даёт от −2 до +2 баллов по одной-трём чертам. Суммы переводятся в шкалу 0–1, и выбирается объект, чей профиль ближе всего к твоему (евклидово расстояние). Профили откалиброваны симуляцией случайных ответов, так что все 12 объектов выпадают примерно с равной частотой.",
+    "en": "### What this quiz is\nAn entertainment quiz **inspired by personality science**. 16 situations, from picking your role on a starship crew to reacting to a \"we need to talk\" message, are scored on the five Big Five traits: openness (O), conscientiousness (C), extraversion (E), agreeableness (A) and emotional sensitivity (N). Your profile is then matched to playful profiles of 12 cosmic objects.\n\n### Scientific grounding\n- **The Big Five** is the most researched and replicable model of personality traits (Goldberg, 1990); public-domain items for it are available in the IPIP pool (Goldberg et al., 2006).\n- The object ↔ trait link is a metaphor, not an astronomical law: the quasar is \"ambitious\" because it is extremely bright, the Moon is \"loyal\" because it always shows us the same face. Planets and stars have no effect on character; this is not astrology.\n- The cosmic facts in the descriptions come from NASA and ESA materials and classic scientific papers (see sources).\n\n### Limitations\nThe questions are original; the quiz has not been psychometrically tested and reliability has not been measured. Remember the Forer effect: generic descriptions feel very personal. For an accurate trait assessment, use a validated Big Five inventory.\n\n### How the result is computed\nEach answer adds −2 to +2 points on one to three traits. Totals are rescaled to 0–1, and you get the object whose profile is closest to yours (Euclidean distance). Profiles were calibrated by simulating random answers, so all 12 objects come up about equally often."
+  },
+  "sources": [
+    {
+      "citation": "Goldberg, L. R. (1990). An alternative \"description of personality\": The Big-Five factor structure. Journal of Personality and Social Psychology, 59(6), 1216–1229.",
+      "doi": "10.1037/0022-3514.59.6.1216"
+    },
+    {
+      "citation": "Goldberg, L. R., Johnson, J. A., Eber, H. W., Hogan, R., Ashton, M. C., Cloninger, C. R., & Gough, H. G. (2006). The International Personality Item Pool and the future of public-domain personality measures. Journal of Research in Personality, 40(1), 84–96.",
+      "doi": "10.1016/j.jrp.2005.08.007"
+    },
+    {
+      "citation": "Forer, B. R. (1949). The fallacy of personal validation: A classroom demonstration of gullibility. Journal of Abnormal and Social Psychology, 44(1), 118–123.",
+      "doi": "10.1037/h0059240"
+    },
+    {
+      "citation": "NASA Scientific Visualization Studio. What is a pulsar? (video transcript).",
+      "url": "https://svs.gsfc.nasa.gov/vis/a010000/a010800/a010861/10861_What_Is_A_Pulsar_Revised_HTML_Transcript.html"
+    },
+    {
+      "citation": "Hewish, A., Bell, S. J., Pilkington, J. D. H., Scott, P. F., & Collins, R. A. (1968). Observation of a rapidly pulsating radio source. Nature, 217, 709–713.",
+      "doi": "10.1038/217709a0"
+    },
+    {
+      "citation": "European Space Agency. Comets: An overview (Rosetta mission pages).",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Comets_An_overview"
+    },
+    {
+      "citation": "Whipple, F. L. (1950). A comet model. I. The acceleration of Comet Encke. The Astrophysical Journal, 111, 375–394.",
+      "doi": "10.1086/145272"
+    },
+    {
+      "citation": "NASA. Introduction to black holes (STEM content).",
+      "url": "https://www.nasa.gov/stem-content/introduction-to-black-holes"
+    },
+    {
+      "citation": "Event Horizon Telescope Collaboration (2019). First M87 Event Horizon Telescope results. I. The shadow of the supermassive black hole. The Astrophysical Journal Letters, 875(1), L1.",
+      "doi": "10.3847/2041-8213/ab0ec7"
+    },
+    {
+      "citation": "Dickey, J. O., et al. (1994). Lunar laser ranging: A continuing legacy of the Apollo program. Science, 265(5171), 482–490.",
+      "doi": "10.1126/science.265.5171.482"
+    },
+    {
+      "citation": "Space.com. The moon is getting slightly farther away from the Earth each year — a physicist explains why.",
+      "url": "https://www.space.com/astronomy/moon/the-moon-is-getting-slightly-farther-away-from-the-earth-each-year-a-physicist-explains-why"
+    },
+    {
+      "citation": "BBC Sky at Night Magazine. Saturn, the enormous gas giant, could float on water (if you could find a big enough bathtub).",
+      "url": "https://www.skyatnightmagazine.com/space-science/saturn-could-float-on-water"
+    },
+    {
+      "citation": "Laughlin, G., Bodenheimer, P., & Adams, F. C. (1997). The end of the main sequence. The Astrophysical Journal, 482(1), 420–432.",
+      "doi": "10.1086/304125"
+    },
+    {
+      "citation": "Schmidt, M. (1963). 3C 273: A star-like object with large red-shift. Nature, 197, 1040.",
+      "doi": "10.1038/1971040a0"
+    }
+  ],
+  "license": "Original content written for testik (all questions, outcome texts and jokes are original; no items copied from other quizzes or copyrighted inventories). Astronomy facts are paraphrased and cited.",
+  "disclaimer": {
+    "ru": "Развлекательный тест, вдохновлённый моделью «Большой пятёрки». Это не психологическая диагностика и не астрология: космические объекты здесь — метафоры.",
+    "en": "Entertainment quiz inspired by the Big Five model. It is not a psychological assessment and not astrology: the cosmic objects are metaphors."
+  },
+  "instructions": {
+    "ru": "Выбирай то, что ты сделаешь на самом деле, а не то, что звучит круче. Первый вариант, который пришёл в голову, обычно самый честный. Поехали — до старта 3, 2, 1…",
+    "en": "Pick what you would really do, not what sounds cooler. Your first instinct is usually the most honest. Here we go: launch in 3, 2, 1…"
+  },
+  "dimensions": [
+    {
+      "id": "O",
+      "name": {
+        "ru": "Открытость опыту",
+        "en": "Openness to experience"
+      },
+      "description": {
+        "ru": "Любопытство, воображение, тяга к новому и необычному: идеи, искусство, путешествия, эксперименты.",
+        "en": "Curiosity, imagination and appetite for the new and unusual: ideas, art, travel, experiments."
+      },
+      "lowLabel": {
+        "ru": "практичность, привычное",
+        "en": "practical, familiar"
+      },
+      "highLabel": {
+        "ru": "любопытство, фантазия",
+        "en": "curious, imaginative"
+      },
+      "color": "#C9B6F2",
+      "scoring": "sum",
+      "min": -3,
+      "max": 28,
+      "bands": [
+        {
+          "min": -3,
+          "max": 7,
+          "label": {
+            "ru": "Земной реалист",
+            "en": "Down-to-earth realist"
+          },
+          "summary": [
+            {
+              "ru": "Ценишь проверенное и понятное",
+              "en": "You value the tried and true"
+            },
+            {
+              "ru": "Конкретика важнее абстракций",
+              "en": "Concrete beats abstract"
+            },
+            {
+              "ru": "Новое — только если оно реально полезно",
+              "en": "New things only if they are truly useful"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты опираешься на опыт и здравый смысл и не гонишься за модой ради моды. Это экономит силы и делает тебя надёжным. Совет: раз в месяц пробуй одну маленькую новинку — новое блюдо, маршрут или жанр. Без обязательств, просто как эксперимент.",
+            "en": "You rely on experience and common sense and do not chase novelty for its own sake. That saves energy and makes you dependable. Tip: once a month, try one small new thing (a dish, a route, a genre), no commitment, just an experiment."
+          }
+        },
+        {
+          "min": 8,
+          "max": 17,
+          "label": {
+            "ru": "Любопытный прагматик",
+            "en": "Curious pragmatist"
+          },
+          "summary": [
+            {
+              "ru": "Новое интересно, но без фанатизма",
+              "en": "Open to new things, within reason"
+            },
+            {
+              "ru": "Совмещаешь фантазию и практичность",
+              "en": "You mix imagination with practicality"
+            },
+            {
+              "ru": "Легко подстраиваешься под ситуацию",
+              "en": "You adapt to the situation"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь и помечтать, и вернуться на землю. Новые идеи тебе интересны, если видно, как их применить. Совет: доверяй своему любопытству чуть чаще — именно на стыке привычного и нового у тебя рождаются лучшие решения.",
+            "en": "You can daydream and come back down to earth. New ideas interest you when you can see how to use them. Tip: trust your curiosity a bit more often. Your best ideas come from mixing the familiar with the new."
+          }
+        },
+        {
+          "min": 18,
+          "max": 28,
+          "label": {
+            "ru": "Исследователь идей",
+            "en": "Explorer of ideas"
+          },
+          "summary": [
+            {
+              "ru": "Обожаешь новое, сложное и странное",
+              "en": "You love the new, the complex and the weird"
+            },
+            {
+              "ru": "Богатое воображение и эстетическое чутьё",
+              "en": "Rich imagination and aesthetic sense"
+            },
+            {
+              "ru": "Скука — твой главный враг",
+              "en": "Boredom is your arch-enemy"
+            }
+          ],
+          "detailed": {
+            "ru": "Высокая открытость связана с творчеством, любознательностью и широтой интересов. Обратная сторона — быстро загораешься и так же быстро остываешь. Совет: выбирай одну идею из десяти и доводи её до конца, а остальные складывай в «банк идей».",
+            "en": "High openness goes with creativity, curiosity and wide interests. The flip side: you catch fire quickly and cool down just as fast. Tip: pick one idea in ten and finish it; keep the rest in an \"idea bank\"."
+          }
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": {
+        "ru": "Добросовестность",
+        "en": "Conscientiousness"
+      },
+      "description": {
+        "ru": "Организованность, дисциплина, надёжность и умение доводить дела до конца.",
+        "en": "Organisation, discipline, reliability and the ability to see things through."
+      },
+      "lowLabel": {
+        "ru": "спонтанность, гибкость",
+        "en": "spontaneous, flexible"
+      },
+      "highLabel": {
+        "ru": "порядок, дисциплина",
+        "en": "organised, disciplined"
+      },
+      "color": "#A8E0C8",
+      "scoring": "sum",
+      "min": -8,
+      "max": 25,
+      "bands": [
+        {
+          "min": -8,
+          "max": 3,
+          "label": {
+            "ru": "Вольный дух",
+            "en": "Free spirit"
+          },
+          "summary": [
+            {
+              "ru": "Живёшь по настроению, а не по плану",
+              "en": "You live by mood, not by plan"
+            },
+            {
+              "ru": "Легко импровизируешь",
+              "en": "You improvise with ease"
+            },
+            {
+              "ru": "Дедлайны — скорее пожелания",
+              "en": "Deadlines are more like suggestions"
+            }
+          ],
+          "detailed": {
+            "ru": "Спонтанность делает тебя гибким и лёгким на подъём, но важные дела могут утонуть в хаосе. Совет: не пытайся стать машиной продуктивности — заведи всего одно правило, например «важное записываю сразу», и держись за него.",
+            "en": "Spontaneity makes you flexible and quick to say yes, but important tasks can drown in chaos. Tip: do not try to become a productivity machine. Adopt one rule, such as \"I write down important things immediately\", and stick to it."
+          }
+        },
+        {
+          "min": 4,
+          "max": 14,
+          "label": {
+            "ru": "Гибкий организатор",
+            "en": "Flexible organiser"
+          },
+          "summary": [
+            {
+              "ru": "План есть, но без фанатизма",
+              "en": "You have a plan, but you are not obsessed"
+            },
+            {
+              "ru": "Умеешь собраться, когда надо",
+              "en": "You can focus when it matters"
+            },
+            {
+              "ru": "Баланс между порядком и свободой",
+              "en": "A balance of order and freedom"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь планировать, но не расстраиваешься, если всё пошло иначе. Это удобная середина. Совет: определи 2–3 сферы, где порядок действительно важен (деньги, здоровье, учёба/работа), и там держи планку повыше.",
+            "en": "You can plan, but you do not fall apart when things change. A comfortable middle ground. Tip: choose 2 or 3 areas where order really matters (money, health, study or work) and keep the bar higher there."
+          }
+        },
+        {
+          "min": 15,
+          "max": 25,
+          "label": {
+            "ru": "Мастер порядка",
+            "en": "Master of order"
+          },
+          "summary": [
+            {
+              "ru": "Списки, планы и чек-листы — твоё всё",
+              "en": "Lists, plans and checklists are your thing"
+            },
+            {
+              "ru": "На тебя можно положиться",
+              "en": "People can count on you"
+            },
+            {
+              "ru": "Доводишь начатое до конца",
+              "en": "You finish what you start"
+            }
+          ],
+          "detailed": {
+            "ru": "Добросовестность — один из самых надёжных предикторов успеха в учёбе и работе. Но перфекционизм может отнимать радость. Совет: планируй и отдых тоже. Слот «ничего не делать» в календаре — тоже продуктивность.",
+            "en": "Conscientiousness is one of the most reliable predictors of success at school and work. But perfectionism can steal the joy. Tip: plan your rest too. A \"do nothing\" slot in the calendar counts as productivity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "name": {
+        "ru": "Экстраверсия",
+        "en": "Extraversion"
+      },
+      "description": {
+        "ru": "Социальная энергия: общительность, активность, напористость и любовь к ярким впечатлениям.",
+        "en": "Social energy: sociability, activity, assertiveness and a taste for excitement."
+      },
+      "lowLabel": {
+        "ru": "тишина, глубина",
+        "en": "quiet, reserved"
+      },
+      "highLabel": {
+        "ru": "общительность, драйв",
+        "en": "outgoing, energetic"
+      },
+      "color": "#FFD59E",
+      "scoring": "sum",
+      "min": -11,
+      "max": 26,
+      "bands": [
+        {
+          "min": -11,
+          "max": 1,
+          "label": {
+            "ru": "Тихая батарейка",
+            "en": "Quiet battery"
+          },
+          "summary": [
+            {
+              "ru": "Заряжаешься в тишине и наедине с собой",
+              "en": "You recharge in quiet and solitude"
+            },
+            {
+              "ru": "Мало друзей, но настоящих",
+              "en": "Few friends, but real ones"
+            },
+            {
+              "ru": "Сначала думаешь, потом говоришь",
+              "en": "You think first, then speak"
+            }
+          ],
+          "detailed": {
+            "ru": "Интроверсия — не застенчивость, а способ распределять энергию. Ты глубже погружаешься в дела и людей. Совет: планируй «окна тишины» после шумных событий и не извиняйся за них.",
+            "en": "Introversion is not shyness; it is a way of spending energy. You go deeper into tasks and people. Tip: schedule quiet time after busy events, and do not apologise for it."
+          }
+        },
+        {
+          "min": 2,
+          "max": 13,
+          "label": {
+            "ru": "Амбиверт",
+            "en": "Ambivert"
+          },
+          "summary": [
+            {
+              "ru": "Можешь и зажечь, и уйти в себя",
+              "en": "You can light up a room or retreat"
+            },
+            {
+              "ru": "Подстраиваешься под компанию",
+              "en": "You adapt to the company"
+            },
+            {
+              "ru": "Нужны и люди, и тишина",
+              "en": "You need both people and quiet"
+            }
+          ],
+          "detailed": {
+            "ru": "Большинство людей находятся где-то посередине, и это удобно: ты чувствуешь, когда нужно говорить, а когда слушать. Совет: следи за своим «социальным топливом» и вовремя меняй режим.",
+            "en": "Most people sit somewhere in the middle, and it is a handy place to be: you sense when to talk and when to listen. Tip: watch your \"social fuel gauge\" and switch modes in time."
+          }
+        },
+        {
+          "min": 14,
+          "max": 26,
+          "label": {
+            "ru": "Солнечная батарея",
+            "en": "Solar panel"
+          },
+          "summary": [
+            {
+              "ru": "Люди тебя заряжают",
+              "en": "People charge you up"
+            },
+            {
+              "ru": "Легко знакомишься и ведёшь за собой",
+              "en": "You make friends easily and lead"
+            },
+            {
+              "ru": "Любишь движ и яркие впечатления",
+              "en": "You love action and excitement"
+            }
+          ],
+          "detailed": {
+            "ru": "Высокая экстраверсия связана с позитивными эмоциями и социальной уверенностью. Риск — перегрузить расписание и забыть про отдых. Совет: иногда давай слово самым тихим в компании — они удивят.",
+            "en": "High extraversion goes with positive emotions and social confidence. The risk is overloading your schedule and forgetting to rest. Tip: now and then, give the floor to the quietest person in the room. They will surprise you."
+          }
+        }
+      ]
+    },
+    {
+      "id": "A",
+      "name": {
+        "ru": "Доброжелательность",
+        "en": "Agreeableness"
+      },
+      "description": {
+        "ru": "Теплота, доверие, сотрудничество и забота о других.",
+        "en": "Warmth, trust, cooperation and care for others."
+      },
+      "lowLabel": {
+        "ru": "прямота, независимость",
+        "en": "blunt, independent"
+      },
+      "highLabel": {
+        "ru": "теплота, забота",
+        "en": "warm, caring"
+      },
+      "color": "#F7B8C8",
+      "scoring": "sum",
+      "min": -5,
+      "max": 27,
+      "bands": [
+        {
+          "min": -5,
+          "max": 5,
+          "label": {
+            "ru": "Честный критик",
+            "en": "Honest critic"
+          },
+          "summary": [
+            {
+              "ru": "Говоришь как есть",
+              "en": "You say it like it is"
+            },
+            {
+              "ru": "Не боишься конфликта",
+              "en": "You are not afraid of conflict"
+            },
+            {
+              "ru": "Сначала логика, потом чувства",
+              "en": "Logic first, feelings second"
+            }
+          ],
+          "detailed": {
+            "ru": "Прямота полезна: ты отстаиваешь свою позицию и не даёшь собой манипулировать. Но людям иногда нужна не правда-матка, а поддержка. Совет: прежде чем критиковать, назови одну вещь, которая получилась хорошо.",
+            "en": "Bluntness is useful: you stand your ground and do not get manipulated. But sometimes people need support more than hard truths. Tip: before criticising, name one thing that went well."
+          }
+        },
+        {
+          "min": 6,
+          "max": 16,
+          "label": {
+            "ru": "Дружелюбный реалист",
+            "en": "Friendly realist"
+          },
+          "summary": [
+            {
+              "ru": "Доброта без наивности",
+              "en": "Kind but not naive"
+            },
+            {
+              "ru": "Умеешь сказать «нет»",
+              "en": "You can say no"
+            },
+            {
+              "ru": "Сотрудничаешь, но помнишь о себе",
+              "en": "You cooperate without forgetting yourself"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь и поддержать, и отстоять границы. Это здоровый баланс. Совет: в спорных ситуациях задавай себе вопрос «что важнее сейчас — отношения или результат?» и действуй осознанно.",
+            "en": "You can support people and still hold your boundaries. A healthy balance. Tip: when things get tense, ask yourself \"what matters more right now, the relationship or the result?\" and act on purpose."
+          }
+        },
+        {
+          "min": 17,
+          "max": 27,
+          "label": {
+            "ru": "Добрая душа",
+            "en": "Kind soul"
+          },
+          "summary": [
+            {
+              "ru": "Тебе важно, чтобы всем было хорошо",
+              "en": "You want everyone to be okay"
+            },
+            {
+              "ru": "Легко прощаешь и доверяешь",
+              "en": "You forgive and trust easily"
+            },
+            {
+              "ru": "Лучший командный игрок",
+              "en": "Ultimate team player"
+            }
+          ],
+          "detailed": {
+            "ru": "Высокая доброжелательность делает тебя желанным другом и коллегой. Риск — забывать о своих нуждах. Совет: «нет» — тоже забота, в первую очередь о себе. Тренируйся отказывать мягко, но твёрдо.",
+            "en": "High agreeableness makes you a sought-after friend and colleague. The risk is forgetting your own needs. Tip: \"no\" is also a form of care, starting with yourself. Practise saying it gently but firmly."
+          }
+        }
+      ]
+    },
+    {
+      "id": "N",
+      "name": {
+        "ru": "Эмоциональная чувствительность",
+        "en": "Emotional sensitivity (Neuroticism)"
+      },
+      "description": {
+        "ru": "Насколько сильно и часто ты переживаешь тревогу, напряжение и перепады настроения (в науке — нейротизм).",
+        "en": "How strongly and often you feel worry, tension and mood swings (neuroticism in the research literature)."
+      },
+      "lowLabel": {
+        "ru": "спокойствие, устойчивость",
+        "en": "calm, resilient"
+      },
+      "highLabel": {
+        "ru": "чувствительность, тревожность",
+        "en": "sensitive, reactive"
+      },
+      "color": "#A9D2F5",
+      "scoring": "sum",
+      "min": -11,
+      "max": 23,
+      "bands": [
+        {
+          "min": -11,
+          "max": 0,
+          "label": {
+            "ru": "Дзен-режим",
+            "en": "Zen mode"
+          },
+          "summary": [
+            {
+              "ru": "Тебя сложно выбить из колеи",
+              "en": "Hard to knock you off balance"
+            },
+            {
+              "ru": "Быстро восстанавливаешься после стресса",
+              "en": "You bounce back quickly"
+            },
+            {
+              "ru": "Спокойствие — твой суперскилл",
+              "en": "Calm is your superpower"
+            }
+          ],
+          "detailed": {
+            "ru": "Эмоциональная устойчивость помогает в кризисах и делает тебя опорой для других. Иногда спокойствие могут принять за равнодушие. Совет: проговаривай вслух, что тебе не всё равно, — людям это важно.",
+            "en": "Emotional stability helps in a crisis and makes you a rock for others. Sometimes calm can be mistaken for indifference. Tip: say out loud that you care. People need to hear it."
+          }
+        },
+        {
+          "min": 1,
+          "max": 11,
+          "label": {
+            "ru": "Живые эмоции",
+            "en": "Balanced feelings"
+          },
+          "summary": [
+            {
+              "ru": "Переживаешь, но не тонешь",
+              "en": "You worry but do not drown"
+            },
+            {
+              "ru": "Эмоции — сигнал, а не приговор",
+              "en": "Emotions are signals, not verdicts"
+            },
+            {
+              "ru": "Обычно быстро приходишь в себя",
+              "en": "You usually recover fast"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты чувствуешь и радость, и тревогу, но в целом держишь баланс. Совет: заметь, что именно выбивает тебя из колеи чаще всего (недосып? голод? неопределённость?), и подстрахуйся заранее.",
+            "en": "You feel joy and worry, but overall you keep your balance. Tip: notice what throws you off most often (lack of sleep? hunger? uncertainty?) and plan around it."
+          }
+        },
+        {
+          "min": 12,
+          "max": 23,
+          "label": {
+            "ru": "Тонкая настройка",
+            "en": "Finely tuned"
+          },
+          "summary": [
+            {
+              "ru": "Остро чувствуешь всё вокруг",
+              "en": "You feel everything intensely"
+            },
+            {
+              "ru": "Замечаешь риски раньше других",
+              "en": "You spot risks before others"
+            },
+            {
+              "ru": "Эмпатия и глубина переживаний",
+              "en": "Empathy and depth of feeling"
+            }
+          ],
+          "detailed": {
+            "ru": "Высокая чувствительность — это не слабость: она связана с осторожностью и вниманием к деталям. Но хроническая тревога утомляет. Совет: дыхание 4-7-8, прогулки и сон — скучные, но рабочие инструменты. Если тревога мешает жить, стоит поговорить со специалистом.",
+            "en": "High sensitivity is not weakness: it goes with caution and attention to detail. But chronic worry is exhausting. Tip: slow breathing, walks and sleep are boring but effective tools. If anxiety gets in the way of life, talk to a professional."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Ты в экипаже межзвёздного корабля. Твоя роль:",
+        "en": "You are crew on an interstellar ship. Your role:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Капитан: кто-то же должен принимать решения",
+            "en": "Captain. Someone has to make the calls"
+          },
+          "scores": {
+            "E": 2,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Штурман: маршрут проложен до миллиметра",
+            "en": "Navigator. The route is plotted to the millimetre"
+          },
+          "scores": {
+            "C": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Учёный: хочу высадиться на каждую странную планету",
+            "en": "Scientist. I want to land on every weird planet"
+          },
+          "scores": {
+            "O": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Бортовой психолог: слежу, чтобы экипаж не перессорился",
+            "en": "Ship's counsellor. I keep the crew from falling out"
+          },
+          "scores": {
+            "A": 2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тот, кто устраивает дискотеки в невесомости",
+            "en": "The one who throws zero-gravity dance parties"
+          },
+          "scores": {
+            "E": 2,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тот, кто тихо сидит у иллюминатора и смотрит на звёзды",
+            "en": "The one sitting quietly by the porthole, watching the stars"
+          },
+          "scores": {
+            "E": -2,
+            "O": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Свободный вечер, никаких обязательств. Ты…",
+        "en": "A free evening, zero obligations. You…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Зову к себе друзей из разных компаний и знакомлю их друг с другом",
+            "en": "Invite friends from different circles and introduce them to each other"
+          },
+          "scores": {
+            "E": 2,
+            "A": 1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ухожу в свои мысли, музыку и плед",
+            "en": "Retreat into my thoughts, music and a blanket"
+          },
+          "scores": {
+            "E": -2,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Берусь за дело, которое давно ждало своей очереди",
+            "en": "Tackle a task that has been waiting its turn for ages"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Иду куда глаза глядят — вдруг случится что-то необычное",
+            "en": "Wander wherever, in case something unusual happens"
+          },
+          "scores": {
+            "O": 2,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Звоню близкому человеку, и мы болтаем часами",
+            "en": "Call someone close and talk for hours"
+          },
+          "scores": {
+            "A": 2,
+            "E": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Друг просит честно оценить идею своего стартапа, а она… так себе.",
+        "en": "A friend asks for honest feedback on their startup idea, and it is… meh."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Говорю прямо: «Не взлетит». Честность — лучшая помощь",
+            "en": "Say it straight: \"It won't fly.\" Honesty is the best help"
+          },
+          "scores": {
+            "A": -2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Мягко отмечаю сильные стороны и аккуратно — слабые",
+            "en": "Gently point out the strengths, and carefully the weaknesses"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Помогаю переделать идею так, чтобы она стала гениальной",
+            "en": "Help rework the idea until it becomes brilliant"
+          },
+          "scores": {
+            "O": 2,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Прошу бизнес-план и разбираю цифры",
+            "en": "Ask for the business plan and go through the numbers"
+          },
+          "scores": {
+            "C": 2,
+            "A": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Переживаю, как бы не обидеть, и тяну с ответом",
+            "en": "Worry about hurting them and keep putting off my answer"
+          },
+          "scores": {
+            "N": 2,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Большие перемены: переезд, новая работа, новый город. Твоя реакция:",
+        "en": "Big changes: a move, a new job, a new city. Your reaction:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Обожаю! Перемены — моё топливо",
+            "en": "Love it! Change is my fuel"
+          },
+          "scores": {
+            "O": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Нервничаю, но справляюсь",
+            "en": "Nervous, but I cope"
+          },
+          "scores": {
+            "N": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Предпочитаю, чтобы всё оставалось как есть",
+            "en": "I would rather everything stayed as it is"
+          },
+          "scores": {
+            "O": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Составляю план адаптации с чек-листом",
+            "en": "Write an adaptation plan with a checklist"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Первым делом ищу, где тут собираются интересные люди",
+            "en": "First thing: find out where the interesting people hang out"
+          },
+          "scores": {
+            "E": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Все вокруг спорят на повышенных тонах. Ты…",
+        "en": "Everyone around you is arguing loudly. You…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Перекрикиваю всех — меня должны услышать",
+            "en": "Shout over everyone. I must be heard"
+          },
+          "scores": {
+            "E": 2,
+            "A": -1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Мягко возвращаю всех к мирному тону",
+            "en": "Gently steer everyone back to a peaceful tone"
+          },
+          "scores": {
+            "A": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Отхожу в сторону: мне и своих эмоций хватает",
+            "en": "Step aside. I have enough emotions of my own"
+          },
+          "scores": {
+            "E": -1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Спокойно жду, пока все выдохнутся",
+            "en": "Calmly wait for everyone to run out of steam"
+          },
+          "scores": {
+            "N": -2,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Предлагаю неожиданное третье решение, о котором никто не подумал",
+            "en": "Propose an unexpected third option nobody had thought of"
+          },
+          "scores": {
+            "O": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Твой подход к деньгам:",
+        "en": "Your approach to money:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Бюджет, таблица, накопления",
+            "en": "Budget, spreadsheet, savings"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Деньги нужны для впечатлений",
+            "en": "Money is for experiences"
+          },
+          "scores": {
+            "O": 1,
+            "E": 1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Трачу на подарки и помощь близким",
+            "en": "Spend it on gifts and helping loved ones"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Инвестирую и строю большой план",
+            "en": "Invest and build a big plan"
+          },
+          "scores": {
+            "C": 1,
+            "E": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда тревожусь, хватит ли, и проверяю баланс по пять раз",
+            "en": "Sometimes worry it won't be enough and check my balance five times"
+          },
+          "scores": {
+            "N": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Как тебя описали бы одноклассники или коллеги?",
+        "en": "How would classmates or colleagues describe you?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Звезда — тебя все знают и любят",
+            "en": "A star everyone knows and loves"
+          },
+          "scores": {
+            "E": 2,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Загадка — никто до конца не понимает, что у тебя в голове",
+            "en": "A mystery. Nobody quite knows what goes on in your head"
+          },
+          "scores": {
+            "E": -2,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Надёжный человек: если пообещано — будет сделано",
+            "en": "The reliable one: if you take it on, it gets done"
+          },
+          "scores": {
+            "C": 2,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Генератор безумных идей",
+            "en": "A generator of crazy ideas"
+          },
+          "scores": {
+            "O": 2,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Чувствительная душа, которая всё принимает близко к сердцу",
+            "en": "A sensitive soul who takes everything to heart"
+          },
+          "scores": {
+            "N": 2,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Тебе предлагают первым в истории полететь на Марс. Билет в один конец.",
+        "en": "You are offered the chance to be the first human on Mars. One-way ticket."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Да! Где подписать?",
+            "en": "Yes! Where do I sign?"
+          },
+          "scores": {
+            "O": 2,
+            "N": -1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Нет, у меня тут люди, которых я люблю",
+            "en": "No, the people I love are here"
+          },
+          "scores": {
+            "A": 2,
+            "O": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Только после того, как изучу все риски и протоколы",
+            "en": "Only after studying every risk and protocol"
+          },
+          "scores": {
+            "C": 2,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ни за что. Даже думать об этом тревожно",
+            "en": "No way. Just thinking about it makes me anxious"
+          },
+          "scores": {
+            "N": 2,
+            "O": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Соглашусь, если будет прямая трансляция на весь мир",
+            "en": "Deal, if it is livestreamed to the whole world"
+          },
+          "scores": {
+            "E": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Идеальный выходной — это…",
+        "en": "The ideal day off is…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Большая шумная вечеринка",
+            "en": "A big noisy party"
+          },
+          "scores": {
+            "E": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Музей, лекция или выставка современного искусства",
+            "en": "A museum, a lecture or a modern art show"
+          },
+          "scores": {
+            "O": 2,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Домашний ужин для самых своих",
+            "en": "A home-cooked dinner for my favourite people"
+          },
+          "scores": {
+            "A": 2,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Спорт, челлендж, соревнование",
+            "en": "Sport, a challenge, a competition"
+          },
+          "scores": {
+            "E": 1,
+            "C": 1,
+            "A": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "День без планов, чтобы просто прийти в себя",
+            "en": "A day with no plans, just to recover"
+          },
+          "scores": {
+            "N": 1,
+            "E": -1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Фестиваль, где можно познакомиться с людьми со всего мира",
+            "en": "A festival where you can meet people from all over the world"
+          },
+          "scores": {
+            "E": 1,
+            "O": 1,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Приходит сообщение: «Нам нужно поговорить». Первая мысль:",
+        "en": "A message arrives: \"We need to talk.\" First thought:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Так, что не так?! Перебираю все свои грехи за неделю",
+            "en": "Uh-oh, what's wrong?! I run through every sin of the week"
+          },
+          "scores": {
+            "N": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Окей, поговорим. Наверное, что-то рабочее",
+            "en": "Okay, let's talk. Probably work stuff"
+          },
+          "scores": {
+            "N": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Сразу звоню — не люблю неопределённость",
+            "en": "Call immediately. I hate uncertainty"
+          },
+          "scores": {
+            "E": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Интересно! Вдруг что-то хорошее?",
+            "en": "Ooh! Maybe it's something good?"
+          },
+          "scores": {
+            "O": 1,
+            "N": -1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Надеюсь, у человека всё в порядке",
+            "en": "I hope they are okay"
+          },
+          "scores": {
+            "A": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Как ты живёшь с дедлайнами?",
+        "en": "How do you live with deadlines?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Сдаю заранее — у меня всё по графику",
+            "en": "Submit early. Everything runs on schedule"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Последняя ночь — мой звёздный час",
+            "en": "The last night is my finest hour"
+          },
+          "scores": {
+            "C": -2,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Работаю рывками, когда приходит вдохновение",
+            "en": "Work in bursts when inspiration strikes"
+          },
+          "scores": {
+            "O": 1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Слежу, чтобы успевала вся команда, и подстраховываю отстающих",
+            "en": "Make sure the whole team keeps up and back up anyone falling behind"
+          },
+          "scores": {
+            "A": 2,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Беру больше, чем могу, и вытягиваю всё на силе воли",
+            "en": "Take on more than I can handle and pull it off on willpower"
+          },
+          "scores": {
+            "E": 1,
+            "C": 1,
+            "N": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Выбери небо:",
+        "en": "Pick a sky:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Яркий закат над морем",
+            "en": "A vivid sunset over the sea"
+          },
+          "scores": {
+            "E": 1,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Глубокая ночь без фонарей и миллион звёзд",
+            "en": "A deep night with no streetlights and a million stars"
+          },
+          "scores": {
+            "O": 2,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Гроза с молниями",
+            "en": "A thunderstorm with lightning"
+          },
+          "scores": {
+            "N": 1,
+            "E": 1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ясное свежее утро",
+            "en": "A clear, fresh morning"
+          },
+          "scores": {
+            "C": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Полная луна над тихим городом",
+            "en": "A full moon over a quiet town"
+          },
+          "scores": {
+            "E": -1,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "В новой компании ты обычно…",
+        "en": "In a new group you usually…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Знакомлюсь со всеми за первые полчаса",
+            "en": "Meet everyone within the first half hour"
+          },
+          "scores": {
+            "E": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Держусь рядом с одним человеком и постепенно раскрываюсь",
+            "en": "Stick close to one person and open up gradually"
+          },
+          "scores": {
+            "E": -1,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Наблюдаю и анализирую, кто есть кто",
+            "en": "Observe and work out who is who"
+          },
+          "scores": {
+            "E": -1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Сразу помогаю хозяевам — так проще влиться",
+            "en": "Start helping the hosts. It is easier to fit in that way"
+          },
+          "scores": {
+            "A": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Переживаю, понравлюсь ли, но стараюсь не показывать",
+            "en": "Worry whether they will like me, but try not to show it"
+          },
+          "scores": {
+            "N": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Что тебе даётся труднее всего?",
+        "en": "What is hardest for you?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Сидеть без дела",
+            "en": "Sitting around doing nothing"
+          },
+          "scores": {
+            "E": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Говорить «нет»",
+            "en": "Saying no"
+          },
+          "scores": {
+            "A": 2,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Делать одно и то же каждый день",
+            "en": "Doing the same thing every day"
+          },
+          "scores": {
+            "O": 2,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Не накручивать себя",
+            "en": "Not overthinking"
+          },
+          "scores": {
+            "N": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Терпеть некомпетентность",
+            "en": "Putting up with incompetence"
+          },
+          "scores": {
+            "A": -1,
+            "C": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Ты записываешь послание для инопланетян. Что в нём будет?",
+        "en": "You are recording a message for aliens. What is in it?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "«Привет! Прилетайте знакомиться — у нас весело!»",
+            "en": "\"Hi! Come and meet us, it's fun here!\""
+          },
+          "scores": {
+            "E": 2,
+            "A": 1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Подробные научные данные о Земле и людях",
+            "en": "Detailed scientific data about Earth and humans"
+          },
+          "scores": {
+            "C": 1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Самая красивая музыка и картины человечества",
+            "en": "Humanity's most beautiful music and paintings"
+          },
+          "scores": {
+            "O": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Просьба быть к нам добрее. Мы стараемся",
+            "en": "A request to be kind to us. We are trying"
+          },
+          "scores": {
+            "A": 2,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ничего лишнего: координаты и протокол связи",
+            "en": "Nothing extra: coordinates and a communication protocol"
+          },
+          "scores": {
+            "C": 2,
+            "E": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "text": {
+        "ru": "Случился кризис. Что ты делаешь?",
+        "en": "A crisis hits. What do you do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Беру командование на себя",
+            "en": "Take command"
+          },
+          "scores": {
+            "E": 2,
+            "C": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Сохраняю холодную голову и решаю проблему по пунктам",
+            "en": "Keep a cool head and solve it step by step"
+          },
+          "scores": {
+            "C": 1,
+            "N": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Сначала паникую, потом действую",
+            "en": "Panic first, act second"
+          },
+          "scores": {
+            "N": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Утешаю и поддерживаю тех, кому хуже",
+            "en": "Comfort and support those who are worse off"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Ищу нестандартный выход",
+            "en": "Look for an unconventional way out"
+          },
+          "scores": {
+            "O": 2
+          }
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "star",
+      "title": {
+        "ru": "Звезда — центр своей системы",
+        "en": "The Star: centre of the system"
+      },
+      "emoji": "☀️",
+      "profile": {
+        "O": 0.26,
+        "C": 0.45,
+        "E": 0.58,
+        "A": 0.5,
+        "N": 0.28
+      },
+      "summary": [
+        {
+          "ru": "Даришь тепло и свет всем вокруг",
+          "en": "You give warmth and light to everyone around"
+        },
+        {
+          "ru": "Вокруг тебя всё вращается",
+          "en": "Everything revolves around you"
+        },
+        {
+          "ru": "Энергия, щедрость, оптимизм",
+          "en": "Energy, generosity, optimism"
+        },
+        {
+          "ru": "🔭 Свет Солнца летит до Земли около 8 минут",
+          "en": "🔭 Sunlight takes about 8 minutes to reach Earth"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — звезда: тёплая, энергичная и щедрая на внимание. В терминах «Большой пятёрки» у тебя высокая экстраверсия и доброжелательность, хорошая эмоциональная устойчивость и неплохая организованность. Люди тянутся к тебе, как планеты к Солнцу, — потому что рядом с тобой тепло.\n\nКосмический факт: свету Солнца нужно около восьми минут, чтобы долететь до Земли, — так что мы всегда видим Солнце таким, каким оно было восемь минут назад. И при всей своей яркости наше Солнце — вполне обычная звезда, жёлтый карлик. Секрет не в исключительности, а в стабильности: оно светит миллиарды лет подряд.\n\nЗона роста — не сгореть. Звезда отдаёт энергию постоянно, и тебе тоже нужно время, чтобы восстановиться. Не обязательно быть центром каждой системы — иногда приятно просто светить для себя.",
+        "en": "You are a star: warm, energetic and generous with your attention. In Big Five terms you have high extraversion and agreeableness, good emotional stability and decent organisation. People gravitate to you like planets to the Sun, because it is warm around you.\n\nCosmic fact: sunlight takes about eight minutes to reach Earth, so we always see the Sun as it was eight minutes ago. And for all its brilliance, our Sun is a fairly ordinary star, a yellow dwarf. The secret is not being exceptional but being steady: it has been shining for billions of years.\n\nGrowth edge: do not burn out. A star gives off energy constantly, and you also need time to recharge. You do not have to be the centre of every system; sometimes it is nice to shine just for yourself."
+      },
+      "strengths": [
+        {
+          "ru": "Теплота",
+          "en": "Warmth"
+        },
+        {
+          "ru": "Харизма",
+          "en": "Charisma"
+        },
+        {
+          "ru": "Щедрость",
+          "en": "Generosity"
+        },
+        {
+          "ru": "Оптимизм",
+          "en": "Optimism"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Беречь свою энергию",
+          "en": "Protecting your energy"
+        },
+        {
+          "ru": "Давать светить другим",
+          "en": "Letting others shine"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты заходишь в комнату — и через пять минут все сидят вокруг тебя. Гравитация.",
+          "en": "You walk into a room and five minutes later everyone is sitting around you. Gravity."
+        },
+        {
+          "ru": "У тебя день рождения, а подарки уносят все гости: для каждого приготовлен сюрприз.",
+          "en": "It is your birthday, yet every guest gets a present: you prepared surprises for them."
+        },
+        {
+          "ru": "Твоё «доброе утро!» в общем чате заряжает людей сильнее кофе.",
+          "en": "Your \"good morning!\" in the group chat energises people more than coffee."
+        },
+        {
+          "ru": "Даже селфи у тебя получаются с эффектом «солнечный зайчик».",
+          "en": "Even your selfies come with a built-in sunbeam effect."
+        }
+      ],
+      "compatibleWith": [
+        "earth",
+        "galaxy",
+        "moon"
+      ],
+      "imagePrompt": "A cute smiling sun character with soft glowing rays and rosy cheeks, tiny planets orbiting around it like friends, golden, peach and coral palette, soft pastel colors, glossy flat-3D style, smooth dreamy space gradient background, cute kawaii face, minimal, high detail, no text"
+    },
+    {
+      "id": "black-hole",
+      "title": {
+        "ru": "Чёрная дыра — глубина и загадка",
+        "en": "The Black Hole: depth and mystery"
+      },
+      "emoji": "🕳️",
+      "profile": {
+        "O": 0.49,
+        "C": 0.39,
+        "E": 0.19,
+        "A": 0.24,
+        "N": 0.5
+      },
+      "summary": [
+        {
+          "ru": "Глубина, в которой можно утонуть",
+          "en": "Depth you could fall into"
+        },
+        {
+          "ru": "Загадочность притягивает людей",
+          "en": "Your mystery draws people in"
+        },
+        {
+          "ru": "Интенсивные чувства под спокойной поверхностью",
+          "en": "Intense feelings under a calm surface"
+        },
+        {
+          "ru": "🔭 Даже свет не может вырваться из чёрной дыры",
+          "en": "🔭 Not even light can escape a black hole"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — чёрная дыра: глубокая, загадочная и очень интенсивная. Высокая открытость опыту, низкая экстраверсия, повышенная эмоциональная чувствительность и умеренная доброжелательность. Ты редко показываешь, что происходит внутри, но там — целая вселенная мыслей и чувств.\n\nКосмический факт: гравитация чёрной дыры настолько сильна, что даже свет не может вырваться наружу. Но вопреки фильмам, чёрные дыры не «засасывают» всё подряд, как пылесос: если бы Солнце вдруг заменили чёрной дырой той же массы, Земля продолжала бы вращаться по своей орбите (правда, в темноте и холоде). А первую в истории «фотографию» тени чёрной дыры получили только в 2019 году — телескоп Event Horizon.\n\nЗона роста — пускать людей ближе. Тебя считают загадкой, но иногда стоит выпустить немного света наружу: рассказать, что ты чувствуешь. Тебя поймут лучше, чем ты ожидаешь.",
+        "en": "You are a black hole: deep, mysterious and intense. High openness, low extraversion, elevated emotional sensitivity and moderate agreeableness. You rarely show what is happening inside, but there is a whole universe of thoughts and feelings in there.\n\nCosmic fact: a black hole's gravity is so strong that not even light can escape. But contrary to the movies, black holes do not suck everything in like a vacuum cleaner: if the Sun were swapped for a black hole of the same mass, Earth would keep following its orbit (in the dark and cold, admittedly). And the first ever image of a black hole's shadow was only captured in 2019, by the Event Horizon Telescope.\n\nGrowth edge: let people closer. You are seen as a mystery, but sometimes let a little light out and say what you feel. You will be understood better than you expect."
+      },
+      "strengths": [
+        {
+          "ru": "Глубина мышления",
+          "en": "Depth of thought"
+        },
+        {
+          "ru": "Интуиция",
+          "en": "Intuition"
+        },
+        {
+          "ru": "Сила чувств",
+          "en": "Intensity of feeling"
+        },
+        {
+          "ru": "Независимость",
+          "en": "Independence"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Делиться чувствами",
+          "en": "Sharing feelings"
+        },
+        {
+          "ru": "Не уходить в себя слишком глубоко",
+          "en": "Not sinking too deep into yourself"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты отвечаешь на сообщение «как дела?» эссе о смысле существования. Через три дня.",
+          "en": "You answer \"how are you?\" with an essay on the meaning of existence. Three days later."
+        },
+        {
+          "ru": "Время рядом с тобой течёт иначе: «посидим полчасика» превращается в разговор до четырёх утра.",
+          "en": "Time flows differently around you: \"just half an hour\" becomes a conversation until 4 a.m."
+        },
+        {
+          "ru": "В твой плейлист «на расслабиться» попадает только то, под что хочется пересмотреть всю жизнь.",
+          "en": "Your \"chill\" playlist only contains songs that make you rethink your whole life."
+        },
+        {
+          "ru": "Деньги, носки и свободное время исчезают рядом с тобой без следа. Физика.",
+          "en": "Money, socks and free time vanish around you without a trace. Physics."
+        }
+      ],
+      "compatibleWith": [
+        "nebula",
+        "moon",
+        "quasar"
+      ],
+      "imagePrompt": "A cute round black hole character with a glowing pastel accretion ring like a halo, sleepy mysterious smile, tiny stars spiraling around, deep indigo, violet and pink palette, soft pastel colors, glossy flat-3D style, smooth dreamy space gradient background, cute kawaii face, minimal, high detail, no text"
+    },
+    {
+      "id": "comet",
+      "title": {
+        "ru": "Комета — редкий яркий гость",
+        "en": "The Comet: a rare bright visitor"
+      },
+      "emoji": "☄️",
+      "profile": {
+        "O": 0.47,
+        "C": 0.21,
+        "E": 0.51,
+        "A": 0.34,
+        "N": 0.34
+      },
+      "summary": [
+        {
+          "ru": "Появляешься внезапно и эффектно",
+          "en": "You show up suddenly and spectacularly"
+        },
+        {
+          "ru": "Вечно в пути",
+          "en": "Always on the move"
+        },
+        {
+          "ru": "Свобода дороже стабильности",
+          "en": "Freedom over stability"
+        },
+        {
+          "ru": "🔭 Хвост кометы всегда направлен от Солнца",
+          "en": "🔭 A comet's tail always points away from the Sun"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — комета: свободолюбивая, яркая и непредсказуемая. Высокая открытость и экстраверсия, низкая потребность в планах и графиках. Тебя невозможно удержать на одной орбите: сегодня ты здесь, завтра — в другом городе, а через месяц — с новым хобби и новыми друзьями.\n\nКосмический факт: астроном Фред Уиппл описал ядро кометы как «грязный снежок» — смесь льда и пыли размером обычно в несколько километров. Приближаясь к Солнцу, лёд испаряется, и появляется хвост, который всегда смотрит от Солнца, — поэтому, улетая, комета иногда движется хвостом вперёд. А пыль, оставленная кометами, — это метеорные потоки вроде августовских Персеид.\n\nЗона роста — возвращаться. Комета прекрасна именно тем, что её появления ждут. Найди людей и места, куда тебе хочется возвращаться снова и снова, — и не исчезай надолго без предупреждения.",
+        "en": "You are a comet: freedom-loving, dazzling and unpredictable. High openness and extraversion, little need for plans and schedules. Nobody can keep you on one orbit: here today, another city tomorrow, and in a month you are back with a new hobby and new friends.\n\nCosmic fact: astronomer Fred Whipple described a comet's nucleus as a \"dirty snowball\", a mix of ice and dust usually a few kilometres across. Near the Sun the ice evaporates and a tail appears that always points away from the Sun, so a departing comet sometimes travels tail-first. The dust comets leave behind creates meteor showers like the August Perseids.\n\nGrowth edge: come back. The beauty of a comet is that people wait for it. Find people and places you want to return to again and again, and do not vanish for long without warning."
+      },
+      "strengths": [
+        {
+          "ru": "Яркость",
+          "en": "Brilliance"
+        },
+        {
+          "ru": "Свобода",
+          "en": "Freedom"
+        },
+        {
+          "ru": "Любопытство",
+          "en": "Curiosity"
+        },
+        {
+          "ru": "Лёгкость на подъём",
+          "en": "Spontaneity"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Держать обещания",
+          "en": "Keeping promises"
+        },
+        {
+          "ru": "Предупреждать, когда исчезаешь",
+          "en": "Saying when you are disappearing"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты появляешься в общем чате раз в полгода с сообщением «Ребят, я в Перу, что у вас нового?»",
+          "en": "You pop up in the group chat twice a year: \"Guys, I'm in Peru, what's new?\""
+        },
+        {
+          "ru": "Твой хвост — это шлейф из незаконченных проектов, но смотрится красиво.",
+          "en": "Your tail is a trail of unfinished projects, but it looks gorgeous."
+        },
+        {
+          "ru": "Ты уходишь с вечеринки, а о тебе ещё неделю рассказывают легенды.",
+          "en": "You leave the party, and people tell legends about you for a week."
+        },
+        {
+          "ru": "Твой маршрут на выходные знает только Google Карты. И то не всегда.",
+          "en": "Only Google Maps knows your weekend route. And not always."
+        }
+      ],
+      "compatibleWith": [
+        "supernova",
+        "galaxy",
+        "nebula"
+      ],
+      "imagePrompt": "A cute comet character with a happy face and a long sparkly pastel tail streaming behind it, zooming past tiny planets, aqua, lilac and white palette, soft pastel colors, glossy flat-3D style, smooth dreamy space gradient background, cute kawaii face, minimal, high detail, no text"
+    },
+    {
+      "id": "nebula",
+      "title": {
+        "ru": "Туманность — колыбель идей",
+        "en": "The Nebula: nursery of ideas"
+      },
+      "emoji": "🌌",
+      "profile": {
+        "O": 0.5,
+        "C": 0.23,
+        "E": 0.29,
+        "A": 0.42,
+        "N": 0.48
+      },
+      "summary": [
+        {
+          "ru": "Из твоих фантазий рождаются миры",
+          "en": "Worlds are born from your daydreams"
+        },
+        {
+          "ru": "Мечтательность и тонкая чувствительность",
+          "en": "Dreaminess and fine sensitivity"
+        },
+        {
+          "ru": "Красота важнее порядка",
+          "en": "Beauty over order"
+        },
+        {
+          "ru": "🔭 В туманностях рождаются новые звёзды",
+          "en": "🔭 New stars are born inside nebulae"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — туманность: мечтательная, творческая и очень чуткая. Очень высокая открытость опыту, тёплая доброжелательность, повышенная эмоциональная чувствительность и свободное отношение к планам. Твоя голова — облако идей, образов и красивых «а что если», из которых рано или поздно рождается что-то настоящее.\n\nКосмический факт: туманности — гигантские облака газа и пыли, «звёздные ясли», где под действием гравитации рождаются новые звёзды. Знаменитые «Столпы творения» в туманности Орёл — колонны высотой в несколько световых лет — снимал и «Хаббл» в 1995 году, и телескоп «Джеймс Уэбб» в 2022-м.\n\nЗона роста — сгущать облако. Звезда рождается, когда газ собирается в одну точку. Выбери одну идею и дай ей время «сжаться» в результат — твоё творчество засияет.",
+        "en": "You are a nebula: dreamy, creative and highly sensitive. Very high openness, warm agreeableness, elevated emotional sensitivity and a relaxed approach to plans. Your mind is a cloud of ideas, images and beautiful \"what ifs\", and sooner or later something real is born from it.\n\nCosmic fact: nebulae are vast clouds of gas and dust, stellar nurseries where gravity gives birth to new stars. The famous \"Pillars of Creation\" in the Eagle Nebula, columns several light-years tall, were photographed by Hubble in 1995 and by the James Webb Space Telescope in 2022.\n\nGrowth edge: condense the cloud. A star is born when gas gathers into a single point. Pick one idea and give it time to collapse into a result, and your creativity will shine."
+      },
+      "strengths": [
+        {
+          "ru": "Воображение",
+          "en": "Imagination"
+        },
+        {
+          "ru": "Эстетическое чутьё",
+          "en": "Aesthetic sense"
+        },
+        {
+          "ru": "Эмпатия",
+          "en": "Empathy"
+        },
+        {
+          "ru": "Оригинальность",
+          "en": "Originality"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить идеи до конца",
+          "en": "Finishing ideas"
+        },
+        {
+          "ru": "Заземляться, когда тревожно",
+          "en": "Grounding yourself when anxious"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "В твоих заметках 300 идей для книги, 40 названий для группы и ни одной готовой песни. Пока.",
+          "en": "Your notes hold 300 book ideas, 40 band names and zero finished songs. So far."
+        },
+        {
+          "ru": "Ты можешь полчаса смотреть на то, как свет падает на стену. И это лучшие полчаса дня.",
+          "en": "You can watch light fall on a wall for half an hour. Best half hour of the day."
+        },
+        {
+          "ru": "Твой стиль одежды: «художник, который заблудился в межсезонье».",
+          "en": "Your style: \"an artist lost between seasons\"."
+        },
+        {
+          "ru": "Спросили дорогу — ответ начался со слов «ну, представь себе облако…».",
+          "en": "Someone asked you for directions; your answer began with \"well, picture a cloud…\"."
+        }
+      ],
+      "compatibleWith": [
+        "black-hole",
+        "moon",
+        "comet"
+      ],
+      "imagePrompt": "A cute fluffy nebula cloud character with dreamy eyes, cradling tiny baby stars, swirls of pastel pink, lilac and teal, soft pastel colors, glossy flat-3D style, smooth dreamy space gradient background, cute kawaii face, minimal, high detail, no text"
+    },
+    {
+      "id": "earth",
+      "title": {
+        "ru": "Планета Земля — уютный дом для всех",
+        "en": "Planet Earth: a cosy home for all"
+      },
+      "emoji": "🌍",
+      "profile": {
+        "O": 0.19,
+        "C": 0.55,
+        "E": 0.36,
+        "A": 0.54,
+        "N": 0.3
+      },
+      "summary": [
+        {
+          "ru": "Рядом с тобой всем есть место",
+          "en": "There is room for everyone around you"
+        },
+        {
+          "ru": "Заботливость и надёжность",
+          "en": "Caring and dependable"
+        },
+        {
+          "ru": "Создаёшь условия для жизни",
+          "en": "You create the conditions for life"
+        },
+        {
+          "ru": "🔭 Единственное известное место во Вселенной с жизнью",
+          "en": "🔭 The only known place in the Universe with life"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — планета Земля: тёплая, надёжная и заботливая. Высокие доброжелательность и добросовестность, хорошая эмоциональная устойчивость и практичный взгляд на новое. Ты создаёшь вокруг себя среду, в которой людям хорошо: кормишь, помогаешь, помнишь о мелочах и держишь всё в порядке.\n\nКосмический факт: Земля — пока единственный известный мир, где есть жизнь. Для этого понадобилось редкое сочетание: подходящее расстояние до Солнца, жидкая вода на поверхности и защитная атмосфера. А ещё Земля — не идеальный шар: из-за вращения она немного сплюснута у полюсов.\n\nЗона роста — новые горизонты. Ты отлично умеешь заботиться о своём мире, но иногда стоит посмотреть, что там, за атмосферой. Немного новизны не разрушит твою экосистему — наоборот, сделает её богаче.",
+        "en": "You are planet Earth: warm, dependable and caring. High agreeableness and conscientiousness, good emotional stability and a practical take on novelty. You create an environment in which people thrive: you feed them, help them, remember the little things and keep everything in order.\n\nCosmic fact: Earth is so far the only known world with life. That took a rare combination: the right distance from the Sun, liquid water on the surface and a protective atmosphere. And Earth is not a perfect sphere: its spin makes it slightly flattened at the poles.\n\nGrowth edge: new horizons. You are great at looking after your world, but sometimes peek beyond the atmosphere. A little novelty will not wreck your ecosystem; it will make it richer."
+      },
+      "strengths": [
+        {
+          "ru": "Забота",
+          "en": "Care"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        },
+        {
+          "ru": "Практичность",
+          "en": "Practicality"
+        },
+        {
+          "ru": "Терпение",
+          "en": "Patience"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Пробовать новое",
+          "en": "Trying new things"
+        },
+        {
+          "ru": "Не брать на себя чужие проблемы",
+          "en": "Not taking on everyone's problems"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "У тебя дома всегда есть запасная зубная щётка, тапочки и комплект белья. Для гостей, которые «только на одну ночь».",
+          "en": "You always have a spare toothbrush, slippers and bedding. For guests staying \"just one night\"."
+        },
+        {
+          "ru": "Ты поливаешь цветы даже в офисе. Даже чужие. Даже пластиковые — на всякий случай.",
+          "en": "You water the plants even at the office. Even other people's. Even the plastic ones, just in case."
+        },
+        {
+          "ru": "Твой холодильник — стратегический запас для всех друзей района.",
+          "en": "Your fridge is the strategic reserve for every friend in the neighbourhood."
+        },
+        {
+          "ru": "На тебе держится вся экосистема компании — и все это понимают, только когда ты в отпуске.",
+          "en": "The whole ecosystem of your group depends on you, and everyone realises it only when you are on holiday."
+        }
+      ],
+      "compatibleWith": [
+        "star",
+        "moon",
+        "red-dwarf"
+      ],
+      "imagePrompt": "A cute smiling planet Earth character with fluffy clouds as hair, tiny trees and a little house on top, hugging a small moon, ocean blue, mint and cream palette, soft pastel colors, glossy flat-3D style, smooth dreamy space gradient background, cute kawaii face, minimal, high detail, no text"
+    },
+    {
+      "id": "saturn",
+      "title": {
+        "ru": "Сатурн — стиль и харизма",
+        "en": "Saturn: style and charisma"
+      },
+      "emoji": "🪐",
+      "profile": {
+        "O": 0.44,
+        "C": 0.46,
+        "E": 0.5,
+        "A": 0.27,
+        "N": 0.25
+      },
+      "summary": [
+        {
+          "ru": "Эффектный образ, который невозможно забыть",
+          "en": "An unforgettable look"
+        },
+        {
+          "ru": "Уверенность и вкус",
+          "en": "Confidence and taste"
+        },
+        {
+          "ru": "Вокруг тебя всегда свита",
+          "en": "There is always an entourage around you"
+        },
+        {
+          "ru": "🔭 Сатурн легче воды — он бы плавал в гигантской ванне",
+          "en": "🔭 Saturn is less dense than water; it would float in a giant bathtub"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Сатурн: стильный, уверенный и запоминающийся. Высокая открытость опыту (особенно эстетическая), хорошая экстраверсия, эмоциональная устойчивость и организованность. Доброжелательность умеренная — ты дружелюбен, но знаешь себе цену и не пытаешься понравиться всем.\n\nКосмический факт: средняя плотность Сатурна меньше плотности воды, поэтому астрономы любят говорить, что в достаточно большой ванне он бы плавал (на деле газовый гигант такой ванны бы не пережил, но образ красивый). Его знаменитые кольца состоят в основном из кусочков водяного льда — от пылинок до глыб размером с дом. А по последним подсчётам у Сатурна больше известных спутников, чем у любой другой планеты Солнечной системы.\n\nЗона роста — показывать, что под кольцами. Твой образ впечатляет, но люди хотят знать и тебя настоящего. Разреши себе быть не только эффектным, но и уязвимым.",
+        "en": "You are Saturn: stylish, confident and memorable. High openness (especially aesthetic), good extraversion, emotional stability and organisation. Agreeableness is moderate: you are friendly but know your worth and do not try to please everyone.\n\nCosmic fact: Saturn's average density is lower than water's, so astronomers like to say it would float in a big enough bathtub (in reality no tub would survive a gas giant, but the image is lovely). Its famous rings are made mostly of chunks of water ice, from dust grains to house-sized blocks. And by the latest counts Saturn has more known moons than any other planet in the Solar System.\n\nGrowth edge: show what is under the rings. Your image impresses, but people want to know the real you. Allow yourself to be not just striking but also vulnerable."
+      },
+      "strengths": [
+        {
+          "ru": "Стиль",
+          "en": "Style"
+        },
+        {
+          "ru": "Уверенность",
+          "en": "Confidence"
+        },
+        {
+          "ru": "Харизма",
+          "en": "Charisma"
+        },
+        {
+          "ru": "Чувство прекрасного",
+          "en": "Sense of beauty"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Открываться людям",
+          "en": "Opening up to people"
+        },
+        {
+          "ru": "Меньше думать об образе",
+          "en": "Thinking less about image"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты выходишь за хлебом так, будто идёшь на красную дорожку.",
+          "en": "You go out for bread as if you were walking the red carpet."
+        },
+        {
+          "ru": "Твои аксессуары живут своей жизнью: кольца, серьги, браслеты — у тебя своя система колец.",
+          "en": "Your accessories have a life of their own: rings, earrings, bracelets. Your own ring system."
+        },
+        {
+          "ru": "Вокруг тебя всегда вращается пара-тройка друзей-спутников — и регулярно появляются новые.",
+          "en": "A few satellite friends always orbit you, and new ones get discovered regularly."
+        },
+        {
+          "ru": "Ты легко держишься на плаву в любой ситуации. Буквально как Сатурн в ванне.",
+          "en": "You stay afloat in any situation. Literally like Saturn in a bathtub."
+        }
+      ],
+      "compatibleWith": [
+        "quasar",
+        "star",
+        "pulsar"
+      ],
+      "imagePrompt": "A cute stylish Saturn character with sparkly pastel rings worn like a fashionable hoop, wearing tiny sunglasses, a few small moon friends around, butterscotch, lavender and rose palette, soft pastel colors, glossy flat-3D style, smooth dreamy space gradient background, cute kawaii face, minimal, high detail, no text"
+    },
+    {
+      "id": "moon",
+      "title": {
+        "ru": "Луна — тихий спутник",
+        "en": "The Moon: the quiet companion"
+      },
+      "emoji": "🌙",
+      "profile": {
+        "O": 0.33,
+        "C": 0.39,
+        "E": 0.15,
+        "A": 0.54,
+        "N": 0.44
+      },
+      "summary": [
+        {
+          "ru": "Верность и тихая забота",
+          "en": "Loyalty and quiet care"
+        },
+        {
+          "ru": "Светишь не ярко, но в самую тёмную ночь",
+          "en": "You do not blaze, but you shine in the darkest night"
+        },
+        {
+          "ru": "Тонко чувствуешь настроение",
+          "en": "You sense moods finely"
+        },
+        {
+          "ru": "🔭 Луна каждый год отдаляется от Земли примерно на 3,8 см",
+          "en": "🔭 The Moon drifts about 3.8 cm farther from Earth every year"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Луна: спокойная, верная и чуткая. Низкая экстраверсия, высокая доброжелательность, умеренная эмоциональная чувствительность и открытость. Ты не стремишься быть в центре внимания, но именно тебе звонят в три часа ночи, когда тяжело, — потому что ты рядом и ты слушаешь.\n\nКосмический факт: Луна всегда повёрнута к Земле одной стороной — её вращение «синхронизировано» с орбитой. Она не светит сама, а отражает солнечный свет. И она медленно удаляется от нас — примерно на 3,8 сантиметра в год: это измерили, направляя лазер на отражатели, которые оставили на Луне астронавты «Аполлонов».\n\nЗона роста — показывать свою «обратную сторону». Близкие видят тебя всегда с одной стороны — заботливой и спокойной. Расскажи им и о том, что тебя тревожит: настоящая близость строится с обеих сторон.",
+        "en": "You are the Moon: calm, loyal and sensitive. Low extraversion, high agreeableness, moderate emotional sensitivity and openness. You do not crave the spotlight, but you are the one people call at 3 a.m. when things are hard, because you are there and you listen.\n\nCosmic fact: the Moon always shows Earth the same face; its spin is synchronised with its orbit. It does not shine on its own but reflects sunlight. And it is slowly drifting away, about 3.8 centimetres a year, measured by bouncing lasers off reflectors left on the Moon by Apollo astronauts.\n\nGrowth edge: show your far side. Your loved ones always see one side of you, caring and calm. Tell them what worries you too; real closeness is built from both sides."
+      },
+      "strengths": [
+        {
+          "ru": "Верность",
+          "en": "Loyalty"
+        },
+        {
+          "ru": "Умение слушать",
+          "en": "Listening"
+        },
+        {
+          "ru": "Чуткость",
+          "en": "Sensitivity"
+        },
+        {
+          "ru": "Постоянство",
+          "en": "Constancy"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Говорить о своих чувствах",
+          "en": "Talking about your own feelings"
+        },
+        {
+          "ru": "Не отдаляться, когда грустно",
+          "en": "Not drifting away when you are sad"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты отвечаешь на сообщения только по ночам. Днём — фаза «новолуние».",
+          "en": "You only answer messages at night. Daytime is your new-moon phase."
+        },
+        {
+          "ru": "Твоё настроение меняется по фазам, и друзья уже ведут лунный календарь.",
+          "en": "Your mood changes in phases, and your friends keep a lunar calendar."
+        },
+        {
+          "ru": "Ты всегда рядом с одним и тем же человеком, как спутник, — и это лучший комплимент вашей дружбе.",
+          "en": "You stay close to the same person like a satellite, and that is the best compliment to your friendship."
+        },
+        {
+          "ru": "Ты так тихо помогаешь, что люди думают, будто всё «само» наладилось.",
+          "en": "You help so quietly that people think everything just sorted itself out."
+        }
+      ],
+      "compatibleWith": [
+        "earth",
+        "star",
+        "black-hole"
+      ],
+      "imagePrompt": "A cute sleepy crescent moon character wrapped in a tiny blanket, holding a little lantern, soft stars around, pearl, periwinkle and lilac palette, soft pastel colors, glossy flat-3D style, smooth dreamy space gradient background, cute kawaii face, minimal, high detail, no text"
+    },
+    {
+      "id": "pulsar",
+      "title": {
+        "ru": "Пульсар — космические часы",
+        "en": "The Pulsar: a cosmic clock"
+      },
+      "emoji": "💫",
+      "profile": {
+        "O": 0.22,
+        "C": 0.65,
+        "E": 0.42,
+        "A": 0.28,
+        "N": 0.27
+      },
+      "summary": [
+        {
+          "ru": "Точность, ритм, дисциплина",
+          "en": "Precision, rhythm, discipline"
+        },
+        {
+          "ru": "На тебя можно сверять часы",
+          "en": "People set their clocks by you"
+        },
+        {
+          "ru": "Компактная, но мощная энергия",
+          "en": "Compact but mighty energy"
+        },
+        {
+          "ru": "🔭 Чайная ложка вещества нейтронной звезды весит как Эверест",
+          "en": "🔭 A teaspoon of neutron-star matter weighs as much as Mount Everest"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — пульсар: точный, дисциплинированный и очень сосредоточенный. Очень высокая добросовестность, хорошая эмоциональная устойчивость и умеренная экстраверсия. У тебя есть ритм, и ты держишь его, несмотря ни на что: тренировки, отчёты, обещания — всё вовремя.\n\nКосмический факт: пульсар — это быстро вращающаяся нейтронная звезда, остаток взорвавшейся звезды. Она настолько плотная, что чайная ложка её вещества весила бы как гора Эверест. Её лучи проносятся по небу, как свет маяка, а самые быстрые пульсары делают сотни оборотов в секунду. Первый пульсар в 1967 году открыла аспирантка Джоселин Белл Бернелл; сигнал был таким регулярным, что его в шутку назвали LGM-1 — «маленькие зелёные человечки».\n\nЗона роста — гибкость. Твой ритм — суперсила, но жизнь иногда меняет темп. Позволь себе сбиться с графика ради чего-то хорошего — космос от этого не рухнет.",
+        "en": "You are a pulsar: precise, disciplined and intensely focused. Very high conscientiousness, good emotional stability and moderate extraversion. You have a rhythm and keep it no matter what: workouts, reports, promises, all on time.\n\nCosmic fact: a pulsar is a rapidly spinning neutron star, the remnant of an exploded star. It is so dense that a teaspoon of its matter would weigh as much as Mount Everest. Its beams sweep the sky like a lighthouse, and the fastest pulsars spin hundreds of times a second. The first pulsar was discovered in 1967 by graduate student Jocelyn Bell Burnell; the signal was so regular it was jokingly labelled LGM-1, \"little green men\".\n\nGrowth edge: flexibility. Your rhythm is a superpower, but life sometimes changes tempo. Let yourself break the schedule for something good; the cosmos will not collapse."
+      },
+      "strengths": [
+        {
+          "ru": "Дисциплина",
+          "en": "Discipline"
+        },
+        {
+          "ru": "Точность",
+          "en": "Precision"
+        },
+        {
+          "ru": "Сосредоточенность",
+          "en": "Focus"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Импровизировать",
+          "en": "Improvising"
+        },
+        {
+          "ru": "Прощать другим неточность",
+          "en": "Forgiving others' imprecision"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты встаёшь в 6:00 без будильника. Даже в отпуске. Особенно в отпуске.",
+          "en": "You wake at 6:00 without an alarm. Even on holiday. Especially on holiday."
+        },
+        {
+          "ru": "Твой режим дня настолько стабилен, что соседи по нему проверяют время.",
+          "en": "Your routine is so steady that the neighbours use it to check the time."
+        },
+        {
+          "ru": "Ты приходишь ровно вовремя — и все пугаются: обычно ты на десять минут раньше.",
+          "en": "You arrived on time, and everyone assumed something was wrong because you were not early."
+        },
+        {
+          "ru": "«Плюс-минус пять минут» звучит для тебя как оскорбление.",
+          "en": "\"Give or take five minutes\" sounds like an insult to you."
+        }
+      ],
+      "compatibleWith": [
+        "red-dwarf",
+        "quasar",
+        "saturn"
+      ],
+      "imagePrompt": "A cute compact glowing pulsar character with two pastel light beams sweeping like a lighthouse, a tiny metronome beside it, ice blue, mint and silver palette, soft pastel colors, glossy flat-3D style, smooth dreamy space gradient background, cute kawaii face, minimal, high detail, no text"
+    },
+    {
+      "id": "galaxy",
+      "title": {
+        "ru": "Галактика — целый мир внутри",
+        "en": "The Galaxy: a whole world inside"
+      },
+      "emoji": "🌀",
+      "profile": {
+        "O": 0.44,
+        "C": 0.37,
+        "E": 0.52,
+        "A": 0.49,
+        "N": 0.36
+      },
+      "summary": [
+        {
+          "ru": "Соединяешь множество людей и миров",
+          "en": "You connect many people and worlds"
+        },
+        {
+          "ru": "Широта интересов и большое сердце",
+          "en": "Broad interests and a big heart"
+        },
+        {
+          "ru": "Вокруг тебя всё связано",
+          "en": "Everything is connected around you"
+        },
+        {
+          "ru": "🔭 Солнце делает один оборот вокруг центра Галактики примерно за 230 млн лет",
+          "en": "🔭 The Sun takes about 230 million years to orbit the centre of the Galaxy"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — галактика: открытая, тёплая и объединяющая. Высокие открытость, экстраверсия и доброжелательность. У тебя друзья из всех «звёздных систем» — однокурсники, коллеги, соседи, люди из случайного похода, — и ты умеешь связать их всех вместе. В тебе помещается так много интересов, что хватит на несколько жизней.\n\nКосмический факт: в нашей галактике, Млечном Пути, — сотни миллиардов звёзд, и всех их удерживает вместе гравитация (в том числе загадочной тёмной материи). Солнцу нужно около 230 миллионов лет, чтобы сделать один круг вокруг центра Галактики, — это «галактический год». В прошлый раз, когда Солнце было в этой точке орбиты, на Земле только появлялись первые динозавры.\n\nЗона роста — центр тяжести. Когда тебя так много для всех, легко забыть о своём собственном ядре. Находи время на то, что важно именно тебе.",
+        "en": "You are a galaxy: open, warm and unifying. High openness, extraversion and agreeableness. You have friends from every star system (classmates, colleagues, neighbours, people from a random hiking trip) and you know how to bring them all together. You hold so many interests they would fill several lifetimes.\n\nCosmic fact: our galaxy, the Milky Way, contains hundreds of billions of stars, all held together by gravity (including that of mysterious dark matter). The Sun needs about 230 million years to make one lap around the galactic centre, a \"galactic year\". Last time the Sun was at this point of its orbit, the first dinosaurs were just appearing on Earth.\n\nGrowth edge: your centre of gravity. When there is so much of you for everyone, it is easy to forget your own core. Make time for what matters to you."
+      },
+      "strengths": [
+        {
+          "ru": "Умение объединять",
+          "en": "Bringing people together"
+        },
+        {
+          "ru": "Широта взглядов",
+          "en": "Breadth of mind"
+        },
+        {
+          "ru": "Теплота",
+          "en": "Warmth"
+        },
+        {
+          "ru": "Любознательность",
+          "en": "Curiosity"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Не распыляться",
+          "en": "Not spreading yourself too thin"
+        },
+        {
+          "ru": "Беречь время для себя",
+          "en": "Keeping time for yourself"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "На твоём дне рождения встречаются люди, у которых нет ничего общего, кроме тебя. И им отлично.",
+          "en": "Your birthday party is full of people with nothing in common except you. And they have a great time."
+        },
+        {
+          "ru": "У тебя столько групповых чатов, что для них нужна отдельная карта звёздного неба.",
+          "en": "You have so many group chats you need a star map to navigate them."
+        },
+        {
+          "ru": "Ты знакомишь всех со всеми, и половина пар среди твоих друзей — твоих рук дело.",
+          "en": "You introduce everyone to everyone, and half the couples in your circle are your doing."
+        },
+        {
+          "ru": "Твои хобби: астрономия, кулинария, хор, скалолазание и ещё парочка, о которых ты просто не успеваешь рассказать.",
+          "en": "Your hobbies: astronomy, cooking, choir, climbing and a couple more you forgot to mention."
+        }
+      ],
+      "compatibleWith": [
+        "star",
+        "comet",
+        "supernova"
+      ],
+      "imagePrompt": "A cute swirling spiral galaxy character with a big friendly smile, tiny stars and planets holding hands along its arms, violet, pink and teal palette, soft pastel colors, glossy flat-3D style, smooth dreamy space gradient background, cute kawaii face, minimal, high detail, no text"
+    },
+    {
+      "id": "supernova",
+      "title": {
+        "ru": "Сверхновая — взрыв эмоций",
+        "en": "The Supernova: an explosion of feeling"
+      },
+      "emoji": "💥",
+      "profile": {
+        "O": 0.39,
+        "C": 0.26,
+        "E": 0.62,
+        "A": 0.28,
+        "N": 0.56
+      },
+      "summary": [
+        {
+          "ru": "Яркость, которую видно издалека",
+          "en": "Brilliance visible from far away"
+        },
+        {
+          "ru": "Эмоции на полную мощность",
+          "en": "Emotions at full power"
+        },
+        {
+          "ru": "Умеешь начинать с чистого листа",
+          "en": "You know how to start over"
+        },
+        {
+          "ru": "🔭 Одна сверхновая может затмить целую галактику",
+          "en": "🔭 A single supernova can outshine an entire galaxy"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — сверхновая: яркая, страстная и очень эмоциональная. Высокая экстраверсия и эмоциональная реактивность, хорошая открытость и свободное отношение к планам. Ты живёшь на полную громкость: если радуешься — то на весь район, если влюбляешься — то как в кино, если меняешь жизнь — то радикально.\n\nКосмический факт: сверхновая — взрыв звезды, который на несколько недель может затмить свечением целую галактику из миллиардов звёзд. Такие взрывы разбрасывают по космосу тяжёлые элементы, из которых потом строятся новые звёзды, планеты и мы с тобой. А Крабовидная туманность — остаток сверхновой, вспышку которой китайские астрономы записали в 1054 году.\n\nЗона роста — ровное горение. Твоя энергия меняет мир вокруг, но постоянные взрывы утомляют и тебя, и близких. Учись замечать, когда эмоции нарастают, и выпускать пар до того, как рванёт.",
+        "en": "You are a supernova: dazzling, passionate and highly emotional. High extraversion and emotional reactivity, good openness and a loose relationship with plans. You live at full volume: when you are happy the whole neighbourhood knows, when you fall in love it is like a film, when you change your life you go all the way.\n\nCosmic fact: a supernova is an exploding star that can outshine an entire galaxy of billions of stars for weeks. These explosions scatter heavy elements through space, the raw material for new stars, planets and you and me. The Crab Nebula is the remnant of a supernova that Chinese astronomers recorded in 1054.\n\nGrowth edge: a steady burn. Your energy changes the world around you, but constant explosions exhaust both you and your loved ones. Learn to notice emotions building up and let off steam before things blow."
+      },
+      "strengths": [
+        {
+          "ru": "Яркость",
+          "en": "Brilliance"
+        },
+        {
+          "ru": "Страстность",
+          "en": "Passion"
+        },
+        {
+          "ru": "Смелость меняться",
+          "en": "Courage to change"
+        },
+        {
+          "ru": "Эмоциональная честность",
+          "en": "Emotional honesty"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Пауза перед реакцией",
+          "en": "A pause before reacting"
+        },
+        {
+          "ru": "Доводить дела после вспышки вдохновения",
+          "en": "Finishing things after the burst of inspiration"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты либо в полном восторге, либо в полной драме. Режима «нормально» в настройках нет.",
+          "en": "You are either in total delight or total drama. \"Fine\" is not in your settings."
+        },
+        {
+          "ru": "Ты меняешь цвет волос, работу и город за одну неделю. Друзья уже не удивляются.",
+          "en": "You change your hair colour, job and city in one week. Your friends are no longer surprised."
+        },
+        {
+          "ru": "Твой рассказ о походе в магазин содержит кульминацию, развязку и неожиданный финал.",
+          "en": "Your story about going to the shop has a climax, a resolution and a twist ending."
+        },
+        {
+          "ru": "Ты плачешь от трогательной рекламы и через минуту хохочешь над мемом. Это нормальный вторник.",
+          "en": "You cry at a touching ad and a minute later laugh at a meme. Just a normal Tuesday."
+        }
+      ],
+      "compatibleWith": [
+        "comet",
+        "galaxy",
+        "quasar"
+      ],
+      "imagePrompt": "A cute bursting supernova character with a big excited expression, colourful pastel shockwave rings and confetti stars exploding outward, coral, magenta and gold palette, soft pastel colors, glossy flat-3D style, smooth dreamy space gradient background, cute kawaii face, minimal, high detail, no text"
+    },
+    {
+      "id": "red-dwarf",
+      "title": {
+        "ru": "Красный карлик — скромный долгожитель",
+        "en": "The Red Dwarf: the humble long-hauler"
+      },
+      "emoji": "🔴",
+      "profile": {
+        "O": 0.18,
+        "C": 0.5,
+        "E": 0.22,
+        "A": 0.4,
+        "N": 0.23
+      },
+      "summary": [
+        {
+          "ru": "Не нужно быть самым ярким, чтобы быть важным",
+          "en": "You do not have to be the brightest to matter"
+        },
+        {
+          "ru": "Спокойствие и постоянство",
+          "en": "Calm and constancy"
+        },
+        {
+          "ru": "Марафонец, а не спринтер",
+          "en": "A marathoner, not a sprinter"
+        },
+        {
+          "ru": "🔭 Красные карлики могут светить триллионы лет",
+          "en": "🔭 Red dwarfs can shine for trillions of years"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — красный карлик: спокойный, скромный и невероятно стабильный. Низкая экстраверсия, очень высокая эмоциональная устойчивость, хорошая добросовестность и доброжелательность. Ты не гонишься за вниманием и трендами, зато делаешь своё дело ровно и надёжно — годами.\n\nКосмический факт: красные карлики — самые распространённые звёзды Галактики: по оценкам, примерно три из четырёх звёзд Млечного Пути. Они тусклые и маленькие, но так экономно расходуют топливо, что, по расчётам астрофизиков, могут светить триллионы лет — во много раз дольше нынешнего возраста Вселенной (13,8 млрд лет). Ближайшая к Солнцу звезда, Проксима Центавра, — тоже красный карлик.\n\nЗона роста — разрешить себе вспышку. Стабильность — твоя суперсила, но иногда стоит рискнуть и засиять ярче: высказать идею, взяться за смелый проект, удивить всех.",
+        "en": "You are a red dwarf: calm, modest and incredibly stable. Low extraversion, very high emotional stability, good conscientiousness and agreeableness. You do not chase attention or trends, but you do your thing steadily and reliably, for years.\n\nCosmic fact: red dwarfs are the most common stars in the Galaxy, roughly three out of four stars in the Milky Way by common estimates. They are small and dim, but they burn fuel so thriftily that, according to astrophysical models, they can shine for trillions of years, many times the current age of the Universe (13.8 billion years). The closest star to the Sun, Proxima Centauri, is a red dwarf too.\n\nGrowth edge: allow yourself a flare. Stability is your superpower, but sometimes take a risk and shine brighter: share an idea, take on a bold project, surprise everyone."
+      },
+      "strengths": [
+        {
+          "ru": "Стабильность",
+          "en": "Stability"
+        },
+        {
+          "ru": "Терпение",
+          "en": "Patience"
+        },
+        {
+          "ru": "Скромность",
+          "en": "Humility"
+        },
+        {
+          "ru": "Выносливость",
+          "en": "Endurance"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Заявлять о себе",
+          "en": "Making yourself heard"
+        },
+        {
+          "ru": "Пробовать новое",
+          "en": "Trying new things"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты пользуешься одним и тем же телефоном шесть лет. И он ещё всех переживёт.",
+          "en": "You have had the same phone for six years. It will outlive everyone."
+        },
+        {
+          "ru": "Друзья: «Слушай, ты за десять лет ни капельки не меняешься!» Ты: «А зачем?»",
+          "en": "Friends: \"You haven't changed at all!\" You: \"Why would I?\""
+        },
+        {
+          "ru": "Ты не любишь шумные вечеринки, но остаёшься последним, кто помогает убирать.",
+          "en": "You do not love noisy parties, but you are the last one helping to clean up."
+        },
+        {
+          "ru": "Твоя стратегия — медленно, но вечно. Пока все выгорают, ты просто продолжаешь светить.",
+          "en": "Your strategy: slow but forever. While everyone burns out, you just keep shining."
+        }
+      ],
+      "compatibleWith": [
+        "earth",
+        "pulsar",
+        "moon"
+      ],
+      "imagePrompt": "A cute small round red dwarf star character with a gentle calm smile, sipping tea in a cozy armchair among tiny planets, warm coral, rose and cream palette, soft pastel colors, glossy flat-3D style, smooth dreamy space gradient background, cute kawaii face, minimal, high detail, no text"
+    },
+    {
+      "id": "quasar",
+      "title": {
+        "ru": "Квазар — амбиции космического масштаба",
+        "en": "The Quasar: ambition on a cosmic scale"
+      },
+      "emoji": "🌠",
+      "profile": {
+        "O": 0.39,
+        "C": 0.53,
+        "E": 0.54,
+        "A": 0.22,
+        "N": 0.3
+      },
+      "summary": [
+        {
+          "ru": "Цели — только масштаба Вселенной",
+          "en": "Only universe-sized goals"
+        },
+        {
+          "ru": "Энергия, которую видно за миллиарды световых лет",
+          "en": "Energy visible billions of light-years away"
+        },
+        {
+          "ru": "Решительность и сила воли",
+          "en": "Decisiveness and willpower"
+        },
+        {
+          "ru": "🔭 Квазар может светить ярче всех звёзд своей галактики вместе взятых",
+          "en": "🔭 A quasar can outshine all the stars of its galaxy combined"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — квазар: амбициозный, энергичный и целеустремлённый. Высокие экстраверсия, добросовестность и открытость, низкая тревожность и невысокая уступчивость. Ты ставишь большие цели и идёшь к ним, не размениваясь на мелочи. Тебя видно издалека — по результатам.\n\nКосмический факт: квазар — это ядро далёкой галактики, где сверхмассивная чёрная дыра поглощает вещество. Падая, газ раскаляется так сильно, что квазар может светить ярче всех звёзд своей галактики вместе взятых. Первый квазар, 3C 273, опознал в 1963 году астроном Мартен Шмидт, а само название — сокращение от «квазизвёздный радиоисточник».\n\nЗона роста — тепло для своих. Твоя энергия впечатляет, но рядом с такой яркостью людям бывает сложно. Замечай тех, кто идёт рядом, благодари их и делись светом — так ты станешь не только ярким, но и любимым.",
+        "en": "You are a quasar: ambitious, energetic and goal-driven. High extraversion, conscientiousness and openness, low anxiety and lower agreeableness. You set huge goals and go after them without getting distracted by trifles. People can see you from far away, by your results.\n\nCosmic fact: a quasar is the core of a distant galaxy where a supermassive black hole is devouring matter. The infalling gas gets so hot that a quasar can outshine all the stars of its galaxy combined. The first quasar, 3C 273, was identified in 1963 by astronomer Maarten Schmidt, and the name is short for \"quasi-stellar radio source\".\n\nGrowth edge: warmth for your people. Your energy is impressive, but such brightness can be hard to stand next to. Notice those who walk beside you, thank them and share the light, and you will be not only brilliant but beloved."
+      },
+      "strengths": [
+        {
+          "ru": "Амбициозность",
+          "en": "Ambition"
+        },
+        {
+          "ru": "Энергия",
+          "en": "Energy"
+        },
+        {
+          "ru": "Стратегическое мышление",
+          "en": "Strategic thinking"
+        },
+        {
+          "ru": "Решительность",
+          "en": "Decisiveness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Замечать чувства других",
+          "en": "Noticing others' feelings"
+        },
+        {
+          "ru": "Праздновать маленькие победы",
+          "en": "Celebrating small wins"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твой план на пятилетку расписан. План на следующие пятьдесят лет — в черновиках.",
+          "en": "Your five-year plan is written. The fifty-year plan is in drafts."
+        },
+        {
+          "ru": "«Давай что-нибудь попроще» — фраза, которую ты не понимаешь на физическом уровне.",
+          "en": "\"Let's do something simpler\" is a phrase you physically cannot process."
+        },
+        {
+          "ru": "Ты отвечаешь на сообщения быстро, кратко и с готовым планом действий.",
+          "en": "You reply fast, briefly and with a ready action plan."
+        },
+        {
+          "ru": "Даже в настолку с друзьями ты играешь так, будто на кону мировое господство.",
+          "en": "Even at board game night you play as if world domination were at stake."
+        }
+      ],
+      "compatibleWith": [
+        "pulsar",
+        "saturn",
+        "supernova"
+      ],
+      "imagePrompt": "A cute dazzling quasar character with a determined sparkly-eyed face and two bright pastel jets shooting up and down, a tiny crown, electric blue, violet and white palette, soft pastel colors, glossy flat-3D style, smooth dreamy space gradient background, cute kawaii face, minimal, high detail, no text"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ добавляет от −2 до +2 баллов к одной-трём чертам «Большой пятёрки» (O — открытость, C — добросовестность, E — экстраверсия, A — доброжелательность, N — эмоциональная чувствительность). Сумма по каждой черте переводится в шкалу 0–1: (балл − минимум) / (максимум − минимум). Выбирается космический объект, чей профиль ближе всего к твоему (евклидово расстояние).",
+    "en": "Each answer adds −2 to +2 points to one to three Big Five traits (O openness, C conscientiousness, E extraversion, A agreeableness, N emotional sensitivity). Each trait total is rescaled to 0–1: (score − min) / (max − min). You get the cosmic object whose profile is closest to yours (Euclidean distance)."
+  },
+  "resultIntro": {
+    "ru": "Твой космический двойник найден! Помни: звёзды не определяют характер — но сравнивать себя с ними очень приятно.",
+    "en": "Your cosmic twin has been found! Remember: stars do not shape your character, but comparing yourself to them is delightful."
+  }
+}

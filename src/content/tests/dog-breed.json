@@ -1,0 +1,2578 @@
+{
+  "id": "dog-breed",
+  "category": "fun",
+  "kind": "choice",
+  "seriousness": "fun",
+  "title": {
+    "ru": "Какая ты порода собаки?",
+    "en": "Which Dog Breed Are You?"
+  },
+  "tagline": {
+    "ru": "Золотистый ретривер, шиба-ину или такса? Найди своего пёсика по характеру",
+    "en": "Golden retriever, Shiba Inu or dachshund? Find your canine personality match"
+  },
+  "description": {
+    "ru": "У собак, как и у людей, есть личность: исследователи описывают её почти теми же чертами, что и нашу. Ответь на 15 вопросов о работе, выходных и спорах — и узнай, какой породе соответствует твой характер. Спойлер: учёные выяснили, что порода предсказывает поведение конкретной собаки хуже, чем принято думать.",
+    "en": "Dogs, like people, have personalities — researchers describe them with nearly the same traits as ours. Answer 15 questions about work, weekends and arguments to find the breed that matches your character. Spoiler: scientists found breed predicts an individual dog's behavior worse than people think."
+  },
+  "emoji": "🐶",
+  "durationMin": 5,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "собаки",
+      "en": "dogs"
+    },
+    {
+      "ru": "животные",
+      "en": "animals"
+    },
+    {
+      "ru": "личность",
+      "en": "personality"
+    },
+    {
+      "ru": "весёлые тесты",
+      "en": "fun quizzes"
+    }
+  ],
+  "methodology": {
+    "ru": "## На чём основан тест\n\n- **У собак есть личность.** Gosling, Kwan и John (2003, *JPSP*) показали, что черты собак можно оценивать почти так же надёжно, как черты людей, и что они хорошо ложатся на энергичность/экстраверсию, нейротизм, доброжелательность и открытость. Обзор Jones и Gosling (2005) свёл десятки исследований темперамента собак. Ley, Bennett и Coleman (2008) выделили у собак пять измерений: экстраверсия, мотивация, сосредоточенность на обучении, дружелюбие и нейротизм. Наши шкалы E, O, C, A, N повторяют эту логику.\n- **C-BARQ.** Hsu и Serpell (2003, *JAVMA*) создали широко используемый опросник поведения собак для владельцев. Он оценивает обучаемость, возбудимость, привязанность, страхи, агрессию и тревогу разлуки. На данных C-BARQ построены многие сравнения пород.\n- **Порода — плохой предсказатель конкретной собаки.** Morrill и коллеги (2022, *Science*) опросили владельцев 18 385 собак и генотипировали 2155. Порода объяснила лишь около **9%** различий в поведении — меньше, чем принято думать, хотя для внешности её роль примерно в пять раз больше. Сильнее всего с породой связаны послушание («biddability»), интерес к игрушкам и общительность с людьми. Почти никак не связан порог агрессивной реакции. Мы честно используем «характеры пород» как культурные образы, а не как факты о конкретных собаках.\n- **Владельцы похожи на своих собак.** Turcsán и коллеги (2012, *Applied Animal Behaviour Science*) нашли положительные связи между личностью владельцев и их собак по всем пяти измерениям. Четыре из них сохранялись, даже когда собаку оценивал независимый человек. Roy и Christenfeld (2004, *Psychological Science*) показали, что незнакомые люди могут сопоставить породистых собак с их хозяевами по фото лучше, чем случайно. Отсюда идея теста: какой «собачий» характер похож на твой.\n- **Различия между группами пород.** Turcsán, Kubinyi и Miklósi (2011) и обзор Mehrkam и Wynne (2014) описывают, что различия в обучаемости и смелости между группами пород существуют, но внутри породы разброс большой.\n\n## Как работает тест\n\n1. 15 оригинальных ситуационных вопросов о тебе (человеке), 5–6 вариантов.\n2. Ответы дают баллы по пяти шкалам: E, A, C, N, O.\n3. Суммы нормируются к 0–1 и сравниваются с профилями 12 пород; побеждает ближайшая.\n4. Калибровка на 120 000 симулированных случайных прохождений. Доля каждого результата:\n\n- 🦮 Золотистый ретривер: 8.3%\n- 🐕 Бордер-колли: 8.4%\n- 🍞 Корги: 8.1%\n- 🦊 Шиба-ину: 8.4%\n- 🐾 Французский бульдог: 8.0%\n- 🐺 Хаски: 8.2%\n- 🛡️ Немецкая овчарка: 8.8%\n- 🌶️ Чихуахуа: 8.4%\n- 🌭 Такса: 8.2%\n- 🧸 Бернский зенненхунд: 7.9%\n- 🎀 Пудель: 8.4%\n- 💨 Грейхаунд: 8.8%\n\nТакже проверено, что «персонаж», отвечающий в духе породы, получает именно её.\n\n## Ограничения\n\nТест не валидирован. Профили пород — популярные образы, частично согласованные со средними тенденциями, но, как показали Morrill и коллеги, отдельная собака может сильно отличаться от «типичного» представителя породы.",
+    "en": "## What this quiz is based on\n\n- **Dogs have personalities.** Gosling, Kwan & John (2003, *JPSP*) showed dog traits can be judged about as reliably as human traits and map well onto energy/extraversion, neuroticism, agreeableness and openness. Jones & Gosling (2005) reviewed dozens of dog temperament studies. Ley, Bennett & Coleman (2008) found five dog dimensions: extraversion, motivation, training focus, amicability and neuroticism. Our E, O, C, A, N scales follow that logic.\n- **C-BARQ.** Hsu & Serpell (2003, *JAVMA*) developed a widely used owner questionnaire on dog behavior — trainability, excitability, attachment, fears, aggression and separation-related behavior. Many breed comparisons rely on C-BARQ data.\n- **Breed is a poor predictor of an individual dog.** Morrill and colleagues (2022, *Science*) surveyed owners of 18,385 dogs and genotyped 2,155. Breed explained only about **9%** of behavioral variation — less than commonly believed, while its role in physical traits was about fivefold larger. Breed related most to biddability, toy-directedness and human sociability, and barely at all to the threshold for agonistic reactions. So we honestly use ‘breed personalities’ as cultural images, not facts about any particular dog.\n- **Owners resemble their dogs.** Turcsán and colleagues (2012, *Applied Animal Behaviour Science*) found positive owner–dog personality correlations on all five dimensions; four held even when an independent person rated the dog. Roy & Christenfeld (2004, *Psychological Science*) showed strangers could match purebred dogs to their owners from photos better than chance. Hence the quiz idea: which ‘dog personality’ resembles yours.\n- **Breed-group differences.** Turcsán, Kubinyi & Miklósi (2011) and Mehrkam & Wynne's (2014) review describe real group differences in trainability and boldness — with large variation within breeds.\n\n## How the quiz works\n\n1. 15 original situational questions about you (the human), 5–6 options each.\n2. Answers add points on five scales: E, A, C, N, O.\n3. Sums are rescaled to 0–1 and compared to 12 breed profiles; the nearest wins.\n4. Calibrated on 120,000 simulated random runs. Share of each result:\n\n- 🦮 Golden Retriever: 8.3%\n- 🐕 Border Collie: 8.4%\n- 🍞 Corgi: 8.1%\n- 🦊 Shiba Inu: 8.4%\n- 🐾 French Bulldog: 8.0%\n- 🐺 Husky: 8.2%\n- 🛡️ German Shepherd: 8.8%\n- 🌶️ Chihuahua: 8.4%\n- 🌭 Dachshund: 8.2%\n- 🧸 Bernese Mountain Dog: 7.9%\n- 🎀 Poodle: 8.4%\n- 💨 Greyhound: 8.8%\n\nWe also verified that a ‘persona’ answering in each breed's spirit gets that breed.\n\n## Limitations\n\nNot validated. Breed profiles are popular images partly aligned with average tendencies — but, as Morrill and colleagues showed, an individual dog can differ greatly from its breed's ‘typical’ member."
+  },
+  "sources": [
+    {
+      "citation": "Morrill, K., Hekman, J., Li, X., McClure, J., Logan, B., Goodman, L., Gao, M., Dong, Y., Alonso, M., Carmichael, E., Snyder-Mackler, N., Alonso, J., Noh, H. J., Johnson, J., Koltookian, M., Lieu, C., Megquier, K., Swofford, R., Turner-Maier, J., ... Karlsson, E. K. (2022). Ancestry-inclusive dog genomics challenges popular breed stereotypes. Science, 376(6592), eabk0639.",
+      "doi": "10.1126/science.abk0639",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9675396/"
+    },
+    {
+      "citation": "Hsu, Y., & Serpell, J. A. (2003). Development and validation of a questionnaire for measuring behavior and temperament traits in pet dogs. Journal of the American Veterinary Medical Association, 223(9), 1293–1300.",
+      "doi": "10.2460/javma.2003.223.1293"
+    },
+    {
+      "citation": "Turcsán, B., Range, F., Virányi, Z., Miklósi, Á., & Kubinyi, E. (2012). Birds of a feather flock together? Perceived personality matching in owner–dog dyads. Applied Animal Behaviour Science, 140(3–4), 154–160.",
+      "url": "https://real.mtak.hu/29704/"
+    },
+    {
+      "citation": "Gosling, S. D., Kwan, V. S. Y., & John, O. P. (2003). A dog's got personality: A cross-species comparative approach to personality judgments in dogs and humans. Journal of Personality and Social Psychology, 85(6), 1161–1169.",
+      "doi": "10.1037/0022-3514.85.6.1161"
+    },
+    {
+      "citation": "Jones, A. C., & Gosling, S. D. (2005). Temperament and personality in dogs (Canis familiaris): A review and evaluation of past research. Applied Animal Behaviour Science, 95(1–2), 1–53.",
+      "doi": "10.1016/j.applanim.2005.04.008"
+    },
+    {
+      "citation": "Ley, J., Bennett, P., & Coleman, G. (2008). Personality dimensions that emerge in companion canines. Applied Animal Behaviour Science, 110(3–4), 305–317.",
+      "doi": "10.1016/j.applanim.2007.04.016"
+    },
+    {
+      "citation": "Roy, M. M., & Christenfeld, N. J. S. (2004). Do dogs resemble their owners? Psychological Science, 15(5), 361–363.",
+      "doi": "10.1111/j.0956-7976.2004.00684.x"
+    },
+    {
+      "citation": "Turcsán, B., Kubinyi, E., & Miklósi, Á. (2011). Trainability and boldness traits differ between dog breed clusters based on conventional breed categories and genetic relatedness. Applied Animal Behaviour Science, 132(1–2), 61–70.",
+      "doi": "10.1016/j.applanim.2011.03.006"
+    },
+    {
+      "citation": "Mehrkam, L. R., & Wynne, C. D. L. (2014). Behavioral differences among breeds of domestic dogs (Canis lupus familiaris): Current status of the science. Applied Animal Behaviour Science, 155, 12–27.",
+      "doi": "10.1016/j.applanim.2014.03.005"
+    }
+  ],
+  "license": "Original content © testik. All questions, outcomes and texts were written from scratch for this site; no items are copied or adapted from C-BARQ, MCPQ-R or other copyrighted questionnaires or quiz sites. Breed names are generic; descriptions are affectionate popular images, not breed standards.",
+  "disclaimer": {
+    "ru": "Развлекательный тест. Описания пород — это популярные образы, а не научные характеристики. Масштабное исследование Morrill и коллег (2022) показало, что порода объясняет лишь около 9% различий в поведении собак. Поэтому не выбирай собаку по результату этого теста: узнай конкретного пса, его историю и потребности, а при выборе породы советуйся с кинологом и заводчиком или приютом.",
+    "en": "Entertainment quiz. Breed descriptions are popular images, not scientific profiles. A large study by Morrill and colleagues (2022) found breed explains only about 9% of variation in dog behavior. So please don't choose a dog based on this quiz: get to know the individual dog, its history and needs, and consult a trainer, breeder or shelter."
+  },
+  "instructions": {
+    "ru": "Отвечай про себя, человека (хотя виляние хвостом не возбраняется). Выбери один вариант в каждом вопросе — тот, что ближе к тебе в обычной жизни.",
+    "en": "Answer about yourself, the human (tail-wagging allowed). Pick one option per question — the one closest to your everyday self."
+  },
+  "dimensions": [
+    {
+      "id": "E",
+      "name": {
+        "ru": "Энергия",
+        "en": "Energy"
+      },
+      "description": {
+        "ru": "Активность, общительность, потребность в движении. У собак и у людей — аналог экстраверсии.",
+        "en": "Activity, sociability, need for movement — the extraversion analog in dogs and people."
+      },
+      "lowLabel": {
+        "ru": "Диванный эксперт",
+        "en": "Couch expert"
+      },
+      "highLabel": {
+        "ru": "Вечный двигатель",
+        "en": "Perpetual motion"
+      },
+      "color": "#FFD3B6",
+      "scoring": "sum",
+      "min": -14,
+      "max": 18,
+      "bands": [
+        {
+          "min": -14,
+          "max": 0,
+          "label": {
+            "ru": "Диванный эксперт",
+            "en": "Couch expert"
+          },
+          "summary": [
+            {
+              "ru": "Ценишь отдых",
+              "en": "Value rest"
+            },
+            {
+              "ru": "Энергию тратишь с умом",
+              "en": "Spend energy wisely"
+            },
+            {
+              "ru": "Тишина заряжает",
+              "en": "Quiet recharges you"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты знаешь цену хорошему отдыху. Немного прогулок и движения — и твоя батарейка будет ещё стабильнее.",
+            "en": "You know the value of rest. A bit of walking and movement will make your battery even steadier."
+          }
+        },
+        {
+          "min": 1,
+          "max": 4,
+          "label": {
+            "ru": "Прогулка по расписанию",
+            "en": "Walks on schedule"
+          },
+          "summary": [
+            {
+              "ru": "Активность в меру",
+              "en": "Moderate activity"
+            },
+            {
+              "ru": "И побегать, и полежать",
+              "en": "Run or lounge — both fine"
+            },
+            {
+              "ru": "Гибкий режим",
+              "en": "Flexible pace"
+            }
+          ],
+          "detailed": {
+            "ru": "У тебя сбалансированная энергия: можешь и в поход, и на диван.",
+            "en": "Your energy is balanced: hiking or lounging, both work."
+          }
+        },
+        {
+          "min": 5,
+          "max": 18,
+          "label": {
+            "ru": "Вечный двигатель",
+            "en": "Perpetual motion"
+          },
+          "summary": [
+            {
+              "ru": "Нужно движение",
+              "en": "Need to move"
+            },
+            {
+              "ru": "Люди заряжают",
+              "en": "People charge you"
+            },
+            {
+              "ru": "Скука — враг",
+              "en": "Boredom is the enemy"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебе нужно много активности и общения. Как и энергичным собакам: без нагрузки энергия ищет выход в хаосе.",
+            "en": "You need lots of action and company. Like energetic dogs: without an outlet, energy turns into chaos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "A",
+      "name": {
+        "ru": "Дружелюбие",
+        "en": "Friendliness"
+      },
+      "description": {
+        "ru": "Теплота к людям, желание быть рядом, мягкость. Аналог доброжелательности.",
+        "en": "Warmth toward people, wanting closeness, gentleness — akin to agreeableness."
+      },
+      "lowLabel": {
+        "ru": "Сам по себе",
+        "en": "Independent"
+      },
+      "highLabel": {
+        "ru": "Обнимашки 24/7",
+        "en": "Hugs 24/7"
+      },
+      "color": "#FFAAA5",
+      "scoring": "sum",
+      "min": -9,
+      "max": 19,
+      "bands": [
+        {
+          "min": -9,
+          "max": 1,
+          "label": {
+            "ru": "Сам по себе",
+            "en": "Independent"
+          },
+          "summary": [
+            {
+              "ru": "Ценишь личное пространство",
+              "en": "Value personal space"
+            },
+            {
+              "ru": "Доверие надо заслужить",
+              "en": "Trust must be earned"
+            },
+            {
+              "ru": "Честность важнее вежливости",
+              "en": "Honesty over politeness"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты независим(а) и не раздаёшь любовь всем подряд. Зато те, кому ты доверяешь, знают, как много это значит.",
+            "en": "You're independent and don't hand out affection freely — those you trust know how much it means."
+          }
+        },
+        {
+          "min": 2,
+          "max": 4,
+          "label": {
+            "ru": "Тёплый, но с границами",
+            "en": "Warm with boundaries"
+          },
+          "summary": [
+            {
+              "ru": "Дружелюбен(на), но избирателен(на)",
+              "en": "Friendly but selective"
+            },
+            {
+              "ru": "Умеешь сказать «нет»",
+              "en": "Can say ‘no’"
+            },
+            {
+              "ru": "Баланс",
+              "en": "Balance"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты открыт(а) людям, не теряя себя.",
+            "en": "You're open to people without losing yourself."
+          }
+        },
+        {
+          "min": 5,
+          "max": 19,
+          "label": {
+            "ru": "Обнимашки 24/7",
+            "en": "Hugs 24/7"
+          },
+          "summary": [
+            {
+              "ru": "Любишь всех",
+              "en": "Love everyone"
+            },
+            {
+              "ru": "Миролюбие",
+              "en": "Peacemaker"
+            },
+            {
+              "ru": "Хочешь быть рядом",
+              "en": "Want to be close"
+            }
+          ],
+          "detailed": {
+            "ru": "С тобой тепло и спокойно. Не забывай о своих границах: любить всех — прекрасно, но себя тоже.",
+            "en": "You're warm and calming to be around. Mind your boundaries — loving everyone is great, yourself included."
+          }
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": {
+        "ru": "Собранность",
+        "en": "Focus & trainability"
+      },
+      "description": {
+        "ru": "Дисциплина, сосредоточенность на задаче, готовность следовать правилам. У собак — «обучаемость».",
+        "en": "Discipline, task focus, willingness to follow rules — ‘trainability’ in dogs."
+      },
+      "lowLabel": {
+        "ru": "Своенравность",
+        "en": "Free-willed"
+      },
+      "highLabel": {
+        "ru": "Отличник дрессировки",
+        "en": "Top of the class"
+      },
+      "color": "#A8E6CF",
+      "scoring": "sum",
+      "min": -11,
+      "max": 22,
+      "bands": [
+        {
+          "min": -11,
+          "max": 1,
+          "label": {
+            "ru": "Своенравность",
+            "en": "Free-willed"
+          },
+          "summary": [
+            {
+              "ru": "Делаешь по-своему",
+              "en": "Do it your way"
+            },
+            {
+              "ru": "Правила — не догма",
+              "en": "Rules aren't dogma"
+            },
+            {
+              "ru": "Мотивация — изнутри",
+              "en": "Self-motivated"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты не любишь, когда тобой командуют. Это источник независимости и креатива. Пара собственных правил поможет не утонуть в хаосе.",
+            "en": "You hate being bossed around — a source of independence and creativity. A few rules of your own keep chaos at bay."
+          }
+        },
+        {
+          "min": 2,
+          "max": 4,
+          "label": {
+            "ru": "Слушаюсь, если есть смысл",
+            "en": "Obedient when it makes sense"
+          },
+          "summary": [
+            {
+              "ru": "Гибкая дисциплина",
+              "en": "Flexible discipline"
+            },
+            {
+              "ru": "Умеешь сосредоточиться",
+              "en": "Can focus"
+            },
+            {
+              "ru": "Но и отвлечься можешь",
+              "en": "Can also wander"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты собран(а), когда нужно, и свободен(на), когда можно.",
+            "en": "Focused when needed, free when possible."
+          }
+        },
+        {
+          "min": 5,
+          "max": 22,
+          "label": {
+            "ru": "Отличник дрессировки",
+            "en": "Top of the class"
+          },
+          "summary": [
+            {
+              "ru": "Схватываешь быстро",
+              "en": "Learn fast"
+            },
+            {
+              "ru": "Любишь задачи",
+              "en": "Love tasks"
+            },
+            {
+              "ru": "Надёжность",
+              "en": "Reliability"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты обожаешь, когда всё понятно и получается. Помни: отдых — тоже команда, и её нужно выполнять.",
+            "en": "You love clarity and success. Remember: ‘rest’ is a command too — follow it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "N",
+      "name": {
+        "ru": "Чувствительность",
+        "en": "Sensitivity"
+      },
+      "description": {
+        "ru": "Насколько сильно ты реагируешь на стресс, новое и чужие эмоции. Аналог нейротизма.",
+        "en": "How strongly you react to stress, novelty and others' emotions — akin to neuroticism."
+      },
+      "lowLabel": {
+        "ru": "Невозмутимость",
+        "en": "Unflappable"
+      },
+      "highLabel": {
+        "ru": "Тонкая натура",
+        "en": "Sensitive soul"
+      },
+      "color": "#B5D8FA",
+      "scoring": "sum",
+      "min": -9,
+      "max": 16,
+      "bands": [
+        {
+          "min": -9,
+          "max": 0,
+          "label": {
+            "ru": "Невозмутимость",
+            "en": "Unflappable"
+          },
+          "summary": [
+            {
+              "ru": "Стресс отскакивает",
+              "en": "Stress bounces off"
+            },
+            {
+              "ru": "Уверенность",
+              "en": "Confidence"
+            },
+            {
+              "ru": "Спокойствие",
+              "en": "Calm"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебя сложно напугать. Это ресурс — и для тебя, и для тех, кто рядом.",
+            "en": "Hard to rattle — a resource for you and those around you."
+          }
+        },
+        {
+          "min": 1,
+          "max": 3,
+          "label": {
+            "ru": "Живые реакции",
+            "en": "Lively reactions"
+          },
+          "summary": [
+            {
+              "ru": "Чувствуешь, но справляешься",
+              "en": "Feel it, handle it"
+            },
+            {
+              "ru": "Иногда волнуешься",
+              "en": "Sometimes worry"
+            },
+            {
+              "ru": "Быстро успокаиваешься",
+              "en": "Calm down quickly"
+            }
+          ],
+          "detailed": {
+            "ru": "У тебя здоровая эмоциональная чувствительность.",
+            "en": "Your emotional sensitivity is healthy."
+          }
+        },
+        {
+          "min": 4,
+          "max": 16,
+          "label": {
+            "ru": "Тонкая натура",
+            "en": "Sensitive soul"
+          },
+          "summary": [
+            {
+              "ru": "Замечаешь всё",
+              "en": "Notice everything"
+            },
+            {
+              "ru": "Реагируешь ярко",
+              "en": "React vividly"
+            },
+            {
+              "ru": "Нужна безопасность",
+              "en": "Need security"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты чуток(чутка) к миру — и это дар. Предсказуемые ритуалы и поддержка близких помогают чувствовать себя в безопасности. Если тревога мешает жить, стоит поговорить со специалистом.",
+            "en": "You're finely tuned to the world — a gift. Predictable rituals and support help you feel safe. If anxiety gets in the way of life, consider talking to a professional."
+          }
+        }
+      ]
+    },
+    {
+      "id": "O",
+      "name": {
+        "ru": "Любопытство",
+        "en": "Curiosity"
+      },
+      "description": {
+        "ru": "Интерес к новому, исследовательский азарт, нестандартность. Аналог открытости опыту.",
+        "en": "Interest in the new, exploratory drive, originality — akin to openness."
+      },
+      "lowLabel": {
+        "ru": "Любит привычное",
+        "en": "Loves the familiar"
+      },
+      "highLabel": {
+        "ru": "Нос по ветру",
+        "en": "Nose to the wind"
+      },
+      "color": "#CDB4F6",
+      "scoring": "sum",
+      "min": -1,
+      "max": 15,
+      "bands": [
+        {
+          "min": -1,
+          "max": 3,
+          "label": {
+            "ru": "Любит привычное",
+            "en": "Loves the familiar"
+          },
+          "summary": [
+            {
+              "ru": "Свои маршруты",
+              "en": "Own routes"
+            },
+            {
+              "ru": "Стабильность",
+              "en": "Stability"
+            },
+            {
+              "ru": "Новое — постепенно",
+              "en": "New things gradually"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебе хорошо в знакомом мире. Иногда новая тропинка в парке приносит больше радости, чем кажется.",
+            "en": "You're happy in the familiar. A new path in the park sometimes brings more joy than you'd expect."
+          }
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "label": {
+            "ru": "Любопытство по настроению",
+            "en": "Curious when in the mood"
+          },
+          "summary": [
+            {
+              "ru": "Исследуешь, когда интересно",
+              "en": "Explore when interested"
+            },
+            {
+              "ru": "Баланс нового и старого",
+              "en": "Mix of new and old"
+            },
+            {
+              "ru": "Без фанатизма",
+              "en": "No obsession"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты открыт(а) новому, не теряя опоры.",
+            "en": "Open to the new without losing your footing."
+          }
+        },
+        {
+          "min": 6,
+          "max": 15,
+          "label": {
+            "ru": "Нос по ветру",
+            "en": "Nose to the wind"
+          },
+          "summary": [
+            {
+              "ru": "Всё нужно понюхать",
+              "en": "Must sniff everything"
+            },
+            {
+              "ru": "Нестандартные решения",
+              "en": "Unusual solutions"
+            },
+            {
+              "ru": "Скучно без загадок",
+              "en": "Bored without puzzles"
+            }
+          ],
+          "detailed": {
+            "ru": "Твой исследовательский азарт ведёт к открытиям. Главное — не убегать за каждой белкой.",
+            "en": "Your exploratory drive leads to discoveries. Just don't chase every squirrel."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Ты возвращаешься домой после долгого дня. Первым делом…",
+        "en": "You come home after a long day. First thing you do…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Сразу на пробежку — энергии ещё вагон",
+            "en": "Head out for a run — still tons of energy"
+          },
+          "scores": {
+            "E": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Падаю на диван лицом вниз. Не трогайте",
+            "en": "Collapse face-down on the couch. Do not disturb"
+          },
+          "scores": {
+            "E": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Обнимаю всех домашних по очереди",
+            "en": "Hug everyone at home, one by one"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Раскладываю вещи по местам и проверяю план на завтра",
+            "en": "Put everything away and check tomorrow's plan"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Исследую холодильник: вдруг там появилось что-то новое",
+            "en": "Investigate the fridge — maybe something new appeared"
+          },
+          "scores": {
+            "O": 1,
+            "C": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "В парке к тебе подходит незнакомец и заводит разговор.",
+        "en": "A stranger in the park strikes up a conversation."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Отлично! Через 5 минут мы лучшие друзья",
+            "en": "Great! In five minutes we're best friends"
+          },
+          "scores": {
+            "E": 1,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Вежливо отвечаю, но держу дистанцию",
+            "en": "Answer politely but keep my distance"
+          },
+          "scores": {
+            "A": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Немного пугаюсь, но потом оттаиваю",
+            "en": "Get a little startled, then warm up"
+          },
+          "scores": {
+            "N": 1,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Оцениваю: кто он, зачем подошёл и не угрожает ли моим",
+            "en": "Assess: who is this, why, and is he a threat to my people"
+          },
+          "scores": {
+            "C": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Рассказываю ему три интересных факта о голубях",
+            "en": "Tell him three fascinating facts about pigeons"
+          },
+          "scores": {
+            "O": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Поддерживаю беседу, тонко подстраиваясь под его настроение",
+            "en": "Keep the conversation going, subtly tuning in to his mood"
+          },
+          "scores": {
+            "A": 1,
+            "N": 1,
+            "O": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Твой идеальный отпуск?",
+        "en": "Your ideal vacation?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Горы, снег, рюкзак и 30 километров в день",
+            "en": "Mountains, snow, a backpack and 20 miles a day"
+          },
+          "scores": {
+            "E": 1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Шезлонг, тень и сон до обеда",
+            "en": "A sun lounger, shade and sleeping till noon"
+          },
+          "scores": {
+            "E": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Город, музеи и 15 экскурсий по расписанию",
+            "en": "A city, museums and 15 scheduled tours"
+          },
+          "scores": {
+            "O": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Дача с семьёй: все вместе, шашлыки, дети",
+            "en": "The country house with family: everyone together, barbecue, kids"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Место, где никого нет. Совсем никого",
+            "en": "Somewhere with nobody. Absolutely nobody"
+          },
+          "scores": {
+            "A": -1,
+            "E": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Как ты реагируешь на критику?",
+        "en": "How do you react to criticism?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Принимаю к сведению и быстро исправляю",
+            "en": "Take note and fix it fast"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Переживаю весь вечер, а потом ещё неделю",
+            "en": "Stew about it all evening, then for another week"
+          },
+          "scores": {
+            "N": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Делаю вид, что не слышал(а), и продолжаю по-своему",
+            "en": "Pretend I didn't hear and keep doing it my way"
+          },
+          "scores": {
+            "C": -1,
+            "A": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Отшучиваюсь, и критик сам начинает смеяться",
+            "en": "Joke it off until the critic starts laughing too"
+          },
+          "scores": {
+            "E": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Возмущаюсь громче, чем нужно, а потом остываю",
+            "en": "Get louder than necessary, then cool down"
+          },
+          "scores": {
+            "N": 1,
+            "E": 1,
+            "A": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Тебе дали новую сложную задачу.",
+        "en": "You're given a hard new task."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Ура! Наконец-то что-то интересное — дайте две",
+            "en": "Yay! Finally something interesting — give me two"
+          },
+          "scores": {
+            "O": 1,
+            "C": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Сделаю идеально, даже если придётся сидеть до ночи",
+            "en": "I'll do it perfectly, even if it takes all night"
+          },
+          "scores": {
+            "C": 2,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Сначала полежу, подумаю… и сделаю в последний момент",
+            "en": "First I'll lie down, think… and do it at the last minute"
+          },
+          "scores": {
+            "C": -1,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Спрошу коллег, как лучше: вместе веселее",
+            "en": "Ask coworkers how best to do it — it's more fun together"
+          },
+          "scores": {
+            "A": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Сделаю, но по-своему, а не так, как сказали",
+            "en": "I'll do it — my way, not the way I was told"
+          },
+          "scores": {
+            "C": -1,
+            "O": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Лучшая награда для тебя — это…",
+        "en": "The best reward for you is…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вкусная еда. Много вкусной еды",
+            "en": "Delicious food. Lots of it"
+          },
+          "scores": {
+            "A": 1,
+            "O": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Похвала и признание: «Ты молодец!»",
+            "en": "Praise and recognition: ‘Good job!’"
+          },
+          "scores": {
+            "C": 1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Новое приключение",
+            "en": "A new adventure"
+          },
+          "scores": {
+            "O": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тишина и возможность побыть одному(ой)",
+            "en": "Quiet and some time alone"
+          },
+          "scores": {
+            "A": -1,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Время с любимыми людьми",
+            "en": "Time with the people I love"
+          },
+          "scores": {
+            "A": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Как ты ведёшь себя в незнакомой компании?",
+        "en": "How do you act around new people?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Знакомлюсь со всеми, даже с котом хозяев",
+            "en": "Meet everyone — even the host's cat"
+          },
+          "scores": {
+            "E": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Нахожу одного человека и весь вечер держусь рядом",
+            "en": "Find one person and stick close all evening"
+          },
+          "scores": {
+            "A": 1,
+            "N": 1,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Сначала наблюдаю из угла и оцениваю обстановку",
+            "en": "Watch from a corner and assess the situation first"
+          },
+          "scores": {
+            "E": -1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Шумлю больше всех, хотя внутри немного волнуюсь",
+            "en": "I'm the loudest one there, though a bit nervous inside"
+          },
+          "scores": {
+            "N": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Командую: «Так, все играем в мафию!»",
+            "en": "Take charge: ‘Okay, everyone, we're playing a party game!’"
+          },
+          "scores": {
+            "E": 1,
+            "C": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Зову всех на спонтанную ночную прогулку — куда-нибудь, где мы ещё не были",
+            "en": "Invite everyone on a spontaneous night walk — somewhere we've never been"
+          },
+          "scores": {
+            "E": 1,
+            "O": 1,
+            "A": 1,
+            "C": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Утром ты…",
+        "en": "In the morning you…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Встаю в 6 и уже бегаю",
+            "en": "Get up at 6 and I'm already running"
+          },
+          "scores": {
+            "E": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Встаю, только если на кухне пахнет едой",
+            "en": "Only get up if the kitchen smells like food"
+          },
+          "scores": {
+            "C": -1,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Валяюсь и неспешно наблюдаю, как просыпается мир",
+            "en": "Lounge around and watch the world wake up"
+          },
+          "scores": {
+            "E": -1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Бужу всех вокруг, потому что мне скучно",
+            "en": "Wake everyone up because I'm bored"
+          },
+          "scores": {
+            "E": 2,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Просыпаюсь от каждого шороха",
+            "en": "Wake up at every little sound"
+          },
+          "scores": {
+            "N": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Твой стиль в спорах?",
+        "en": "Your arguing style?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Миролюбивый: давайте все обнимемся",
+            "en": "Peacemaker: let's all just hug"
+          },
+          "scores": {
+            "A": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Упрямо стою на своём, даже если неправ(а)",
+            "en": "Stubbornly hold my ground, even when wrong"
+          },
+          "scores": {
+            "A": -1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Логично и спокойно доказываю",
+            "en": "Make my case calmly and logically"
+          },
+          "scores": {
+            "C": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Громко и драматично: кто-то же должен защищать справедливость!",
+            "en": "Loudly and dramatically: someone has to defend justice!"
+          },
+          "scores": {
+            "N": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ухожу. Спорить — ниже моего достоинства",
+            "en": "Walk away. Arguing is beneath me"
+          },
+          "scores": {
+            "A": -1,
+            "E": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Что у тебя в рюкзаке?",
+        "en": "What's in your backpack?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Всё по отделениям: аптечка, зарядка, перекус, план Б",
+            "en": "Everything sorted: first aid, charger, snack, plan B"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Перекус. Три перекуса. И ещё один перекус",
+            "en": "A snack. Three snacks. And another snack"
+          },
+          "scores": {
+            "A": 1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Странные находки: камушек, билетик, перо",
+            "en": "Odd finds: a pebble, a ticket stub, a feather"
+          },
+          "scores": {
+            "O": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Ничего — я налегке, руки нужны для приключений",
+            "en": "Nothing — I travel light, hands free for adventure"
+          },
+          "scores": {
+            "E": 1,
+            "O": 1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Антистресс-набор: наушники, жвачка, успокаивающий чай",
+            "en": "An anti-stress kit: headphones, gum, calming tea"
+          },
+          "scores": {
+            "N": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Как ты учишься новому?",
+        "en": "How do you learn new things?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Быстро и с азартом: давайте следующую задачку!",
+            "en": "Fast and eager: next challenge, please!"
+          },
+          "scores": {
+            "C": 1,
+            "O": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Только если мне самому(ой) интересно",
+            "en": "Only if I'm personally interested"
+          },
+          "scores": {
+            "C": -1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Аккуратно, по инструкции, до идеала",
+            "en": "Carefully, by the instructions, to perfection"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Вместе с друзьями — так веселее",
+            "en": "With friends — it's more fun"
+          },
+          "scores": {
+            "A": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Медленно, но если уж выучил(а) — то навсегда",
+            "en": "Slowly, but once I've learned it, it's forever"
+          },
+          "scores": {
+            "E": -1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "С удовольствием и с красивым конспектом, а если не выходит — очень расстраиваюсь",
+            "en": "Eagerly, with beautiful notes — and I get really upset if it doesn't work"
+          },
+          "scores": {
+            "O": 1,
+            "C": 1,
+            "N": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Тебя оставили дома одного(одну) на весь день.",
+        "en": "You're left home alone all day."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Кайф! Наконец-то тишина",
+            "en": "Bliss! Finally some quiet"
+          },
+          "scores": {
+            "A": -1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Скучаю через 15 минут и пишу всем подряд",
+            "en": "Miss everyone after 15 minutes and text them all"
+          },
+          "scores": {
+            "A": 1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Устраиваю генеральную уборку",
+            "en": "Do a deep clean"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Перерываю шкафы и нахожу что-то давно забытое",
+            "en": "Dig through the closets and find something long forgotten"
+          },
+          "scores": {
+            "O": 1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Сплю. Весь день. Лучший день",
+            "en": "Sleep. All day. Best day ever"
+          },
+          "scores": {
+            "E": -2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Какая у тебя «походка» по жизни?",
+        "en": "How do you ‘walk’ through life?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Бодрая трусца — всё успеваю",
+            "en": "A brisk trot — I get it all done"
+          },
+          "scores": {
+            "E": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Элегантно и с достоинством",
+            "en": "Elegantly, with dignity"
+          },
+          "scores": {
+            "O": 1,
+            "C": 1,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Вприпрыжку — жизнь же прекрасна!",
+            "en": "Skipping — life is beautiful!"
+          },
+          "scores": {
+            "E": 1,
+            "A": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Мелкими шажками, но очень решительно и с лаем на всех",
+            "en": "Tiny steps, but very determined — and barking at everyone"
+          },
+          "scores": {
+            "N": 1,
+            "E": 1,
+            "A": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Петляю: увидел(а) что-то интересное — свернул(а)",
+            "en": "Zigzagging: see something interesting — off I go"
+          },
+          "scores": {
+            "O": 2,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Не спеша, вразвалочку и с улыбкой",
+            "en": "Slowly, waddling, with a smile"
+          },
+          "scores": {
+            "E": -1,
+            "A": 1,
+            "N": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Друзья ценят тебя за…",
+        "en": "Friends value you for…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Верность: я всегда рядом",
+            "en": "Loyalty: I'm always there"
+          },
+          "scores": {
+            "A": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Позитив и энергию",
+            "en": "Positivity and energy"
+          },
+          "scores": {
+            "E": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Ум и находчивость",
+            "en": "Brains and resourcefulness"
+          },
+          "scores": {
+            "O": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Честность, даже неудобную",
+            "en": "Honesty, even when it's awkward"
+          },
+          "scores": {
+            "A": -1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Чуткость: я чувствую, когда кому-то плохо",
+            "en": "Sensitivity: I can tell when someone's hurting"
+          },
+          "scores": {
+            "N": 1,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Чувство юмора и умение не унывать",
+            "en": "My sense of humor and never losing heart"
+          },
+          "scores": {
+            "E": 1,
+            "N": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Твой девиз?",
+        "en": "Your motto?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "«Работа — лучший отдых»",
+            "en": "‘Work is the best rest’"
+          },
+          "scores": {
+            "C": 2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Ничего не боюсь. Ну, почти ничего»",
+            "en": "‘I fear nothing. Well, almost nothing’"
+          },
+          "scores": {
+            "N": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Сначала поспим, потом разберёмся»",
+            "en": "‘Nap first, figure it out later’"
+          },
+          "scores": {
+            "E": -1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Свобода превыше всего»",
+            "en": "‘Freedom above all’"
+          },
+          "scores": {
+            "C": -1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Вместе веселее»",
+            "en": "‘Better together’"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«Я сам(а) по себе»",
+            "en": "‘I walk alone’"
+          },
+          "scores": {
+            "A": -1,
+            "E": -1
+          }
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "golden",
+      "title": {
+        "ru": "Золотистый ретривер — солнышко в шерсти",
+        "en": "Golden Retriever — sunshine with fur"
+      },
+      "emoji": "🦮",
+      "profile": {
+        "E": 0.57,
+        "A": 0.56,
+        "C": 0.48,
+        "N": 0.35,
+        "O": 0.31
+      },
+      "summary": [
+        {
+          "ru": "Любишь всех, и все любят тебя",
+          "en": "You love everyone, and everyone loves you"
+        },
+        {
+          "ru": "Оптимизм, который не выключается",
+          "en": "Optimism with no off switch"
+        },
+        {
+          "ru": "Надёжный(ая) друг и командный игрок",
+          "en": "A dependable friend and team player"
+        },
+        {
+          "ru": "«Golden retriever energy» — это про тебя",
+          "en": "‘Golden retriever energy’ is literally you"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — золотистый ретривер: тёплый(ая), открытый(ая), надёжный(ая) и бесконечно позитивный(ая). Ты искренне радуешься людям, легко находишь общий язык с кем угодно и всегда готов(а) помочь. В интернете даже появилось выражение «энергия золотистого ретривера» — так называют людей, рядом с которыми всем хорошо.\n\nПо шкалам у тебя высокое дружелюбие, умеренная энергия, собранность и спокойствие. Morrill и коллеги (2022) нашли, что общительность с людьми — одна из самых наследуемых черт собак. Но и среди ретриверов бывают интроверты, ведь порода объясняет лишь около 9% поведения. Зона роста — говорить «нет» и не принимать чужое плохое настроение на свой счёт.",
+        "en": "You're a golden retriever: warm, open, reliable and endlessly positive. You genuinely light up around people, connect with anyone and are always ready to help. The internet even coined ‘golden retriever energy’ for people who make everyone feel good.\n\nOn our scales you're high on friendliness, with moderate energy, focus and calm. Morrill and colleagues (2022) found sociability with humans is among the most heritable dog traits — though there are introverted goldens too, since breed explains only about 9% of behavior. Growth zone: say ‘no’, and don't take others' bad moods personally."
+      },
+      "strengths": [
+        {
+          "ru": "Дружелюбие",
+          "en": "Friendliness"
+        },
+        {
+          "ru": "Оптимизм",
+          "en": "Optimism"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Говорить «нет»",
+          "en": "Say ‘no’"
+        },
+        {
+          "ru": "Не брать на себя чужие эмоции",
+          "en": "Don't absorb others' moods"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты здороваешься с курьером так радостно, что он начинает подозревать подвох",
+          "en": "You greet the delivery guy so happily he suspects a prank"
+        },
+        {
+          "ru": "Тебе сказали «молодец» — и ты счастлив(а) до конца недели",
+          "en": "Someone said ‘good job’ and you're happy for the rest of the week"
+        },
+        {
+          "ru": "Друг грустит — ты приносишь ему печенье, плед и мем. Именно в таком порядке",
+          "en": "Friend's sad — you bring cookies, a blanket and a meme. In that order"
+        },
+        {
+          "ru": "Мама: «Ты со всеми дружишь?» Ты: «А что, можно не со всеми?»",
+          "en": "Mom: ‘Are you friends with everyone?’ You: ‘Wait, that's optional?’"
+        }
+      ],
+      "compatibleWith": [
+        "corgi",
+        "bernese",
+        "border-collie"
+      ],
+      "imagePrompt": "A cute golden retriever puppy character with a huge happy smile and a tennis ball, fluffy golden fur and a wagging tail, little hearts around, soft pastel golden and cream tones, glossy flat-3D style, smooth butter-yellow to peach gradient background, minimal, no text"
+    },
+    {
+      "id": "border-collie",
+      "title": {
+        "ru": "Бордер-колли — гений-трудоголик",
+        "en": "Border Collie — the workaholic genius"
+      },
+      "emoji": "🐕",
+      "profile": {
+        "E": 0.59,
+        "A": 0.41,
+        "C": 0.5,
+        "N": 0.47,
+        "O": 0.42
+      },
+      "summary": [
+        {
+          "ru": "Умный(ая), быстрый(ая) и всегда в деле",
+          "en": "Smart, quick and always on the job"
+        },
+        {
+          "ru": "Без задачи начинаешь пасти людей",
+          "en": "Without a task, you start herding people"
+        },
+        {
+          "ru": "Схватываешь всё с полуслова",
+          "en": "You pick things up instantly"
+        },
+        {
+          "ru": "Отдых? А это какая команда?",
+          "en": "Rest? Which command is that?"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — бордер-колли: самая сообразительная и работоспособная «порода» в любом коллективе. Ты быстро учишься, обожаешь задачи и не можешь сидеть без дела. Если тебе нечем заняться, ты начинаешь организовывать всех вокруг: составлять планы, раздавать задания, «пасти» друзей на пути к цели.\n\nПо шкалам у тебя высокая энергия, собранность и любопытство плюс немного тревожности, ведь неидеальный результат тебя волнует. Morrill и коллеги (2022) нашли, что «biddability» (готовность выполнять команды) — одна из черт, которые сильнее всего различаются между породами. Пастушьи собаки по ней часто впереди. Зона роста — отдыхать, не чувствуя вины: даже лучшей пастушьей собаке нужно лежать на солнце.",
+        "en": "You're a border collie: the smartest, hardest-working ‘breed’ in any team. You learn fast, love tasks and can't sit idle. With nothing to do, you start organizing everyone — making plans, handing out jobs, ‘herding’ friends toward the goal.\n\nOn our scales you're high on energy, focus and curiosity, with a touch of worry because imperfect results bother you. Morrill and colleagues (2022) found ‘biddability’ (responsiveness to commands) is one of the traits that differ most between breeds — herding dogs often lead. Growth zone: rest without guilt. Even the best herding dog needs to lie in the sun."
+      },
+      "strengths": [
+        {
+          "ru": "Интеллект",
+          "en": "Intelligence"
+        },
+        {
+          "ru": "Трудолюбие",
+          "en": "Work ethic"
+        },
+        {
+          "ru": "Обучаемость",
+          "en": "Learning speed"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Отдыхать без чувства вины",
+          "en": "Rest without guilt"
+        },
+        {
+          "ru": "Не «пасти» тех, кто не просил",
+          "en": "Don't herd those who didn't ask"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "В отпуске ты составил(а) таблицу с маршрутом, бюджетом и графиком отдыха. Отдых — с 14:00 до 14:15",
+          "en": "On vacation you made a spreadsheet of routes, budget and rest periods. Rest: 2:00 to 2:15 pm"
+        },
+        {
+          "ru": "Друзья пошли гулять, а ты незаметно собрал(а) их в кучку и привёл(а) к цели",
+          "en": "Friends went for a walk; you quietly herded them together and led them to the destination"
+        },
+        {
+          "ru": "Ты выучил(а) новый язык, потому что «было скучно в выходные»",
+          "en": "You learned a new language because ‘the weekend was boring’"
+        },
+        {
+          "ru": "Начальник: «Можно не спешить». Ты: уже сделал(а) и ждёшь следующую задачу",
+          "en": "Boss: ‘No rush.’ You: already done, awaiting the next task"
+        }
+      ],
+      "compatibleWith": [
+        "german-shepherd",
+        "golden",
+        "poodle"
+      ],
+      "imagePrompt": "A cute black-and-white border collie character with bright focused eyes, holding a tiny clipboard, a few fluffy sheep in the background, soft pastel colors, glossy flat-3D style, smooth mint-to-sky-blue gradient background, minimal, no text"
+    },
+    {
+      "id": "corgi",
+      "title": {
+        "ru": "Корги — маленький босс с большим характером",
+        "en": "Corgi — a small boss with a big personality"
+      },
+      "emoji": "🍞",
+      "profile": {
+        "E": 0.58,
+        "A": 0.41,
+        "C": 0.41,
+        "N": 0.26,
+        "O": 0.41
+      },
+      "summary": [
+        {
+          "ru": "Уверенность выше роста",
+          "en": "Confidence taller than you are"
+        },
+        {
+          "ru": "Весёлый(ая), но с командирскими замашками",
+          "en": "Cheerful, with a commander's streak"
+        },
+        {
+          "ru": "Харизма, от которой невозможно отвести взгляд",
+          "en": "Charisma you can't look away from"
+        },
+        {
+          "ru": "Мемный(ая) — в лучшем смысле",
+          "en": "Meme-worthy — in the best way"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — корги: невысокий рост компенсируется огромной уверенностью в себе. Ты весёлый(ая), общительный(ая) и любопытный(ая), но при этом точно знаешь, кто здесь главный (ты). Ты не боишься ни критики, ни новых ситуаций: идёшь по жизни уверенной походкой, а все вокруг улыбаются.\n\nКорги — пастушья порода, поэтому у них есть привычка «управлять» другими. По шкалам у тебя эмоциональная устойчивость, энергия и любопытство без лишней сентиментальности. Это делает тебя прирождённым лидером компании. Зона роста — слушать других: иногда главный не тот, кто громче командует, а тот, кто лучше слышит.",
+        "en": "You're a corgi: short stature, colossal self-confidence. You're cheerful, sociable and curious — and you know exactly who's in charge (you). Neither criticism nor new situations faze you: you strut through life and everyone around smiles.\n\nCorgis are a herding breed, hence the habit of ‘managing’ others. On our scales you're emotionally steady, energetic and curious without excess sentimentality — a natural leader of the pack. Growth zone: listen to others. Sometimes the leader isn't the one who barks orders loudest, but the one who hears best."
+      },
+      "strengths": [
+        {
+          "ru": "Уверенность",
+          "en": "Confidence"
+        },
+        {
+          "ru": "Харизма",
+          "en": "Charisma"
+        },
+        {
+          "ru": "Стрессоустойчивость",
+          "en": "Stress resilience"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Слушать других",
+          "en": "Listen to others"
+        },
+        {
+          "ru": "Делиться лидерством",
+          "en": "Share the lead"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "У тебя короткие лапки, но ты всё равно приходишь первым(ой)",
+          "en": "Short legs, but somehow you always arrive first"
+        },
+        {
+          "ru": "Ты зашёл(шла) в комнату — и через минуту все делают то, что ты сказал(а)",
+          "en": "You walk into a room and a minute later everyone's doing what you said"
+        },
+        {
+          "ru": "Твоё фото с вечеринки — самое популярное, хотя ты просто стоял(а) и улыбался(лась)",
+          "en": "Your party photo gets the most likes, though you just stood there smiling"
+        },
+        {
+          "ru": "Бабушка: «Какой же ты батончик!» Ты: «Я лидер, бабуль». Бабушка: «Батончик-лидер»",
+          "en": "Grandma: ‘You're such a little loaf!’ You: ‘I'm a leader, Grandma.’ Grandma: ‘A little loaf leader’"
+        }
+      ],
+      "compatibleWith": [
+        "golden",
+        "husky",
+        "frenchie"
+      ],
+      "imagePrompt": "A cute corgi character with short legs, a fluffy bread-loaf-shaped bottom and a confident grin, wearing a tiny crown, soft pastel orange, cream and pink tones, glossy flat-3D style, smooth peach-to-lilac gradient background, minimal, no text"
+    },
+    {
+      "id": "shiba",
+      "title": {
+        "ru": "Шиба-ину — независимый философ",
+        "en": "Shiba Inu — the independent philosopher"
+      },
+      "emoji": "🦊",
+      "profile": {
+        "E": 0.41,
+        "A": 0.23,
+        "C": 0.33,
+        "N": 0.42,
+        "O": 0.42
+      },
+      "summary": [
+        {
+          "ru": "Ты сам(а) по себе — и тебе так нравится",
+          "en": "You walk alone — and you like it"
+        },
+        {
+          "ru": "Любовь надо заслужить",
+          "en": "Affection must be earned"
+        },
+        {
+          "ru": "Упрямство — твоя суперсила",
+          "en": "Stubbornness is your superpower"
+        },
+        {
+          "ru": "Немного кот в теле собаки",
+          "en": "A bit of a cat in a dog's body"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — шиба-ину: независимый(ая), гордый(ая) и немного загадочный(ая). Ты не бросаешься обниматься с первым встречным и не любишь, когда тобой командуют. Ты сам(а) решаешь, когда общаться, а когда нет. Зато если ты кого-то выбрал(а), то это навсегда, и человек об этом знает, хотя ты никогда не скажешь вслух.\n\nПо шкалам у тебя низкая потребность в близости с окружающими, своенравность и любопытство. В интернете шиба давно стала мемом, а её выражение морды — символом скептицизма. Помни: независимость — это ресурс, но иногда полезно сказать близким, что они тебе дороги. Просто так, без повода.",
+        "en": "You're a Shiba Inu: independent, proud and a little mysterious. You don't hug strangers and hate being bossed around; you decide when to socialize and when not to. But once you choose someone, it's forever — and they know it, even though you'll never say so.\n\nOn our scales you have a low need for closeness, a free will and curiosity. Online, the Shiba became a meme long ago, its expression a symbol of skepticism. Remember: independence is a resource, but sometimes tell your loved ones they matter — just because."
+      },
+      "strengths": [
+        {
+          "ru": "Независимость",
+          "en": "Independence"
+        },
+        {
+          "ru": "Самодостаточность",
+          "en": "Self-sufficiency"
+        },
+        {
+          "ru": "Честность",
+          "en": "Honesty"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Проявлять тёплые чувства",
+          "en": "Show warm feelings"
+        },
+        {
+          "ru": "Иногда уступать",
+          "en": "Compromise sometimes"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Тебя зовут — ты слышишь. Ты не идёшь. Ты обдумываешь, стоит ли",
+          "en": "Someone calls you. You hear them. You don't come. You're considering whether it's worth it"
+        },
+        {
+          "ru": "Твоё лицо, когда кто-то пытается обнять тебя без разрешения: 😐",
+          "en": "Your face when someone tries to hug you without asking: 😐"
+        },
+        {
+          "ru": "Ты любишь людей. Издалека. В разумных количествах",
+          "en": "You love people. From a distance. In reasonable amounts"
+        },
+        {
+          "ru": "Мама: «Позвони бабушке». Ты: «Позвоню, когда сам(а) решу». Звонишь через 5 минут",
+          "en": "Mom: ‘Call your grandma.’ You: ‘I'll call when I decide.’ You call five minutes later"
+        }
+      ],
+      "compatibleWith": [
+        "dachshund",
+        "greyhound",
+        "husky"
+      ],
+      "imagePrompt": "A cute Shiba Inu character sitting with a calm unimpressed side-eye expression and curled tail, holding a tiny cup of green tea, soft pastel orange, cream and sage tones, glossy flat-3D style, smooth sage-to-apricot gradient background, minimal, no text"
+    },
+    {
+      "id": "frenchie",
+      "title": {
+        "ru": "Французский бульдог — уютный комик",
+        "en": "French Bulldog — the cozy comedian"
+      },
+      "emoji": "🐾",
+      "profile": {
+        "E": 0.5,
+        "A": 0.57,
+        "C": 0.26,
+        "N": 0.42,
+        "O": 0.21
+      },
+      "summary": [
+        {
+          "ru": "Любишь людей, еду и диван — в любом порядке",
+          "en": "You love people, food and the couch — in any order"
+        },
+        {
+          "ru": "Смешной(ая) даже тогда, когда не стараешься",
+          "en": "Funny even when you're not trying"
+        },
+        {
+          "ru": "Правила? Какие правила?",
+          "en": "Rules? What rules?"
+        },
+        {
+          "ru": "Обнимашки — твой язык любви",
+          "en": "Cuddles are your love language"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — французский бульдог: уютный(ая), ласковый(ая) и очень смешной(ая). Ты обожаешь компанию любимых людей, вкусную еду и мягкий диван. Ты не гонишься за рекордами и не любишь строгих правил, зато умеешь сделать любой вечер тёплым и весёлым. Твоё выражение лица говорит больше тысячи слов.\n\nПо шкалам у тебя максимальное дружелюбие, свободный подход к правилам и любовь к простым радостям. Люди с таким профилем часто становятся «эмоциональной опорой» компании. Зона роста — немного дисциплины: режим и прогулки полезны не только бульдогам. Будильник — не враг, а друг, просто вы ещё не познакомились.",
+        "en": "You're a French bulldog: cozy, affectionate and very funny. You adore your favorite people, good food and a soft couch. You don't chase records or love strict rules, but you can make any evening warm and fun. Your facial expressions speak volumes.\n\nOn our scales you're maximally friendly, relaxed about rules and fond of simple pleasures. People with this profile often become the emotional anchor of their group. Growth zone: a bit of discipline — routines and walks aren't just for bulldogs. The alarm clock isn't your enemy; you just haven't been properly introduced."
+      },
+      "strengths": [
+        {
+          "ru": "Тепло",
+          "en": "Warmth"
+        },
+        {
+          "ru": "Юмор",
+          "en": "Humor"
+        },
+        {
+          "ru": "Умение наслаждаться жизнью",
+          "en": "Enjoying life"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Режим и движение",
+          "en": "Routine and movement"
+        },
+        {
+          "ru": "Доводить дела до конца",
+          "en": "Follow through"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты храпишь так мило, что тебя записывают на видео",
+          "en": "You snore so adorably people record it"
+        },
+        {
+          "ru": "Слово «вкусняшка» действует на тебя мгновенно, где бы ты ни находился(лась)",
+          "en": "The word ‘snack’ works on you instantly, wherever you are"
+        },
+        {
+          "ru": "Ты пытался(лась) пойти на пробежку, но по дороге встретил(а) друзей и кафе",
+          "en": "You tried to go for a run but met friends and a café on the way"
+        },
+        {
+          "ru": "Бабушка: «Ты похудел(а)!» Ты: «Нет». Бабушка: «Тогда съешь ещё»",
+          "en": "Grandma: ‘You've lost weight!’ You: ‘No.’ Grandma: ‘Then eat more’"
+        }
+      ],
+      "compatibleWith": [
+        "bernese",
+        "corgi",
+        "golden"
+      ],
+      "imagePrompt": "A cute French bulldog character with big bat ears and a goofy happy face, cuddling a tiny pillow on a couch with a snack nearby, soft pastel fawn, lilac and cream tones, glossy flat-3D style, smooth lavender-to-peach gradient background, minimal, no text"
+    },
+    {
+      "id": "husky",
+      "title": {
+        "ru": "Хаски — свободный дух и драма-квин",
+        "en": "Husky — free spirit and drama queen"
+      },
+      "emoji": "🐺",
+      "profile": {
+        "E": 0.6,
+        "A": 0.47,
+        "C": 0.31,
+        "N": 0.37,
+        "O": 0.44
+      },
+      "summary": [
+        {
+          "ru": "Энергии хватит на три упряжки",
+          "en": "Energy for three sled teams"
+        },
+        {
+          "ru": "Свобода превыше всего",
+          "en": "Freedom above all"
+        },
+        {
+          "ru": "Громко комментируешь всё, что происходит",
+          "en": "You loudly comment on everything"
+        },
+        {
+          "ru": "Обаятельный(ая) хулиган(ка)",
+          "en": "A charming troublemaker"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — хаски: свободолюбивый(ая), энергичный(ая) и невероятно харизматичный(ая). Ты обожаешь приключения, движение и новые места, а скука для тебя — худшее наказание. Ты дружелюбен(на) и общителен(на), но не любишь, когда тебя пытаются ограничить. Правила ты воспринимаешь как вызов. И да, у тебя есть мнение обо всём — и ты его озвучишь.\n\nПо шкалам у тебя высокая энергия, любопытство и своенравность. Ездовые собаки веками работали в команде на огромных дистанциях, поэтому им нужно много движения. Тебе, похоже, тоже. Зона роста — дисциплина и умение доводить дела до конца: свобода прекраснее, когда есть надёжная опора.",
+        "en": "You're a husky: freedom-loving, energetic and wildly charismatic. You adore adventures, movement and new places; boredom is the worst punishment. You're friendly and sociable but hate being fenced in — rules feel like a challenge. And yes, you have an opinion about everything, and you'll voice it.\n\nOn our scales you're high on energy, curiosity and free will. Sled dogs worked in teams over huge distances for centuries, so they need lots of exercise — and so, apparently, do you. Growth zone: discipline and follow-through. Freedom is sweeter with a solid foundation."
+      },
+      "strengths": [
+        {
+          "ru": "Энергия",
+          "en": "Energy"
+        },
+        {
+          "ru": "Любовь к приключениям",
+          "en": "Love of adventure"
+        },
+        {
+          "ru": "Харизма",
+          "en": "Charisma"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить дела до конца",
+          "en": "Finish what you start"
+        },
+        {
+          "ru": "Принимать разумные правила",
+          "en": "Accept sensible rules"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Тебе сказали «нет» — и ты произнёс(ла) драматичный монолог на 4 минуты",
+          "en": "Someone said ‘no’ and you delivered a four-minute dramatic monologue"
+        },
+        {
+          "ru": "Ты сбежал(а) с скучного мероприятия «на минутку» и вернулся(лась) через 3 часа с новыми друзьями",
+          "en": "You slipped out of a boring event ‘for a minute’ and returned three hours later with new friends"
+        },
+        {
+          "ru": "Твоя реакция на снег: «А-А-А-А, СНЕГ!»",
+          "en": "Your reaction to snow: ‘AAAAA, SNOW!’"
+        },
+        {
+          "ru": "Мама: «Ты можешь посидеть спокойно хоть минуту?» Ты: «А это как?»",
+          "en": "Mom: ‘Can you sit still for just one minute?’ You: ‘How does that work?’"
+        }
+      ],
+      "compatibleWith": [
+        "corgi",
+        "dachshund",
+        "shiba"
+      ],
+      "imagePrompt": "A cute fluffy husky character with striking blue eyes, mid-howl with a playful dramatic expression, snowflakes and a tiny sled around, soft pastel grey, white and icy-blue tones, glossy flat-3D style, smooth ice-blue to lilac gradient background, minimal, no text"
+    },
+    {
+      "id": "german-shepherd",
+      "title": {
+        "ru": "Немецкая овчарка — верный защитник",
+        "en": "German Shepherd — the loyal guardian"
+      },
+      "emoji": "🛡️",
+      "profile": {
+        "E": 0.5,
+        "A": 0.41,
+        "C": 0.63,
+        "N": 0.31,
+        "O": 0.17
+      },
+      "summary": [
+        {
+          "ru": "Надёжность уровня «скала»",
+          "en": "Reliability: rock-solid"
+        },
+        {
+          "ru": "Дисциплина и чувство долга",
+          "en": "Discipline and a sense of duty"
+        },
+        {
+          "ru": "Защищаешь своих без лишних слов",
+          "en": "You protect your people without fuss"
+        },
+        {
+          "ru": "Сначала оцениваешь, потом действуешь",
+          "en": "Assess first, act second"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — немецкая овчарка: собранный(ая), надёжный(ая) и преданный(ая). Ты всегда знаешь, где твои люди и всё ли с ними в порядке. Ты не тратишь энергию на пустую суету: сначала внимательно оцениваешь ситуацию, а потом действуешь чётко и спокойно. В кризис все смотрят на тебя.\n\nПо шкалам у тебя высокая собранность, спокойствие и прагматичность. Исследования поведения собак, в том числе по опроснику C-BARQ (Hsu и Serpell, 2003), включают такие черты, как обучаемость и реакцию на незнакомцев. Но и среди овчарок характеры сильно различаются. Зона роста — расслабляться: не каждая ситуация требует охраны периметра, иногда можно просто поиграть.",
+        "en": "You're a German shepherd: focused, reliable and devoted. You always know where your people are and whether they're okay. You don't waste energy on fuss: you size up the situation carefully, then act calmly and precisely. In a crisis, everyone looks to you.\n\nOn our scales you're high on focus, calm and pragmatism. Dog behavior research, including the C-BARQ questionnaire (Hsu & Serpell, 2003), covers traits like trainability and reactions to strangers — but shepherds vary widely too. Growth zone: relax. Not every situation calls for perimeter security; sometimes you can just play."
+      },
+      "strengths": [
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        },
+        {
+          "ru": "Самообладание",
+          "en": "Composure"
+        },
+        {
+          "ru": "Преданность",
+          "en": "Devotion"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Расслабляться",
+          "en": "Relax"
+        },
+        {
+          "ru": "Доверять другим",
+          "en": "Trust others"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты садишься в кафе так, чтобы видеть вход. Всегда",
+          "en": "You always sit facing the café entrance. Always"
+        },
+        {
+          "ru": "Друзья в походе спят, а ты «просто проверяешь» территорию в третий раз",
+          "en": "Friends are asleep on the camping trip; you're ‘just checking’ the perimeter for the third time"
+        },
+        {
+          "ru": "Ты знаешь, где лежат аптечка, огнетушитель и запасные ключи у всех друзей",
+          "en": "You know where all your friends keep their first-aid kit, fire extinguisher and spare keys"
+        },
+        {
+          "ru": "Мама: «Не волнуйся за нас». Ты: уже звонишь узнать, дошли ли они до дома",
+          "en": "Mom: ‘Don't worry about us.’ You: already calling to check they got home"
+        }
+      ],
+      "compatibleWith": [
+        "border-collie",
+        "golden",
+        "bernese"
+      ],
+      "imagePrompt": "A cute German shepherd character sitting proudly with alert ears and a calm protective expression, wearing a tiny hero cape, soft pastel tan, black and cream tones, glossy flat-3D style, smooth sky-blue to sand gradient background, minimal, no text"
+    },
+    {
+      "id": "chihuahua",
+      "title": {
+        "ru": "Чихуахуа — маленький, но громкий",
+        "en": "Chihuahua — tiny, but loud"
+      },
+      "emoji": "🌶️",
+      "profile": {
+        "E": 0.6,
+        "A": 0.31,
+        "C": 0.41,
+        "N": 0.63,
+        "O": 0.31
+      },
+      "summary": [
+        {
+          "ru": "Характер в 10 раз больше размера",
+          "en": "Personality ten times your size"
+        },
+        {
+          "ru": "Чувствуешь всё — и громко сообщаешь",
+          "en": "You feel everything — and announce it"
+        },
+        {
+          "ru": "Бесстрашный(ая)… почти всегда",
+          "en": "Fearless… almost always"
+        },
+        {
+          "ru": "Преданный(ая) своим до последнего",
+          "en": "Loyal to your people to the very end"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — чихуахуа: маленький, но очень смелый вулкан эмоций. Ты остро чувствуешь мир, быстро реагируешь и не стесняешься высказать мнение. Иногда громче, чем нужно. Внутри ты можешь волноваться, но это не мешает тебе защищать своих с бесстрашием льва. Для близких ты — самый преданный человек на свете.\n\nПо шкалам у тебя высокая чувствительность и энергия, а с незнакомцами — немного колючести. Чувствительность здесь не слабость: она помогает тебе замечать то, что другие пропускают. Зона роста — дыхание и паузы: не каждая тень за окном — угроза. Чем больше спокойных ритуалов и поддержки рядом, тем меньше поводов «гавкать».",
+        "en": "You're a chihuahua: a small but very brave volcano of emotions. You feel the world sharply, react fast and aren't shy about your opinions — sometimes louder than needed. You may be nervous inside, but that doesn't stop you defending your people with the courage of a lion. To loved ones you're the most devoted person alive.\n\nOn our scales you're high on sensitivity and energy, a bit prickly with strangers. Sensitivity isn't weakness here: it helps you notice what others miss. Growth zone: breathe and pause — not every shadow outside is a threat. The more calm rituals and support around you, the fewer reasons to bark."
+      },
+      "strengths": [
+        {
+          "ru": "Смелость",
+          "en": "Courage"
+        },
+        {
+          "ru": "Преданность",
+          "en": "Devotion"
+        },
+        {
+          "ru": "Чуткость",
+          "en": "Perceptiveness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Паузы перед реакцией",
+          "en": "Pause before reacting"
+        },
+        {
+          "ru": "Доверять новым людям",
+          "en": "Trust new people"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты возмущаешься на весь офис, что кто-то взял твою ручку. Ручка у тебя за ухом",
+          "en": "You protest to the whole office that someone took your pen. It's behind your ear"
+        },
+        {
+          "ru": "Ты защищаешь друга в споре так яростно, что друг уже сам извиняется",
+          "en": "You defend a friend in an argument so fiercely the friend starts apologizing"
+        },
+        {
+          "ru": "Твоё «я не волнуюсь» звучит на октаву выше обычного",
+          "en": "Your ‘I'm not nervous’ is an octave higher than usual"
+        },
+        {
+          "ru": "Бабушка: «Ой, какой маленький(ая)!» Ты: «Я НЕ МАЛЕНЬКИЙ(АЯ), Я КОМПАКТНЫЙ(АЯ)»",
+          "en": "Grandma: ‘Oh, how tiny!’ You: ‘I'M NOT TINY, I'M COMPACT’"
+        }
+      ],
+      "compatibleWith": [
+        "greyhound",
+        "poodle",
+        "frenchie"
+      ],
+      "imagePrompt": "A cute chihuahua character with huge ears and big expressive eyes, standing bravely on a cushion like a tiny hero, a little chili pepper beside it, soft pastel fawn, coral and cream tones, glossy flat-3D style, smooth coral-to-butter gradient background, minimal, no text"
+    },
+    {
+      "id": "dachshund",
+      "title": {
+        "ru": "Такса — упрямый исследователь",
+        "en": "Dachshund — the stubborn explorer"
+      },
+      "emoji": "🌭",
+      "profile": {
+        "E": 0.43,
+        "A": 0.35,
+        "C": 0.29,
+        "N": 0.48,
+        "O": 0.46
+      },
+      "summary": [
+        {
+          "ru": "Если что-то спрятано — ты найдёшь",
+          "en": "If something's hidden, you'll find it"
+        },
+        {
+          "ru": "Упрямство уровня «легенда»",
+          "en": "Legendary stubbornness"
+        },
+        {
+          "ru": "Суёшь любопытный нос во всё",
+          "en": "Your curious nose gets into everything"
+        },
+        {
+          "ru": "Делаешь по-своему — и обычно оказываешься прав(а)",
+          "en": "You do it your way — and usually you're right"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — такса: длинный нос, короткие лапы и бесконечное любопытство. Таксы были выведены для охоты на барсуков в норах, поэтому они смелые, упрямые и обожают копать. Ты такой(ая) же: если тебе интересно, ты докопаешься до сути, даже если все говорят «не надо». Ты делаешь всё по-своему, не любишь лишних указаний и очень ценишь свою свободу.\n\nПо шкалам у тебя высокое любопытство и своенравность, а к незнакомцам — лёгкая настороженность. Твой исследовательский азарт ведёт к открытиям, а упрямство помогает не сдаваться. Зона роста — гибкость: иногда чужой совет — это не покушение на свободу, а короткая дорога к цели.",
+        "en": "You're a dachshund: a long nose, short legs and infinite curiosity. Dachshunds were bred to hunt badgers in burrows, so they're brave, stubborn and love to dig. So are you: if something interests you, you'll dig to the bottom of it, even when everyone says ‘don't’. You do things your way, dislike instructions and treasure your freedom.\n\nOn our scales you're high on curiosity and free will, a little wary of strangers. Your exploratory drive leads to discoveries, and your stubbornness keeps you from quitting. Growth zone: flexibility — sometimes advice isn't an attack on your freedom but a shortcut to your goal."
+      },
+      "strengths": [
+        {
+          "ru": "Любопытство",
+          "en": "Curiosity"
+        },
+        {
+          "ru": "Упорство",
+          "en": "Persistence"
+        },
+        {
+          "ru": "Смелость",
+          "en": "Courage"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Принимать советы",
+          "en": "Accept advice"
+        },
+        {
+          "ru": "Менять планы без драмы",
+          "en": "Change plans without drama"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты нашёл(ла) потерянные ключи, старое письмо и секретную заначку сестры — за одну уборку",
+          "en": "You found the lost keys, an old letter and your sister's secret stash — in one cleaning session"
+        },
+        {
+          "ru": "Тебе сказали «нельзя». Ты услышал(а) «попробуй осторожно»",
+          "en": "Someone said ‘you can't’. You heard ‘try it carefully’"
+        },
+        {
+          "ru": "Ты полчаса гуглишь, откуда взялось слово «гугл»",
+          "en": "You spend half an hour googling where the word ‘Google’ came from"
+        },
+        {
+          "ru": "Бабушка: «Сосисочка моя!» Ты: «Я исследователь, бабуль!»",
+          "en": "Grandma: ‘My little sausage!’ You: ‘I'm an explorer, Grandma!’"
+        }
+      ],
+      "compatibleWith": [
+        "shiba",
+        "husky",
+        "poodle"
+      ],
+      "imagePrompt": "A cute long dachshund character with floppy ears, sniffing curiously with a tiny explorer hat and a magnifying glass, a little dug-up hole with a hidden treasure, soft pastel brown, cream and mint tones, glossy flat-3D style, smooth mint-to-cream gradient background, minimal, no text"
+    },
+    {
+      "id": "bernese",
+      "title": {
+        "ru": "Бернский зенненхунд — плюшевое спокойствие",
+        "en": "Bernese Mountain Dog — plush serenity"
+      },
+      "emoji": "🧸",
+      "profile": {
+        "E": 0.37,
+        "A": 0.54,
+        "C": 0.41,
+        "N": 0.29,
+        "O": 0.23
+      },
+      "summary": [
+        {
+          "ru": "Большое доброе сердце",
+          "en": "A big kind heart"
+        },
+        {
+          "ru": "Спокойствие, которое передаётся всем вокруг",
+          "en": "Calm that spreads to everyone"
+        },
+        {
+          "ru": "Не спешишь — и всё равно успеваешь главное",
+          "en": "You don't rush, yet get what matters done"
+        },
+        {
+          "ru": "Обнимаешь так, что все проблемы уменьшаются",
+          "en": "Your hugs make problems shrink"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — бернский зенненхунд: большой, пушистый и бесконечно добрый. Ты не любишь суету и шум, зато рядом с тобой всем спокойно и тепло. Ты умеешь слушать, обнимать и быть рядом, когда это нужно. Ты не гонишься за успехом и признанием: твоё счастье — в простых радостях, близких людях и неторопливых прогулках.\n\nПо шкалам у тебя высокое дружелюбие, спокойствие и низкая потребность в суете. Gosling и коллеги (2003) показали, что личность собак можно оценивать по тем же осям, что и человеческую. Спокойная доброжелательность — один из самых узнаваемых профилей. Зона роста — немного движения и новизны: даже самому уютному медведю полезно иногда сменить маршрут.",
+        "en": "You're a Bernese mountain dog: big, fluffy and endlessly kind. You dislike fuss and noise, but everyone feels calm and warm around you. You listen, hug and show up when it counts. You don't chase success or recognition: your happiness lives in simple joys, loved ones and leisurely walks.\n\nOn our scales you're high on friendliness and calm, low on hustle. Gosling and colleagues (2003) showed dog personality can be assessed on the same axes as human personality — and calm warmth is one of the most recognizable profiles. Growth zone: a bit more movement and novelty. Even the coziest bear benefits from a new route now and then."
+      },
+      "strengths": [
+        {
+          "ru": "Доброта",
+          "en": "Kindness"
+        },
+        {
+          "ru": "Спокойствие",
+          "en": "Calm"
+        },
+        {
+          "ru": "Умение утешать",
+          "en": "Comforting"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Больше движения",
+          "en": "More movement"
+        },
+        {
+          "ru": "Пробовать новое",
+          "en": "Try new things"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты пришёл(шла) на вечеринку, сел(а) в угол — и через час вокруг тебя уже уютный кружок людей",
+          "en": "You came to the party, sat in a corner — and an hour later there's a cozy circle around you"
+        },
+        {
+          "ru": "Твоё «я быстро» — это минут сорок, но никто не против",
+          "en": "Your ‘be right there’ means about forty minutes, but nobody minds"
+        },
+        {
+          "ru": "Дети и животные выбирают тебя из всей толпы. Каждый раз",
+          "en": "Kids and animals pick you out of any crowd. Every time"
+        },
+        {
+          "ru": "Мама: «Ты бы хоть иногда спешил(а)». Ты: «А зачем? Всё и так хорошо»",
+          "en": "Mom: ‘You could hurry up sometimes.’ You: ‘Why? Everything's fine’"
+        }
+      ],
+      "compatibleWith": [
+        "golden",
+        "frenchie",
+        "german-shepherd"
+      ],
+      "imagePrompt": "A cute fluffy Bernese mountain dog character with tricolor fur and a gentle sleepy smile, lying on a soft rug hugging a tiny teddy bear, soft pastel black, rust and cream tones, glossy flat-3D style, smooth cream-to-blush gradient background, minimal, no text"
+    },
+    {
+      "id": "poodle",
+      "title": {
+        "ru": "Пудель — элегантный интеллектуал",
+        "en": "Poodle — the elegant intellectual"
+      },
+      "emoji": "🎀",
+      "profile": {
+        "E": 0.5,
+        "A": 0.47,
+        "C": 0.53,
+        "N": 0.48,
+        "O": 0.39
+      },
+      "summary": [
+        {
+          "ru": "Ум, стиль и тонкая душа",
+          "en": "Brains, style and a sensitive soul"
+        },
+        {
+          "ru": "Схватываешь всё и любишь учиться",
+          "en": "You catch on fast and love to learn"
+        },
+        {
+          "ru": "Чувствуешь настроение людей",
+          "en": "You read people's moods"
+        },
+        {
+          "ru": "Причёска всегда идеальна (почти)",
+          "en": "Your hair is always perfect (almost)"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — пудель: умный(ая), изящный(ая) и чуткий(ая). Многие думают, что пудели — декоративные собачки, но изначально это энергичные водные собаки, очень сообразительные и обучаемые. Ты такой(ая) же: за безупречной внешностью скрываются острый ум, любопытство и тонкое понимание людей. Ты любишь учиться, красивые вещи и умные разговоры.\n\nПо шкалам у тебя высокое любопытство, собранность и дружелюбие плюс чувствительность. Ты остро реагируешь на атмосферу и чужие эмоции. Зона роста — не принимать всё близко к сердцу и не требовать от себя совершенства каждый день: иногда даже пуделю можно выйти на прогулку с растрёпанной чёлкой.",
+        "en": "You're a poodle: smart, graceful and perceptive. Many think poodles are decorative lapdogs, but they started as energetic water dogs, very clever and trainable. Same with you: behind a flawless exterior are a sharp mind, curiosity and a fine understanding of people. You love learning, beautiful things and smart conversations.\n\nOn our scales you're high on curiosity, focus and friendliness, plus sensitivity — you react keenly to atmosphere and others' feelings. Growth zone: don't take everything to heart or demand perfection daily. Even a poodle can go for a walk with messy bangs sometimes."
+      },
+      "strengths": [
+        {
+          "ru": "Интеллект",
+          "en": "Intelligence"
+        },
+        {
+          "ru": "Эстетическое чутьё",
+          "en": "Aesthetic sense"
+        },
+        {
+          "ru": "Эмпатия",
+          "en": "Empathy"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Не требовать от себя идеала",
+          "en": "Don't demand perfection"
+        },
+        {
+          "ru": "Меньше принимать на свой счёт",
+          "en": "Take things less personally"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты прочитал(а) инструкцию к новому гаджету целиком. И тебе понравилось",
+          "en": "You read the new gadget's entire manual. And enjoyed it"
+        },
+        {
+          "ru": "Ты выходишь за хлебом с идеальной укладкой. На всякий случай",
+          "en": "You go out for bread with perfect hair. Just in case"
+        },
+        {
+          "ru": "Друг сказал «ну ок» — и ты весь вечер анализируешь интонацию",
+          "en": "A friend texted ‘well ok’ and you spend the evening analyzing the tone"
+        },
+        {
+          "ru": "Бабушка: «Какой(ая) ты у нас культурный(ая)!» Ты: «Это не культура, это стиль, ба»",
+          "en": "Grandma: ‘You're so refined!’ You: ‘It's not refinement, it's style, Grandma’"
+        }
+      ],
+      "compatibleWith": [
+        "border-collie",
+        "chihuahua",
+        "dachshund"
+      ],
+      "imagePrompt": "A cute fluffy poodle character with elegant pom-pom curls and a tiny bow, reading a small book with a thoughtful sweet expression, soft pastel pink, lilac and white tones, glossy flat-3D style, smooth pink-to-lavender gradient background, minimal, no text"
+    },
+    {
+      "id": "greyhound",
+      "title": {
+        "ru": "Грейхаунд — нежный диванный спринтер",
+        "en": "Greyhound — the gentle couch sprinter"
+      },
+      "emoji": "💨",
+      "profile": {
+        "E": 0.32,
+        "A": 0.5,
+        "C": 0.41,
+        "N": 0.51,
+        "O": 0.31
+      },
+      "summary": [
+        {
+          "ru": "Можешь всё — но предпочитаешь полежать",
+          "en": "You can do anything — but you'd rather lie down"
+        },
+        {
+          "ru": "Нежный(ая), чуткий(ая), деликатный(ая)",
+          "en": "Gentle, sensitive and tactful"
+        },
+        {
+          "ru": "Короткий рывок, долгий отдых",
+          "en": "Short sprint, long rest"
+        },
+        {
+          "ru": "Тихий(ая), но очень преданный(ая)",
+          "en": "Quiet, but deeply devoted"
+        }
+      ],
+      "detailed": {
+        "ru": "Грейхаунды — одни из самых быстрых собак на планете, но дома их часто называют «диванными картошками»: короткий спринт — и долгий, заслуженный сон. Ты такой(ая) же. Ты способен(на) на мощный рывок, когда это действительно нужно, но в остальное время ценишь тишину, мягкий плед и близкого человека рядом. Ты деликатный(ая), чуткий(ая) и не любишь резких звуков и грубости.\n\nПо шкалам у тебя низкая потребность в суете, мягкость и чувствительность. Интроверсия и чуткость — не слабость, а особый способ быть в мире: ты замечаешь нюансы и бережёшь энергию для важного. Зона роста — говорить о своих потребностях вслух и не стесняться просить тишины, когда она нужна.",
+        "en": "Greyhounds are among the fastest dogs on Earth, yet at home they're often called ‘couch potatoes’: a short sprint, then a long, well-earned nap. That's you. You can produce a powerful burst when it really matters, but otherwise you treasure quiet, a soft blanket and someone dear nearby. You're tactful and sensitive, and you dislike harsh noises and rudeness.\n\nOn our scales you're low on hustle, gentle and sensitive. Introversion and sensitivity aren't weaknesses but a way of being: you notice nuances and save energy for what matters. Growth zone: voice your needs and don't be shy about asking for quiet when you need it."
+      },
+      "strengths": [
+        {
+          "ru": "Деликатность",
+          "en": "Tact"
+        },
+        {
+          "ru": "Чуткость",
+          "en": "Sensitivity"
+        },
+        {
+          "ru": "Умение собраться в нужный момент",
+          "en": "Rising to the moment"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Говорить о своих потребностях",
+          "en": "Voice your needs"
+        },
+        {
+          "ru": "Не бояться новых ситуаций",
+          "en": "Don't fear new situations"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты сделал(а) годовой проект за одну ночь, а потом спал(а) три дня",
+          "en": "You did a year's project in one night, then slept for three days"
+        },
+        {
+          "ru": "Твоя поза на диване не поддаётся законам анатомии",
+          "en": "Your couch pose defies the laws of anatomy"
+        },
+        {
+          "ru": "Громкий звук в соседней комнате — и ты уже под пледом",
+          "en": "A loud noise in the next room — and you're already under the blanket"
+        },
+        {
+          "ru": "Друзья: «Пошли гулять!» Ты: «Пошли. До соседнего дивана»",
+          "en": "Friends: ‘Let's go out!’ You: ‘Sure. To the next couch over’"
+        }
+      ],
+      "compatibleWith": [
+        "chihuahua",
+        "shiba",
+        "bernese"
+      ],
+      "imagePrompt": "A cute slender greyhound character curled up gracefully on a plush cushion with a soft shy smile, wearing a tiny cozy knitted sweater, little speed lines fading behind, soft pastel grey, lilac and pink tones, glossy flat-3D style, smooth dove-grey to lilac gradient background, minimal, no text"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ добавляет баллы к пяти шкалам: энергия (E), дружелюбие (A), послушание и собранность (C), чувствительность (N) и любопытство (O). Это те же измерения, которыми исследователи описывают личность и людей, и собак. Суммы приводятся к 0–1: (сумма − минимум) / (максимум − минимум). Затем выбирается порода, чей профиль ближе всего к твоему (евклидово расстояние). Профили откалиброваны так, чтобы при случайных ответах каждая из 12 пород выпадала примерно одинаково часто.",
+    "en": "Each answer adds points to five scales: energy (E), friendliness (A), focus and trainability (C), sensitivity (N) and curiosity (O) — the dimensions researchers use to describe both human and dog personality. Sums are rescaled to 0–1 as (sum − min) / (max − min), and you get the breed whose profile is closest to yours (Euclidean distance). Profiles were calibrated so all 12 breeds come up about equally often under random answering."
+  },
+  "resultIntro": {
+    "ru": "Гав! Наши эксперты (два корги и один кот-консультант) изучили твои ответы. Ты —",
+    "en": "Woof! Our experts (two corgis and one consulting cat) have reviewed your answers. You are…"
+  }
+}

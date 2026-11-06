@@ -1,0 +1,2900 @@
+{
+  "id": "superpower",
+  "category": "fun",
+  "kind": "choice",
+  "seriousness": "fun",
+  "title": {
+    "ru": "Какая у тебя суперсила?",
+    "en": "What is your superpower?"
+  },
+  "tagline": {
+    "ru": "Телепатия, управление временем или полёт? Узнай, какая сильная сторона характера — твоя суперспособность",
+    "en": "Telepathy, time control or flight? Find out which character strength is your superpower"
+  },
+  "description": {
+    "ru": "Позитивная психология выделяет 24 сильные стороны характера — от храбрости до благодарности. Мы превратили их в 12 суперспособностей. Пройди 16 ситуаций и узнай свою суперсилу, научную «изнанку» за ней и способ её прокачать.",
+    "en": "Positive psychology identifies 24 character strengths, from bravery to gratitude. We turned them into 12 superpowers. Go through 16 situations to find yours, the science behind it and how to level it up."
+  },
+  "emoji": "⚡",
+  "durationMin": 5,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "сильные стороны",
+      "en": "character strengths"
+    },
+    {
+      "ru": "позитивная психология",
+      "en": "positive psychology"
+    },
+    {
+      "ru": "суперсилы",
+      "en": "superpowers"
+    },
+    {
+      "ru": "развлечение",
+      "en": "fun"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что это за тест\nРазвлекательный тест по мотивам **классификации сильных сторон характера VIA** (Values in Action), созданной Кристофером Питерсоном и Мартином Селигманом (2004) — одного из центральных проектов позитивной психологии. В ней 24 сильные стороны сгруппированы в 6 добродетелей:\n\n| Добродетель | Сильные стороны |\n|---|---|\n| Мудрость и знание | креативность, любознательность, здравомыслие, любовь к учению, мудрость (перспектива) |\n| Мужество | храбрость, настойчивость, честность, жизнелюбие |\n| Человечность | любовь, доброта, социальный интеллект |\n| Справедливость | командная работа, справедливость, лидерство |\n| Умеренность | прощение, скромность, благоразумие, саморегуляция |\n| Трансцендентность | восприятие красоты, благодарность, надежда, юмор, духовность |\n\nКаждая «суперсила» — это метафора одной-двух сильных сторон: телепатия = социальный интеллект, управление временем = саморегуляция и настойчивость, полёт = надежда и жизнелюбие и т. д. 16 ситуаций начисляют баллы по шести добродетелям.\n\n### Научная основа\n- Питерсон и Селигман отбирали сильные стороны по критериям: ценятся в разных культурах, вносят вклад в благополучие, измеримы и проявляются в поведении.\n- В исследовании Парка, Питерсона и Селигмана (2004) сильнее всего с удовлетворённостью жизнью были связаны надежда, жизнелюбие, благодарность, любовь и любознательность.\n- Сильные стороны частично пересекаются с «Большой пятёркой»: жизнелюбие и надежда — с «живой» гранью экстраверсии, доброта и прощение — с доброжелательностью, настойчивость и саморегуляция — с добросовестностью, креативность и восприятие красоты — с открытостью; но большинство сильных сторон несут и свою собственную информацию (McGrath et al., 2020).\n- Упражнение «используй свою сильную сторону по-новому каждый день в течение недели» в эксперименте Селигмана и коллег (2005) повышало уровень счастья и снижало симптомы депрессии на протяжении шести месяцев.\n\n### Честные ограничения\n- Шесть добродетелей — теоретическая группировка; факторный анализ ответов на опросник VIA-IS обычно находит меньше факторов (например, McGrath, 2015 — три-пять). Мы используем шесть добродетелей как понятную рамку, а не как измеренную структуру.\n- Это **не** официальный опросник VIA-IS: его вопросы защищены авторским правом и здесь не используются. Все вопросы оригинальные; надёжность не измерялась. Пройти научную версию можно на сайте VIA Institute on Character.\n\n### Как считается результат\nКаждый вариант связан с одной суперсилой и даёт 2 балла её главной добродетели и 1 балл второй. Суммы по шести добродетелям переводятся в шкалу 0–1, и выбирается суперсила с ближайшим профилем (евклидово расстояние). Профили откалиброваны симуляцией, чтобы все 12 суперсил выпадали примерно одинаково часто.",
+    "en": "### What this quiz is\nAn entertainment quiz based on the **VIA classification of character strengths** (Values in Action) created by Christopher Peterson and Martin Seligman (2004), one of the core projects of positive psychology. It groups 24 strengths into 6 virtues:\n\n| Virtue | Strengths |\n|---|---|\n| Wisdom & knowledge | creativity, curiosity, judgment, love of learning, perspective |\n| Courage | bravery, perseverance, honesty, zest |\n| Humanity | love, kindness, social intelligence |\n| Justice | teamwork, fairness, leadership |\n| Temperance | forgiveness, humility, prudence, self-regulation |\n| Transcendence | appreciation of beauty, gratitude, hope, humour, spirituality |\n\nEach \"superpower\" is a metaphor for one or two strengths: telepathy = social intelligence, time control = self-regulation and perseverance, flight = hope and zest, and so on. 16 situations add points on the six virtues.\n\n### Scientific grounding\n- Peterson and Seligman selected strengths using criteria such as being valued across cultures, contributing to fulfilment, being measurable and showing up in behaviour.\n- Park, Peterson and Seligman (2004) found hope, zest, gratitude, love and curiosity to be the strengths most strongly associated with life satisfaction.\n- Strengths partly overlap with the Big Five: zest and hope with the lively facet of extraversion, kindness and forgiveness with agreeableness, perseverance and self-regulation with conscientiousness, creativity and appreciation of beauty with openness; but most strengths also carry information of their own (McGrath et al., 2020).\n- In an experiment by Seligman and colleagues (2005), using a signature strength in a new way every day for a week increased happiness and reduced depressive symptoms for six months.\n\n### Honest limitations\n- The six virtues are a theoretical grouping; factor analyses of the VIA-IS usually find fewer factors (e.g., McGrath, 2015, three to five). We use the six virtues as a clear framework, not as a measured structure.\n- This is **not** the official VIA-IS questionnaire; its items are copyrighted and not used here. All questions are original and reliability has not been measured. The scientific version is available from the VIA Institute on Character.\n\n### How the result is computed\nEach option is linked to one superpower and gives 2 points to its main virtue and 1 point to its second virtue. The six totals are rescaled to 0–1, and you get the superpower with the nearest profile (Euclidean distance). Profiles were calibrated by simulation so all 12 superpowers come up about equally often."
+  },
+  "sources": [
+    {
+      "citation": "Peterson, C., & Seligman, M. E. P. (2004). Character strengths and virtues: A handbook and classification. Washington, DC: American Psychological Association / New York: Oxford University Press."
+    },
+    {
+      "citation": "Park, N., Peterson, C., & Seligman, M. E. P. (2004). Strengths of character and well-being. Journal of Social and Clinical Psychology, 23(5), 603–619.",
+      "doi": "10.1521/jscp.23.5.603.50748"
+    },
+    {
+      "citation": "Seligman, M. E. P., Steen, T. A., Park, N., & Peterson, C. (2005). Positive psychology progress: Empirical validation of interventions. American Psychologist, 60(5), 410–421.",
+      "doi": "10.1037/0003-066X.60.5.410"
+    },
+    {
+      "citation": "McGrath, R. E., Hall-Simmonds, A., & Goldberg, L. R. (2020). Are measures of character and personality distinct? Evidence from observed-score and true-score analyses. Assessment, 27(1), 117–135 (online first 2017).",
+      "doi": "10.1177/1073191117738047"
+    },
+    {
+      "citation": "McGrath, R. E. (2015). Integrating psychological and cultural perspectives on virtue: The hierarchical structure of character strengths. The Journal of Positive Psychology, 10(5), 407–424.",
+      "doi": "10.1080/17439760.2014.994222"
+    },
+    {
+      "citation": "Noftle, E. E., Schug, J., & Robins, R. W. (2011). Character and personality: Connections between positive psychology and personality psychology. In K. M. Sheldon, T. B. Kashdan, & M. F. Steger (Eds.), Designing positive psychology: Taking stock and moving forward (pp. 207–227). New York: Oxford University Press."
+    },
+    {
+      "citation": "Exline, J. J., & Hill, P. C. (2012). Humility: A consistent and robust predictor of generosity. The Journal of Positive Psychology, 7(3), 208–218.",
+      "doi": "10.1080/17439760.2012.671348"
+    },
+    {
+      "citation": "VIA Institute on Character. The VIA Classification of Character Strengths and Virtues.",
+      "url": "https://viacharacter.org/pdf/VirtuesClassification-2020.pdf"
+    }
+  ],
+  "license": "Original content written for testik. The VIA classification (names of the 24 strengths and 6 virtues) is described and cited as a scientific framework; no VIA-IS items or VIA Institute materials are reproduced. The quiz is not affiliated with or endorsed by the VIA Institute on Character.",
+  "disclaimer": {
+    "ru": "Развлекательный тест по мотивам классификации VIA. Это не официальный опросник VIA-IS и не психологическая диагностика.",
+    "en": "Entertainment quiz inspired by the VIA classification. It is not the official VIA-IS questionnaire and not a psychological assessment."
+  },
+  "instructions": {
+    "ru": "Представь себя в каждой ситуации и выбери то, что ты сделаешь на самом деле. Здесь нет плохих ответов — у каждой суперсилы свои сильные стороны.",
+    "en": "Picture yourself in each situation and choose what you would really do. There are no bad answers; every superpower has its own strengths."
+  },
+  "dimensions": [
+    {
+      "id": "wisdom",
+      "name": {
+        "ru": "Мудрость и знание",
+        "en": "Wisdom & knowledge"
+      },
+      "description": {
+        "ru": "Креативность, любознательность, здравомыслие, любовь к учению и умение видеть картину целиком.",
+        "en": "Creativity, curiosity, judgment, love of learning and seeing the big picture."
+      },
+      "lowLabel": {
+        "ru": "практика",
+        "en": "hands-on"
+      },
+      "highLabel": {
+        "ru": "идеи, знания",
+        "en": "ideas, knowledge"
+      },
+      "color": "#C9B6F2",
+      "scoring": "sum",
+      "min": 0,
+      "max": 32,
+      "bands": [
+        {
+          "min": 0,
+          "max": 10,
+          "label": {
+            "ru": "Практик",
+            "en": "Practitioner"
+          },
+          "summary": [
+            {
+              "ru": "Лучше сделать, чем обсуждать",
+              "en": "Doing beats debating"
+            },
+            {
+              "ru": "Знания — когда нужны",
+              "en": "Knowledge on demand"
+            },
+            {
+              "ru": "Опора на опыт",
+              "en": "You rely on experience"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты предпочитаешь действовать, а не теоретизировать. Иногда стоит дать любопытству немного больше места.",
+            "en": "You prefer acting over theorising. Sometimes give curiosity a little more room."
+          }
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "label": {
+            "ru": "Любопытный реалист",
+            "en": "Curious realist"
+          },
+          "summary": [
+            {
+              "ru": "Интересуешься, но без фанатизма",
+              "en": "Interested, not obsessed"
+            },
+            {
+              "ru": "Совмещаешь идеи и дело",
+              "en": "You mix ideas and action"
+            },
+            {
+              "ru": "Умеешь учиться",
+              "en": "You know how to learn"
+            }
+          ],
+          "detailed": {
+            "ru": "Знания и идеи для тебя важны, когда помогают в реальной жизни.",
+            "en": "Knowledge and ideas matter to you when they help in real life."
+          }
+        },
+        {
+          "min": 22,
+          "max": 32,
+          "label": {
+            "ru": "Искатель знаний",
+            "en": "Knowledge seeker"
+          },
+          "summary": [
+            {
+              "ru": "Любопытство без границ",
+              "en": "Boundless curiosity"
+            },
+            {
+              "ru": "Нестандартные решения",
+              "en": "Unconventional solutions"
+            },
+            {
+              "ru": "К тебе идут за советом",
+              "en": "People ask your advice"
+            }
+          ],
+          "detailed": {
+            "ru": "Сильные стороны мудрости — твоя опора. Делись ими простыми словами.",
+            "en": "Wisdom strengths are your backbone. Share them in plain words."
+          }
+        }
+      ]
+    },
+    {
+      "id": "courage",
+      "name": {
+        "ru": "Мужество",
+        "en": "Courage"
+      },
+      "description": {
+        "ru": "Храбрость, настойчивость, честность и жизнелюбие — умение действовать вопреки трудностям.",
+        "en": "Bravery, perseverance, honesty and zest: acting despite obstacles."
+      },
+      "lowLabel": {
+        "ru": "осторожность",
+        "en": "caution"
+      },
+      "highLabel": {
+        "ru": "смелость, драйв",
+        "en": "bravery, drive"
+      },
+      "color": "#FFC3A0",
+      "scoring": "sum",
+      "min": 0,
+      "max": 24,
+      "bands": [
+        {
+          "min": 0,
+          "max": 8,
+          "label": {
+            "ru": "Осторожный стратег",
+            "en": "Careful strategist"
+          },
+          "summary": [
+            {
+              "ru": "Не рискуешь понапрасну",
+              "en": "No needless risks"
+            },
+            {
+              "ru": "Сначала безопасность",
+              "en": "Safety first"
+            },
+            {
+              "ru": "Бережёшь силы",
+              "en": "You save your energy"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты избегаешь лишнего риска. Иногда маленький смелый шаг даёт больше, чем кажется.",
+            "en": "You avoid unnecessary risks. Sometimes a small brave step pays off more than you think."
+          }
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "label": {
+            "ru": "Смелость по делу",
+            "en": "Brave when it counts"
+          },
+          "summary": [
+            {
+              "ru": "Рискуешь ради важного",
+              "en": "You risk for what matters"
+            },
+            {
+              "ru": "Умеешь настоять на своём",
+              "en": "You can stand your ground"
+            },
+            {
+              "ru": "Баланс энергии",
+              "en": "Balanced energy"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты можешь проявить мужество, когда это действительно нужно.",
+            "en": "You can show courage when it truly matters."
+          }
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "label": {
+            "ru": "Отважное сердце",
+            "en": "Brave heart"
+          },
+          "summary": [
+            {
+              "ru": "Действуешь вопреки страху",
+              "en": "You act despite fear"
+            },
+            {
+              "ru": "Не сдаёшься",
+              "en": "You never give up"
+            },
+            {
+              "ru": "Говоришь правду",
+              "en": "You tell the truth"
+            }
+          ],
+          "detailed": {
+            "ru": "Мужество — твоя сильная сторона. Помни, что смелость включает и право отдохнуть.",
+            "en": "Courage is your strength. Remember that bravery includes the right to rest."
+          }
+        }
+      ]
+    },
+    {
+      "id": "humanity",
+      "name": {
+        "ru": "Человечность",
+        "en": "Humanity"
+      },
+      "description": {
+        "ru": "Любовь, доброта и социальный интеллект — сильные стороны близких отношений.",
+        "en": "Love, kindness and social intelligence: the strengths of close relationships."
+      },
+      "lowLabel": {
+        "ru": "независимость",
+        "en": "independence"
+      },
+      "highLabel": {
+        "ru": "тепло, эмпатия",
+        "en": "warmth, empathy"
+      },
+      "color": "#F7B8C8",
+      "scoring": "sum",
+      "min": 0,
+      "max": 32,
+      "bands": [
+        {
+          "min": 0,
+          "max": 10,
+          "label": {
+            "ru": "Самостоятельный",
+            "en": "Self-reliant"
+          },
+          "summary": [
+            {
+              "ru": "Ценишь личное пространство",
+              "en": "You value your space"
+            },
+            {
+              "ru": "Не навязываешь помощь",
+              "en": "You do not force help"
+            },
+            {
+              "ru": "Дружба — избирательно",
+              "en": "Selective friendships"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты проявляешь заботу сдержанно. Иногда одно тёплое слово значит очень много.",
+            "en": "You show care in a reserved way. Sometimes one warm word means a lot."
+          }
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "label": {
+            "ru": "Тёплый реалист",
+            "en": "Warm realist"
+          },
+          "summary": [
+            {
+              "ru": "Помогаешь, когда нужно",
+              "en": "You help when needed"
+            },
+            {
+              "ru": "Чувствуешь людей",
+              "en": "You read people"
+            },
+            {
+              "ru": "Помнишь о себе",
+              "en": "You remember yourself"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты заботишься о людях и при этом держишь баланс.",
+            "en": "You are kind to people while keeping a balance."
+          }
+        },
+        {
+          "min": 22,
+          "max": 32,
+          "label": {
+            "ru": "Большое сердце",
+            "en": "Big heart"
+          },
+          "summary": [
+            {
+              "ru": "Эмпатия и доброта",
+              "en": "Empathy and kindness"
+            },
+            {
+              "ru": "Близкие отношения — главное",
+              "en": "Close bonds come first"
+            },
+            {
+              "ru": "Тонко чувствуешь других",
+              "en": "You sense others deeply"
+            }
+          ],
+          "detailed": {
+            "ru": "Человечность — твоя суперсила. Не забывай направлять её и на себя.",
+            "en": "Humanity is your superpower. Remember to point it at yourself too."
+          }
+        }
+      ]
+    },
+    {
+      "id": "justice",
+      "name": {
+        "ru": "Справедливость",
+        "en": "Justice"
+      },
+      "description": {
+        "ru": "Командная работа, справедливость и лидерство — сильные стороны жизни в сообществе.",
+        "en": "Teamwork, fairness and leadership: the strengths of community life."
+      },
+      "lowLabel": {
+        "ru": "свой путь",
+        "en": "own path"
+      },
+      "highLabel": {
+        "ru": "команда, честность",
+        "en": "team, fairness"
+      },
+      "color": "#A8E0C8",
+      "scoring": "sum",
+      "min": 0,
+      "max": 32,
+      "bands": [
+        {
+          "min": 0,
+          "max": 10,
+          "label": {
+            "ru": "Одиночка",
+            "en": "Lone wolf"
+          },
+          "summary": [
+            {
+              "ru": "Предпочитаешь свой путь",
+              "en": "You prefer your own path"
+            },
+            {
+              "ru": "Не любишь собрания",
+              "en": "Meetings are not your thing"
+            },
+            {
+              "ru": "Независимость важнее",
+              "en": "Independence first"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебе комфортнее действовать самостоятельно. Иногда команда может удивить.",
+            "en": "You are more comfortable acting alone. Sometimes a team can surprise you."
+          }
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "label": {
+            "ru": "Надёжный участник",
+            "en": "Reliable member"
+          },
+          "summary": [
+            {
+              "ru": "Умеешь работать в команде",
+              "en": "You can work in a team"
+            },
+            {
+              "ru": "Честность с людьми",
+              "en": "You are fair with people"
+            },
+            {
+              "ru": "Лидируешь по ситуации",
+              "en": "You lead when needed"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты хороший член команды и при необходимости можешь её повести.",
+            "en": "You are a good team member and can lead when needed."
+          }
+        },
+        {
+          "min": 22,
+          "max": 32,
+          "label": {
+            "ru": "Защитник команды",
+            "en": "Team guardian"
+          },
+          "summary": [
+            {
+              "ru": "Мы важнее, чем я",
+              "en": "\"We\" over \"me\""
+            },
+            {
+              "ru": "Честность для всех",
+              "en": "Fairness for all"
+            },
+            {
+              "ru": "Естественное лидерство",
+              "en": "Natural leadership"
+            }
+          ],
+          "detailed": {
+            "ru": "Справедливость — твоя сильная сторона. Береги силы и делегируй.",
+            "en": "Justice is your strength. Save your energy and delegate."
+          }
+        }
+      ]
+    },
+    {
+      "id": "temperance",
+      "name": {
+        "ru": "Умеренность",
+        "en": "Temperance"
+      },
+      "description": {
+        "ru": "Прощение, скромность, благоразумие и саморегуляция — сильные стороны, которые защищают от крайностей.",
+        "en": "Forgiveness, humility, prudence and self-regulation: strengths that protect against excess."
+      },
+      "lowLabel": {
+        "ru": "спонтанность",
+        "en": "spontaneity"
+      },
+      "highLabel": {
+        "ru": "самоконтроль",
+        "en": "self-control"
+      },
+      "color": "#A9D2F5",
+      "scoring": "sum",
+      "min": 0,
+      "max": 32,
+      "bands": [
+        {
+          "min": 0,
+          "max": 10,
+          "label": {
+            "ru": "Спонтанность",
+            "en": "Spontaneous"
+          },
+          "summary": [
+            {
+              "ru": "Живёшь моментом",
+              "en": "You live in the moment"
+            },
+            {
+              "ru": "Импульсы — двигатель",
+              "en": "Impulses drive you"
+            },
+            {
+              "ru": "Правила — не про тебя",
+              "en": "Rules are not your thing"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты действуешь по настроению. Одна маленькая привычка самоконтроля может многое изменить.",
+            "en": "You act on mood. One small self-control habit can change a lot."
+          }
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "label": {
+            "ru": "Разумный баланс",
+            "en": "Sensible balance"
+          },
+          "summary": [
+            {
+              "ru": "Умеешь остановиться",
+              "en": "You know when to stop"
+            },
+            {
+              "ru": "Прощаешь, но помнишь",
+              "en": "You forgive but remember"
+            },
+            {
+              "ru": "Спонтанность в меру",
+              "en": "Spontaneity in moderation"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты держишь баланс между свободой и самоконтролем.",
+            "en": "You keep a balance between freedom and self-control."
+          }
+        },
+        {
+          "min": 22,
+          "max": 32,
+          "label": {
+            "ru": "Мастер самоконтроля",
+            "en": "Self-control master"
+          },
+          "summary": [
+            {
+              "ru": "Сила воли",
+              "en": "Willpower"
+            },
+            {
+              "ru": "Скромность и такт",
+              "en": "Humility and tact"
+            },
+            {
+              "ru": "Думаешь, прежде чем действовать",
+              "en": "You think before acting"
+            }
+          ],
+          "detailed": {
+            "ru": "Умеренность — твоя опора. Позволяй себе иногда расслабиться.",
+            "en": "Temperance is your anchor. Let yourself relax sometimes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "transcendence",
+      "name": {
+        "ru": "Трансцендентность",
+        "en": "Transcendence"
+      },
+      "description": {
+        "ru": "Восприятие красоты, благодарность, надежда, юмор и духовность — связь с чем-то бо́льшим.",
+        "en": "Appreciation of beauty, gratitude, hope, humour and spirituality: connection to something larger."
+      },
+      "lowLabel": {
+        "ru": "приземлённость",
+        "en": "down-to-earth"
+      },
+      "highLabel": {
+        "ru": "смысл, вдохновение",
+        "en": "meaning, inspiration"
+      },
+      "color": "#FFE3A3",
+      "scoring": "sum",
+      "min": 0,
+      "max": 32,
+      "bands": [
+        {
+          "min": 0,
+          "max": 10,
+          "label": {
+            "ru": "Приземлённый",
+            "en": "Down-to-earth"
+          },
+          "summary": [
+            {
+              "ru": "Факты важнее смыслов",
+              "en": "Facts over meanings"
+            },
+            {
+              "ru": "Без лишней романтики",
+              "en": "No extra romance"
+            },
+            {
+              "ru": "Здесь и сейчас",
+              "en": "Here and now"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты смотришь на жизнь трезво. Попробуй иногда замечать маленькие чудеса — это заряжает.",
+            "en": "You see life soberly. Try noticing small wonders sometimes; it recharges you."
+          }
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "label": {
+            "ru": "Вдохновение по случаю",
+            "en": "Occasional inspiration"
+          },
+          "summary": [
+            {
+              "ru": "Умеешь радоваться",
+              "en": "You can enjoy things"
+            },
+            {
+              "ru": "Надежда — по ситуации",
+              "en": "Hope when it fits"
+            },
+            {
+              "ru": "Юмор в запасе",
+              "en": "Humour in reserve"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь находить смысл и красоту, когда есть время остановиться.",
+            "en": "You find meaning and beauty when you have time to pause."
+          }
+        },
+        {
+          "min": 22,
+          "max": 32,
+          "label": {
+            "ru": "Источник света",
+            "en": "Source of light"
+          },
+          "summary": [
+            {
+              "ru": "Благодарность и надежда",
+              "en": "Gratitude and hope"
+            },
+            {
+              "ru": "Видишь красоту и смысл",
+              "en": "You see beauty and meaning"
+            },
+            {
+              "ru": "Вдохновляешь других",
+              "en": "You inspire others"
+            }
+          ],
+          "detailed": {
+            "ru": "Трансцендентность — твоя суперсила. Подкрепляй вдохновение действием.",
+            "en": "Transcendence is your superpower. Back inspiration with action."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Утро понедельника, всё валится из рук. Как ты спасаешь день?",
+        "en": "Monday morning and everything is going wrong. How do you save the day?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Составляю план по пунктам и иду по нему, не отвлекаясь",
+            "en": "Write a step-by-step plan and follow it without distraction"
+          },
+          "scores": {
+            "temperance": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Замечаю, что коллегам тоже тяжело, и зову всех за кофе",
+            "en": "Notice my colleagues are struggling too and invite everyone for coffee"
+          },
+          "scores": {
+            "humanity": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Беру самую неприятную задачу и делаю её первой — дальше легче",
+            "en": "Take the nastiest task and do it first. It gets easier from there"
+          },
+          "scores": {
+            "courage": 2,
+            "justice": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Превращаю хаос в игру: придумываю, как сделать скучное смешным",
+            "en": "Turn the chaos into a game and find a way to make boring things funny"
+          },
+          "scores": {
+            "wisdom": 2,
+            "transcendence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Собираю команду и честно делю задачи, чтобы никто не тонул в одиночку",
+            "en": "Gather the team and split tasks fairly so nobody drowns alone"
+          },
+          "scores": {
+            "justice": 2,
+            "humanity": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Нахожу пять минут посмотреть на небо и вспомнить, что в жизни есть хорошего",
+            "en": "Take five minutes to look at the sky and remember what is good in life"
+          },
+          "scores": {
+            "transcendence": 2,
+            "humanity": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "У тебя свободный день в незнакомом городе.",
+        "en": "You have a free day in an unfamiliar city."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Хочу всё и сразу: рынок, крыши, странные музеи и местная еда",
+            "en": "I want it all: the market, rooftops, weird museums and local food"
+          },
+          "scores": {
+            "wisdom": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Встаю на рассвете и иду туда, откуда виден весь город",
+            "en": "Get up at dawn and head to a spot where you can see the whole city"
+          },
+          "scores": {
+            "transcendence": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Заранее читаю об истории города, чтобы понимать, что вижу",
+            "en": "Read up on the city's history first, so I understand what I am seeing"
+          },
+          "scores": {
+            "wisdom": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Звоню близким по видео и показываю всё — радость нужно делить",
+            "en": "Video-call my loved ones and show them everything. Joy is for sharing"
+          },
+          "scores": {
+            "humanity": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Брожу без цели, сливаюсь с местными и наблюдаю за жизнью",
+            "en": "Wander aimlessly, blend in with the locals and watch life go by"
+          },
+          "scores": {
+            "temperance": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Собираю попутчиков из хостела и веду всех на прогулку",
+            "en": "Round up people from the hostel and lead everyone on a walk"
+          },
+          "scores": {
+            "justice": 2,
+            "courage": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "В общем чате начинают высмеивать одного человека.",
+        "en": "People in a group chat start mocking someone."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Прямо пишу: «Хватит, это не смешно» — даже если окажусь в меньшинстве",
+            "en": "Write straight out: \"Stop, this isn't funny\", even if I end up in the minority"
+          },
+          "scores": {
+            "courage": 2,
+            "justice": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу этому человеку в личку: «Ты как? Я на твоей стороне»",
+            "en": "Message that person privately: \"Are you okay? I'm on your side\""
+          },
+          "scores": {
+            "humanity": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Меняю тему и задаю чату новый тон — за мной обычно подтягиваются",
+            "en": "Change the subject and set a new tone. People usually follow my lead"
+          },
+          "scores": {
+            "justice": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Прикидываю, к чему это приведёт, и спокойно объясняю, почему так не стоит",
+            "en": "Think through where this is heading and calmly explain why it is a bad idea"
+          },
+          "scores": {
+            "wisdom": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Не устраиваю сцен, но тихо сообщаю тому, кто может это остановить",
+            "en": "Avoid a scene, but quietly tell someone who can put a stop to it"
+          },
+          "scores": {
+            "temperance": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Напоминаю всем, что за экраном живой человек, и пишу о нём что-то хорошее",
+            "en": "Remind everyone there is a real person behind the screen and say something nice about them"
+          },
+          "scores": {
+            "transcendence": 2,
+            "humanity": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Внезапно выпала целая свободная неделя.",
+        "en": "You suddenly get a whole free week."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Навещаю бабушку, друзей и всех, по кому соскучилась душа",
+            "en": "Visit grandma, friends and everyone my heart has been missing"
+          },
+          "scores": {
+            "humanity": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Наконец-то закрываю все хвосты и запускаю новую полезную привычку",
+            "en": "Finally clear my backlog and start a new healthy habit"
+          },
+          "scores": {
+            "temperance": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Покупаю билет в страну, где ещё ни разу не было моих ног",
+            "en": "Buy a ticket to a country I have never set foot in"
+          },
+          "scores": {
+            "wisdom": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Пробую себя в новом: импровизация, гончарка, диджеинг",
+            "en": "Try something new: improv, pottery, DJing"
+          },
+          "scores": {
+            "wisdom": 2,
+            "transcendence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Помогаю волонтёрам или соседям с общим делом",
+            "en": "Help volunteers or neighbours with a shared project"
+          },
+          "scores": {
+            "justice": 2,
+            "humanity": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Мечтаю по-крупному и рисую карту желаний на год вперёд",
+            "en": "Dream big and draw a vision board for the year ahead"
+          },
+          "scores": {
+            "transcendence": 2,
+            "courage": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Близкий друг провалил важное собеседование.",
+        "en": "A close friend has bombed an important job interview."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Понимаю по одному «привет» в трубке, что что-то случилось",
+            "en": "I can tell from a single \"hi\" on the phone that something is wrong"
+          },
+          "scores": {
+            "humanity": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Помогаю составить план подготовки к следующему разу",
+            "en": "Help put together a preparation plan for next time"
+          },
+          "scores": {
+            "temperance": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Честно говорю, что пошло не так, — правда поможет в следующий раз",
+            "en": "Tell them honestly what went wrong. The truth will help next time"
+          },
+          "scores": {
+            "courage": 2,
+            "justice": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Смешу до слёз альтернативной версией событий, где интервьюер был драконом",
+            "en": "Make them laugh with an alternative version where the interviewer was a dragon"
+          },
+          "scores": {
+            "wisdom": 2,
+            "transcendence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Собираю общих друзей, чтобы поддержать все вместе",
+            "en": "Gather our friends so we can all support them together"
+          },
+          "scores": {
+            "justice": 2,
+            "humanity": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Напоминаю, что одна неудача не определяет человека, и вместе ищем в этом смысл",
+            "en": "Remind them one failure does not define a person, and help find meaning in it"
+          },
+          "scores": {
+            "transcendence": 2,
+            "humanity": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Стартует новый большой и сложный проект.",
+        "en": "A big, tough new project is kicking off."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Беру роль лидера — кто-то же должен вести",
+            "en": "Take the lead. Someone has to"
+          },
+          "scores": {
+            "justice": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Сразу вижу, где проект может споткнуться, и предупреждаю заранее",
+            "en": "Immediately see where it might stumble and flag it early"
+          },
+          "scores": {
+            "wisdom": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Загораюсь: новое! Хочу разобраться во всём сразу",
+            "en": "Light up: something new! I want to understand all of it at once"
+          },
+          "scores": {
+            "wisdom": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тихо делаю свою часть на отлично и не жду аплодисментов",
+            "en": "Quietly do my part brilliantly, no applause needed"
+          },
+          "scores": {
+            "temperance": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Слежу, чтобы никто в команде не выгорел",
+            "en": "Make sure nobody on the team burns out"
+          },
+          "scores": {
+            "humanity": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Верю, что получится круто, и заражаю этой верой остальных",
+            "en": "Believe it will be amazing and infect everyone with that belief"
+          },
+          "scores": {
+            "transcendence": 2,
+            "courage": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Что тебе чаще всего говорят люди?",
+        "en": "What do people tell you most often?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "«Ты что, мысли читаешь?»",
+            "en": "\"Can you read minds or something?\""
+          },
+          "scores": {
+            "humanity": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Как тебе не страшно?»",
+            "en": "\"How are you not scared?\""
+          },
+          "scores": {
+            "courage": 2,
+            "justice": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Веди, мы за тобой»",
+            "en": "\"Lead the way, we're right behind you\""
+          },
+          "scores": {
+            "justice": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Надо было тебя послушать»",
+            "en": "\"We should have listened to you\""
+          },
+          "scores": {
+            "wisdom": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Подожди, это всё сделано тобой? Даже незаметно было»",
+            "en": "\"Wait, you did all this? We didn't even notice\""
+          },
+          "scores": {
+            "temperance": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«С тобой я начинаю замечать красоту вокруг»",
+            "en": "\"Around you I start noticing how beautiful things are\""
+          },
+          "scores": {
+            "transcendence": 2,
+            "humanity": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Тебя просят устроить праздник для большой компании.",
+        "en": "You are asked to throw a party for a big group."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Слежу, чтобы всем было уютно и никто не скучал в углу",
+            "en": "Make sure everyone is comfy and nobody is bored in a corner"
+          },
+          "scores": {
+            "humanity": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Таймлайн, бюджет, список покупок — всё под контролем",
+            "en": "Timeline, budget, shopping list. All under control"
+          },
+          "scores": {
+            "temperance": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тема «вокруг света»: еда из десяти стран и музыка со всего мира",
+            "en": "Theme: around the world, with food from ten countries and music from everywhere"
+          },
+          "scores": {
+            "wisdom": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Безумная концепция с костюмами, квестом и сюрпризами",
+            "en": "A wild concept with costumes, a quest and surprises"
+          },
+          "scores": {
+            "wisdom": 2,
+            "transcendence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Делю обязанности по-честному, чтобы никто не устал больше других",
+            "en": "Split the jobs fairly so nobody gets more tired than the rest"
+          },
+          "scores": {
+            "justice": 2,
+            "humanity": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Будет волшебно! Я в этом ни секунды не сомневаюсь",
+            "en": "It will be magical! I do not doubt it for a second"
+          },
+          "scores": {
+            "transcendence": 2,
+            "courage": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Какое кино ты пересматриваешь чаще всего?",
+        "en": "What kind of film do you rewatch most?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Драмы о сложных отношениях — люблю разгадывать, что чувствуют герои",
+            "en": "Dramas about complicated relationships. I love decoding what the characters feel"
+          },
+          "scores": {
+            "humanity": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Историю спортсмена, который годами шёл к цели",
+            "en": "The story of an athlete who worked towards a goal for years"
+          },
+          "scores": {
+            "temperance": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Боевик, где герой встаёт на защиту слабых",
+            "en": "An action film where the hero stands up for the vulnerable"
+          },
+          "scores": {
+            "courage": 2,
+            "justice": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Безумную комедию или мультфильм с неожиданными поворотами",
+            "en": "A crazy comedy or an animated film full of twists"
+          },
+          "scores": {
+            "wisdom": 2,
+            "transcendence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Фильм о команде, которая побеждает вместе",
+            "en": "A film about a team that wins together"
+          },
+          "scores": {
+            "justice": 2,
+            "humanity": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Красивое неспешное кино, после которого хочется жить",
+            "en": "A beautiful, slow film that makes you want to live"
+          },
+          "scores": {
+            "transcendence": 2,
+            "humanity": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "На скамейке лежит кошелёк с деньгами и документами.",
+        "en": "A wallet with cash and ID is lying on a bench."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Прикидываю, где владелец мог его потерять, и действую по логике",
+            "en": "Work out where the owner probably lost it and act logically"
+          },
+          "scores": {
+            "wisdom": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Отношу в бюро находок и никому об этом не рассказываю",
+            "en": "Hand it in to lost property and tell nobody"
+          },
+          "scores": {
+            "temperance": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Представляю, как человек сейчас переживает, и сразу ищу его в соцсетях",
+            "en": "Picture how worried the owner must be and look them up online right away"
+          },
+          "scores": {
+            "humanity": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Подключаю всех вокруг — через час владелец найден",
+            "en": "Get everyone around involved. The owner is found within the hour"
+          },
+          "scores": {
+            "justice": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Это же детектив! Изучаю каждую карточку — интересно, кто он",
+            "en": "It's a mystery! I study every card. Who is this person?"
+          },
+          "scores": {
+            "wisdom": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Верю, что владелец найдётся, — и помогаю этому случиться",
+            "en": "Believe the owner will be found, and help make it happen"
+          },
+          "scores": {
+            "transcendence": 2,
+            "courage": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Твоё отношение к правилам:",
+        "en": "Your attitude to rules:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Если правило несправедливо, я скажу об этом вслух",
+            "en": "If a rule is unfair, I will say so out loud"
+          },
+          "scores": {
+            "courage": 2,
+            "justice": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Смотрю, как правило влияет на людей, — важно, чтобы никому не было плохо",
+            "en": "I look at how a rule affects people. Nobody should be hurt by it"
+          },
+          "scores": {
+            "humanity": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Правила нужны, и я не против их устанавливать",
+            "en": "Rules are needed, and I do not mind being the one who sets them"
+          },
+          "scores": {
+            "justice": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Сначала разбираюсь, зачем правило вообще придумали",
+            "en": "First I figure out why the rule exists at all"
+          },
+          "scores": {
+            "wisdom": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Соблюдаю без лишнего шума",
+            "en": "I follow them without fuss"
+          },
+          "scores": {
+            "temperance": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Главное — дух правила, а не буква",
+            "en": "The spirit of a rule matters more than its letter"
+          },
+          "scores": {
+            "transcendence": 2,
+            "humanity": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Что ты делаешь, когда злишься?",
+        "en": "What do you do when you are angry?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Остываю и прощаю — носить обиды слишком тяжело",
+            "en": "Cool down and forgive. Carrying grudges is too heavy"
+          },
+          "scores": {
+            "humanity": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Считаю до десяти и не принимаю решений на эмоциях",
+            "en": "Count to ten and never decide anything in the heat of the moment"
+          },
+          "scores": {
+            "temperance": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Иду гулять в новое место — смена обстановки лечит",
+            "en": "Go for a walk somewhere new. A change of scene heals"
+          },
+          "scores": {
+            "wisdom": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Шучу над ситуацией, пока она не перестанет злить",
+            "en": "Joke about it until it stops being annoying"
+          },
+          "scores": {
+            "wisdom": 2,
+            "transcendence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Разбираюсь по справедливости: кто прав, кто нет и как всё исправить",
+            "en": "Sort it out fairly: who is right, who is not and how to fix it"
+          },
+          "scores": {
+            "justice": 2,
+            "humanity": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Злюсь недолго — верю, что всё наладится",
+            "en": "Stay angry only briefly. I trust things will work out"
+          },
+          "scores": {
+            "transcendence": 2,
+            "courage": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Вы в походе, и погода резко портится.",
+        "en": "You are on a hike and the weather suddenly turns."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Замечаю, кто в группе испугался, и иду рядом с ним",
+            "en": "Notice who in the group is scared and walk next to them"
+          },
+          "scores": {
+            "humanity": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Сохраняю спокойствие и действую по чек-листу безопасности",
+            "en": "Stay calm and work through the safety checklist"
+          },
+          "scores": {
+            "temperance": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Забираю рюкзак у самого уставшего и иду первым",
+            "en": "Take the most tired person's backpack and lead the way"
+          },
+          "scores": {
+            "courage": 2,
+            "justice": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Придумываю, как соорудить укрытие из плаща и палок",
+            "en": "Figure out how to build a shelter from a raincoat and sticks"
+          },
+          "scores": {
+            "wisdom": 2,
+            "transcendence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Слежу, чтобы группа держалась вместе и никто не отстал",
+            "en": "Keep the group together so nobody falls behind"
+          },
+          "scores": {
+            "justice": 2,
+            "humanity": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Даже под ливнем замечаю, как красиво клубятся облака над горами",
+            "en": "Even in a downpour, I notice how beautiful the clouds look over the mountains"
+          },
+          "scores": {
+            "transcendence": 2,
+            "humanity": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Какое хобби тебе ближе всего?",
+        "en": "Which hobby suits you best?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Шахматы, стратегии, головоломки",
+            "en": "Chess, strategy games, puzzles"
+          },
+          "scores": {
+            "wisdom": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Уличная фотография: незаметно ловить живые моменты",
+            "en": "Street photography: quietly catching real moments"
+          },
+          "scores": {
+            "temperance": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Волонтёрство — с животными или людьми",
+            "en": "Volunteering, with animals or people"
+          },
+          "scores": {
+            "humanity": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Собрать свой клуб, сообщество или турнир",
+            "en": "Starting my own club, community or tournament"
+          },
+          "scores": {
+            "justice": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Путешествия и новые языки",
+            "en": "Travel and learning languages"
+          },
+          "scores": {
+            "wisdom": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Бег, танцы — всё, что даёт ощущение полёта",
+            "en": "Running, dancing, anything that feels like flying"
+          },
+          "scores": {
+            "transcendence": 2,
+            "courage": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Какой вопрос тебе интереснее всего?",
+        "en": "Which question fascinates you most?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Почему люди поступают так, как поступают?",
+            "en": "Why do people do what they do?"
+          },
+          "scores": {
+            "humanity": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Хватит ли у меня смелости на то, о чём я мечтаю?",
+            "en": "Do I have the courage for what I dream of?"
+          },
+          "scores": {
+            "courage": 2,
+            "justice": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Как собрать людей вокруг большой цели?",
+            "en": "How do you unite people around a big goal?"
+          },
+          "scores": {
+            "justice": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Что будет через десять лет — и как к этому подготовиться?",
+            "en": "What will the world be like in ten years, and how do I prepare?"
+          },
+          "scores": {
+            "wisdom": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Как жить хорошо, не привлекая лишнего внимания?",
+            "en": "How do you live well without drawing attention?"
+          },
+          "scores": {
+            "temperance": 2,
+            "wisdom": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "В чём смысл всего этого?",
+            "en": "What is the meaning of it all?"
+          },
+          "scores": {
+            "transcendence": 2,
+            "humanity": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "text": {
+        "ru": "За что ты себя хвалишь?",
+        "en": "What do you give yourself credit for?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "За то, что не прохожу мимо, когда кому-то плохо",
+            "en": "Never walking past when someone is hurting"
+          },
+          "scores": {
+            "humanity": 2,
+            "temperance": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "За то, что довожу дела до конца",
+            "en": "Finishing what I start"
+          },
+          "scores": {
+            "temperance": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "За то, что не боюсь нового",
+            "en": "Not being afraid of new things"
+          },
+          "scores": {
+            "wisdom": 2,
+            "courage": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "За нестандартные идеи",
+            "en": "Coming up with unconventional ideas"
+          },
+          "scores": {
+            "wisdom": 2,
+            "transcendence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "За то, что со мной всё по-честному",
+            "en": "Being fair with everyone"
+          },
+          "scores": {
+            "justice": 2,
+            "humanity": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "За то, что не теряю надежду",
+            "en": "Never losing hope"
+          },
+          "scores": {
+            "transcendence": 2,
+            "courage": 1
+          }
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "telepathy",
+      "title": {
+        "ru": "Телепатия",
+        "en": "Telepathy"
+      },
+      "emoji": "🧠",
+      "profile": {
+        "wisdom": 0.43,
+        "courage": 0.27,
+        "humanity": 0.48,
+        "justice": 0.14,
+        "temperance": 0.18,
+        "transcendence": 0.14
+      },
+      "summary": [
+        {
+          "ru": "Читаешь людей как открытую книгу",
+          "en": "You read people like an open book"
+        },
+        {
+          "ru": "Понимаешь чувства без слов",
+          "en": "You understand feelings without words"
+        },
+        {
+          "ru": "Сильная сторона: социальный интеллект",
+          "en": "Core strength: social intelligence"
+        },
+        {
+          "ru": "Добродетель VIA: человечность",
+          "en": "VIA virtue: humanity"
+        }
+      ],
+      "detailed": {
+        "ru": "Твоя суперсила — телепатия. Нет, ты не слышишь чужие мысли (наверное), но замечаешь то, что другие пропускают: дрогнувший голос, паузу перед «всё нормально», взгляд, который говорит больше слов. Люди рядом с тобой чувствуют себя понятыми.\n\nВ классификации сильных сторон характера Питерсона и Селигмана (VIA) это **социальный интеллект** — умение понимать мотивы и чувства других людей и свои собственные. Он относится к добродетели «человечность» вместе с добротой и способностью любить. В исследованиях социальный интеллект заметно связан с общительностью — одной из граней экстраверсии.\n\nКак прокачать: используй силу осознанно. Иногда лучше спросить «я правильно понимаю, что…?», чем действовать по догадке. И не забывай включать телепатию на себя — твои собственные чувства тоже важны.",
+        "en": "Your superpower is telepathy. No, you probably cannot hear thoughts, but you notice what others miss: a wobble in someone's voice, the pause before \"I'm fine\", a look that says more than words. People feel understood around you.\n\nIn Peterson and Seligman's classification of character strengths (VIA) this is **social intelligence**: understanding the motives and feelings of others, and your own. It belongs to the virtue of humanity, alongside kindness and the capacity to love. In research, social intelligence is clearly linked to sociability, one facet of extraversion.\n\nHow to level up: use your power consciously. Sometimes asking \"am I right that…?\" beats acting on a hunch. And remember to point your telepathy at yourself. Your own feelings matter too."
+      },
+      "strengths": [
+        {
+          "ru": "Эмпатия",
+          "en": "Empathy"
+        },
+        {
+          "ru": "Тонкая наблюдательность",
+          "en": "Keen observation"
+        },
+        {
+          "ru": "Умение поддержать",
+          "en": "Knowing how to comfort"
+        },
+        {
+          "ru": "Дипломатичность",
+          "en": "Tact"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Проверять догадки вопросом",
+          "en": "Checking hunches with a question"
+        },
+        {
+          "ru": "Не брать на себя чужие эмоции",
+          "en": "Not absorbing other people's emotions"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Друг: «Всё нормально». Ты: «Так, рассказывай, что случилось».",
+          "en": "Friend: \"I'm fine.\" You: \"Right, tell me what happened.\""
+        },
+        {
+          "ru": "Ты понимаешь, что пара скоро расстанется, раньше самой пары.",
+          "en": "You know a couple is about to break up before they do."
+        },
+        {
+          "ru": "Твоё «ты какой-то не такой сегодня» пугает людей сильнее, чем гороскоп.",
+          "en": "Your \"you seem off today\" scares people more than their horoscope."
+        },
+        {
+          "ru": "На собеседовании ты по лицу интервьюера понимаешь, что работа твоя. И что кофе у них так себе.",
+          "en": "In an interview you can tell from the interviewer's face that you got the job. And that their coffee is bad."
+        }
+      ],
+      "compatibleWith": [
+        "healing",
+        "light",
+        "force-field"
+      ],
+      "imagePrompt": "A cute chibi superhero with a glowing pastel brain-shaped aura and soft rings radiating from their head, holding a tiny heart, lilac and pink palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi superhero, minimal, high detail, no text"
+    },
+    {
+      "id": "healing",
+      "title": {
+        "ru": "Исцеление",
+        "en": "Healing"
+      },
+      "emoji": "💚",
+      "profile": {
+        "wisdom": 0.26,
+        "courage": 0.26,
+        "humanity": 0.5,
+        "justice": 0.14,
+        "temperance": 0.36,
+        "transcendence": 0.14
+      },
+      "summary": [
+        {
+          "ru": "Рядом с тобой становится легче",
+          "en": "People feel better around you"
+        },
+        {
+          "ru": "Доброта, которая лечит",
+          "en": "Kindness that heals"
+        },
+        {
+          "ru": "Сильные стороны: доброта, любовь, прощение",
+          "en": "Core strengths: kindness, love, forgiveness"
+        },
+        {
+          "ru": "Добродетель VIA: человечность",
+          "en": "VIA virtue: humanity"
+        }
+      ],
+      "detailed": {
+        "ru": "Твоя суперсила — исцеление. Ты не заживляешь раны прикосновением (пока), но твоя забота действует почти так же. Чашка чая, вовремя сказанное слово, готовность прийти в три часа ночи — и людям действительно становится легче.\n\nВ классификации VIA за этим стоят **доброта** и **способность любить и быть любимым** (добродетель «человечность»), а также **прощение** — оно относится к добродетели «умеренность». В исследованиях доброта и прощение теснее всего связаны с доброжелательностью из «Большой пятёрки», а любовь — одна из сильных сторон, которые сильнее всего связаны с удовлетворённостью жизнью.\n\nКак прокачать: лечить других получается дольше, если не забываешь про себя. Попробуй на неделю направить свою суперсилу на одного «пациента», о котором часто забываешь, — на себя.",
+        "en": "Your superpower is healing. You cannot close wounds with a touch (yet), but your care works almost as well. A cup of tea, the right word at the right moment, a willingness to show up at 3 a.m., and people genuinely feel better.\n\nIn the VIA classification this is **kindness** and the **capacity to love and be loved** (virtue of humanity), plus **forgiveness**, which falls under the virtue of temperance. In research, kindness and forgiveness are most closely tied to Big Five agreeableness, and love is one of the strengths most strongly linked to life satisfaction.\n\nHow to level up: you can heal others for longer if you do not forget yourself. For one week, try pointing your superpower at the patient you neglect most: you."
+      },
+      "strengths": [
+        {
+          "ru": "Доброта",
+          "en": "Kindness"
+        },
+        {
+          "ru": "Умение прощать",
+          "en": "Forgiveness"
+        },
+        {
+          "ru": "Терпение",
+          "en": "Patience"
+        },
+        {
+          "ru": "Тепло",
+          "en": "Warmth"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Заботиться о себе так же, как о других",
+          "en": "Caring for yourself as you care for others"
+        },
+        {
+          "ru": "Позволять людям справляться самим",
+          "en": "Letting people handle things themselves"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "У тебя в сумке есть всё: пластырь, таблетка, конфета и пачка салфеток. Ты ходячая аптечка.",
+          "en": "Your bag has it all: plasters, painkillers, a sweet and tissues. You are a walking first-aid kit."
+        },
+        {
+          "ru": "Ты извиняешься перед стулом, о который ударился мизинец.",
+          "en": "You apologise to the chair you stubbed your toe on."
+        },
+        {
+          "ru": "Друзья приходят к тебе пожаловаться, а уходят накормленными, утешенными и с контейнером еды с собой.",
+          "en": "Friends come to vent and leave fed, comforted and carrying a food container."
+        },
+        {
+          "ru": "Ты прощаешь обидчика раньше, чем он успевает извиниться.",
+          "en": "You forgave them before they even got around to apologising."
+        }
+      ],
+      "compatibleWith": [
+        "telepathy",
+        "force-field",
+        "light"
+      ],
+      "imagePrompt": "A cute chibi superhero with glowing green hands creating sparkling leaves and tiny hearts, healing a small bird, mint and peach palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi superhero, minimal, high detail, no text"
+    },
+    {
+      "id": "time-control",
+      "title": {
+        "ru": "Управление временем",
+        "en": "Time Control"
+      },
+      "emoji": "⏳",
+      "profile": {
+        "wisdom": 0.26,
+        "courage": 0.44,
+        "humanity": 0.18,
+        "justice": 0.14,
+        "temperance": 0.5,
+        "transcendence": 0.14
+      },
+      "summary": [
+        {
+          "ru": "Успеваешь то, что другим кажется невозможным",
+          "en": "You get done what seems impossible to others"
+        },
+        {
+          "ru": "Сила воли и фокус",
+          "en": "Willpower and focus"
+        },
+        {
+          "ru": "Сильные стороны: саморегуляция и настойчивость",
+          "en": "Core strengths: self-regulation and perseverance"
+        },
+        {
+          "ru": "Добродетель VIA: умеренность",
+          "en": "VIA virtue: temperance"
+        }
+      ],
+      "detailed": {
+        "ru": "Твоя суперсила — управление временем. Ты не останавливаешь часы, но иногда кажется, что у тебя в сутках минимум 30 часов. Ты умеешь сосредоточиться, не отвлекаться на соблазны и доводить дела до конца, даже когда мотивация закончилась.\n\nВ классификации VIA это **саморегуляция** (добродетель «умеренность») и **настойчивость** (добродетель «мужество»). Исследования показывают, что именно эти сильные стороны теснее всего связаны с добросовестностью — чертой «Большой пятёрки», которая надёжно предсказывает успехи в учёбе и работе.\n\nКак прокачать: научись тратить время не только на дела, но и на ничегонеделание. Даже повелителю времени нужен перерыв — иначе вселенная начнёт сбоить.",
+        "en": "Your superpower is time control. You cannot stop clocks, but sometimes it looks as if your day has at least 30 hours. You focus, resist temptations and see things through even after motivation has run out.\n\nIn the VIA classification this is **self-regulation** (virtue of temperance) and **perseverance** (virtue of courage). Research shows these strengths are most closely linked to conscientiousness, the Big Five trait that reliably predicts success at school and work.\n\nHow to level up: learn to spend time not only on tasks but also on doing nothing. Even a master of time needs a break, or the universe starts glitching."
+      },
+      "strengths": [
+        {
+          "ru": "Дисциплина",
+          "en": "Discipline"
+        },
+        {
+          "ru": "Фокус",
+          "en": "Focus"
+        },
+        {
+          "ru": "Упорство",
+          "en": "Persistence"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Отдыхать без чувства вины",
+          "en": "Resting without guilt"
+        },
+        {
+          "ru": "Прощать себе сорванные планы",
+          "en": "Forgiving yourself for broken plans"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твой будильник звонит, когда завтрак уже съеден, а пять километров — пробежаны.",
+          "en": "Your alarm goes off after you have already had breakfast and run five kilometres."
+        },
+        {
+          "ru": "«Я просто быстренько» в твоём исполнении действительно означает быстро.",
+          "en": "When you say \"I'll just do it quickly\", it actually is quick."
+        },
+        {
+          "ru": "Отчёт сдан за неделю до срока, и ты искренне не понимаешь, почему все так на тебя смотрят.",
+          "en": "You finished the assignment a week early and cannot understand why everyone is staring."
+        },
+        {
+          "ru": "Ты отказываешься от десерта и спокойно смотришь, как его едят другие. Люди считают это настоящей магией.",
+          "en": "You turn down dessert and calmly watch others eat it. People consider this actual magic."
+        }
+      ],
+      "compatibleWith": [
+        "precognition",
+        "super-strength",
+        "invisibility"
+      ],
+      "imagePrompt": "A cute chibi superhero holding a glowing pastel hourglass with clock hands floating around, calm confident smile, sky blue and gold palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi superhero, minimal, high detail, no text"
+    },
+    {
+      "id": "invisibility",
+      "title": {
+        "ru": "Невидимость",
+        "en": "Invisibility"
+      },
+      "emoji": "🫥",
+      "profile": {
+        "wisdom": 0.43,
+        "courage": 0.27,
+        "humanity": 0.18,
+        "justice": 0.14,
+        "temperance": 0.48,
+        "transcendence": 0.14
+      },
+      "summary": [
+        {
+          "ru": "Делаешь важное без лишнего шума",
+          "en": "You do important things without fuss"
+        },
+        {
+          "ru": "Наблюдаешь и замечаешь",
+          "en": "You observe and notice"
+        },
+        {
+          "ru": "Сильные стороны: скромность и благоразумие",
+          "en": "Core strengths: humility and prudence"
+        },
+        {
+          "ru": "Добродетель VIA: умеренность",
+          "en": "VIA virtue: temperance"
+        }
+      ],
+      "detailed": {
+        "ru": "Твоя суперсила — невидимость. Тебе не нужен свет софитов: ты тихо делаешь важную работу, замечаешь то, что упускают другие, и появляешься ровно тогда, когда нужно. Многие проекты держатся на таких людях — даже если на финальной фотографии их не видно.\n\nВ классификации VIA это **скромность** и **благоразумие** (добродетель «умеренность»): способность не преувеличивать свою роль и не рисковать понапрасну. Скромность как черта характера продолжает изучаться — например, работы Эксклайн и Хилл (2012) связывали её с щедростью; а благоразумие в исследованиях тесно связано с осмотрительностью — гранью добросовестности.\n\nКак прокачать: невидимость — суперсила, а не обязанность. Иногда снимай плащ: говори о своих успехах и позволяй людям тебя благодарить. Тебя ценят больше, чем ты думаешь.",
+        "en": "Your superpower is invisibility. You do not need the spotlight: you quietly do important work, notice what others miss and appear exactly when needed. Plenty of projects run on people like you, even if they are not in the final photo.\n\nIn the VIA classification this is **humility** and **prudence** (virtue of temperance): not overstating your role and not taking needless risks. Humility as a character trait is an active research topic; for example, Exline and Hill (2012) linked it to generosity, and prudence is closely linked to deliberation, a facet of conscientiousness.\n\nHow to level up: invisibility is a superpower, not a duty. Take the cloak off sometimes: talk about your wins and let people thank you. You are valued more than you think."
+      },
+      "strengths": [
+        {
+          "ru": "Скромность",
+          "en": "Humility"
+        },
+        {
+          "ru": "Наблюдательность",
+          "en": "Observation"
+        },
+        {
+          "ru": "Осмотрительность",
+          "en": "Prudence"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Dependability"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Заявлять о своих достижениях",
+          "en": "Speaking up about your achievements"
+        },
+        {
+          "ru": "Брать слово на встречах",
+          "en": "Taking the floor in meetings"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Половина проекта — твоя работа, а на презентации звучит скромное «а ещё нам помогали…». Ну и ладно.",
+          "en": "Half the project is your work, and at the presentation all you get is a modest \"we also had some help from…\". Fine by you."
+        },
+        {
+          "ru": "Ты уходишь с вечеринки по-английски так виртуозно, что твоё отсутствие замечают только через час.",
+          "en": "You leave parties so stealthily that people only notice an hour later."
+        },
+        {
+          "ru": "В групповом фото тебя всегда наполовину закрывает чья-то голова. И тебя это устраивает.",
+          "en": "In group photos you are always half-hidden behind someone's head. And you are fine with that."
+        },
+        {
+          "ru": "Ты знаешь все офисные новости, хотя ни разу ни о чём не спрашиваешь.",
+          "en": "You know all the office gossip without ever having asked about anything."
+        }
+      ],
+      "compatibleWith": [
+        "precognition",
+        "time-control",
+        "telepathy"
+      ],
+      "imagePrompt": "A cute chibi superhero half-transparent with a shimmering pastel cloak, peeking with a shy smile, little sparkles where they fade, lavender and silver palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi superhero, minimal, high detail, no text"
+    },
+    {
+      "id": "super-strength",
+      "title": {
+        "ru": "Суперсила",
+        "en": "Super Strength"
+      },
+      "emoji": "💪",
+      "profile": {
+        "wisdom": 0.26,
+        "courage": 0.61,
+        "humanity": 0.17,
+        "justice": 0.33,
+        "temperance": 0.17,
+        "transcendence": 0.13
+      },
+      "summary": [
+        {
+          "ru": "Смелость там, где другие отступают",
+          "en": "Courage where others back down"
+        },
+        {
+          "ru": "Встаёшь на защиту слабых",
+          "en": "You stand up for the vulnerable"
+        },
+        {
+          "ru": "Сильные стороны: храбрость и честность",
+          "en": "Core strengths: bravery and honesty"
+        },
+        {
+          "ru": "Добродетель VIA: мужество",
+          "en": "VIA virtue: courage"
+        }
+      ],
+      "detailed": {
+        "ru": "Твоя суперсила — сила. Не обязательно физическая (хотя и банку огурцов ты, скорее всего, откроешь): главное — сила духа. Ты говоришь правду, когда это неудобно, и встаёшь на защиту тех, кого обижают, даже если остаёшься в меньшинстве.\n\nВ классификации VIA это **храбрость** и **честность** (добродетель «мужество»). Храбрость — это не отсутствие страха, а действие вопреки ему. Исследования связывают её с социальной смелостью — гранью экстраверсии, а честность — с добросовестностью и честностью-скромностью из модели HEXACO.\n\nКак прокачать: сила раскрывается лучше всего в сочетании с мягкостью. Правду можно говорить так, чтобы её было легче услышать, — тогда твоя сила будет не только защищать, но и объединять.",
+        "en": "Your superpower is strength. Not necessarily physical (though you can probably open any jar): the point is strength of spirit. You tell the truth when it is inconvenient and stand up for people who are being picked on, even when you are in the minority.\n\nIn the VIA classification this is **bravery** and **honesty** (virtue of courage). Bravery is not the absence of fear but acting despite it. Research links it to social boldness, a facet of extraversion, and honesty to conscientiousness and to the honesty–humility factor of the HEXACO model.\n\nHow to level up: strength works best with gentleness. Truth can be told in a way that is easier to hear, and then your power will not only protect but also unite."
+      },
+      "strengths": [
+        {
+          "ru": "Смелость",
+          "en": "Bravery"
+        },
+        {
+          "ru": "Честность",
+          "en": "Honesty"
+        },
+        {
+          "ru": "Решительность",
+          "en": "Decisiveness"
+        },
+        {
+          "ru": "Защита своих",
+          "en": "Protecting others"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Выбирать, какие битвы того стоят",
+          "en": "Choosing which battles are worth it"
+        },
+        {
+          "ru": "Говорить правду мягче",
+          "en": "Telling the truth more gently"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ночью странный звук на кухне проверяешь именно ты. С тапком наперевес.",
+          "en": "You are the first to check out a strange noise at night. Armed with a slipper."
+        },
+        {
+          "ru": "Твой отзыв в ресторане начинается со слов «Скажу честно…», и персонал уже нервничает.",
+          "en": "Your restaurant review starts with \"I'll be honest…\", and the staff are already nervous."
+        },
+        {
+          "ru": "Ты единственный человек, который сказал начальнику, что его идея — так себе. И начальник согласился.",
+          "en": "You are the only person who told the boss their idea was meh. And the boss agreed."
+        },
+        {
+          "ru": "Пауки в доме знают: если ты дома — лучше переехать.",
+          "en": "The spiders in your home know: when you are around, it is time to move out."
+        }
+      ],
+      "compatibleWith": [
+        "force-field",
+        "magnetism",
+        "flight"
+      ],
+      "imagePrompt": "A cute chibi superhero with a flowing cape lifting a giant fluffy cloud like a dumbbell, confident grin, coral and sunny yellow palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi superhero, minimal, high detail, no text"
+    },
+    {
+      "id": "teleportation",
+      "title": {
+        "ru": "Телепортация",
+        "en": "Teleportation"
+      },
+      "emoji": "🌀",
+      "profile": {
+        "wisdom": 0.56,
+        "courage": 0.43,
+        "humanity": 0.19,
+        "justice": 0.14,
+        "temperance": 0.19,
+        "transcendence": 0.14
+      },
+      "summary": [
+        {
+          "ru": "Любопытство переносит тебя куда угодно",
+          "en": "Curiosity takes you anywhere"
+        },
+        {
+          "ru": "Энергия и жажда нового",
+          "en": "Energy and hunger for novelty"
+        },
+        {
+          "ru": "Сильные стороны: любознательность и жизнелюбие",
+          "en": "Core strengths: curiosity and zest"
+        },
+        {
+          "ru": "Добродетель VIA: мудрость (с энергией мужества)",
+          "en": "VIA virtue: wisdom, powered by courage"
+        }
+      ],
+      "detailed": {
+        "ru": "Твоя суперсила — телепортация. Сегодня ты изучаешь японскую кухню, завтра — устройство чёрных дыр, а послезавтра уже покупаешь билет в город, о котором вчера узнал из видео. Тебя невозможно удержать на одном месте — ни телом, ни мыслями.\n\nВ классификации VIA это **любознательность** (добродетель «мудрость и знание») и **жизнелюбие** — энергия и энтузиазм (добродетель «мужество»). Обе силы входят в группу «сильных сторон сердца», которые в исследовании Парка, Питерсона и Селигмана (2004) сильнее всего связаны с удовлетворённостью жизнью. С «Большой пятёркой» они пересекаются через открытость опыту и «живую» грань экстраверсии.\n\nКак прокачать: научись иногда оставаться. Глубокое погружение в одну тему или одно место даёт открытия, которые не найти, прыгая с места на место.",
+        "en": "Your superpower is teleportation. Today you are studying Japanese cooking, tomorrow how black holes work, and the day after you are buying a ticket to a city you discovered in a video yesterday. Nobody can keep you in one place, physically or mentally.\n\nIn the VIA classification this is **curiosity** (virtue of wisdom and knowledge) and **zest**, energy and enthusiasm (virtue of courage). Both belong to the \"strengths of the heart\" that Park, Peterson and Seligman (2004) found most strongly related to life satisfaction. They overlap with the Big Five via openness and the lively facet of extraversion.\n\nHow to level up: learn to stay sometimes. Deep dives into one topic or one place bring discoveries you will never find by jumping around."
+      },
+      "strengths": [
+        {
+          "ru": "Любознательность",
+          "en": "Curiosity"
+        },
+        {
+          "ru": "Энергия",
+          "en": "Energy"
+        },
+        {
+          "ru": "Открытость новому",
+          "en": "Openness"
+        },
+        {
+          "ru": "Лёгкость на подъём",
+          "en": "Spontaneity"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить начатое до конца",
+          "en": "Finishing what you start"
+        },
+        {
+          "ru": "Задерживаться на одном месте подольше",
+          "en": "Staying put a little longer"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "«Где ты?» — самый частый вопрос в твоём телефоне.",
+          "en": "\"Where are you?\" is the most common message on your phone."
+        },
+        {
+          "ru": "У тебя 14 вкладок про осьминогов, 9 — про древний Рим и одна — с билетами в Исландию.",
+          "en": "You have 14 tabs about octopuses, 9 about ancient Rome and one with flights to Iceland."
+        },
+        {
+          "ru": "Ты знаешь «спасибо» на 20 языках и используешь их все в одном кафе.",
+          "en": "You know \"thank you\" in 20 languages and use them all in one café."
+        },
+        {
+          "ru": "Твоё «я ненадолго» заканчивается через две недели — новым хобби и тремя магнитиками.",
+          "en": "You said \"I won't be long\" and came back two weeks later with a new hobby."
+        }
+      ],
+      "compatibleWith": [
+        "shapeshifting",
+        "flight",
+        "magnetism"
+      ],
+      "imagePrompt": "A cute chibi superhero stepping out of a swirling pastel portal with a tiny suitcase and a map, sparkles and stars around, teal and violet palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi superhero, minimal, high detail, no text"
+    },
+    {
+      "id": "shapeshifting",
+      "title": {
+        "ru": "Превращения",
+        "en": "Shapeshifting"
+      },
+      "emoji": "🦎",
+      "profile": {
+        "wisdom": 0.57,
+        "courage": 0.26,
+        "humanity": 0.18,
+        "justice": 0.14,
+        "temperance": 0.18,
+        "transcendence": 0.31
+      },
+      "summary": [
+        {
+          "ru": "Меняешь форму, когда старая не работает",
+          "en": "You change shape when the old one stops working"
+        },
+        {
+          "ru": "Креатив и юмор — твоё оружие",
+          "en": "Creativity and humour are your weapons"
+        },
+        {
+          "ru": "Сильные стороны: креативность и чувство юмора",
+          "en": "Core strengths: creativity and humour"
+        },
+        {
+          "ru": "Добродетель VIA: мудрость (с искрой трансцендентности)",
+          "en": "VIA virtue: wisdom, with a spark of transcendence"
+        }
+      ],
+      "detailed": {
+        "ru": "Твоя суперсила — превращения. Ты умеешь посмотреть на задачу под совершенно неожиданным углом, придумать решение из подручных средств и превратить скучное в смешное. Если план А не сработал, у тебя уже готовы планы от Б до Я.\n\nВ классификации VIA это **креативность** (добродетель «мудрость и знание») и **чувство юмора** (добродетель «трансцендентность»). Креативность — одна из немногих сильных сторон, для которых доказан самостоятельный вклад в важные результаты сверх «Большой пятёрки»; при этом она теснее всего связана с открытостью опыту.\n\nКак прокачать: превращения прекрасны, но иногда людям нужна твоя постоянная форма. Найди пару вещей, в которых ты всегда предсказуемо надёжен — это сделает твою гибкость ещё ценнее.",
+        "en": "Your superpower is shapeshifting. You can look at a problem from a completely unexpected angle, build a solution out of whatever is lying around and turn the boring into the hilarious. If plan A fails, you already have plans B through Z.\n\nIn the VIA classification this is **creativity** (virtue of wisdom and knowledge) and **humour** (virtue of transcendence). Creativity is one of the strengths shown to predict important outcomes beyond the Big Five, while being most closely tied to openness.\n\nHow to level up: shapeshifting is great, but sometimes people need your steady form. Pick a couple of things in which you are always predictably reliable; it will make your flexibility even more valuable."
+      },
+      "strengths": [
+        {
+          "ru": "Креативность",
+          "en": "Creativity"
+        },
+        {
+          "ru": "Юмор",
+          "en": "Humour"
+        },
+        {
+          "ru": "Гибкость",
+          "en": "Flexibility"
+        },
+        {
+          "ru": "Изобретательность",
+          "en": "Inventiveness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить идеи до результата",
+          "en": "Turning ideas into results"
+        },
+        {
+          "ru": "Быть предсказуемым там, где это важно",
+          "en": "Being predictable where it counts"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты чинишь очки скрепкой, стол — книгой, а настроение друга — мемом.",
+          "en": "You fix glasses with a paperclip, a wobbly table with a book and a friend's mood with a meme."
+        },
+        {
+          "ru": "На вопрос «как тебе это пришло в голову?» у тебя нет ответа. Оно просто пришло.",
+          "en": "You have no answer to \"how did you think of that?\". It just arrived."
+        },
+        {
+          "ru": "Твоё резюме: дизайнер, бариста, аниматор, немного программист и специалист по хорошему настроению.",
+          "en": "Your CV: designer, barista, kids' entertainer, a bit of a coder and a specialist in good vibes."
+        },
+        {
+          "ru": "Костюм на маскарад — 20 минут и одна картонная коробка. Первое место — твоё.",
+          "en": "You turned up to a costume party in an outfit made from a box in 20 minutes. And won."
+        }
+      ],
+      "compatibleWith": [
+        "teleportation",
+        "light",
+        "precognition"
+      ],
+      "imagePrompt": "A cute chibi superhero mid-transformation surrounded by swirling pastel shapes, half cat ears and half butterfly wings, playful grin, rainbow pastel palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi superhero, minimal, high detail, no text"
+    },
+    {
+      "id": "precognition",
+      "title": {
+        "ru": "Предвидение",
+        "en": "Precognition"
+      },
+      "emoji": "🔭",
+      "profile": {
+        "wisdom": 0.56,
+        "courage": 0.27,
+        "humanity": 0.19,
+        "justice": 0.14,
+        "temperance": 0.35,
+        "transcendence": 0.14
+      },
+      "summary": [
+        {
+          "ru": "Видишь последствия на три шага вперёд",
+          "en": "You see consequences three steps ahead"
+        },
+        {
+          "ru": "К тебе идут за советом",
+          "en": "People come to you for advice"
+        },
+        {
+          "ru": "Сильные стороны: мудрость, здравомыслие, любовь к знаниям",
+          "en": "Core strengths: perspective, judgment, love of learning"
+        },
+        {
+          "ru": "Добродетель VIA: мудрость и знание",
+          "en": "VIA virtue: wisdom and knowledge"
+        }
+      ],
+      "detailed": {
+        "ru": "Твоя суперсила — предвидение. Не гадание на кофейной гуще, а умение просчитать, к чему приведёт решение, увидеть картину целиком и заметить подвох раньше всех. Фраза «надо было тебя послушать» звучит в твой адрес подозрительно часто.\n\nВ классификации VIA это **мудрость** (perspective — способность давать дельные советы и видеть общую картину), **здравомыслие** (критическое мышление) и **любовь к учению** — все из добродетели «мудрость и знание», с привкусом **благоразумия**. В исследованиях эти силы связаны с открытостью опыту (любовь к знаниям) и с прилежностью и осмотрительностью — гранями добросовестности.\n\nКак прокачать: предвидение работает лучше, когда ты делишься им бережно. Иногда людям нужно совершить свою ошибку — твоя задача не спасти их от всего, а быть рядом, когда понадобится совет.",
+        "en": "Your superpower is precognition. Not fortune telling, but the ability to work out where a decision leads, see the whole picture and spot the catch before anyone else. \"We should have listened to you\" is something you hear suspiciously often.\n\nIn the VIA classification this is **perspective** (giving wise counsel and seeing the big picture), **judgment** (critical thinking) and **love of learning**, all from the virtue of wisdom and knowledge, with a dash of **prudence**. In research these strengths relate to openness (love of learning) and to diligence and prudence, facets of conscientiousness.\n\nHow to level up: foresight works better when shared gently. Sometimes people need to make their own mistakes; your job is not to save them from everything but to be there when advice is needed."
+      },
+      "strengths": [
+        {
+          "ru": "Мудрость",
+          "en": "Wisdom"
+        },
+        {
+          "ru": "Критическое мышление",
+          "en": "Critical thinking"
+        },
+        {
+          "ru": "Стратегия",
+          "en": "Strategy"
+        },
+        {
+          "ru": "Любовь к знаниям",
+          "en": "Love of learning"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Действовать, не просчитав всё до конца",
+          "en": "Acting before everything is calculated"
+        },
+        {
+          "ru": "Давать людям право на ошибку",
+          "en": "Letting people make mistakes"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты берёшь зонт в солнечный день. Через два часа все завидуют.",
+          "en": "You bring an umbrella on a sunny day. Two hours later, everyone envies you."
+        },
+        {
+          "ru": "Сериал: «Кто же убийца?» Ты, на 4-й минуте первой серии: «Садовник».",
+          "en": "TV series: \"Who is the killer?\" You, four minutes into episode one: \"The gardener.\""
+        },
+        {
+          "ru": "Тебе пишут «можно совет?», а у тебя уже открыта заметка с готовым ответом.",
+          "en": "Someone texts \"can I ask your advice?\" and you have already opened a note with the answer."
+        },
+        {
+          "ru": "Ты никогда не злорадствуешь «ну я же говорю!». Просто молча смотришь. И это даже хуже.",
+          "en": "You never gloat \"told you so!\". You just look at them in silence. Which is even worse."
+        }
+      ],
+      "compatibleWith": [
+        "invisibility",
+        "time-control",
+        "telepathy"
+      ],
+      "imagePrompt": "A cute chibi superhero looking through a glowing pastel telescope at floating constellations shaped like arrows and question marks, navy and lilac palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi superhero, minimal, high detail, no text"
+    },
+    {
+      "id": "force-field",
+      "title": {
+        "ru": "Силовое поле",
+        "en": "Force Field"
+      },
+      "emoji": "🛡️",
+      "profile": {
+        "wisdom": 0.26,
+        "courage": 0.26,
+        "humanity": 0.36,
+        "justice": 0.47,
+        "temperance": 0.18,
+        "transcendence": 0.13
+      },
+      "summary": [
+        {
+          "ru": "Защищаешь свою команду",
+          "en": "You protect your team"
+        },
+        {
+          "ru": "Справедливость для всех",
+          "en": "Fairness for everyone"
+        },
+        {
+          "ru": "Сильные стороны: командная работа и справедливость",
+          "en": "Core strengths: teamwork and fairness"
+        },
+        {
+          "ru": "Добродетель VIA: справедливость",
+          "en": "VIA virtue: justice"
+        }
+      ],
+      "detailed": {
+        "ru": "Твоя суперсила — силовое поле. Внутри твоего круга людям безопасно: ты следишь, чтобы никого не забыли, задачи делились честно, а слабых не обижали. Ты из тех, кто думает «мы», а не «я».\n\nВ классификации VIA это **командная работа** и **справедливость** (добродетель «справедливость»): умение работать на общее дело и относиться ко всем одинаково честно. Исследования связывают справедливость с альтруизмом и доброжелательностью, а командная работа — одна из сильных сторон, которая хуже всего «описывается» чертами «Большой пятёрки», то есть несёт свою собственную информацию.\n\nКак прокачать: силовое поле требует энергии. Делегируй, проси помощи и помни, что ты тоже часть команды, которую защищаешь.",
+        "en": "Your superpower is a force field. People feel safe inside your circle: you make sure nobody is forgotten, tasks are shared fairly and the vulnerable are not picked on. You think \"we\", not \"me\".\n\nIn the VIA classification this is **teamwork** and **fairness** (virtue of justice): working for the common good and treating everyone equally fairly. Research links fairness to altruism and agreeableness, while teamwork is one of the strengths least captured by Big Five traits, meaning it carries information of its own.\n\nHow to level up: a force field takes energy. Delegate, ask for help and remember that you are part of the team you protect."
+      },
+      "strengths": [
+        {
+          "ru": "Командность",
+          "en": "Team spirit"
+        },
+        {
+          "ru": "Справедливость",
+          "en": "Fairness"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        },
+        {
+          "ru": "Защита своих",
+          "en": "Protectiveness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Не тащить всех на себе",
+          "en": "Not carrying everyone yourself"
+        },
+        {
+          "ru": "Принимать неидеальные компромиссы",
+          "en": "Accepting imperfect compromises"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты делишь пиццу с точностью до миллиметра. С линейкой, если надо.",
+          "en": "You split pizza to the millimetre. With a ruler if necessary."
+        },
+        {
+          "ru": "В настолках ты объясняешь правила новичкам и поддаёшься, если кто-то расстроился.",
+          "en": "At board game night you explain the rules to newbies and go easy if someone gets upset."
+        },
+        {
+          "ru": "Твоё любимое слово в групповом проекте: «давайте проголосуем».",
+          "en": "Your favourite phrase in group projects: \"let's vote on it\"."
+        },
+        {
+          "ru": "Ты заступаешься за коллегу так яростно, что коллега сам просит тебя успокоиться.",
+          "en": "You defend a colleague so fiercely that the colleague asks you to calm down."
+        }
+      ],
+      "compatibleWith": [
+        "super-strength",
+        "healing",
+        "magnetism"
+      ],
+      "imagePrompt": "A cute chibi superhero creating a glowing pastel bubble shield around a group of tiny smiling friends, mint and baby blue palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi superhero, minimal, high detail, no text"
+    },
+    {
+      "id": "magnetism",
+      "title": {
+        "ru": "Магнетизм",
+        "en": "Magnetism"
+      },
+      "emoji": "🧲",
+      "profile": {
+        "wisdom": 0.26,
+        "courage": 0.45,
+        "humanity": 0.17,
+        "justice": 0.47,
+        "temperance": 0.17,
+        "transcendence": 0.13
+      },
+      "summary": [
+        {
+          "ru": "Люди сами тянутся за тобой",
+          "en": "People are drawn to follow you"
+        },
+        {
+          "ru": "Собираешь команду вокруг цели",
+          "en": "You rally people around a goal"
+        },
+        {
+          "ru": "Сильная сторона: лидерство",
+          "en": "Core strength: leadership"
+        },
+        {
+          "ru": "Добродетель VIA: справедливость",
+          "en": "VIA virtue: justice"
+        }
+      ],
+      "detailed": {
+        "ru": "Твоя суперсила — магнетизм. Ты говоришь «пойдёмте», и люди идут. Ты умеешь объединить разных людей вокруг общей цели, организовать их и сделать так, чтобы каждый чувствовал себя важной частью команды.\n\nВ классификации VIA это **лидерство** — добродетель «справедливость»: ведь настоящий лидер заботится не о своей славе, а о том, чтобы группа достигла цели и при этом сохранила хорошие отношения. В исследованиях лидерство связано с прилежностью (добросовестностью) и социальной смелостью — гранью экстраверсии.\n\nКак прокачать: сильнейшие лидеры умеют слушать. Попробуй на следующей встрече говорить последним — и посмотри, как вырастет команда.",
+        "en": "Your superpower is magnetism. You say \"let's go\" and people go. You bring different people together around a shared goal, organise them and make each of them feel like an important part of the team.\n\nIn the VIA classification this is **leadership**, under the virtue of justice: a true leader cares less about personal glory than about the group reaching its goal while keeping good relationships. In research, leadership is linked to diligence (conscientiousness) and social boldness, a facet of extraversion.\n\nHow to level up: the strongest leaders listen. At your next meeting, try speaking last, and watch the team grow."
+      },
+      "strengths": [
+        {
+          "ru": "Лидерство",
+          "en": "Leadership"
+        },
+        {
+          "ru": "Харизма",
+          "en": "Charisma"
+        },
+        {
+          "ru": "Организаторский талант",
+          "en": "Organising talent"
+        },
+        {
+          "ru": "Уверенность",
+          "en": "Confidence"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Слушать больше, чем говорить",
+          "en": "Listening more than speaking"
+        },
+        {
+          "ru": "Давать другим вести",
+          "en": "Letting others lead"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Пять минут в лифте — и у вас уже общий чат «Соседи седьмого подъезда».",
+          "en": "You step into a lift; three floors later there is a group chat called \"Building 7 Neighbours\"."
+        },
+        {
+          "ru": "Становиться старостой в твоих планах не было. Просто все как-то посмотрели на тебя.",
+          "en": "You never planned to be class rep. Everyone just sort of looked at you."
+        },
+        {
+          "ru": "Твоя фраза «так, народ» мгновенно наводит порядок в любой толпе.",
+          "en": "Your \"right, everyone\" instantly brings order to any crowd."
+        },
+        {
+          "ru": "Даже кот дома, кажется, выполняет твои просьбы. Иногда.",
+          "en": "Even your cat seems to follow your instructions. Sometimes."
+        }
+      ],
+      "compatibleWith": [
+        "force-field",
+        "super-strength",
+        "teleportation"
+      ],
+      "imagePrompt": "A cute chibi superhero holding a glowing pastel horseshoe magnet with little hearts and stars drawn toward it, coral and lilac palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi superhero, minimal, high detail, no text"
+    },
+    {
+      "id": "flight",
+      "title": {
+        "ru": "Полёт",
+        "en": "Flight"
+      },
+      "emoji": "🕊️",
+      "profile": {
+        "wisdom": 0.26,
+        "courage": 0.44,
+        "humanity": 0.18,
+        "justice": 0.13,
+        "temperance": 0.18,
+        "transcendence": 0.47
+      },
+      "summary": [
+        {
+          "ru": "Надежда поднимает тебя над проблемами",
+          "en": "Hope lifts you above problems"
+        },
+        {
+          "ru": "Энергия и вера в лучшее",
+          "en": "Energy and belief in the best"
+        },
+        {
+          "ru": "Сильные стороны: надежда и жизнелюбие",
+          "en": "Core strengths: hope and zest"
+        },
+        {
+          "ru": "Добродетель VIA: трансцендентность",
+          "en": "VIA virtue: transcendence"
+        }
+      ],
+      "detailed": {
+        "ru": "Твоя суперсила — полёт. Когда все смотрят под ноги, ты смотришь вверх: веришь, что всё получится, и находишь силы действовать. Твой оптимизм заразителен — рядом с тобой даже понедельник кажется началом чего-то хорошего.\n\nВ классификации VIA это **надежда** (добродетель «трансцендентность») — ожидание лучшего будущего и готовность работать на него — и **жизнелюбие** (добродетель «мужество»). В исследовании Парка, Питерсона и Селигмана (2004) именно надежда и жизнелюбие — вместе с благодарностью, любовью и любознательностью — сильнее всего связаны с удовлетворённостью жизнью. С «Большой пятёркой» эти силы пересекаются через «живую» грань экстраверсии и эмоциональную устойчивость.\n\nКак прокачать: оптимизм крепче, если у него есть план. Пусть надежда задаёт направление, а маленькие конкретные шаги ведут к цели.",
+        "en": "Your superpower is flight. When everyone is staring at their feet, you look up: you believe things will work out and find the energy to act. Your optimism is contagious; with you, even a Monday feels like the start of something good.\n\nIn the VIA classification this is **hope** (virtue of transcendence), expecting a good future and working towards it, plus **zest** (virtue of courage). Park, Peterson and Seligman (2004) found that hope and zest, together with gratitude, love and curiosity, are the strengths most strongly linked to life satisfaction. With the Big Five they overlap via the lively facet of extraversion and emotional stability.\n\nHow to level up: optimism is sturdier with a plan. Let hope set the direction and small concrete steps take you there."
+      },
+      "strengths": [
+        {
+          "ru": "Оптимизм",
+          "en": "Optimism"
+        },
+        {
+          "ru": "Энергия",
+          "en": "Energy"
+        },
+        {
+          "ru": "Вдохновение",
+          "en": "Inspiration"
+        },
+        {
+          "ru": "Стойкость",
+          "en": "Resilience"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Подкреплять мечты планом",
+          "en": "Backing dreams with a plan"
+        },
+        {
+          "ru": "Замечать реальные риски",
+          "en": "Noticing real risks"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Прогноз: 90% дождя. Ты: «Значит, 10% солнца!»",
+          "en": "Forecast: 90% chance of rain. You: \"So, 10% sunshine!\""
+        },
+        {
+          "ru": "Ты подбадриваешь даже навигатор, когда он перестраивает маршрут.",
+          "en": "You cheer on the sat-nav when it recalculates the route."
+        },
+        {
+          "ru": "Твоя доска желаний занимает целую стену. И половина пунктов уже вычеркнута.",
+          "en": "Your vision board covers a whole wall, and half of it is already ticked off."
+        },
+        {
+          "ru": "Ты танцуешь в очереди в банке. Банк от этого стал добрее.",
+          "en": "You dance in the bank queue. The bank has become kinder because of it."
+        }
+      ],
+      "compatibleWith": [
+        "light",
+        "teleportation",
+        "super-strength"
+      ],
+      "imagePrompt": "A cute chibi superhero soaring through cotton-candy clouds with small feathered wings and a rainbow trail, joyful laugh, sky blue and peach palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi superhero, minimal, high detail, no text"
+    },
+    {
+      "id": "light",
+      "title": {
+        "ru": "Повелитель света",
+        "en": "Light Bender"
+      },
+      "emoji": "🌟",
+      "profile": {
+        "wisdom": 0.26,
+        "courage": 0.26,
+        "humanity": 0.36,
+        "justice": 0.13,
+        "temperance": 0.17,
+        "transcendence": 0.47
+      },
+      "summary": [
+        {
+          "ru": "Видишь красоту там, где другие её не замечают",
+          "en": "You see beauty others miss"
+        },
+        {
+          "ru": "Благодарность и смысл",
+          "en": "Gratitude and meaning"
+        },
+        {
+          "ru": "Сильные стороны: восприятие красоты, благодарность, духовность",
+          "en": "Core strengths: appreciation of beauty, gratitude, spirituality"
+        },
+        {
+          "ru": "Добродетель VIA: трансцендентность",
+          "en": "VIA virtue: transcendence"
+        }
+      ],
+      "detailed": {
+        "ru": "Твоя суперсила — управление светом. Ты умеешь подсветить хорошее: красоту заката, доброту случайного прохожего, смысл в трудной ситуации. Рядом с тобой люди начинают замечать, сколько в мире чудесного.\n\nВ классификации VIA это **восприятие красоты и совершенства**, **благодарность** и **духовность** (поиск смысла) — добродетель «трансцендентность», то есть связь с чем-то бо́льшим, чем отдельный человек. Восприятие красоты в исследованиях почти совпадает с эстетической гранью открытости опыту, а благодарность — одна из сильных сторон, наиболее связанных с удовлетворённостью жизнью.\n\nКак прокачать: попробуй классическое упражнение позитивной психологии — каждый вечер записывай три хорошие вещи, которые случились за день. Твой свет станет ещё ярче — и заметнее для других.",
+        "en": "Your superpower is bending light. You know how to spotlight the good: the beauty of a sunset, a stranger's kindness, meaning in a hard situation. Around you, people start noticing how much wonder the world holds.\n\nIn the VIA classification this is **appreciation of beauty and excellence**, **gratitude** and **spirituality** (a sense of meaning), the virtue of transcendence, a connection to something larger than yourself. In research, appreciation of beauty almost overlaps with the aesthetic facet of openness, and gratitude is one of the strengths most strongly linked to life satisfaction.\n\nHow to level up: try the classic positive psychology exercise: each evening, write down three good things that happened that day. Your light will grow brighter, and more visible to others."
+      },
+      "strengths": [
+        {
+          "ru": "Чувство прекрасного",
+          "en": "Sense of beauty"
+        },
+        {
+          "ru": "Благодарность",
+          "en": "Gratitude"
+        },
+        {
+          "ru": "Поиск смысла",
+          "en": "Search for meaning"
+        },
+        {
+          "ru": "Вдохновение",
+          "en": "Inspiration"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Делиться своим взглядом вслух",
+          "en": "Sharing your view out loud"
+        },
+        {
+          "ru": "Не уходить в созерцание вместо действий",
+          "en": "Not letting contemplation replace action"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты останавливаешь всю компанию посреди улицы: «Стойте! Посмотрите, какое небо!»",
+          "en": "You stop the whole group mid-street: \"Wait! Look at that sky!\""
+        },
+        {
+          "ru": "У тебя в галерее 3000 фотографий облаков. И каждое — особенное.",
+          "en": "You have 3,000 photos of clouds. Each one is special."
+        },
+        {
+          "ru": "Ты благодаришь водителя автобуса, кассира, банкомат и Вселенную. Всех по отдельности.",
+          "en": "You thank the bus driver, the cashier, the cash machine and the universe. Each one separately."
+        },
+        {
+          "ru": "Друг: «Это просто лужа». Ты: «В ней отражается весь город!»",
+          "en": "Friend: \"It's just a puddle.\" You: \"The whole city is reflected in it!\""
+        }
+      ],
+      "compatibleWith": [
+        "flight",
+        "healing",
+        "shapeshifting"
+      ],
+      "imagePrompt": "A cute chibi superhero holding a glowing orb of pastel light that paints rainbows across a dreamy sky, soft sparkles, golden and pink palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi superhero, minimal, high detail, no text"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Шесть шкал — добродетели VIA: мудрость, мужество, человечность, справедливость, умеренность, трансцендентность. Каждый ответ даёт 2 балла главной добродетели своей суперсилы и 1 балл второй. Суммы переводятся в 0–1: (балл − минимум) / (максимум − минимум); затем выбирается суперсила с ближайшим профилем (евклидово расстояние).",
+    "en": "Six scales, the VIA virtues: wisdom, courage, humanity, justice, temperance and transcendence. Each answer gives 2 points to its superpower's main virtue and 1 to the second. Totals are rescaled to 0–1: (score − min) / (max − min); you then get the superpower with the nearest profile (Euclidean distance)."
+  },
+  "resultIntro": {
+    "ru": "Твоя суперсила найдена! Плащ не прилагается, но научная основа — да.",
+    "en": "Your superpower has been found! Cape not included, but the science is."
+  }
+}

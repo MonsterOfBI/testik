@@ -5,7 +5,7 @@ const ru = {
   theme: { dark: "Тёмная тема", light: "Светлая тема" },
   hero: {
     title: "Узнай себя. По науке и ради смеха",
-    sub: "Тесты на личность, интеллект, эмоции и карьеру на основе научных методик, и ещё пара десятков забавных. Результат подробный, с графиками и сравнением с другими людьми.",
+    sub: "Тесты на личность, интеллект, эмоции и карьеру на основе научных методик, и больше десятка забавных. Результат подробный, с графиками и сравнением с другими людьми.",
     ctaPrimary: "Начать с «Большой пятёрки»",
     ctaRandom: "Случайный тест",
     stat1: "тестов",
@@ -131,7 +131,7 @@ const en: Dict = {
   theme: { dark: "Dark theme", light: "Light theme" },
   hero: {
     title: "Know yourself. By the science, and for the laughs",
-    sub: "Personality, intelligence, emotion and career tests built on scientific instruments, plus a couple dozen silly ones. Detailed results with charts and comparisons to other people.",
+    sub: "Personality, intelligence, emotion and career tests built on scientific instruments, plus more than ten silly ones. Detailed results with charts and comparisons to other people.",
     ctaPrimary: "Start with the Big Five",
     ctaRandom: "Random test",
     stat1: "tests",

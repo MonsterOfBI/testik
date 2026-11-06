@@ -1,0 +1,2804 @@
+{
+  "id": "archetype",
+  "category": "fun",
+  "kind": "choice",
+  "seriousness": "fun",
+  "title": {
+    "ru": "Какой ты архетип?",
+    "en": "Which archetype are you?"
+  },
+  "tagline": {
+    "ru": "Герой, Мудрец, Бунтарь или Шут? 12 архетипов по Юнгу, Марк и Пирсон — и один из них про тебя",
+    "en": "Hero, Sage, Rebel or Jester? 12 archetypes after Jung, Mark and Pearson, and one of them is you"
+  },
+  "description": {
+    "ru": "Апельсины на тротуаре, апокалипсис в кино и миллион с неба — 16 ситуаций покажут, какой мотив ведёт тебя по жизни: стабильность, принадлежность, мастерство или свобода. В результате — твой архетип, его сильные стороны, «тень» и персонажи, с которыми тебя часто сравнивают.",
+    "en": "Oranges on the pavement, a movie apocalypse and a million from the sky: 16 situations reveal the motive that drives you, stability, belonging, mastery or freedom. You get your archetype, its strengths, its \"shadow\" and the characters you are often compared to."
+  },
+  "emoji": "🦸",
+  "durationMin": 5,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "архетипы",
+      "en": "archetypes"
+    },
+    {
+      "ru": "Юнг",
+      "en": "Jung"
+    },
+    {
+      "ru": "мотивация",
+      "en": "motivation"
+    },
+    {
+      "ru": "развлечение",
+      "en": "fun"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что это за тест\nРазвлекательный тест по мотивам **12 архетипов** в версии Маргарет Марк и Кэрол Пирсон («The Hero and the Outlaw», 2001; рус. изд. «Герой и бунтарь», 2005). 16 ситуаций оцениваются по четырём базовым мотивам, вокруг которых авторы выстроили свою модель:\n\n| Мотив | Архетипы |\n|---|---|\n| Стабильность и контроль | Заботливый, Творец, Правитель |\n| Принадлежность и радость | Свой человек, Романтик, Шут |\n| Риск и мастерство | Герой, Бунтарь, Маг |\n| Независимость и самореализация | Простодушный, Искатель, Мудрец |\n\nМотивы образуют две оси: «стабильность ↔ мастерство» и «принадлежность ↔ независимость». Каждый архетип — точка на этом «колесе мотивов»: у центрального архетипа квадранта один ведущий мотив, у пограничных — ведущий плюс соседний.\n\n### Откуда это взялось\nПонятие **архетипа** ввёл Карл Густав Юнг — как универсальные образы «коллективного бессознательного». Джозеф Кэмпбелл описал «путь героя», Кэрол Пирсон в 1980–90-х предложила набор из 12 архетипов для личностного развития, а Марк и Пирсон адаптировали его для маркетинга и брендинга.\n\n### Что говорит наука — честно\n- Юнгианские архетипы и 12-архетипная схема **не являются эмпирически валидированной моделью личности**: это культурный и литературный инструмент, а не измеренные черты. Тест нельзя использовать для отбора на работу или серьёзных решений.\n- Есть отдельные исследования: Фабер и Майер (Faber & Mayer, 2009) создали шкалу отклика на архетипические образы в музыке, кино и искусстве и обнаружили, что люди устойчиво «резонируют» с разными группами архетипов, а этот отклик связан с чертами личности и жизненными темами (например, отклик на «заботливые» образы — с доброжелательностью).\n- Четыре мотива по смыслу перекликаются с кругом ценностей Шалома Шварца (Schwartz, 1992) — безопасность, достижение, благожелательность, самостоятельность и др., — а ценности, в свою очередь, умеренно связаны с «Большой пятёркой» (Roccas et al., 2002). Связи архетипов с чертами в описаниях — **наши смысловые сопоставления**, а не измеренные корреляции.\n\n### Как считается результат\nКаждый вариант ответа «пахнет» одним архетипом и даёт 2 балла его ведущему мотиву (+1 соседнему для пограничных архетипов). Суммы по четырём мотивам переводятся в шкалу 0–1, и выбирается архетип с ближайшим профилем (евклидово расстояние). Профили откалиброваны симуляцией, чтобы все 12 архетипов выпадали примерно одинаково часто. Вопросы оригинальные, надёжность не измерялась.",
+    "en": "### What this quiz is\nAn entertainment quiz based on the **12 archetypes** as framed by Margaret Mark and Carol Pearson (The Hero and the Outlaw, 2001). 16 situations are scored on the four core motivations around which the authors built their model:\n\n| Motivation | Archetypes |\n|---|---|\n| Stability & control | Caregiver, Creator, Ruler |\n| Belonging & enjoyment | Everyman, Lover, Jester |\n| Risk & mastery | Hero, Rebel (Outlaw), Magician |\n| Independence & fulfilment | Innocent, Explorer, Sage |\n\nThe motivations form two axes, stability ↔ mastery and belonging ↔ independence. Each archetype is a point on this \"motivation wheel\": the core archetype of a quadrant has one leading motive, the border archetypes have a leading motive plus a neighbouring one.\n\n### Where this comes from\nCarl Gustav Jung introduced **archetypes** as universal images of the \"collective unconscious\". Joseph Campbell described the hero's journey; Carol Pearson proposed a set of 12 archetypes for personal growth in the 1980s–90s, and Mark and Pearson adapted it for marketing and branding.\n\n### What the science says, honestly\n- Jungian archetypes and the 12-archetype scheme are **not an empirically validated personality model**: they are a cultural and literary tool, not measured traits. Do not use this quiz for hiring or serious decisions.\n- There is some research: Faber and Mayer (2009) built a scale of resonance to archetypal characters in music, film and art and found that people reliably resonate with different archetype clusters, and that resonance relates to personality traits and life themes (e.g., resonance with caregiver figures went with agreeableness).\n- The four motivations echo Shalom Schwartz's (1992) circle of values — security, achievement, benevolence, self-direction and others — and values in turn relate moderately to the Big Five (Roccas et al., 2002). The archetype–trait links in the descriptions are **our conceptual mapping**, not measured correlations.\n\n### How the result is computed\nEach answer option \"smells\" of one archetype and gives 2 points to its leading motivation (+1 to the neighbouring one for border archetypes). The four totals are rescaled to 0–1, and you get the archetype with the nearest profile (Euclidean distance). Profiles were calibrated by simulation so all 12 archetypes come up about equally often. Questions are original; reliability has not been measured."
+  },
+  "sources": [
+    {
+      "citation": "Mark, M., & Pearson, C. S. (2001). The hero and the outlaw: Building extraordinary brands through the power of archetypes. New York: McGraw-Hill."
+    },
+    {
+      "citation": "Марк, М., Пирсон, К. (2005). Герой и бунтарь. Создание бренда с помощью архетипов. СПб.: Питер."
+    },
+    {
+      "citation": "Pearson, C. S. (1991). Awakening the heroes within: Twelve archetypes to help us find ourselves and transform our world. San Francisco: HarperSanFrancisco."
+    },
+    {
+      "citation": "Jung, C. G. (1959). The archetypes and the collective unconscious (Collected Works, Vol. 9, Part 1). Princeton, NJ: Princeton University Press."
+    },
+    {
+      "citation": "Campbell, J. (1949). The hero with a thousand faces. New York: Pantheon Books."
+    },
+    {
+      "citation": "Faber, M. A., & Mayer, J. D. (2009). Resonance to archetypes in media: There's some accounting for taste. Journal of Research in Personality, 43(3), 307–322.",
+      "doi": "10.1016/j.jrp.2008.11.003",
+      "url": "https://scholars.unh.edu/psych_facpub/350"
+    },
+    {
+      "citation": "Schwartz, S. H. (1992). Universals in the content and structure of values: Theoretical advances and empirical tests in 20 countries. Advances in Experimental Social Psychology, 25, 1–65.",
+      "doi": "10.1016/S0065-2601(08)60281-6"
+    },
+    {
+      "citation": "Roccas, S., Sagiv, L., Schwartz, S. H., & Knafo, A. (2002). The Big Five personality factors and personal values. Personality and Social Psychology Bulletin, 28(6), 789–801.",
+      "doi": "10.1177/0146167202289008"
+    }
+  ],
+  "license": "Original content written for testik. The 12-archetype framework is described and cited (Mark & Pearson, 2001), not reproduced; no questions are taken from any commercial archetype assessment (e.g., the Pearson–Marr Archetype Indicator) or quiz site.",
+  "disclaimer": {
+    "ru": "Развлекательный тест. Архетипы — культурная и литературная модель, а не научно валидированная типология личности. Не используй результат для серьёзных решений.",
+    "en": "Entertainment quiz. Archetypes are a cultural and literary model, not a scientifically validated personality typology. Do not use the result for serious decisions."
+  },
+  "instructions": {
+    "ru": "В каждой ситуации выбирай вариант, который откликается сильнее всего. Если тянет к нескольким — выбирай тот, что больше похож на тебя настоящего, а не на того, кем хочется казаться.",
+    "en": "In each situation, pick the option that resonates most. If several pull at you, choose the one that is most like the real you, not who you would like to seem."
+  },
+  "dimensions": [
+    {
+      "id": "stability",
+      "name": {
+        "ru": "Стабильность и контроль",
+        "en": "Stability & control"
+      },
+      "description": {
+        "ru": "Желание порядка, безопасности и структуры: заботиться, строить, управлять.",
+        "en": "The wish for order, safety and structure: caring, building, managing."
+      },
+      "lowLabel": {
+        "ru": "импровизация",
+        "en": "improvisation"
+      },
+      "highLabel": {
+        "ru": "порядок, опора",
+        "en": "order, support"
+      },
+      "color": "#A8E0C8",
+      "scoring": "sum",
+      "min": 0,
+      "max": 32,
+      "bands": [
+        {
+          "min": 0,
+          "max": 10,
+          "label": {
+            "ru": "Любишь свободу манёвра",
+            "en": "You like room to manoeuvre"
+          },
+          "summary": [
+            {
+              "ru": "Правила — не главное",
+              "en": "Rules are not the point"
+            },
+            {
+              "ru": "Легко импровизируешь",
+              "en": "You improvise easily"
+            },
+            {
+              "ru": "Структура тебя скорее сковывает",
+              "en": "Structure tends to cramp you"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебя мало мотивирует контроль и порядок ради порядка. Это даёт гибкость, но иногда важным делам не хватает опоры. Попробуй одну маленькую «систему» в той сфере, где хаос мешает больше всего.",
+            "en": "Control and order for its own sake do not motivate you much. That gives you flexibility, but important things sometimes lack a backbone. Try one small \"system\" in the area where chaos hurts most."
+          }
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "label": {
+            "ru": "Порядок по необходимости",
+            "en": "Order when needed"
+          },
+          "summary": [
+            {
+              "ru": "Можешь собраться, когда надо",
+              "en": "You can get organised when needed"
+            },
+            {
+              "ru": "Не фанатеешь от контроля",
+              "en": "You are not obsessed with control"
+            },
+            {
+              "ru": "Баланс заботы и свободы",
+              "en": "A balance of care and freedom"
+            }
+          ],
+          "detailed": {
+            "ru": "Стабильность для тебя важна, но не любой ценой. Ты умеешь и навести порядок, и отпустить ситуацию.",
+            "en": "Stability matters to you, but not at any price. You can bring order and you can let go."
+          }
+        },
+        {
+          "min": 22,
+          "max": 32,
+          "label": {
+            "ru": "Строитель и опора",
+            "en": "Builder and anchor"
+          },
+          "summary": [
+            {
+              "ru": "Создаёшь структуру и безопасность",
+              "en": "You create structure and safety"
+            },
+            {
+              "ru": "Заботишься о людях и результате",
+              "en": "You care for people and outcomes"
+            },
+            {
+              "ru": "На тебя опираются",
+              "en": "People lean on you"
+            }
+          ],
+          "detailed": {
+            "ru": "Твоя ведущая мотивация — создать надёжный, упорядоченный мир для себя и других. Береги себя от гиперконтроля: доверие тоже строит стабильность.",
+            "en": "Your leading drive is creating a safe, orderly world for yourself and others. Guard against over-control: trust builds stability too."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mastery",
+      "name": {
+        "ru": "Риск и мастерство",
+        "en": "Risk & mastery"
+      },
+      "description": {
+        "ru": "Желание проявить себя, рискнуть, победить и изменить мир.",
+        "en": "The wish to prove yourself, take risks, win and change the world."
+      },
+      "lowLabel": {
+        "ru": "спокойные амбиции",
+        "en": "quiet ambitions"
+      },
+      "highLabel": {
+        "ru": "вызов, победа",
+        "en": "challenge, victory"
+      },
+      "color": "#FFC3A0",
+      "scoring": "sum",
+      "min": 0,
+      "max": 32,
+      "bands": [
+        {
+          "min": 0,
+          "max": 10,
+          "label": {
+            "ru": "Без гонки",
+            "en": "No rat race"
+          },
+          "summary": [
+            {
+              "ru": "Соревнование тебя не цепляет",
+              "en": "Competition does not hook you"
+            },
+            {
+              "ru": "Ценишь спокойствие",
+              "en": "You value peace"
+            },
+            {
+              "ru": "Риск — только по необходимости",
+              "en": "Risk only when necessary"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебе не нужно постоянно что-то доказывать. Это прекрасная защита от выгорания — главное, не упускать шансы, которые действительно важны.",
+            "en": "You do not need to keep proving things. Great protection against burnout; just do not miss chances that truly matter."
+          }
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "label": {
+            "ru": "Здоровые амбиции",
+            "en": "Healthy ambition"
+          },
+          "summary": [
+            {
+              "ru": "Можешь рискнуть ради важного",
+              "en": "You will take a risk for something important"
+            },
+            {
+              "ru": "Цели есть, фанатизма нет",
+              "en": "Goals without obsession"
+            },
+            {
+              "ru": "Знаешь цену отдыху",
+              "en": "You know the value of rest"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь включать режим «вызов принят», но не живёшь в нём постоянно.",
+            "en": "You can switch on \"challenge accepted\" mode without living in it permanently."
+          }
+        },
+        {
+          "min": 22,
+          "max": 32,
+          "label": {
+            "ru": "Охотник за вызовами",
+            "en": "Challenge hunter"
+          },
+          "summary": [
+            {
+              "ru": "Трудности тебя заводят",
+              "en": "Difficulty energises you"
+            },
+            {
+              "ru": "Хочешь оставить след в мире",
+              "en": "You want to leave a mark"
+            },
+            {
+              "ru": "Готовность рисковать",
+              "en": "Ready to take risks"
+            }
+          ],
+          "detailed": {
+            "ru": "Твоя ведущая мотивация — мастерство, победа и перемены. Помни про тень этого мотива: не каждая ситуация — битва.",
+            "en": "Your leading drive is mastery, victory and change. Mind its shadow: not every situation is a battle."
+          }
+        }
+      ]
+    },
+    {
+      "id": "belonging",
+      "name": {
+        "ru": "Принадлежность и радость",
+        "en": "Belonging & enjoyment"
+      },
+      "description": {
+        "ru": "Желание близости, общности и удовольствия: любить, дружить, веселиться.",
+        "en": "The wish for closeness, community and enjoyment: loving, befriending, having fun."
+      },
+      "lowLabel": {
+        "ru": "самодостаточность",
+        "en": "self-sufficient"
+      },
+      "highLabel": {
+        "ru": "люди, тепло, веселье",
+        "en": "people, warmth, fun"
+      },
+      "color": "#F7B8C8",
+      "scoring": "sum",
+      "min": 0,
+      "max": 32,
+      "bands": [
+        {
+          "min": 0,
+          "max": 10,
+          "label": {
+            "ru": "Самодостаточность",
+            "en": "Self-sufficient"
+          },
+          "summary": [
+            {
+              "ru": "Тебе хорошо и наедине с собой",
+              "en": "You are fine on your own"
+            },
+            {
+              "ru": "Не гонишься за одобрением",
+              "en": "You do not chase approval"
+            },
+            {
+              "ru": "Близость — избирательно",
+              "en": "Selective about closeness"
+            }
+          ],
+          "detailed": {
+            "ru": "Принадлежность к группе для тебя не главный мотиватор. Это даёт независимость; только не забывай, что связи — тоже ресурс.",
+            "en": "Belonging to a group is not your main motivator. That gives independence; just remember connections are a resource too."
+          }
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "label": {
+            "ru": "Тёплый, но независимый",
+            "en": "Warm but independent"
+          },
+          "summary": [
+            {
+              "ru": "Ценишь близких",
+              "en": "You value your people"
+            },
+            {
+              "ru": "Не растворяешься в группе",
+              "en": "You do not dissolve into the group"
+            },
+            {
+              "ru": "Любишь веселье в меру",
+              "en": "You enjoy fun in moderation"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебе важны люди и радость, но и своё пространство тоже.",
+            "en": "People and joy matter to you, and so does your own space."
+          }
+        },
+        {
+          "min": 22,
+          "max": 32,
+          "label": {
+            "ru": "Человек для людей",
+            "en": "A people person"
+          },
+          "summary": [
+            {
+              "ru": "Связи — твоя главная ценность",
+              "en": "Connection is your core value"
+            },
+            {
+              "ru": "Умеешь дарить радость",
+              "en": "You bring joy"
+            },
+            {
+              "ru": "Создаёшь чувство «мы»",
+              "en": "You create a sense of \"us\""
+            }
+          ],
+          "detailed": {
+            "ru": "Твоя ведущая мотивация — близость, общность и удовольствие от жизни. Береги себя от растворения в других.",
+            "en": "Your leading drive is closeness, community and enjoying life. Guard against losing yourself in others."
+          }
+        }
+      ]
+    },
+    {
+      "id": "independence",
+      "name": {
+        "ru": "Свобода и самореализация",
+        "en": "Independence & fulfilment"
+      },
+      "description": {
+        "ru": "Желание свободы, истины и счастья по-своему: искать, познавать, мечтать.",
+        "en": "The wish for freedom, truth and happiness on your own terms: exploring, learning, dreaming."
+      },
+      "lowLabel": {
+        "ru": "укоренённость",
+        "en": "rooted"
+      },
+      "highLabel": {
+        "ru": "свобода, поиск",
+        "en": "freedom, quest"
+      },
+      "color": "#C9B6F2",
+      "scoring": "sum",
+      "min": 0,
+      "max": 32,
+      "bands": [
+        {
+          "min": 0,
+          "max": 10,
+          "label": {
+            "ru": "Укоренённость",
+            "en": "Rooted"
+          },
+          "summary": [
+            {
+              "ru": "Ценишь привычное и своё",
+              "en": "You value the familiar"
+            },
+            {
+              "ru": "Поиск ради поиска не нужен",
+              "en": "No need to search for the sake of it"
+            },
+            {
+              "ru": "Счастье — рядом",
+              "en": "Happiness is close at hand"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебя мало тянет «за горизонт». Это даёт устойчивость; иногда стоит позволить себе маленькое путешествие в неизвестное.",
+            "en": "The horizon does not pull at you much. That gives stability; now and then, allow yourself a small trip into the unknown."
+          }
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "label": {
+            "ru": "Свобода в меру",
+            "en": "Freedom in moderation"
+          },
+          "summary": [
+            {
+              "ru": "Любопытство есть",
+              "en": "You are curious"
+            },
+            {
+              "ru": "Но и корни важны",
+              "en": "But roots matter too"
+            },
+            {
+              "ru": "Ищешь, не теряя опоры",
+              "en": "You search without losing your footing"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь совмещать поиск нового с надёжной базой.",
+            "en": "You combine seeking the new with a solid base."
+          }
+        },
+        {
+          "min": 22,
+          "max": 32,
+          "label": {
+            "ru": "Вечный искатель",
+            "en": "Eternal seeker"
+          },
+          "summary": [
+            {
+              "ru": "Свобода превыше всего",
+              "en": "Freedom above all"
+            },
+            {
+              "ru": "Ищешь истину и смысл",
+              "en": "You seek truth and meaning"
+            },
+            {
+              "ru": "Своё счастье — по своим правилам",
+              "en": "Happiness on your own terms"
+            }
+          ],
+          "detailed": {
+            "ru": "Твоя ведущая мотивация — независимость и самореализация. Не забывай, что свобода включает и право выбрать что-то надолго.",
+            "en": "Your leading drive is independence and fulfilment. Remember that freedom also includes the right to commit to something."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "На тебя внезапно свалился миллион. Что делаешь первым делом?",
+        "en": "A million suddenly lands in your lap. First move?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Закатываю вечеринку века — с фокусником, караоке и надувным фламинго",
+            "en": "Throw the party of the century, with a magician, karaoke and an inflatable flamingo"
+          },
+          "scores": {
+            "belonging": 2,
+            "mastery": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Нанимаю финансового советника и строю империю, шаг за шагом",
+            "en": "Hire a financial adviser and build an empire, step by step"
+          },
+          "scores": {
+            "stability": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Иду учиться в лучший университет мира и собираю свою библиотеку",
+            "en": "Enrol at the best university in the world and build my own library"
+          },
+          "scores": {
+            "independence": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Открываю мастерскую или студию — наконец-то можно творить без ограничений",
+            "en": "Open a workshop or studio. Finally, creating without limits"
+          },
+          "scores": {
+            "stability": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Вкладываюсь в дело, которое изменит жизнь людей, и лично за него берусь",
+            "en": "Invest in a cause that will change lives, and take it on personally"
+          },
+          "scores": {
+            "mastery": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Устраиваю незабываемое путешествие для себя и любимого человека",
+            "en": "Plan an unforgettable trip for me and the person I love"
+          },
+          "scores": {
+            "belonging": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Ты попадаешь в фэнтези-мир. Кем ты там станешь?",
+        "en": "You fall into a fantasy world. Who do you become?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Картографом неизведанных земель",
+            "en": "A mapmaker of uncharted lands"
+          },
+          "scores": {
+            "independence": 2,
+            "mastery": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Целителем: все раненые — ко мне",
+            "en": "A healer. All the wounded, this way"
+          },
+          "scores": {
+            "stability": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Предводителем повстанцев против злого короля",
+            "en": "Leader of the rebellion against the evil king"
+          },
+          "scores": {
+            "mastery": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тем, кто держит уютную таверну, где все свои",
+            "en": "The one who runs a cosy tavern where everyone is family"
+          },
+          "scores": {
+            "belonging": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Волшебником, для которого невозможное — обычный вторник",
+            "en": "A wizard for whom the impossible is just another Tuesday"
+          },
+          "scores": {
+            "mastery": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Жителем солнечной деревни, который верит, что добро победит",
+            "en": "A villager in a sunny hamlet who believes good will win"
+          },
+          "scores": {
+            "independence": 2,
+            "stability": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Проект команды вот-вот провалится. Твоя реакция:",
+        "en": "Your team's project is about to crash. Your reaction:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Это вызов! Беру самую сложную часть и вытаскиваю проект",
+            "en": "Challenge accepted! I take the hardest part and pull the project through"
+          },
+          "scores": {
+            "mastery": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Беру управление на себя: роли, сроки, контроль. Без паники",
+            "en": "Take control: roles, deadlines, check-ins. No panic"
+          },
+          "scores": {
+            "stability": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Разряжаю атмосферу шуткой — с улыбкой и думается лучше",
+            "en": "Break the tension with a joke. People think better when they smile"
+          },
+          "scores": {
+            "belonging": 2,
+            "mastery": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Предлагаю выбросить старый план и поискать совсем другой путь",
+            "en": "Suggest scrapping the old plan and finding a completely different route"
+          },
+          "scores": {
+            "independence": 2,
+            "mastery": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Слежу, чтобы никто не выгорел: чай, поддержка, «мы справимся»",
+            "en": "Make sure nobody burns out: tea, support, \"we've got this\""
+          },
+          "scores": {
+            "stability": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Засучиваю рукава вместе со всеми, без лишних речей",
+            "en": "Roll up my sleeves with everyone else, no speeches"
+          },
+          "scores": {
+            "belonging": 2,
+            "stability": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Какая книга могла бы выйти под твоим именем?",
+        "en": "Which book could be published under your name?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Манифест «Почему всё, что вам говорили, — неправда»",
+            "en": "A manifesto: \"Why everything you were told is wrong\""
+          },
+          "scores": {
+            "mastery": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Добрая сказка, которую будут читать детям на ночь",
+            "en": "A kind fairy tale that parents will read at bedtime"
+          },
+          "scores": {
+            "independence": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Роман о мире, который я придумываю с детства",
+            "en": "A novel about a world I have been inventing since childhood"
+          },
+          "scores": {
+            "stability": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Научпоп о том, как на самом деле устроен мир",
+            "en": "Popular science about how the world really works"
+          },
+          "scores": {
+            "independence": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«Как изменить жизнь за 30 дней» — и это реально работает",
+            "en": "\"Change your life in 30 days\", and it actually works"
+          },
+          "scores": {
+            "mastery": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "История любви, после которой все плачут в метро",
+            "en": "A love story that makes everyone cry on the train"
+          },
+          "scores": {
+            "belonging": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Идеальная суббота — это…",
+        "en": "The perfect Saturday is…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Лекция, музей, документалка и пара часов с умной книгой",
+            "en": "A lecture, a museum, a documentary and a couple of hours with a clever book"
+          },
+          "scores": {
+            "independence": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Поздний завтрак вдвоём, долгая прогулка и свидание",
+            "en": "A late breakfast for two, a long walk and a date"
+          },
+          "scores": {
+            "belonging": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Забег, соревнование или подъём на вершину",
+            "en": "A race, a competition or climbing a summit"
+          },
+          "scores": {
+            "mastery": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Весь день что-то мастерить, рисовать или писать",
+            "en": "A whole day of making, drawing or writing something"
+          },
+          "scores": {
+            "stability": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Закрыть все дела, а вечером — ужин в хорошем ресторане. Заслужено",
+            "en": "Close every task, then dinner at a good restaurant. Well earned"
+          },
+          "scores": {
+            "stability": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Квест, настолки, стендап — чем смешнее, тем лучше",
+            "en": "An escape room, board games, stand-up. The funnier the better"
+          },
+          "scores": {
+            "belonging": 2,
+            "mastery": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "На улице кто-то роняет пакет, и апельсины раскатываются по тротуару.",
+        "en": "Someone drops a bag and oranges roll all over the pavement."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Улыбаюсь: апельсины, катящиеся по улице, — это же почти мультфильм!",
+            "en": "Smile: oranges rolling down the street, it is practically a cartoon!"
+          },
+          "scores": {
+            "independence": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Бросаюсь помогать и заодно проверяю, всё ли с человеком в порядке",
+            "en": "Rush to help and check that the person is okay"
+          },
+          "scores": {
+            "stability": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Помогаю собрать — любой бы так сделал",
+            "en": "Help pick them up. Anyone would"
+          },
+          "scores": {
+            "belonging": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Помогаю и ворчу: почему пакеты в магазинах до сих пор рвутся?!",
+            "en": "Help, while grumbling: why do shop bags still tear?!"
+          },
+          "scores": {
+            "mastery": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Собираю и говорю что-то такое, что человек уходит с улыбкой, будто это лучший момент его дня",
+            "en": "Help and say something that makes them leave smiling, as if it was the best moment of their day"
+          },
+          "scores": {
+            "mastery": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Помогаю — и через минуту мы уже обсуждаем, где растут самые вкусные апельсины в мире",
+            "en": "Help, and a minute later we are discussing where the tastiest oranges in the world grow"
+          },
+          "scores": {
+            "independence": 2,
+            "mastery": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Что тебя бесит больше всего?",
+        "en": "What annoys you most?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Понты и снобизм",
+            "en": "Showing off and snobbery"
+          },
+          "scores": {
+            "belonging": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Рутина и ощущение клетки",
+            "en": "Routine and feeling caged"
+          },
+          "scores": {
+            "independence": 2,
+            "mastery": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Хаос и безответственность",
+            "en": "Chaos and irresponsibility"
+          },
+          "scores": {
+            "stability": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Зануды, которые портят всё серьёзным лицом",
+            "en": "Killjoys who ruin everything with a straight face"
+          },
+          "scores": {
+            "belonging": 2,
+            "mastery": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Когда обижают тех, кто слабее",
+            "en": "When people pick on the vulnerable"
+          },
+          "scores": {
+            "stability": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Когда сдаются, даже не попробовав",
+            "en": "When people give up without even trying"
+          },
+          "scores": {
+            "mastery": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Какой комплимент сделает твой день?",
+        "en": "Which compliment would make your day?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "«С тобой всё становится возможным»",
+            "en": "\"With you, everything becomes possible\""
+          },
+          "scores": {
+            "mastery": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Ты видишь самую суть вещей»",
+            "en": "\"You see right to the heart of things\""
+          },
+          "scores": {
+            "independence": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«Рядом с тобой я чувствую себя особенным человеком»",
+            "en": "\"With you I feel truly special\""
+          },
+          "scores": {
+            "belonging": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«С тобой мир кажется добрее»",
+            "en": "\"The world feels kinder with you in it\""
+          },
+          "scores": {
+            "independence": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Только у тебя хватило смелости сказать правду»",
+            "en": "\"You were the only one brave enough to tell the truth\""
+          },
+          "scores": {
+            "mastery": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Это так оригинально — ни у кого такого нет!»",
+            "en": "\"That is so original, nobody has anything like it!\""
+          },
+          "scores": {
+            "stability": 2,
+            "independence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "На вечеринке ты…",
+        "en": "At a party you are…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Неофициальный организатор: точно знаю, когда выносить торт",
+            "en": "The unofficial organiser who knows exactly when to bring out the cake"
+          },
+          "scores": {
+            "stability": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Центр смеха: тосты, конкурсы, мемы",
+            "en": "The centre of laughter: toasts, games, memes"
+          },
+          "scores": {
+            "belonging": 2,
+            "mastery": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Выигрываю все конкурсы. Да, даже армрестлинг",
+            "en": "Winning every game. Yes, even arm wrestling"
+          },
+          "scores": {
+            "mastery": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Весь вечер в глубоком разговоре с одним особенным человеком",
+            "en": "In a deep conversation with one special person all night"
+          },
+          "scores": {
+            "belonging": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Ищу, с кем обсудить что-нибудь интересное — от чёрных дыр до смысла жизни",
+            "en": "Looking for someone to discuss black holes or the meaning of life with"
+          },
+          "scores": {
+            "independence": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Отвечаю за плейлист, декор и фотозону",
+            "en": "In charge of the playlist, decorations and photo corner"
+          },
+          "scores": {
+            "stability": 2,
+            "independence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Мир на грани киношного апокалипсиса. Твоя роль в лагере выживших:",
+        "en": "The world faces a movie-style apocalypse. Your role in the survivors' camp:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Учёный, который найдёт противоядие",
+            "en": "The scientist who will find the cure"
+          },
+          "scores": {
+            "mastery": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тот, кто держит лагерь вместе: еда, костёр, байки",
+            "en": "The one holding the camp together: food, campfire, stories"
+          },
+          "scores": {
+            "belonging": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Разведчик, который уходит за горизонт и возвращается с картой",
+            "en": "The scout who goes over the horizon and comes back with a map"
+          },
+          "scores": {
+            "independence": 2,
+            "mastery": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Медик, у которого всегда найдётся бинт и доброе слово",
+            "en": "The medic who always has a bandage and a kind word"
+          },
+          "scores": {
+            "stability": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тот, кто верит, что всё будет хорошо, — и заражает этим остальных",
+            "en": "The one who believes it will be okay, and makes everyone else believe it too"
+          },
+          "scores": {
+            "independence": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тот, кто первым сказал, что власти всё скрывают, — и оказался прав",
+            "en": "The one who said first that the authorities were hiding something, and was right"
+          },
+          "scores": {
+            "mastery": 2,
+            "independence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Выбери девиз:",
+        "en": "Pick a motto:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "«Где есть воля, там найдётся и путь»",
+            "en": "\"Where there is a will, there is a way\""
+          },
+          "scores": {
+            "mastery": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«Помогай другим — и мир станет лучше»",
+            "en": "\"Help others and the world gets better\""
+          },
+          "scores": {
+            "stability": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Не сиди на месте — мир огромен»",
+            "en": "\"Do not sit still, the world is huge\""
+          },
+          "scores": {
+            "independence": 2,
+            "mastery": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Мы все в одной лодке»",
+            "en": "\"We are all in the same boat\""
+          },
+          "scores": {
+            "belonging": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Порядок — основа всего»",
+            "en": "\"Order is the foundation of everything\""
+          },
+          "scores": {
+            "stability": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«Живём один раз — так давайте веселиться»",
+            "en": "\"You only live once, so let's have fun\""
+          },
+          "scores": {
+            "belonging": 2,
+            "mastery": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Твой стиль одежды ближе всего к…",
+        "en": "Your style is closest to…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Удобно и практично — голова занята важным",
+            "en": "Comfy and practical. My head is busy with important things"
+          },
+          "scores": {
+            "independence": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Кожанка, ботинки — и пусть все косятся",
+            "en": "Leather jacket, boots, and let them stare"
+          },
+          "scores": {
+            "mastery": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Вещи, сделанные или переделанные своими руками",
+            "en": "Things I made or customised myself"
+          },
+          "scores": {
+            "stability": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Светлые цвета, кеды и улыбка",
+            "en": "Light colours, sneakers and a smile"
+          },
+          "scores": {
+            "independence": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Красиво, мягко, чтобы хотелось обнять",
+            "en": "Beautiful and soft, the kind that makes people want a hug"
+          },
+          "scores": {
+            "belonging": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Что-то загадочное: необычные украшения, особый парфюм",
+            "en": "Something mysterious: unusual jewellery, a signature scent"
+          },
+          "scores": {
+            "mastery": 2,
+            "belonging": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Коллега выдал твою идею за свою на общем собрании.",
+        "en": "A colleague presented your idea as their own at a meeting."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Ладно, у меня их ещё сотня. Но самую лучшую теперь придержу",
+            "en": "Fine, I have a hundred more. But I am keeping the best one to myself now"
+          },
+          "scores": {
+            "stability": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Иду к руководителю и восстанавливаю справедливость",
+            "en": "Go to the manager and set things right"
+          },
+          "scores": {
+            "mastery": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Шучу так, что все сразу понимают, чья это была идея",
+            "en": "Make a joke that leaves everyone in no doubt whose idea it was"
+          },
+          "scores": {
+            "belonging": 2,
+            "mastery": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Разбираюсь, почему так вышло, и делаю выводы на будущее",
+            "en": "Figure out why it happened and learn for the future"
+          },
+          "scores": {
+            "independence": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Мне обидно, и я честно об этом говорю — отношения важнее",
+            "en": "I am hurt and I say so honestly. The relationship matters more"
+          },
+          "scores": {
+            "belonging": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Спокойно напоминаю, кто автор, и показываю переписку с датами",
+            "en": "Calmly point out who the author is and show the dated emails"
+          },
+          "scores": {
+            "stability": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Что для тебя настоящий успех?",
+        "en": "What does real success mean to you?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Изменить систему, которая всех достала",
+            "en": "Changing a system everyone is sick of"
+          },
+          "scores": {
+            "mastery": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Быть счастливым и жить в ладу с собой",
+            "en": "Being happy and at peace with myself"
+          },
+          "scores": {
+            "independence": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Близким хорошо, и в этом есть моя заслуга",
+            "en": "The people I love are doing well, partly thanks to me"
+          },
+          "scores": {
+            "stability": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Увидеть мир и остаться свободным человеком",
+            "en": "Seeing the world and staying free"
+          },
+          "scores": {
+            "independence": 2,
+            "mastery": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Хорошая жизнь, свои люди рядом, и никто не задирает нос",
+            "en": "A good life, my people around me, and nobody acting superior"
+          },
+          "scores": {
+            "belonging": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Воплотить мечту, в которую никто не верил",
+            "en": "Making a dream come true that nobody believed in"
+          },
+          "scores": {
+            "mastery": 2,
+            "belonging": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "В соседнем дворе собираются вырубить старый парк.",
+        "en": "The old park next door is about to be cut down."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Подписываю петицию и зову соседей — вместе мы сила",
+            "en": "Sign the petition and get the neighbours involved. Together we are strong"
+          },
+          "scores": {
+            "belonging": 2,
+            "stability": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Собираю инициативную группу, пишу официальные письма, назначаю ответственных",
+            "en": "Set up an action group, write official letters, assign responsibilities"
+          },
+          "scores": {
+            "stability": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Встаю перед бульдозером. Образно. Ну, почти",
+            "en": "Stand in front of the bulldozer. Figuratively. Well, almost"
+          },
+          "scores": {
+            "mastery": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Думаю о детях и пожилых, которые там гуляют, и иду их поддерживать",
+            "en": "Think of the kids and older people who walk there, and go support them"
+          },
+          "scores": {
+            "stability": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Устраиваю в парке весёлый флешмоб, чтобы о нём узнал весь город",
+            "en": "Organise a funny flash mob in the park so the whole city hears about it"
+          },
+          "scores": {
+            "belonging": 2,
+            "mastery": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Иду фотографировать все тайные тропинки, пока они ещё есть",
+            "en": "Go and photograph every secret path while they still exist"
+          },
+          "scores": {
+            "independence": 2,
+            "mastery": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "text": {
+        "ru": "Если бы у тебя был тайный талант, это было бы…",
+        "en": "If you had a secret talent, it would be…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Чувствовать без слов, что нужно человеку",
+            "en": "Sensing what a person needs without a word"
+          },
+          "scores": {
+            "belonging": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Угадывать желания и исполнять их",
+            "en": "Guessing wishes and making them come true"
+          },
+          "scores": {
+            "mastery": 2,
+            "belonging": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Понимать, как всё устроено, с первого взгляда",
+            "en": "Understanding how anything works at first glance"
+          },
+          "scores": {
+            "independence": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Находить слабое место любой системы",
+            "en": "Finding the weak spot in any system"
+          },
+          "scores": {
+            "mastery": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Создавать красоту из ничего",
+            "en": "Creating beauty out of nothing"
+          },
+          "scores": {
+            "stability": 2,
+            "independence": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Видеть хорошее в каждом",
+            "en": "Seeing the good in everyone"
+          },
+          "scores": {
+            "independence": 2,
+            "stability": 1
+          }
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "hero",
+      "title": {
+        "ru": "Герой — тот, кто идёт первым",
+        "en": "The Hero: first through the door"
+      },
+      "emoji": "🦸",
+      "profile": {
+        "stability": 0.22,
+        "mastery": 0.45,
+        "belonging": 0.33,
+        "independence": 0.33
+      },
+      "summary": [
+        {
+          "ru": "Видишь вызов — принимаешь вызов",
+          "en": "You see a challenge, you take it"
+        },
+        {
+          "ru": "Смелость и упорство",
+          "en": "Courage and grit"
+        },
+        {
+          "ru": "Защищаешь своих и доказываешь делом",
+          "en": "You protect your people and prove it with action"
+        },
+        {
+          "ru": "Мотив: мастерство и риск",
+          "en": "Core drive: mastery and risk"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Герой: смелый, упорный и нацеленный на результат. Тебе важно доказать — себе и миру, — что трудности можно победить. Когда остальные говорят «это невозможно», у тебя загораются глаза.\n\nВ модели Марк и Пирсон Герой — центральный архетип квадранта «Риск и мастерство»: его ведёт желание оставить след в мире. Это не измеренная черта, а образ; по смыслу он ближе всего к ценностям достижения (по Шварцу) и к высокой добросовестности и напористой экстраверсии в «Большой пятёрке». Классический путь героя описал Джозеф Кэмпбелл в книге «Тысячеликий герой».\n\nТень Героя — высокомерие и выгорание: желание побеждать любой ценой и страх показаться слабым. Совет: не каждая битва твоя. Иногда самое смелое — попросить о помощи или признать, что можно отдохнуть.",
+        "en": "You are the Hero: brave, persistent and results-driven. You need to prove, to yourself and the world, that obstacles can be beaten. When others say \"it's impossible\", your eyes light up.\n\nIn Mark and Pearson's model the Hero is the core archetype of the \"Risk & Mastery\" quadrant: driven by the wish to leave a mark on the world. It is an image, not a measured trait; in meaning it sits closest to achievement values (in Schwartz's terms) and to high conscientiousness plus assertive extraversion in the Big Five. Joseph Campbell described the classic hero's journey in The Hero with a Thousand Faces.\n\nThe Hero's shadow is arrogance and burnout: winning at any cost and the fear of looking weak. Tip: not every battle is yours. Sometimes the bravest move is to ask for help, or to admit you are allowed to rest."
+      },
+      "strengths": [
+        {
+          "ru": "Смелость",
+          "en": "Courage"
+        },
+        {
+          "ru": "Упорство",
+          "en": "Persistence"
+        },
+        {
+          "ru": "Ответственность",
+          "en": "Responsibility"
+        },
+        {
+          "ru": "Умение вести за собой",
+          "en": "Leading by example"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Просить о помощи",
+          "en": "Asking for help"
+        },
+        {
+          "ru": "Отдыхать без чувства вины",
+          "en": "Resting without guilt"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Тебе говорят: «Это не обязательно делать сегодня». Ты уже делаешь.",
+          "en": "They say \"this doesn't have to be done today\". You are already doing it."
+        },
+        {
+          "ru": "Ты выбираешь самый сложный маршрут в походе, потому что «а зачем тогда идти?».",
+          "en": "You pick the hardest hiking trail because \"otherwise, why go?\""
+        },
+        {
+          "ru": "Друг просит открыть банку. Ты воспринимаешь это как личную миссию.",
+          "en": "A friend asks you to open a jar. You treat it as a personal mission."
+        },
+        {
+          "ru": "Твой фитнес-браслет устал раньше тебя.",
+          "en": "Your fitness tracker got tired before you did."
+        }
+      ],
+      "famous": [
+        {
+          "ru": "Часто сравнивают с Гарри Поттером",
+          "en": "Often compared to Harry Potter"
+        },
+        {
+          "ru": "…с Мулан",
+          "en": "…Mulan"
+        },
+        {
+          "ru": "…с Ильёй Муромцем",
+          "en": "…the Russian folk hero Ilya Muromets"
+        }
+      ],
+      "compatibleWith": [
+        "caregiver",
+        "sage",
+        "magician"
+      ],
+      "imagePrompt": "A cute chibi hero character in a flowing cape standing on a small hill with a glowing shield, sunrise behind, coral and gold palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi character, minimal, high detail, no text"
+    },
+    {
+      "id": "sage",
+      "title": {
+        "ru": "Мудрец — ходячая энциклопедия",
+        "en": "The Sage: a walking encyclopedia"
+      },
+      "emoji": "🦉",
+      "profile": {
+        "stability": 0.33,
+        "mastery": 0.33,
+        "belonging": 0.22,
+        "independence": 0.44
+      },
+      "summary": [
+        {
+          "ru": "Ищешь истину, а не одобрение",
+          "en": "You seek truth, not approval"
+        },
+        {
+          "ru": "Сначала понять, потом действовать",
+          "en": "Understand first, act second"
+        },
+        {
+          "ru": "К тебе идут за советом",
+          "en": "People come to you for advice"
+        },
+        {
+          "ru": "Мотив: независимость и самореализация",
+          "en": "Core drive: independence and fulfilment"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Мудрец: вдумчивый, любознательный и независимый в суждениях. Тебя ведёт желание понять, как всё устроено на самом деле. Ты читаешь инструкции, проверяешь источники и любишь вопросы, на которые нет простого ответа.\n\nУ Марк и Пирсон Мудрец входит в квадрант «Независимость и самореализация» — вместе с Искателем и Простодушным: все они ищут свой «рай», и для Мудреца это истина. По смыслу архетип ближе всего к интеллектуальной стороне открытости опыту и к ценности самостоятельности мышления (self-direction у Шварца).\n\nТень Мудреца — бесконечный анализ и холодность: можно знать всё о жизни и при этом забыть её прожить. Совет: делись знанием простыми словами и иногда действуй, не дочитав до последней страницы.",
+        "en": "You are the Sage: thoughtful, curious and independent-minded. You are driven by the need to understand how things really work. You read the manual, check the sources and love questions with no easy answer.\n\nFor Mark and Pearson the Sage belongs to the \"Independence & Fulfilment\" quadrant, alongside the Explorer and the Innocent: all three are searching for their own paradise, and for the Sage paradise is truth. In meaning the archetype is closest to the intellectual side of openness and to the value of independent thought (self-direction in Schwartz's model).\n\nThe Sage's shadow is endless analysis and coldness: you can know everything about life and forget to live it. Tip: share what you know in plain words, and sometimes act before reaching the last page."
+      },
+      "strengths": [
+        {
+          "ru": "Аналитический ум",
+          "en": "Analytical mind"
+        },
+        {
+          "ru": "Объективность",
+          "en": "Objectivity"
+        },
+        {
+          "ru": "Любознательность",
+          "en": "Curiosity"
+        },
+        {
+          "ru": "Умение объяснять",
+          "en": "Explaining clearly"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Принимать решения без идеальной информации",
+          "en": "Deciding without perfect information"
+        },
+        {
+          "ru": "Слушать чувства, а не только аргументы",
+          "en": "Hearing feelings, not just arguments"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты споришь не ради победы, а ради истины. Но побеждать тоже приятно.",
+          "en": "You argue for truth, not victory. Though winning is nice too."
+        },
+        {
+          "ru": "Фраза «ну это все знают» вызывает у тебя желание прислать три научные статьи.",
+          "en": "\"Everybody knows that\" makes you want to send three research papers."
+        },
+        {
+          "ru": "В твоём телефоне 2000 скриншотов «почитать потом».",
+          "en": "Your phone holds 2,000 screenshots saved to \"read later\"."
+        },
+        {
+          "ru": "Ты смотришь фильм и параллельно гуглишь, насколько он исторически точен.",
+          "en": "You watch a film while googling how historically accurate it is."
+        }
+      ],
+      "famous": [
+        {
+          "ru": "Часто сравнивают с Гэндальфом",
+          "en": "Often compared to Gandalf"
+        },
+        {
+          "ru": "…с Шерлоком Холмсом",
+          "en": "…Sherlock Holmes"
+        },
+        {
+          "ru": "…с Гермионой Грейнджер",
+          "en": "…Hermione Granger"
+        }
+      ],
+      "compatibleWith": [
+        "explorer",
+        "creator",
+        "hero"
+      ],
+      "imagePrompt": "A cute chibi sage with round glasses and a long scarf reading a glowing book under a starry sky, an owl on the shoulder, lavender and deep blue palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi character, minimal, high detail, no text"
+    },
+    {
+      "id": "explorer",
+      "title": {
+        "ru": "Искатель — рюкзак всегда собран",
+        "en": "The Explorer: backpack always packed"
+      },
+      "emoji": "🧭",
+      "profile": {
+        "stability": 0.28,
+        "mastery": 0.39,
+        "belonging": 0.24,
+        "independence": 0.43
+      },
+      "summary": [
+        {
+          "ru": "Свобода — главная ценность",
+          "en": "Freedom comes first"
+        },
+        {
+          "ru": "Новые места, люди, опыт",
+          "en": "New places, people and experiences"
+        },
+        {
+          "ru": "Скука для тебя страшнее риска",
+          "en": "Boredom scares you more than risk"
+        },
+        {
+          "ru": "Мотив: независимость (с привкусом риска)",
+          "en": "Core drive: independence, with a dash of risk"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Искатель: свободолюбивый, любопытный и лёгкий на подъём. Тебе тесно в рамках, и ты постоянно ищешь новое — маршруты, идеи, впечатления, себя. Лучшая история в твоей жизни обычно начинается со слов «а давай свернём вот сюда».\n\nУ Марк и Пирсон Искатель живёт в квадранте «Независимость и самореализация», но соседствует с «Риском и мастерством» — отсюда тяга к приключениям. По смыслу архетип ближе всего к открытости опыту (особенно авантюрности) и к ценностям стимуляции и самостоятельности.\n\nТень Искателя — вечный побег: когда новое нужно уже не чтобы найти, а чтобы не останавливаться. Совет: свобода — это ещё и возможность выбрать что-то надолго. Найди одну «гавань», куда приятно возвращаться.",
+        "en": "You are the Explorer: freedom-loving, curious and always ready to go. Boxes feel too small, and you are constantly looking for something new: routes, ideas, experiences, yourself. The best stories of your life usually start with \"let's turn down this road\".\n\nIn Mark and Pearson's model the Explorer lives in the \"Independence & Fulfilment\" quadrant but borders on \"Risk & Mastery\", hence the taste for adventure. In meaning it is closest to openness (especially adventurousness) and to the values of stimulation and self-direction.\n\nThe Explorer's shadow is perpetual escape: seeking novelty not to find something, but to avoid stopping. Tip: freedom also means being able to choose something for the long run. Find one harbour that is nice to come back to."
+      },
+      "strengths": [
+        {
+          "ru": "Смелость пробовать",
+          "en": "Courage to try"
+        },
+        {
+          "ru": "Адаптивность",
+          "en": "Adaptability"
+        },
+        {
+          "ru": "Независимость",
+          "en": "Independence"
+        },
+        {
+          "ru": "Широкий кругозор",
+          "en": "Broad horizons"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить начатое",
+          "en": "Finishing what you start"
+        },
+        {
+          "ru": "Строить долгие связи",
+          "en": "Building lasting bonds"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твоя фраза «я ненадолго» означает «вернусь через полгода с загаром и тремя новыми языками».",
+          "en": "Your \"I won't be long\" means \"back in six months with a tan and three new languages\"."
+        },
+        {
+          "ru": "Ты знаешь, где в незнакомом городе лучший кофе, уже через час после приезда.",
+          "en": "An hour after arriving in a new city, you already know where the best coffee is."
+        },
+        {
+          "ru": "Навигатор: «Через 200 метров поверните направо». Ты: «А что там слева?»",
+          "en": "Sat-nav: \"In 200 metres, turn right.\" You: \"But what's on the left?\""
+        },
+        {
+          "ru": "Твой чемодан никогда до конца не разбирается. Смысл, если скоро снова ехать?",
+          "en": "Your suitcase is never fully unpacked. What's the point if you are leaving again soon?"
+        }
+      ],
+      "famous": [
+        {
+          "ru": "Часто сравнивают с Индианой Джонсом",
+          "en": "Often compared to Indiana Jones"
+        },
+        {
+          "ru": "…с Моаной",
+          "en": "…Moana"
+        },
+        {
+          "ru": "…с Бильбо, когда он всё-таки вышел за дверь",
+          "en": "…Bilbo, once he finally stepped out the door"
+        }
+      ],
+      "compatibleWith": [
+        "sage",
+        "rebel",
+        "jester"
+      ],
+      "imagePrompt": "A cute chibi explorer with a big backpack, compass and map standing at a trailhead with mountains and a hot-air balloon behind, mint and peach palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi character, minimal, high detail, no text"
+    },
+    {
+      "id": "rebel",
+      "title": {
+        "ru": "Бунтарь — правила под вопросом",
+        "en": "The Rebel: questioning the rules"
+      },
+      "emoji": "⚡",
+      "profile": {
+        "stability": 0.24,
+        "mastery": 0.43,
+        "belonging": 0.28,
+        "independence": 0.39
+      },
+      "summary": [
+        {
+          "ru": "«Потому что так принято» — не аргумент",
+          "en": "\"Because that's how it's done\" is not an argument"
+        },
+        {
+          "ru": "Говоришь то, что другие боятся сказать",
+          "en": "You say what others are afraid to"
+        },
+        {
+          "ru": "Ломаешь то, что не работает",
+          "en": "You break what doesn't work"
+        },
+        {
+          "ru": "Мотив: риск и мастерство (с привкусом свободы)",
+          "en": "Core drive: risk and mastery, with a dash of freedom"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Бунтарь: смелый, независимый и принципиальный. Ты не веришь правилам на слово и всегда спрашиваешь «а зачем?». Когда что-то несправедливо или просто глупо, тебе физически трудно промолчать.\n\nУ Марк и Пирсон этот архетип называется Outlaw — «вне закона»; он входит в квадрант «Риск и мастерство» вместе с Героем и Магом, но соседствует со свободой. Это образ, а не диагноз: по смыслу он ближе к высокой открытости опыту, более низкой уступчивости (доброжелательности) и ценности стимуляции. Бунтарство часто двигает культуру вперёд — многие перемены начинались с людей, которые отказались «как все».\n\nТень Бунтаря — разрушение ради разрушения и протест против всего подряд, даже против хорошего. Совет: выбирай битвы. Сломать легко — гораздо круче предложить то, что будет работать лучше.",
+        "en": "You are the Rebel: bold, independent and principled. You never take rules on faith and always ask \"but why?\". When something is unfair or just plain silly, staying quiet is physically hard for you.\n\nMark and Pearson call this archetype the Outlaw; it belongs to the \"Risk & Mastery\" quadrant with the Hero and the Magician, but borders on freedom. It is an image, not a diagnosis: in meaning it sits closer to high openness, lower agreeableness and the value of stimulation. Rebellion often moves culture forward; plenty of change started with people who refused to \"do it like everyone else\".\n\nThe Rebel's shadow is destruction for its own sake, protesting against everything, even the good stuff. Tip: pick your battles. Breaking things is easy; proposing something that works better is far cooler."
+      },
+      "strengths": [
+        {
+          "ru": "Смелость",
+          "en": "Courage"
+        },
+        {
+          "ru": "Честность",
+          "en": "Honesty"
+        },
+        {
+          "ru": "Свежий взгляд",
+          "en": "Fresh perspective"
+        },
+        {
+          "ru": "Независимость",
+          "en": "Independence"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Предлагать альтернативу, а не только критику",
+          "en": "Offering alternatives, not just critique"
+        },
+        {
+          "ru": "Видеть союзников, а не только систему",
+          "en": "Seeing allies, not just the system"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Табличка «Не трогать» для тебя звучит как приглашение.",
+          "en": "A \"Do not touch\" sign sounds like an invitation to you."
+        },
+        {
+          "ru": "Ты споришь с GPS, с инструкцией к мебели и с бабушкой о том, сколько нужно есть.",
+          "en": "You argue with the GPS, the furniture manual and your grandma about how much you should eat."
+        },
+        {
+          "ru": "Твой ответ на «все так делают»: «Ну и зря».",
+          "en": "Your reply to \"everyone does it\": \"Well, they shouldn't.\""
+        },
+        {
+          "ru": "Ты носишь чёрное не потому, что модно, а потому, что все носят бежевое.",
+          "en": "You wear black not because it is trendy, but because everyone else wears beige."
+        }
+      ],
+      "famous": [
+        {
+          "ru": "Часто сравнивают с Робин Гудом",
+          "en": "Often compared to Robin Hood"
+        },
+        {
+          "ru": "…с капитаном Джеком Воробьём",
+          "en": "…Captain Jack Sparrow"
+        },
+        {
+          "ru": "…с Пеппи Длинныйчулок",
+          "en": "…Pippi Longstocking"
+        }
+      ],
+      "compatibleWith": [
+        "explorer",
+        "magician",
+        "jester"
+      ],
+      "imagePrompt": "A cute chibi rebel with a leather jacket and a lightning bolt badge, skateboard under one arm, confident grin, lilac, black and electric-yellow accents, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi character, minimal, high detail, no text"
+    },
+    {
+      "id": "magician",
+      "title": {
+        "ru": "Маг — превращает идеи в чудо",
+        "en": "The Magician: turning ideas into magic"
+      },
+      "emoji": "🔮",
+      "profile": {
+        "stability": 0.23,
+        "mastery": 0.43,
+        "belonging": 0.39,
+        "independence": 0.28
+      },
+      "summary": [
+        {
+          "ru": "Видишь, как всё может быть иначе",
+          "en": "You see how things could be different"
+        },
+        {
+          "ru": "Умеешь вдохновлять и менять людей",
+          "en": "You inspire and transform people"
+        },
+        {
+          "ru": "Харизма плюс интуиция",
+          "en": "Charisma plus intuition"
+        },
+        {
+          "ru": "Мотив: мастерство (с привкусом принадлежности)",
+          "en": "Core drive: mastery, with a dash of belonging"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Маг: визионер, который превращает «а что если» в «смотрите, получилось». Ты чувствуешь людей, видишь скрытые связи и умеешь создавать моменты, после которых мир кажется немного другим. Рядом с тобой хочется верить в невозможное.\n\nУ Марк и Пирсон Маг входит в квадрант «Риск и мастерство», но его сила — в трансформации людей и ситуаций, поэтому он соседствует с принадлежностью. Это образ: по смыслу он ближе к сочетанию высокой открытости опыту и экстраверсии — воображению плюс влиянию на окружающих.\n\nТень Мага — манипуляция: когда умение влиять используется не ради чуда, а ради контроля. Совет: самая сильная магия — честная. Объясняй свои идеи прозрачно, и люди пойдут за тобой не из восхищения, а из доверия.",
+        "en": "You are the Magician: a visionary who turns \"what if\" into \"look, it worked\". You read people, see hidden connections and create moments that make the world feel slightly different afterwards. Around you, people want to believe in the impossible.\n\nFor Mark and Pearson the Magician belongs to \"Risk & Mastery\", but its power lies in transforming people and situations, so it borders on belonging. It is an image: in meaning it is closest to high openness combined with extraversion, imagination plus influence.\n\nThe Magician's shadow is manipulation, when the power to influence serves control rather than wonder. Tip: the strongest magic is honest. Explain your ideas transparently, and people will follow out of trust rather than awe."
+      },
+      "strengths": [
+        {
+          "ru": "Видение",
+          "en": "Vision"
+        },
+        {
+          "ru": "Харизма",
+          "en": "Charisma"
+        },
+        {
+          "ru": "Интуиция",
+          "en": "Intuition"
+        },
+        {
+          "ru": "Умение вдохновлять",
+          "en": "Inspiring others"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Прозрачность намерений",
+          "en": "Transparency of intentions"
+        },
+        {
+          "ru": "Доводить чудеса до бытовых деталей",
+          "en": "Seeing wonders through to the boring details"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты приходишь на скучное совещание, и через десять минут все обсуждают твою идею, которая «изменит всё».",
+          "en": "You walk into a dull meeting and ten minutes later everyone is discussing your idea that \"will change everything\"."
+        },
+        {
+          "ru": "Друзья: «Как тебе вообще удалось его уговорить?» Ты: «Ну, просто поговорили».",
+          "en": "Friends: \"How did you get them to agree?\" You: \"We just talked.\""
+        },
+        {
+          "ru": "Ты даришь подарки, о которых человек мечтал, но никому не рассказывал.",
+          "en": "You give people gifts they wanted but never mentioned to anyone."
+        },
+        {
+          "ru": "Твой плейлист «на удачу» реально работает. Ну, тебе так кажется.",
+          "en": "Your \"good luck\" playlist really works. Or so you believe."
+        }
+      ],
+      "famous": [
+        {
+          "ru": "Часто сравнивают с Мэри Поппинс",
+          "en": "Often compared to Mary Poppins"
+        },
+        {
+          "ru": "…с доктором Стрэнджем",
+          "en": "…Doctor Strange"
+        },
+        {
+          "ru": "…с Воландом из «Мастера и Маргариты» — в его самых обаятельных сценах",
+          "en": "…Woland from The Master and Margarita, in his most charming scenes"
+        }
+      ],
+      "compatibleWith": [
+        "hero",
+        "lover",
+        "rebel"
+      ],
+      "imagePrompt": "A cute chibi magician in a starry cloak holding a glowing crystal ball, sparkles turning into butterflies, deep violet and pink palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi character, minimal, high detail, no text"
+    },
+    {
+      "id": "lover",
+      "title": {
+        "ru": "Романтик — живёт сердцем",
+        "en": "The Lover: living from the heart"
+      },
+      "emoji": "💗",
+      "profile": {
+        "stability": 0.33,
+        "mastery": 0.33,
+        "belonging": 0.44,
+        "independence": 0.22
+      },
+      "summary": [
+        {
+          "ru": "Близость и красота — твой кислород",
+          "en": "Closeness and beauty are your oxygen"
+        },
+        {
+          "ru": "Умеешь делать людей особенными",
+          "en": "You make people feel special"
+        },
+        {
+          "ru": "Чувства — не слабость, а сила",
+          "en": "Feelings are strength, not weakness"
+        },
+        {
+          "ru": "Мотив: принадлежность и радость",
+          "en": "Core drive: belonging and enjoyment"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Романтик: тёплый, страстный и чуткий к красоте. Для тебя важны глубокие связи — с людьми, с местами, с музыкой, с моментом. Ты помнишь, какой чай любит друг, и умеешь превратить обычный вечер в событие.\n\nУ Марк и Пирсон этот архетип называется Lover и стоит в центре квадранта «Принадлежность и радость». Речь не только о романтической любви: это любовь к жизни, дружбе и эстетике. По смыслу он ближе всего к высокой доброжелательности и тёплой, эмоциональной стороне экстраверсии.\n\nТень Романтика — растворение в другом человеке и страх быть отвергнутым. Совет: самые крепкие отношения строятся, когда ты не забываешь о себе. Любить себя — не эгоизм, а фундамент.",
+        "en": "You are the Lover: warm, passionate and attuned to beauty. Deep connection matters most to you, with people, places, music and the moment. You remember how a friend likes their tea and can turn an ordinary evening into an occasion.\n\nIn Mark and Pearson's model the Lover stands at the centre of the \"Belonging & Enjoyment\" quadrant. It is not only about romance: it is love of life, friendship and beauty. In meaning it is closest to high agreeableness and to the warm, emotional side of extraversion.\n\nThe Lover's shadow is dissolving into another person and fearing rejection. Tip: the strongest relationships grow when you do not forget yourself. Loving yourself is not selfish; it is the foundation."
+      },
+      "strengths": [
+        {
+          "ru": "Теплота",
+          "en": "Warmth"
+        },
+        {
+          "ru": "Эмпатия",
+          "en": "Empathy"
+        },
+        {
+          "ru": "Чувство прекрасного",
+          "en": "Sense of beauty"
+        },
+        {
+          "ru": "Преданность",
+          "en": "Devotion"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Сохранять себя в отношениях",
+          "en": "Keeping yourself in relationships"
+        },
+        {
+          "ru": "Спокойнее переносить отказы",
+          "en": "Taking rejection more lightly"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты плачешь на свадьбах. Даже на чужих. Даже в кино.",
+          "en": "You cry at weddings. Even strangers'. Even in films."
+        },
+        {
+          "ru": "Твой ответ на «как прошёл день?» начинается со слова «представь».",
+          "en": "Your answer to \"how was your day?\" begins with \"Imagine…\"."
+        },
+        {
+          "ru": "На твоём столе всегда стоят свечи. Даже если ты ешь пельмени.",
+          "en": "There are always candles on your table. Even when you are eating instant noodles."
+        },
+        {
+          "ru": "Ты подписываешь открытки так долго, что почта успевает подорожать.",
+          "en": "You take so long writing cards that postage goes up in the meantime."
+        }
+      ],
+      "famous": [
+        {
+          "ru": "Часто сравнивают с Ромео и Джульеттой",
+          "en": "Often compared to Romeo and Juliet"
+        },
+        {
+          "ru": "…с Элизабет Беннет",
+          "en": "…Elizabeth Bennet"
+        },
+        {
+          "ru": "…с Амели",
+          "en": "…Amélie"
+        }
+      ],
+      "compatibleWith": [
+        "caregiver",
+        "magician",
+        "innocent"
+      ],
+      "imagePrompt": "A cute chibi character hugging a giant heart-shaped pillow surrounded by roses and floating hearts, rose pink and peach palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi character, minimal, high detail, no text"
+    },
+    {
+      "id": "jester",
+      "title": {
+        "ru": "Шут — король хорошего настроения",
+        "en": "The Jester: ruler of good vibes"
+      },
+      "emoji": "🃏",
+      "profile": {
+        "stability": 0.28,
+        "mastery": 0.39,
+        "belonging": 0.43,
+        "independence": 0.24
+      },
+      "summary": [
+        {
+          "ru": "Юмор — твой способ любить мир",
+          "en": "Humour is how you love the world"
+        },
+        {
+          "ru": "Превращаешь неловкость в смех",
+          "en": "You turn awkwardness into laughter"
+        },
+        {
+          "ru": "Живёшь здесь и сейчас",
+          "en": "You live in the here and now"
+        },
+        {
+          "ru": "Мотив: принадлежность и радость (с привкусом риска)",
+          "en": "Core drive: belonging and enjoyment, with a dash of risk"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Шут: весёлый, находчивый и бесстрашный в своём юморе. Ты умеешь разрядить любую обстановку, найти смешное в трудном и напомнить всем, что жизнь — не только дедлайны. После тебя людям легче.\n\nУ Марк и Пирсон Шут — архетип квадранта «Принадлежность и радость», соседствующий с риском: настоящая шутка — это всегда немного смелость. По смыслу он ближе всего к экстраверсии (её «весёлой» грани) и ценности гедонизма — умению наслаждаться жизнью. А ещё юмор в позитивной психологии считается одной из сильных сторон характера.\n\nТень Шута — шутить, чтобы не чувствовать: когда смех становится бронёй от серьёзных разговоров. Совет: позволяй себе и грустить при близких. Лучшие шутники — это люди, которые не боятся быть настоящими.",
+        "en": "You are the Jester: cheerful, quick-witted and fearless with your humour. You can defuse any situation, find the funny side of hard things and remind everyone that life is not just deadlines. People feel lighter after you.\n\nFor Mark and Pearson the Jester belongs to \"Belonging & Enjoyment\" and borders on risk: a real joke always takes a bit of nerve. In meaning it is closest to extraversion (its cheerful facet) and to the value of hedonism, the ability to enjoy life. Humour is also listed as a character strength in positive psychology.\n\nThe Jester's shadow is joking so as not to feel, when laughter becomes armour against serious talks. Tip: let yourself be sad in front of the people you trust. The best jokers are those who are not afraid to be real."
+      },
+      "strengths": [
+        {
+          "ru": "Юмор",
+          "en": "Humour"
+        },
+        {
+          "ru": "Лёгкость",
+          "en": "Lightness"
+        },
+        {
+          "ru": "Находчивость",
+          "en": "Quick wit"
+        },
+        {
+          "ru": "Умение объединять",
+          "en": "Bringing people together"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Выдерживать серьёзные разговоры",
+          "en": "Staying with serious conversations"
+        },
+        {
+          "ru": "Помнить о последствиях",
+          "en": "Remembering consequences"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты шутишь на похоронах кактуса. И все смеются, даже кактус бы оценил.",
+          "en": "You crack jokes at a cactus funeral. Everyone laughs; even the cactus would approve."
+        },
+        {
+          "ru": "Твой стикерпак в мессенджере больше, чем словарный запас некоторых людей.",
+          "en": "Your sticker collection is bigger than some people's vocabulary."
+        },
+        {
+          "ru": "Учитель: «Тебе всё смешно?» Ты, честно: «Ну, не всё. Процентов девяносто».",
+          "en": "Teacher: \"You find everything funny?\" You, honestly: \"Not everything. About ninety per cent.\""
+        },
+        {
+          "ru": "На совещании ты говоришь одну фразу — и следующие пять минут никто не может работать.",
+          "en": "One line from you in a meeting and nobody can work for the next five minutes."
+        }
+      ],
+      "famous": [
+        {
+          "ru": "Часто сравнивают с Карлсоном",
+          "en": "Often compared to Karlsson-on-the-Roof"
+        },
+        {
+          "ru": "…с Джинном из «Аладдина»",
+          "en": "…the Genie from Aladdin"
+        },
+        {
+          "ru": "…с Тимоном и Пумбой",
+          "en": "…Timon and Pumbaa"
+        }
+      ],
+      "compatibleWith": [
+        "everyman",
+        "explorer",
+        "rebel"
+      ],
+      "imagePrompt": "A cute chibi jester in a colourful hat with bells juggling stars and confetti, big laughing smile, sunshine yellow, teal and pink palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi character, minimal, high detail, no text"
+    },
+    {
+      "id": "caregiver",
+      "title": {
+        "ru": "Заботливый — тёплый плед в человеческом обличье",
+        "en": "The Caregiver: a warm blanket in human form"
+      },
+      "emoji": "🫶",
+      "profile": {
+        "stability": 0.43,
+        "mastery": 0.24,
+        "belonging": 0.39,
+        "independence": 0.28
+      },
+      "summary": [
+        {
+          "ru": "Помогать — твоя природа",
+          "en": "Helping is your nature"
+        },
+        {
+          "ru": "Замечаешь, когда кому-то плохо",
+          "en": "You notice when someone is struggling"
+        },
+        {
+          "ru": "Надёжная опора для близких",
+          "en": "A steady support for loved ones"
+        },
+        {
+          "ru": "Мотив: стабильность (с привкусом принадлежности)",
+          "en": "Core drive: stability, with a dash of belonging"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Заботливый: добрый, внимательный и щедрый. Ты первым замечаешь, что кто-то загрустил, и последним уходишь, когда нужна помощь. Рядом с тобой людям безопасно — как под тёплым пледом с какао.\n\nУ Марк и Пирсон Заботливый входит в квадрант «Стабильность и контроль»: его мотив — защищать и поддерживать, создавать мир, где о людях заботятся. Это один из немногих архетипов, для которого есть исследовательские подсказки: в работе Фабер и Майера (Faber & Mayer, 2009) люди, которым близки «заботливые» образы в кино и музыке, описывали себя как более доброжелательных. Ценностный аналог — благожелательность (benevolence) у Шварца.\n\nТень Заботливого — самопожертвование и выгорание, а иногда — гиперопека. Совет: надевай кислородную маску сначала на себя. Твоя забота ценна, только если у тебя остаются силы.",
+        "en": "You are the Caregiver: kind, attentive and generous. You are the first to notice someone is down and the last to leave when help is needed. People feel safe around you, like being under a warm blanket with cocoa.\n\nIn Mark and Pearson's model the Caregiver belongs to the \"Stability & Control\" quadrant: its drive is to protect and support, to build a world where people are looked after. It is one of the few archetypes with some research hints: in Faber and Mayer's (2009) study, people who resonated with caregiver figures in films and music described themselves as more agreeable. The values counterpart is benevolence in Schwartz's model.\n\nThe Caregiver's shadow is self-sacrifice and burnout, and sometimes smothering. Tip: put on your own oxygen mask first. Your care is only sustainable if you have energy left."
+      },
+      "strengths": [
+        {
+          "ru": "Доброта",
+          "en": "Kindness"
+        },
+        {
+          "ru": "Внимательность",
+          "en": "Attentiveness"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        },
+        {
+          "ru": "Терпение",
+          "en": "Patience"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Говорить «нет»",
+          "en": "Saying no"
+        },
+        {
+          "ru": "Принимать заботу от других",
+          "en": "Accepting care from others"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "У тебя в сумке пластыри, таблетки от головы, влажные салфетки и конфета. На всякий случай для всех.",
+          "en": "Your bag holds plasters, painkillers, wet wipes and a sweet. For everyone, just in case."
+        },
+        {
+          "ru": "Тебя спрашивают «как ты?», и ты отвечаешь «а ты как?». Сработало, вопрос закрыт.",
+          "en": "Asked \"how are you?\", you reply \"how are YOU?\". It works; topic closed."
+        },
+        {
+          "ru": "Ты кормишь всех гостей так, будто они пришли из голодного похода.",
+          "en": "You feed guests as if they just returned from a starvation trek."
+        },
+        {
+          "ru": "Ты пишешь «напиши, как доедешь» даже курьеру.",
+          "en": "You text \"let me know you got home safe\" even to the delivery driver."
+        }
+      ],
+      "famous": [
+        {
+          "ru": "Часто сравнивают с Сэмом Гэмджи",
+          "en": "Often compared to Samwise Gamgee"
+        },
+        {
+          "ru": "…с Бэймаксом",
+          "en": "…Baymax"
+        },
+        {
+          "ru": "…с Молли Уизли",
+          "en": "…Molly Weasley"
+        }
+      ],
+      "compatibleWith": [
+        "lover",
+        "everyman",
+        "hero"
+      ],
+      "imagePrompt": "A cute chibi caregiver wrapping a small friend in a cozy blanket, holding a steaming mug, little hearts and stars around, soft pink and cream palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi character, minimal, high detail, no text"
+    },
+    {
+      "id": "ruler",
+      "title": {
+        "ru": "Правитель — всё под контролем",
+        "en": "The Ruler: everything under control"
+      },
+      "emoji": "👑",
+      "profile": {
+        "stability": 0.45,
+        "mastery": 0.22,
+        "belonging": 0.33,
+        "independence": 0.33
+      },
+      "summary": [
+        {
+          "ru": "Порядок, ответственность и стратегия",
+          "en": "Order, responsibility and strategy"
+        },
+        {
+          "ru": "Естественно берёшь управление на себя",
+          "en": "You naturally take charge"
+        },
+        {
+          "ru": "Строишь системы, которые работают",
+          "en": "You build systems that work"
+        },
+        {
+          "ru": "Мотив: стабильность и контроль",
+          "en": "Core drive: stability and control"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Правитель: организованный, уверенный и ответственный. Ты видишь, как должна работать система, и умеешь её выстроить — будь то семейный бюджет, школьный проект или целая компания. Когда начинается хаос, все почему-то смотрят на тебя.\n\nУ Марк и Пирсон Правитель — центральный архетип квадранта «Стабильность и контроль»: его мотив — создать порядок и процветание. По смыслу он ближе всего к высокой добросовестности, напористой экстраверсии и ценностям власти и безопасности у Шварца — в хорошем смысле: ответственности за результат.\n\nТень Правителя — тотальный контроль: когда порядок становится важнее людей. Совет: лучшие лидеры делегируют. Позволь другим делать по-своему — система станет только крепче.",
+        "en": "You are the Ruler: organised, confident and responsible. You can see how a system should work and know how to build it, whether it is a family budget, a school project or a whole company. When chaos strikes, everyone somehow looks to you.\n\nFor Mark and Pearson the Ruler is the core archetype of \"Stability & Control\": its drive is to create order and prosperity. In meaning it is closest to high conscientiousness, assertive extraversion and Schwartz's power and security values, in the good sense of owning the outcome.\n\nThe Ruler's shadow is total control, when order matters more than people. Tip: the best leaders delegate. Let others do things their way and the system will only get stronger."
+      },
+      "strengths": [
+        {
+          "ru": "Лидерство",
+          "en": "Leadership"
+        },
+        {
+          "ru": "Организованность",
+          "en": "Organisation"
+        },
+        {
+          "ru": "Стратегическое мышление",
+          "en": "Strategic thinking"
+        },
+        {
+          "ru": "Ответственность",
+          "en": "Accountability"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Делегировать и доверять",
+          "en": "Delegating and trusting"
+        },
+        {
+          "ru": "Терпимость к хаосу и импровизации",
+          "en": "Tolerating chaos and improvisation"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "У тебя есть таблица для планирования таблиц.",
+          "en": "You have a spreadsheet for planning your spreadsheets."
+        },
+        {
+          "ru": "Ты спокойно «предлагаешь» друзьям план отпуска с почасовым расписанием и бюджетом.",
+          "en": "You casually \"suggest\" a holiday plan to friends, with an hourly schedule and a budget."
+        },
+        {
+          "ru": "В семейном чате ты — неофициальный администратор, даже если формально им не являешься.",
+          "en": "In the family chat you are the unofficial admin, even if you technically are not."
+        },
+        {
+          "ru": "Фраза «как-нибудь само решится» звучит для тебя как фильм ужасов.",
+          "en": "\"It'll sort itself out\" sounds like a horror film to you."
+        }
+      ],
+      "famous": [
+        {
+          "ru": "Часто сравнивают с Муфасой",
+          "en": "Often compared to Mufasa"
+        },
+        {
+          "ru": "…с Дейенерис Таргариен (в мирное время)",
+          "en": "…Daenerys Targaryen (in peacetime)"
+        },
+        {
+          "ru": "…с Мирандой Пристли — только подобрее",
+          "en": "…a kinder Miranda Priestly"
+        }
+      ],
+      "compatibleWith": [
+        "caregiver",
+        "creator",
+        "sage"
+      ],
+      "imagePrompt": "A cute chibi ruler with a small golden crown sitting on a cushy throne, holding a neat clipboard, a tiny castle in the background, royal blue and gold palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi character, minimal, high detail, no text"
+    },
+    {
+      "id": "creator",
+      "title": {
+        "ru": "Творец — создаёт то, чего ещё нет",
+        "en": "The Creator: making what doesn't exist yet"
+      },
+      "emoji": "🎨",
+      "profile": {
+        "stability": 0.43,
+        "mastery": 0.24,
+        "belonging": 0.28,
+        "independence": 0.39
+      },
+      "summary": [
+        {
+          "ru": "Воображение плюс мастерство",
+          "en": "Imagination plus craft"
+        },
+        {
+          "ru": "Тебе важно выразить себя",
+          "en": "Self-expression matters to you"
+        },
+        {
+          "ru": "Делаешь вещи, которые остаются",
+          "en": "You make things that last"
+        },
+        {
+          "ru": "Мотив: стабильность (с привкусом свободы)",
+          "en": "Core drive: stability, with a dash of freedom"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Творец: изобретательный, увлечённый и стремящийся к качеству. Тебе мало потреблять — тебе нужно создавать: рисунки, тексты, проекты, рецепты, системы. Идеальный день — это день, когда из ничего появилось что-то настоящее.\n\nУ Марк и Пирсон Творец относится к квадранту «Стабильность и контроль»: он хочет создать нечто прочное и ценное, придать форму своему видению. Свобода и самовыражение для него тоже важны — поэтому он соседствует с независимостью. По смыслу архетип ближе всего к открытости опыту (воображению и эстетике) и ценности самостоятельности.\n\nТень Творца — перфекционизм и вечные черновики: «ещё не готово» может длиться годами. Совет: выпускай работы в мир несовершенными. Готовое лучше идеального — тем более что идеального не бывает.",
+        "en": "You are the Creator: inventive, passionate and committed to quality. Consuming is not enough; you need to make things: drawings, texts, projects, recipes, systems. A perfect day is one where something real appeared out of nothing.\n\nFor Mark and Pearson the Creator belongs to \"Stability & Control\": it wants to build something lasting and valuable, to give form to a vision. Freedom and self-expression matter too, so it borders on independence. In meaning it is closest to openness (imagination and aesthetics) and to the value of self-direction.\n\nThe Creator's shadow is perfectionism and endless drafts: \"not ready yet\" can last for years. Tip: release your work into the world imperfect. Done beats perfect, especially since perfect does not exist."
+      },
+      "strengths": [
+        {
+          "ru": "Креативность",
+          "en": "Creativity"
+        },
+        {
+          "ru": "Мастерство",
+          "en": "Craftsmanship"
+        },
+        {
+          "ru": "Оригинальность",
+          "en": "Originality"
+        },
+        {
+          "ru": "Увлечённость",
+          "en": "Passion"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Заканчивать и показывать работы",
+          "en": "Finishing and sharing your work"
+        },
+        {
+          "ru": "Спокойнее относиться к критике",
+          "en": "Taking criticism more calmly"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "В твоей папке «Проекты» 47 папок, и в каждой лежит «финал_v12_точно_последний».",
+          "en": "Your Projects folder has 47 subfolders, each with \"final_v12_really_last\"."
+        },
+        {
+          "ru": "Ты не можешь просто купить подарок — его обязательно нужно сделать своими руками.",
+          "en": "You cannot just buy a gift; you have to make it by hand."
+        },
+        {
+          "ru": "Друзья просят: «Нарисуй что-нибудь простое». Через три часа ты всё ещё рисуешь.",
+          "en": "Friends ask: \"Draw something simple.\" Three hours later you are still drawing."
+        },
+        {
+          "ru": "Ты переставляешь мебель чаще, чем другие меняют обои на телефоне.",
+          "en": "You rearrange furniture more often than others change their phone wallpaper."
+        }
+      ],
+      "famous": [
+        {
+          "ru": "Часто сравнивают с Вилли Вонкой",
+          "en": "Often compared to Willy Wonka"
+        },
+        {
+          "ru": "…с Тони Старком в мастерской",
+          "en": "…Tony Stark in his workshop"
+        },
+        {
+          "ru": "…с Левшой, подковавшим блоху",
+          "en": "…Lefty, the Russian craftsman who shod a flea"
+        }
+      ],
+      "compatibleWith": [
+        "sage",
+        "ruler",
+        "innocent"
+      ],
+      "imagePrompt": "A cute chibi creator with a paint-splattered apron holding a brush, surrounded by floating colourful shapes and a half-finished canvas, pastel rainbow palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi character, minimal, high detail, no text"
+    },
+    {
+      "id": "innocent",
+      "title": {
+        "ru": "Простодушный — солнечный оптимист",
+        "en": "The Innocent: sunshine optimist"
+      },
+      "emoji": "🌼",
+      "profile": {
+        "stability": 0.39,
+        "mastery": 0.28,
+        "belonging": 0.24,
+        "independence": 0.43
+      },
+      "summary": [
+        {
+          "ru": "Веришь в хорошее — и находишь его",
+          "en": "You believe in good, and you find it"
+        },
+        {
+          "ru": "Простые радости — лучшие",
+          "en": "Simple joys are the best"
+        },
+        {
+          "ru": "Искренность без масок",
+          "en": "Sincerity without masks"
+        },
+        {
+          "ru": "Мотив: независимость и поиск счастья (с привкусом стабильности)",
+          "en": "Core drive: fulfilment and happiness, with a dash of stability"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Простодушный (у Марк и Пирсон — Innocent): светлый, искренний и оптимистичный. Ты умеешь радоваться солнцу, вкусному завтраку и хорошей новости друга так, будто это лучшее событие в мире. Ты веришь в людей — и люди часто оправдывают это доверие.\n\nВ модели Марк и Пирсон Простодушный входит в квадрант «Независимость и самореализация» — он ищет свой «рай»: простую, честную и счастливую жизнь — и соседствует со стабильностью и безопасностью. По смыслу архетип ближе к доброжелательности, эмоциональной устойчивости и надежде — одной из сильных сторон характера, которая в исследованиях позитивной психологии теснее всего связана с удовлетворённостью жизнью.\n\nТень Простодушного — наивность и отрицание проблем: «не буду об этом думать, и оно пройдёт». Совет: оптимизм работает лучше всего вместе с реализмом. Можно верить в хорошее и при этом проверять договор перед подписью.",
+        "en": "You are the Innocent: bright, sincere and optimistic. You can celebrate sunshine, a good breakfast or a friend's good news as if it were the best thing in the world. You believe in people, and people often live up to that trust.\n\nIn Mark and Pearson's model the Innocent belongs to the \"Independence & Fulfilment\" quadrant, searching for its own paradise, a simple, honest, happy life, and it borders on stability and safety. In meaning the archetype is closest to agreeableness, emotional stability and hope, one of the character strengths most closely linked to life satisfaction in positive psychology research.\n\nThe Innocent's shadow is naivety and denial: \"if I don't think about it, it will go away\". Tip: optimism works best alongside realism. You can believe in the good and still read the contract before signing."
+      },
+      "strengths": [
+        {
+          "ru": "Оптимизм",
+          "en": "Optimism"
+        },
+        {
+          "ru": "Искренность",
+          "en": "Sincerity"
+        },
+        {
+          "ru": "Доверие к людям",
+          "en": "Trust in people"
+        },
+        {
+          "ru": "Умение радоваться",
+          "en": "Capacity for joy"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Замечать риски",
+          "en": "Noticing risks"
+        },
+        {
+          "ru": "Не избегать трудных разговоров",
+          "en": "Facing difficult conversations"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты здороваешься с собаками на улице раньше, чем с их хозяевами.",
+          "en": "You greet dogs on the street before their owners."
+        },
+        {
+          "ru": "Твой ответ на «у меня плохие новости»: «Ничего, зато…» — и ты правда находишь это «зато».",
+          "en": "Your reply to \"I have bad news\": \"Never mind, at least…\", and you genuinely find the \"at least\"."
+        },
+        {
+          "ru": "Ты до сих пор загадываешь желание на падающую звезду. И на самолёт, на всякий случай.",
+          "en": "You still make a wish on a shooting star. And on airplanes, just in case."
+        },
+        {
+          "ru": "Ты смотришь мультфильмы «для племянника». Племянника нет.",
+          "en": "You watch cartoons \"for your nephew\". There is no nephew."
+        }
+      ],
+      "famous": [
+        {
+          "ru": "Часто сравнивают с Форрестом Гампом",
+          "en": "Often compared to Forrest Gump"
+        },
+        {
+          "ru": "…с медвежонком Паддингтоном",
+          "en": "…Paddington Bear"
+        },
+        {
+          "ru": "…с Чебурашкой",
+          "en": "…Cheburashka"
+        }
+      ],
+      "compatibleWith": [
+        "caregiver",
+        "lover",
+        "creator"
+      ],
+      "imagePrompt": "A cute chibi character with a daisy flower crown blowing dandelion seeds in a sunny meadow, rosy cheeks, butter-yellow and mint palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi character, minimal, high detail, no text"
+    },
+    {
+      "id": "everyman",
+      "title": {
+        "ru": "Свой человек — с ним легко всем",
+        "en": "The Everyman: easy to be around"
+      },
+      "emoji": "🤝",
+      "profile": {
+        "stability": 0.39,
+        "mastery": 0.28,
+        "belonging": 0.43,
+        "independence": 0.24
+      },
+      "summary": [
+        {
+          "ru": "Без понтов и масок",
+          "en": "No airs, no masks"
+        },
+        {
+          "ru": "С тобой легко и спокойно",
+          "en": "People feel at ease with you"
+        },
+        {
+          "ru": "Ценишь честность и равенство",
+          "en": "You value honesty and equality"
+        },
+        {
+          "ru": "Мотив: принадлежность (с привкусом стабильности)",
+          "en": "Core drive: belonging, with a dash of stability"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — Свой человек (у Марк и Пирсон — Regular Guy/Gal, в русском издании — «Славный малый»): дружелюбный, простой в общении и надёжный. Ты не любишь пафос и снобизм, зато умеешь найти общий язык с кем угодно — от профессора до таксиста. С тобой не нужно казаться лучше, чем ты есть.\n\nУ Марк и Пирсон этот архетип входит в квадрант «Принадлежность и радость»: его главная потребность — быть частью сообщества, «своим среди своих». Он соседствует со стабильностью — тебе важны надёжность и предсказуемость. По смыслу ближе всего к доброжелательности и ценностям благожелательности и традиций у Шварца.\n\nТень Своего человека — раствориться в толпе и не выделяться, даже когда есть что сказать. Совет: твоё мнение важно. Быть «как все» не значит молчать — иногда именно ты можешь сказать то, что думают многие.",
+        "en": "You are the Everyman (Mark and Pearson's Regular Guy/Gal): friendly, down-to-earth and dependable. You dislike pretension and snobbery, and you can get along with anyone from a professor to a taxi driver. Nobody needs to pretend to be better than they are around you.\n\nIn Mark and Pearson's model this archetype belongs to \"Belonging & Enjoyment\": its core need is to be part of the community, one of us. It borders on stability; reliability and predictability matter to you. In meaning it is closest to agreeableness and to Schwartz's benevolence and tradition values.\n\nThe Everyman's shadow is blending into the crowd and staying quiet even when you have something to say. Tip: your opinion matters. Being \"one of us\" does not mean being silent; sometimes you are the one who can voice what many are thinking."
+      },
+      "strengths": [
+        {
+          "ru": "Дружелюбие",
+          "en": "Friendliness"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Dependability"
+        },
+        {
+          "ru": "Честность",
+          "en": "Honesty"
+        },
+        {
+          "ru": "Умение объединять",
+          "en": "Bringing people together"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Выделяться, когда это нужно",
+          "en": "Standing out when it matters"
+        },
+        {
+          "ru": "Пробовать новое без оглядки на «что скажут»",
+          "en": "Trying new things regardless of what people say"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты знаешь по имени охранника, уборщицу и директора — и со всеми на «ты».",
+          "en": "You know the security guard, the cleaner and the CEO by name, and you are on first-name terms with all of them."
+        },
+        {
+          "ru": "В любом новом коллективе через неделю ты уже «наш».",
+          "en": "In any new group, within a week you are \"one of us\"."
+        },
+        {
+          "ru": "Твоя любимая еда — та, что у бабушки. Ресторан с молекулярной кухней тебя не впечатлил.",
+          "en": "Your favourite food is grandma's. The molecular gastronomy place did not impress you."
+        },
+        {
+          "ru": "Ты умеешь поддержать разговор о рыбалке, сериалах и ипотеке. Иногда одновременно.",
+          "en": "You can chat about fishing, TV series and mortgages. Sometimes all at once."
+        }
+      ],
+      "famous": [
+        {
+          "ru": "Часто сравнивают с Бильбо Бэггинсом (до приключений)",
+          "en": "Often compared to Bilbo Baggins (before the adventure)"
+        },
+        {
+          "ru": "…с Шуриком",
+          "en": "…Shurik from classic Soviet comedies"
+        },
+        {
+          "ru": "…с Пэм из «Офиса»",
+          "en": "…Pam from The Office"
+        }
+      ],
+      "compatibleWith": [
+        "jester",
+        "caregiver",
+        "lover"
+      ],
+      "imagePrompt": "A cute chibi character in a cozy hoodie waving hello, sharing a picnic with small friends on a blanket, warm beige, sage and sky-blue palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute chibi character, minimal, high detail, no text"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Четыре шкалы — мотивы Марк и Пирсон: стабильность, мастерство, принадлежность и независимость. Каждый ответ даёт 2 балла ведущему мотиву архетипа и 1 балл соседнему (для пограничных архетипов). Суммы переводятся в 0–1: (балл − минимум) / (максимум − минимум); затем выбирается архетип с ближайшим профилем (евклидово расстояние).",
+    "en": "Four scales, Mark and Pearson's motivations: stability, mastery, belonging and independence. Each answer gives 2 points to the archetype's leading motive and 1 to the neighbouring one (for border archetypes). Totals are rescaled to 0–1: (score − min) / (max − min); you then get the archetype with the nearest profile (Euclidean distance)."
+  },
+  "resultIntro": {
+    "ru": "Твой архетип найден! Это не диагноз, а зеркало: образ, через который удобно посмотреть на свои мотивы.",
+    "en": "Your archetype has been found! Not a diagnosis but a mirror: an image that helps you look at your own motives."
+  }
+}

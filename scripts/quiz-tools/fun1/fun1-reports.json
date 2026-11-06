@@ -1,0 +1,1373 @@
+{
+  "spirit-animal": {
+    "questions": 18,
+    "outcomes": [
+      {
+        "id": "owl",
+        "random": 5.4,
+        "persona": 4.1,
+        "reachable": true,
+        "profile": {
+          "O": 0.49,
+          "C": 0.56,
+          "E": 0.27,
+          "A": 0.4,
+          "N": 0.41
+        }
+      },
+      {
+        "id": "fox",
+        "random": 6.1,
+        "persona": 7.3,
+        "reachable": true,
+        "profile": {
+          "O": 0.55,
+          "C": 0.37,
+          "E": 0.5,
+          "A": 0.26,
+          "N": 0.33
+        }
+      },
+      {
+        "id": "dolphin",
+        "random": 5.6,
+        "persona": 2.9,
+        "reachable": true,
+        "profile": {
+          "O": 0.45,
+          "C": 0.38,
+          "E": 0.58,
+          "A": 0.51,
+          "N": 0.35
+        }
+      },
+      {
+        "id": "cat",
+        "random": 5.8,
+        "persona": 11.4,
+        "reachable": true,
+        "profile": {
+          "O": 0.38,
+          "C": 0.27,
+          "E": 0.2,
+          "A": 0.22,
+          "N": 0.53
+        }
+      },
+      {
+        "id": "wolf",
+        "random": 5.7,
+        "persona": 3,
+        "reachable": true,
+        "profile": {
+          "O": 0.27,
+          "C": 0.56,
+          "E": 0.46,
+          "A": 0.53,
+          "N": 0.31
+        }
+      },
+      {
+        "id": "otter",
+        "random": 7.2,
+        "persona": 4,
+        "reachable": true,
+        "profile": {
+          "O": 0.38,
+          "C": 0.31,
+          "E": 0.57,
+          "A": 0.54,
+          "N": 0.37
+        }
+      },
+      {
+        "id": "bear",
+        "random": 7.2,
+        "persona": 4.1,
+        "reachable": true,
+        "profile": {
+          "O": 0.24,
+          "C": 0.44,
+          "E": 0.27,
+          "A": 0.46,
+          "N": 0.28
+        }
+      },
+      {
+        "id": "raccoon",
+        "random": 6.5,
+        "persona": 7.4,
+        "reachable": true,
+        "profile": {
+          "O": 0.54,
+          "C": 0.2,
+          "E": 0.46,
+          "A": 0.4,
+          "N": 0.51
+        }
+      },
+      {
+        "id": "capybara",
+        "random": 6.7,
+        "persona": 2.4,
+        "reachable": true,
+        "profile": {
+          "O": 0.29,
+          "C": 0.38,
+          "E": 0.43,
+          "A": 0.55,
+          "N": 0.27
+        }
+      },
+      {
+        "id": "penguin",
+        "random": 6.4,
+        "persona": 13.8,
+        "reachable": true,
+        "profile": {
+          "O": 0.19,
+          "C": 0.62,
+          "E": 0.43,
+          "A": 0.58,
+          "N": 0.48
+        }
+      },
+      {
+        "id": "eagle",
+        "random": 6.4,
+        "persona": 8.7,
+        "reachable": true,
+        "profile": {
+          "O": 0.36,
+          "C": 0.59,
+          "E": 0.53,
+          "A": 0.3,
+          "N": 0.29
+        }
+      },
+      {
+        "id": "octopus",
+        "random": 6.7,
+        "persona": 3.4,
+        "reachable": true,
+        "profile": {
+          "O": 0.55,
+          "C": 0.43,
+          "E": 0.26,
+          "A": 0.34,
+          "N": 0.44
+        }
+      },
+      {
+        "id": "elephant",
+        "random": 6.1,
+        "persona": 4.7,
+        "reachable": true,
+        "profile": {
+          "O": 0.37,
+          "C": 0.53,
+          "E": 0.39,
+          "A": 0.63,
+          "N": 0.54
+        }
+      },
+      {
+        "id": "honey-badger",
+        "random": 6.2,
+        "persona": 4.9,
+        "reachable": true,
+        "profile": {
+          "O": 0.34,
+          "C": 0.36,
+          "E": 0.55,
+          "A": 0.22,
+          "N": 0.27
+        }
+      },
+      {
+        "id": "sloth",
+        "random": 6.5,
+        "persona": 7.7,
+        "reachable": true,
+        "profile": {
+          "O": 0.31,
+          "C": 0.22,
+          "E": 0.3,
+          "A": 0.45,
+          "N": 0.31
+        }
+      },
+      {
+        "id": "golden-retriever",
+        "random": 5.5,
+        "persona": 10.2,
+        "reachable": true,
+        "profile": {
+          "O": 0.31,
+          "C": 0.41,
+          "E": 0.61,
+          "A": 0.61,
+          "N": 0.44
+        }
+      }
+    ],
+    "theory": [
+      {
+        "id": "owl",
+        "O": 0.75,
+        "C": 0.75,
+        "E": 0.25,
+        "A": 0.5,
+        "N": 0.45
+      },
+      {
+        "id": "fox",
+        "O": 0.8,
+        "C": 0.45,
+        "E": 0.6,
+        "A": 0.3,
+        "N": 0.35
+      },
+      {
+        "id": "dolphin",
+        "O": 0.75,
+        "C": 0.45,
+        "E": 0.85,
+        "A": 0.75,
+        "N": 0.3
+      },
+      {
+        "id": "cat",
+        "O": 0.55,
+        "C": 0.35,
+        "E": 0.25,
+        "A": 0.3,
+        "N": 0.6
+      },
+      {
+        "id": "wolf",
+        "O": 0.4,
+        "C": 0.75,
+        "E": 0.55,
+        "A": 0.7,
+        "N": 0.3
+      },
+      {
+        "id": "otter",
+        "O": 0.6,
+        "C": 0.3,
+        "E": 0.8,
+        "A": 0.8,
+        "N": 0.35
+      },
+      {
+        "id": "bear",
+        "O": 0.35,
+        "C": 0.55,
+        "E": 0.25,
+        "A": 0.6,
+        "N": 0.25
+      },
+      {
+        "id": "raccoon",
+        "O": 0.8,
+        "C": 0.2,
+        "E": 0.55,
+        "A": 0.5,
+        "N": 0.6
+      },
+      {
+        "id": "capybara",
+        "O": 0.4,
+        "C": 0.45,
+        "E": 0.5,
+        "A": 0.85,
+        "N": 0.1
+      },
+      {
+        "id": "penguin",
+        "O": 0.3,
+        "C": 0.8,
+        "E": 0.5,
+        "A": 0.75,
+        "N": 0.55
+      },
+      {
+        "id": "eagle",
+        "O": 0.55,
+        "C": 0.85,
+        "E": 0.7,
+        "A": 0.3,
+        "N": 0.2
+      },
+      {
+        "id": "octopus",
+        "O": 0.9,
+        "C": 0.55,
+        "E": 0.2,
+        "A": 0.4,
+        "N": 0.5
+      },
+      {
+        "id": "elephant",
+        "O": 0.55,
+        "C": 0.7,
+        "E": 0.45,
+        "A": 0.85,
+        "N": 0.65
+      },
+      {
+        "id": "honey-badger",
+        "O": 0.5,
+        "C": 0.4,
+        "E": 0.75,
+        "A": 0.15,
+        "N": 0.15
+      },
+      {
+        "id": "sloth",
+        "O": 0.45,
+        "C": 0.15,
+        "E": 0.25,
+        "A": 0.6,
+        "N": 0.25
+      },
+      {
+        "id": "golden-retriever",
+        "O": 0.45,
+        "C": 0.5,
+        "E": 0.85,
+        "A": 0.9,
+        "N": 0.5
+      }
+    ],
+    "dims": [
+      {
+        "id": "O",
+        "min": -3,
+        "max": 25
+      },
+      {
+        "id": "C",
+        "min": -13,
+        "max": 27
+      },
+      {
+        "id": "E",
+        "min": -13,
+        "max": 26
+      },
+      {
+        "id": "A",
+        "min": -7,
+        "max": 23
+      },
+      {
+        "id": "N",
+        "min": -14,
+        "max": 21
+      }
+    ]
+  },
+  "element": {
+    "questions": 15,
+    "outcomes": [
+      {
+        "id": "fire",
+        "random": 17.2,
+        "persona": 17.6,
+        "reachable": true,
+        "profile": {
+          "E": 0.83,
+          "N": 0.72,
+          "O": 0.25,
+          "C": 0.37
+        }
+      },
+      {
+        "id": "air",
+        "random": 16.2,
+        "persona": 16.9,
+        "reachable": true,
+        "profile": {
+          "E": 0.78,
+          "N": 0.2,
+          "O": 0.29,
+          "C": 0.24
+        }
+      },
+      {
+        "id": "earth",
+        "random": 16.1,
+        "persona": 20.7,
+        "reachable": true,
+        "profile": {
+          "E": 0.14,
+          "N": 0.74,
+          "O": 0.2,
+          "C": 0.54
+        }
+      },
+      {
+        "id": "water",
+        "random": 17.8,
+        "persona": 15.4,
+        "reachable": true,
+        "profile": {
+          "E": 0.17,
+          "N": 0.16,
+          "O": 0.15,
+          "C": 0.37
+        }
+      },
+      {
+        "id": "ether",
+        "random": 15.7,
+        "persona": 15.3,
+        "reachable": true,
+        "profile": {
+          "E": 0.47,
+          "N": 0.46,
+          "O": 0.6,
+          "C": 0.12
+        }
+      },
+      {
+        "id": "metal",
+        "random": 17,
+        "persona": 14.2,
+        "reachable": true,
+        "profile": {
+          "E": 0.47,
+          "N": 0.27,
+          "O": 0.03,
+          "C": 0.75
+        }
+      }
+    ],
+    "theory": [
+      {
+        "id": "fire",
+        "E": 0.85,
+        "N": 0.75,
+        "O": 0.55,
+        "C": 0.5
+      },
+      {
+        "id": "air",
+        "E": 0.85,
+        "N": 0.2,
+        "O": 0.6,
+        "C": 0.35
+      },
+      {
+        "id": "earth",
+        "E": 0.2,
+        "N": 0.75,
+        "O": 0.5,
+        "C": 0.65
+      },
+      {
+        "id": "water",
+        "E": 0.2,
+        "N": 0.2,
+        "O": 0.45,
+        "C": 0.5
+      },
+      {
+        "id": "ether",
+        "E": 0.5,
+        "N": 0.5,
+        "O": 0.9,
+        "C": 0.25
+      },
+      {
+        "id": "metal",
+        "E": 0.5,
+        "N": 0.3,
+        "O": 0.3,
+        "C": 0.9
+      }
+    ],
+    "dims": [
+      {
+        "id": "E",
+        "min": -16,
+        "max": 22
+      },
+      {
+        "id": "N",
+        "min": -18,
+        "max": 23
+      },
+      {
+        "id": "O",
+        "min": 0,
+        "max": 18
+      },
+      {
+        "id": "C",
+        "min": -6,
+        "max": 23
+      }
+    ]
+  },
+  "archetype": {
+    "questions": 16,
+    "outcomes": [
+      {
+        "id": "hero",
+        "random": 7.9,
+        "persona": 11.6,
+        "reachable": true,
+        "profile": {
+          "stability": 0.22,
+          "mastery": 0.45,
+          "belonging": 0.33,
+          "independence": 0.33
+        }
+      },
+      {
+        "id": "sage",
+        "random": 8.9,
+        "persona": 9.7,
+        "reachable": true,
+        "profile": {
+          "stability": 0.33,
+          "mastery": 0.33,
+          "belonging": 0.22,
+          "independence": 0.44
+        }
+      },
+      {
+        "id": "explorer",
+        "random": 8,
+        "persona": 8,
+        "reachable": true,
+        "profile": {
+          "stability": 0.28,
+          "mastery": 0.39,
+          "belonging": 0.24,
+          "independence": 0.43
+        }
+      },
+      {
+        "id": "rebel",
+        "random": 8.8,
+        "persona": 6.3,
+        "reachable": true,
+        "profile": {
+          "stability": 0.24,
+          "mastery": 0.43,
+          "belonging": 0.28,
+          "independence": 0.39
+        }
+      },
+      {
+        "id": "magician",
+        "random": 7.9,
+        "persona": 8.1,
+        "reachable": true,
+        "profile": {
+          "stability": 0.23,
+          "mastery": 0.43,
+          "belonging": 0.39,
+          "independence": 0.28
+        }
+      },
+      {
+        "id": "lover",
+        "random": 8.5,
+        "persona": 9.9,
+        "reachable": true,
+        "profile": {
+          "stability": 0.33,
+          "mastery": 0.33,
+          "belonging": 0.44,
+          "independence": 0.22
+        }
+      },
+      {
+        "id": "jester",
+        "random": 8.8,
+        "persona": 7.4,
+        "reachable": true,
+        "profile": {
+          "stability": 0.28,
+          "mastery": 0.39,
+          "belonging": 0.43,
+          "independence": 0.24
+        }
+      },
+      {
+        "id": "caregiver",
+        "random": 9,
+        "persona": 5.7,
+        "reachable": true,
+        "profile": {
+          "stability": 0.43,
+          "mastery": 0.24,
+          "belonging": 0.39,
+          "independence": 0.28
+        }
+      },
+      {
+        "id": "ruler",
+        "random": 7.6,
+        "persona": 12.3,
+        "reachable": true,
+        "profile": {
+          "stability": 0.45,
+          "mastery": 0.22,
+          "belonging": 0.33,
+          "independence": 0.33
+        }
+      },
+      {
+        "id": "creator",
+        "random": 8.8,
+        "persona": 7.3,
+        "reachable": true,
+        "profile": {
+          "stability": 0.43,
+          "mastery": 0.24,
+          "belonging": 0.28,
+          "independence": 0.39
+        }
+      },
+      {
+        "id": "innocent",
+        "random": 7.9,
+        "persona": 6.5,
+        "reachable": true,
+        "profile": {
+          "stability": 0.39,
+          "mastery": 0.28,
+          "belonging": 0.24,
+          "independence": 0.43
+        }
+      },
+      {
+        "id": "everyman",
+        "random": 7.7,
+        "persona": 7.4,
+        "reachable": true,
+        "profile": {
+          "stability": 0.39,
+          "mastery": 0.28,
+          "belonging": 0.43,
+          "independence": 0.24
+        }
+      }
+    ],
+    "theory": [
+      {
+        "id": "hero",
+        "stability": 0.1,
+        "mastery": 0.9,
+        "belonging": 0.5,
+        "independence": 0.5
+      },
+      {
+        "id": "sage",
+        "stability": 0.5,
+        "mastery": 0.5,
+        "belonging": 0.1,
+        "independence": 0.9
+      },
+      {
+        "id": "explorer",
+        "stability": 0.3,
+        "mastery": 0.7,
+        "belonging": 0.15,
+        "independence": 0.85
+      },
+      {
+        "id": "rebel",
+        "stability": 0.15,
+        "mastery": 0.85,
+        "belonging": 0.3,
+        "independence": 0.7
+      },
+      {
+        "id": "magician",
+        "stability": 0.15,
+        "mastery": 0.85,
+        "belonging": 0.7,
+        "independence": 0.3
+      },
+      {
+        "id": "lover",
+        "stability": 0.5,
+        "mastery": 0.5,
+        "belonging": 0.9,
+        "independence": 0.1
+      },
+      {
+        "id": "jester",
+        "stability": 0.3,
+        "mastery": 0.7,
+        "belonging": 0.85,
+        "independence": 0.15
+      },
+      {
+        "id": "caregiver",
+        "stability": 0.85,
+        "mastery": 0.15,
+        "belonging": 0.7,
+        "independence": 0.3
+      },
+      {
+        "id": "ruler",
+        "stability": 0.9,
+        "mastery": 0.1,
+        "belonging": 0.5,
+        "independence": 0.5
+      },
+      {
+        "id": "creator",
+        "stability": 0.85,
+        "mastery": 0.15,
+        "belonging": 0.3,
+        "independence": 0.7
+      },
+      {
+        "id": "innocent",
+        "stability": 0.7,
+        "mastery": 0.3,
+        "belonging": 0.15,
+        "independence": 0.85
+      },
+      {
+        "id": "everyman",
+        "stability": 0.7,
+        "mastery": 0.3,
+        "belonging": 0.85,
+        "independence": 0.15
+      }
+    ],
+    "dims": [
+      {
+        "id": "stability",
+        "min": 0,
+        "max": 32
+      },
+      {
+        "id": "mastery",
+        "min": 0,
+        "max": 32
+      },
+      {
+        "id": "belonging",
+        "min": 0,
+        "max": 32
+      },
+      {
+        "id": "independence",
+        "min": 0,
+        "max": 32
+      }
+    ]
+  },
+  "superpower": {
+    "questions": 16,
+    "outcomes": [
+      {
+        "id": "telepathy",
+        "random": 8.8,
+        "persona": 5.7,
+        "reachable": true,
+        "profile": {
+          "wisdom": 0.43,
+          "courage": 0.27,
+          "humanity": 0.48,
+          "justice": 0.14,
+          "temperance": 0.18,
+          "transcendence": 0.14
+        }
+      },
+      {
+        "id": "healing",
+        "random": 8.1,
+        "persona": 10.7,
+        "reachable": true,
+        "profile": {
+          "wisdom": 0.26,
+          "courage": 0.26,
+          "humanity": 0.5,
+          "justice": 0.14,
+          "temperance": 0.36,
+          "transcendence": 0.14
+        }
+      },
+      {
+        "id": "time-control",
+        "random": 8.2,
+        "persona": 9.4,
+        "reachable": true,
+        "profile": {
+          "wisdom": 0.26,
+          "courage": 0.44,
+          "humanity": 0.18,
+          "justice": 0.14,
+          "temperance": 0.5,
+          "transcendence": 0.14
+        }
+      },
+      {
+        "id": "invisibility",
+        "random": 8.6,
+        "persona": 6.2,
+        "reachable": true,
+        "profile": {
+          "wisdom": 0.43,
+          "courage": 0.27,
+          "humanity": 0.18,
+          "justice": 0.14,
+          "temperance": 0.48,
+          "transcendence": 0.14
+        }
+      },
+      {
+        "id": "super-strength",
+        "random": 8.2,
+        "persona": 10.3,
+        "reachable": true,
+        "profile": {
+          "wisdom": 0.26,
+          "courage": 0.61,
+          "humanity": 0.17,
+          "justice": 0.33,
+          "temperance": 0.17,
+          "transcendence": 0.13
+        }
+      },
+      {
+        "id": "teleportation",
+        "random": 8.5,
+        "persona": 4.9,
+        "reachable": true,
+        "profile": {
+          "wisdom": 0.56,
+          "courage": 0.43,
+          "humanity": 0.19,
+          "justice": 0.14,
+          "temperance": 0.19,
+          "transcendence": 0.14
+        }
+      },
+      {
+        "id": "shapeshifting",
+        "random": 8.4,
+        "persona": 8.8,
+        "reachable": true,
+        "profile": {
+          "wisdom": 0.57,
+          "courage": 0.26,
+          "humanity": 0.18,
+          "justice": 0.14,
+          "temperance": 0.18,
+          "transcendence": 0.31
+        }
+      },
+      {
+        "id": "precognition",
+        "random": 7.5,
+        "persona": 6.6,
+        "reachable": true,
+        "profile": {
+          "wisdom": 0.56,
+          "courage": 0.27,
+          "humanity": 0.19,
+          "justice": 0.14,
+          "temperance": 0.35,
+          "transcendence": 0.14
+        }
+      },
+      {
+        "id": "force-field",
+        "random": 8.7,
+        "persona": 8.7,
+        "reachable": true,
+        "profile": {
+          "wisdom": 0.26,
+          "courage": 0.26,
+          "humanity": 0.36,
+          "justice": 0.47,
+          "temperance": 0.18,
+          "transcendence": 0.13
+        }
+      },
+      {
+        "id": "magnetism",
+        "random": 7.6,
+        "persona": 9.4,
+        "reachable": true,
+        "profile": {
+          "wisdom": 0.26,
+          "courage": 0.45,
+          "humanity": 0.17,
+          "justice": 0.47,
+          "temperance": 0.17,
+          "transcendence": 0.13
+        }
+      },
+      {
+        "id": "flight",
+        "random": 9.1,
+        "persona": 9.1,
+        "reachable": true,
+        "profile": {
+          "wisdom": 0.26,
+          "courage": 0.44,
+          "humanity": 0.18,
+          "justice": 0.13,
+          "temperance": 0.18,
+          "transcendence": 0.47
+        }
+      },
+      {
+        "id": "light",
+        "random": 8.1,
+        "persona": 10.2,
+        "reachable": true,
+        "profile": {
+          "wisdom": 0.26,
+          "courage": 0.26,
+          "humanity": 0.36,
+          "justice": 0.13,
+          "temperance": 0.17,
+          "transcendence": 0.47
+        }
+      }
+    ],
+    "theory": [
+      {
+        "id": "telepathy",
+        "wisdom": 0.65,
+        "courage": 0.4,
+        "humanity": 0.85,
+        "justice": 0.4,
+        "temperance": 0.4,
+        "transcendence": 0.4
+      },
+      {
+        "id": "healing",
+        "wisdom": 0.4,
+        "courage": 0.4,
+        "humanity": 0.85,
+        "justice": 0.4,
+        "temperance": 0.65,
+        "transcendence": 0.4
+      },
+      {
+        "id": "time-control",
+        "wisdom": 0.4,
+        "courage": 0.65,
+        "humanity": 0.4,
+        "justice": 0.4,
+        "temperance": 0.85,
+        "transcendence": 0.4
+      },
+      {
+        "id": "invisibility",
+        "wisdom": 0.65,
+        "courage": 0.4,
+        "humanity": 0.4,
+        "justice": 0.4,
+        "temperance": 0.85,
+        "transcendence": 0.4
+      },
+      {
+        "id": "super-strength",
+        "wisdom": 0.4,
+        "courage": 0.85,
+        "humanity": 0.4,
+        "justice": 0.65,
+        "temperance": 0.4,
+        "transcendence": 0.4
+      },
+      {
+        "id": "teleportation",
+        "wisdom": 0.85,
+        "courage": 0.65,
+        "humanity": 0.4,
+        "justice": 0.4,
+        "temperance": 0.4,
+        "transcendence": 0.4
+      },
+      {
+        "id": "shapeshifting",
+        "wisdom": 0.85,
+        "courage": 0.4,
+        "humanity": 0.4,
+        "justice": 0.4,
+        "temperance": 0.4,
+        "transcendence": 0.65
+      },
+      {
+        "id": "precognition",
+        "wisdom": 0.85,
+        "courage": 0.4,
+        "humanity": 0.4,
+        "justice": 0.4,
+        "temperance": 0.65,
+        "transcendence": 0.4
+      },
+      {
+        "id": "force-field",
+        "wisdom": 0.4,
+        "courage": 0.4,
+        "humanity": 0.65,
+        "justice": 0.85,
+        "temperance": 0.4,
+        "transcendence": 0.4
+      },
+      {
+        "id": "magnetism",
+        "wisdom": 0.4,
+        "courage": 0.65,
+        "humanity": 0.4,
+        "justice": 0.85,
+        "temperance": 0.4,
+        "transcendence": 0.4
+      },
+      {
+        "id": "flight",
+        "wisdom": 0.4,
+        "courage": 0.65,
+        "humanity": 0.4,
+        "justice": 0.4,
+        "temperance": 0.4,
+        "transcendence": 0.85
+      },
+      {
+        "id": "light",
+        "wisdom": 0.4,
+        "courage": 0.4,
+        "humanity": 0.65,
+        "justice": 0.4,
+        "temperance": 0.4,
+        "transcendence": 0.85
+      }
+    ],
+    "dims": [
+      {
+        "id": "wisdom",
+        "min": 0,
+        "max": 32
+      },
+      {
+        "id": "courage",
+        "min": 0,
+        "max": 24
+      },
+      {
+        "id": "humanity",
+        "min": 0,
+        "max": 32
+      },
+      {
+        "id": "justice",
+        "min": 0,
+        "max": 32
+      },
+      {
+        "id": "temperance",
+        "min": 0,
+        "max": 32
+      },
+      {
+        "id": "transcendence",
+        "min": 0,
+        "max": 32
+      }
+    ]
+  },
+  "cosmic-object": {
+    "questions": 16,
+    "outcomes": [
+      {
+        "id": "star",
+        "random": 7.6,
+        "persona": 7.6,
+        "reachable": true,
+        "profile": {
+          "O": 0.26,
+          "C": 0.45,
+          "E": 0.58,
+          "A": 0.5,
+          "N": 0.28
+        }
+      },
+      {
+        "id": "black-hole",
+        "random": 8.9,
+        "persona": 12,
+        "reachable": true,
+        "profile": {
+          "O": 0.49,
+          "C": 0.39,
+          "E": 0.19,
+          "A": 0.24,
+          "N": 0.5
+        }
+      },
+      {
+        "id": "comet",
+        "random": 7.9,
+        "persona": 9.7,
+        "reachable": true,
+        "profile": {
+          "O": 0.47,
+          "C": 0.21,
+          "E": 0.51,
+          "A": 0.34,
+          "N": 0.34
+        }
+      },
+      {
+        "id": "nebula",
+        "random": 7.7,
+        "persona": 7,
+        "reachable": true,
+        "profile": {
+          "O": 0.5,
+          "C": 0.23,
+          "E": 0.29,
+          "A": 0.42,
+          "N": 0.48
+        }
+      },
+      {
+        "id": "earth",
+        "random": 7.9,
+        "persona": 6.5,
+        "reachable": true,
+        "profile": {
+          "O": 0.19,
+          "C": 0.55,
+          "E": 0.36,
+          "A": 0.54,
+          "N": 0.3
+        }
+      },
+      {
+        "id": "saturn",
+        "random": 9.4,
+        "persona": 3.8,
+        "reachable": true,
+        "profile": {
+          "O": 0.44,
+          "C": 0.46,
+          "E": 0.5,
+          "A": 0.27,
+          "N": 0.25
+        }
+      },
+      {
+        "id": "moon",
+        "random": 8.5,
+        "persona": 12.5,
+        "reachable": true,
+        "profile": {
+          "O": 0.33,
+          "C": 0.39,
+          "E": 0.15,
+          "A": 0.54,
+          "N": 0.44
+        }
+      },
+      {
+        "id": "pulsar",
+        "random": 8.7,
+        "persona": 13,
+        "reachable": true,
+        "profile": {
+          "O": 0.22,
+          "C": 0.65,
+          "E": 0.42,
+          "A": 0.28,
+          "N": 0.27
+        }
+      },
+      {
+        "id": "galaxy",
+        "random": 8.4,
+        "persona": 2.3,
+        "reachable": true,
+        "profile": {
+          "O": 0.44,
+          "C": 0.37,
+          "E": 0.52,
+          "A": 0.49,
+          "N": 0.36
+        }
+      },
+      {
+        "id": "supernova",
+        "random": 8.9,
+        "persona": 14.3,
+        "reachable": true,
+        "profile": {
+          "O": 0.39,
+          "C": 0.26,
+          "E": 0.62,
+          "A": 0.28,
+          "N": 0.56
+        }
+      },
+      {
+        "id": "red-dwarf",
+        "random": 8.5,
+        "persona": 5.8,
+        "reachable": true,
+        "profile": {
+          "O": 0.18,
+          "C": 0.5,
+          "E": 0.22,
+          "A": 0.4,
+          "N": 0.23
+        }
+      },
+      {
+        "id": "quasar",
+        "random": 7.6,
+        "persona": 5.7,
+        "reachable": true,
+        "profile": {
+          "O": 0.39,
+          "C": 0.53,
+          "E": 0.54,
+          "A": 0.22,
+          "N": 0.3
+        }
+      }
+    ],
+    "theory": [
+      {
+        "id": "star",
+        "O": 0.45,
+        "C": 0.6,
+        "E": 0.8,
+        "A": 0.75,
+        "N": 0.3
+      },
+      {
+        "id": "black-hole",
+        "O": 0.8,
+        "C": 0.5,
+        "E": 0.2,
+        "A": 0.35,
+        "N": 0.65
+      },
+      {
+        "id": "comet",
+        "O": 0.8,
+        "C": 0.2,
+        "E": 0.7,
+        "A": 0.5,
+        "N": 0.4
+      },
+      {
+        "id": "nebula",
+        "O": 0.9,
+        "C": 0.2,
+        "E": 0.3,
+        "A": 0.65,
+        "N": 0.65
+      },
+      {
+        "id": "earth",
+        "O": 0.35,
+        "C": 0.75,
+        "E": 0.45,
+        "A": 0.8,
+        "N": 0.35
+      },
+      {
+        "id": "saturn",
+        "O": 0.7,
+        "C": 0.6,
+        "E": 0.65,
+        "A": 0.4,
+        "N": 0.3
+      },
+      {
+        "id": "moon",
+        "O": 0.55,
+        "C": 0.5,
+        "E": 0.2,
+        "A": 0.75,
+        "N": 0.55
+      },
+      {
+        "id": "pulsar",
+        "O": 0.4,
+        "C": 0.9,
+        "E": 0.55,
+        "A": 0.4,
+        "N": 0.3
+      },
+      {
+        "id": "galaxy",
+        "O": 0.85,
+        "C": 0.45,
+        "E": 0.8,
+        "A": 0.85,
+        "N": 0.4
+      },
+      {
+        "id": "supernova",
+        "O": 0.65,
+        "C": 0.3,
+        "E": 0.85,
+        "A": 0.4,
+        "N": 0.75
+      },
+      {
+        "id": "red-dwarf",
+        "O": 0.3,
+        "C": 0.7,
+        "E": 0.2,
+        "A": 0.6,
+        "N": 0.2
+      },
+      {
+        "id": "quasar",
+        "O": 0.7,
+        "C": 0.8,
+        "E": 0.8,
+        "A": 0.25,
+        "N": 0.3
+      }
+    ],
+    "dims": [
+      {
+        "id": "O",
+        "min": -3,
+        "max": 28
+      },
+      {
+        "id": "C",
+        "min": -8,
+        "max": 25
+      },
+      {
+        "id": "E",
+        "min": -11,
+        "max": 26
+      },
+      {
+        "id": "A",
+        "min": -5,
+        "max": 27
+      },
+      {
+        "id": "N",
+        "min": -11,
+        "max": 23
+      }
+    ]
+  }
+}

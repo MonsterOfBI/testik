@@ -58,15 +58,17 @@ export function rangeFor(test: TestDef, dim: Dimension): [number, number] {
   if (test.kind === "choice") {
     let lo = 0;
     let hi = 0;
-    let touched = false;
+    let n = 0;
     for (const q of test.questions) {
       const vals = (q.options ?? []).map((o) => o.scores?.[dim.id] ?? 0);
       if (!vals.length) continue;
-      if (vals.some((v) => v !== 0)) touched = true;
+      if (vals.some((v) => v !== 0)) n++;
       lo += Math.min(...vals);
       hi += Math.max(...vals);
     }
-    if (touched && hi > lo) return [lo, hi];
+    // "mean" dims are averaged over the questions that touch them (see rawScores)
+    if (n && dim.scoring === "mean") [lo, hi] = [lo / n, hi / n];
+    if (n && hi > lo) return [lo, hi];
   }
   if (test.kind === "cognitive") {
     const n = test.questions.filter(
