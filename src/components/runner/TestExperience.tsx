@@ -1,7 +1,7 @@
 "use client";
 
 import { ViewTransition, useEffect, useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import type { Answers, Locale, TestDef, TestMeta, TestResult } from "@/lib/types";
 import type { Dict } from "@/i18n/dict";
@@ -19,8 +19,9 @@ type Phase = "intro" | "run" | "computing";
 
 export function TestExperience({ test, lang, dict }: { test: TestDef; lang: Locale; dict: Dict; related: TestMeta[] }) {
   const router = useRouter();
-  const sp = useSearchParams();
-  const vs = sp.get("vs");
+  // read ?vs= after mount instead of useSearchParams, so the intro prerenders as static HTML (SEO)
+  const [vs, setVs] = useState<string | null>(null);
+  useEffect(() => setVs(new URLSearchParams(window.location.search).get("vs")), []);
   const [phase, setPhase] = useState<Phase>("intro");
   const [resumeAt, setResumeAt] = useState<number | null>(null);
   const [fresh, setFresh] = useState(false);
