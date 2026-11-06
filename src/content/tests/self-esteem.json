@@ -1,0 +1,353 @@
+{
+  "id": "self-esteem",
+  "category": "wellbeing",
+  "kind": "likert",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Шкала самоуважения Розенберга",
+    "en": "Rosenberg Self-Esteem Scale"
+  },
+  "tagline": {
+    "ru": "10 утверждений — и честный взгляд на то, как вы к себе относитесь",
+    "en": "Ten statements, one honest look at how you see yourself"
+  },
+  "description": {
+    "ru": "Классическая методика социолога Морриса Розенберга (1965) — самый используемый в мире инструмент измерения самоуважения. Вы узнаете, насколько устойчиво и доброжелательно относитесь к себе, как ваш результат соотносится с данными исследования в 53 странах, и получите практические советы, как укреплять уважение к себе.",
+    "en": "The classic measure by sociologist Morris Rosenberg (1965) — the world's most widely used self-esteem scale. Find out how warmly and steadily you regard yourself, how your score compares with people in 53 nations, and get practical ideas for building self-respect."
+  },
+  "emoji": "🪞",
+  "durationMin": 3,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "самооценка",
+      "en": "self-esteem"
+    },
+    {
+      "ru": "самоуважение",
+      "en": "self-respect"
+    },
+    {
+      "ru": "Я-концепция",
+      "en": "self-concept"
+    },
+    {
+      "ru": "благополучие",
+      "en": "well-being"
+    },
+    {
+      "ru": "уверенность",
+      "en": "confidence"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что измеряет\n**Глобальное самоуважение** — общее, обобщённое отношение человека к себе: насколько он принимает себя, считает себя ценным и «достаточно хорошим». Морис Розенберг понимал самоуважение не как убеждённость в своём превосходстве, а как ощущение, что ты *достоин уважения* — наравне с другими.\n\n### История\nШкалу разработал социолог Моррис Розенберг и опубликовал в книге *Society and the Adolescent Self-Image* (1965); исходной выборкой были старшеклассники штата Нью-Йорк. Сегодня это самый цитируемый инструмент измерения самоуважения: он переведён на десятки языков. В крупнейшем кросскультурном исследовании (Schmitt & Allik, 2005) шкалу заполнили **16 998 человек в 53 странах** на 28 языках.\n\n### Как проводится и считается\n10 утверждений, 4 варианта ответа (от «полностью не согласен» до «полностью согласен»). Пять утверждений сформулированы позитивно (1, 3, 4, 7, 10), пять — негативно (2, 5, 6, 8, 9) и считаются в обратную сторону. Здесь используется кодировка 1–4, поэтому сумма лежит в диапазоне **10–40** — так же, как в норме Schmitt & Allik (2005). (В другой распространённой кодировке 0–3 диапазон 0–30; результаты переводятся простым вычитанием 10.)\n\n### Надёжность и валидность\n- Внутренняя согласованность: средняя α = 0,81 по 53 странам (Schmitt & Allik, 2005); α = 0,88 в американской студенческой выборке (Robins et al., 2001).\n- Ретестовая надёжность: r = 0,85 за 2 недели (Silber & Tippett, 1965).\n- Русскоязычная версия (Золотарева, 2020; N = 213 студентов): α = 0,82.\n- Почти во всех 53 странах самоуважение отрицательно связано с нейротизмом и положительно — с экстраверсией (Schmitt & Allik, 2005). Однопунктовая оценка «у меня высокая самооценка» сильно коррелирует с полной шкалой (Robins et al., 2001).\n\n### Нормы\nСредний балл по 53 странам — **30,85 (SD = 4,82)** по шкале 10–40; средние всех стран выше теоретической середины (25), самый низкий — в Японии (25,50), в США — 32,21 (SD 5,01). Выборки в основном студенческие. Именно эта норма используется для расчёта процентиля «выше, чем у X% людей».\n\n### Ограничения\n- Самоотчёт чувствителен к социальной желательности и к текущему настроению.\n- Негативно сформулированные пункты в разных культурах работают по-разному, поэтому прямое сравнение стран ограничено.\n- Высокий балл — это не нарциссизм: шкала измеряет самопринятие, а не чувство превосходства.\n- Официальных клинических порогов нет; границы уровней на сайте — интерпретационные ориентиры, основанные на нормах и середине шкалы.",
+    "en": "### What it measures\n**Global self-esteem** — a person's overall attitude toward themselves: how much they accept themselves and feel worthwhile and \"good enough\". Morris Rosenberg defined self-esteem not as feeling superior, but as feeling that you are *worthy of respect* — on an equal footing with others.\n\n### History\nSociologist Morris Rosenberg published the scale in *Society and the Adolescent Self-Image* (1965), developing it with New York State high-school students. It is now the most widely used self-esteem measure in the world, translated into dozens of languages. In the largest cross-cultural study (Schmitt & Allik, 2005) it was completed by **16,998 people in 53 nations** in 28 languages.\n\n### Administration and scoring\n10 statements, 4 response options (strongly disagree → strongly agree). Five items are positively worded (1, 3, 4, 7, 10) and five negatively worded (2, 5, 6, 8, 9) and reverse-scored. We code answers 1–4, so the total ranges **10–40**, the same metric as the Schmitt & Allik (2005) norms. (With the other common 0–3 coding the range is 0–30; subtract 10 to convert.)\n\n### Reliability and validity\n- Internal consistency: mean α = .81 across 53 nations (Schmitt & Allik, 2005); α = .88 in a US college sample (Robins et al., 2001).\n- Test–retest: r = .85 over 2 weeks (Silber & Tippett, 1965).\n- Russian version (Zolotareva, 2020; N = 213 students): α = .82.\n- In nearly all 53 nations self-esteem correlated negatively with neuroticism and positively with extraversion (Schmitt & Allik, 2005). A single item \"I have high self-esteem\" correlates strongly with the full scale (Robins et al., 2001).\n\n### Norms\nThe 53-nation mean is **30.85 (SD = 4.82)** on the 10–40 metric; every nation averaged above the theoretical midpoint (25), Japan lowest (25.50), the US at 32.21 (SD 5.01). Samples were mostly university students. This norm drives the \"higher than X% of people\" percentile.\n\n### Limitations\n- Self-report is sensitive to social desirability and current mood.\n- Negatively worded items behave differently across cultures, limiting direct country comparisons.\n- A high score is not narcissism: the scale captures self-acceptance, not superiority.\n- There are no official clinical cut-offs; the bands shown here are interpretive guides anchored on the norms and the scale midpoint."
+  },
+  "sources": [
+    {
+      "citation": "Rosenberg, M. (1965). Society and the adolescent self-image. Princeton University Press.",
+      "url": "https://socy.umd.edu/about-us/rosenberg-self-esteem-scale"
+    },
+    {
+      "citation": "Schmitt, D. P., & Allik, J. (2005). Simultaneous administration of the Rosenberg Self-Esteem Scale in 53 nations: Exploring the universal and culture-specific features of global self-esteem. Journal of Personality and Social Psychology, 89(4), 623–642.",
+      "doi": "10.1037/0022-3514.89.4.623"
+    },
+    {
+      "citation": "Robins, R. W., Hendin, H. M., & Trzesniewski, K. H. (2001). Measuring global self-esteem: Construct validation of a single-item measure and the Rosenberg Self-Esteem Scale. Personality and Social Psychology Bulletin, 27(2), 151–161.",
+      "doi": "10.1177/0146167201272002"
+    },
+    {
+      "citation": "Silber, E., & Tippett, J. S. (1965). Self-esteem: Clinical assessment and measurement validation. Psychological Reports, 16(3, Suppl.), 1017–1071."
+    },
+    {
+      "citation": "Золотарева, А. А. (2020). Валидность и надежность русскоязычной версии шкалы самооценки М. Розенберга. Вестник Омского университета. Серия «Психология», (2), 52–57.",
+      "doi": "10.24147/2410-6364.2020.2.52-57",
+      "url": "https://publications.hse.ru/pubs/share/direct/383400468.pdf"
+    }
+  ],
+  "license": "Public domain. The University of Maryland Department of Sociology (holder of Rosenberg's materials) states the scale is in the public domain and may be used without charge or notification, including translations/adaptations: https://socy.umd.edu/about-us/using-rosenberg-self-esteem-scale . Russian item wording follows Zolotareva (2020) with gender-inclusive forms; items 2, 5, 6, 7 and 9 lightly edited to stay closer to the English original wording.",
+  "disclaimer": {
+    "ru": "Это психологический опросник, а не диагноз. Если низкая самооценка сопровождается подавленностью, чувством безнадёжности или мыслями о том, чтобы причинить себе вред, пожалуйста, обратитесь к специалисту. В России: 8-800-2000-122 (бесплатный телефон доверия для детей, подростков и родителей), 051 — экстренная психологическая помощь в Москве (с мобильного 8-495-051). В других странах номера горячих линий можно найти на findahelpline.com. При угрозе жизни звоните 112.",
+    "en": "This is a psychological questionnaire, not a diagnosis. If low self-esteem comes with persistent low mood, hopelessness or thoughts of harming yourself, please reach out to a professional. In Russia: 8-800-2000-122 (free helpline for children, teens and parents), 051 (Moscow emergency psychological help; 8-495-051 from a mobile). Elsewhere, find a local helpline at findahelpline.com. In an emergency call 112 / 911 or your local emergency number."
+  },
+  "instructions": {
+    "ru": "Ниже — 10 утверждений о том, как вы относитесь к себе в целом. Отметьте, насколько вы с каждым согласны. Здесь нет правильных и неправильных ответов — отвечайте так, как чувствуете обычно, а не в самый удачный или самый тяжёлый день.",
+    "en": "Below are 10 statements about how you feel about yourself in general. Indicate how strongly you agree or disagree with each. There are no right or wrong answers — respond the way you usually feel, not on your best or worst day."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Полностью не согласен(-на)",
+        "en": "Strongly disagree"
+      },
+      {
+        "ru": "Не согласен(-на)",
+        "en": "Disagree"
+      },
+      {
+        "ru": "Согласен(-на)",
+        "en": "Agree"
+      },
+      {
+        "ru": "Полностью согласен(-на)",
+        "en": "Strongly agree"
+      }
+    ],
+    "values": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "self-esteem",
+      "name": {
+        "ru": "Самоуважение",
+        "en": "Self-esteem"
+      },
+      "description": {
+        "ru": "Общее отношение к себе: насколько вы принимаете себя и чувствуете себя ценным человеком наравне с другими.",
+        "en": "Your overall attitude toward yourself: how much you accept yourself and feel like a person of worth, on an equal footing with others."
+      },
+      "lowLabel": {
+        "ru": "строгий взгляд на себя",
+        "en": "harsh self-view"
+      },
+      "highLabel": {
+        "ru": "тёплое самопринятие",
+        "en": "warm self-acceptance"
+      },
+      "color": "#F9D57E",
+      "scoring": "sum",
+      "min": 10,
+      "max": 40,
+      "norms": {
+        "mean": 30.85,
+        "sd": 4.82,
+        "n": 16998,
+        "population": "53 nations, 28 languages (International Sexuality Description Project); mostly university students",
+        "source": "Schmitt & Allik (2005), J Pers Soc Psychol 89(4), 623–642"
+      },
+      "bands": [
+        {
+          "min": 10,
+          "max": 25,
+          "label": {
+            "ru": "Низкое самоуважение",
+            "en": "Low self-esteem"
+          },
+          "summary": [
+            {
+              "ru": "Сейчас вы смотрите на себя довольно строго и критично",
+              "en": "Right now you tend to see yourself through a harsh, critical lens"
+            },
+            {
+              "ru": "Свои недостатки замечать легче, чем достоинства",
+              "en": "Flaws are easier to notice than strengths"
+            },
+            {
+              "ru": "Неудачи легко превращаются в выводы о себе в целом",
+              "en": "Setbacks easily turn into verdicts about who you are"
+            },
+            {
+              "ru": "Это состояние, а не приговор: самоуважение можно укреплять",
+              "en": "This is a state, not a life sentence — self-esteem can grow"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат говорит о том, что сейчас вам непросто относиться к себе с теплом. Возможно, внутренний критик звучит громче, чем голос поддержки: ошибки кажутся доказательством «я недостаточно хорош(а)», а успехи — случайностью. Такое бывает после тяжёлого периода, неудач, критики со стороны близких или просто от усталости. Важно: низкое самоуважение — не черта характера, высеченная в камне. Исследования показывают, что отношение к себе меняется на протяжении жизни и хорошо поддаётся работе.\n\n**Что может помочь.** Попробуйте практику самосострадания: когда что-то не получилось, спросите себя, что бы вы сказали близкому другу в такой ситуации, — и скажите это себе. Каждый вечер записывайте три вещи, которые вы сделали или в которых проявили себя хорошо, даже маленькие. Ставьте небольшие достижимые цели: опыт «я сказал(а) — я сделал(а)» постепенно укрепляет уважение к себе. Замечайте людей и ситуации, после которых вам хуже, и чаще выбирайте тех, рядом с кем вам спокойно.\n\nЕсли самокритика мешает жить, работать или общаться, хорошим шагом будет работа с психологом: когнитивно-поведенческая терапия и терапия, сфокусированная на сострадании, специально разработаны для таких задач.",
+            "en": "Your score suggests it's hard for you to treat yourself warmly right now. The inner critic may be louder than the supportive voice: mistakes feel like proof that you're \"not good enough\", successes like luck. This often follows a hard period, failures, criticism from people close to you — or simply exhaustion. Importantly, low self-esteem is not a trait carved in stone. Self-esteem changes over the lifespan and responds well to deliberate work.\n\n**What can help.** Try self-compassion: when something goes wrong, ask what you would say to a close friend in the same situation — and say it to yourself. Each evening, jot down three things you did well or handled well, however small. Set small, doable goals: the experience of \"I said it, I did it\" steadily builds self-respect. Notice which people and situations leave you feeling worse, and lean toward those that leave you feeling steady.\n\nIf self-criticism gets in the way of life, work or relationships, talking to a psychologist is a strong next step: cognitive-behavioural and compassion-focused therapies are designed for exactly this."
+          }
+        },
+        {
+          "min": 26,
+          "max": 30,
+          "label": {
+            "ru": "Умеренное, немного хрупкое самоуважение",
+            "en": "Moderate, somewhat fragile self-esteem"
+          },
+          "summary": [
+            {
+              "ru": "В целом вы принимаете себя, но уверенность колеблется",
+              "en": "You broadly accept yourself, but confidence fluctuates"
+            },
+            {
+              "ru": "Похвала и критика заметно влияют на ваше самочувствие",
+              "en": "Praise and criticism noticeably sway how you feel"
+            },
+            {
+              "ru": "Иногда вы сомневаетесь, что «достаточно хороши»",
+              "en": "You sometimes doubt that you're \"good enough\""
+            },
+            {
+              "ru": "Немного ниже среднего мирового уровня",
+              "en": "Slightly below the international average"
+            }
+          ],
+          "detailed": {
+            "ru": "У вас есть опора: вы видите в себе достоинства и в целом относитесь к себе нормально. Но это отношение пока не очень устойчиво — оно может проседать после ошибки, сравнения с другими или резкого замечания. Многие люди с таким результатом очень требовательны к себе и ставят высокую планку: это помогает добиваться целей, но делает самоуважение «условным» — «я в порядке, только если у меня всё получается».\n\n**Что может помочь.** Отделяйте поступки от личности: «я ошибся(-лась) в отчёте» вместо «я никчёмный(-ая)». Обратите внимание на сравнения в соцсетях — мы сравниваем свою «изнанку» с чужой витриной. Полезно вспоминать свои ценности и действовать в соответствии с ними: уважение к себе растёт, когда поступки совпадают с тем, что для нас важно. И не забывайте принимать комплименты — простое «спасибо» вместо «да ладно, ерунда» тоже тренировка.",
+            "en": "You have a foundation: you see real strengths in yourself and generally regard yourself fine. But that regard isn't yet very stable — it can dip after a mistake, a comparison with others or a sharp remark. Many people in this range hold themselves to high standards. That drives achievement, but can make self-worth feel conditional: \"I'm OK only if everything goes well.\"\n\n**What can help.** Separate actions from identity: \"I made a mistake in the report\" rather than \"I'm useless.\" Watch out for social-media comparisons — we compare our behind-the-scenes with other people's highlight reels. Reconnect with your values and act on them: self-respect grows when what we do matches what matters to us. And practise accepting compliments — a simple \"thank you\" instead of \"oh, it was nothing\" is training too."
+          }
+        },
+        {
+          "min": 31,
+          "max": 35,
+          "label": {
+            "ru": "Здоровое самоуважение",
+            "en": "Healthy self-esteem"
+          },
+          "summary": [
+            {
+              "ru": "Вы в целом уважаете и принимаете себя",
+              "en": "You generally respect and accept yourself"
+            },
+            {
+              "ru": "Видите свои сильные стороны и признаёте слабые без драмы",
+              "en": "You see your strengths and acknowledge weaknesses without drama"
+            },
+            {
+              "ru": "Неудачи огорчают, но не обесценивают вас в собственных глазах",
+              "en": "Setbacks sting but don't erase your sense of worth"
+            },
+            {
+              "ru": "Около среднего или чуть выше по данным 53 стран",
+              "en": "Around or slightly above the 53-nation average"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат соответствует устойчивому, здоровому самоуважению. Вы воспринимаете себя как человека, достойного уважения, умеете замечать свои достижения и не считаете ошибки катастрофой. Такое отношение к себе связано с более высокой эмоциональной устойчивостью, готовностью пробовать новое и с более тёплыми отношениями: человеку, который себя принимает, легче принимать и других.\n\n**Как это поддерживать.** Продолжайте опираться на реальные дела и ценности, а не только на чужие оценки. В трудные периоды самоуважение может временно снижаться — это нормально; полезно заранее знать, что вас восстанавливает (люди, отдых, спорт, любимое дело). Ваша устойчивость — ресурс и для окружающих: поддержка и искреннее признание чужих успехов помогают другим людям тоже чувствовать себя ценными.",
+            "en": "Your score reflects stable, healthy self-esteem. You see yourself as a person worthy of respect, notice your accomplishments, and don't treat mistakes as catastrophes. This kind of self-regard goes hand in hand with emotional resilience, willingness to try new things and warmer relationships — people who accept themselves find it easier to accept others.\n\n**Keeping it healthy.** Keep grounding your self-worth in real actions and values rather than only in other people's approval. In hard times self-esteem can dip temporarily — that's normal; it helps to know in advance what restores you (people, rest, exercise, meaningful work). Your steadiness is also a resource for others: genuine encouragement and recognition help the people around you feel valued too."
+          }
+        },
+        {
+          "min": 36,
+          "max": 40,
+          "label": {
+            "ru": "Высокое самоуважение",
+            "en": "High self-esteem"
+          },
+          "summary": [
+            {
+              "ru": "Вы относитесь к себе тепло, уверенно и с уважением",
+              "en": "You regard yourself warmly, confidently and with respect"
+            },
+            {
+              "ru": "Сомнения в собственной ценности возникают редко",
+              "en": "Doubts about your own worth are rare"
+            },
+            {
+              "ru": "Вы легко признаёте свои достоинства",
+              "en": "You readily recognise your good qualities"
+            },
+            {
+              "ru": "Выше, чем у большинства участников международного исследования",
+              "en": "Higher than most people in the international study"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы набрали балл, который выше, чем у большинства людей в международных исследованиях. Вы принимаете себя, чувствуете свою ценность и редко сомневаетесь в том, что «достаточно хороши». Это не то же самое, что нарциссизм: шкала Розенберга измеряет самопринятие и чувство равенства с другими, а не ощущение превосходства. Высокое самоуважение помогает переживать неудачи, отстаивать свои границы и браться за сложные задачи.\n\n**На что обратить внимание.** Самая здоровая форма высокого самоуважения — та, что остаётся открытой к обратной связи. Время от времени спрашивайте близких и коллег, что вы могли бы делать лучше, и относитесь к ответам с любопытством. Помните также, что очень высокие баллы иногда отражают желание видеть себя в лучшем свете; если вы отвечали честно — прекрасно, это ваш ресурс, которым можно делиться: ваша уверенность может вдохновлять и поддерживать других.",
+            "en": "Your score is higher than most people's in international studies. You accept yourself, feel your worth, and rarely doubt that you're \"good enough\". This is not narcissism: the Rosenberg scale measures self-acceptance and a sense of equality with others, not a sense of superiority. High self-esteem helps you weather setbacks, hold your boundaries and take on hard challenges.\n\n**Worth keeping in mind.** The healthiest high self-esteem stays open to feedback. Now and then ask friends and colleagues what you could do better, and meet the answers with curiosity. Very high scores can also reflect a wish to see oneself in the best light; if you answered candidly — wonderful, this is a real resource, and one you can share: your confidence can encourage and steady others."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "В целом я доволен (довольна) собой.",
+        "en": "On the whole, I am satisfied with myself."
+      },
+      "dimension": "self-esteem"
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Временами мне кажется, что я совсем никуда не гожусь.",
+        "en": "At times I think I am no good at all."
+      },
+      "dimension": "self-esteem",
+      "reverse": true
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Думаю, у меня есть ряд достоинств.",
+        "en": "I feel that I have a number of good qualities."
+      },
+      "dimension": "self-esteem"
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Многие вещи я способен (способна) делать не хуже большинства других людей.",
+        "en": "I am able to do things as well as most other people."
+      },
+      "dimension": "self-esteem"
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Мне кажется, что мне особенно нечем гордиться.",
+        "en": "I feel I do not have much to be proud of."
+      },
+      "dimension": "self-esteem",
+      "reverse": true
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Иногда я определённо чувствую себя бесполезным (бесполезной).",
+        "en": "I certainly feel useless at times."
+      },
+      "dimension": "self-esteem",
+      "reverse": true
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Я считаю себя достойным человеком — по крайней мере, не хуже других.",
+        "en": "I feel that I'm a person of worth, at least on an equal plane with others."
+      },
+      "dimension": "self-esteem"
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Мне бы хотелось больше уважать себя.",
+        "en": "I wish I could have more respect for myself."
+      },
+      "dimension": "self-esteem",
+      "reverse": true
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "В общем и целом я склонен (склонна) считать себя неудачником (неудачницей).",
+        "en": "All in all, I am inclined to feel that I am a failure."
+      },
+      "dimension": "self-esteem",
+      "reverse": true
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Я хорошо отношусь к себе.",
+        "en": "I take a positive attitude toward myself."
+      },
+      "dimension": "self-esteem"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ получает от 1 до 4 баллов («полностью не согласен» = 1 … «полностью согласен» = 4). Для негативно сформулированных утверждений (2, 5, 6, 8, 9) баллы переворачиваются (4 → 1, 3 → 2 и т. д.). Итог — сумма по 10 утверждениям, от 10 до 40. Процентиль рассчитывается по нормальному распределению со средним 30,85 и SD 4,82 (Schmitt & Allik, 2005). Чтобы перевести в шкалу 0–30, вычтите 10.",
+    "en": "Each answer earns 1–4 points (strongly disagree = 1 … strongly agree = 4). Negatively worded items (2, 5, 6, 8, 9) are reversed (4 → 1, 3 → 2, etc.). Your score is the sum of all 10 items, 10–40. The percentile assumes a normal distribution with mean 30.85 and SD 4.82 (Schmitt & Allik, 2005). Subtract 10 to convert to the 0–30 metric."
+  },
+  "resultIntro": {
+    "ru": "Самоуважение — это не про то, чтобы считать себя лучше других, а про то, чтобы считать себя достойным уважения. Вот как это выглядит у вас сейчас.",
+    "en": "Self-esteem isn't about thinking you're better than others — it's about feeling you're worthy of respect. Here's how that looks for you right now."
+  }
+}

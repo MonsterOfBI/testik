@@ -1,0 +1,1639 @@
+{
+  "id": "career-riasec",
+  "category": "career",
+  "kind": "likert",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Профессиональные интересы по Холланду (RIASEC)",
+    "en": "Holland Career Interests (RIASEC)"
+  },
+  "tagline": {
+    "ru": "Ваш код Холланда и профессии, где интерес работает на вас",
+    "en": "Your Holland code and the careers where your interests work for you"
+  },
+  "description": {
+    "ru": "60 коротких вопросов о видах деятельности покажут, какие из шести типов интересов Холланда у вас сильнее всего. Вы получите свой трёхбуквенный код (например, SAE), подробное описание и списки профессий — с учётом российского рынка труда.",
+    "en": "60 quick questions about work activities reveal which of Holland's six interest types are strongest for you. You'll get your three-letter code (e.g. SAE), a detailed description and lists of matching careers."
+  },
+  "emoji": "🧭",
+  "durationMin": 8,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "профориентация",
+      "en": "career guidance"
+    },
+    {
+      "ru": "интересы",
+      "en": "interests"
+    },
+    {
+      "ru": "Холланд",
+      "en": "Holland"
+    },
+    {
+      "ru": "RIASEC",
+      "en": "RIASEC"
+    },
+    {
+      "ru": "выбор профессии",
+      "en": "choosing a career"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряется.** Тест основан на теории профессиональных типов Джона Холланда (RIASEC): люди и рабочие среды описываются шестью типами — Реалистическим (R), Исследовательским (I), Артистическим (A), Социальным (S), Предприимчивым (E) и Конвенциональным (C). Типы расположены по кругу-шестиугольнику: соседние (R–I, I–A, A–S, S–E, E–C, C–R) похожи, противоположные (R–S, I–E, A–C) — максимально различны. Чем лучше совпадают тип человека и среды («конгруэнтность»), тем выше, по Холланду, удовлетворённость и устойчивость в профессии.\n\n**Инструмент.** Используются 60 пунктов **O\\*NET Interest Profiler Short Form** (Rounds, Su, Lewis & Rivkin, 2010), разработанного Национальным центром O\\*NET по заказу Министерства труда США: по 10 видов деятельности на каждый тип. Человек оценивает, насколько ему понравилось бы этим заниматься, по 5-балльной шкале (0 = совсем не нравится … 4 = очень нравится), не думая об образовании и зарплате. Сумма по типу — 0–40. Код Холланда — три типа с наибольшими суммами.\n\n**Психометрия (Rounds et al., 2010; развивающая выборка N = 1061, 4 штата США).** Внутренняя согласованность (α): R .78, I .82, A .78, S .78, E .87, C .83 (среднее .81). Ретестовая надёжность (N = 125): .79–.86 (среднее .82). Корреляции с длинной 180-пунктовой версией — .90–.95. Структура хорошо соответствует шестиугольной модели (индекс соответствия .69; круговое шкалирование объясняет 86% дисперсии). Наблюдаются типичные гендерные различия: мужчины выше по R (d = .86), женщины — по S (d = −.59) и C (d = −.36), что согласуется с метаанализом Su, Rounds & Armstrong (2009).\n\n**Валидность интересов.** Метаанализ Nye, Su, Rounds & Drasgow (2012) показал, что интересы и особенно соответствие интересов работе связаны с эффективностью и устойчивостью в работе и учёбе — умеренно, но значимо.\n\n**Российская традиция.** В отечественной профориентации классический инструмент — «Дифференциально-диагностический опросник» Е. А. Климова (типы «человек — природа / техника / человек / знаковая система / художественный образ»). На testik ему соответствует отдельный тест на оригинальных пунктах (career-klimov).\n\n**Ограничения.** (1) Интересы ≠ способности: высокий балл означает «нравится», а не «получится». (2) Пункты созданы для США; русский перевод выполнен testik и не проходил отдельной валидации — российских норм нет. (3) Опубликованные средние для короткой формы приведены в долях «нравится» для бумажной версии, а не на шкале 0–40, поэтому процентили не рассчитываются; уровни (низкий/умеренный/сильный) — ориентировочные. (4) Результат — повод для исследования профессий, а не приговор.",
+    "en": "**What it measures.** The test is based on John Holland's theory of vocational types (RIASEC): people and work environments are described by six types — Realistic (R), Investigative (I), Artistic (A), Social (S), Enterprising (E) and Conventional (C). The types sit on a hexagon: adjacent types (R–I, I–A, A–S, S–E, E–C, C–R) are similar, opposite ones (R–S, I–E, A–C) most different. According to Holland, the better the person–environment fit ('congruence'), the higher satisfaction and persistence.\n\n**Instrument.** We use the 60 items of the **O\\*NET Interest Profiler Short Form** (Rounds, Su, Lewis & Rivkin, 2010), developed by the National Center for O\\*NET Development for the U.S. Department of Labor: 10 work activities per type. You rate how much you would like doing each activity on a 5-point scale (0 = strongly dislike … 4 = strongly like), ignoring education and pay. Each type sums to 0–40. Your Holland code is the three highest-scoring types.\n\n**Psychometrics (Rounds et al., 2010; development sample N = 1,061 from four U.S. states).** Internal consistency (α): R .78, I .82, A .78, S .78, E .87, C .83 (mean .81). Test–retest (N = 125): .79–.86 (mean .82). Correlations with the 180-item long form: .90–.95. Structure fits Holland's hexagon well (correspondence index .69; circular unidimensional scaling explains 86% of variance). Typical gender differences: men higher on R (d = .86), women higher on S (d = −.59) and C (d = −.36), consistent with the meta-analysis by Su, Rounds & Armstrong (2009).\n\n**Validity of interests.** A meta-analysis by Nye, Su, Rounds & Drasgow (2012) found that interests — especially interest–job fit — relate to job and academic performance and persistence: modestly but meaningfully.\n\n**Russian tradition.** In Russian career guidance the classic tool is E. A. Klimov's 'Differential Diagnostic Questionnaire' (DDO: person–nature / technology / person / sign system / artistic image). On testik it has a separate test with original items (career-klimov).\n\n**Limitations.** (1) Interests ≠ abilities: a high score means 'I'd like it', not 'I'd be good at it'. (2) Items were written for the U.S.; the Russian translation is testik's and has not been separately validated — there are no Russian norms. (3) Published short-form means are proportions of 'like' answers on the paper version, not on the 0–40 scale, so no percentiles are computed; the low/moderate/strong bands are approximate. (4) The result is a starting point for exploring careers, not a verdict."
+  },
+  "sources": [
+    {
+      "citation": "Holland, J. L. (1997). Making vocational choices: A theory of vocational personalities and work environments (3rd ed.). Psychological Assessment Resources."
+    },
+    {
+      "citation": "Rounds, J., Su, R., Lewis, P., & Rivkin, D. (2010). O*NET Interest Profiler Short Form psychometric characteristics: Summary. National Center for O*NET Development / U.S. Department of Labor, Employment and Training Administration.",
+      "url": "https://www.onetcenter.org/reports/IPSF_Psychometric.html"
+    },
+    {
+      "citation": "National Center for O*NET Development. (n.d.). O*NET Interest Profiler Short Form (paper-and-pencil version, items and scoring). U.S. Department of Labor, Employment and Training Administration.",
+      "url": "https://www.onetcenter.org/IPSF.html"
+    },
+    {
+      "citation": "Nye, C. D., Su, R., Rounds, J., & Drasgow, F. (2012). Vocational interests and performance: A quantitative summary of over 60 years of research. Perspectives on Psychological Science, 7(4), 384–403.",
+      "doi": "10.1177/1745691612449021"
+    },
+    {
+      "citation": "Su, R., Rounds, J., & Armstrong, P. I. (2009). Men and things, women and people: A meta-analysis of sex differences in interests. Psychological Bulletin, 135(6), 859–884.",
+      "doi": "10.1037/a0017364"
+    },
+    {
+      "citation": "Климов, Е. А. (1996). Психология профессионального самоопределения. Ростов-на-Дону: Феникс."
+    }
+  ],
+  "license": "O*NET Interest Profiler Short Form items: O*NET Career Exploration Tools by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA). NOT public domain. Because testik translates and re-formats the items, they are used under the O*NET Tools Developer License (https://www.onetcenter.org/license_tools.html), which permits modification with this attribution: 'This page includes information from the O*NET Career Exploration Tools by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA). Used under the O*NET Tools Developer License. testik has modified all or some of this information. USDOL/ETA has not approved, endorsed, or tested these modifications. O*NET® is a trademark of USDOL/ETA.' (Unmodified English copies may alternatively be used under CC BY-ND 4.0.) The license also asks developers to validate products incorporating tool content and to register use; 'O*NET' must be used as an adjective with the ® mark. All descriptions, bands and career lists are original testik text.",
+  "instructions": {
+    "ru": "Перед вами 60 видов деятельности. Для каждого отметьте, насколько вам **понравилось бы** этим заниматься. Не думайте о том, сколько нужно учиться и сколько за это платят, — только об интересе. Отвечайте быстро, первым впечатлением.",
+    "en": "You'll see 60 work activities. For each, mark how much you would **like** doing it. Don't think about how much education is needed or how much money you'd make — only about interest. Answer quickly with your first impression."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Совсем не нравится",
+        "en": "Strongly dislike"
+      },
+      {
+        "ru": "Не нравится",
+        "en": "Dislike"
+      },
+      {
+        "ru": "Не уверен(а)",
+        "en": "Unsure"
+      },
+      {
+        "ru": "Нравится",
+        "en": "Like"
+      },
+      {
+        "ru": "Очень нравится",
+        "en": "Strongly like"
+      }
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "realistic",
+      "color": "#F6C9A8",
+      "name": {
+        "ru": "R — Реалистический (практик)",
+        "en": "R — Realistic (Doer)"
+      },
+      "description": {
+        "ru": "Интерес к практической работе руками, с инструментами, машинами, материалами, растениями и животными; к задачам с осязаемым результатом, часто на открытом воздухе.",
+        "en": "Interest in hands-on work with tools, machines, materials, plants and animals; tasks with tangible results, often outdoors."
+      },
+      "lowLabel": {
+        "ru": "Не тянет к ручному труду",
+        "en": "Little pull to hands-on work"
+      },
+      "highLabel": {
+        "ru": "Люблю делать руками",
+        "en": "Loves building and fixing"
+      },
+      "scoring": "sum",
+      "min": 0,
+      "max": 40,
+      "bands": [
+        {
+          "min": 0,
+          "max": 14,
+          "label": {
+            "ru": "Низкий интерес",
+            "en": "Low interest"
+          },
+          "summary": [
+            {
+              "ru": "Физическая, «железная» работа вас скорее не привлекает",
+              "en": "Physical, hands-on work mostly doesn't appeal to you"
+            },
+            {
+              "ru": "Вам интереснее идеи, люди или информация, чем вещи",
+              "en": "Ideas, people or information interest you more than objects"
+            },
+            {
+              "ru": "Монотонная техническая рутина может быстро утомлять",
+              "en": "Repetitive technical routines may drain you quickly"
+            }
+          ],
+          "detailed": {
+            "ru": "Низкий балл R не означает, что у вас «кривые руки»: тест измеряет **желание**, а не умение. Просто работа, где главное — механизмы, стройка или полевые условия, вряд ли станет для вас источником энергии.\n\n**Совет:** если в желаемой профессии есть практическая часть (например, лабораторная или техническая), заранее попробуйте её в коротком формате — стажировка, мастер-класс, волонтёрский день, — чтобы понять, насколько она вам подходит.",
+            "en": "A low R score doesn't mean you're clumsy: the test measures **liking**, not ability. It simply suggests that work centred on machinery, construction or field conditions is unlikely to energise you.\n\n**Tip:** if a career you're considering has a hands-on component (lab or technical work), try it in a short format first — a job-shadow day, workshop or volunteer shift — to see how it really feels."
+          }
+        },
+        {
+          "min": 15,
+          "max": 26,
+          "label": {
+            "ru": "Умеренный интерес",
+            "en": "Moderate interest"
+          },
+          "summary": [
+            {
+              "ru": "Практические задачи вам приятны, но не обязательны",
+              "en": "You enjoy practical tasks, but don't need them"
+            },
+            {
+              "ru": "Подойдут роли, где есть и «руки», и «голова»",
+              "en": "Roles mixing hands-on work and thinking may suit you"
+            },
+            {
+              "ru": "Хобби-мастерство может уравновешивать офисную работу",
+              "en": "A craft hobby can balance desk work"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам может нравиться что-то мастерить или чинить, но это не главный мотив в работе. Часто такой профиль хорошо сочетается с исследовательскими (инженер-исследователь) или организационными задачами (технолог, логист).\n\n**Совет:** посмотрите на профессии на стыке: инженер по качеству, технический специалист в медицине, ландшафтный дизайнер. Небольшая доля практики в неделе часто повышает удовлетворённость работой у людей с таким баллом.",
+            "en": "You may enjoy making or fixing things, but it isn't your main work motive. This level often combines well with investigative (research engineer) or organising tasks (process engineer, logistics).\n\n**Tip:** look at hybrid roles — quality engineer, medical technologist, landscape designer. A modest share of hands-on work each week often raises job satisfaction for people with this score."
+          }
+        },
+        {
+          "min": 27,
+          "max": 40,
+          "label": {
+            "ru": "Сильный интерес",
+            "en": "Strong interest"
+          },
+          "summary": [
+            {
+              "ru": "Вам нравится видеть осязаемый результат своего труда",
+              "en": "You love seeing a tangible result of your work"
+            },
+            {
+              "ru": "Инструменты, техника, материалы — ваша стихия",
+              "en": "Tools, machines and materials are your element"
+            },
+            {
+              "ru": "Предпочитаете действовать, а не долго обсуждать",
+              "en": "You prefer doing over lengthy discussion"
+            },
+            {
+              "ru": "Вам может подходить работа вне офиса",
+              "en": "Work outside an office may suit you"
+            }
+          ],
+          "detailed": {
+            "ru": "Вас заряжает работа, где можно что-то построить, починить, вырастить или запустить. Такие люди обычно ценят конкретность, понятные критерии «сделано/не сделано» и самостоятельность в своей зоне.\n\n**Совет:** рынок труда в России испытывает выраженную нехватку квалифицированных рабочих и инженерных кадров, так что профиль R — это реальное конкурентное преимущество. Подумайте о колледже или вузе с сильной практикой, о сертификациях (электробезопасность, сварка, ЧПУ, BIM) и о совмещении R с I или E — например, инженер-конструктор или владелец ремонтного бизнеса.",
+            "en": "You're energised by work where you can build, repair, grow or launch something. People like this usually value concreteness, clear done/not-done criteria and autonomy in their own area.\n\n**Tip:** many labour markets (including Russia's) report shortages of skilled trades and engineers, so a strong R is a real advantage. Consider programmes with lots of practice, certifications (electrical safety, welding, CNC, BIM), and combining R with I or E — e.g. design engineer or owning a repair business."
+          }
+        }
+      ]
+    },
+    {
+      "id": "investigative",
+      "color": "#B8D8F2",
+      "name": {
+        "ru": "I — Исследовательский (мыслитель)",
+        "en": "I — Investigative (Thinker)"
+      },
+      "description": {
+        "ru": "Интерес к наблюдению, анализу, экспериментам и решению сложных интеллектуальных задач — в науке, медицине, технологиях.",
+        "en": "Interest in observing, analysing, experimenting and solving complex intellectual problems — in science, medicine and technology."
+      },
+      "lowLabel": {
+        "ru": "Теория не увлекает",
+        "en": "Theory doesn't excite you"
+      },
+      "highLabel": {
+        "ru": "Люблю докапываться до сути",
+        "en": "Loves getting to the bottom of things"
+      },
+      "scoring": "sum",
+      "min": 0,
+      "max": 40,
+      "bands": [
+        {
+          "min": 0,
+          "max": 14,
+          "label": {
+            "ru": "Низкий интерес",
+            "en": "Low interest"
+          },
+          "summary": [
+            {
+              "ru": "Абстрактные и научные задачи вас мало привлекают",
+              "en": "Abstract and scientific problems hold little appeal"
+            },
+            {
+              "ru": "Вам важнее практический результат, чем «почему»",
+              "en": "Practical results matter more to you than the 'why'"
+            },
+            {
+              "ru": "Долгие исследования без видимого итога утомляют",
+              "en": "Long research without visible output feels tiring"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам вряд ли захочется месяцами проверять гипотезы или разбираться в научной литературе — и это нормально. Ваша энергия, скорее всего, направлена на людей, действие или творчество.\n\n**Совет:** при выборе профессии обратите внимание, сколько в ней аналитической рутины. Если она неизбежна (например, отчёты), договоритесь с собой о «дозировке» или ищите инструменты и коллег, которые возьмут глубокий анализ на себя.",
+            "en": "You're unlikely to want to spend months testing hypotheses or reading scientific papers — and that's fine. Your energy is probably directed at people, action or creativity.\n\n**Tip:** when choosing a career, check how much analytical routine it involves. If some is unavoidable (e.g. reports), plan the 'dose' or find tools and colleagues who handle deep analysis."
+          }
+        },
+        {
+          "min": 15,
+          "max": 26,
+          "label": {
+            "ru": "Умеренный интерес",
+            "en": "Moderate interest"
+          },
+          "summary": [
+            {
+              "ru": "Вам интересно понимать, как всё устроено, но без фанатизма",
+              "en": "You like understanding how things work, within reason"
+            },
+            {
+              "ru": "Хорошо подходят роли, где анализ — часть работы",
+              "en": "Roles where analysis is one part of the job fit well"
+            },
+            {
+              "ru": "Можете быть «переводчиком» между экспертами и практиками",
+              "en": "You can translate between experts and practitioners"
+            }
+          ],
+          "detailed": {
+            "ru": "Любознательность у вас есть, но вам нужен и выход «в жизнь». Хорошо работают профессии, где анализ служит практике: продуктовая аналитика, медицина, инженерия, UX-исследования.\n\n**Совет:** развивайте базовую грамотность в данных (Excel/SQL, основы статистики) — это усиливает почти любую карьеру и позволяет вашему исследовательскому интересу работать на вас.",
+            "en": "You're curious, but you also need a real-world outlet. Careers where analysis serves practice work well: product analytics, medicine, engineering, UX research.\n\n**Tip:** build basic data literacy (spreadsheets/SQL, basic statistics) — it strengthens almost any career and lets your investigative streak pay off."
+          }
+        },
+        {
+          "min": 27,
+          "max": 40,
+          "label": {
+            "ru": "Сильный интерес",
+            "en": "Strong interest"
+          },
+          "summary": [
+            {
+              "ru": "Вы любите загадки, данные и сложные вопросы",
+              "en": "You love puzzles, data and hard questions"
+            },
+            {
+              "ru": "Ценитe точность, логику и доказательства",
+              "en": "You value precision, logic and evidence"
+            },
+            {
+              "ru": "Можете долго и глубоко погружаться в тему",
+              "en": "You can dive deep into a topic for a long time"
+            },
+            {
+              "ru": "Вам важна интеллектуальная свобода",
+              "en": "Intellectual freedom matters to you"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш мотор — вопрос «почему?». Вам подходят среды, где ценят экспертизу, можно учиться всю жизнь и есть время подумать: наука, R&D, медицина, IT, аналитика, инженерия.\n\n**Совет:** такой профиль часто требует длинной образовательной траектории (магистратура, ординатура, аспирантура) — планируйте её заранее. Сочетание I с S (врач, психолог-исследователь) или с E (продакт-менеджер в tech, основатель deep-tech стартапа) помогает не «застрять в башне из слоновой кости».",
+            "en": "Your engine is the question 'why?'. You fit environments that value expertise, lifelong learning and time to think: science, R&D, medicine, IT, analytics, engineering.\n\n**Tip:** this profile often needs a long education path (master's, residency, PhD) — plan ahead. Pairing I with S (physician, research psychologist) or E (tech product manager, deep-tech founder) helps you avoid the ivory-tower trap."
+          }
+        }
+      ]
+    },
+    {
+      "id": "artistic",
+      "color": "#E7C6F0",
+      "name": {
+        "ru": "A — Артистический (творец)",
+        "en": "A — Artistic (Creator)"
+      },
+      "description": {
+        "ru": "Интерес к самовыражению, творчеству и работе с формой, звуком, словом, образом — в ситуациях с минимумом жёстких правил.",
+        "en": "Interest in self-expression, creativity and working with form, sound, words and images — in settings with few rigid rules."
+      },
+      "lowLabel": {
+        "ru": "Ближе структура, чем импровизация",
+        "en": "Prefers structure to improvisation"
+      },
+      "highLabel": {
+        "ru": "Живу творчеством",
+        "en": "Lives to create"
+      },
+      "scoring": "sum",
+      "min": 0,
+      "max": 40,
+      "bands": [
+        {
+          "min": 0,
+          "max": 14,
+          "label": {
+            "ru": "Низкий интерес",
+            "en": "Low interest"
+          },
+          "summary": [
+            {
+              "ru": "Творческая работа как профессия вас мало привлекает",
+              "en": "Creative work as a job holds little appeal"
+            },
+            {
+              "ru": "Вам комфортнее с понятными задачами и критериями",
+              "en": "You're more comfortable with clear tasks and criteria"
+            },
+            {
+              "ru": "Творчество — скорее хобби, чем карьера",
+              "en": "Creativity is more a hobby than a career for you"
+            }
+          ],
+          "detailed": {
+            "ru": "Это не значит, что вы «нетворческий человек»: креативность проявляется и в бизнесе, и в инженерии. Просто работа, где главный продукт — художественный образ или самовыражение, вряд ли будет вас заряжать.\n\n**Совет:** ценность вашего профиля — в надёжности и конкретности. Но иногда полезно «включать» творческие методы (мозговой штурм, прототипирование), особенно при решении нестандартных задач.",
+            "en": "This doesn't mean you're 'not creative': creativity shows up in business and engineering too. It's just that work whose main product is artistic expression probably won't energise you.\n\n**Tip:** your profile's value lies in reliability and concreteness. Still, borrowing creative methods (brainstorming, prototyping) helps with unusual problems."
+          }
+        },
+        {
+          "min": 15,
+          "max": 26,
+          "label": {
+            "ru": "Умеренный интерес",
+            "en": "Moderate interest"
+          },
+          "summary": [
+            {
+              "ru": "Творчество вам приятно, особенно в прикладном виде",
+              "en": "You enjoy creativity, especially in applied form"
+            },
+            {
+              "ru": "Подходят роли с долей дизайна, текста, идей",
+              "en": "Roles with some design, writing or ideas fit you"
+            },
+            {
+              "ru": "Можете соединять креатив и практичность",
+              "en": "You can combine creativity and practicality"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы цените эстетику и новые идеи, но вам не обязательно быть «свободным художником». Хорошо подходят прикладные творческие роли: маркетинг, UX-дизайн, архитектура, преподавание творческих дисциплин, контент.\n\n**Совет:** держите творческий «канал» открытым — портфолио, сторонний проект, хобби. Это поддерживает мотивацию и может стать дополнительной профессиональной опорой.",
+            "en": "You value aesthetics and new ideas, but you don't need to be a freelance artist. Applied creative roles fit well: marketing, UX design, architecture, teaching creative subjects, content.\n\n**Tip:** keep a creative channel open — a portfolio, side project or hobby. It sustains motivation and can become an extra professional pillar."
+          }
+        },
+        {
+          "min": 27,
+          "max": 40,
+          "label": {
+            "ru": "Сильный интерес",
+            "en": "Strong interest"
+          },
+          "summary": [
+            {
+              "ru": "Вам важно самовыражение и оригинальность",
+              "en": "Self-expression and originality matter to you"
+            },
+            {
+              "ru": "Жёсткие правила и рутина вас «гасят»",
+              "en": "Rigid rules and routine dampen you"
+            },
+            {
+              "ru": "Вы чувствительны к форме, звуку, слову, цвету",
+              "en": "You're sensitive to form, sound, words and colour"
+            },
+            {
+              "ru": "Лучше всего работаете в гибкой среде",
+              "en": "You do best in flexible environments"
+            }
+          ],
+          "detailed": {
+            "ru": "Вас заряжает возможность создавать — тексты, визуал, музыку, видео, пространства, игры. Важны свобода, интересный материал и признание авторства.\n\n**Совет:** творческие рынки конкурентны, поэтому кроме таланта нужны портфолио, сеть контактов и навыки самопрезентации (часто это E-навыки). Сочетание A с I (гейм-дизайн, дата-визуализация, архитектура) или A с C (верстка, продакшн) даёт более стабильные траектории. Цифровые творческие профессии — моушн-дизайн, UX/UI, контент-продюсирование — сейчас особенно востребованы.",
+            "en": "You're energised by creating — texts, visuals, music, video, spaces, games. Freedom, interesting material and recognised authorship matter.\n\n**Tip:** creative markets are competitive, so beyond talent you need a portfolio, a network and self-presentation skills (often E skills). Pairing A with I (game design, data visualisation, architecture) or A with C (layout, production) gives steadier paths. Digital creative roles — motion design, UX/UI, content production — are in especially high demand."
+          }
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "color": "#BFE6C8",
+      "name": {
+        "ru": "S — Социальный (помогающий)",
+        "en": "S — Social (Helper)"
+      },
+      "description": {
+        "ru": "Интерес к работе с людьми: обучать, помогать, лечить, консультировать, поддерживать, развивать.",
+        "en": "Interest in working with people: teaching, helping, healing, counselling, supporting and developing them."
+      },
+      "lowLabel": {
+        "ru": "Работа с людьми не главное",
+        "en": "People-work isn't central"
+      },
+      "highLabel": {
+        "ru": "Люблю помогать и учить",
+        "en": "Loves helping and teaching"
+      },
+      "scoring": "sum",
+      "min": 0,
+      "max": 40,
+      "bands": [
+        {
+          "min": 0,
+          "max": 14,
+          "label": {
+            "ru": "Низкий интерес",
+            "en": "Low interest"
+          },
+          "summary": [
+            {
+              "ru": "Работа «через людей» вас скорее утомляет",
+              "en": "Work that runs through people tends to tire you"
+            },
+            {
+              "ru": "Вам ближе задачи с вещами, данными или идеями",
+              "en": "Tasks with things, data or ideas suit you better"
+            },
+            {
+              "ru": "Постоянная эмоциональная вовлечённость — не ваше",
+              "en": "Constant emotional involvement isn't your thing"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы можете быть доброжелательным и отзывчивым человеком, но профессии, где основная задача — заботиться, обучать или консультировать, вряд ли будут вас наполнять. Это помогает избежать выгорания в «помогающих» ролях.\n\n**Совет:** выбирайте среды, где коммуникация функциональна и дозирована (например, проектная работа с понятными границами), и честно оценивайте долю «людской» нагрузки в вакансиях.",
+            "en": "You may be kind and supportive, but careers whose core is caring, teaching or counselling probably won't fulfil you. Knowing this helps you avoid burnout in helping roles.\n\n**Tip:** pick environments where communication is functional and limited (e.g. project work with clear boundaries), and honestly assess the people-load in job descriptions."
+          }
+        },
+        {
+          "min": 15,
+          "max": 26,
+          "label": {
+            "ru": "Умеренный интерес",
+            "en": "Moderate interest"
+          },
+          "summary": [
+            {
+              "ru": "Вам нравится помогать, но не круглосуточно",
+              "en": "You like helping, but not around the clock"
+            },
+            {
+              "ru": "Подходят роли, где люди — часть, а не вся работа",
+              "en": "Roles where people are part, not all, of the job fit"
+            },
+            {
+              "ru": "Вы можете быть хорошим наставником в своей теме",
+              "en": "You can be a good mentor in your field"
+            }
+          ],
+          "detailed": {
+            "ru": "Работа с людьми вам приятна в разумной дозе. Отлично подходят роли, где вы помогаете через экспертизу: наставник в команде, преподаватель своей дисциплины, специалист клиентского сервиса, HR-аналитик.\n\n**Совет:** развивайте навыки обратной связи и обучения взрослых — они ценятся почти везде и усиливают любую профессиональную траекторию.",
+            "en": "You enjoy working with people in reasonable doses. Roles where you help through expertise fit well: team mentor, teacher of your own subject, customer-success specialist, HR analyst.\n\n**Tip:** develop feedback and adult-learning skills — they're valued almost everywhere and boost any career path."
+          }
+        },
+        {
+          "min": 27,
+          "max": 40,
+          "label": {
+            "ru": "Сильный интерес",
+            "en": "Strong interest"
+          },
+          "summary": [
+            {
+              "ru": "Вас заряжает польза, которую вы приносите людям",
+              "en": "You're energised by making a difference for people"
+            },
+            {
+              "ru": "Вы чутки, терпеливы, умеете слушать",
+              "en": "You're empathetic, patient and a good listener"
+            },
+            {
+              "ru": "Вам важны сотрудничество и тёплая атмосфера",
+              "en": "Cooperation and a warm atmosphere matter to you"
+            },
+            {
+              "ru": "Подходят образование, медицина, психология, HR",
+              "en": "Education, health care, psychology and HR fit you"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш главный мотив — люди: их развитие, здоровье, благополучие. Вы, вероятно, хорошо объясняете, поддерживаете и замечаете, что нужно другому.\n\n**Совет:** «помогающие» профессии связаны с риском эмоционального выгорания — с самого начала учитесь ставить границы, используйте супервизию и интервизию, заботьтесь о восстановлении. Сочетание S с E (руководитель образовательного проекта, HR-директор) или S с I (клинический психолог, врач) расширяет карьерные возможности и доход.",
+            "en": "Your main motive is people: their growth, health and well-being. You probably explain things well, offer support and notice what others need.\n\n**Tip:** helping professions carry a burnout risk — learn boundaries early, use supervision or peer support, and protect your recovery time. Pairing S with E (education project lead, HR director) or S with I (clinical psychologist, physician) widens career options and income."
+          }
+        }
+      ]
+    },
+    {
+      "id": "enterprising",
+      "color": "#F7E3A1",
+      "name": {
+        "ru": "E — Предприимчивый (лидер-убеждающий)",
+        "en": "E — Enterprising (Persuader)"
+      },
+      "description": {
+        "ru": "Интерес к тому, чтобы влиять, убеждать, продавать, руководить, рисковать и добиваться экономических и организационных целей.",
+        "en": "Interest in influencing, persuading, selling, leading, taking risks and pursuing economic and organisational goals."
+      },
+      "lowLabel": {
+        "ru": "Не стремлюсь руководить и продавать",
+        "en": "No urge to lead or sell"
+      },
+      "highLabel": {
+        "ru": "Люблю влиять и добиваться",
+        "en": "Loves to lead and win"
+      },
+      "scoring": "sum",
+      "min": 0,
+      "max": 40,
+      "bands": [
+        {
+          "min": 0,
+          "max": 14,
+          "label": {
+            "ru": "Низкий интерес",
+            "en": "Low interest"
+          },
+          "summary": [
+            {
+              "ru": "Продажи, переговоры и управление вас мало привлекают",
+              "en": "Sales, negotiation and management hold little appeal"
+            },
+            {
+              "ru": "Вам ближе роль эксперта, чем руководителя",
+              "en": "You prefer the expert role to the boss role"
+            },
+            {
+              "ru": "Конкуренция и риск скорее напрягают",
+              "en": "Competition and risk tend to stress you"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам не обязательно быть «у руля», чтобы быть успешным: экспертные траектории не менее ценны. Однако базовые навыки влияния — аргументировать, договариваться, «продавать» свои идеи — полезны в любой профессии.\n\n**Совет:** выбирайте роли с экспертным, а не менеджерским ростом (senior/lead-специалист), и тренируйте короткие навыки переговоров — без стремления становиться продавцом.",
+            "en": "You don't need to be in charge to succeed: expert career tracks are just as valuable. Still, basic influence skills — making a case, negotiating, 'selling' ideas — help in every job.\n\n**Tip:** choose roles with expert rather than managerial growth (senior/lead specialist), and practise short negotiation skills without forcing yourself into sales."
+          }
+        },
+        {
+          "min": 15,
+          "max": 26,
+          "label": {
+            "ru": "Умеренный интерес",
+            "en": "Moderate interest"
+          },
+          "summary": [
+            {
+              "ru": "Можете вести за собой, когда это нужно",
+              "en": "You can lead when needed"
+            },
+            {
+              "ru": "Убеждение — инструмент, а не самоцель",
+              "en": "Persuasion is a tool, not a goal for you"
+            },
+            {
+              "ru": "Подходят проектные и смешанные роли",
+              "en": "Project and hybrid roles fit you"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы способны брать инициативу и влиять на других, но не обязательно стремитесь к большой власти или продажам. Часто это профиль хорошего проектного менеджера или эксперта, который умеет защищать свои решения.\n\n**Совет:** попробуйте роль руководителя небольшого проекта или наставника — это покажет, хотите ли вы двигаться в менеджмент дальше.",
+            "en": "You can take initiative and influence others, without necessarily craving power or sales. It's often the profile of a good project manager or an expert who can defend decisions.\n\n**Tip:** try leading a small project or mentoring — it will show whether you want to move further into management."
+          }
+        },
+        {
+          "min": 27,
+          "max": 40,
+          "label": {
+            "ru": "Сильный интерес",
+            "en": "Strong interest"
+          },
+          "summary": [
+            {
+              "ru": "Вас заряжают цели, конкуренция и результат",
+              "en": "Goals, competition and results energise you"
+            },
+            {
+              "ru": "Вы уверенно убеждаете и договариваетесь",
+              "en": "You persuade and negotiate with confidence"
+            },
+            {
+              "ru": "Готовы брать ответственность и риск",
+              "en": "You're ready to take responsibility and risks"
+            },
+            {
+              "ru": "Вам подходят бизнес, продажи, управление, право",
+              "en": "Business, sales, management and law suit you"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы любите влиять на события, запускать новое и вести за собой людей. Деньги, статус и масштаб часто являются для вас понятными и честными мотиваторами.\n\n**Совет:** сильный E выигрывает от дисциплины (C) и понимания людей (S): учитесь финансовой грамотности, управлению командой и этике влияния. Если думаете о своём деле — начните с малого MVP или подработки, проверьте спрос, прежде чем рисковать крупно.",
+            "en": "You like to influence events, launch new things and lead people. Money, status and scale are often clear and honest motivators for you.\n\n**Tip:** a strong E benefits from discipline (C) and people-understanding (S): learn finance basics, team management and ethical influence. If you're thinking about your own business, start with a small MVP or side hustle and test demand before taking big risks."
+          }
+        }
+      ]
+    },
+    {
+      "id": "conventional",
+      "color": "#CFD8DC",
+      "name": {
+        "ru": "C — Конвенциональный (организатор)",
+        "en": "C — Conventional (Organizer)"
+      },
+      "description": {
+        "ru": "Интерес к упорядоченной работе с данными, документами, цифрами и системами по понятным правилам и процедурам.",
+        "en": "Interest in orderly work with data, records, numbers and systems following clear rules and procedures."
+      },
+      "lowLabel": {
+        "ru": "Рутина и регламенты тяготят",
+        "en": "Routine and rules feel heavy"
+      },
+      "highLabel": {
+        "ru": "Люблю порядок и точность",
+        "en": "Loves order and precision"
+      },
+      "scoring": "sum",
+      "min": 0,
+      "max": 40,
+      "bands": [
+        {
+          "min": 0,
+          "max": 14,
+          "label": {
+            "ru": "Низкий интерес",
+            "en": "Low interest"
+          },
+          "summary": [
+            {
+              "ru": "Регламенты, таблицы и учёт вас утомляют",
+              "en": "Procedures, spreadsheets and record-keeping tire you"
+            },
+            {
+              "ru": "Вам нужна свобода и разнообразие",
+              "en": "You need freedom and variety"
+            },
+            {
+              "ru": "Детальная проверка — не ваша сильная мотивация",
+              "en": "Detailed checking isn't a motivator for you"
+            }
+          ],
+          "detailed": {
+            "ru": "Скорее всего, вас «гасит» однообразная работа по инструкции. Это не мешает успеху, но в любой профессии есть административная часть — её стоит организовать так, чтобы она не съедала энергию.\n\n**Совет:** автоматизируйте рутину (шаблоны, напоминания, сервисы учёта), делегируйте её или объединяйте в короткие «административные блоки» раз в неделю.",
+            "en": "Monotonous by-the-book work probably drains you. That doesn't block success, but every job has an admin side — organise it so it doesn't eat your energy.\n\n**Tip:** automate routine (templates, reminders, tracking tools), delegate it, or batch it into short weekly admin blocks."
+          }
+        },
+        {
+          "min": 15,
+          "max": 26,
+          "label": {
+            "ru": "Умеренный интерес",
+            "en": "Moderate interest"
+          },
+          "summary": [
+            {
+              "ru": "Вы цените порядок, но без педантизма",
+              "en": "You value order without being pedantic"
+            },
+            {
+              "ru": "Можете навести систему там, где хаос",
+              "en": "You can bring structure to chaos"
+            },
+            {
+              "ru": "Подходят роли, где точность — одна из задач",
+              "en": "Roles where precision is one task among others fit"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы умеете работать аккуратно и последовательно, когда это нужно, но вам важно и разнообразие. Подходят роли, где структурность — конкурентное преимущество: проджект-менеджмент, операционная работа, аналитика.\n\n**Совет:** ваш навык «наводить порядок» ценен в творческих и предпринимательских командах — там такие люди часто становятся незаменимыми.",
+            "en": "You can work carefully and systematically when needed, but you also need variety. Roles where structure is an edge fit well: project management, operations, analytics.\n\n**Tip:** your knack for order is gold in creative and entrepreneurial teams — such people often become indispensable there."
+          }
+        },
+        {
+          "min": 27,
+          "max": 40,
+          "label": {
+            "ru": "Сильный интерес",
+            "en": "Strong interest"
+          },
+          "summary": [
+            {
+              "ru": "Вам комфортно с чёткими правилами и процедурами",
+              "en": "Clear rules and procedures feel comfortable"
+            },
+            {
+              "ru": "Вы внимательны к деталям и аккуратны",
+              "en": "You're detail-oriented and accurate"
+            },
+            {
+              "ru": "Любите таблицы, учёт, системы, документы",
+              "en": "You like spreadsheets, records, systems and documents"
+            },
+            {
+              "ru": "Подходят финансы, учёт, логистика, администрирование",
+              "en": "Finance, accounting, logistics and administration fit"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш мотор — порядок, надёжность и предсказуемость. Вы, вероятно, хорошо замечаете ошибки и цените, когда всё «сходится».\n\n**Совет:** часть традиционно «конвенциональных» задач автоматизируется, поэтому усиливайте профиль цифровыми навыками: 1С, Excel/Power BI, SQL, ERP-системы, основы автоматизации. Тогда вы переходите от «ввода данных» к контролю качества данных, аналитике и финансовому планированию — более устойчивым и высокооплачиваемым ролям. Сочетание C с E (финансовый менеджер) или C с I (аналитик данных) особенно перспективно.",
+            "en": "Your engine is order, reliability and predictability. You probably spot errors well and like it when everything adds up.\n\n**Tip:** some traditionally conventional tasks are being automated, so boost your profile with digital skills: spreadsheets/BI tools, SQL, ERP systems, basic automation. That moves you from data entry to data quality, analytics and financial planning — sturdier, better-paid roles. C + E (finance manager) and C + I (data analyst) are especially promising."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "r1",
+      "text": {
+        "ru": "Собирать кухонные шкафы",
+        "en": "Build kitchen cabinets"
+      },
+      "dimension": "realistic"
+    },
+    {
+      "id": "i1",
+      "text": {
+        "ru": "Разрабатывать новое лекарство",
+        "en": "Develop a new medicine"
+      },
+      "dimension": "investigative"
+    },
+    {
+      "id": "a1",
+      "text": {
+        "ru": "Писать книги или пьесы",
+        "en": "Write books or plays"
+      },
+      "dimension": "artistic"
+    },
+    {
+      "id": "s1",
+      "text": {
+        "ru": "Обучать человека комплексу физических упражнений",
+        "en": "Teach an individual an exercise routine"
+      },
+      "dimension": "social"
+    },
+    {
+      "id": "e1",
+      "text": {
+        "ru": "Покупать и продавать акции и облигации",
+        "en": "Buy and sell stocks and bonds"
+      },
+      "dimension": "enterprising"
+    },
+    {
+      "id": "c1",
+      "text": {
+        "ru": "Создавать электронные таблицы в компьютерной программе",
+        "en": "Develop a spreadsheet using computer software"
+      },
+      "dimension": "conventional"
+    },
+    {
+      "id": "r2",
+      "text": {
+        "ru": "Класть кирпич или плитку",
+        "en": "Lay brick or tile"
+      },
+      "dimension": "realistic"
+    },
+    {
+      "id": "i2",
+      "text": {
+        "ru": "Изучать способы уменьшить загрязнение воды",
+        "en": "Study ways to reduce water pollution"
+      },
+      "dimension": "investigative"
+    },
+    {
+      "id": "a2",
+      "text": {
+        "ru": "Играть на музыкальном инструменте",
+        "en": "Play a musical instrument"
+      },
+      "dimension": "artistic"
+    },
+    {
+      "id": "s2",
+      "text": {
+        "ru": "Помогать людям с личными или эмоциональными проблемами",
+        "en": "Help people with personal or emotional problems"
+      },
+      "dimension": "social"
+    },
+    {
+      "id": "e2",
+      "text": {
+        "ru": "Управлять розничным магазином",
+        "en": "Manage a retail store"
+      },
+      "dimension": "enterprising"
+    },
+    {
+      "id": "c2",
+      "text": {
+        "ru": "Вычитывать и проверять записи или бланки на ошибки",
+        "en": "Proofread records or forms"
+      },
+      "dimension": "conventional"
+    },
+    {
+      "id": "r3",
+      "text": {
+        "ru": "Ремонтировать бытовую технику",
+        "en": "Repair household appliances"
+      },
+      "dimension": "realistic"
+    },
+    {
+      "id": "i3",
+      "text": {
+        "ru": "Проводить химические эксперименты",
+        "en": "Conduct chemical experiments"
+      },
+      "dimension": "investigative"
+    },
+    {
+      "id": "a3",
+      "text": {
+        "ru": "Сочинять музыку или делать аранжировки",
+        "en": "Compose or arrange music"
+      },
+      "dimension": "artistic"
+    },
+    {
+      "id": "s3",
+      "text": {
+        "ru": "Консультировать людей по вопросам выбора профессии и карьеры",
+        "en": "Give career guidance to people"
+      },
+      "dimension": "social"
+    },
+    {
+      "id": "e3",
+      "text": {
+        "ru": "Руководить салоном красоты или барбершопом",
+        "en": "Operate a beauty salon or barber shop"
+      },
+      "dimension": "enterprising"
+    },
+    {
+      "id": "c3",
+      "text": {
+        "ru": "Устанавливать программы на компьютеры в большой сети",
+        "en": "Install software across computers on a large network"
+      },
+      "dimension": "conventional"
+    },
+    {
+      "id": "r4",
+      "text": {
+        "ru": "Разводить рыбу в рыбоводном хозяйстве",
+        "en": "Raise fish in a fish hatchery"
+      },
+      "dimension": "realistic"
+    },
+    {
+      "id": "i4",
+      "text": {
+        "ru": "Изучать движение планет",
+        "en": "Study the movement of planets"
+      },
+      "dimension": "investigative"
+    },
+    {
+      "id": "a4",
+      "text": {
+        "ru": "Рисовать картины",
+        "en": "Draw pictures"
+      },
+      "dimension": "artistic"
+    },
+    {
+      "id": "s4",
+      "text": {
+        "ru": "Проводить реабилитационную терапию",
+        "en": "Perform rehabilitation therapy"
+      },
+      "dimension": "social"
+    },
+    {
+      "id": "e4",
+      "text": {
+        "ru": "Руководить отделом в крупной компании",
+        "en": "Manage a department within a large company"
+      },
+      "dimension": "enterprising"
+    },
+    {
+      "id": "c4",
+      "text": {
+        "ru": "Работать на калькуляторе",
+        "en": "Operate a calculator"
+      },
+      "dimension": "conventional"
+    },
+    {
+      "id": "r5",
+      "text": {
+        "ru": "Собирать электронные компоненты",
+        "en": "Assemble electronic parts"
+      },
+      "dimension": "realistic"
+    },
+    {
+      "id": "i5",
+      "text": {
+        "ru": "Исследовать образцы крови под микроскопом",
+        "en": "Examine blood samples using a microscope"
+      },
+      "dimension": "investigative"
+    },
+    {
+      "id": "a5",
+      "text": {
+        "ru": "Создавать спецэффекты для кино",
+        "en": "Create special effects for movies"
+      },
+      "dimension": "artistic"
+    },
+    {
+      "id": "s5",
+      "text": {
+        "ru": "Работать волонтёром в некоммерческой организации",
+        "en": "Do volunteer work at a non-profit organization"
+      },
+      "dimension": "social"
+    },
+    {
+      "id": "e5",
+      "text": {
+        "ru": "Открыть собственный бизнес",
+        "en": "Start your own business"
+      },
+      "dimension": "enterprising"
+    },
+    {
+      "id": "c5",
+      "text": {
+        "ru": "Вести учёт отгрузки и приёмки товаров",
+        "en": "Keep shipping and receiving records"
+      },
+      "dimension": "conventional"
+    },
+    {
+      "id": "r6",
+      "text": {
+        "ru": "Водить грузовик, развозя посылки по офисам и домам",
+        "en": "Drive a truck to deliver packages to offices and homes"
+      },
+      "dimension": "realistic"
+    },
+    {
+      "id": "i6",
+      "text": {
+        "ru": "Расследовать причину пожара",
+        "en": "Investigate the cause of a fire"
+      },
+      "dimension": "investigative"
+    },
+    {
+      "id": "a6",
+      "text": {
+        "ru": "Расписывать декорации для спектаклей",
+        "en": "Paint sets for plays"
+      },
+      "dimension": "artistic"
+    },
+    {
+      "id": "s6",
+      "text": {
+        "ru": "Учить детей спортивным играм",
+        "en": "Teach children how to play sports"
+      },
+      "dimension": "social"
+    },
+    {
+      "id": "e6",
+      "text": {
+        "ru": "Вести переговоры о деловых контрактах",
+        "en": "Negotiate business contracts"
+      },
+      "dimension": "enterprising"
+    },
+    {
+      "id": "c6",
+      "text": {
+        "ru": "Рассчитывать заработную плату сотрудников",
+        "en": "Calculate the wages of employees"
+      },
+      "dimension": "conventional"
+    },
+    {
+      "id": "r7",
+      "text": {
+        "ru": "Проверять качество деталей перед отгрузкой",
+        "en": "Test the quality of parts before shipment"
+      },
+      "dimension": "realistic"
+    },
+    {
+      "id": "i7",
+      "text": {
+        "ru": "Разрабатывать способ точнее предсказывать погоду",
+        "en": "Develop a way to better predict the weather"
+      },
+      "dimension": "investigative"
+    },
+    {
+      "id": "a7",
+      "text": {
+        "ru": "Писать сценарии для фильмов или телешоу",
+        "en": "Write scripts for movies or television shows"
+      },
+      "dimension": "artistic"
+    },
+    {
+      "id": "s7",
+      "text": {
+        "ru": "Обучать жестовому языку глухих и слабослышащих людей",
+        "en": "Teach sign language to people who are deaf or hard of hearing"
+      },
+      "dimension": "social"
+    },
+    {
+      "id": "e7",
+      "text": {
+        "ru": "Представлять интересы клиента в суде",
+        "en": "Represent a client in a lawsuit"
+      },
+      "dimension": "enterprising"
+    },
+    {
+      "id": "c7",
+      "text": {
+        "ru": "Проводить инвентаризацию с помощью ручного терминала сбора данных",
+        "en": "Inventory supplies using a hand-held computer"
+      },
+      "dimension": "conventional"
+    },
+    {
+      "id": "r8",
+      "text": {
+        "ru": "Ремонтировать и устанавливать замки",
+        "en": "Repair and install locks"
+      },
+      "dimension": "realistic"
+    },
+    {
+      "id": "i8",
+      "text": {
+        "ru": "Работать в биологической лаборатории",
+        "en": "Work in a biology lab"
+      },
+      "dimension": "investigative"
+    },
+    {
+      "id": "a8",
+      "text": {
+        "ru": "Исполнять джазовый танец или степ",
+        "en": "Perform jazz or tap dance"
+      },
+      "dimension": "artistic"
+    },
+    {
+      "id": "s8",
+      "text": {
+        "ru": "Помогать проводить сеанс групповой психотерапии",
+        "en": "Help conduct a group therapy session"
+      },
+      "dimension": "social"
+    },
+    {
+      "id": "e8",
+      "text": {
+        "ru": "Продвигать на рынке новую линию одежды",
+        "en": "Market a new line of clothing"
+      },
+      "dimension": "enterprising"
+    },
+    {
+      "id": "c8",
+      "text": {
+        "ru": "Вести учёт арендных платежей",
+        "en": "Record rent payments"
+      },
+      "dimension": "conventional"
+    },
+    {
+      "id": "r9",
+      "text": {
+        "ru": "Настраивать станки и работать на них, выпуская продукцию",
+        "en": "Set up and operate machines to make products"
+      },
+      "dimension": "realistic"
+    },
+    {
+      "id": "i9",
+      "text": {
+        "ru": "Изобрести заменитель сахара",
+        "en": "Invent a replacement for sugar"
+      },
+      "dimension": "investigative"
+    },
+    {
+      "id": "a9",
+      "text": {
+        "ru": "Петь в музыкальной группе",
+        "en": "Sing in a band"
+      },
+      "dimension": "artistic"
+    },
+    {
+      "id": "s9",
+      "text": {
+        "ru": "Присматривать за детьми в детском саду",
+        "en": "Take care of children at a day-care center"
+      },
+      "dimension": "social"
+    },
+    {
+      "id": "e9",
+      "text": {
+        "ru": "Продавать товары в универмаге",
+        "en": "Sell merchandise at a department store"
+      },
+      "dimension": "enterprising"
+    },
+    {
+      "id": "c9",
+      "text": {
+        "ru": "Вести складской учёт",
+        "en": "Keep inventory records"
+      },
+      "dimension": "conventional"
+    },
+    {
+      "id": "r10",
+      "text": {
+        "ru": "Тушить лесные пожары",
+        "en": "Put out forest fires"
+      },
+      "dimension": "realistic"
+    },
+    {
+      "id": "i10",
+      "text": {
+        "ru": "Проводить лабораторные анализы для выявления болезней",
+        "en": "Do laboratory tests to identify diseases"
+      },
+      "dimension": "investigative"
+    },
+    {
+      "id": "a10",
+      "text": {
+        "ru": "Монтировать фильмы",
+        "en": "Edit movies"
+      },
+      "dimension": "artistic"
+    },
+    {
+      "id": "s10",
+      "text": {
+        "ru": "Вести уроки в старших классах школы",
+        "en": "Teach a high-school class"
+      },
+      "dimension": "social"
+    },
+    {
+      "id": "e10",
+      "text": {
+        "ru": "Управлять магазином одежды",
+        "en": "Manage a clothing store"
+      },
+      "dimension": "enterprising"
+    },
+    {
+      "id": "c10",
+      "text": {
+        "ru": "Штемпелевать, сортировать и разносить почту в организации",
+        "en": "Stamp, sort, and distribute mail for an organization"
+      },
+      "dimension": "conventional"
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "type-r",
+      "title": {
+        "ru": "Практик-созидатель (R)",
+        "en": "The Doer (R)"
+      },
+      "emoji": "🛠️",
+      "profile": {
+        "realistic": 1
+      },
+      "summary": [
+        {
+          "ru": "Вы любите работать руками и видеть результат",
+          "en": "You love hands-on work and visible results"
+        },
+        {
+          "ru": "Техника, инструменты, природа — ваша среда",
+          "en": "Machines, tools and nature are your setting"
+        },
+        {
+          "ru": "Ценитe конкретику и практическую пользу",
+          "en": "You value concreteness and practical use"
+        },
+        {
+          "ru": "Предпочитаете действовать, а не говорить",
+          "en": "You prefer doing to talking"
+        }
+      ],
+      "detailed": {
+        "ru": "Реалистический тип в теории Холланда — это люди дела. Вам нравится, когда задачу можно потрогать: собрать, починить, построить, вырастить, запустить. Вы цените ясность, самостоятельность в своём участке работы и уважаете мастерство.\n\nВ офисной среде с бесконечными совещаниями такие люди быстро теряют мотивацию; зато в производстве, строительстве, на транспорте, в сельском хозяйстве, сервисе, инженерии и экстренных службах они раскрываются. Профиль R часто сочетается с I (инженер-исследователь) и C (технолог, специалист по качеству).\n\n**Что делать дальше:** выберите 2–3 профессии из списка, посмотрите реальные вакансии на hh.ru или аналогичных сайтах, сходите на день открытых дверей колледжа или вуза, попробуйте короткую практику. Для R-типа «попробовать руками» — лучший способ проверить выбор.\n\n**Профессии, которые часто подходят типу (особенно в сочетании со вторым и третьим буквами вашего кода):**\n- Инженер-механик\n- Электромонтажник / электрик\n- Сварщик\n- Автомеханик, диагност\n- Оператор станков с ЧПУ\n- Пилот, машинист, капитан судна\n- Прораб, монтажник, отделочник\n- Геодезист\n- Агроном, специалист по аквакультуре\n- Спасатель МЧС, пожарный\n- Инженер-технолог производства\n- Сервисный инженер медтехники\n- Специалист по беспилотным системам (оператор БПЛА)",
+        "en": "In Holland's theory the Realistic type are the doers. You like tasks you can touch: build, repair, construct, grow, launch. You value clarity, autonomy within your area, and respect craftsmanship.\n\nIn office settings full of meetings such people lose motivation quickly; in manufacturing, construction, transport, agriculture, technical service, engineering and emergency services they thrive. R often pairs with I (research engineer) and C (process or quality specialist).\n\n**Next steps:** pick 2–3 careers from the list, read real job postings, visit a college or university open day, and try a short placement. For R types, trying it with your hands is the best test.\n\n**Careers that often fit this type (especially combined with the 2nd and 3rd letters of your code):**\n- Mechanical engineer\n- Electrician\n- Welder\n- Auto mechanic / diagnostics technician\n- CNC machine operator\n- Pilot, train driver, ship captain\n- Site foreman, installer, finisher\n- Surveyor\n- Agronomist, aquaculture specialist\n- Rescue worker, firefighter\n- Manufacturing process engineer\n- Medical-equipment service engineer\n- Drone / UAV operator"
+      },
+      "strengths": [
+        {
+          "ru": "Практичность и надёжность",
+          "en": "Practicality and reliability"
+        },
+        {
+          "ru": "Техническая смекалка",
+          "en": "Mechanical aptitude"
+        },
+        {
+          "ru": "Выносливость и самостоятельность",
+          "en": "Stamina and independence"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Учиться объяснять свои решения другим",
+          "en": "Learning to explain your decisions to others"
+        },
+        {
+          "ru": "Не избегать «бумажной» части работы",
+          "en": "Not avoiding the paperwork side"
+        },
+        {
+          "ru": "Развивать цифровые навыки в своей сфере",
+          "en": "Building digital skills in your field"
+        }
+      ],
+      "compatibleWith": [
+        "type-i",
+        "type-c"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a friendly craftsperson with a toolbox building a small wooden house, soft colors"
+    },
+    {
+      "id": "type-i",
+      "title": {
+        "ru": "Исследователь-мыслитель (I)",
+        "en": "The Thinker (I)"
+      },
+      "emoji": "🔬",
+      "profile": {
+        "investigative": 1
+      },
+      "summary": [
+        {
+          "ru": "Вас ведёт любопытство и вопрос «почему?»",
+          "en": "Curiosity and the question 'why?' drive you"
+        },
+        {
+          "ru": "Любите данные, эксперименты, сложные задачи",
+          "en": "You love data, experiments and hard problems"
+        },
+        {
+          "ru": "Цените логику, точность и доказательства",
+          "en": "You value logic, precision and evidence"
+        },
+        {
+          "ru": "Нужны время и свобода, чтобы подумать",
+          "en": "You need time and freedom to think"
+        }
+      ],
+      "detailed": {
+        "ru": "Исследовательский тип — это аналитики и учёные по складу ума. Вам интересно разобраться в устройстве мира, найти закономерность, проверить гипотезу. Вы, скорее всего, предпочитаете работать самостоятельно и глубоко, чем постоянно переключаться между людьми и задачами.\n\nВаш профиль хорошо раскрывается в науке, медицине, IT, аналитике, R&D, инженерии и экспертизе. Сочетание I с A даёт исследователей-новаторов (архитектура, гейм-дизайн, UX-исследования), I с S — врачей и психологов, I с E — технологических предпринимателей.\n\n**Что делать дальше:** такие профессии часто требуют серьёзного образования, поэтому начните с выбора предметов и олимпиад или онлайн-курсов (статистика, программирование, биология). Попросите специалиста из интересующей области о 20-минутном разговоре — это лучший способ узнать, как выглядит реальная работа.\n\n**Профессии, которые часто подходят типу (особенно в сочетании со вторым и третьим буквами вашего кода):**\n- Врач-исследователь, врач-диагност\n- Биолог, биотехнолог\n- Химик, фармацевт-разработчик\n- Data scientist, ML-инженер\n- Аналитик данных\n- Программист-разработчик\n- Специалист по кибербезопасности\n- Физик, астроном\n- Метеоролог, климатолог\n- Геолог\n- Врач клинической лабораторной диагностики\n- Эксперт-криминалист, пожарно-технический эксперт\n- Экономист-исследователь",
+        "en": "The Investigative type are analysts and scientists at heart. You want to understand how the world works, spot patterns and test hypotheses. You probably prefer deep, independent work to constant switching between people and tasks.\n\nYour profile shines in science, medicine, IT, analytics, R&D, engineering and expert roles. I + A gives innovative researchers (architecture, game design, UX research), I + S gives physicians and psychologists, I + E gives tech entrepreneurs.\n\n**Next steps:** these careers often require substantial education, so start with subject choices, competitions or online courses (statistics, coding, biology). Ask someone in your target field for a 20-minute informational interview — the best way to learn what the work is really like.\n\n**Careers that often fit this type (especially combined with the 2nd and 3rd letters of your code):**\n- Physician-researcher, diagnostician\n- Biologist, biotechnologist\n- Chemist, pharmaceutical R&D scientist\n- Data scientist, ML engineer\n- Data analyst\n- Software developer\n- Cybersecurity specialist\n- Physicist, astronomer\n- Meteorologist, climate scientist\n- Geologist\n- Clinical laboratory scientist\n- Forensic / fire investigator\n- Research economist"
+      },
+      "strengths": [
+        {
+          "ru": "Аналитическое мышление",
+          "en": "Analytical thinking"
+        },
+        {
+          "ru": "Глубина и концентрация",
+          "en": "Depth and focus"
+        },
+        {
+          "ru": "Самостоятельность в обучении",
+          "en": "Self-directed learning"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить идеи до практического результата",
+          "en": "Turning ideas into practical results"
+        },
+        {
+          "ru": "Объяснять сложное простыми словами",
+          "en": "Explaining complex things simply"
+        },
+        {
+          "ru": "Не застревать в перфекционизме",
+          "en": "Not getting stuck in perfectionism"
+        }
+      ],
+      "compatibleWith": [
+        "type-r",
+        "type-a"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a curious scientist with a magnifying glass and microscope, floating planets, soft colors"
+    },
+    {
+      "id": "type-a",
+      "title": {
+        "ru": "Творец (A)",
+        "en": "The Creator (A)"
+      },
+      "emoji": "🎨",
+      "profile": {
+        "artistic": 1
+      },
+      "summary": [
+        {
+          "ru": "Вам важны самовыражение и оригинальность",
+          "en": "Self-expression and originality matter to you"
+        },
+        {
+          "ru": "Работаете с образом, словом, звуком, формой",
+          "en": "You work with images, words, sound and form"
+        },
+        {
+          "ru": "Нужна гибкость и минимум жёстких правил",
+          "en": "You need flexibility and few rigid rules"
+        },
+        {
+          "ru": "Цените эстетику и новизну",
+          "en": "You value aesthetics and novelty"
+        }
+      ],
+      "detailed": {
+        "ru": "Артистический тип — люди, которым важно создавать что-то своё. Вас заряжает возможность придумывать, экспериментировать, выражать чувства и идеи через тексты, визуал, музыку, видео, пространства или игры. Жёсткая иерархия и однообразные инструкции, наоборот, вас гасят.\n\nСегодня творческие профессии всё больше становятся цифровыми: UX/UI, моушн-дизайн, гейм-арт, контент-продюсирование. Сочетание A с I даёт архитекторов и гейм-дизайнеров, A с S — преподавателей искусства и арт-терапевтов, A с E — продюсеров, арт-директоров и креативных предпринимателей.\n\n**Что делать дальше:** начните собирать портфолио уже сейчас — даже учебные работы. Попробуйте короткий интенсив в выбранном направлении и покажите работы практикам, чтобы получить честную обратную связь. Подумайте, какой «второй навык» (маркетинг, программирование, менеджмент) сделает вашу творческую карьеру устойчивее.\n\n**Профессии, которые часто подходят типу (особенно в сочетании со вторым и третьим буквами вашего кода):**\n- Графический дизайнер, иллюстратор\n- UX/UI-дизайнер\n- Архитектор, дизайнер интерьеров\n- Писатель, сценарист, копирайтер\n- Журналист, редактор\n- Актёр, режиссёр\n- Музыкант, композитор, звукорежиссёр\n- Фотограф, видеограф\n- Монтажёр, моушн-дизайнер, VFX-художник\n- Гейм-дизайнер, 3D-художник\n- Хореограф, танцор\n- Стилист, дизайнер одежды\n- SMM- и контент-продюсер",
+        "en": "The Artistic type need to create something of their own. You're energised by inventing, experimenting and expressing feelings and ideas through writing, visuals, music, video, spaces or games. Rigid hierarchy and monotonous instructions dampen you.\n\nCreative careers are increasingly digital: UX/UI, motion design, game art, content production. A + I gives architects and game designers, A + S gives art teachers and art therapists, A + E gives producers, art directors and creative entrepreneurs.\n\n**Next steps:** start a portfolio now — even with study projects. Take a short intensive course in your chosen direction and show your work to practitioners for honest feedback. Think about which 'second skill' (marketing, coding, management) would make your creative career more resilient.\n\n**Careers that often fit this type (especially combined with the 2nd and 3rd letters of your code):**\n- Graphic designer, illustrator\n- UX/UI designer\n- Architect, interior designer\n- Writer, screenwriter, copywriter\n- Journalist, editor\n- Actor, director\n- Musician, composer, sound engineer\n- Photographer, videographer\n- Video editor, motion designer, VFX artist\n- Game designer, 3D artist\n- Choreographer, dancer\n- Stylist, fashion designer\n- Social-media / content producer"
+      },
+      "strengths": [
+        {
+          "ru": "Воображение и оригинальность",
+          "en": "Imagination and originality"
+        },
+        {
+          "ru": "Эстетическое чутьё",
+          "en": "Aesthetic sense"
+        },
+        {
+          "ru": "Эмоциональная выразительность",
+          "en": "Emotional expressiveness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Дисциплина и соблюдение сроков",
+          "en": "Discipline and deadlines"
+        },
+        {
+          "ru": "Умение продавать свои идеи",
+          "en": "Selling your ideas"
+        },
+        {
+          "ru": "Устойчивость к критике",
+          "en": "Resilience to critique"
+        }
+      ],
+      "compatibleWith": [
+        "type-i",
+        "type-s"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a cheerful artist with a paint palette, music notes and a film camera, soft colors"
+    },
+    {
+      "id": "type-s",
+      "title": {
+        "ru": "Помогающий (S)",
+        "en": "The Helper (S)"
+      },
+      "emoji": "🤝",
+      "profile": {
+        "social": 1
+      },
+      "summary": [
+        {
+          "ru": "Вас вдохновляет польза для людей",
+          "en": "Making a difference for people inspires you"
+        },
+        {
+          "ru": "Любите учить, поддерживать, консультировать",
+          "en": "You love teaching, supporting and advising"
+        },
+        {
+          "ru": "Вы эмпатичны и хорошо слушаете",
+          "en": "You're empathetic and listen well"
+        },
+        {
+          "ru": "Цените сотрудничество и атмосферу",
+          "en": "You value cooperation and atmosphere"
+        }
+      ],
+      "detailed": {
+        "ru": "Социальный тип — люди, для которых работа имеет смысл, когда помогает другим расти, выздоравливать, учиться и справляться с трудностями. Вы, вероятно, хорошо чувствуете других, умеете объяснять и создавать доверие.\n\nПрофиль S раскрывается в образовании, медицине, психологии, социальной сфере, HR, спорте и сервисе. Сочетание S с E даёт руководителей образовательных и социальных проектов, S с I — врачей и клинических психологов, S с A — педагогов творческих дисциплин и арт-терапевтов.\n\n**Что делать дальше:** попробуйте волонтёрство или вожатство, помогите с занятиями младшим, сходите на день открытых дверей педагогического или медицинского вуза. Важно: «помогающие» профессии требуют навыков самозаботы — узнайте заранее о супервизии, нагрузке и способах профилактики выгорания.\n\n**Профессии, которые часто подходят типу (особенно в сочетании со вторым и третьим буквами вашего кода):**\n- Учитель, преподаватель\n- Психолог, психотерапевт\n- Социальный работник\n- Врач-терапевт, педиатр, медсестра/медбрат\n- Реабилитолог, инструктор ЛФК, физический терапевт\n- Фитнес-тренер, детский тренер\n- Логопед, дефектолог, сурдопедагог\n- Воспитатель детского сада\n- Карьерный консультант, коуч\n- HR-специалист, специалист по обучению (T&D)\n- Тьютор, методист онлайн-школы\n- Координатор НКО и волонтёрских программ\n- Медиатор",
+        "en": "The Social type find work meaningful when it helps others grow, heal, learn and cope. You probably read people well, explain things clearly and build trust.\n\nS shines in education, health care, psychology, social services, HR, sport and service. S + E gives leaders of education and social projects, S + I gives physicians and clinical psychologists, S + A gives arts educators and art therapists.\n\n**Next steps:** try volunteering or camp counselling, tutor younger students, visit an education or medical school open day. Important: helping professions require self-care skills — find out early about supervision, workload and burnout prevention.\n\n**Careers that often fit this type (especially combined with the 2nd and 3rd letters of your code):**\n- Teacher, lecturer\n- Psychologist, psychotherapist\n- Social worker\n- GP, paediatrician, nurse\n- Rehabilitation / physical therapist\n- Fitness trainer, youth sports coach\n- Speech therapist, special-education teacher, teacher of the deaf\n- Preschool teacher\n- Career counsellor, coach\n- HR / learning & development specialist\n- Tutor, online-school instructional designer\n- Non-profit / volunteer programme coordinator\n- Mediator"
+      },
+      "strengths": [
+        {
+          "ru": "Эмпатия и терпение",
+          "en": "Empathy and patience"
+        },
+        {
+          "ru": "Умение объяснять и мотивировать",
+          "en": "Explaining and motivating"
+        },
+        {
+          "ru": "Командность",
+          "en": "Teamwork"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Ставить границы и беречь ресурс",
+          "en": "Setting boundaries and protecting energy"
+        },
+        {
+          "ru": "Говорить «нет»",
+          "en": "Saying 'no'"
+        },
+        {
+          "ru": "Опираться на данные, а не только на чувства",
+          "en": "Using data, not only feelings"
+        }
+      ],
+      "compatibleWith": [
+        "type-a",
+        "type-e"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a warm teacher helping a child with a book, hearts and plants around, soft colors"
+    },
+    {
+      "id": "type-e",
+      "title": {
+        "ru": "Предприниматель-лидер (E)",
+        "en": "The Persuader (E)"
+      },
+      "emoji": "🚀",
+      "profile": {
+        "enterprising": 1
+      },
+      "summary": [
+        {
+          "ru": "Вас заряжают цели, влияние и результат",
+          "en": "Goals, influence and results energise you"
+        },
+        {
+          "ru": "Любите убеждать, договариваться, вести за собой",
+          "en": "You love persuading, negotiating and leading"
+        },
+        {
+          "ru": "Готовы рисковать и брать ответственность",
+          "en": "You're willing to take risks and responsibility"
+        },
+        {
+          "ru": "Статус и масштаб для вас — честные мотиваторы",
+          "en": "Status and scale are honest motivators"
+        }
+      ],
+      "detailed": {
+        "ru": "Предприимчивый тип — это лидеры, продавцы, организаторы и предприниматели. Вам нравится запускать новое, влиять на решения, конкурировать и видеть, как ваши усилия превращаются в деньги, рост и признание.\n\nПрофиль E раскрывается в бизнесе, продажах, маркетинге, менеджменте, праве, политике, продюсировании. Сочетание E с S даёт сильных руководителей людей и HR-лидеров, E с C — финансовых и операционных менеджеров, E с A — креативных предпринимателей и продюсеров.\n\n**Что делать дальше:** проверьте себя в реальном деле — организуйте мероприятие, запустите небольшой проект, попробуйте продажи на подработке. Параллельно прокачайте финансовую грамотность и навыки управления людьми: они отличают успешного лидера от просто энергичного.\n\n**Профессии, которые часто подходят типу (особенно в сочетании со вторым и третьим буквами вашего кода):**\n- Предприниматель\n- Менеджер по продажам, account-менеджер\n- Руководитель отдела, операционный директор\n- Маркетолог, бренд-менеджер\n- Юрист, адвокат\n- Риелтор\n- Брокер, трейдер, инвестиционный консультант\n- Продакт-менеджер\n- Продюсер, event-менеджер\n- Рекрутер\n- Менеджер по закупкам (байер)\n- Управляющий магазином, ресторатор\n- Руководитель в госуправлении, политик",
+        "en": "The Enterprising type are leaders, sellers, organisers and entrepreneurs. You like launching new things, influencing decisions, competing and seeing effort turn into money, growth and recognition.\n\nE shines in business, sales, marketing, management, law, politics and production. E + S gives strong people-leaders and HR heads, E + C gives finance and operations managers, E + A gives creative entrepreneurs and producers.\n\n**Next steps:** test yourself in real projects — organise an event, launch a small venture, try a sales side job. Meanwhile build financial literacy and people-management skills: they separate a successful leader from a merely energetic one.\n\n**Careers that often fit this type (especially combined with the 2nd and 3rd letters of your code):**\n- Entrepreneur\n- Sales / account manager\n- Department head, operations director\n- Marketer, brand manager\n- Lawyer, attorney\n- Real-estate agent\n- Broker, trader, investment adviser\n- Product manager\n- Producer, event manager\n- Recruiter\n- Buyer / procurement manager\n- Store manager, restaurateur\n- Public-sector manager, politician"
+      },
+      "strengths": [
+        {
+          "ru": "Инициативность и энергия",
+          "en": "Initiative and energy"
+        },
+        {
+          "ru": "Убедительность",
+          "en": "Persuasiveness"
+        },
+        {
+          "ru": "Готовность к риску",
+          "en": "Risk tolerance"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Слушать, а не только говорить",
+          "en": "Listening, not only talking"
+        },
+        {
+          "ru": "Доводить детали до конца",
+          "en": "Following through on details"
+        },
+        {
+          "ru": "Этика влияния",
+          "en": "Ethical influence"
+        }
+      ],
+      "compatibleWith": [
+        "type-s",
+        "type-c"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a confident young entrepreneur on a small stage with a rocket and rising chart, soft colors"
+    },
+    {
+      "id": "type-c",
+      "title": {
+        "ru": "Организатор (C)",
+        "en": "The Organizer (C)"
+      },
+      "emoji": "📊",
+      "profile": {
+        "conventional": 1
+      },
+      "summary": [
+        {
+          "ru": "Вы цените порядок, точность и ясные правила",
+          "en": "You value order, accuracy and clear rules"
+        },
+        {
+          "ru": "Любите данные, документы, системы",
+          "en": "You like data, records and systems"
+        },
+        {
+          "ru": "Замечаете ошибки, которые пропускают другие",
+          "en": "You catch errors others miss"
+        },
+        {
+          "ru": "Надёжны и последовательны",
+          "en": "You're reliable and consistent"
+        }
+      ],
+      "detailed": {
+        "ru": "Конвенциональный тип — люди, на которых держится любая организация. Вам нравится, когда всё учтено, сходится и работает по понятным правилам. Вы, вероятно, внимательны к деталям, аккуратны и не боитесь кропотливой работы.\n\nПрофиль C раскрывается в финансах, учёте, аудите, логистике, закупках, администрировании, управлении данными и IT-инфраструктуре. Сочетание C с E даёт финансовых и операционных менеджеров, C с I — аналитиков данных и актуариев, C с R — специалистов по качеству и складской логистике.\n\n**Что делать дальше:** поскольку рутинные операции всё чаще автоматизируются, сделайте ставку на цифровые навыки — Excel/BI, 1С и ERP, SQL, основы автоматизации процессов. Это превращает вас из исполнителя в человека, который проектирует и контролирует системы.\n\n**Профессии, которые часто подходят типу (особенно в сочетании со вторым и третьим буквами вашего кода):**\n- Бухгалтер (в т.ч. специалист 1С)\n- Аудитор, налоговый консультант\n- Финансовый контролёр, экономист-плановик\n- Логист, специалист по ВЭД\n- Специалист по закупкам (44-ФЗ, 223-ФЗ)\n- Делопроизводитель, офис-менеджер, администратор\n- Специалист по кадровому делопроизводству\n- Операционист банка, кредитный специалист\n- Системный администратор\n- Администратор баз данных\n- Корректор, архивист\n- Специалист по контролю качества данных\n- Кладовщик, специалист по складскому учёту (WMS)",
+        "en": "The Conventional type are the people every organisation runs on. You like it when everything is accounted for, adds up and follows clear rules. You're probably detail-oriented, accurate and unafraid of meticulous work.\n\nC shines in finance, accounting, audit, logistics, procurement, administration, data management and IT infrastructure. C + E gives finance and operations managers, C + I gives data analysts and actuaries, C + R gives quality and warehouse-logistics specialists.\n\n**Next steps:** since routine operations are increasingly automated, invest in digital skills — spreadsheets/BI, ERP systems, SQL, basic process automation. That turns you from an executor into someone who designs and controls systems.\n\n**Careers that often fit this type (especially combined with the 2nd and 3rd letters of your code):**\n- Accountant (incl. ERP/1C specialist)\n- Auditor, tax consultant\n- Financial controller, budget analyst\n- Logistics / customs specialist\n- Public-procurement specialist\n- Records clerk, office manager, administrator\n- HR records / payroll specialist\n- Bank operations / credit specialist\n- Systems administrator\n- Database administrator\n- Proofreader, archivist\n- Data-quality specialist\n- Inventory / warehouse-systems specialist"
+      },
+      "strengths": [
+        {
+          "ru": "Внимательность к деталям",
+          "en": "Attention to detail"
+        },
+        {
+          "ru": "Организованность",
+          "en": "Organisation"
+        },
+        {
+          "ru": "Ответственность",
+          "en": "Dependability"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Гибкость при изменениях",
+          "en": "Flexibility in change"
+        },
+        {
+          "ru": "Смелость предлагать новое",
+          "en": "Courage to propose new ideas"
+        },
+        {
+          "ru": "Видеть общую картину",
+          "en": "Seeing the big picture"
+        }
+      ],
+      "compatibleWith": [
+        "type-e",
+        "type-r"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a tidy organizer with color-coded folders, a spreadsheet and a calendar, soft colors"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ переводится в баллы 0–4 («совсем не нравится» = 0 … «очень нравится» = 4). Для каждого из шести типов складываются 10 ответов — получается 0–40. **Код Холланда** — три типа с наибольшими суммами в порядке убывания (например, S-A-E). Главный результат — первая буква. При равенстве баллов выберите тип, чьи занятия кажутся вам ближе (так рекомендует O\\*NET). Полезно смотреть и на разброс: если все шесть сумм близки, интересы пока слабо дифференцированы — стоит больше пробовать на практике. Соседние на шестиугольнике буквы в коде (например, R-I или S-E) означают «согласованный» профиль.",
+    "en": "Each answer is scored 0–4 ('strongly dislike' = 0 … 'strongly like' = 4). For each of the six types the 10 answers are summed (0–40). Your **Holland code** is the three highest types in descending order (e.g. S-A-E); the primary result is the first letter. For ties, choose the type whose activities feel like a better fit (as O\\*NET recommends). Look at the spread too: if all six sums are close, your interests are not yet strongly differentiated — try more things in practice. Letters adjacent on the hexagon (e.g. R-I or S-E) indicate a 'consistent' profile."
+  },
+  "resultIntro": {
+    "ru": "Ваш результат — это **код Холланда**: три буквы ваших самых сильных интересов. Первая буква — ведущий тип, вторая и третья уточняют, в какой среде вам будет интереснее всего. Используйте список профессий как карту для исследования, а не как готовый ответ.",
+    "en": "Your result is a **Holland code**: the three letters of your strongest interests. The first letter is your leading type; the second and third refine which environments will engage you most. Use the career lists as a map to explore, not a final answer."
+  }
+}

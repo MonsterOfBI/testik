@@ -1,0 +1,380 @@
+{
+  "id": "life-satisfaction",
+  "category": "wellbeing",
+  "kind": "likert",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Шкала удовлетворённости жизнью (SWLS)",
+    "en": "Satisfaction With Life Scale (SWLS)"
+  },
+  "tagline": {
+    "ru": "Пять вопросов о главном: довольны ли вы своей жизнью?",
+    "en": "Five questions about the big one: are you happy with your life?"
+  },
+  "description": {
+    "ru": "Короткая классическая шкала Эда Динера — «золотой стандарт» в исследованиях счастья. Вы узнаете, насколько вы удовлетворены жизнью в целом, как ваш результат соотносится с тысячами других людей и что, по данным науки, помогает чувствовать себя лучше.",
+    "en": "Ed Diener's short classic — the gold standard in happiness research. Find out how satisfied you are with your life as a whole, how you compare with thousands of other people, and what research says helps life feel better."
+  },
+  "emoji": "🌤️",
+  "durationMin": 1,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "счастье",
+      "en": "happiness"
+    },
+    {
+      "ru": "благополучие",
+      "en": "well-being"
+    },
+    {
+      "ru": "удовлетворённость жизнью",
+      "en": "life satisfaction"
+    },
+    {
+      "ru": "позитивная психология",
+      "en": "positive psychology"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что измеряет\n**Удовлетворённость жизнью** — когнитивную, «взвешенную» часть субъективного благополучия: насколько человек в целом доволен своей жизнью, сравнивая её с собственными, а не навязанными извне стандартами. Это отличается от эмоциональной части благополучия (как часто вы испытываете радость или тревогу): можно переживать трудный месяц и при этом в целом быть довольным тем, как складывается жизнь.\n\n### История\nШкалу удовлетворённости жизнью (Satisfaction With Life Scale, SWLS) создали Эд Динер, Роберт Эммонс, Рэнди Ларсен и Шэрон Гриффин (1985). Из 48 исходных утверждений осталось 5 — короткая, но очень надёжная шкала стала стандартом в исследованиях счастья и используется в десятках стран. Обзоры её свойств: Pavot & Diener (1993, 2008). Русскоязычную версию апробировали Е. Н. Осин и Д. А. Леонтьев (2008; 2020).\n\n### Как проводится и считается\n5 утверждений, 7-балльная шкала согласия (1 — «полностью не согласен», 7 — «полностью согласен»). Обратных пунктов нет. Итог — сумма, **5–35**; середина шкалы (20) означает нейтральное отношение.\n\n### Надёжность и валидность\n- Оригинал: α = 0,87, ретестовая надёжность за 2 месяца r = 0,82 (Diener et al., 1985); в последующих исследованиях α обычно 0,79–0,89 (Pavot & Diener, 1993).\n- Русскоязычная версия (Осин, Леонтьев, 2020; N = 5054): α = 0,82, ω = 0,82; однофакторная модель с отличным соответствием (CFI = 0,995, RMSEA = 0,041).\n- Шкала связана с другими показателями благополучия и оценками близких, умеренно — с позитивными эмоциями, отрицательно — с депрессивностью; при этом она чувствительна к изменениям жизненных обстоятельств (Pavot & Diener, 2008).\n\n### Нормы\nДля процентиля используется крупная русскоязычная выборка: **M = 20,81, SD = 6,24, N = 5054** (Осин, Леонтьев, 2020; посетители психологических сайтов, студенты и взрослые добровольцы, 70% женщин, средний возраст 23 года). Квартили: 16 и 25; мужчины 19,69 (6,36), женщины 20,85 (5,99). Авторы предлагают ориентиры: ≤16 — низкий, ≥25 — высокий уровень. В оригинальной американской студенческой выборке среднее было 23,5 (SD 6,43, N = 176) (Diener et al., 1985); в экономически развитых странах взрослые чаще всего набирают около 20–24 баллов, что совпадает с «средним» уровнем интерпретации Динера.\n\n### Интерпретация\nУровни (5–9, 10–14, 15–19, 20–24, 25–29, 30–35) и их описания следуют официальному руководству Эда Динера «Understanding Scores on the Satisfaction with Life Scale» (Pavot & Diener).\n\n### Ограничения\n- Самоотчёт; на ответы может немного влиять текущее настроение.\n- Шкала показывает общую удовлетворённость, но не говорит, *какая* сфера жизни проседает — для этого полезно отдельно подумать о работе, отношениях, здоровье, досуге.\n- Средние уровни заметно различаются между странами; русская норма собрана на удобной (не репрезентативной) выборке.",
+    "en": "### What it measures\n**Life satisfaction** — the cognitive, reflective component of subjective well-being: how satisfied a person is with their life as a whole, judged against their own standards rather than externally imposed ones. It differs from the emotional side of well-being (how often you feel joy or worry): you can be having a tough month and still be broadly satisfied with how your life is going.\n\n### History\nThe Satisfaction With Life Scale (SWLS) was developed by Ed Diener, Robert Emmons, Randy Larsen and Sharon Griffin (1985). From 48 initial statements, five were kept — a short but highly reliable scale that became a standard in happiness research and is used in dozens of countries. Reviews: Pavot & Diener (1993, 2008). The Russian version was tested by E. N. Osin and D. A. Leontiev (2008; 2020).\n\n### Administration and scoring\n5 statements, 7-point agreement scale (1 = strongly disagree, 7 = strongly agree). No reverse-keyed items. Score = sum, **5–35**; the midpoint (20) is neutral.\n\n### Reliability and validity\n- Original: α = .87, 2-month test–retest r = .82 (Diener et al., 1985); later studies usually report α = .79–.89 (Pavot & Diener, 1993).\n- Russian version (Osin & Leontiev, 2020; N = 5,054): α = .82, ω = .82; a one-factor model fits very well (CFI = .995, RMSEA = .041).\n- Scores converge with other well-being measures and informant reports, relate moderately to positive emotion and negatively to depressive symptoms, and are sensitive to changes in life circumstances (Pavot & Diener, 2008).\n\n### Norms\nThe percentile uses a large Russian-language sample: **M = 20.81, SD = 6.24, N = 5,054** (Osin & Leontiev, 2020; psychology-website visitors, students and adult volunteers; 70% women; mean age 23). Quartiles: 16 and 25; men 19.69 (6.36), women 20.85 (5.99). The authors suggest ≤16 = low and ≥25 = high as rough guides. In the original US student sample the mean was 23.5 (SD 6.43, N = 176) (Diener et al., 1985); adults in economically developed nations most often score around 20–24 — Diener's \"average\" band.\n\n### Interpretation\nThe bands (5–9, 10–14, 15–19, 20–24, 25–29, 30–35) and their descriptions follow Ed Diener's official guide, \"Understanding Scores on the Satisfaction with Life Scale\" (Pavot & Diener).\n\n### Limitations\n- Self-report; current mood can nudge answers somewhat.\n- The scale shows overall satisfaction but not *which* area of life is lagging — consider work, relationships, health and leisure separately.\n- Average levels differ between countries; the Russian norm comes from a convenience (non-representative) sample."
+  },
+  "sources": [
+    {
+      "citation": "Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The Satisfaction With Life Scale. Journal of Personality Assessment, 49(1), 71–75.",
+      "doi": "10.1207/s15327752jpa4901_13",
+      "url": "https://labs.psychology.illinois.edu/~ediener/SWLS.html"
+    },
+    {
+      "citation": "Pavot, W., & Diener, E. (1993). Review of the Satisfaction With Life Scale. Psychological Assessment, 5(2), 164–172.",
+      "doi": "10.1037/1040-3590.5.2.164"
+    },
+    {
+      "citation": "Pavot, W., & Diener, E. (2008). The Satisfaction With Life Scale and the emerging construct of life satisfaction. The Journal of Positive Psychology, 3(2), 137–152.",
+      "doi": "10.1080/17439760701756946"
+    },
+    {
+      "citation": "Осин, Е. Н., & Леонтьев, Д. А. (2020). Краткие русскоязычные шкалы диагностики субъективного благополучия: психометрические характеристики и сравнительный анализ. Мониторинг общественного мнения: экономические и социальные перемены, (1), 117–142.",
+      "doi": "10.14515/monitoring.2020.1.06",
+      "url": "https://publications.hse.ru/pubs/share/direct/345577179.pdf"
+    },
+    {
+      "citation": "Kobau, R., Sniezek, J., Zack, M. M., Lucas, R. E., & Burns, A. (2010). Well-being assessment: An evaluation of well-being scales for public health and population estimates of well-being among US adults. Applied Psychology: Health and Well-Being, 2(3), 272–297."
+    }
+  ],
+  "license": "Free to use with credit. Ed Diener's official page: \"The scale is copyrighted but you are free to use it without permission or charge by all professionals (researchers and practitioners) as long as you give credit to the authors of the scale: Ed Diener, Robert A. Emmons, Randy J. Larsen and Sharon Griffin as noted in the 1985 article in the Journal of Personality Assessment.\" https://labs.psychology.illinois.edu/~ediener/SWLS.html . Russian items: Osin & Leontiev (2020), with gender-inclusive endings.",
+  "disclaimer": {
+    "ru": "Это исследовательская шкала, а не диагноз. Низкая удовлетворённость жизнью часто связана с временными обстоятельствами, но если вам долго плохо, вы чувствуете безнадёжность или думаете о том, чтобы причинить себе вред, обратитесь за поддержкой. В России: 8-800-2000-122 (бесплатный телефон доверия для детей, подростков и родителей), 051 — экстренная психологическая помощь в Москве (с мобильного 8-495-051). В других странах: findahelpline.com. При угрозе жизни — 112.",
+    "en": "This is a research scale, not a diagnosis. Low life satisfaction is often tied to temporary circumstances, but if you've felt bad for a long time, feel hopeless, or have thoughts of harming yourself, please reach out. In Russia: 8-800-2000-122 (free helpline for children, teens and parents), 051 (Moscow emergency psychological help; 8-495-051 from a mobile). Elsewhere: findahelpline.com. In an emergency call 112 / 911 or your local emergency number."
+  },
+  "instructions": {
+    "ru": "Ниже — пять утверждений, с которыми вы можете соглашаться или не соглашаться. Оцените каждое по шкале от «полностью не согласен» до «полностью согласен». Пожалуйста, отвечайте открыто и честно — думайте о своей жизни в целом.",
+    "en": "Below are five statements that you may agree or disagree with. Rate each one from \"strongly disagree\" to \"strongly agree\". Please be open and honest in your responding — think about your life as a whole."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Полностью не согласен(-на)",
+        "en": "Strongly disagree"
+      },
+      {
+        "ru": "Не согласен(-на)",
+        "en": "Disagree"
+      },
+      {
+        "ru": "Скорее не согласен(-на)",
+        "en": "Slightly disagree"
+      },
+      {
+        "ru": "Нечто среднее",
+        "en": "Neither agree nor disagree"
+      },
+      {
+        "ru": "Скорее согласен(-на)",
+        "en": "Slightly agree"
+      },
+      {
+        "ru": "Согласен(-на)",
+        "en": "Agree"
+      },
+      {
+        "ru": "Полностью согласен(-на)",
+        "en": "Strongly agree"
+      }
+    ],
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "life-satisfaction",
+      "name": {
+        "ru": "Удовлетворённость жизнью",
+        "en": "Life satisfaction"
+      },
+      "description": {
+        "ru": "Ваша общая, обдуманная оценка собственной жизни по вашим же критериям.",
+        "en": "Your overall, considered evaluation of your life by your own standards."
+      },
+      "lowLabel": {
+        "ru": "жизнь далека от желаемой",
+        "en": "life far from what you want"
+      },
+      "highLabel": {
+        "ru": "жизнь близка к идеалу",
+        "en": "life close to your ideal"
+      },
+      "color": "#A8D8EA",
+      "scoring": "sum",
+      "min": 5,
+      "max": 35,
+      "norms": {
+        "mean": 20.81,
+        "sd": 6.24,
+        "n": 5054,
+        "population": "Russian-speaking adults and students (convenience sample: psychology-website visitors, university students, volunteers; 70% women; mean age 23.3)",
+        "source": "Osin & Leontiev (2020), Monitoring of Public Opinion, (1), 117–142, Table 1"
+      },
+      "bands": [
+        {
+          "min": 5,
+          "max": 9,
+          "label": {
+            "ru": "Крайне низкая удовлетворённость",
+            "en": "Extremely dissatisfied"
+          },
+          "summary": [
+            {
+              "ru": "Сейчас вы очень недовольны тем, как складывается жизнь",
+              "en": "Right now you're very unhappy with how life is going"
+            },
+            {
+              "ru": "Трудности, скорее всего, затрагивают сразу несколько сфер",
+              "en": "Difficulties likely touch several areas at once"
+            },
+            {
+              "ru": "Такой результат — повод позаботиться о себе и получить поддержку",
+              "en": "A result like this is a signal to take care of yourself and get support"
+            },
+            {
+              "ru": "Это состояние может измениться — особенно с помощью",
+              "en": "This can change — especially with help"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат говорит о том, что сейчас вы крайне недовольны своей жизнью. По руководству Динера, так бывает, когда плохо идут дела сразу в нескольких важных областях — или когда случилось тяжёлое событие: утрата, разрыв, потеря работы. Иногда за таким результатом стоит и подавленное настроение, которое окрашивает в серый цвет всё вокруг.\n\n**Что важно сделать.** Пожалуйста, не оставайтесь с этим в одиночку. Поговорите с человеком, которому доверяете, и подумайте об обращении к психологу или психотерапевту — профессиональная помощь здесь действительно может многое изменить. Начните с самого базового: сон, еда, хотя бы короткая прогулка. Не нужно решать всё сразу — выберите одну маленькую вещь, которая на этой неделе сделает жизнь чуть легче. Если появляются мысли о том, чтобы причинить себе вред, обратитесь на горячую линию (номера ниже) или в экстренные службы.",
+            "en": "Your score suggests you're extremely dissatisfied with your life right now. According to Diener's guide, this often happens when several important areas are going badly at once — or after a painful event such as a loss, a break-up or losing a job. Sometimes low mood sits underneath, colouring everything grey.\n\n**What matters now.** Please don't carry this alone. Talk to someone you trust, and consider seeing a psychologist or therapist — professional help can genuinely make a difference here. Start with the basics: sleep, food, even a short walk. You don't have to fix everything at once — pick one small thing that would make this week a little easier. If thoughts of harming yourself come up, contact a helpline (numbers below) or emergency services."
+          }
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "label": {
+            "ru": "Низкая удовлетворённость",
+            "en": "Dissatisfied"
+          },
+          "summary": [
+            {
+              "ru": "Вы в значительной мере недовольны своей жизнью",
+              "en": "You're substantially dissatisfied with your life"
+            },
+            {
+              "ru": "Возможно, плохо идут дела в одной-двух ключевых сферах",
+              "en": "One or two key areas may be going badly"
+            },
+            {
+              "ru": "Иногда это реакция на недавнее событие",
+              "en": "Sometimes it's a reaction to a recent event"
+            },
+            {
+              "ru": "Стоит разобраться, что именно забирает силы",
+              "en": "It's worth pinpointing what's draining you"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы заметно недовольны тем, как складывается жизнь. Руководство Динера описывает этот уровень так: что-то не ладится в нескольких сферах или очень плохо идёт в одной-двух, важных для вас. Если недовольство появилось недавно — после переезда, конфликта, болезни, — оно может постепенно смягчиться; если оно тянется давно, это сигнал что-то менять.\n\n**Что может помочь.** Попробуйте разложить жизнь на сферы — работа или учёба, отношения, здоровье, деньги, досуг, смысл — и оценить каждую от 1 до 10. Так станет понятно, где «болит» сильнее всего. Выберите одну сферу и одно конкретное действие на ближайшие две недели. Поддержка людей — один из самых сильных факторов благополучия: напишите тому, с кем давно хотели поговорить. Если вы чувствуете, что застряли, консультация психолога или коуча поможет увидеть варианты, которые сложно заметить изнутри.",
+            "en": "You're noticeably dissatisfied with how life is going. Diener's guide describes this level as several areas not going well, or one or two areas that matter to you going very badly. If the dissatisfaction is recent — after a move, a conflict, an illness — it may ease over time; if it has lasted a while, it's a signal that something needs to change.\n\n**What can help.** Break life into areas — work or study, relationships, health, money, leisure, meaning — and rate each from 1 to 10 to see where it hurts most. Choose one area and one concrete step for the next two weeks. Social support is one of the strongest drivers of well-being: message someone you've been meaning to talk to. If you feel stuck, a psychologist or coach can help you see options that are hard to spot from the inside."
+          }
+        },
+        {
+          "min": 15,
+          "max": 19,
+          "label": {
+            "ru": "Немного ниже среднего",
+            "en": "Slightly below average"
+          },
+          "summary": [
+            {
+              "ru": "В жизни есть и хорошее, и заметные «дыры»",
+              "en": "Life has good parts and some noticeable gaps"
+            },
+            {
+              "ru": "Небольшие, но значимые проблемы в нескольких сферах",
+              "en": "Small but meaningful problems in several areas"
+            },
+            {
+              "ru": "Или одна сфера, которая сильно тянет вниз",
+              "en": "Or one area that's really pulling things down"
+            },
+            {
+              "ru": "Хороший момент для точечных изменений",
+              "en": "A good moment for targeted changes"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат немного ниже среднего. По Динеру, люди на этом уровне обычно имеют небольшие, но значимые проблемы в нескольких областях жизни — или одну область, которая серьёзно огорчает. Иногда это временный спад после изменений; иногда — накопившаяся усталость от того, что жизнь идёт «на автопилоте» и не совсем в ту сторону, которую хотелось бы.\n\n**Что может помочь.** Подумайте, какие пункты анкеты вы оценили ниже всего: «условия жизни», «близость к идеалу» или «то, что действительно нужно». Это подсказывает, где искать изменения — во внешних обстоятельствах или в целях и ожиданиях. Помогают практики, связанные с повышением благополучия в исследованиях: регулярная физическая активность, время с близкими, занятия, в которых вы теряете счёт времени, и помощь другим. Небольшие шаги в одной сфере часто «подтягивают» и общую оценку.",
+            "en": "Your score is slightly below average. Diener describes people here as usually having small but significant problems in several areas of life — or one area that is a substantial source of unhappiness. Sometimes it's a temporary dip after change; sometimes it's accumulated fatigue from a life running on autopilot in a not-quite-right direction.\n\n**What can help.** Look at which items you rated lowest: \"conditions of my life\", \"close to my ideal\" or \"the important things I want\". That hints whether change is needed in circumstances or in goals and expectations. Practices linked to higher well-being in research help: regular physical activity, time with people you love, activities that absorb you, and helping others. Small steps in one area often lift the overall picture."
+          }
+        },
+        {
+          "min": 20,
+          "max": 24,
+          "label": {
+            "ru": "Средний уровень",
+            "en": "Average"
+          },
+          "summary": [
+            {
+              "ru": "В целом вы довольны жизнью",
+              "en": "Overall, you're satisfied with your life"
+            },
+            {
+              "ru": "Типичный уровень для взрослых в развитых странах",
+              "en": "Typical of adults in economically developed nations"
+            },
+            {
+              "ru": "Есть сферы, которые хотелось бы улучшить",
+              "en": "There are areas you'd like to improve"
+            },
+            {
+              "ru": "Хорошая база для роста",
+              "en": "A solid base to grow from"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат находится в среднем диапазоне — именно так оценивают свою жизнь многие взрослые в экономически развитых странах. Согласно руководству Динера, люди на этом уровне в целом удовлетворены, но в некоторых сферах хотели бы видеть изменения к лучшему. Кто-то находится здесь потому, что почти всё «нормально», но ничто особенно не радует; кто-то — потому, что в одних областях всё хорошо, а в других не очень.\n\n**Как сделать жизнь ещё лучше.** Определите сферу, которая сильнее всего отстаёт от остальных, и подумайте, что в ней зависит от вас. Пересмотрите цели: удовлетворённость растёт, когда цели соответствуют вашим ценностям, а не чужим ожиданиям. Вкладывайтесь в отношения и в занятия, которые дают ощущение смысла и роста. И не забывайте замечать, что уже хорошо: практика благодарности — простой и хорошо изученный способ сдвинуть оценку собственной жизни вверх.",
+            "en": "Your score is in the average range — the way many adults in economically developed countries rate their lives. According to Diener's guide, people here are generally satisfied but have some areas where they'd like to see improvement. Some land here because almost everything is \"fine\" but nothing feels especially great; others because some areas shine while others lag.\n\n**Making it even better.** Identify the area that lags furthest behind and consider what in it is within your control. Revisit your goals: satisfaction rises when goals reflect your own values rather than other people's expectations. Invest in relationships and in activities that bring meaning and growth. And keep noticing what's already good: gratitude practice is a simple, well-studied way to nudge life evaluations upward."
+          }
+        },
+        {
+          "min": 25,
+          "max": 29,
+          "label": {
+            "ru": "Высокая удовлетворённость",
+            "en": "High satisfaction"
+          },
+          "summary": [
+            {
+              "ru": "Вам нравится ваша жизнь",
+              "en": "You like your life"
+            },
+            {
+              "ru": "Основные сферы в целом идут хорошо",
+              "en": "The main areas of life are mostly going well"
+            },
+            {
+              "ru": "Выше, чем у большинства людей",
+              "en": "Higher than most people"
+            },
+            {
+              "ru": "Жизнь не идеальна, но вы чувствуете, что она «ваша»",
+              "en": "Not perfect, but it feels like your life"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы набрали высокий балл: вам нравится ваша жизнь, и вы чувствуете, что дела идут хорошо. По Динеру, у людей на этом уровне жизнь не идеальна, но большинство важных сфер — работа или учёба, семья, друзья, досуг, личное развитие — складываются удачно. Высокая удовлетворённость связана с лучшим здоровьем, отношениями и готовностью ставить новые цели.\n\n**Как поддерживать.** Удовлетворённость может стать ресурсом для роста: это хорошее время, чтобы взяться за то, что давно откладывали, или поддержать других. Иногда люди с высоким баллом находят мотивацию именно в неудовлетворённости в какой-то одной сфере — ничего страшного, если вам хочется большего. Продолжайте вкладываться в то, что делает вашу жизнь хорошей: отношения, здоровье и осмысленные занятия.",
+            "en": "You scored high: you like your life and feel things are going well. Diener notes that for people at this level life isn't perfect, but most important areas — work or study, family, friends, leisure, personal growth — are going well. High life satisfaction goes along with better health, relationships and readiness to take on new goals.\n\n**Keeping it going.** Satisfaction can fuel growth: it's a good time to tackle something you've been putting off, or to support others. People in this range sometimes draw motivation from one area they're still dissatisfied with — and wanting more is perfectly fine. Keep investing in what makes your life good: relationships, health and meaningful activities."
+          }
+        },
+        {
+          "min": 30,
+          "max": 35,
+          "label": {
+            "ru": "Очень высокая удовлетворённость",
+            "en": "Very high satisfaction"
+          },
+          "summary": [
+            {
+              "ru": "Вы очень довольны своей жизнью",
+              "en": "You love your life"
+            },
+            {
+              "ru": "Почти все важные сферы складываются удачно",
+              "en": "Nearly all important areas are going very well"
+            },
+            {
+              "ru": "Это один из самых высоких результатов",
+              "en": "This is among the highest results"
+            },
+            {
+              "ru": "Ваше благополучие — ресурс и для других",
+              "en": "Your well-being is a resource for others too"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в самом верхнем диапазоне. Руководство Динера описывает людей на этом уровне как тех, кто любит свою жизнь и чувствует, что всё идёт очень хорошо. Жизнь не обязательно безупречна, но в ней хорошо складываются ключевые сферы, и вы не стали бы многое в ней менять.\n\n**На что обратить внимание.** Наслаждайтесь — и делитесь: исследования связывают высокое благополучие с щедростью, поддержкой окружающих и активным участием в жизни сообщества. Иногда очень высокая удовлетворённость сочетается с нежеланием что-либо менять; если перед вами открываются новые возможности, не бойтесь развиваться дальше. И помните: даже у очень довольных жизнью людей бывают трудные периоды — заботьтесь о тех ресурсах (отношениях, здоровье, смысле), которые делают вашу жизнь такой.",
+            "en": "Your score is in the very top range. Diener's guide describes people here as loving their lives and feeling that things are going very well. Life needn't be flawless, but the key areas are going well, and you wouldn't change much.\n\n**Worth keeping in mind.** Enjoy it — and share it: research links high well-being with generosity, supporting others and community involvement. Very high satisfaction occasionally comes with reluctance to change anything; if new opportunities arise, don't be afraid to keep growing. And remember that even very satisfied people go through hard periods — tend the resources (relationships, health, meaning) that make your life what it is."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "В основном моя жизнь близка к идеалу.",
+        "en": "In most ways my life is close to my ideal."
+      },
+      "dimension": "life-satisfaction"
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Обстоятельства моей жизни исключительно благоприятны.",
+        "en": "The conditions of my life are excellent."
+      },
+      "dimension": "life-satisfaction"
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Я полностью удовлетворён (удовлетворена) своей жизнью.",
+        "en": "I am satisfied with my life."
+      },
+      "dimension": "life-satisfaction"
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "У меня есть в жизни то, что мне по-настоящему нужно.",
+        "en": "So far I have gotten the important things I want in life."
+      },
+      "dimension": "life-satisfaction"
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Если бы мне пришлось жить ещё раз, я бы оставил(а) всё как есть.",
+        "en": "If I could live my life over, I would change almost nothing."
+      },
+      "dimension": "life-satisfaction"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ даёт от 1 («полностью не согласен») до 7 («полностью согласен») баллов. Обратных утверждений нет. Итоговый балл — сумма по пяти утверждениям, от 5 до 35; 20 — нейтральная точка. Уровни взяты из официального руководства Э. Динера. Процентиль рассчитан по нормальному распределению со средним 20,81 и SD 6,24 (русскоязычная выборка, Осин и Леонтьев, 2020).",
+    "en": "Each answer scores 1 (strongly disagree) to 7 (strongly agree). There are no reverse-keyed items. Your score is the sum of the five items, 5–35; 20 is the neutral point. Bands follow Ed Diener's official interpretation guide. The percentile assumes a normal distribution with mean 20.81 and SD 6.24 (Russian-language sample, Osin & Leontiev, 2020)."
+  },
+  "resultIntro": {
+    "ru": "Удовлетворённость жизнью — это не про отсутствие проблем, а про ваше общее ощущение: «моя жизнь складывается так, как мне важно». Вот ваш результат.",
+    "en": "Life satisfaction isn't about having no problems — it's your overall sense that \"my life is going the way that matters to me\". Here's your result."
+  }
+}

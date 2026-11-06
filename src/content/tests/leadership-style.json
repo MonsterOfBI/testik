@@ -1,0 +1,1477 @@
+{
+  "id": "leadership-style",
+  "category": "career",
+  "kind": "likert",
+  "seriousness": "fun",
+  "title": {
+    "ru": "Ваш стиль лидерства",
+    "en": "Your Leadership Style"
+  },
+  "tagline": {
+    "ru": "Вдохновитель, наставник, демократ, организатор или командир?",
+    "en": "Inspirer, coach, facilitator, organizer or commander?"
+  },
+  "description": {
+    "ru": "30 вопросов о том, как вы ведёте команду, проект или группу. Узнайте, какие инструменты лидерства вы используете чаще всего, где ваши сильные стороны и что стоит развивать — на основе моделей Левина, Огайских исследований и трансформационного лидерства Басса.",
+    "en": "30 questions about how you lead a team, project or group. Find out which leadership tools you use most, where your strengths lie and what to develop — based on Lewin's styles, the Ohio State studies and Bass's transformational leadership."
+  },
+  "emoji": "🧑‍✈️",
+  "durationMin": 6,
+  "popularity": 3,
+  "tags": [
+    {
+      "ru": "лидерство",
+      "en": "leadership"
+    },
+    {
+      "ru": "управление",
+      "en": "management"
+    },
+    {
+      "ru": "карьера",
+      "en": "career"
+    },
+    {
+      "ru": "команда",
+      "en": "teamwork"
+    },
+    {
+      "ru": "soft skills",
+      "en": "soft skills"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряется.** Шесть шкал описывают, как часто вы используете разные инструменты лидерства. Они опираются на три научных традиции:\n\n1. **Стили Курта Левина** (Lewin, Lippitt & White, 1939): авторитарный, демократический и попустительский (laissez-faire). В экспериментах с детскими клубами демократическое руководство давало лучшую атмосферу и инициативу, авторитарное — продуктивность при присутствии лидера, но больше враждебности, а попустительское — худшие результаты. В отечественных учебниках эта типология известна как директивный, коллегиальный (демократический) и либеральный (попустительский) стили.\n2. **Огайские исследования** поведения руководителей: «забота о людях» (consideration) и «инициирующая структура». Метаанализ Judge, Piccolo & Ilies (2004; 163 корреляции) показал связь обоих измерений с результатами лидерства: ρ ≈ .48 для заботы и ρ ≈ .29 для структуры.\n3. **Модель полного диапазона лидерства** Бернарда Басса (Bass & Riggio, 2006): трансформационное (вдохновение, личный пример, интеллектуальная стимуляция, индивидуальное внимание), транзакционное (условное вознаграждение, управление по отклонениям) и пассивное (laissez-faire). Метаанализ Judge & Piccolo (2004) показал общую валидность ≈ .44 для трансформационного лидерства, ≈ .39 для условного вознаграждения и ≈ −.37 для laissez-faire.\n\nШкалы testik: **Вдохновитель** (видение, пример), **Наставник** (индивидуальное внимание), **Демократ** (участие, интеллектуальная стимуляция), **Организатор** (структура + условное вознаграждение), **Командир** (директивный стиль + активный контроль отклонений) и **Невмешательство** (пассивный стиль; высокий балл — зона риска). По Skogstad и соавт. (2007), пассивное лидерство связано со стрессом, ролевыми конфликтами и травлей в коллективах — это «не нейтральный», а вредный стиль.\n\n**Инструмент.** Самый известный опросник модели Басса — MLQ — защищён авторским правом (Mind Garden), поэтому **не используется**. Все 30 утверждений написаны testik на основе описаний конструктов в перечисленных работах (по 5 на шкалу, ответ по частоте 1–5). Балл шкалы — 5–25. Тип определяется по ближайшему профилю.\n\n**Ограничения.** Пункты не проходили психометрической проверки, норм нет, поэтому тест носит статус самопознания (fun), а не диагностики. Самооценка лидерского поведения систематически отличается от оценок подчинённых — для точной картины полезна обратная связь «360°». Стиль ситуативен: эффективный лидер меняет инструменты в зависимости от задачи и зрелости команды.",
+    "en": "**What it measures.** Six scales describe how often you use different leadership tools, drawing on three research traditions:\n\n1. **Kurt Lewin's styles** (Lewin, Lippitt & White, 1939): autocratic, democratic and laissez-faire. In experiments with boys' clubs, democratic leadership produced a better atmosphere and more initiative, autocratic leadership productivity while the leader was present but more hostility, and laissez-faire the poorest results.\n2. **The Ohio State studies** of leader behaviour: consideration and initiating structure. A meta-analysis by Judge, Piccolo & Ilies (2004; 163 correlations) found both related to leadership outcomes: ρ ≈ .48 for consideration and ρ ≈ .29 for initiating structure.\n3. **Bernard Bass's Full Range Leadership model** (Bass & Riggio, 2006): transformational (inspiration, role-modelling, intellectual stimulation, individualised consideration), transactional (contingent reward, management by exception) and passive (laissez-faire). Judge & Piccolo's (2004) meta-analysis found overall validities of ≈ .44 for transformational leadership, ≈ .39 for contingent reward and ≈ −.37 for laissez-faire.\n\ntestik scales: **Visionary** (vision, role-modelling), **Coach** (individualised consideration), **Democratic** (participation, intellectual stimulation), **Organizer** (structure + contingent reward), **Commander** (directive style + active management by exception) and **Hands-off** (passive style; a high score is a risk area). Per Skogstad et al. (2007), passive leadership is linked with stress, role conflict and bullying at work — a harmful rather than neutral style.\n\n**Instrument.** The best-known questionnaire for Bass's model, the MLQ, is copyrighted (Mind Garden) and is **not used**. All 30 statements were written by testik from construct descriptions in the works above (5 per scale, rated for frequency 1–5). Scale scores range 5–25. Your type is the nearest profile.\n\n**Limitations.** The items have not been psychometrically validated and there are no norms, so the test is labelled self-discovery ('fun'), not assessment. Self-ratings of leadership systematically differ from followers' ratings — 360° feedback gives a more accurate picture. Style is situational: effective leaders switch tools depending on the task and the team's maturity."
+  },
+  "sources": [
+    {
+      "citation": "Lewin, K., Lippitt, R., & White, R. K. (1939). Patterns of aggressive behavior in experimentally created 'social climates'. The Journal of Social Psychology, 10(2), 271–299.",
+      "doi": "10.1080/00224545.1939.9713366"
+    },
+    {
+      "citation": "Bass, B. M., & Riggio, R. E. (2006). Transformational leadership (2nd ed.). Lawrence Erlbaum Associates."
+    },
+    {
+      "citation": "Judge, T. A., & Piccolo, R. F. (2004). Transformational and transactional leadership: A meta-analytic test of their relative validity. Journal of Applied Psychology, 89(5), 755–768.",
+      "doi": "10.1037/0021-9010.89.5.755"
+    },
+    {
+      "citation": "Judge, T. A., Piccolo, R. F., & Ilies, R. (2004). The forgotten ones? The validity of consideration and initiating structure in leadership research. Journal of Applied Psychology, 89(1), 36–51.",
+      "doi": "10.1037/0021-9010.89.1.36"
+    },
+    {
+      "citation": "Skogstad, A., Einarsen, S., Torsheim, T., Aasland, M. S., & Hetland, H. (2007). The destructiveness of laissez-faire leadership behavior. Journal of Occupational Health Psychology, 12(1), 80–92.",
+      "doi": "10.1037/1076-8998.12.1.80"
+    },
+    {
+      "citation": "DeRue, D. S., Nahrgang, J. D., Wellman, N., & Humphrey, S. E. (2011). Trait and behavioral theories of leadership: An integration and meta-analytic test of their relative validity. Personnel Psychology, 64(1), 7–52.",
+      "doi": "10.1111/j.1744-6570.2010.01201.x"
+    }
+  ],
+  "license": "Original items and texts © testik, written for this site from published construct definitions (may be released under CC BY 4.0). No items from the copyrighted Multifactor Leadership Questionnaire (MLQ, © Bass & Avolio / Mind Garden) or other proprietary instruments are used. Theories and constructs themselves are not copyrightable.",
+  "instructions": {
+    "ru": "Вспомните ситуации, в которых вы руководили — командой на работе, учебным проектом, волонтёрской акцией, спортивной командой или семейным мероприятием. Если опыта мало, представьте, как вы бы действовали. Отметьте, **как часто** вы так поступаете. Отвечайте честно — «правильного» стиля нет.",
+    "en": "Think of situations where you led — a team at work, a study project, a volunteer event, a sports team or a family occasion. If you have little experience, imagine how you would act. Mark **how often** you behave this way. Be honest — there's no 'right' style."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Почти никогда",
+        "en": "Almost never"
+      },
+      {
+        "ru": "Редко",
+        "en": "Rarely"
+      },
+      {
+        "ru": "Иногда",
+        "en": "Sometimes"
+      },
+      {
+        "ru": "Часто",
+        "en": "Often"
+      },
+      {
+        "ru": "Почти всегда",
+        "en": "Almost always"
+      }
+    ],
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "visionary",
+      "name": {
+        "ru": "Вдохновитель (видение и пример)",
+        "en": "Visionary (vision & role model)"
+      },
+      "description": {
+        "ru": "Трансформационное лидерство: ясное видение будущего, объяснение смысла работы, личный пример и вдохновение (по модели Bass).",
+        "en": "Transformational leadership: a clear vision, explaining why the work matters, role-modelling and inspiration (after Bass)."
+      },
+      "lowLabel": {
+        "ru": "Фокус на текущих задачах",
+        "en": "Focus on the task at hand"
+      },
+      "highLabel": {
+        "ru": "Вдохновляет видением",
+        "en": "Inspires with a vision"
+      },
+      "color": "#FFD6A5",
+      "scoring": "sum",
+      "min": 5,
+      "max": 25,
+      "bands": [
+        {
+          "min": 5,
+          "max": 12,
+          "label": {
+            "ru": "Редко используете",
+            "en": "Rarely used"
+          },
+          "summary": [
+            {
+              "ru": "Вы редко говорите с командой о «большой цели»",
+              "en": "You rarely talk about the big picture"
+            },
+            {
+              "ru": "Фокус — на конкретных задачах здесь и сейчас",
+              "en": "Your focus is on concrete tasks here and now"
+            },
+            {
+              "ru": "Вдохновлять — не самая привычная роль",
+              "en": "Inspiring others isn't a familiar role"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы, скорее всего, ведёте людей через задачи, а не через образ будущего. Это работает в стабильных условиях, но в периоды перемен людям нужен ответ на вопрос «зачем».\n\n**Попробуйте:** в начале проекта сформулируйте в 2–3 предложениях, какой результат вы хотите получить и почему он важен для клиентов или общества. Повторяйте это на встречах. Метаанализ Judge & Piccolo (2004) показал, что трансформационное лидерство — один из самых сильных предикторов эффективности руководителя и удовлетворённости подчинённых, так что этот навык стоит развивать.",
+            "en": "You probably lead through tasks rather than a picture of the future. That works in stable conditions, but in times of change people need an answer to 'why'.\n\n**Try this:** at the start of a project, put into 2–3 sentences what you want to achieve and why it matters to customers or society. Repeat it in meetings. Judge & Piccolo's (2004) meta-analysis found transformational leadership among the strongest predictors of leader effectiveness and follower satisfaction, so this skill is worth building."
+          }
+        },
+        {
+          "min": 13,
+          "max": 19,
+          "label": {
+            "ru": "Используете время от времени",
+            "en": "Used at times"
+          },
+          "summary": [
+            {
+              "ru": "Иногда вдохновляете людей общей целью",
+              "en": "You sometimes rally people around a goal"
+            },
+            {
+              "ru": "Объясняете смысл, когда это важно",
+              "en": "You explain the purpose when it matters"
+            },
+            {
+              "ru": "Есть потенциал для роста",
+              "en": "There's room to grow"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы умеете говорить о смысле и цели, но делаете это не систематически. **Совет:** превратите видение в ритуал — короткое «зачем мы это делаем» на старте каждого проекта и история успеха клиента раз в месяц. Следите за тем, чтобы ваши поступки совпадали со словами: личный пример — основа доверия.",
+            "en": "You can talk about purpose, but not consistently. **Tip:** make vision a ritual — a short 'why we're doing this' at every project kick-off and a customer success story each month. Make sure your actions match your words: role-modelling is the basis of trust."
+          }
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "label": {
+            "ru": "Ваш частый инструмент",
+            "en": "A go-to tool"
+          },
+          "summary": [
+            {
+              "ru": "Вы рисуете яркую картину будущего",
+              "en": "You paint a vivid picture of the future"
+            },
+            {
+              "ru": "Люди заряжаются вашей энергией",
+              "en": "People catch your energy"
+            },
+            {
+              "ru": "Показываете пример, а не только требуете",
+              "en": "You lead by example, not just by demands"
+            },
+            {
+              "ru": "Умеете объяснять «зачем»",
+              "en": "You explain the 'why'"
+            }
+          ],
+          "detailed": {
+            "ru": "Вдохновение — ваш сильный инструмент. Вы объясняете смысл, верите в команду и показываете пример. Исследования связывают такой стиль с вовлечённостью, доверием и эффективностью команд.\n\n**Зоны риска:** вдохновение без структуры приводит к хаосу, а харизма без обратной связи — к «эхо-камере». Подкрепляйте видение планом (или партнёром-организатором), регулярно спрашивайте команду, что мешает, и проверяйте, что красивые цели реалистичны по ресурсам.",
+            "en": "Inspiration is a strong tool for you. You explain purpose, believe in your team and set an example. Research links this style with engagement, trust and team effectiveness.\n\n**Watch-outs:** inspiration without structure leads to chaos, and charisma without feedback to an echo chamber. Back your vision with a plan (or an organiser partner), ask the team regularly what's getting in the way, and check that inspiring goals are realistic given resources."
+          }
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "name": {
+        "ru": "Наставник (индивидуальный подход)",
+        "en": "Coach (individual consideration)"
+      },
+      "description": {
+        "ru": "Внимание к каждому человеку: его сильным сторонам, развитию, поддержке и обучению на ошибках.",
+        "en": "Attention to each individual: strengths, growth, support and learning from mistakes."
+      },
+      "lowLabel": {
+        "ru": "Ко всем одинаково",
+        "en": "Same approach for all"
+      },
+      "highLabel": {
+        "ru": "Развивает каждого",
+        "en": "Develops each person"
+      },
+      "color": "#BFE6C8",
+      "scoring": "sum",
+      "min": 5,
+      "max": 25,
+      "bands": [
+        {
+          "min": 5,
+          "max": 12,
+          "label": {
+            "ru": "Редко используете",
+            "en": "Rarely used"
+          },
+          "summary": [
+            {
+              "ru": "Индивидуальные разговоры о развитии — редкость",
+              "en": "One-to-one growth talks are rare"
+            },
+            {
+              "ru": "Подход ко всем примерно одинаковый",
+              "en": "You treat everyone much the same"
+            },
+            {
+              "ru": "Ошибки чаще исправляете сами",
+              "en": "You tend to fix mistakes yourself"
+            }
+          ],
+          "detailed": {
+            "ru": "Наставничество пока не ваш основной инструмент. Возможно, вы сосредоточены на результате или считаете, что взрослые люди развиваются сами.\n\n**Попробуйте:** раз в 2–4 недели 20-минутная встреча один на один с каждым — три вопроса: «что получается?», «что мешает?», «чему хочешь научиться?». Исследования «заботливого» лидерства (consideration) показывают сильную связь с удовлетворённостью и мотивацией сотрудников (Judge, Piccolo & Ilies, 2004).",
+            "en": "Coaching isn't your main tool yet. Perhaps you focus on results or assume adults develop on their own.\n\n**Try this:** every 2–4 weeks hold a 20-minute one-to-one with each person — three questions: 'what's going well?', 'what's in the way?', 'what do you want to learn?'. Research on considerate leadership shows strong links with employee satisfaction and motivation (Judge, Piccolo & Ilies, 2004)."
+          }
+        },
+        {
+          "min": 13,
+          "max": 19,
+          "label": {
+            "ru": "Используете время от времени",
+            "en": "Used at times"
+          },
+          "summary": [
+            {
+              "ru": "Поддерживаете людей, когда видите потребность",
+              "en": "You support people when you see the need"
+            },
+            {
+              "ru": "Иногда даёте задачи «на вырост»",
+              "en": "You sometimes give stretch tasks"
+            },
+            {
+              "ru": "Можно делать это системнее",
+              "en": "You could do it more systematically"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы заботитесь о развитии людей, но скорее ситуативно. **Совет:** составьте простую карту команды — сильные стороны и цели развития каждого — и подбирайте задачи с учётом неё. Это недорогой способ повысить и вовлечённость, и качество работы.",
+            "en": "You care about people's growth, but situationally. **Tip:** make a simple team map — each person's strengths and growth goals — and assign tasks with it in mind. It's a cheap way to raise both engagement and quality."
+          }
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "label": {
+            "ru": "Ваш частый инструмент",
+            "en": "A go-to tool"
+          },
+          "summary": [
+            {
+              "ru": "Вы видите в каждом потенциал",
+              "en": "You see potential in everyone"
+            },
+            {
+              "ru": "Подстраиваете подход под человека",
+              "en": "You tailor your approach to the person"
+            },
+            {
+              "ru": "Ошибки — повод учиться, а не наказывать",
+              "en": "Mistakes are for learning, not punishment"
+            },
+            {
+              "ru": "Люди растут рядом с вами",
+              "en": "People grow around you"
+            }
+          ],
+          "detailed": {
+            "ru": "Наставничество — ваша сильная сторона. Вы замечаете индивидуальность, поддерживаете и даёте пространство для роста. Это одна из составляющих трансформационного лидерства и основа психологической безопасности в команде.\n\n**Зоны риска:** чрезмерная опека и нежелание давать жёсткую обратную связь. Помните, что честная оценка — тоже забота. Сочетайте поддержку с ясными ожиданиями и сроками, иначе развитие людей может идти в ущерб результату.",
+            "en": "Coaching is your strength. You notice individuality, offer support and give room to grow. It's a component of transformational leadership and the basis of psychological safety in a team.\n\n**Watch-outs:** over-protecting people and avoiding tough feedback. Honest assessment is also care. Combine support with clear expectations and deadlines, or people's growth may come at the expense of results."
+          }
+        }
+      ]
+    },
+    {
+      "id": "democratic",
+      "name": {
+        "ru": "Демократ (вовлечение команды)",
+        "en": "Democratic (participative)"
+      },
+      "description": {
+        "ru": "Совместное принятие решений, сбор мнений, поощрение критического мышления и новых идей (демократический стиль Левина; интеллектуальная стимуляция).",
+        "en": "Shared decision-making, gathering input, encouraging critical thinking and new ideas (Lewin's democratic style; intellectual stimulation)."
+      },
+      "lowLabel": {
+        "ru": "Решаю сам(а)",
+        "en": "Decides alone"
+      },
+      "highLabel": {
+        "ru": "Решаем вместе",
+        "en": "Decides together"
+      },
+      "color": "#B8D8F2",
+      "scoring": "sum",
+      "min": 5,
+      "max": 25,
+      "bands": [
+        {
+          "min": 5,
+          "max": 12,
+          "label": {
+            "ru": "Редко используете",
+            "en": "Rarely used"
+          },
+          "summary": [
+            {
+              "ru": "Важные решения вы обычно принимаете сами",
+              "en": "You usually make key decisions yourself"
+            },
+            {
+              "ru": "Обсуждения кажутся тратой времени",
+              "en": "Discussions can feel like wasted time"
+            },
+            {
+              "ru": "Команда редко влияет на план",
+              "en": "The team rarely shapes the plan"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы предпочитаете решать самостоятельно — это быстро и бывает оправдано в кризисе. Но в обычных условиях люди охотнее выполняют решения, в которых участвовали, а команда часто видит риски, которых не видит руководитель.\n\n**Попробуйте:** перед следующим важным решением задайте команде один вопрос: «Что я упускаю?» — и дайте 10 минут на ответы. Особенно полезно спрашивать тех, кто обычно молчит.",
+            "en": "You prefer to decide on your own — fast and sometimes justified in a crisis. But in normal conditions people commit more to decisions they helped shape, and teams often see risks the leader misses.\n\n**Try this:** before your next important decision, ask the team one question: 'What am I missing?' and give it 10 minutes. Ask the usually quiet people especially."
+          }
+        },
+        {
+          "min": 13,
+          "max": 19,
+          "label": {
+            "ru": "Используете время от времени",
+            "en": "Used at times"
+          },
+          "summary": [
+            {
+              "ru": "Советуетесь с командой по важным вопросам",
+              "en": "You consult the team on important issues"
+            },
+            {
+              "ru": "Готовы менять план, если есть аргументы",
+              "en": "You'll change course given good arguments"
+            },
+            {
+              "ru": "Последнее слово чаще за вами",
+              "en": "You usually have the final say"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы сочетаете сбор мнений с собственной ответственностью за решение — это зрелый «консультативный» стиль. **Совет:** заранее говорите команде, какой формат у решения: «решаю я, но хочу услышать вас», «решаем голосованием» или «решаете вы». Ясность формата снимает разочарование.",
+            "en": "You combine gathering input with owning the decision — a mature consultative style. **Tip:** tell the team upfront what kind of decision it is: 'I decide but want your input', 'we vote' or 'you decide'. Clarity prevents disappointment."
+          }
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "label": {
+            "ru": "Ваш частый инструмент",
+            "en": "A go-to tool"
+          },
+          "summary": [
+            {
+              "ru": "Вы вовлекаете команду в решения",
+              "en": "You involve the team in decisions"
+            },
+            {
+              "ru": "Поощряете сомнения и новые идеи",
+              "en": "You encourage questioning and new ideas"
+            },
+            {
+              "ru": "Даёте голос каждому",
+              "en": "You give everyone a voice"
+            },
+            {
+              "ru": "Люди чувствуют себя соавторами",
+              "en": "People feel like co-authors"
+            }
+          ],
+          "detailed": {
+            "ru": "Вовлечение — ваш главный инструмент. В классических экспериментах Левина, Липпитта и Уайта (1939) демократическое руководство давало более дружелюбную атмосферу и больше инициативы, чем авторитарное, а работа продолжалась и в отсутствие лидера.\n\n**Зоны риска:** бесконечные обсуждения и размытая ответственность. В срочных ситуациях будьте готовы решать быстро и сами; фиксируйте, кто и когда принимает окончательное решение, — иначе демократия незаметно превращается в попустительство.",
+            "en": "Participation is your main tool. In Lewin, Lippitt and White's (1939) classic experiments, democratic leadership produced a friendlier atmosphere and more initiative than autocratic leadership, and work continued when the leader was absent.\n\n**Watch-outs:** endless discussion and diluted accountability. In urgent situations be ready to decide quickly yourself; make clear who makes the final call and when — otherwise democracy quietly slides into laissez-faire."
+          }
+        }
+      ]
+    },
+    {
+      "id": "organizer",
+      "name": {
+        "ru": "Организатор (структура и договорённости)",
+        "en": "Organizer (structure & clear deals)"
+      },
+      "description": {
+        "ru": "Чёткие роли, планы, сроки и контроль, а также договорённость «результат — признание» (инициирующая структура; транзакционное «условное вознаграждение»).",
+        "en": "Clear roles, plans, deadlines and follow-up, plus 'result — reward' agreements (initiating structure; transactional contingent reward)."
+      },
+      "lowLabel": {
+        "ru": "Гибко, без жёстких планов",
+        "en": "Flexible, few plans"
+      },
+      "highLabel": {
+        "ru": "Ясные цели и сроки",
+        "en": "Clear goals and deadlines"
+      },
+      "color": "#F7E3A1",
+      "scoring": "sum",
+      "min": 5,
+      "max": 25,
+      "bands": [
+        {
+          "min": 5,
+          "max": 12,
+          "label": {
+            "ru": "Редко используете",
+            "en": "Rarely used"
+          },
+          "summary": [
+            {
+              "ru": "Планы и сроки часто остаются «в голове»",
+              "en": "Plans and deadlines often stay in your head"
+            },
+            {
+              "ru": "Роли в команде могут быть размыты",
+              "en": "Team roles may be blurry"
+            },
+            {
+              "ru": "Признание за результат — нерегулярно",
+              "en": "Recognition for results is irregular"
+            }
+          ],
+          "detailed": {
+            "ru": "Структура — не ваш любимый инструмент. Команде может не хватать ясности: кто за что отвечает, к какому сроку и что будет, когда цель достигнута.\n\n**Попробуйте:** для каждой задачи фиксируйте «кто — что — к какому сроку» в общем трекере и проводите короткий еженедельный обзор. Отмечайте достижения вслух. Метаанализы показывают, что и инициирующая структура, и условное вознаграждение заметно связаны с результативностью (Judge & Piccolo, 2004; Judge, Piccolo & Ilies, 2004).",
+            "en": "Structure isn't your favourite tool. Your team may lack clarity on who owns what, by when, and what happens when the goal is met.\n\n**Try this:** for each task record 'who — what — by when' in a shared tracker and hold a short weekly review. Recognise achievements out loud. Meta-analyses show that both initiating structure and contingent reward relate noticeably to performance (Judge & Piccolo, 2004; Judge, Piccolo & Ilies, 2004)."
+          }
+        },
+        {
+          "min": 13,
+          "max": 19,
+          "label": {
+            "ru": "Используете время от времени",
+            "en": "Used at times"
+          },
+          "summary": [
+            {
+              "ru": "Ставите цели и сроки, когда это нужно",
+              "en": "You set goals and deadlines when needed"
+            },
+            {
+              "ru": "Контролируете ключевые этапы",
+              "en": "You track key milestones"
+            },
+            {
+              "ru": "Оставляете место для гибкости",
+              "en": "You leave room for flexibility"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы используете структуру разумно — без бюрократии, но и без хаоса. **Совет:** проверьте, всем ли понятны критерии «хорошо сделанной работы». Ясные ожидания — самый простой способ снизить стресс в команде.",
+            "en": "You use structure sensibly — no bureaucracy, no chaos. **Tip:** check that everyone understands what 'a job well done' means. Clear expectations are the simplest way to reduce team stress."
+          }
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "label": {
+            "ru": "Ваш частый инструмент",
+            "en": "A go-to tool"
+          },
+          "summary": [
+            {
+              "ru": "Каждый знает свою роль и сроки",
+              "en": "Everyone knows their role and deadlines"
+            },
+            {
+              "ru": "Большие цели превращаете в план",
+              "en": "You turn big goals into plans"
+            },
+            {
+              "ru": "Честно признаёте заслуги",
+              "en": "You fairly recognise contributions"
+            },
+            {
+              "ru": "С вами предсказуемо и надёжно",
+              "en": "Working with you is predictable and reliable"
+            }
+          ],
+          "detailed": {
+            "ru": "Организация — ваша суперсила. Вы превращаете идеи в планы, договариваетесь о результатах и честно отмечаете достижения. Это основа транзакционного лидерства, которое по данным Judge & Piccolo (2004) почти так же связано с эффективностью, как трансформационное.\n\n**Зоны риска:** чрезмерный контроль и фокус только на измеримом. Оставляйте людям свободу в выборе способа, объясняйте смысл целей (не только цифры) и периодически пересматривайте правила, чтобы структура помогала, а не мешала.",
+            "en": "Organisation is your superpower. You turn ideas into plans, agree on outcomes and fairly recognise achievements. This is the core of transactional leadership, which Judge & Piccolo (2004) found nearly as related to effectiveness as transformational leadership.\n\n**Watch-outs:** over-control and focusing only on the measurable. Leave people freedom in how they work, explain the purpose behind targets (not just numbers) and revisit rules periodically so structure helps rather than hinders."
+          }
+        }
+      ]
+    },
+    {
+      "id": "commander",
+      "name": {
+        "ru": "Командир (директивный стиль)",
+        "en": "Commander (directive)"
+      },
+      "description": {
+        "ru": "Единоличные быстрые решения, чёткие указания «что и как», контроль отклонений (авторитарный/директивный стиль Левина; активное «управление по отклонениям»).",
+        "en": "Fast solo decisions, precise 'what and how' instructions, monitoring deviations (Lewin's autocratic/directive style; active management by exception)."
+      },
+      "lowLabel": {
+        "ru": "Мягкое руководство",
+        "en": "Soft-touch leading"
+      },
+      "highLabel": {
+        "ru": "Твёрдая рука",
+        "en": "Firm hand"
+      },
+      "color": "#F4B6B6",
+      "scoring": "sum",
+      "min": 5,
+      "max": 25,
+      "bands": [
+        {
+          "min": 5,
+          "max": 12,
+          "label": {
+            "ru": "Редко используете",
+            "en": "Rarely used"
+          },
+          "summary": [
+            {
+              "ru": "Вы редко отдаёте жёсткие распоряжения",
+              "en": "You rarely give firm orders"
+            },
+            {
+              "ru": "Предпочитаете договариваться, а не приказывать",
+              "en": "You'd rather agree than command"
+            },
+            {
+              "ru": "В кризисе может не хватать решительности",
+              "en": "In a crisis you may lack decisiveness"
+            }
+          ],
+          "detailed": {
+            "ru": "Директивный стиль вам не близок — и в большинстве ситуаций это хорошо: люди ценят автономию. Однако бывают моменты (авария, жёсткий дедлайн, новичок без опыта), когда команде нужно чёткое «делаем так».\n\n**Попробуйте:** заранее определите для себя ситуации, в которых вы берёте решение на себя, и потренируйте короткие ясные формулировки: «Решение такое. Срок такой. Ответственный — ты».",
+            "en": "A directive style isn't natural for you — and in most situations that's good: people value autonomy. But there are moments (an emergency, a hard deadline, an inexperienced newcomer) when the team needs a clear 'this is what we do'.\n\n**Try this:** define in advance the situations where you'll take the decision yourself, and practise short, clear statements: 'Here's the decision. Here's the deadline. You own it.'"
+          }
+        },
+        {
+          "min": 13,
+          "max": 19,
+          "label": {
+            "ru": "Используете время от времени",
+            "en": "Used at times"
+          },
+          "summary": [
+            {
+              "ru": "Умеете быть твёрдым(-ой), когда нужно",
+              "en": "You can be firm when needed"
+            },
+            {
+              "ru": "Контролируете ключевые риски",
+              "en": "You monitor key risks"
+            },
+            {
+              "ru": "Не злоупотребляете приказами",
+              "en": "You don't overuse orders"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы используете директивность ситуативно — это признак гибкого лидера. **Совет:** объясняйте причины своих жёстких решений хотя бы постфактум — так команда сохранит доверие и поймёт логику.",
+            "en": "You use directiveness situationally — a sign of a flexible leader. **Tip:** explain the reasons for firm decisions, at least afterwards — the team keeps its trust and learns your logic."
+          }
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "label": {
+            "ru": "Ваш частый инструмент",
+            "en": "A go-to tool"
+          },
+          "summary": [
+            {
+              "ru": "Быстро принимаете решения и берёте ответственность",
+              "en": "You decide fast and take responsibility"
+            },
+            {
+              "ru": "Даёте чёткие указания",
+              "en": "You give clear instructions"
+            },
+            {
+              "ru": "Пристально следите за качеством",
+              "en": "You keep a close eye on quality"
+            },
+            {
+              "ru": "Сильны в кризисах",
+              "en": "You're strong in crises"
+            }
+          ],
+          "detailed": {
+            "ru": "Директивность — ваш частый инструмент. В кризисе, при высоких рисках или с неопытной командой это ценно: вы быстро решаете и держите стандарты. В экспериментах Левина авторитарные группы работали продуктивно, пока лидер присутствовал, но в них было больше враждебности и меньше инициативы, а без лидера работа останавливалась.\n\n**Зоны риска:** зависимость команды от вас, выгорание (всё решаете вы), потеря талантливых людей, которым нужна автономия. **Совет:** постепенно делегируйте «как» — оставляя за собой «что» и «к какому сроку», — и спрашивайте мнение команды до решения хотя бы в некритичных вопросах.",
+            "en": "Directiveness is a frequent tool for you. In a crisis, under high risk or with an inexperienced team that's valuable: you decide fast and hold standards. In Lewin's experiments autocratic groups were productive while the leader was present, but showed more hostility and less initiative, and work stopped without the leader.\n\n**Watch-outs:** team dependence on you, burnout (you decide everything), losing talented people who need autonomy. **Tip:** gradually delegate the 'how' while keeping the 'what' and 'by when', and ask for the team's view before deciding, at least on non-critical issues."
+          }
+        }
+      ]
+    },
+    {
+      "id": "handsoff",
+      "name": {
+        "ru": "Невмешательство (пассивный стиль)",
+        "en": "Hands-off (passive / laissez-faire)"
+      },
+      "description": {
+        "ru": "Избегание решений, запоздалое вмешательство, недоступность, откладывание трудных разговоров (попустительский стиль; laissez-faire). Высокий балл — зона риска, а не сильная сторона.",
+        "en": "Avoiding decisions, stepping in late, being unavailable, postponing difficult conversations (laissez-faire). A high score is a risk area, not a strength."
+      },
+      "lowLabel": {
+        "ru": "Активно вовлечён(а)",
+        "en": "Actively engaged"
+      },
+      "highLabel": {
+        "ru": "Часто устраняюсь",
+        "en": "Often steps back"
+      },
+      "color": "#D7D7D7",
+      "scoring": "sum",
+      "min": 5,
+      "max": 25,
+      "bands": [
+        {
+          "min": 5,
+          "max": 12,
+          "label": {
+            "ru": "Низкий — хорошо",
+            "en": "Low — good"
+          },
+          "summary": [
+            {
+              "ru": "Вы вовремя вмешиваетесь в проблемы",
+              "en": "You step in on problems in time"
+            },
+            {
+              "ru": "Не избегаете решений",
+              "en": "You don't avoid decisions"
+            },
+            {
+              "ru": "Доступны для команды",
+              "en": "You're available to your team"
+            }
+          ],
+          "detailed": {
+            "ru": "Отлично: вы не устраняетесь от лидерской роли. Пассивное руководство — единственный стиль, который в исследованиях устойчиво связан с худшими результатами, конфликтами и стрессом в командах (Judge & Piccolo, 2004; Skogstad et al., 2007).\n\n**Совет:** помните, что делегирование и невмешательство — разные вещи. Если вы даёте людям свободу, оставайтесь доступным(-ой) и договаривайтесь о точках проверки.",
+            "en": "Great: you don't withdraw from the leadership role. Passive leadership is the one style research consistently links with worse results, conflict and stress in teams (Judge & Piccolo, 2004; Skogstad et al., 2007).\n\n**Tip:** remember that delegating and disengaging are different. When you give people freedom, stay available and agree on check-in points."
+          }
+        },
+        {
+          "min": 13,
+          "max": 19,
+          "label": {
+            "ru": "Умеренный",
+            "en": "Moderate"
+          },
+          "summary": [
+            {
+              "ru": "Иногда откладываете решения или разговоры",
+              "en": "You sometimes delay decisions or conversations"
+            },
+            {
+              "ru": "Бывает, вмешиваетесь, когда уже «горит»",
+              "en": "You sometimes step in only when things are on fire"
+            },
+            {
+              "ru": "Есть смысл присмотреться",
+              "en": "Worth a closer look"
+            }
+          ],
+          "detailed": {
+            "ru": "Временами вы устраняетесь — возможно, из-за перегрузки, нелюбви к конфликтам или уверенности, что «само рассосётся». **Совет:** выберите один отложенный вопрос (решение, сложный разговор о результатах) и закройте его на этой неделе. Введите короткие регулярные встречи с командой, чтобы проблемы всплывали рано.",
+            "en": "At times you withdraw — maybe from overload, conflict avoidance or hoping things will sort themselves out. **Tip:** pick one postponed issue (a decision, a hard performance conversation) and close it this week. Introduce short regular team check-ins so problems surface early."
+          }
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "label": {
+            "ru": "Высокий — зона риска",
+            "en": "High — risk area"
+          },
+          "summary": [
+            {
+              "ru": "Вы часто ждёте, пока проблема станет серьёзной",
+              "en": "You often wait until problems become serious"
+            },
+            {
+              "ru": "Избегаете решений и трудных разговоров",
+              "en": "You avoid decisions and tough talks"
+            },
+            {
+              "ru": "Команде может не хватать вашей поддержки",
+              "en": "Your team may lack your support"
+            },
+            {
+              "ru": "Это поправимо — с конкретными шагами",
+              "en": "This is fixable with concrete steps"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш профиль показывает выраженное избегание лидерской роли. Это не приговор: часто причина в перегрузке, усталости, страхе конфликта или в том, что роль руководителя досталась «не по желанию». Но стоит знать: пассивное руководство в исследованиях связано с ролевой неопределённостью, конфликтами и даже травлей в коллективах (Skogstad et al., 2007) и отрицательно — с эффективностью (Judge & Piccolo, 2004).\n\n**Первые шаги:** (1) еженедельная 15-минутная встреча с командой; (2) правило «48 часов» — любой запрос на решение получает ответ за двое суток; (3) один трудный разговор в неделю — по скрипту «факт — влияние — что дальше». Если руководить не хочется вовсе, это тоже честный ответ: экспертная карьера без управления людьми — достойный путь.",
+            "en": "Your profile shows marked avoidance of the leadership role. It's not a verdict: often the cause is overload, fatigue, fear of conflict or a leadership role taken on reluctantly. But research links passive leadership with role ambiguity, conflict and even bullying in teams (Skogstad et al., 2007), and negatively with effectiveness (Judge & Piccolo, 2004).\n\n**First steps:** (1) a weekly 15-minute team check-in; (2) a '48-hour rule' — every request for a decision gets an answer within two days; (3) one hard conversation a week using 'fact — impact — next step'. If you don't want to lead at all, that's an honest answer too: an expert career without managing people is a worthy path."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "visionary1",
+      "text": {
+        "ru": "Я рисую команде ясную и вдохновляющую картину того, куда мы движемся.",
+        "en": "I paint a clear, inspiring picture of where the team is heading."
+      },
+      "dimension": "visionary"
+    },
+    {
+      "id": "coach1",
+      "text": {
+        "ru": "Я выясняю, в чём силён каждый человек и чему он хочет научиться.",
+        "en": "I find out what each person is good at and what they want to learn."
+      },
+      "dimension": "coach"
+    },
+    {
+      "id": "democratic1",
+      "text": {
+        "ru": "Перед важными решениями я спрашиваю мнение команды.",
+        "en": "Before important decisions, I ask the team for their views."
+      },
+      "dimension": "democratic"
+    },
+    {
+      "id": "organizer1",
+      "text": {
+        "ru": "Я слежу, чтобы каждый точно знал, за что он отвечает.",
+        "en": "I make sure everyone knows exactly what they are responsible for."
+      },
+      "dimension": "organizer"
+    },
+    {
+      "id": "commander1",
+      "text": {
+        "ru": "В сложной ситуации я принимаю решение сам(а) и быстро.",
+        "en": "In a difficult situation I make the decision myself, and quickly."
+      },
+      "dimension": "commander"
+    },
+    {
+      "id": "handsoff1",
+      "text": {
+        "ru": "Я склонен(а) ждать, пока проблема станет серьёзной, прежде чем вмешаться.",
+        "en": "I tend to wait until a problem becomes serious before stepping in."
+      },
+      "dimension": "handsoff"
+    },
+    {
+      "id": "visionary2",
+      "text": {
+        "ru": "Я объясняю, почему наша работа важна, а не только что нужно сделать.",
+        "en": "I explain why our work matters, not just what needs to be done."
+      },
+      "dimension": "visionary"
+    },
+    {
+      "id": "coach2",
+      "text": {
+        "ru": "Я выделяю время на личные разговоры с людьми об их развитии.",
+        "en": "I make time for one-to-one conversations about people's development."
+      },
+      "dimension": "coach"
+    },
+    {
+      "id": "democratic2",
+      "text": {
+        "ru": "Я поощряю людей сомневаться в привычных способах работы.",
+        "en": "I encourage people to question the usual ways of doing things."
+      },
+      "dimension": "democratic"
+    },
+    {
+      "id": "organizer2",
+      "text": {
+        "ru": "Я ставлю чёткие сроки и регулярно проверяю, как идёт работа.",
+        "en": "I set clear deadlines and regularly check progress."
+      },
+      "dimension": "organizer"
+    },
+    {
+      "id": "commander2",
+      "text": {
+        "ru": "Я ожидаю, что указания будут выполняться без долгих обсуждений.",
+        "en": "I expect instructions to be carried out without lengthy discussion."
+      },
+      "dimension": "commander"
+    },
+    {
+      "id": "handsoff2",
+      "text": {
+        "ru": "Я по возможности избегаю принятия решений.",
+        "en": "I avoid making decisions when I can."
+      },
+      "dimension": "handsoff"
+    },
+    {
+      "id": "visionary3",
+      "text": {
+        "ru": "Я выражаю уверенность, что вместе мы достигнем амбициозных целей.",
+        "en": "I express confidence that together we will reach ambitious goals."
+      },
+      "dimension": "visionary"
+    },
+    {
+      "id": "coach3",
+      "text": {
+        "ru": "Я подстраиваю свой подход под конкретного человека, а не обращаюсь со всеми одинаково.",
+        "en": "I adapt my approach to the individual instead of treating everyone the same."
+      },
+      "dimension": "coach"
+    },
+    {
+      "id": "democratic3",
+      "text": {
+        "ru": "Я готов(а) изменить свой план, если команда предлагает идею лучше.",
+        "en": "I'm willing to change my plan if the team suggests a better idea."
+      },
+      "dimension": "democratic"
+    },
+    {
+      "id": "organizer3",
+      "text": {
+        "ru": "Я заранее договариваюсь, какой результат ожидается и что человек получит, когда его достигнет.",
+        "en": "I agree in advance what result is expected and what people get when they achieve it."
+      },
+      "dimension": "organizer"
+    },
+    {
+      "id": "commander3",
+      "text": {
+        "ru": "Я внимательно отслеживаю ошибки и отклонения от стандарта.",
+        "en": "I keep a close eye on mistakes and deviations from the standard."
+      },
+      "dimension": "commander"
+    },
+    {
+      "id": "handsoff3",
+      "text": {
+        "ru": "Я оставляю людей разбираться самостоятельно, даже когда они просят указаний.",
+        "en": "I leave people to sort things out themselves, even when they ask for direction."
+      },
+      "dimension": "handsoff"
+    },
+    {
+      "id": "visionary4",
+      "text": {
+        "ru": "Я стараюсь личным примером показывать то поведение, которого жду от других.",
+        "en": "I try to model through my own behaviour what I expect from others."
+      },
+      "dimension": "visionary"
+    },
+    {
+      "id": "coach4",
+      "text": {
+        "ru": "Когда кто-то ошибается, я помогаю извлечь урок, а не ищу виноватого.",
+        "en": "When someone makes a mistake, I help them learn from it rather than looking for someone to blame."
+      },
+      "dimension": "coach"
+    },
+    {
+      "id": "democratic4",
+      "text": {
+        "ru": "Я специально даю высказаться даже самым тихим участникам.",
+        "en": "I make a point of inviting even the quietest members to share ideas."
+      },
+      "dimension": "democratic"
+    },
+    {
+      "id": "organizer4",
+      "text": {
+        "ru": "Я отмечаю людей, когда они достигают поставленных целей.",
+        "en": "I recognise people when they meet their goals."
+      },
+      "dimension": "organizer"
+    },
+    {
+      "id": "commander4",
+      "text": {
+        "ru": "Я считаю, что команда работает лучше, когда главный в ней явно один человек.",
+        "en": "I believe a team works best when one person is clearly in charge."
+      },
+      "dimension": "commander"
+    },
+    {
+      "id": "handsoff4",
+      "text": {
+        "ru": "Мне бывает трудно быть доступным(-ой), когда я нужен(-на) команде.",
+        "en": "I find it hard to be available when the team needs me."
+      },
+      "dimension": "handsoff"
+    },
+    {
+      "id": "visionary5",
+      "text": {
+        "ru": "Люди говорят, что я заряжаю их сделать больше, чем они от себя ожидали.",
+        "en": "People say I energise them to do more than they expected of themselves."
+      },
+      "dimension": "visionary"
+    },
+    {
+      "id": "coach5",
+      "text": {
+        "ru": "Я даю людям задачи «на вырост» и поддерживаю их при выполнении.",
+        "en": "I give people stretch tasks and support them along the way."
+      },
+      "dimension": "coach"
+    },
+    {
+      "id": "democratic5",
+      "text": {
+        "ru": "Я предпочитаю решения, с которыми согласна группа, решениям, принятым мной в одиночку.",
+        "en": "I prefer decisions the group agrees on to decisions I make alone."
+      },
+      "dimension": "democratic"
+    },
+    {
+      "id": "organizer5",
+      "text": {
+        "ru": "Я разбиваю большие цели на конкретный план и шаги.",
+        "en": "I break big goals into a concrete plan and steps."
+      },
+      "dimension": "organizer"
+    },
+    {
+      "id": "commander5",
+      "text": {
+        "ru": "Я говорю людям не только что делать, но и как именно это делать.",
+        "en": "I tell people not only what to do but exactly how to do it."
+      },
+      "dimension": "commander"
+    },
+    {
+      "id": "handsoff5",
+      "text": {
+        "ru": "Я откладываю трудные разговоры о результатах работы.",
+        "en": "I put off difficult conversations about performance."
+      },
+      "dimension": "handsoff"
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "inspirer",
+      "title": {
+        "ru": "Вдохновитель",
+        "en": "The Inspirer"
+      },
+      "emoji": "🔥",
+      "profile": {
+        "visionary": 0.95,
+        "coach": 0.65,
+        "democratic": 0.65,
+        "organizer": 0.5,
+        "commander": 0.4,
+        "handsoff": 0.15
+      },
+      "summary": [
+        {
+          "ru": "Вы ведёте людей через смысл и видение",
+          "en": "You lead through purpose and vision"
+        },
+        {
+          "ru": "Люди заряжаются вашей энергией",
+          "en": "People catch your energy"
+        },
+        {
+          "ru": "Вы показываете пример",
+          "en": "You lead by example"
+        },
+        {
+          "ru": "Ваш стиль близок к трансформационному",
+          "en": "Your style is close to transformational leadership"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий инструмент — **вдохновение**: вы объясняете, зачем команда делает то, что делает, верите в людей и задаёте планку собственным примером. В модели «полного диапазона лидерства» Басса это ядро трансформационного стиля, который в метаанализах устойчиво связан с эффективностью руководителя, удовлетворённостью и мотивацией команды.\n\n**Где вы особенно сильны:** запуск новых проектов, перемены, объединение людей вокруг цели, работа с талантливыми и самостоятельными специалистами.\n\n**На что обратить внимание:** видение должно подкрепляться планом и ресурсами — найдите партнёра-«организатора» или выработайте привычку переводить цели в конкретные шаги и сроки. Регулярно собирайте обратную связь, чтобы энтузиазм не превращался в нереалистичные обещания.\n\n**Упражнение:** сформулируйте «историю будущего» вашей команды на одну страницу и обсудите её — что людям откликается, а что вызывает сомнения.",
+        "en": "Your leading tool is **inspiration**: you explain why the team does what it does, believe in people and set the bar through your own example. In Bass's Full Range Leadership model this is the core of the transformational style, which meta-analyses consistently link with leader effectiveness, follower satisfaction and motivation.\n\n**Where you shine:** launching new projects, change, rallying people around a goal, leading talented, independent specialists.\n\n**Watch-outs:** vision must be backed by a plan and resources — find an organiser partner or build the habit of turning goals into concrete steps and deadlines. Collect feedback regularly so enthusiasm doesn't become unrealistic promises.\n\n**Exercise:** write a one-page 'story of the future' for your team and discuss it — what resonates and what raises doubts."
+      },
+      "strengths": [
+        {
+          "ru": "Харизма и энергия",
+          "en": "Charisma and energy"
+        },
+        {
+          "ru": "Умение объяснять смысл",
+          "en": "Explaining purpose"
+        },
+        {
+          "ru": "Личный пример",
+          "en": "Role-modelling"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Перевод видения в план",
+          "en": "Turning vision into plans"
+        },
+        {
+          "ru": "Внимание к деталям и срокам",
+          "en": "Attention to details and deadlines"
+        }
+      ],
+      "compatibleWith": [
+        "organizer",
+        "coach"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a cheerful leader holding a glowing torch, guiding a small team toward a sunrise, soft colors"
+    },
+    {
+      "id": "coach",
+      "title": {
+        "ru": "Наставник",
+        "en": "The Coach"
+      },
+      "emoji": "🌱",
+      "profile": {
+        "visionary": 0.6,
+        "coach": 0.95,
+        "democratic": 0.7,
+        "organizer": 0.5,
+        "commander": 0.3,
+        "handsoff": 0.15
+      },
+      "summary": [
+        {
+          "ru": "Вы растите людей",
+          "en": "You grow people"
+        },
+        {
+          "ru": "Видите сильные стороны каждого",
+          "en": "You see each person's strengths"
+        },
+        {
+          "ru": "Ошибки — материал для обучения",
+          "en": "Mistakes become learning material"
+        },
+        {
+          "ru": "С вами безопасно пробовать новое",
+          "en": "People feel safe trying new things"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий инструмент — **наставничество**. Вы замечаете индивидуальность каждого, подбираете задачи «на вырост», поддерживаете и помогаете учиться на ошибках. Это «индивидуальное внимание» — один из компонентов трансформационного лидерства; в исследованиях «заботливое» поведение руководителя (consideration) особенно сильно связано с удовлетворённостью сотрудников.\n\n**Где вы особенно сильны:** развитие молодых специалистов, команды, где важны обучение и удержание людей, образовательные и творческие проекты.\n\n**На что обратить внимание:** поддержка не должна заменять требовательность. Давайте честную обратную связь, договаривайтесь о сроках и не берите на себя чужую работу «из заботы». Помните о своём ресурсе — наставники часто выгорают.\n\n**Упражнение:** проведите с каждым членом команды разговор о целях развития на полгода и запишите одну конкретную задачу «на вырост» для каждого.",
+        "en": "Your leading tool is **coaching**. You notice each person's individuality, assign stretch tasks, offer support and help people learn from mistakes. This is 'individualised consideration' — a component of transformational leadership; research shows considerate leader behaviour is especially strongly linked with employee satisfaction.\n\n**Where you shine:** developing junior staff, teams where learning and retention matter, educational and creative projects.\n\n**Watch-outs:** support shouldn't replace high standards. Give honest feedback, agree on deadlines, and don't take over others' work 'out of care'. Mind your own energy — coaches often burn out.\n\n**Exercise:** hold a six-month development conversation with each team member and write down one concrete stretch task for each."
+      },
+      "strengths": [
+        {
+          "ru": "Эмпатия",
+          "en": "Empathy"
+        },
+        {
+          "ru": "Терпение",
+          "en": "Patience"
+        },
+        {
+          "ru": "Умение развивать людей",
+          "en": "Developing people"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Жёсткая обратная связь",
+          "en": "Tough feedback"
+        },
+        {
+          "ru": "Решительность в кризисе",
+          "en": "Decisiveness in a crisis"
+        }
+      ],
+      "compatibleWith": [
+        "inspirer",
+        "organizer"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a gardener-mentor watering small sprouts that look like happy little people, soft colors"
+    },
+    {
+      "id": "democrat",
+      "title": {
+        "ru": "Демократ-фасилитатор",
+        "en": "The Facilitator"
+      },
+      "emoji": "🗳️",
+      "profile": {
+        "visionary": 0.5,
+        "coach": 0.6,
+        "democratic": 0.95,
+        "organizer": 0.5,
+        "commander": 0.25,
+        "handsoff": 0.25
+      },
+      "summary": [
+        {
+          "ru": "Вы принимаете решения вместе с командой",
+          "en": "You make decisions together with the team"
+        },
+        {
+          "ru": "Поощряете идеи и здоровые сомнения",
+          "en": "You encourage ideas and healthy doubt"
+        },
+        {
+          "ru": "Даёте голос каждому",
+          "en": "You give everyone a voice"
+        },
+        {
+          "ru": "Команда чувствует себя соавтором",
+          "en": "The team feels like co-authors"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий инструмент — **вовлечение**. Вы советуетесь, собираете идеи, поощряете критическое мышление и готовы менять план под сильными аргументами. Это демократический стиль Курта Левина и «интеллектуальная стимуляция» в модели Басса. В классических экспериментах Левина демократическое руководство давало лучшую атмосферу, больше инициативы и устойчивость работы без лидера.\n\n**Где вы особенно сильны:** команды экспертов, сложные задачи без очевидного решения, инновации, ситуации, где важна поддержка решения людьми.\n\n**На что обратить внимание:** не превращайте обсуждения в бесконечность. Заранее объявляйте формат решения и срок, фиксируйте ответственного. В кризисе берите решение на себя — команда это поймёт, если в спокойное время вы её слышите.\n\n**Упражнение:** на следующей встрече используйте технику «сначала каждый пишет идеи молча 3 минуты, потом обсуждение» — так вы услышите тихих участников и избежите группового давления.",
+        "en": "Your leading tool is **participation**. You consult, gather ideas, encourage critical thinking and will change the plan in the face of strong arguments. This is Kurt Lewin's democratic style and 'intellectual stimulation' in Bass's model. In Lewin's classic experiments democratic leadership produced a better atmosphere, more initiative and work that continued without the leader.\n\n**Where you shine:** expert teams, complex problems with no obvious answer, innovation, situations where buy-in matters.\n\n**Watch-outs:** don't let discussions run forever. Announce the decision format and deadline upfront and name the owner. In a crisis, take the decision yourself — the team will understand if you listen to them in calmer times.\n\n**Exercise:** at your next meeting try 'everyone writes ideas silently for 3 minutes, then discuss' — you'll hear quiet members and avoid groupthink."
+      },
+      "strengths": [
+        {
+          "ru": "Открытость",
+          "en": "Openness"
+        },
+        {
+          "ru": "Умение слушать",
+          "en": "Listening"
+        },
+        {
+          "ru": "Поддержка инноваций",
+          "en": "Supporting innovation"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Скорость решений",
+          "en": "Decision speed"
+        },
+        {
+          "ru": "Ясность ответственности",
+          "en": "Clear accountability"
+        }
+      ],
+      "compatibleWith": [
+        "organizer",
+        "inspirer"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a round table with diverse cute characters raising colorful idea light bulbs, soft colors"
+    },
+    {
+      "id": "organizer",
+      "title": {
+        "ru": "Организатор",
+        "en": "The Organizer"
+      },
+      "emoji": "📋",
+      "profile": {
+        "visionary": 0.45,
+        "coach": 0.45,
+        "democratic": 0.45,
+        "organizer": 0.95,
+        "commander": 0.6,
+        "handsoff": 0.15
+      },
+      "summary": [
+        {
+          "ru": "Вы превращаете цели в планы и сроки",
+          "en": "You turn goals into plans and deadlines"
+        },
+        {
+          "ru": "Каждый знает свою роль",
+          "en": "Everyone knows their role"
+        },
+        {
+          "ru": "Вы честно признаёте результат",
+          "en": "You fairly recognise results"
+        },
+        {
+          "ru": "С вами надёжно и предсказуемо",
+          "en": "You're reliable and predictable"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий инструмент — **структура и договорённости**: роли, планы, сроки, контроль и признание за достигнутое. Это сочетание «инициирующей структуры» из Огайских исследований и транзакционного «условного вознаграждения». Метаанализы показывают, что оба связаны с результативностью команд, а условное вознаграждение почти так же эффективно, как трансформационное лидерство (Judge & Piccolo, 2004).\n\n**Где вы особенно сильны:** операционные процессы, проекты со жёсткими сроками и бюджетом, масштабирование, наведение порядка после хаоса.\n\n**На что обратить внимание:** не путайте контроль результата с контролем каждого шага. Объясняйте смысл целей, а не только цифры, и оставляйте пространство для инициативы — иначе люди будут делать ровно то, что «засчитывается».\n\n**Упражнение:** для каждого KPI команды допишите одну строку «зачем это клиенту» — и обсудите на встрече.",
+        "en": "Your leading tool is **structure and clear deals**: roles, plans, deadlines, follow-up and recognition for results. This combines 'initiating structure' from the Ohio State studies with transactional 'contingent reward'. Meta-analyses show both relate to team performance, and contingent reward is nearly as effective as transformational leadership (Judge & Piccolo, 2004).\n\n**Where you shine:** operations, projects with tight deadlines and budgets, scaling up, restoring order after chaos.\n\n**Watch-outs:** don't confuse controlling results with controlling every step. Explain the purpose behind targets, not just numbers, and leave room for initiative — otherwise people will do exactly what 'counts' and no more.\n\n**Exercise:** for each team KPI add one line on 'why this matters to the customer' and discuss it at a meeting."
+      },
+      "strengths": [
+        {
+          "ru": "Планирование",
+          "en": "Planning"
+        },
+        {
+          "ru": "Справедливость",
+          "en": "Fairness"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Вдохновлять смыслом",
+          "en": "Inspiring through purpose"
+        },
+        {
+          "ru": "Гибкость при изменениях",
+          "en": "Flexibility in change"
+        }
+      ],
+      "compatibleWith": [
+        "inspirer",
+        "democrat"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of an organized leader with a big checklist board, gears and a calendar, soft colors"
+    },
+    {
+      "id": "commander",
+      "title": {
+        "ru": "Командир",
+        "en": "The Commander"
+      },
+      "emoji": "🧭",
+      "profile": {
+        "visionary": 0.45,
+        "coach": 0.3,
+        "democratic": 0.25,
+        "organizer": 0.7,
+        "commander": 0.95,
+        "handsoff": 0.15
+      },
+      "summary": [
+        {
+          "ru": "Вы быстро решаете и берёте ответственность",
+          "en": "You decide fast and take responsibility"
+        },
+        {
+          "ru": "Даёте чёткие указания",
+          "en": "You give clear instructions"
+        },
+        {
+          "ru": "Держите высокие стандарты",
+          "en": "You hold high standards"
+        },
+        {
+          "ru": "Сильны в кризисах",
+          "en": "You're strong in a crisis"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий инструмент — **директивность**. Вы принимаете решения сами и быстро, чётко говорите, что и как делать, и пристально следите за качеством. Это авторитарный (директивный) стиль в классификации Левина; в отечественной традиции — «директивный» стиль руководства.\n\n**Где вы особенно сильны:** кризисы и аварии, высокие риски и безопасность, жёсткие дедлайны, неопытные команды, которым нужна ясная инструкция.\n\n**На что обратить внимание:** в экспериментах Левина авторитарные группы работали, пока лидер был рядом, но проявляли больше враждебности и меньше инициативы. Постоянная директивность делает команду зависимой и отталкивает самостоятельных специалистов, а вас — перегружает. Учитесь переключаться: в спокойные периоды советуйтесь, делегируйте «как», объясняйте причины решений.\n\n**Упражнение:** в ближайший месяц выберите две некритичные задачи и полностью делегируйте способ их выполнения, оставив за собой только цель и срок.",
+        "en": "Your leading tool is **directiveness**. You make decisions yourself and quickly, say clearly what to do and how, and keep a close eye on quality. This is the autocratic (directive) style in Lewin's classification.\n\n**Where you shine:** crises and emergencies, high-risk and safety-critical work, tight deadlines, inexperienced teams that need clear instructions.\n\n**Watch-outs:** in Lewin's experiments autocratic groups worked while the leader was present but showed more hostility and less initiative. Constant directiveness makes a team dependent, drives away independent specialists and overloads you. Learn to switch: in calm periods consult, delegate the 'how' and explain your decisions.\n\n**Exercise:** over the next month choose two non-critical tasks and fully delegate how they're done, keeping only the goal and deadline."
+      },
+      "strengths": [
+        {
+          "ru": "Решительность",
+          "en": "Decisiveness"
+        },
+        {
+          "ru": "Ответственность",
+          "en": "Accountability"
+        },
+        {
+          "ru": "Устойчивость под давлением",
+          "en": "Composure under pressure"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Делегирование",
+          "en": "Delegation"
+        },
+        {
+          "ru": "Вовлечение команды",
+          "en": "Involving the team"
+        },
+        {
+          "ru": "Эмпатия",
+          "en": "Empathy"
+        }
+      ],
+      "compatibleWith": [
+        "democrat",
+        "coach"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a calm ship captain at the helm steering through gentle waves with a compass, soft colors"
+    },
+    {
+      "id": "full-range",
+      "title": {
+        "ru": "Универсал",
+        "en": "The Full-Range Leader"
+      },
+      "emoji": "🌈",
+      "profile": {
+        "visionary": 0.9,
+        "coach": 0.9,
+        "democratic": 0.85,
+        "organizer": 0.9,
+        "commander": 0.7,
+        "handsoff": 0.1
+      },
+      "summary": [
+        {
+          "ru": "Вы владеете многими инструментами",
+          "en": "You use many leadership tools"
+        },
+        {
+          "ru": "Переключаете стиль под ситуацию",
+          "en": "You adapt your style to the situation"
+        },
+        {
+          "ru": "Почти не устраняетесь от роли",
+          "en": "You rarely withdraw from the role"
+        },
+        {
+          "ru": "Это профиль зрелого лидера",
+          "en": "This is a mature leader's profile"
+        }
+      ],
+      "detailed": {
+        "ru": "Вы набрали высокие баллы по большинству активных стилей и низкий — по пассивному. Это соответствует идее «полного диапазона лидерства» и ситуационных подходов: эффективные руководители умеют и вдохновлять, и структурировать, и вовлекать, и, когда нужно, решать сами.\n\n**Где вы особенно сильны:** почти везде — особенно там, где условия часто меняются: стартапы, проекты трансформации, большие разнородные команды.\n\n**На что обратить внимание:** широкий репертуар требует осознанности — команде должно быть понятно, почему сегодня вы советуетесь, а завтра решаете сами. Проговаривайте режим («сейчас кризис, решаю я» / «здесь хочу ваших идей»). И следите за нагрузкой: универсалы часто берут на себя слишком много.\n\n**Упражнение:** попросите 3–5 коллег анонимно оценить, какой ваш стиль они видят чаще всего, — и сравните с этим результатом.",
+        "en": "You scored high on most active styles and low on the passive one. This fits the idea of 'full-range leadership' and situational approaches: effective leaders can inspire, structure, involve and, when needed, decide alone.\n\n**Where you shine:** almost everywhere — especially where conditions change often: start-ups, transformation projects, large diverse teams.\n\n**Watch-outs:** a wide repertoire calls for awareness — the team should understand why today you consult and tomorrow you decide. Name the mode ('this is a crisis, I'll decide' / 'here I want your ideas'). And watch your workload: all-rounders often take on too much.\n\n**Exercise:** ask 3–5 colleagues to rate anonymously which of your styles they see most often — and compare with this result."
+      },
+      "strengths": [
+        {
+          "ru": "Гибкость",
+          "en": "Flexibility"
+        },
+        {
+          "ru": "Широкий репертуар",
+          "en": "Broad repertoire"
+        },
+        {
+          "ru": "Вовлечённость",
+          "en": "Engagement"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Прозрачность смены режимов",
+          "en": "Being transparent about switching modes"
+        },
+        {
+          "ru": "Делегирование и забота о себе",
+          "en": "Delegation and self-care"
+        }
+      ],
+      "compatibleWith": [
+        "inspirer",
+        "organizer"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a leader juggling five colorful icons (torch, sprout, ballot, checklist, compass), soft colors"
+    },
+    {
+      "id": "hands-off",
+      "title": {
+        "ru": "Свободный стиль (невмешательство)",
+        "en": "The Hands-Off Leader"
+      },
+      "emoji": "🌫️",
+      "profile": {
+        "visionary": 0.3,
+        "coach": 0.3,
+        "democratic": 0.4,
+        "organizer": 0.25,
+        "commander": 0.25,
+        "handsoff": 0.9
+      },
+      "summary": [
+        {
+          "ru": "Вы часто даёте команде полную свободу",
+          "en": "You often give the team complete freedom"
+        },
+        {
+          "ru": "Иногда — даже слишком",
+          "en": "Sometimes too much"
+        },
+        {
+          "ru": "Решения и трудные разговоры откладываются",
+          "en": "Decisions and hard talks get postponed"
+        },
+        {
+          "ru": "Это можно изменить небольшими шагами",
+          "en": "Small steps can change this"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш профиль ближе всего к **стилю невмешательства** (laissez-faire; в отечественной литературе — «либеральный» или «попустительский» стиль). Вы мало используете активные инструменты лидерства и склонны устраняться: откладывать решения, вмешиваться поздно, оставлять людей разбираться самим.\n\nВажно различать: **делегирование** — это осознанная передача полномочий с ясной целью и точками проверки, а **невмешательство** — отсутствие лидерства. Исследования однозначны: пассивный стиль связан с худшей эффективностью (Judge & Piccolo, 2004), ролевой неопределённостью, конфликтами и травлей в коллективах (Skogstad et al., 2007). В экспериментах Левина группы с попустительским лидером были наименее продуктивны.\n\n**Почему так бывает:** перегрузка, выгорание, страх конфликтов, роль руководителя «не по желанию» или убеждение, что взрослым людям не нужно управление. **Что делать:** выберите один активный инструмент и начните с него — еженедельная 15-минутная встреча (организатор), короткое «зачем мы это делаем» (вдохновитель) или разговор один на один (наставник). Правило «48 часов» на ответ по любому запросу решения тоже сильно помогает. И если вы поняли, что руководить людьми вам не хочется, — экспертная карьера без управления людьми ничуть не хуже.",
+        "en": "Your profile is closest to the **hands-off style** (laissez-faire). You rarely use active leadership tools and tend to withdraw: postponing decisions, stepping in late, leaving people to sort things out alone.\n\nIt's important to distinguish **delegation** — a deliberate handover of authority with a clear goal and check-ins — from **disengagement**, the absence of leadership. Research is clear: the passive style is associated with lower effectiveness (Judge & Piccolo, 2004), role ambiguity, conflict and bullying in teams (Skogstad et al., 2007). In Lewin's experiments laissez-faire groups were the least productive.\n\n**Why it happens:** overload, burnout, fear of conflict, a leadership role taken on reluctantly, or the belief that adults don't need managing. **What to do:** pick one active tool and start there — a weekly 15-minute check-in (organiser), a short 'why we do this' (inspirer) or a one-to-one (coach). A '48-hour rule' for answering any decision request also helps a lot. And if you realise you don't want to manage people, an expert career without people management is just as worthy."
+      },
+      "strengths": [
+        {
+          "ru": "Доверие к самостоятельности людей",
+          "en": "Trust in people's autonomy"
+        },
+        {
+          "ru": "Спокойствие, отсутствие микроменеджмента",
+          "en": "Calm, no micromanagement"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Своевременные решения",
+          "en": "Timely decisions"
+        },
+        {
+          "ru": "Доступность для команды",
+          "en": "Being available to the team"
+        },
+        {
+          "ru": "Трудные разговоры",
+          "en": "Difficult conversations"
+        }
+      ],
+      "compatibleWith": [
+        "organizer",
+        "coach"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a relaxed leader in a hammock while a small team looks up with question marks, gentle humor, soft colors"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "По каждой из шести шкал складываются 5 ответов (1–5): получается 5–25. Шкала «Невмешательство» читается наоборот: высокий балл — зона риска. Для определения типа баллы переводятся в шкалу 0–1 ((балл − 5) / 20) и сравниваются с профилями семи типов; выбирается ближайший. Смотрите на весь профиль: сильные лидеры обычно используют несколько активных стилей и редко — пассивный.",
+    "en": "For each of the six scales, 5 answers (1–5) are summed (5–25). The Hands-off scale reads in reverse: a high score is a risk area. To find your type, scores are rescaled to 0–1 ((score − 5) / 20) and compared with seven type profiles; the nearest wins. Look at the whole profile: strong leaders usually use several active styles and rarely the passive one."
+  },
+  "resultIntro": {
+    "ru": "Лидерство — это набор инструментов, а не врождённый тип. Ниже — какие инструменты вы используете чаще всего и какие можно добавить в свой репертуар.",
+    "en": "Leadership is a toolkit, not an innate type. Below are the tools you use most and the ones you could add to your repertoire."
+  }
+}

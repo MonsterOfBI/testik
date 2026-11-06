@@ -1,0 +1,1198 @@
+{
+  "id": "temperament",
+  "category": "personality",
+  "kind": "likert",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Тип темперамента: сангвиник, холерик, флегматик или меланхолик",
+    "en": "Temperament type: sanguine, choleric, phlegmatic or melancholic"
+  },
+  "tagline": {
+    "ru": "Классические четыре темперамента — по научной модели Айзенка",
+    "en": "The four classic temperaments, measured with Eysenck's scientific model"
+  },
+  "description": {
+    "ru": "Узнайте, к какому из четырёх классических темпераментов вы ближе, по двум научно проверенным измерениям — экстраверсии и эмоциональной стабильности (модель Айзенка). Вы получите подробное описание своего типа, его сильных сторон и зон роста, а также своё положение относительно сотен тысяч других людей.",
+    "en": "Find out which of the four classic temperaments fits you best, based on two well-validated dimensions: extraversion and emotional stability (Eysenck's model). You will get a detailed description of your type, its strengths and growth areas, and where you stand compared with hundreds of thousands of other people."
+  },
+  "emoji": "🌗",
+  "durationMin": 8,
+  "popularity": 5,
+  "tags": [
+    {
+      "ru": "темперамент",
+      "en": "temperament"
+    },
+    {
+      "ru": "Айзенк",
+      "en": "Eysenck"
+    },
+    {
+      "ru": "экстраверсия",
+      "en": "extraversion"
+    },
+    {
+      "ru": "нейротизм",
+      "en": "neuroticism"
+    },
+    {
+      "ru": "личность",
+      "en": "personality"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряется.** Тест описывает ваш темперамент двумя измерениями из теории Ганса Айзенка: **экстраверсия (E) — интроверсия** и **нейротизм (N) — эмоциональная стабильность**. Их сочетание даёт четыре классических темперамента: **сангвиник** (высокая E, низкий N), **холерик** (высокая E, высокий N), **флегматик** (низкая E, низкий N) и **меланхолик** (низкая E, высокий N). Именно так модель обычно излагается в отечественных учебниках психологии индивидуальных различий (Ильин, 2004; Гиппенрейтер, 1988).\n\n**История.**\n- *Гиппократ* (V–IV вв. до н. э.) связывал здоровье и характер с балансом четырёх «соков» тела: крови, жёлтой желчи, слизи (флегмы) и чёрной желчи.\n- *Гален* (II в. н. э.) превратил это в учение о темпераментах; названия сангвиник, холерик, флегматик и меланхолик происходят от греческих и латинских названий этих жидкостей.\n- *Иммануил Кант* (1798) и *Вильгельм Вундт* описали четыре типа психологически. Вундт использовал две оси — силу и скорость эмоциональных реакций.\n- *И. П. Павлов* (1920–1930-е гг.) по итогам экспериментов с условными рефлексами предложил типы высшей нервной деятельности по **силе**, **уравновешенности** и **подвижности** процессов возбуждения и торможения. В этой схеме сангвиник — сильный уравновешенный подвижный тип, флегматик — сильный уравновешенный инертный, холерик — сильный неуравновешенный, меланхолик — слабый. Б. М. Теплов и В. Д. Небылицын затем развили эти идеи в советскую дифференциальную психофизиологию.\n- *Ганс Айзенк* (1947, 1967) показал, что четыре типа соответствуют квадрантам двух независимых, частично наследуемых измерений E и N, и расположил классические прилагательные по кругу. Он измерял их опросниками Модсли, EPI (1964) и EPQ/EPQ-R (1975/1985).\n\n**Почему не оригинальный опросник Айзенка.** Утверждения EPI/EPQ защищены авторским правом и издаются коммерчески, поэтому сайт их не воспроизводит. Вместо них E и N измеряются **общедоступными шкалами IPIP-NEO-120** — экстраверсии и нейротизма (по 24 утверждения; Johnson, 2014). Это современные измерители тех же двух измерений «Большой двойки». E и N Айзенка близко соответствуют экстраверсии и нейротизму в пятифакторной модели. Учтите, что шкала экстраверсии IPIP включает ещё теплоту и жизнерадостность, тогда как E Айзенка больше подчёркивала импульсивность.\n\n**Надёжность и нормы.** α Кронбача: E .89, N .90 (Kajonius & Johnson, 2019). Нормы получены на 320 128 американских онлайн-респондентах: E M = 82.14, SD = 14.16; N M = 66.6, SD = 15.96 (шкала 24–120). Они пересчитаны из опубликованных средних по фасетам (×6).\n\n**Подсчёт.** Ответы оцениваются от 1 до 5, обратные утверждения — как 6 − ответ, затем баллы суммируются (24–120 по каждой шкале). Темперамент определяется по тому, в какой квадрант попадают ваши баллы относительно **средних по популяции** (а не середины шкалы). Технически выигрывает тип, чей целевой профиль (±1 SD от среднего по каждой шкале) ближе всего к вашим баллам. Чем дальше вы от средних, тем ярче выражен тип. Если оба балла близки к среднему, у вас смешанный темперамент, и описания соседних типов тоже будут частично подходить.\n\n**Ограничения.**\n- Гуморальное объяснение — историческое; современная наука его не подтверждает.\n- Четыре типа — удобные названия для областей двух непрерывных шкал. Большинство людей находится ближе к центру, а границы условны.\n- Свойства нервной системы по Павлову и опросниковые измерения Айзенка — родственные, но не тождественные понятия.\n- Шкалы лжи (социальной желательности) нет. Шкала лжи EPQ защищена авторским правом, а самая известная альтернатива, BIDR Полхуса, разрешена только для некоммерческих исследований. Проверенной общедоступной шкалы лжи найти не удалось.\n- Нормы американские; русский перевод новый и не валидизирован.\n- Темперамент описывает стиль реагирования и ничего не говорит о способностях или моральных качествах; у каждого типа есть свои сильные стороны.\n- Подсказки о совместимости — эвристика, а не результат исследований. Самый устойчивый научный результат здесь — эмоциональная стабильность (низкий N) партнёра связана с более высокой удовлетворённостью отношениями (Malouff et al., 2010).",
+    "en": "**What is measured.** The test describes your temperament with two dimensions from Hans Eysenck's theory: **Extraversion (E) vs introversion** and **Neuroticism (N) vs emotional stability**. Their combination gives the four classical temperaments: **sanguine** (high E, low N), **choleric** (high E, high N), **phlegmatic** (low E, low N) and **melancholic** (low E, high N). This is how Russian textbooks of differential psychology usually present the model (Ilyin, 2004; Gippenreiter, 1988).\n\n**History.**\n- *Hippocrates* (5th–4th c. BC) linked health and character to the balance of four bodily humours: blood, yellow bile, phlegm and black bile.\n- *Galen* (2nd c. AD) turned this into a doctrine of temperaments; the names sanguine, choleric, phlegmatic and melancholic come from the Greek and Latin names of those humours.\n- *Immanuel Kant* (1798) and *Wilhelm Wundt* re-described the four types psychologically. Wundt used two axes, strength and speed of emotional reactions.\n- *Ivan Pavlov* (1920s–1930s), from conditioned-reflex experiments, proposed types of higher nervous activity based on the **strength**, **balance** and **mobility** of excitation and inhibition. In that scheme the sanguine is strong-balanced-mobile, the phlegmatic strong-balanced-inert, the choleric strong-unbalanced and the melancholic weak. B. M. Teplov and V. D. Nebylitsyn later developed this into Soviet differential psychophysiology.\n- *Hans Eysenck* (1947, 1967) showed that the four types map onto the quadrants of two independent, partly heritable dimensions, E and N, and placed the classical adjectives around a circle. He measured them with the Maudsley Personality Inventory, the EPI (1964) and the EPQ/EPQ-R (1975/1985).\n\n**Why not the original Eysenck questionnaire.** EPI/EPQ items are copyrighted and commercially published, so this site does not reproduce them. Instead, E and N are measured with the **public-domain IPIP-NEO-120** Extraversion and Neuroticism scales (24 items each; Johnson, 2014). They are modern measures of the same two \"Big Two\" dimensions. Eysenck's E and N correspond closely to Extraversion and Neuroticism in the Five-Factor Model. Note that the IPIP Extraversion scale also includes warmth and cheerfulness, while Eysenck's E put more weight on impulsivity.\n\n**Reliability and norms.** Cronbach's α is .89 for E and .90 for N (Kajonius & Johnson, 2019). Norms come from 320,128 US online respondents: E M = 82.14, SD = 14.16; N M = 66.6, SD = 15.96 (24–120 scale). They are converted from the published mean-of-facets values (×6).\n\n**Scoring.** Items are scored 1–5, reverse-keyed items as 6 − answer, and summed (24–120 per scale). Your temperament is the quadrant your scores fall into relative to the **population averages** (not the midpoint of the scale). Technically, the type whose target profile, ±1 SD from the mean on each scale, is closest to your scores wins. The further you are from the averages, the more clearly the type is expressed. If both scores are close to average, you have a mixed temperament, and the neighbouring type descriptions will also partly fit you.\n\n**Limitations.**\n- The humoral explanation is historical; modern science does not support it.\n- The four types are convenient labels for regions of two continuous dimensions. Most people are near the centre, and the boundaries are arbitrary.\n- Pavlov's nervous-system properties and Eysenck's questionnaire dimensions are related ideas but not identical constructs.\n- There is no lie (social-desirability) scale. The EPQ Lie scale is copyrighted, and the best-known alternative, Paulhus's BIDR, is restricted to non-commercial research. No verified public-domain lie scale was found.\n- Norms are US-based; the Russian translation is new and unvalidated.\n- Temperament describes a style of reacting. It says nothing about abilities or moral worth, and every type has strengths.\n- The compatibility hints are heuristics, not research findings. The most consistent research finding is that a partner's emotional stability (low N) goes with higher relationship satisfaction (Malouff et al., 2010)."
+  },
+  "sources": [
+    {
+      "citation": "Eysenck, H. J. (1947). Dimensions of personality. London: Routledge & Kegan Paul."
+    },
+    {
+      "citation": "Eysenck, H. J. (1967). The biological basis of personality. Springfield, IL: Charles C. Thomas."
+    },
+    {
+      "citation": "Eysenck, H. J., & Eysenck, S. B. G. (1975). Manual of the Eysenck Personality Questionnaire. London: Hodder & Stoughton."
+    },
+    {
+      "citation": "Eysenck, H. J., & Eysenck, M. W. (1985). Personality and individual differences: A natural science approach. New York: Plenum Press."
+    },
+    {
+      "citation": "Ильин, Е. П. (2004). Психология индивидуальных различий. СПб.: Питер."
+    },
+    {
+      "citation": "Гиппенрейтер, Ю. Б. (1988). Введение в общую психологию: курс лекций. М.: Изд-во Московского университета."
+    },
+    {
+      "citation": "Теплов, Б. М. (1985). Избранные труды: в 2 т. М.: Педагогика."
+    },
+    {
+      "citation": "Johnson, J. A. (2014). Measuring thirty facets of the Five Factor Model with a 120-item public domain inventory: Development of the IPIP-NEO-120. Journal of Research in Personality, 51, 78–89.",
+      "doi": "10.1016/j.jrp.2014.05.003"
+    },
+    {
+      "citation": "Kajonius, P. J., & Johnson, J. A. (2019). Assessing the structure of the Five Factor Model of Personality (IPIP-NEO-120) in the public domain. Europe's Journal of Psychology, 15(2), 260–275.",
+      "doi": "10.5964/ejop.v15i2.1671",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7871748"
+    },
+    {
+      "citation": "Malouff, J. M., Thorsteinsson, E. B., Schutte, N. S., Bhullar, N., & Rooke, S. E. (2010). The Five-Factor Model of personality and relationship satisfaction of intimate partners: A meta-analysis. Journal of Research in Personality, 44(1), 124–127.",
+      "doi": "10.1016/j.jrp.2009.09.004"
+    },
+    {
+      "citation": "International Personality Item Pool (IPIP).",
+      "url": "https://ipip.ori.org/"
+    }
+  ],
+  "license": "Public domain (IPIP). All 48 items are IPIP-NEO-120 Extraversion and Neuroticism items from the International Personality Item Pool: \"The items and scales are in the public domain, which means that one can copy, edit, translate, or use them for any purpose without asking permission and without paying a fee\" (https://ipip.ori.org/). Commercial use is allowed. No items from Eysenck's copyrighted EPI/EPQ/EPQ-R are used. The temperament model, the historical terms and the descriptive adjectives belong to the scientific public domain; all result texts are original. Russian translation by testik.",
+  "instructions": {
+    "ru": "Перед вами 48 утверждений. Оцените, насколько точно каждое описывает вас — такого, какой вы обычно есть сейчас, а не каким хотели бы быть. Отвечайте быстро и честно, правильных ответов нет.",
+    "en": "You will see 48 statements. Rate how accurately each one describes you as you generally are now, not as you wish to be. Answer quickly and honestly; there are no right answers."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Совершенно неверно",
+        "en": "Very Inaccurate"
+      },
+      {
+        "ru": "Скорее неверно",
+        "en": "Moderately Inaccurate"
+      },
+      {
+        "ru": "Ни верно, ни неверно",
+        "en": "Neither Accurate Nor Inaccurate"
+      },
+      {
+        "ru": "Скорее верно",
+        "en": "Moderately Accurate"
+      },
+      {
+        "ru": "Совершенно верно",
+        "en": "Very Accurate"
+      }
+    ],
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "extraversion",
+      "name": {
+        "ru": "Экстраверсия — интроверсия",
+        "en": "Extraversion vs introversion"
+      },
+      "description": {
+        "ru": "По Айзенку — направленность психики вовне: общительность, активность, жажда впечатлений, живость и импульсивность. Низкие баллы — интроверсия: сдержанность, опора на внутренний мир, предпочтение спокойствия. Здесь измеряется общедоступной шкалой экстраверсии IPIP-NEO (24 утверждения).",
+        "en": "In Eysenck's model, an outward orientation: sociability, activity, thrill-seeking, liveliness and impulsiveness. Low scores mean introversion: reserve, reliance on the inner world and a preference for calm. Measured here with the public-domain IPIP-NEO Extraversion scale (24 items)."
+      },
+      "lowLabel": {
+        "ru": "сдержанный, интроверт",
+        "en": "reserved, introverted"
+      },
+      "highLabel": {
+        "ru": "общительный, энергичный",
+        "en": "outgoing, energetic"
+      },
+      "color": "#FFD8A8",
+      "scoring": "sum",
+      "min": 24,
+      "max": 120,
+      "norms": {
+        "mean": 82.14,
+        "sd": 14.16,
+        "n": 320128,
+        "population": "US online volunteers who completed the IPIP-NEO-120 (40% male, 60% female; mean age 28.1, SD 10.1)",
+        "source": "Kajonius & Johnson (2019), Europe's Journal of Psychology 15(2), Table A1 (IPIP-NEO-120 domain; mean of facet sums ×6; α = 0.89)"
+      },
+      "bands": [
+        {
+          "min": 24,
+          "max": 63,
+          "label": {
+            "ru": "Очень низкий уровень",
+            "en": "Very low"
+          },
+          "summary": [
+            {
+              "ru": "Явно предпочитаете тишину и уединение",
+              "en": "You clearly prefer quiet and solitude"
+            },
+            {
+              "ru": "Общение быстро утомляет",
+              "en": "Socialising tires you quickly"
+            },
+            {
+              "ru": "Глубина важнее широты контактов",
+              "en": "Depth matters more than breadth of contacts"
+            },
+            {
+              "ru": "Не стремитесь быть в центре внимания",
+              "en": "You do not seek the spotlight"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы — ярко выраженный интроверт. Большие компании, шум и постоянное общение отнимают у вас силы, а восстанавливаетесь вы в одиночестве или с одним-двумя близкими людьми. Обычно такие люди наблюдательны, самостоятельны и способны к долгой сосредоточенной работе.\n\nСовет: стройте график так, чтобы после насыщенных встреч оставалось время на «перезарядку». В работе ищите роли, где ценятся глубина и автономия. А если нужно выступить или познакомиться, готовьтесь заранее — интроверты часто прекрасно справляются с социальными задачами, просто тратят на них больше энергии.",
+            "en": "You are a clear introvert. Big groups, noise and constant interaction drain your energy, and you recharge alone or with one or two close people. People like you are often observant, self-reliant and capable of long, focused work.\n\nTip: plan your schedule so that busy social days are followed by time to recharge. At work, look for roles that value depth and autonomy. When you need to give a talk or meet new people, prepare in advance: introverts often handle social tasks very well, they simply spend more energy doing so."
+          }
+        },
+        {
+          "min": 64,
+          "max": 74,
+          "label": {
+            "ru": "Низкий уровень",
+            "en": "Low"
+          },
+          "summary": [
+            {
+              "ru": "Скорее сдержанны и спокойны",
+              "en": "Rather reserved and calm"
+            },
+            {
+              "ru": "Предпочитаете узкий круг общения",
+              "en": "You prefer a small circle"
+            },
+            {
+              "ru": "Можете быть общительны, когда нужно",
+              "en": "You can be sociable when needed"
+            },
+            {
+              "ru": "Цените время наедине с собой",
+              "en": "You value time on your own"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы склоняетесь к интроверсии: вам комфортнее в спокойной обстановке и в небольшом кругу, хотя при необходимости вы вполне общительны. Вы, скорее, слушаете, чем говорите, и не гонитесь за острыми ощущениями.\n\nСовет: не пытайтесь «переделать» себя в душу компании — лучше используйте сильные стороны: умение слушать, вдумчивость, надёжность в близких отношениях. Если хочется расширить круг общения, выбирайте форматы с общим делом (курсы, волонтёрство, клубы по интересам) — так знакомиться легче.",
+            "en": "You lean towards introversion: you are more comfortable in calm settings and small groups, although you can be quite sociable when needed. You listen more than you talk and do not chase thrills.\n\nTip: rather than trying to turn yourself into the life of the party, lean on your strengths: listening, thoughtfulness and loyalty in close relationships. If you want a wider social circle, choose formats built around a shared activity (classes, volunteering, hobby clubs), where meeting people comes more easily."
+          }
+        },
+        {
+          "min": 75,
+          "max": 89,
+          "label": {
+            "ru": "Средний уровень",
+            "en": "Average"
+          },
+          "summary": [
+            {
+              "ru": "Сбалансированы между общением и уединением",
+              "en": "Balanced between people and solitude"
+            },
+            {
+              "ru": "Гибко подстраиваетесь под ситуацию",
+              "en": "You adapt flexibly to the situation"
+            },
+            {
+              "ru": "Можете и выступить, и поработать в тишине",
+              "en": "You can present or work quietly"
+            },
+            {
+              "ru": "Так называемый «амбиверт»",
+              "en": "Often called an ambivert"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат — в середине шкалы: вы получаете удовольствие от общения, но и уединение вам не в тягость. Такие люди («амбиверты») умеют переключаться между ролями: могут оживить встречу, а потом спокойно поработать в одиночку.\n\nСовет: прислушивайтесь к своему текущему состоянию — то, что нужно вам сегодня (компания или тишина), может меняться. Эта гибкость особенно ценна в работе с людьми, где важно и говорить, и слушать.",
+            "en": "Your score sits in the middle of the scale: you enjoy company, yet solitude does not bother you. People like this (sometimes called ambiverts) switch between roles easily: they can liven up a meeting and then work quietly on their own.\n\nTip: pay attention to how you feel on a given day, because what you need (company or quiet) may change. This flexibility is especially valuable in people-facing work, where both talking and listening matter."
+          }
+        },
+        {
+          "min": 90,
+          "max": 100,
+          "label": {
+            "ru": "Высокий уровень",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Общительны и энергичны",
+              "en": "Sociable and energetic"
+            },
+            {
+              "ru": "Легко знакомитесь и заводите разговор",
+              "en": "You meet people and start conversations easily"
+            },
+            {
+              "ru": "Любите действие и движение",
+              "en": "You love action and movement"
+            },
+            {
+              "ru": "Часто берёте инициативу",
+              "en": "You often take the initiative"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы явный экстраверт: общение заряжает вас, вы легко заводите знакомства, охотно берёте слово и инициативу. Скорее всего, вам нравятся активный образ жизни, новые впечатления и совместные проекты.\n\nСовет: экстравертам полезно тренировать «паузу» — дать высказаться другим, особенно более тихим коллегам, и не браться за всё сразу. Ваша энергия — отличный двигатель команды, если направлять её на общую цель и оставлять место для идей окружающих.",
+            "en": "You are a clear extravert: socialising energises you, you make acquaintances easily and readily take the floor and the initiative. You probably enjoy an active lifestyle, new experiences and joint projects.\n\nTip: extraverts benefit from practising the pause, letting others speak (especially quieter colleagues) and not taking on everything at once. Your energy is a great engine for a team when it is pointed at a shared goal and leaves room for other people's ideas."
+          }
+        },
+        {
+          "min": 101,
+          "max": 120,
+          "label": {
+            "ru": "Очень высокий уровень",
+            "en": "Very high"
+          },
+          "summary": [
+            {
+              "ru": "Очень общительны, «душа компании»",
+              "en": "Very outgoing, the life of the party"
+            },
+            {
+              "ru": "Стремитесь к движению и впечатлениям",
+              "en": "You crave action and stimulation"
+            },
+            {
+              "ru": "Уверенно берёте лидерство",
+              "en": "You confidently take the lead"
+            },
+            {
+              "ru": "Тишина и одиночество быстро наскучивают",
+              "en": "Quiet and solitude bore you quickly"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень экстраверсии выше, чем у большинства людей. Вы черпаете энергию в общении и активности, вас тянет туда, где много людей и событий, и вы естественно оказываетесь в роли заводилы или лидера. Окружающие часто воспринимают вас как заряженного, жизнерадостного и уверенного человека.\n\nСовет: очень высокой экстраверсии иногда сопутствуют импульсивные решения и перегрузка делами. Оставляйте в расписании время на восстановление и обдумывание, а в важных разговорах сознательно задавайте вопросы и слушайте — это сделает ваше влияние ещё сильнее.",
+            "en": "Your extraversion is higher than that of most people. You draw energy from people and activity, you are drawn to wherever there is a crowd and something happening, and you naturally end up as the instigator or leader. Others often see you as energised, cheerful and confident.\n\nTip: very high extraversion sometimes comes with impulsive decisions and an overloaded calendar. Keep time in your schedule for recovery and reflection, and in important conversations deliberately ask questions and listen; it will make your influence even stronger."
+          }
+        }
+      ]
+    },
+    {
+      "id": "neuroticism",
+      "name": {
+        "ru": "Нейротизм — эмоциональная стабильность",
+        "en": "Neuroticism vs emotional stability"
+      },
+      "description": {
+        "ru": "По Айзенку — эмоциональная лабильность: насколько легко и сильно вы реагируете тревогой, раздражением, грустью на стресс. Низкие баллы — эмоциональная стабильность и уравновешенность. Здесь измеряется общедоступной шкалой нейротизма IPIP-NEO (24 утверждения).",
+        "en": "In Eysenck's model, emotional lability: how easily and strongly you react to stress with anxiety, irritation or sadness. Low scores mean emotional stability and composure. Measured here with the public-domain IPIP-NEO Neuroticism scale (24 items)."
+      },
+      "lowLabel": {
+        "ru": "спокойный, устойчивый",
+        "en": "calm, even-tempered"
+      },
+      "highLabel": {
+        "ru": "чувствительный, тревожный",
+        "en": "sensitive, easily stressed"
+      },
+      "color": "#F4B6C2",
+      "scoring": "sum",
+      "min": 24,
+      "max": 120,
+      "norms": {
+        "mean": 66.6,
+        "sd": 15.96,
+        "n": 320128,
+        "population": "US online volunteers who completed the IPIP-NEO-120 (40% male, 60% female; mean age 28.1, SD 10.1)",
+        "source": "Kajonius & Johnson (2019), Europe's Journal of Psychology 15(2), Table A1 (IPIP-NEO-120 domain; mean of facet sums ×6; α = 0.90)"
+      },
+      "bands": [
+        {
+          "min": 24,
+          "max": 46,
+          "label": {
+            "ru": "Очень низкий уровень",
+            "en": "Very low"
+          },
+          "summary": [
+            {
+              "ru": "Стресс редко выбивает вас из колеи",
+              "en": "Stress rarely throws you off balance"
+            },
+            {
+              "ru": "Быстро восстанавливаетесь после неудач",
+              "en": "You bounce back quickly after setbacks"
+            },
+            {
+              "ru": "Окружающие видят в вас «спокойную гавань»",
+              "en": "Others see you as a calm harbour"
+            },
+            {
+              "ru": "Иногда можете недооценивать реальные риски",
+              "en": "You may sometimes underestimate real risks"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат говорит о необычно высокой эмоциональной устойчивости: даже в напряжённых ситуациях вы, как правило, сохраняете ясную голову, не накручиваете себя и не застреваете в тревожных мыслях. Это ценное качество для работы в условиях давления, для кризисных ролей и для поддержки близких.\n\nОбратная сторона — риск не заметить тревожные сигналы (свои и чужие). Полезно иногда сверяться с людьми, которые чувствуют сильнее: им может быть тяжело там, где вам легко. Практика: перед важными решениями спросите себя «что может пойти не так?» — это компенсирует естественный оптимизм нервной системы.",
+            "en": "Your score points to unusually high emotional stability: even in tense situations you usually keep a clear head, do not wind yourself up and rarely get stuck in anxious thoughts. That is a real asset for high-pressure jobs, crisis roles and for supporting the people around you.\n\nThe flip side is a chance of missing warning signals, both your own and other people's. It helps to check in now and then with people who feel things more strongly: what is easy for you may be hard for them. A practical habit: before big decisions, ask yourself \"what could go wrong?\" to balance your nervous system's natural optimism."
+          }
+        },
+        {
+          "min": 47,
+          "max": 58,
+          "label": {
+            "ru": "Низкий уровень",
+            "en": "Low"
+          },
+          "summary": [
+            {
+              "ru": "В целом спокойны и уравновешенны",
+              "en": "Generally calm and composed"
+            },
+            {
+              "ru": "Тревога появляется, но не управляет вами",
+              "en": "Worry shows up but does not run the show"
+            },
+            {
+              "ru": "Умеете отпускать мелкие неприятности",
+              "en": "You can let small annoyances go"
+            },
+            {
+              "ru": "Хорошо держитесь под давлением",
+              "en": "You hold up well under pressure"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы скорее эмоционально устойчивы, чем ранимы. Неприятности вас задевают, но обычно ненадолго: вы находите способ успокоиться и вернуться к делам. Большинство людей воспринимают вас как надёжного и предсказуемого человека.\n\nСовет: ваша устойчивость — хороший ресурс, но не обязательно «держаться» в одиночку. Если что-то всё-таки гложет дольше обычного, назовите это словами и поделитесь с близким человеком — так стресс не накапливается незаметно.",
+            "en": "You are more emotionally stable than easily rattled. Troubles do affect you, but usually not for long: you find a way to settle down and get back to work. Most people experience you as dependable and steady.\n\nTip: your resilience is a great resource, but you do not have to cope alone. If something keeps bothering you longer than usual, put it into words and share it with someone close, so stress does not quietly pile up."
+          }
+        },
+        {
+          "min": 59,
+          "max": 74,
+          "label": {
+            "ru": "Средний уровень",
+            "en": "Average"
+          },
+          "summary": [
+            {
+              "ru": "Обычная, «средняя» чувствительность к стрессу",
+              "en": "Typical sensitivity to stress"
+            },
+            {
+              "ru": "Реагируете на трудности, но справляетесь",
+              "en": "Difficulties affect you, yet you cope"
+            },
+            {
+              "ru": "Настроение зависит от обстоятельств",
+              "en": "Your mood depends on circumstances"
+            },
+            {
+              "ru": "Есть как спокойные, так и тревожные периоды",
+              "en": "You have both calm and anxious stretches"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень эмоциональной чувствительности близок к среднему: вы переживаете, когда есть реальный повод, а в спокойные периоды чувствуете себя ровно. Сильный или затяжной стресс может выбивать из равновесия, но в целом вы восстанавливаетесь.\n\nЧто помогает людям со средним уровнем: замечать свои «точки перегрузки» (недосып, конфликты, дедлайны) и заранее планировать для них восстановление — сон, движение, разговор с близкими. Простые навыки регуляции эмоций (дыхание, пауза перед реакцией, переформулирование мыслей) дают здесь заметный эффект.",
+            "en": "Your emotional sensitivity is close to average: you worry when there is a real reason and feel fairly even when life is calm. Heavy or prolonged stress can knock you off balance, but on the whole you recover.\n\nWhat helps people in the middle range is noticing their personal overload triggers (poor sleep, conflict, deadlines) and planning recovery for them in advance: sleep, exercise, talking to someone close. Simple emotion-regulation skills, such as slow breathing, pausing before reacting and reframing thoughts, make a noticeable difference here."
+          }
+        },
+        {
+          "min": 75,
+          "max": 87,
+          "label": {
+            "ru": "Высокий уровень",
+            "en": "High"
+          },
+          "summary": [
+            {
+              "ru": "Остро чувствуете стресс и неопределённость",
+              "en": "You feel stress and uncertainty keenly"
+            },
+            {
+              "ru": "Склонны прокручивать тревожные мысли",
+              "en": "You tend to replay worrying thoughts"
+            },
+            {
+              "ru": "Эмоции бывают сильными и быстрыми",
+              "en": "Emotions can be strong and fast"
+            },
+            {
+              "ru": "Часто замечаете то, что другие упускают",
+              "en": "You often notice what others miss"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы эмоционально чувствительнее большинства: неприятности, критика и неопределённость отзываются в вас сильно, а тревожные мысли могут долго крутиться в голове. Это не «слабость» — такая нервная система быстрее замечает угрозы и нюансы, что делает людей внимательными, совестливыми и эмпатичными.\n\nПрактические шаги: регулярный сон и физическая активность заметно снижают общий уровень тревоги; техники когнитивно-поведенческой терапии (записывать тревожную мысль и проверять её на факты) хорошо работают именно при высоком нейротизме. Если тревога или подавленность мешают жить, имеет смысл обратиться к психологу — это нормальный и эффективный шаг.",
+            "en": "You are more emotionally sensitive than most people: setbacks, criticism and uncertainty hit you hard, and worrying thoughts can loop for a long time. This is not a weakness. A nervous system like yours spots threats and nuances faster, which often makes people attentive, conscientious and empathic.\n\nPractical steps: regular sleep and physical activity noticeably lower baseline anxiety, and cognitive-behavioural techniques, such as writing down a worrying thought and checking it against the facts, work especially well when neuroticism is high. If anxiety or low mood gets in the way of daily life, talking to a psychologist is a normal and effective step."
+          }
+        },
+        {
+          "min": 88,
+          "max": 120,
+          "label": {
+            "ru": "Очень высокий уровень",
+            "en": "Very high"
+          },
+          "summary": [
+            {
+              "ru": "Очень сильные эмоциональные реакции",
+              "en": "Very strong emotional reactions"
+            },
+            {
+              "ru": "Стресс быстро накапливается",
+              "en": "Stress builds up quickly"
+            },
+            {
+              "ru": "Частые тревога, раздражение или грусть",
+              "en": "Frequent worry, irritation or sadness"
+            },
+            {
+              "ru": "Важно бережно заботиться о себе",
+              "en": "Caring for yourself really matters"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат выше, чем у подавляющего большинства людей. Скорее всего, вы часто чувствуете напряжение, тревогу, раздражение или грусть, а неудачи переживаются очень остро. Важно помнить: это описание текущего эмоционального стиля, а не диагноз и не приговор — нейротизм снижается с возрастом и хорошо поддаётся тренировке.\n\nЧто реально помогает: стабильный режим сна, движение, ограничение кофеина и алкоголя, навыки осознанности и КПТ. Если вы замечаете, что тревога или подавленность длятся неделями, мешают работе, отношениям или сну — пожалуйста, обратитесь к психологу или психотерапевту; при мыслях о самоповреждении звоните на линию психологической помощи (в России — 8-800-2000-122, бесплатно; в других странах — местная служба экстренной помощи).",
+            "en": "Your score is higher than that of the vast majority of people. You probably often feel tense, anxious, irritable or sad, and setbacks feel very intense. Remember that this describes your current emotional style. It is not a diagnosis or a life sentence: neuroticism tends to decline with age and responds well to practice.\n\nWhat really helps: a steady sleep routine, exercise, less caffeine and alcohol, mindfulness and CBT skills. If anxiety or low mood lasts for weeks or interferes with work, relationships or sleep, please reach out to a psychologist or therapist. If you have thoughts of harming yourself, contact a crisis line right away (in Russia, 8-800-2000-122, free; elsewhere, your local emergency or crisis service)."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Беспокоюсь по множеству поводов",
+        "en": "Worry about things"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Легко завожу друзей",
+        "en": "Make friends easily"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Меня легко разозлить",
+        "en": "Get angry easily"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Люблю большие вечеринки",
+        "en": "Love large parties"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Мне часто бывает грустно",
+        "en": "Often feel blue"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Беру руководство на себя",
+        "en": "Take charge"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Мне трудно подходить к людям и заводить разговор",
+        "en": "Find it difficult to approach others"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "У меня всегда полно дел",
+        "en": "Am always busy"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Бывает, срываюсь и перебарщиваю (с едой, покупками, развлечениями)",
+        "en": "Go on binges"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Люблю острые ощущения",
+        "en": "Love excitement"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Легко впадаю в панику",
+        "en": "Panic easily"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Излучаю радость",
+        "en": "Radiate joy"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Опасаюсь худшего",
+        "en": "Fear for the worst"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Чувствую себя комфортно среди людей",
+        "en": "Feel comfortable around people"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Легко раздражаюсь",
+        "en": "Get irritated easily"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q16",
+      "text": {
+        "ru": "На вечеринках общаюсь с множеством разных людей",
+        "en": "Talk to a lot of different people at parties"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q17",
+      "text": {
+        "ru": "Я себе не нравлюсь",
+        "en": "Dislike myself"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q18",
+      "text": {
+        "ru": "Стараюсь вести за собой других",
+        "en": "Try to lead others"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q19",
+      "text": {
+        "ru": "Боюсь привлекать к себе внимание",
+        "en": "Am afraid to draw attention to myself"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q20",
+      "text": {
+        "ru": "Я всегда в движении",
+        "en": "Am always on the go"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q21",
+      "text": {
+        "ru": "Редко в чём-либо перебарщиваю",
+        "en": "Rarely overindulge"
+      },
+      "dimension": "neuroticism",
+      "reverse": true
+    },
+    {
+      "id": "q22",
+      "text": {
+        "ru": "Ищу приключений",
+        "en": "Seek adventure"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q23",
+      "text": {
+        "ru": "События выбивают меня из колеи",
+        "en": "Become overwhelmed by events"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q24",
+      "text": {
+        "ru": "Много веселюсь",
+        "en": "Have a lot of fun"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q25",
+      "text": {
+        "ru": "Боюсь многого",
+        "en": "Am afraid of many things"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q26",
+      "text": {
+        "ru": "Избегаю контактов с людьми",
+        "en": "Avoid contacts with others"
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q27",
+      "text": {
+        "ru": "Выхожу из себя",
+        "en": "Lose my temper"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q28",
+      "text": {
+        "ru": "Предпочитаю одиночество",
+        "en": "Prefer to be alone"
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q29",
+      "text": {
+        "ru": "Часто хандрю",
+        "en": "Am often down in the dumps"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q30",
+      "text": {
+        "ru": "Беру ситуацию под контроль",
+        "en": "Take control of things"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q31",
+      "text": {
+        "ru": "Комфортно чувствую себя только с друзьями",
+        "en": "Only feel comfortable with friends"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q32",
+      "text": {
+        "ru": "В свободное время успеваю много всего",
+        "en": "Do a lot in my spare time"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q33",
+      "text": {
+        "ru": "Легко противостою соблазнам",
+        "en": "Easily resist temptations"
+      },
+      "dimension": "neuroticism",
+      "reverse": true
+    },
+    {
+      "id": "q34",
+      "text": {
+        "ru": "Мне нравится вести себя безрассудно",
+        "en": "Enjoy being reckless"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q35",
+      "text": {
+        "ru": "Чувствую, что не в силах справиться с происходящим",
+        "en": "Feel that I'm unable to deal with things"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q36",
+      "text": {
+        "ru": "Люблю жизнь",
+        "en": "Love life"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q37",
+      "text": {
+        "ru": "Легко поддаюсь стрессу",
+        "en": "Get stressed out easily"
+      },
+      "dimension": "neuroticism"
+    },
+    {
+      "id": "q38",
+      "text": {
+        "ru": "Держу людей на расстоянии",
+        "en": "Keep others at a distance"
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q39",
+      "text": {
+        "ru": "Меня нелегко вывести из себя",
+        "en": "Am not easily annoyed"
+      },
+      "dimension": "neuroticism",
+      "reverse": true
+    },
+    {
+      "id": "q40",
+      "text": {
+        "ru": "Избегаю толпы",
+        "en": "Avoid crowds"
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q41",
+      "text": {
+        "ru": "Мне комфортно быть собой",
+        "en": "Feel comfortable with myself"
+      },
+      "dimension": "neuroticism",
+      "reverse": true
+    },
+    {
+      "id": "q42",
+      "text": {
+        "ru": "Жду, пока другие возьмут инициативу",
+        "en": "Wait for others to lead the way"
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q43",
+      "text": {
+        "ru": "Сложные ситуации в общении меня не смущают",
+        "en": "Am not bothered by difficult social situations"
+      },
+      "dimension": "neuroticism",
+      "reverse": true
+    },
+    {
+      "id": "q44",
+      "text": {
+        "ru": "Люблю размеренный, неспешный темп жизни",
+        "en": "Like to take it easy"
+      },
+      "dimension": "extraversion",
+      "reverse": true
+    },
+    {
+      "id": "q45",
+      "text": {
+        "ru": "Умею держать под контролем свои сильные желания и тягу к чему-либо",
+        "en": "Am able to control my cravings"
+      },
+      "dimension": "neuroticism",
+      "reverse": true
+    },
+    {
+      "id": "q46",
+      "text": {
+        "ru": "Веду себя безбашенно и сумасбродно",
+        "en": "Act wild and crazy"
+      },
+      "dimension": "extraversion"
+    },
+    {
+      "id": "q47",
+      "text": {
+        "ru": "Сохраняю спокойствие под давлением",
+        "en": "Remain calm under pressure"
+      },
+      "dimension": "neuroticism",
+      "reverse": true
+    },
+    {
+      "id": "q48",
+      "text": {
+        "ru": "Смотрю на светлую сторону жизни",
+        "en": "Look at the bright side of life"
+      },
+      "dimension": "extraversion"
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "sanguine",
+      "title": {
+        "ru": "Сангвиник",
+        "en": "Sanguine"
+      },
+      "emoji": "☀️",
+      "profile": {
+        "extraversion": 0.753,
+        "neuroticism": 0.277
+      },
+      "summary": [
+        {
+          "ru": "Общительный и жизнерадостный",
+          "en": "Sociable and cheerful"
+        },
+        {
+          "ru": "Эмоционально устойчивый, быстро восстанавливается",
+          "en": "Emotionally stable, bounces back fast"
+        },
+        {
+          "ru": "Легко адаптируется к новому",
+          "en": "Adapts easily to new situations"
+        },
+        {
+          "ru": "Энергичен и инициативен",
+          "en": "Energetic and full of initiative"
+        },
+        {
+          "ru": "Может быстро терять интерес к рутине",
+          "en": "May lose interest in routine quickly"
+        }
+      ],
+      "detailed": {
+        "ru": "**Сангвиник** — это сочетание высокой экстраверсии и эмоциональной стабильности. В круге Айзенка этот квадрант описывается словами «общительный, открытый, разговорчивый, отзывчивый, беззаботный, жизнерадостный, склонный к лидерству». В учении И. П. Павлова сангвинику соответствует *сильный, уравновешенный, подвижный* тип нервной системы: процессы возбуждения и торможения сильны и легко сменяют друг друга.\n\nВ повседневной жизни сангвиник легко заводит знакомства, быстро осваивается в новой обстановке и не застревает на неудачах. Ему нравится движение, смена впечатлений, работа с людьми. Эмоции яркие, но неглубокие и быстро проходящие, поэтому с ним легко помириться. Он заражает окружающих оптимизмом и часто становится «мотором» компании или команды.\n\nОборотная сторона — нетерпимость к однообразию: сангвиник может хвататься за многое и не доводить дела до конца, переоценивать свои силы и недооценивать риски. **Практические советы:** дробите большие проекты на короткие этапы с видимым результатом; держите под рукой список обещаний; объединяйтесь с более усидчивыми людьми (флегматиками), которые помогут довести идею до финала.",
+        "en": "**Sanguine** is the combination of high extraversion and emotional stability. In Eysenck's circle this quadrant is described as \"sociable, outgoing, talkative, responsive, easy-going, lively, carefree, leadership\". In Ivan Pavlov's teaching it corresponds to the *strong, balanced, mobile* type of nervous system: excitation and inhibition are both strong and switch easily.\n\nIn everyday life the sanguine person makes acquaintances easily, settles into new surroundings quickly and does not dwell on failure. They enjoy movement, variety and working with people. Their emotions are vivid but pass quickly, so it is easy to make up with them. They spread optimism and often become the engine of a group or a team.\n\nThe flip side is low tolerance for monotony: sanguine people may take on too much and not finish, overestimate their strength and underestimate risks. **Practical tips:** split big projects into short stages with visible results; keep a list of your promises; team up with steadier people (phlegmatics) who can help carry an idea to the finish line."
+      },
+      "strengths": [
+        {
+          "ru": "Оптимизм и жизнестойкость",
+          "en": "Optimism and resilience"
+        },
+        {
+          "ru": "Лёгкость в общении и налаживании связей",
+          "en": "Ease in communicating and networking"
+        },
+        {
+          "ru": "Гибкость и быстрая адаптация",
+          "en": "Flexibility and quick adaptation"
+        },
+        {
+          "ru": "Умение вдохновлять и объединять людей",
+          "en": "A knack for inspiring and uniting people"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить начатое до конца",
+          "en": "Finishing what you start"
+        },
+        {
+          "ru": "Планировать и учитывать риски",
+          "en": "Planning ahead and weighing risks"
+        },
+        {
+          "ru": "Выдерживать рутину и монотонную работу",
+          "en": "Tolerating routine and monotonous work"
+        }
+      ],
+      "compatibleWith": [
+        "phlegmatic",
+        "melancholic"
+      ],
+      "imagePrompt": "a cheerful round character with sunny yellow glow chatting with friends, soft pastel colors, cute flat-3D style, warm light, playful mood"
+    },
+    {
+      "id": "choleric",
+      "title": {
+        "ru": "Холерик",
+        "en": "Choleric"
+      },
+      "emoji": "🔥",
+      "profile": {
+        "extraversion": 0.753,
+        "neuroticism": 0.61
+      },
+      "summary": [
+        {
+          "ru": "Энергичный, страстный, стремительный",
+          "en": "Energetic, passionate and fast"
+        },
+        {
+          "ru": "Сильные и быстрые эмоции",
+          "en": "Strong, quick emotions"
+        },
+        {
+          "ru": "Напористость и решительность",
+          "en": "Assertive and decisive"
+        },
+        {
+          "ru": "Вспыльчив, но отходчив",
+          "en": "Quick to flare up, quick to cool down"
+        },
+        {
+          "ru": "Нетерпелив к медлительности",
+          "en": "Impatient with slowness"
+        }
+      ],
+      "detailed": {
+        "ru": "**Холерик** — сочетание высокой экстраверсии и высокого нейротизма. В круге Айзенка этот квадрант описывается словами «обидчивый, беспокойный, агрессивный, возбудимый, изменчивый, импульсивный, оптимистичный, активный». У Павлова холерику соответствует *сильный, неуравновешенный* тип с преобладанием возбуждения над торможением.\n\nХолерик живёт быстро и ярко: загорается идеями, берётся за дело с огромным напором, увлекает людей за собой и не боится конфликтов. Эмоции у него сильные и стремительные — восторг, гнев, азарт — и так же быстро могут смениться. Это человек прорыва, кризиса и старта: там, где нужно действовать немедленно, он незаменим.\n\nСложности возникают, когда энергия опережает контроль: резкость в словах, вспышки раздражения, работа «рывками» до истощения. **Практические советы:** заведите правило паузы перед ответом в споре (хотя бы 10 секунд); замечайте ранние телесные сигналы гнева; планируйте восстановление после интенсивных периодов; полезна регулярная физическая нагрузка — она «сбрасывает» напряжение. Спокойные, уравновешенные партнёры (флегматики, сангвиники) хорошо уравновешивают вашу горячность.",
+        "en": "**Choleric** is the combination of high extraversion and high neuroticism. In Eysenck's circle this quadrant is described as \"touchy, restless, aggressive, excitable, changeable, impulsive, optimistic, active\". In Pavlov's scheme it corresponds to the *strong, unbalanced* type, in which excitation dominates over inhibition.\n\nThe choleric person lives fast and bright: they catch fire with ideas, attack tasks with great drive, pull people along and are not afraid of conflict. Their emotions are strong and swift (delight, anger, excitement) and can change just as quickly. This is a person for breakthroughs, crises and launches: wherever immediate action is needed, they are irreplaceable.\n\nDifficulties arise when energy outruns control: harsh words, flashes of irritation, working in bursts until exhausted. **Practical tips:** adopt a rule of pausing before you answer in an argument (even 10 seconds); notice the early bodily signals of anger; plan recovery after intense periods; regular exercise is a good outlet for tension. Calm, even-tempered partners (phlegmatics and sanguines) balance your fire nicely."
+      },
+      "strengths": [
+        {
+          "ru": "Энергия и инициатива",
+          "en": "Energy and initiative"
+        },
+        {
+          "ru": "Решительность в критических ситуациях",
+          "en": "Decisiveness in critical situations"
+        },
+        {
+          "ru": "Способность увлекать людей",
+          "en": "Ability to carry people along"
+        },
+        {
+          "ru": "Смелость и прямота",
+          "en": "Courage and directness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Управлять вспышками гнева и раздражения",
+          "en": "Managing flashes of anger and irritation"
+        },
+        {
+          "ru": "Беречь силы и не выгорать",
+          "en": "Pacing yourself to avoid burnout"
+        },
+        {
+          "ru": "Терпимее относиться к медлительности других",
+          "en": "Being more patient with slower people"
+        }
+      ],
+      "compatibleWith": [
+        "phlegmatic",
+        "sanguine"
+      ],
+      "imagePrompt": "an energetic character with a small friendly flame on the head running forward with determination, soft pastel colors, cute flat-3D style, dynamic pose"
+    },
+    {
+      "id": "phlegmatic",
+      "title": {
+        "ru": "Флегматик",
+        "en": "Phlegmatic"
+      },
+      "emoji": "🌊",
+      "profile": {
+        "extraversion": 0.458,
+        "neuroticism": 0.277
+      },
+      "summary": [
+        {
+          "ru": "Спокойный и уравновешенный",
+          "en": "Calm and composed"
+        },
+        {
+          "ru": "Эмоции ровные и сдержанные",
+          "en": "Even, restrained emotions"
+        },
+        {
+          "ru": "Надёжный и последовательный",
+          "en": "Reliable and consistent"
+        },
+        {
+          "ru": "Выдержанный в стрессе",
+          "en": "Steady under stress"
+        },
+        {
+          "ru": "Медленнее включается в новое",
+          "en": "Slower to engage with novelty"
+        }
+      ],
+      "detailed": {
+        "ru": "**Флегматик** — сочетание интроверсии и эмоциональной стабильности. В круге Айзенка этот квадрант описывается словами «пассивный, осторожный, вдумчивый, миролюбивый, сдержанный, надёжный, уравновешенный, спокойный». У Павлова флегматику соответствует *сильный, уравновешенный, инертный* тип: нервная система выносливая, но переключается медленнее.\n\nФлегматик — человек ровного настроения и последовательных действий. Его трудно вывести из себя, он не поддаётся панике и не меняет решений под влиянием минуты. Он предпочитает спокойный темп, продуманную работу и привычную обстановку, а в отношениях проявляет верность и постоянство. Окружающие ценят его как опору: рядом с ним спокойнее.\n\nМедленный старт и привязанность к привычному иногда мешают: флегматику бывает трудно быстро переключиться, рискнуть или проявить эмоции, и окружающие могут ошибочно принимать сдержанность за равнодушие. **Практические советы:** заранее готовьтесь к переменам, дробя их на небольшие шаги; позволяйте себе показывать чувства словами («мне это важно»); время от времени пробуйте новое в безопасном формате — это поддерживает гибкость.",
+        "en": "**Phlegmatic** is the combination of introversion and emotional stability. In Eysenck's circle this quadrant is described as \"passive, careful, thoughtful, peaceful, controlled, reliable, even-tempered, calm\". In Pavlov's scheme it corresponds to the *strong, balanced, inert* type: a robust nervous system that switches more slowly.\n\nThe phlegmatic person has an even mood and acts consistently. They are hard to provoke, do not panic and do not change decisions on a whim. They prefer a calm pace, well-thought-out work and familiar surroundings, and in relationships they are loyal and constant. Others value them as an anchor: things feel calmer when they are around.\n\nA slow start and attachment to the familiar can sometimes get in the way: phlegmatics may find it hard to switch quickly, take risks or show emotion, and others may mistake their reserve for indifference. **Practical tips:** prepare for changes in advance by breaking them into small steps; let yourself put feelings into words (\"this matters to me\"); try new things in safe formats now and then to stay flexible."
+      },
+      "strengths": [
+        {
+          "ru": "Устойчивость к стрессу",
+          "en": "Stress resilience"
+        },
+        {
+          "ru": "Надёжность и постоянство",
+          "en": "Reliability and constancy"
+        },
+        {
+          "ru": "Терпение и усидчивость",
+          "en": "Patience and perseverance"
+        },
+        {
+          "ru": "Взвешенность решений",
+          "en": "Well-weighed decisions"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Быстрее включаться в перемены",
+          "en": "Engaging with change faster"
+        },
+        {
+          "ru": "Открыто выражать эмоции",
+          "en": "Expressing emotions openly"
+        },
+        {
+          "ru": "Проявлять инициативу и рисковать, когда это оправдано",
+          "en": "Taking initiative and reasonable risks"
+        }
+      ],
+      "compatibleWith": [
+        "sanguine",
+        "choleric"
+      ],
+      "imagePrompt": "a calm character sitting by a quiet lake with a cup of tea, soft pastel blue colors, cute flat-3D style, peaceful mood"
+    },
+    {
+      "id": "melancholic",
+      "title": {
+        "ru": "Меланхолик",
+        "en": "Melancholic"
+      },
+      "emoji": "🌙",
+      "profile": {
+        "extraversion": 0.458,
+        "neuroticism": 0.61
+      },
+      "summary": [
+        {
+          "ru": "Чуткий и глубоко чувствующий",
+          "en": "Sensitive and deeply feeling"
+        },
+        {
+          "ru": "Вдумчивый, склонный к рефлексии",
+          "en": "Thoughtful and reflective"
+        },
+        {
+          "ru": "Предпочитает узкий круг близких",
+          "en": "Prefers a small circle of close people"
+        },
+        {
+          "ru": "Остро реагирует на стресс и критику",
+          "en": "Reacts strongly to stress and criticism"
+        },
+        {
+          "ru": "Тонко замечает детали и нюансы",
+          "en": "Notices details and nuances"
+        }
+      ],
+      "detailed": {
+        "ru": "**Меланхолик** — сочетание интроверсии и высокого нейротизма. В круге Айзенка этот квадрант описывается словами «капризный, тревожный, ригидный, рассудительный, пессимистичный, сдержанный, необщительный, тихий». У Павлова меланхолику соответствует *слабый* тип нервной системы — высокочувствительный, быстро утомляющийся от сильных раздражителей. «Слабый» здесь — физиологический термин, а не оценка: высокая чувствительность означает, что нервная система реагирует на более тонкие сигналы.\n\nМеланхолик глубоко переживает события, долго помнит обиды и радости, замечает нюансы, которые ускользают от других. Он вдумчив, склонен к самоанализу, часто обладает развитым художественным вкусом и эмпатией. В спокойной, предсказуемой обстановке он работает тщательно и качественно, а в близких отношениях бывает очень преданным и внимательным.\n\nСильный стресс, шум, давление и критика утомляют меланхолика быстрее, чем других, а тревожные мысли могут долго не отпускать. **Практические советы:** берегите ресурс — сон, тишина, предсказуемый режим; заранее готовьтесь к важным событиям; учитесь замечать и оспаривать слишком мрачные мысли; окружайте себя поддерживающими людьми. Если тревога или подавленность длятся неделями и мешают жить, обратитесь к психологу — это нормальная забота о себе (в России бесплатная линия помощи: 8-800-2000-122).",
+        "en": "**Melancholic** is the combination of introversion and high neuroticism. In Eysenck's circle this quadrant is described as \"moody, anxious, rigid, sober, pessimistic, reserved, unsociable, quiet\". In Pavlov's scheme it corresponds to the *weak* type of nervous system: highly sensitive and quickly tired by strong stimuli. \"Weak\" is a physiological term here, not a judgement: high sensitivity means the nervous system responds to subtler signals.\n\nThe melancholic person experiences events deeply, remembers hurts and joys for a long time and notices nuances that escape others. They are thoughtful and introspective, and often have refined artistic taste and empathy. In a calm, predictable setting they work carefully and well, and in close relationships they can be very devoted and attentive.\n\nHeavy stress, noise, pressure and criticism tire melancholics faster than others, and anxious thoughts can linger. **Practical tips:** protect your energy with sleep, quiet and a predictable routine; prepare for important events in advance; learn to notice and challenge overly gloomy thoughts; surround yourself with supportive people. If anxiety or low mood lasts for weeks and gets in the way of life, talk to a psychologist; it is a normal form of self-care (in Russia, the free helpline is 8-800-2000-122)."
+      },
+      "strengths": [
+        {
+          "ru": "Глубина чувств и эмпатия",
+          "en": "Depth of feeling and empathy"
+        },
+        {
+          "ru": "Внимание к деталям и качеству",
+          "en": "Attention to detail and quality"
+        },
+        {
+          "ru": "Вдумчивость и способность к анализу",
+          "en": "Thoughtfulness and analytical ability"
+        },
+        {
+          "ru": "Эстетическое чутьё",
+          "en": "Aesthetic sensitivity"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Справляться с тревогой и самокритикой",
+          "en": "Managing anxiety and self-criticism"
+        },
+        {
+          "ru": "Беречь энергию и ставить границы",
+          "en": "Protecting your energy and setting boundaries"
+        },
+        {
+          "ru": "Делиться переживаниями, а не носить их в себе",
+          "en": "Sharing your feelings instead of carrying them alone"
+        }
+      ],
+      "compatibleWith": [
+        "phlegmatic",
+        "sanguine"
+      ],
+      "imagePrompt": "a gentle dreamy character reading a book under a crescent moon by a window, soft pastel lavender colors, cute flat-3D style, cozy mood"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ = 1–5 баллов, обратные утверждения = 6 − ответ. Экстраверсия и нейротизм — суммы 24 утверждений (24–120). Затем баллы нормируются (балл − 24) / 96 и сравниваются с четырьмя целевыми профилями: «высокий» = среднее + 1 SD, «низкий» = среднее − 1 SD (E: 0.753/0.458; N: 0.61/0.277). Побеждает ближайший профиль, поэтому граница между типами проходит по среднему значению в популяции (E = 82.14, N = 66.6).",
+    "en": "Each answer = 1–5 points; reverse-keyed items = 6 − answer. Extraversion and neuroticism are sums of 24 items (24–120). Scores are normalised as (score − 24) / 96 and compared with four target profiles: \"high\" = mean + 1 SD, \"low\" = mean − 1 SD (E: 0.753/0.458; N: 0.61/0.277). The nearest profile wins, so the border between types lies at the population mean (E = 82.14, N = 66.6)."
+  },
+  "resultIntro": {
+    "ru": "Темперамент — это «динамическая» сторона личности: темп, сила и устойчивость ваших реакций. Он не определяет ваш характер, способности или ценности, а лишь показывает, как вы обычно расходуете и восстанавливаете энергию. Чистые типы встречаются редко: посмотрите и на свои баллы по двум шкалам — чем ближе они к середине, тем больше в вас черт соседних типов.",
+    "en": "Temperament is the dynamic side of personality: the pace, strength and stability of your reactions. It does not determine your character, abilities or values; it shows how you usually spend and restore energy. Pure types are rare, so also look at your scores on the two scales: the closer they are to the middle, the more you share traits with neighbouring types."
+  }
+}

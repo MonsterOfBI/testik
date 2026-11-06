@@ -1,0 +1,3091 @@
+{
+  "id": "spirit-animal",
+  "category": "fun",
+  "kind": "choice",
+  "seriousness": "fun",
+  "title": {
+    "ru": "Какое ты животное?",
+    "en": "Which animal are you?"
+  },
+  "tagline": {
+    "ru": "18 жизненных ситуаций — и станет ясно, кто живёт у тебя внутри: сова, енот или капибара",
+    "en": "18 everyday situations to reveal who lives inside you: an owl, a raccoon or a capybara"
+  },
+  "description": {
+    "ru": "Отвечай на вопросы про пятничные планы, внезапные премии и чужих собак — а мы переведём ответы в черты «Большой пятёрки» и подберём одно из 16 животных. В результате — разбор твоего характера, сильные стороны, зоны роста и смешные жизненные ситуации, в которых ты себя точно узнаешь.",
+    "en": "Answer questions about Friday plans, surprise bonuses and strangers' dogs, and we will translate your answers into Big Five traits and match you with one of 16 animals. You get a breakdown of your character, strengths, growth areas and funny everyday moments you will definitely recognise."
+  },
+  "emoji": "🦊",
+  "durationMin": 5,
+  "popularity": 5,
+  "tags": [
+    {
+      "ru": "животные",
+      "en": "animals"
+    },
+    {
+      "ru": "Большая пятёрка",
+      "en": "Big Five"
+    },
+    {
+      "ru": "развлечение",
+      "en": "fun"
+    },
+    {
+      "ru": "личность",
+      "en": "personality"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что это за тест\nРазвлекательный тест, **вдохновлённый наукой о личности**. 18 жизненных ситуаций оцениваются по пяти чертам модели «Большой пятёрки» (Big Five): открытость опыту, добросовестность, экстраверсия, доброжелательность и эмоциональная чувствительность (нейротизм). Затем твой профиль сравнивается с игровыми «профилями» 16 животных.\n\n### Научная основа\n- **«Большая пятёрка»** — самая изученная модель черт личности (Goldberg, 1990). Пять факторов многократно воспроизводились в разных языках и культурах, а открытые наборы вопросов к ним доступны в международном пуле IPIP (Goldberg et al., 2006).\n- **Личность животных — настоящая научная область.** Гослинг и Джон (Gosling & John, 1999) сравнили факторные исследования личности у многих видов и обнаружили, что аналоги экстраверсии, нейротизма и доброжелательности встречаются у самых разных животных, открытость — несколько реже, а отдельная добросовестность — только у шимпанзе (ближайших родственников человека). Обзор Гослинга (2001) показал, что оценки личности животных в целом надёжны и имеют определённую валидность — это не просто «очеловечивание».\n- Есть исследования конкретных видов: собаки (Gosling, Kwan & John, 2003), пятнистые гиены (Gosling, 1998), шимпанзе (King & Figueredo, 1997), осьминоги (Mather & Anderson, 1993), домашние кошки — «кошачья пятёрка» (Litchfield et al., 2017).\n\n### Чего мы честно НЕ утверждаем\nПрофили животных здесь — **не** средняя «личность вида», а игровые образы, навеянные поведением животных и культурными стереотипами («мудрая сова» — это фольклор, а не измерение сов). Вопросы оригинальные; тест не проходил психометрическую валидацию, и надёжность (альфа Кронбаха, ретест) не измерялась. Для точной оценки черт пройди валидированный опросник «Большой пятёрки». Помни и про эффект Форера (Forer, 1949): общие описания кажутся нам очень личными.\n\n### Как считается результат\nКаждый ответ добавляет от −2 до +2 баллов к одной-трём чертам. Суммы переводятся в шкалу 0–1 относительно минимально и максимально возможного балла, и выбирается животное, чей профиль из пяти чисел ближе всего к твоему (евклидово расстояние). Профили откалиброваны симуляцией: при случайных ответах каждое животное выпадает примерно в 5–7% случаев, так что все 16 реально достижимы.",
+    "en": "### What this quiz is\nAn entertainment quiz **inspired by personality science**. 18 everyday situations are scored on the five Big Five traits: openness, conscientiousness, extraversion, agreeableness and emotional sensitivity (neuroticism). Your profile is then matched to playful \"profiles\" of 16 animals.\n\n### Scientific grounding\n- **The Big Five** is the most researched model of personality traits (Goldberg, 1990). The five factors replicate across languages and cultures, and public-domain item sets are available in the International Personality Item Pool (Goldberg et al., 2006).\n- **Animal personality is a real research field.** Gosling and John (1999) compared factor-analytic studies across many species and found that analogues of extraversion, neuroticism and agreeableness appear widely, openness somewhat less, and a separate conscientiousness factor only in chimpanzees, our closest relatives. Gosling's (2001) review concluded that animal personality ratings are generally reliable and show some validity: it is not mere anthropomorphism.\n- There are species-specific studies: dogs (Gosling, Kwan & John, 2003), spotted hyenas (Gosling, 1998), chimpanzees (King & Figueredo, 1997), octopuses (Mather & Anderson, 1993) and pet cats, the \"Feline Five\" (Litchfield et al., 2017).\n\n### What we honestly do NOT claim\nThe animal profiles here are **not** the measured average personality of each species; they are playful images inspired by animal behaviour and cultural stereotypes (the \"wise owl\" is folklore, not owl data). The questions are original; the quiz has not been psychometrically validated, and reliability (Cronbach's alpha, test–retest) has not been measured. For an accurate trait assessment, take a validated Big Five inventory. And remember the Forer effect (Forer, 1949): generic descriptions feel surprisingly personal.\n\n### How the result is computed\nEach answer adds −2 to +2 points to one to three traits. Totals are rescaled to 0–1 relative to the minimum and maximum possible scores, and you get the animal whose five-number profile is closest to yours (Euclidean distance). Profiles were calibrated by simulation so that with random answers each animal comes up about 5–7% of the time, which means all 16 are genuinely reachable."
+  },
+  "sources": [
+    {
+      "citation": "Gosling, S. D., & John, O. P. (1999). Personality dimensions in nonhuman animals: A cross-species review. Current Directions in Psychological Science, 8(3), 69–75.",
+      "doi": "10.1111/1467-8721.00017",
+      "url": "https://www.psychologicalscience.org/journals/current-directions/1467-8721.00017/"
+    },
+    {
+      "citation": "Gosling, S. D. (2001). From mice to men: What can we learn about personality from animal research? Psychological Bulletin, 127(1), 45–86.",
+      "doi": "10.1037/0033-2909.127.1.45"
+    },
+    {
+      "citation": "Gosling, S. D., Kwan, V. S. Y., & John, O. P. (2003). A dog's got personality: A cross-species comparative approach to personality judgments in dogs and humans. Journal of Personality and Social Psychology, 85(6), 1161–1169.",
+      "doi": "10.1037/0022-3514.85.6.1161"
+    },
+    {
+      "citation": "Gosling, S. D. (1998). Personality dimensions in spotted hyenas (Crocuta crocuta). Journal of Comparative Psychology, 112(2), 107–118."
+    },
+    {
+      "citation": "King, J. E., & Figueredo, A. J. (1997). The five-factor model plus dominance in chimpanzee personality. Journal of Research in Personality, 31(2), 257–271."
+    },
+    {
+      "citation": "Mather, J. A., & Anderson, R. C. (1993). Personalities of octopuses (Octopus rubescens). Journal of Comparative Psychology, 107(3), 336–340.",
+      "doi": "10.1037/0735-7036.107.3.336"
+    },
+    {
+      "citation": "Litchfield, C. A., Quinton, G., Tindle, H., Chiera, B., Kikillus, K. H., & Roetman, P. (2017). The 'Feline Five': An exploration of personality in pet cats (Felis catus). PLoS ONE, 12(8), e0183455.",
+      "doi": "10.1371/journal.pone.0183455"
+    },
+    {
+      "citation": "Goldberg, L. R. (1990). An alternative \"description of personality\": The Big-Five factor structure. Journal of Personality and Social Psychology, 59(6), 1216–1229.",
+      "doi": "10.1037/0022-3514.59.6.1216"
+    },
+    {
+      "citation": "Goldberg, L. R., Johnson, J. A., Eber, H. W., Hogan, R., Ashton, M. C., Cloninger, C. R., & Gough, H. G. (2006). The International Personality Item Pool and the future of public-domain personality measures. Journal of Research in Personality, 40(1), 84–96.",
+      "doi": "10.1016/j.jrp.2005.08.007"
+    },
+    {
+      "citation": "Forer, B. R. (1949). The fallacy of personal validation: A classroom demonstration of gullibility. Journal of Abnormal and Social Psychology, 44(1), 118–123.",
+      "doi": "10.1037/h0059240"
+    }
+  ],
+  "license": "Original content written for testik (all questions, outcomes and texts are original; no items copied from other quizzes or copyrighted inventories). Big Five concepts are scientific constructs and are cited, not reproduced.",
+  "disclaimer": {
+    "ru": "Это развлекательный тест, вдохновлённый исследованиями личности. Он не является психологической диагностикой и не заменяет валидированные опросники.",
+    "en": "This is an entertainment quiz inspired by personality research. It is not a psychological assessment and does not replace validated inventories."
+  },
+  "instructions": {
+    "ru": "Выбирай вариант, который ближе всего к тому, как ты обычно поступаешь, а не к тому, как «правильно». Если подходят несколько — бери тот, что пришёл в голову первым. Правильных ответов нет!",
+    "en": "Pick the option closest to what you would actually do, not what you think is \"right\". If several fit, go with your first instinct. There are no right answers!"
+  },
+  "dimensions": [
+    {
+      "id": "O",
+      "name": {
+        "ru": "Открытость опыту",
+        "en": "Openness to experience"
+      },
+      "description": {
+        "ru": "Любопытство, воображение, тяга к новому и необычному: идеи, искусство, путешествия, эксперименты.",
+        "en": "Curiosity, imagination and appetite for the new and unusual: ideas, art, travel, experiments."
+      },
+      "lowLabel": {
+        "ru": "практичность, привычное",
+        "en": "practical, familiar"
+      },
+      "highLabel": {
+        "ru": "любопытство, фантазия",
+        "en": "curious, imaginative"
+      },
+      "color": "#C9B6F2",
+      "scoring": "sum",
+      "min": -3,
+      "max": 25,
+      "bands": [
+        {
+          "min": -3,
+          "max": 6,
+          "label": {
+            "ru": "Земной реалист",
+            "en": "Down-to-earth realist"
+          },
+          "summary": [
+            {
+              "ru": "Ценишь проверенное и понятное",
+              "en": "You value the tried and true"
+            },
+            {
+              "ru": "Конкретика важнее абстракций",
+              "en": "Concrete beats abstract"
+            },
+            {
+              "ru": "Новое — только если оно реально полезно",
+              "en": "New things only if they are truly useful"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты опираешься на опыт и здравый смысл и не гонишься за модой ради моды. Это экономит силы и делает тебя надёжным. Совет: раз в месяц пробуй одну маленькую новинку — новое блюдо, маршрут или жанр. Без обязательств, просто как эксперимент.",
+            "en": "You rely on experience and common sense and do not chase novelty for its own sake. That saves energy and makes you dependable. Tip: once a month, try one small new thing (a dish, a route, a genre), no commitment, just an experiment."
+          }
+        },
+        {
+          "min": 7,
+          "max": 15,
+          "label": {
+            "ru": "Любопытный прагматик",
+            "en": "Curious pragmatist"
+          },
+          "summary": [
+            {
+              "ru": "Новое интересно, но без фанатизма",
+              "en": "Open to new things, within reason"
+            },
+            {
+              "ru": "Совмещаешь фантазию и практичность",
+              "en": "You mix imagination with practicality"
+            },
+            {
+              "ru": "Легко подстраиваешься под ситуацию",
+              "en": "You adapt to the situation"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь и помечтать, и вернуться на землю. Новые идеи тебе интересны, если видно, как их применить. Совет: доверяй своему любопытству чуть чаще — именно на стыке привычного и нового у тебя рождаются лучшие решения.",
+            "en": "You can daydream and come back down to earth. New ideas interest you when you can see how to use them. Tip: trust your curiosity a bit more often. Your best ideas come from mixing the familiar with the new."
+          }
+        },
+        {
+          "min": 16,
+          "max": 25,
+          "label": {
+            "ru": "Исследователь идей",
+            "en": "Explorer of ideas"
+          },
+          "summary": [
+            {
+              "ru": "Обожаешь новое, сложное и странное",
+              "en": "You love the new, the complex and the weird"
+            },
+            {
+              "ru": "Богатое воображение и эстетическое чутьё",
+              "en": "Rich imagination and aesthetic sense"
+            },
+            {
+              "ru": "Скука — твой главный враг",
+              "en": "Boredom is your arch-enemy"
+            }
+          ],
+          "detailed": {
+            "ru": "Высокая открытость связана с творчеством, любознательностью и широтой интересов. Обратная сторона — быстро загораешься и так же быстро остываешь. Совет: выбирай одну идею из десяти и доводи её до конца, а остальные складывай в «банк идей».",
+            "en": "High openness goes with creativity, curiosity and wide interests. The flip side: you catch fire quickly and cool down just as fast. Tip: pick one idea in ten and finish it; keep the rest in an \"idea bank\"."
+          }
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": {
+        "ru": "Добросовестность",
+        "en": "Conscientiousness"
+      },
+      "description": {
+        "ru": "Организованность, дисциплина, надёжность и умение доводить дела до конца.",
+        "en": "Organisation, discipline, reliability and the ability to see things through."
+      },
+      "lowLabel": {
+        "ru": "спонтанность, гибкость",
+        "en": "spontaneous, flexible"
+      },
+      "highLabel": {
+        "ru": "порядок, дисциплина",
+        "en": "organised, disciplined"
+      },
+      "color": "#A8E0C8",
+      "scoring": "sum",
+      "min": -13,
+      "max": 27,
+      "bands": [
+        {
+          "min": -13,
+          "max": 0,
+          "label": {
+            "ru": "Вольный дух",
+            "en": "Free spirit"
+          },
+          "summary": [
+            {
+              "ru": "Живёшь по настроению, а не по плану",
+              "en": "You live by mood, not by plan"
+            },
+            {
+              "ru": "Легко импровизируешь",
+              "en": "You improvise with ease"
+            },
+            {
+              "ru": "Дедлайны — скорее пожелания",
+              "en": "Deadlines are more like suggestions"
+            }
+          ],
+          "detailed": {
+            "ru": "Спонтанность делает тебя гибким и лёгким на подъём, но важные дела могут утонуть в хаосе. Совет: не пытайся стать машиной продуктивности — заведи всего одно правило, например «важное записываю сразу», и держись за него.",
+            "en": "Spontaneity makes you flexible and quick to say yes, but important tasks can drown in chaos. Tip: do not try to become a productivity machine. Adopt one rule, such as \"I write down important things immediately\", and stick to it."
+          }
+        },
+        {
+          "min": 1,
+          "max": 13,
+          "label": {
+            "ru": "Гибкий организатор",
+            "en": "Flexible organiser"
+          },
+          "summary": [
+            {
+              "ru": "План есть, но без фанатизма",
+              "en": "You have a plan, but you are not obsessed"
+            },
+            {
+              "ru": "Умеешь собраться, когда надо",
+              "en": "You can focus when it matters"
+            },
+            {
+              "ru": "Баланс между порядком и свободой",
+              "en": "A balance of order and freedom"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь планировать, но не расстраиваешься, если всё пошло иначе. Это удобная середина. Совет: определи 2–3 сферы, где порядок действительно важен (деньги, здоровье, учёба/работа), и там держи планку повыше.",
+            "en": "You can plan, but you do not fall apart when things change. A comfortable middle ground. Tip: choose 2 or 3 areas where order really matters (money, health, study or work) and keep the bar higher there."
+          }
+        },
+        {
+          "min": 14,
+          "max": 27,
+          "label": {
+            "ru": "Мастер порядка",
+            "en": "Master of order"
+          },
+          "summary": [
+            {
+              "ru": "Списки, планы и чек-листы — твоё всё",
+              "en": "Lists, plans and checklists are your thing"
+            },
+            {
+              "ru": "На тебя можно положиться",
+              "en": "People can count on you"
+            },
+            {
+              "ru": "Доводишь начатое до конца",
+              "en": "You finish what you start"
+            }
+          ],
+          "detailed": {
+            "ru": "Добросовестность — один из самых надёжных предикторов успеха в учёбе и работе. Но перфекционизм может отнимать радость. Совет: планируй и отдых тоже. Слот «ничего не делать» в календаре — тоже продуктивность.",
+            "en": "Conscientiousness is one of the most reliable predictors of success at school and work. But perfectionism can steal the joy. Tip: plan your rest too. A \"do nothing\" slot in the calendar counts as productivity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "name": {
+        "ru": "Экстраверсия",
+        "en": "Extraversion"
+      },
+      "description": {
+        "ru": "Социальная энергия: общительность, активность, напористость и любовь к ярким впечатлениям.",
+        "en": "Social energy: sociability, activity, assertiveness and a taste for excitement."
+      },
+      "lowLabel": {
+        "ru": "тишина, глубина",
+        "en": "quiet, reserved"
+      },
+      "highLabel": {
+        "ru": "общительность, драйв",
+        "en": "outgoing, energetic"
+      },
+      "color": "#FFD59E",
+      "scoring": "sum",
+      "min": -13,
+      "max": 26,
+      "bands": [
+        {
+          "min": -13,
+          "max": 0,
+          "label": {
+            "ru": "Тихая батарейка",
+            "en": "Quiet battery"
+          },
+          "summary": [
+            {
+              "ru": "Заряжаешься в тишине и наедине с собой",
+              "en": "You recharge in quiet and solitude"
+            },
+            {
+              "ru": "Мало друзей, но настоящих",
+              "en": "Few friends, but real ones"
+            },
+            {
+              "ru": "Сначала думаешь, потом говоришь",
+              "en": "You think first, then speak"
+            }
+          ],
+          "detailed": {
+            "ru": "Интроверсия — не застенчивость, а способ распределять энергию. Ты глубже погружаешься в дела и людей. Совет: планируй «окна тишины» после шумных событий и не извиняйся за них.",
+            "en": "Introversion is not shyness; it is a way of spending energy. You go deeper into tasks and people. Tip: schedule quiet time after busy events, and do not apologise for it."
+          }
+        },
+        {
+          "min": 1,
+          "max": 13,
+          "label": {
+            "ru": "Амбиверт",
+            "en": "Ambivert"
+          },
+          "summary": [
+            {
+              "ru": "Можешь и зажечь, и уйти в себя",
+              "en": "You can light up a room or retreat"
+            },
+            {
+              "ru": "Подстраиваешься под компанию",
+              "en": "You adapt to the company"
+            },
+            {
+              "ru": "Нужны и люди, и тишина",
+              "en": "You need both people and quiet"
+            }
+          ],
+          "detailed": {
+            "ru": "Большинство людей находятся где-то посередине, и это удобно: ты чувствуешь, когда нужно говорить, а когда слушать. Совет: следи за своим «социальным топливом» и вовремя меняй режим.",
+            "en": "Most people sit somewhere in the middle, and it is a handy place to be: you sense when to talk and when to listen. Tip: watch your \"social fuel gauge\" and switch modes in time."
+          }
+        },
+        {
+          "min": 14,
+          "max": 26,
+          "label": {
+            "ru": "Солнечная батарея",
+            "en": "Solar panel"
+          },
+          "summary": [
+            {
+              "ru": "Люди тебя заряжают",
+              "en": "People charge you up"
+            },
+            {
+              "ru": "Легко знакомишься и ведёшь за собой",
+              "en": "You make friends easily and lead"
+            },
+            {
+              "ru": "Любишь движ и яркие впечатления",
+              "en": "You love action and excitement"
+            }
+          ],
+          "detailed": {
+            "ru": "Высокая экстраверсия связана с позитивными эмоциями и социальной уверенностью. Риск — перегрузить расписание и забыть про отдых. Совет: иногда давай слово самым тихим в компании — они удивят.",
+            "en": "High extraversion goes with positive emotions and social confidence. The risk is overloading your schedule and forgetting to rest. Tip: now and then, give the floor to the quietest person in the room. They will surprise you."
+          }
+        }
+      ]
+    },
+    {
+      "id": "A",
+      "name": {
+        "ru": "Доброжелательность",
+        "en": "Agreeableness"
+      },
+      "description": {
+        "ru": "Теплота, доверие, сотрудничество и забота о других.",
+        "en": "Warmth, trust, cooperation and care for others."
+      },
+      "lowLabel": {
+        "ru": "прямота, независимость",
+        "en": "blunt, independent"
+      },
+      "highLabel": {
+        "ru": "теплота, забота",
+        "en": "warm, caring"
+      },
+      "color": "#F7B8C8",
+      "scoring": "sum",
+      "min": -7,
+      "max": 23,
+      "bands": [
+        {
+          "min": -7,
+          "max": 3,
+          "label": {
+            "ru": "Честный критик",
+            "en": "Honest critic"
+          },
+          "summary": [
+            {
+              "ru": "Говоришь как есть",
+              "en": "You say it like it is"
+            },
+            {
+              "ru": "Не боишься конфликта",
+              "en": "You are not afraid of conflict"
+            },
+            {
+              "ru": "Сначала логика, потом чувства",
+              "en": "Logic first, feelings second"
+            }
+          ],
+          "detailed": {
+            "ru": "Прямота полезна: ты отстаиваешь свою позицию и не даёшь собой манипулировать. Но людям иногда нужна не правда-матка, а поддержка. Совет: прежде чем критиковать, назови одну вещь, которая получилась хорошо.",
+            "en": "Bluntness is useful: you stand your ground and do not get manipulated. But sometimes people need support more than hard truths. Tip: before criticising, name one thing that went well."
+          }
+        },
+        {
+          "min": 4,
+          "max": 13,
+          "label": {
+            "ru": "Дружелюбный реалист",
+            "en": "Friendly realist"
+          },
+          "summary": [
+            {
+              "ru": "Доброта без наивности",
+              "en": "Kind but not naive"
+            },
+            {
+              "ru": "Умеешь сказать «нет»",
+              "en": "You can say no"
+            },
+            {
+              "ru": "Сотрудничаешь, но помнишь о себе",
+              "en": "You cooperate without forgetting yourself"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь и поддержать, и отстоять границы. Это здоровый баланс. Совет: в спорных ситуациях задавай себе вопрос «что важнее сейчас — отношения или результат?» и действуй осознанно.",
+            "en": "You can support people and still hold your boundaries. A healthy balance. Tip: when things get tense, ask yourself \"what matters more right now, the relationship or the result?\" and act on purpose."
+          }
+        },
+        {
+          "min": 14,
+          "max": 23,
+          "label": {
+            "ru": "Добрая душа",
+            "en": "Kind soul"
+          },
+          "summary": [
+            {
+              "ru": "Тебе важно, чтобы всем было хорошо",
+              "en": "You want everyone to be okay"
+            },
+            {
+              "ru": "Легко прощаешь и доверяешь",
+              "en": "You forgive and trust easily"
+            },
+            {
+              "ru": "Лучший командный игрок",
+              "en": "Ultimate team player"
+            }
+          ],
+          "detailed": {
+            "ru": "Высокая доброжелательность делает тебя желанным другом и коллегой. Риск — забывать о своих нуждах. Совет: «нет» — тоже забота, в первую очередь о себе. Тренируйся отказывать мягко, но твёрдо.",
+            "en": "High agreeableness makes you a sought-after friend and colleague. The risk is forgetting your own needs. Tip: \"no\" is also a form of care, starting with yourself. Practise saying it gently but firmly."
+          }
+        }
+      ]
+    },
+    {
+      "id": "N",
+      "name": {
+        "ru": "Эмоциональная чувствительность",
+        "en": "Emotional sensitivity (Neuroticism)"
+      },
+      "description": {
+        "ru": "Насколько сильно и часто ты переживаешь тревогу, напряжение и перепады настроения (в науке — нейротизм).",
+        "en": "How strongly and often you feel worry, tension and mood swings (neuroticism in the research literature)."
+      },
+      "lowLabel": {
+        "ru": "спокойствие, устойчивость",
+        "en": "calm, resilient"
+      },
+      "highLabel": {
+        "ru": "чувствительность, тревожность",
+        "en": "sensitive, reactive"
+      },
+      "color": "#A9D2F5",
+      "scoring": "sum",
+      "min": -14,
+      "max": 21,
+      "bands": [
+        {
+          "min": -14,
+          "max": -3,
+          "label": {
+            "ru": "Дзен-режим",
+            "en": "Zen mode"
+          },
+          "summary": [
+            {
+              "ru": "Тебя сложно выбить из колеи",
+              "en": "Hard to knock you off balance"
+            },
+            {
+              "ru": "Быстро восстанавливаешься после стресса",
+              "en": "You bounce back quickly"
+            },
+            {
+              "ru": "Спокойствие — твой суперскилл",
+              "en": "Calm is your superpower"
+            }
+          ],
+          "detailed": {
+            "ru": "Эмоциональная устойчивость помогает в кризисах и делает тебя опорой для других. Иногда спокойствие могут принять за равнодушие. Совет: проговаривай вслух, что тебе не всё равно, — людям это важно.",
+            "en": "Emotional stability helps in a crisis and makes you a rock for others. Sometimes calm can be mistaken for indifference. Tip: say out loud that you care. People need to hear it."
+          }
+        },
+        {
+          "min": -2,
+          "max": 9,
+          "label": {
+            "ru": "Живые эмоции",
+            "en": "Balanced feelings"
+          },
+          "summary": [
+            {
+              "ru": "Переживаешь, но не тонешь",
+              "en": "You worry but do not drown"
+            },
+            {
+              "ru": "Эмоции — сигнал, а не приговор",
+              "en": "Emotions are signals, not verdicts"
+            },
+            {
+              "ru": "Обычно быстро приходишь в себя",
+              "en": "You usually recover fast"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты чувствуешь и радость, и тревогу, но в целом держишь баланс. Совет: заметь, что именно выбивает тебя из колеи чаще всего (недосып? голод? неопределённость?), и подстрахуйся заранее.",
+            "en": "You feel joy and worry, but overall you keep your balance. Tip: notice what throws you off most often (lack of sleep? hunger? uncertainty?) and plan around it."
+          }
+        },
+        {
+          "min": 10,
+          "max": 21,
+          "label": {
+            "ru": "Тонкая настройка",
+            "en": "Finely tuned"
+          },
+          "summary": [
+            {
+              "ru": "Остро чувствуешь всё вокруг",
+              "en": "You feel everything intensely"
+            },
+            {
+              "ru": "Замечаешь риски раньше других",
+              "en": "You spot risks before others"
+            },
+            {
+              "ru": "Эмпатия и глубина переживаний",
+              "en": "Empathy and depth of feeling"
+            }
+          ],
+          "detailed": {
+            "ru": "Высокая чувствительность — это не слабость: она связана с осторожностью и вниманием к деталям. Но хроническая тревога утомляет. Совет: дыхание 4-7-8, прогулки и сон — скучные, но рабочие инструменты. Если тревога мешает жить, стоит поговорить со специалистом.",
+            "en": "High sensitivity is not weakness: it goes with caution and attention to detail. But chronic worry is exhausting. Tip: slow breathing, walks and sleep are boring but effective tools. If anxiety gets in the way of life, talk to a professional."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Пятница, 19:00. Планы на вечер внезапно отменились. Ты…",
+        "en": "Friday, 7 p.m. Your evening plans just got cancelled. You…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Через 15 минут уже собираешь новую движуху в общем чате — вечер не должен пропасть",
+            "en": "Within 15 minutes you are rallying a new plan in the group chat. The night must not be wasted"
+          },
+          "scores": {
+            "E": 2,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тихо ликуешь: плед, сериал, доставка. Идеально",
+            "en": "Quietly rejoice: blanket, series, takeaway. Perfect"
+          },
+          "scores": {
+            "E": -2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Наконец-то берёшься за дело, которое давно висит в списке",
+            "en": "Finally tackle the task that has been sitting on your list for ages"
+          },
+          "scores": {
+            "C": 2,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Идёшь гулять без маршрута — вдруг найдёшь новое место",
+            "en": "Head out for a walk with no route, maybe you will discover a new place"
+          },
+          "scores": {
+            "O": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Начинаешь подозревать, что все на тебя втайне обиделись",
+            "en": "Start wondering whether everyone is secretly upset with you"
+          },
+          "scores": {
+            "N": 2,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Групповой проект, первая встреча. Твоя роль складывается сама собой:",
+        "en": "Group project, first meeting. Your role takes shape on its own:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Тот, кто делает таблицу с дедлайнами и цветовой кодировкой",
+            "en": "The one who builds a spreadsheet with deadlines and colour coding"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Генератор идей: «А давайте вообще всё сделаем по-другому?»",
+            "en": "Idea machine: \"What if we did the whole thing differently?\""
+          },
+          "scores": {
+            "O": 2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Душа команды: следишь, чтобы никто не поссорился и все поели",
+            "en": "Team heart: making sure nobody fights and everyone has eaten"
+          },
+          "scores": {
+            "A": 2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тот, кто молча делает самую сложную часть в ночь перед сдачей",
+            "en": "The one who silently does the hardest part the night before the deadline"
+          },
+          "scores": {
+            "E": -1,
+            "C": -1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тот, кто задаёт неудобные вопросы: «А мы точно понимаем, зачем это?»",
+            "en": "The one asking awkward questions: \"Do we actually know why we are doing this?\""
+          },
+          "scores": {
+            "A": -1,
+            "O": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "В старом здании ты замечаешь неприметную дверь без таблички. Ты…",
+        "en": "In an old building you notice an unmarked door. You…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Открываешь. Конечно, открываешь",
+            "en": "Open it. Obviously"
+          },
+          "scores": {
+            "O": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Фотографируешь и ищешь в интернете, что тут было раньше",
+            "en": "Take a photo and look up what used to be here"
+          },
+          "scores": {
+            "O": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Зовёшь друзей — приключения веселее толпой",
+            "en": "Call your friends. Adventures are better as a squad"
+          },
+          "scores": {
+            "E": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Проходишь мимо: не твоё — не трогай",
+            "en": "Walk past. Not yours, not your business"
+          },
+          "scores": {
+            "O": -1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Представляешь пять сценариев фильма ужасов и ускоряешь шаг",
+            "en": "Picture five horror-movie plots and walk faster"
+          },
+          "scores": {
+            "N": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Друг пишет в два часа ночи: «Не спишь? Надо поговорить».",
+        "en": "A friend texts at 2 a.m.: \"Are you up? I need to talk.\""
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Сразу звонишь и слушаешь столько, сколько нужно",
+            "en": "Call right away and listen as long as it takes"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Вызываешь такси и едешь на помощь с термосом чая",
+            "en": "Grab a taxi and show up with a flask of tea"
+          },
+          "scores": {
+            "A": 2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Слушаешь и параллельно составляешь план решения проблемы",
+            "en": "Listen while drafting a step-by-step plan to fix the problem"
+          },
+          "scores": {
+            "C": 1,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Поддерживаешь, а потом до утра крутишь эту историю в голове",
+            "en": "Offer support, then replay the whole story in your head until morning"
+          },
+          "scores": {
+            "N": 2,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Отвечаешь: «Я с тобой, но давай утром, на свежую голову?»",
+            "en": "Reply: \"I am here for you, but can we talk in the morning with fresh heads?\""
+          },
+          "scores": {
+            "E": -1,
+            "N": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Твой идеальный отпуск:",
+        "en": "Your ideal holiday:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Палатка, рюкзак и маршрут, которого нет на картах",
+            "en": "A tent, a backpack and a trail that is not on any map"
+          },
+          "scores": {
+            "O": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Город с музеями, где можно час залипать на одну картину",
+            "en": "A city of museums where you can stare at one painting for an hour"
+          },
+          "scores": {
+            "O": 2,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Шумный курорт, вечеринки и новые знакомые каждый день",
+            "en": "A buzzing resort with parties and new people every day"
+          },
+          "scores": {
+            "E": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Домик у озера, родные, шашлыки и разговоры до ночи",
+            "en": "A lake cabin with family, a barbecue and late-night talks"
+          },
+          "scores": {
+            "A": 2,
+            "O": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Поездка, расписанная по минутам в таблице",
+            "en": "A trip planned to the minute in a spreadsheet"
+          },
+          "scores": {
+            "C": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Кто-то нагло влезает перед тобой в очереди.",
+        "en": "Someone blatantly cuts in front of you in a queue."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Спокойно, но твёрдо: «Извините, тут очередь»",
+            "en": "Calm but firm: \"Excuse me, there is a queue\""
+          },
+          "scores": {
+            "E": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Возмущаешься так, чтобы слышал весь магазин",
+            "en": "Protest loudly enough for the whole shop to hear"
+          },
+          "scores": {
+            "A": -2,
+            "N": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Молча закипаешь и потом три дня прокручиваешь этот момент",
+            "en": "Silently boil, then replay the moment for three days"
+          },
+          "scores": {
+            "N": 2,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ну и ладно, может, человек очень спешит",
+            "en": "Oh well, maybe they are in a real hurry"
+          },
+          "scores": {
+            "A": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Шутишь так, что смеётся вся очередь, а нарушитель краснеет",
+            "en": "Crack a joke that makes the whole queue laugh and the line-cutter blush"
+          },
+          "scores": {
+            "E": 2,
+            "O": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Тебе неожиданно пришла премия. Первым делом ты…",
+        "en": "An unexpected bonus lands in your account. First thing you do:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Откладываешь: подушка безопасности сама себя не соберёт",
+            "en": "Save it. An emergency fund will not build itself"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Тратишь на впечатления: концерт, поездку, мастер-класс",
+            "en": "Spend it on experiences: a gig, a trip, a workshop"
+          },
+          "scores": {
+            "O": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Покупаешь подарки близким",
+            "en": "Buy gifts for the people you love"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Покупаешь ту странную штуку, что висит в корзине с прошлого года",
+            "en": "Finally buy that weird thing that has been in your cart since last year"
+          },
+          "scores": {
+            "O": 1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Нервничаешь: а вдруг это ошибка бухгалтерии?",
+            "en": "Panic a little: what if accounting made a mistake?"
+          },
+          "scores": {
+            "N": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Внезапно все вокруг увлеклись гончарным делом. Ты…",
+        "en": "Suddenly everyone around you is into pottery. You…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Уже ходишь на занятия — ещё до того, как это стало модным",
+            "en": "Already go to classes, since before it was cool"
+          },
+          "scores": {
+            "O": 2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ждёшь, пока друзья попробуют и расскажут",
+            "en": "Wait for friends to try it and report back"
+          },
+          "scores": {
+            "C": 1,
+            "O": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Закатываешь глаза: очередная мода",
+            "en": "Roll your eyes: just another trend"
+          },
+          "scores": {
+            "O": -1,
+            "A": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Пробуешь, бросаешь через две недели, переключаешься на вязание",
+            "en": "Try it, quit after two weeks, switch to knitting"
+          },
+          "scores": {
+            "O": 1,
+            "C": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Сначала месяц изучаешь теорию и покупаешь весь инвентарь",
+            "en": "Spend a month on theory and buy all the gear before starting"
+          },
+          "scores": {
+            "C": 2,
+            "N": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Утро, звонит будильник. Только честно:",
+        "en": "Morning, the alarm goes off. Be honest:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Встаю с первого раза, у меня утренний ритуал",
+            "en": "Up on the first ring, I have a morning routine"
+          },
+          "scores": {
+            "C": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Ещё пять минут» × 7",
+            "en": "\"Five more minutes\" × 7"
+          },
+          "scores": {
+            "C": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Просыпаюсь раньше будильника и лежу, думая о смысле жизни",
+            "en": "Wake before the alarm and lie there pondering the meaning of life"
+          },
+          "scores": {
+            "O": 1,
+            "N": 1,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Вскакиваю и сразу включаю музыку на полную",
+            "en": "Jump up and blast music straight away"
+          },
+          "scores": {
+            "E": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Будильник? Я живу по внутренним часам",
+            "en": "Alarm? I run on my inner clock"
+          },
+          "scores": {
+            "C": -1,
+            "O": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Вечеринка, где ты знаешь только хозяина.",
+        "en": "A party where you only know the host."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Через час знаешь всех по именам. И их котов тоже",
+            "en": "Within an hour you know everyone by name. And their cats"
+          },
+          "scores": {
+            "E": 2,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Находишь одного интересного человека и болтаешь с ним весь вечер",
+            "en": "Find one interesting person and talk to them all night"
+          },
+          "scores": {
+            "E": -1,
+            "O": 1,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Помогаешь хозяину: встречаешь гостей, следишь за закусками",
+            "en": "Help the host: greet guests, keep the snacks going"
+          },
+          "scores": {
+            "A": 2,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Гладишь хозяйского кота в углу. Кот, кажется, тоже интроверт",
+            "en": "Pet the host's cat in a corner. The cat seems to be an introvert too"
+          },
+          "scores": {
+            "E": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Изучаешь книжную полку хозяина и делаешь выводы о его душе",
+            "en": "Study the host's bookshelf and draw conclusions about their soul"
+          },
+          "scores": {
+            "O": 2,
+            "E": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Дедлайн неожиданно перенесли на два дня раньше.",
+        "en": "The deadline was suddenly moved two days earlier."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Составляю новый план, раскидываю задачи — справимся",
+            "en": "Draw up a new plan, split the tasks, we will make it"
+          },
+          "scores": {
+            "C": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Паникую минут двадцать, а потом всё-таки справляюсь",
+            "en": "Panic for twenty minutes, then get it done anyway"
+          },
+          "scores": {
+            "N": 2,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Отлично, адреналин — моё топливо",
+            "en": "Great, adrenaline is my fuel"
+          },
+          "scores": {
+            "N": -1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Иду договариваться, чтобы вернули старый срок",
+            "en": "Go and negotiate the old deadline back"
+          },
+          "scores": {
+            "E": 1,
+            "A": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Делаю по-быстрому. И так сойдёт",
+            "en": "Do it quick and dirty. Good enough"
+          },
+          "scores": {
+            "C": -2,
+            "N": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Какой комплимент приятнее всего?",
+        "en": "Which compliment hits the spot?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "«С тобой так спокойно»",
+            "en": "\"I feel so calm around you\""
+          },
+          "scores": {
+            "A": 1,
+            "N": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "«Как тебе вообще такое пришло в голову?!»",
+            "en": "\"How did you even come up with that?!\""
+          },
+          "scores": {
+            "O": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«На тебя всегда можно положиться»",
+            "en": "\"You are always someone I can count on\""
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«С тобой никогда не скучно»",
+            "en": "\"Never a dull moment with you\""
+          },
+          "scores": {
+            "E": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«У тебя огромное сердце»",
+            "en": "\"You have such a big heart\""
+          },
+          "scores": {
+            "A": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Незнакомый город, телефон на 3%, и совершенно непонятно, куда идти. Что делаешь?",
+        "en": "You are lost in an unfamiliar city with 3% battery. What now?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Спрашиваю дорогу у прохожих и заодно узнаю, где вкусно поесть",
+            "en": "Ask passers-by for directions and get a food tip while at it"
+          },
+          "scores": {
+            "E": 2,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ориентируюсь по солнцу и логике, как настоящий навигатор",
+            "en": "Navigate by the sun and logic like a true explorer"
+          },
+          "scores": {
+            "O": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Это знак! Гуляю, куда глаза глядят",
+            "en": "It is a sign! Wander wherever my feet take me"
+          },
+          "scores": {
+            "O": 2,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Без паники ищу кафе с розеткой — у меня всегда с собой зарядка",
+            "en": "Calmly find a café with a socket. I always carry a charger"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Чувствую подступающую тревогу и мысленно прощаюсь с близкими",
+            "en": "Feel anxiety rising and mentally say goodbye to loved ones"
+          },
+          "scores": {
+            "N": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "В общем чате спорят двое друзей. Ты…",
+        "en": "Two friends are arguing in the group chat. You…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Пишешь каждому в личку и миришь их",
+            "en": "Message each of them privately and make peace"
+          },
+          "scores": {
+            "A": 2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Кидаешь мем, чтобы разрядить обстановку",
+            "en": "Drop a meme to break the tension"
+          },
+          "scores": {
+            "E": 1,
+            "O": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Прямо говоришь, кто, по-твоему, неправ",
+            "en": "Say straight out who you think is wrong"
+          },
+          "scores": {
+            "A": -2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Молча читаешь с попкорном",
+            "en": "Read silently with popcorn"
+          },
+          "scores": {
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Переживаешь: а вдруг это из-за тебя?",
+            "en": "Worry that it might somehow be your fault"
+          },
+          "scores": {
+            "N": 2,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Твой рабочий стол прямо сейчас:",
+        "en": "Your desk right now:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Всё по местам, у каждой вещи свой домик",
+            "en": "Everything in its place, every item has its home"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Творческий хаос: я знаю, где что лежит (примерно)",
+            "en": "Creative chaos: I know where everything is (roughly)"
+          },
+          "scores": {
+            "C": -1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Растения, фотки друзей, открытки и подарки",
+            "en": "Plants, photos of friends, postcards and gifts"
+          },
+          "scores": {
+            "A": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Минимализм: ноутбук и кружка. Всё",
+            "en": "Minimalism: a laptop and a mug. That is it"
+          },
+          "scores": {
+            "C": 1,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Лучше не спрашивай",
+            "en": "Please do not ask"
+          },
+          "scores": {
+            "C": -2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "text": {
+        "ru": "Если бы у тебя был целый свободный год без обязательств:",
+        "en": "If you had a whole free year with no obligations:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Полмира с рюкзаком",
+            "en": "Half the world with a backpack"
+          },
+          "scores": {
+            "O": 2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Выучить язык, освоить инструмент, написать книгу",
+            "en": "Learn a language, master an instrument, write a book"
+          },
+          "scores": {
+            "O": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Провести его с семьёй и близкими",
+            "en": "Spend it with family and loved ones"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Запустить своё дело и выйти на новый уровень",
+            "en": "Launch my own project and level up"
+          },
+          "scores": {
+            "C": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Выспаться. Сначала год выспаться, а там посмотрим",
+            "en": "Sleep. First a year of sleep, then we will see"
+          },
+          "scores": {
+            "C": -1,
+            "N": -1,
+            "E": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "text": {
+        "ru": "На улице к тебе подбегает чужая собака.",
+        "en": "A stranger's dog runs up to you on the street."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Сюсюкаешь, гладишь — вы уже лучшие друзья",
+            "en": "Baby-talk, pet it, you are best friends now"
+          },
+          "scores": {
+            "A": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Вежливо ждёшь хозяина, мало ли что",
+            "en": "Politely wait for the owner, just in case"
+          },
+          "scores": {
+            "C": 1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Интересно, что за порода? Уже гуглишь",
+            "en": "What breed is that? Already googling"
+          },
+          "scores": {
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Напрягаешься и делаешь шаг назад",
+            "en": "Tense up and take a step back"
+          },
+          "scores": {
+            "N": 2,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Уверенно говоришь «Сидеть!» — и собака садится",
+            "en": "Say \"Sit!\" confidently, and the dog sits"
+          },
+          "scores": {
+            "E": 1,
+            "C": 1,
+            "N": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "text": {
+        "ru": "Как ты принимаешь важные решения?",
+        "en": "How do you make big decisions?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Таблица «за» и «против». Потом ещё одна, для надёжности",
+            "en": "A pros-and-cons list. Then another one, to be sure"
+          },
+          "scores": {
+            "C": 2,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Слушаю интуицию",
+            "en": "I follow my gut"
+          },
+          "scores": {
+            "O": 1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Советуюсь со всеми, кого знаю",
+            "en": "Ask everyone I know"
+          },
+          "scores": {
+            "E": 1,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Решаю быстро, а дальше разберусь по ходу",
+            "en": "Decide fast and figure it out as I go"
+          },
+          "scores": {
+            "C": -1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Откладываю, пока ситуация не решится сама",
+            "en": "Put it off until it resolves itself"
+          },
+          "scores": {
+            "N": 1,
+            "C": -1
+          }
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "owl",
+      "title": {
+        "ru": "Сова-стратег",
+        "en": "The Strategic Owl"
+      },
+      "emoji": "🦉",
+      "profile": {
+        "O": 0.49,
+        "C": 0.56,
+        "E": 0.27,
+        "A": 0.4,
+        "N": 0.41
+      },
+      "summary": [
+        {
+          "ru": "Думаешь на три хода вперёд",
+          "en": "You think three moves ahead"
+        },
+        {
+          "ru": "Тишина — твоя суперсила",
+          "en": "Silence is your power-up"
+        },
+        {
+          "ru": "Знаешь ответ, но ждёшь, пока спросят",
+          "en": "You know the answer but wait to be asked"
+        },
+        {
+          "ru": "Тебе доверяют сложные решения",
+          "en": "People trust you with tough calls"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — сова: наблюдательная, вдумчивая и чуть-чуть загадочная. В терминах «Большой пятёрки» у тебя высокая открытость опыту (идеи, книги, сложные вопросы) и высокая добросовестность: твои идеи не остаются идеями, ты раскладываешь их по полочкам. Экстраверсия умеренно низкая — тебе комфортнее слушать, чем быть центром вечеринки.\n\nВ фольклоре сова — символ мудрости, а в реальности это виртуозные ночные охотники с почти бесшумным полётом и шеей, которая поворачивает голову примерно на 270°. Похоже на тебя: ты не суетишься, видишь ситуацию со всех сторон и, когда действуешь, попадаешь точно в цель. Главное — не превращать анализ в бесконечный: иногда хорошее решение сегодня лучше идеального через месяц.",
+        "en": "You are an owl: observant, thoughtful and a little mysterious. In Big Five terms you score high on openness (ideas, books, hard questions) and high on conscientiousness: your ideas never stay ideas, you sort them onto neat shelves. Extraversion runs moderately low. You would rather listen than be the centre of the party.\n\nIn folklore the owl stands for wisdom; in real life owls are expert night hunters with near-silent flight and necks that turn their heads about 270°. Sounds like you: no fuss, you see a situation from every angle, and when you finally move you hit the target. Just do not let analysis run forever. A good decision today often beats a perfect one next month."
+      },
+      "strengths": [
+        {
+          "ru": "Аналитический ум",
+          "en": "Analytical mind"
+        },
+        {
+          "ru": "Спокойствие в кризис",
+          "en": "Calm in a crisis"
+        },
+        {
+          "ru": "Умение слушать",
+          "en": "Great listener"
+        },
+        {
+          "ru": "Глубина интересов",
+          "en": "Deep interests"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Решать, не дожидаясь 100% информации",
+          "en": "Decide before you have 100% of the data"
+        },
+        {
+          "ru": "Делиться мыслями вслух — люди не умеют читать мысли",
+          "en": "Think out loud, people cannot read your mind"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты на вечеринке: через двадцать минут уже обсуждаешь на кухне теорию мультивселенной с одним-единственным собеседником.",
+          "en": "You at a party: twenty minutes in, you are in the kitchen debating multiverse theory with exactly one person."
+        },
+        {
+          "ru": "Друзья: «Куда пойдём?» Ты: присылаешь сравнительную таблицу трёх ресторанов с рейтингами и средним чеком.",
+          "en": "Friends: \"Where shall we go?\" You: send a comparison spreadsheet of three restaurants with ratings and average bill."
+        },
+        {
+          "ru": "«Лягу сегодня пораньше» → 02:47, читаешь статью о том, зачем осьминогу три сердца.",
+          "en": "\"Early night tonight\" → 2:47 a.m., reading about why octopuses need three hearts."
+        },
+        {
+          "ru": "Три часа молчишь в чате, а потом пишешь одно сообщение, после которого все такие: «…ну да, вообще-то».",
+          "en": "Silent in the group chat for three hours, then one message that makes everyone go: \"…okay, fair point.\""
+        }
+      ],
+      "compatibleWith": [
+        "octopus",
+        "wolf",
+        "elephant"
+      ],
+      "imagePrompt": "A cute round owl wearing tiny round glasses, perched on a stack of books next to a small glowing lantern, big curious eyes, lavender and mint palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "fox",
+      "title": {
+        "ru": "Лиса-находчивость",
+        "en": "The Clever Fox"
+      },
+      "emoji": "🦊",
+      "profile": {
+        "O": 0.55,
+        "C": 0.37,
+        "E": 0.5,
+        "A": 0.26,
+        "N": 0.33
+      },
+      "summary": [
+        {
+          "ru": "Находишь выход там, где другие видят стену",
+          "en": "You find a way out where others see a wall"
+        },
+        {
+          "ru": "Обаяние + смекалка = опасное комбо",
+          "en": "Charm + wits = a dangerous combo"
+        },
+        {
+          "ru": "Правила для тебя скорее подсказки",
+          "en": "Rules are more like hints"
+        },
+        {
+          "ru": "Быстро соображаешь и ещё быстрее импровизируешь",
+          "en": "Quick thinking, even quicker improvising"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — лиса: сообразительная, гибкая и немного авантюрная. Открытость опыту у тебя высокая, эмоциональная устойчивость тоже: в стрессовой ситуации ты не паникуешь, а ищешь лазейку. Доброжелательность умеренная — ты не злой человек, просто не любишь, когда тебя водят за нос, и предпочитаешь играть на опережение.\n\nРыжие лисы — одни из самых приспособляемых хищников на планете: они живут и в тундре, и в пустыне, и в центре мегаполисов. Ты тоже как дома в любой ситуации — на собеседовании, на чужой свадьбе или на квесте. Совет от твоего тотема: смекалка — суперсила, но доверие строится на прозрачности. Иногда самый хитрый ход — просто сказать прямо.",
+        "en": "You are a fox: sharp, flexible and a bit of a schemer (the good kind). Openness is high and so is emotional stability: under stress you do not panic, you look for a loophole. Agreeableness is moderate. You are not mean, you just hate being taken for a ride, and you prefer to stay one step ahead.\n\nRed foxes are among the most adaptable predators on Earth, living everywhere from Arctic tundra to deserts and city centres. You, too, feel at home anywhere: a job interview, a stranger's wedding or an escape room. A word from your spirit animal: cleverness is a superpower, but trust is built on transparency. Sometimes the slyest move is simply saying it straight."
+      },
+      "strengths": [
+        {
+          "ru": "Находчивость",
+          "en": "Resourcefulness"
+        },
+        {
+          "ru": "Хладнокровие",
+          "en": "A cool head"
+        },
+        {
+          "ru": "Харизма",
+          "en": "Charisma"
+        },
+        {
+          "ru": "Адаптивность",
+          "en": "Adaptability"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Не превращать каждую ситуацию в шахматную партию",
+          "en": "Not every situation is a chess game"
+        },
+        {
+          "ru": "Доверять людям чуть раньше, чем они это «докажут»",
+          "en": "Trust people a little before they \"earn\" it"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты на экзамене: не подготовлено ничего, но отвечаешь так уверенно, что преподаватель кивает.",
+          "en": "You in an exam: zero preparation, but you answer so confidently that the examiner nods along."
+        },
+        {
+          "ru": "Промокоды, кешбэк, скидка «для тех, кто спросил» — ты знаешь все лазейки, даже в правилах настолки.",
+          "en": "Promo codes, cashback, the secret \"discount if you ask\" — you know every loophole, even in board game rules."
+        },
+        {
+          "ru": "Друзья: «Как тебе удалось достать билеты, если всё распродано?» Ты: загадочно улыбаешься.",
+          "en": "Friends: \"How did you get tickets? It was sold out!\" You: smile mysteriously."
+        },
+        {
+          "ru": "Твоя тактика в споре: сначала согласиться, а потом развернуть разговор так, что оппонент сам предлагает твою идею.",
+          "en": "Your debate tactic: agree first, then steer things until your opponent proposes your idea as their own."
+        }
+      ],
+      "compatibleWith": [
+        "raccoon",
+        "eagle",
+        "dolphin"
+      ],
+      "imagePrompt": "A charming little red fox with a sly smile and a tiny detective scarf, holding a golden key, peach and lilac palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "dolphin",
+      "title": {
+        "ru": "Дельфин — душа компании",
+        "en": "The Social Dolphin"
+      },
+      "emoji": "🐬",
+      "profile": {
+        "O": 0.45,
+        "C": 0.38,
+        "E": 0.58,
+        "A": 0.51,
+        "N": 0.35
+      },
+      "summary": [
+        {
+          "ru": "Умный и общительный одновременно — редкое сочетание",
+          "en": "Smart and sociable at once, a rare combo"
+        },
+        {
+          "ru": "Лёгкость, игривость, юмор",
+          "en": "Light, playful, funny"
+        },
+        {
+          "ru": "Командная работа — твоя стихия",
+          "en": "Teamwork is your natural habitat"
+        },
+        {
+          "ru": "Учишься через общение",
+          "en": "You learn by talking to people"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — дельфин: умный, игривый и очень социальный. У тебя высокие экстраверсия, доброжелательность и открытость опыту и при этом низкая тревожность. Такие люди легко находят общий язык с кем угодно — от бабушки на лавочке до нового начальника.\n\nДельфины живут сложными социальными группами, сотрудничают на охоте, а исследования показывают, что афалины используют индивидуальные «свисты-подписи», которые работают почти как имена. Ты тоже помнишь всех по именам и знаешь, кто какой кофе пьёт. Зона роста — глубина: иногда стоит задержаться с одной задачей или одним человеком подольше, а не уплывать к следующей волне.",
+        "en": "You are a dolphin: smart, playful and deeply social. You score high on extraversion, agreeableness and openness, with low anxiety. People like you can get along with anyone, from the grandma on the bench to the new boss.\n\nDolphins live in complex social groups and cooperate when hunting, and research shows bottlenose dolphins use individual \"signature whistles\" that work almost like names. You, too, remember everyone's name and how they take their coffee. Room to grow: depth. Sometimes stay with one task or one person a little longer instead of surfing off to the next wave."
+      },
+      "strengths": [
+        {
+          "ru": "Коммуникабельность",
+          "en": "Social ease"
+        },
+        {
+          "ru": "Любознательность",
+          "en": "Curiosity"
+        },
+        {
+          "ru": "Позитивный настрой",
+          "en": "Upbeat energy"
+        },
+        {
+          "ru": "Командный дух",
+          "en": "Team spirit"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Не браться за всё сразу",
+          "en": "Do not take on everything at once"
+        },
+        {
+          "ru": "Учиться кайфовать в одиночестве",
+          "en": "Learn to enjoy your own company"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Новая работа: в понедельник ты новенький, к пятнице — организатор корпоратива.",
+          "en": "New job: Monday you are the new kid, by Friday you are organising the office party."
+        },
+        {
+          "ru": "Твои голосовые по четыре минуты, три из которых — смех.",
+          "en": "Your four-minute voice messages, three minutes of which are laughter."
+        },
+        {
+          "ru": "Ты в очереди в поликлинике: уже знаешь, у кого где внуки и кто куда ездил летом.",
+          "en": "You in a doctor's waiting room: you already know whose grandkids live where and who went where on holiday."
+        },
+        {
+          "ru": "Твоё «я на минуточку» на чужом дне рождения длится до закрытия заведения.",
+          "en": "Your \"just popping in for a minute\" at a birthday lasts until closing time."
+        }
+      ],
+      "compatibleWith": [
+        "otter",
+        "golden-retriever",
+        "fox"
+      ],
+      "imagePrompt": "A happy smiling dolphin leaping out of sparkling waves with tiny bubbles and a little star, aqua and pink palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "cat",
+      "title": {
+        "ru": "Кошка, гуляющая сама по себе",
+        "en": "The Independent Cat"
+      },
+      "emoji": "🐈",
+      "profile": {
+        "O": 0.38,
+        "C": 0.27,
+        "E": 0.2,
+        "A": 0.22,
+        "N": 0.53
+      },
+      "summary": [
+        {
+          "ru": "Любишь людей — на своих условиях",
+          "en": "You love people, on your own terms"
+        },
+        {
+          "ru": "Личные границы — это святое",
+          "en": "Personal space is sacred"
+        },
+        {
+          "ru": "Тонко чувствуешь атмосферу",
+          "en": "You read the room perfectly"
+        },
+        {
+          "ru": "Комфорт для тебя — искусство",
+          "en": "Comfort is an art form"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — кошка: независимая, наблюдательная и избирательная в привязанностях. Экстраверсия и доброжелательность у тебя умеренно низкие — не потому, что ты не любишь людей, а потому, что тебе важно самостоятельно решать, когда и с кем общаться. Эмоциональная чувствительность чуть выше среднего: ты сразу замечаешь, когда в комнате что-то не так.\n\nКстати, в исследовании личности домашних кошек (Litchfield et al., 2017, «кошачья пятёрка») выделили пять факторов — нейротизм, экстраверсию, доминантность, импульсивность и доброжелательность. Очень похоже на человеческие измерения! Зона роста — иногда делать первый шаг навстречу: люди не всегда догадываются, что тебе приятна их компания.",
+        "en": "You are a cat: independent, observant and selective with your affection. Extraversion and agreeableness run a bit low, not because you dislike people, but because you want to decide for yourself when and with whom to socialise. Emotional sensitivity is slightly above average: you notice at once when something in the room is off.\n\nFun fact: a study of pet cat personality (Litchfield et al., 2017, the \"Feline Five\") found five factors — neuroticism, extraversion, dominance, impulsiveness and agreeableness — strikingly similar to human dimensions. Room to grow: make the first move sometimes. People cannot always tell that you enjoy their company."
+      },
+      "strengths": [
+        {
+          "ru": "Независимость",
+          "en": "Independence"
+        },
+        {
+          "ru": "Наблюдательность",
+          "en": "Perceptiveness"
+        },
+        {
+          "ru": "Чувство стиля",
+          "en": "Sense of style"
+        },
+        {
+          "ru": "Умение отдыхать",
+          "en": "Mastery of rest"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Говорить о чувствах словами, а не загадочным молчанием",
+          "en": "Use words, not mysterious silence"
+        },
+        {
+          "ru": "Иногда соглашаться на авантюру",
+          "en": "Say yes to an adventure now and then"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Тебя зовут на вечеринку: «Я подумаю» (не придёшь). Не зовут: «В смысле меня не позвали?!»",
+          "en": "Invited to a party: \"I will think about it\" (you will not come). Not invited: \"Excuse me, why was I not invited?!\""
+        },
+        {
+          "ru": "Твой идеальный день: солнечный луч на подоконнике, плед, и никто не трогает.",
+          "en": "Your perfect day: a patch of sunlight, a blanket and nobody touching you."
+        },
+        {
+          "ru": "В гостях ты сначала пятнадцать минут изучаешь обстановку с дивана и только потом начинаешь общаться.",
+          "en": "At someone's place you spend fifteen minutes surveying the room from the sofa before you start socialising."
+        },
+        {
+          "ru": "Обнимашки — строго по предварительной записи.",
+          "en": "Hugs by appointment only."
+        }
+      ],
+      "compatibleWith": [
+        "owl",
+        "octopus",
+        "sloth"
+      ],
+      "imagePrompt": "An elegant fluffy cat curled on a velvet cushion in a sunbeam, half-closed eyes and a tiny smug smile, lilac and cream palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "wolf",
+      "title": {
+        "ru": "Волк — опора стаи",
+        "en": "The Loyal Wolf"
+      },
+      "emoji": "🐺",
+      "profile": {
+        "O": 0.27,
+        "C": 0.56,
+        "E": 0.46,
+        "A": 0.53,
+        "N": 0.31
+      },
+      "summary": [
+        {
+          "ru": "Верность своим — превыше всего",
+          "en": "Loyalty to your people comes first"
+        },
+        {
+          "ru": "Тихое, но надёжное лидерство",
+          "en": "Quiet, solid leadership"
+        },
+        {
+          "ru": "Держишь слово",
+          "en": "You keep your word"
+        },
+        {
+          "ru": "Стая — не толпа: у тебя свой узкий круг",
+          "en": "A pack is not a crowd: your circle is small and tight"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — волк. И речь не про мемы о волке, который «в цирке не выступает», а про настоящих волков. В природе волчья стая — это, как правило, семья: родители и их потомство, которые вместе охотятся, растят волчат и охраняют территорию. У тебя высокие добросовестность и доброжелательность к «своим», хорошая эмоциональная устойчивость и умеренная экстраверсия.\n\nТы — тот человек, который приезжает помогать с переездом к восьми утра и привозит свои инструменты. Ты не обязательно громкий лидер, но в кризис почему-то все смотрят на тебя. Зона роста — открытость новому: иногда стоит принять в стаю кого-то непохожего и пересмотреть старые правила.",
+        "en": "You are a wolf. Not the internet \"lone alpha wolf\" meme, the real thing. In nature a wolf pack is usually a family: parents and their offspring who hunt together, raise pups and guard their territory. You score high on conscientiousness and on warmth toward your people, with good emotional stability and moderate extraversion.\n\nYou are the one who shows up at 8 a.m. to help a friend move, and brings your own tools. You are not necessarily a loud leader, but in a crisis everyone somehow looks at you. Room to grow: openness. Sometimes welcome someone different into the pack and revisit the old rules."
+      },
+      "strengths": [
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        },
+        {
+          "ru": "Преданность",
+          "en": "Loyalty"
+        },
+        {
+          "ru": "Выдержка",
+          "en": "Composure"
+        },
+        {
+          "ru": "Командность",
+          "en": "Team spirit"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Пускать в ближний круг новых людей",
+          "en": "Let new people into your inner circle"
+        },
+        {
+          "ru": "Не тащить всё на себе",
+          "en": "Do not carry everything alone"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "В семейном чате ты единственный человек, который отвечает на вопрос «кто что везёт на дачу?».",
+          "en": "In the family chat you are the only one who actually answers \"who is bringing what to the barbecue?\""
+        },
+        {
+          "ru": "Твои друзья — со школы. Новых ты проверяешь лет пять.",
+          "en": "Your friends go back to school days. New ones are on a five-year probation."
+        },
+        {
+          "ru": "Тебе пишут «помоги, пожалуйста», а ты уже обуваешься.",
+          "en": "Someone texts \"can you help?\" and you are already putting on your shoes."
+        },
+        {
+          "ru": "Мемы про волков ты не репостишь. Ты просто молча делаешь дела.",
+          "en": "You do not post alpha-wolf memes. You just quietly get things done."
+        }
+      ],
+      "compatibleWith": [
+        "penguin",
+        "elephant",
+        "owl"
+      ],
+      "imagePrompt": "A noble but cuddly grey wolf sitting proudly on a small hill under a crescent moon, wearing a cozy scarf, blue and silver palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "otter",
+      "title": {
+        "ru": "Выдра-заводила",
+        "en": "The Playful Otter"
+      },
+      "emoji": "🦦",
+      "profile": {
+        "O": 0.38,
+        "C": 0.31,
+        "E": 0.57,
+        "A": 0.54,
+        "N": 0.37
+      },
+      "summary": [
+        {
+          "ru": "Жизнь — это игра, и ты в неё играешь",
+          "en": "Life is a game and you are playing"
+        },
+        {
+          "ru": "Радуешься мелочам как никто",
+          "en": "Nobody enjoys small things like you"
+        },
+        {
+          "ru": "Держишь своих «за лапку»",
+          "en": "You hold your people's hands"
+        },
+        {
+          "ru": "Хаос? Скорее весёлый беспорядок",
+          "en": "Chaos? More like joyful mess"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — выдра: весёлая, тёплая и чуть-чуть хаотичная. У тебя высокие экстраверсия и доброжелательность, низкая тревожность и довольно свободное отношение к планам. Ты превращаешь поход в магазин в приключение, а скучную очередь — в стендап.\n\nКаланы, морские выдры, — одни из немногих млекопитающих, которые пользуются инструментами: раскалывают раковины камнями. А ещё их часто видят держащимися за лапы во время отдыха на воде, чтобы не разнесло течением. Это про тебя: игривость не мешает быть надёжным другом. Зона роста — доводить начатое: иногда стоит закончить один проект, прежде чем нырять в следующий.",
+        "en": "You are an otter: cheerful, warm and slightly chaotic. High extraversion and agreeableness, low anxiety and a relaxed attitude to plans. You turn a trip to the shop into an adventure and a boring queue into a stand-up set.\n\nSea otters are among the few mammals that use tools, cracking shells open with stones. They are also often seen holding paws while resting on the water so they do not drift apart. That is you: playfulness never stops you from being a reliable friend. Room to grow: finishing things. Sometimes complete one project before diving into the next."
+      },
+      "strengths": [
+        {
+          "ru": "Жизнерадостность",
+          "en": "Joyfulness"
+        },
+        {
+          "ru": "Тёплые отношения",
+          "en": "Warm relationships"
+        },
+        {
+          "ru": "Креативная игривость",
+          "en": "Playful creativity"
+        },
+        {
+          "ru": "Лёгкость на подъём",
+          "en": "Easygoing spontaneity"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Планировать хотя бы на неделю вперёд",
+          "en": "Plan at least a week ahead"
+        },
+        {
+          "ru": "Не обещать всем всё сразу",
+          "en": "Do not promise everything to everyone"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты в отпуске: 400 фотографий, из них 380 — еда и смешные вывески.",
+          "en": "You on holiday: 400 photos, 380 of them food and funny signs."
+        },
+        {
+          "ru": "Ты на работе: «Давайте сделаем это весело!» — и все почему-то соглашаются.",
+          "en": "You at work: \"Let's make this fun!\" and somehow everyone agrees."
+        },
+        {
+          "ru": "Твоя финансовая стратегия: «Ну это же для настроения».",
+          "en": "Your financial strategy: \"But it's for my mood.\""
+        },
+        {
+          "ru": "Ты обнимаешь друзей при встрече так, будто вы не виделись год. Виделись вчера.",
+          "en": "You hug friends like you have not seen them in a year. It was yesterday."
+        }
+      ],
+      "compatibleWith": [
+        "dolphin",
+        "golden-retriever",
+        "capybara"
+      ],
+      "imagePrompt": "A joyful little otter floating on its back holding a shiny pebble, wearing a tiny party hat, surrounded by bubbles, aqua and coral palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "bear",
+      "title": {
+        "ru": "Медведь-домосед",
+        "en": "The Cosy Bear"
+      },
+      "emoji": "🐻",
+      "profile": {
+        "O": 0.24,
+        "C": 0.44,
+        "E": 0.27,
+        "A": 0.46,
+        "N": 0.28
+      },
+      "summary": [
+        {
+          "ru": "Сила — в спокойствии",
+          "en": "Strength in calm"
+        },
+        {
+          "ru": "Дом — твоя крепость (и берлога)",
+          "en": "Home is your fortress (and den)"
+        },
+        {
+          "ru": "Не тратишь энергию на ерунду",
+          "en": "You do not waste energy on nonsense"
+        },
+        {
+          "ru": "Добродушие — пока не разбудят",
+          "en": "Good-natured, until someone wakes you"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — медведь: спокойный, основательный и уютный. Экстраверсия и открытость новому у тебя скорее низкие, эмоциональная устойчивость — высокая. Ты не гонишься за трендами и не рвёшься на каждую вечеринку, зато создаёшь вокруг себя атмосферу надёжности и тепла.\n\nМногие медведи проводят зиму в берлоге, месяцами почти не питаясь, — легендарное умение беречь ресурсы. Твой инстинкт сохранения энергии развит не хуже. Зона роста — выходить из берлоги: новое не всегда опасно, а иногда даже очень вкусно.",
+        "en": "You are a bear: calm, grounded and cosy. Extraversion and openness lean low; emotional stability is high. You do not chase trends or every party, but you create an atmosphere of safety and warmth around you.\n\nMany bears spend winter in a den, going for months with almost no food, a legendary talent for saving resources. Your energy-conservation instinct is just as strong. Room to grow: leave the den. New things are not always dangerous, and sometimes they are delicious."
+      },
+      "strengths": [
+        {
+          "ru": "Устойчивость",
+          "en": "Steadiness"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Dependability"
+        },
+        {
+          "ru": "Умение беречь силы",
+          "en": "Energy management"
+        },
+        {
+          "ru": "Уют вокруг себя",
+          "en": "Creating cosiness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Пробовать новое без долгой раскачки",
+          "en": "Try new things without a long warm-up"
+        },
+        {
+          "ru": "Говорить о чувствах, а не только ворчать",
+          "en": "Talk about feelings instead of just grumbling"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твой ответ на «пойдём куда-нибудь?»: «А может, ко мне? У меня плед и пельмени».",
+          "en": "Your answer to \"shall we go out?\": \"How about my place? I have blankets and dumplings.\""
+        },
+        {
+          "ru": "Ты с ноября по март: спячка в режиме «работа — дом — сериал».",
+          "en": "You from November to March: hibernation mode — work, home, series, repeat."
+        },
+        {
+          "ru": "Тебя невозможно вывести из себя. Кроме как разбудив до десяти утра в выходной.",
+          "en": "Nothing can make you lose your cool. Except being woken before 10 a.m. on a weekend."
+        },
+        {
+          "ru": "Твоё любимое худи с тобой с 2017 года, и оно всё ещё лучшее.",
+          "en": "Your favourite hoodie has been with you since 2017 and is still undefeated."
+        }
+      ],
+      "compatibleWith": [
+        "capybara",
+        "sloth",
+        "penguin"
+      ],
+      "imagePrompt": "A chubby friendly brown bear wrapped in a knitted blanket holding a mug of cocoa, sitting in a cozy den with fairy lights, caramel and cream palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "raccoon",
+      "title": {
+        "ru": "Енот-изобретатель",
+        "en": "The Chaotic Raccoon"
+      },
+      "emoji": "🦝",
+      "profile": {
+        "O": 0.54,
+        "C": 0.2,
+        "E": 0.46,
+        "A": 0.4,
+        "N": 0.51
+      },
+      "summary": [
+        {
+          "ru": "Любопытство сильнее инстинкта самосохранения",
+          "en": "Curiosity beats self-preservation"
+        },
+        {
+          "ru": "Креативный хаос — твой рабочий режим",
+          "en": "Creative chaos is your workflow"
+        },
+        {
+          "ru": "Лучшие идеи приходят ночью",
+          "en": "Your best ideas come at night"
+        },
+        {
+          "ru": "Находишь сокровища там, где другие видят хлам",
+          "en": "You find treasure where others see junk"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — енот: любопытный, изобретательный и восхитительно хаотичный. Высокая открытость опыту, низкая организованность и немного повышенная эмоциональная чувствительность. Ты вполне можешь в три часа ночи разобрать тостер, чтобы понять, как он устроен, а потом собрать из него лампу.\n\nЕноты славятся ловкими «руками» и умением решать задачи: ещё в классических опытах начала XX века они открывали сложные запоры и надолго запоминали решения. Городские еноты освоили мусорные баки по всему миру — не зря интернет сделал их иконой мемов. Зона роста — порядок: доделай один гениальный проект, прежде чем начинать пять новых.",
+        "en": "You are a raccoon: curious, inventive and gloriously chaotic. High openness, low orderliness and slightly elevated emotional sensitivity. You might take a toaster apart at 3 a.m. to see how it works, then turn it into a lamp.\n\nRaccoons are famous for their nimble \"hands\" and problem-solving: in classic experiments from the early 1900s they opened complex latches and remembered the solutions for a long time. City raccoons have mastered bins around the world, which is why the internet crowned them meme royalty (\"trash panda\"). Room to grow: order. Finish one genius project before starting five new ones."
+      },
+      "strengths": [
+        {
+          "ru": "Изобретательность",
+          "en": "Inventiveness"
+        },
+        {
+          "ru": "Любознательность",
+          "en": "Curiosity"
+        },
+        {
+          "ru": "Находчивость",
+          "en": "Resourcefulness"
+        },
+        {
+          "ru": "Чувство юмора",
+          "en": "Sense of humour"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить дела до конца",
+          "en": "Finish what you start"
+        },
+        {
+          "ru": "Ложиться спать до рассвета",
+          "en": "Go to bed before sunrise"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твоя комната: «Это не бардак, это система, понятная только мне».",
+          "en": "Your room: \"It's not a mess, it's a system only I understand.\""
+        },
+        {
+          "ru": "Ты в магазине: «Мне ничего не нужно» → выходишь с тремя странными гаджетами и набором для вышивания.",
+          "en": "You in a shop: \"I don't need anything\" → you leave with three weird gadgets and an embroidery kit."
+        },
+        {
+          "ru": "02:30 ночи, ты: «А что если…» — и вот уже открыто 47 вкладок.",
+          "en": "2:30 a.m., you: \"What if…\" and suddenly 47 tabs are open."
+        },
+        {
+          "ru": "Друзья выбрасывают старую тумбочку. Ты: «Стоп! Я сделаю из неё шедевр».",
+          "en": "Friends throw out an old nightstand. You: \"Wait! I'll turn it into a masterpiece.\""
+        }
+      ],
+      "compatibleWith": [
+        "fox",
+        "octopus",
+        "otter"
+      ],
+      "imagePrompt": "A mischievous cute raccoon wearing tiny goggles, holding a screwdriver and a glowing gadget, sitting on a pile of shiny trinkets, grey, mint and lilac palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "capybara",
+      "title": {
+        "ru": "Капибара-дзен",
+        "en": "The Zen Capybara"
+      },
+      "emoji": "🍊",
+      "profile": {
+        "O": 0.29,
+        "C": 0.38,
+        "E": 0.43,
+        "A": 0.55,
+        "N": 0.27
+      },
+      "summary": [
+        {
+          "ru": "Тебя почти невозможно вывести из себя",
+          "en": "Almost impossible to rattle"
+        },
+        {
+          "ru": "С тобой спокойно всем — даже крокодилам",
+          "en": "Everyone feels calm around you, even crocodiles"
+        },
+        {
+          "ru": "Не споришь, а принимаешь",
+          "en": "You do not argue, you accept"
+        },
+        {
+          "ru": "Гроссмейстер расслабления",
+          "en": "Grandmaster of chill"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — капибара: невозмутимая, дружелюбная и абсолютно умиротворённая. У тебя очень низкий нейротизм и высокая доброжелательность. Пока все вокруг паникуют из-за дедлайна, ты спокойно говоришь «разберёмся» — и почему-то вы действительно разбираетесь.\n\nКапибары — крупнейшие грызуны в мире и очень социальные животные: живут группами, а в интернете прославились тем, что рядом с ними спокойно сидят птицы, обезьянки и даже кайманы. Ты — такая же ходячая «зона мира». Зона роста — иногда всё-таки беспокоиться о важном: спокойствие прекрасно, но налоговая декларация сама себя не заполнит.",
+        "en": "You are a capybara: unflappable, friendly and utterly at peace. Very low neuroticism and high agreeableness. While everyone panics about a deadline, you calmly say \"we will sort it out\", and somehow you do.\n\nCapybaras are the world's largest rodents and very social animals that live in groups. The internet adores them because birds, monkeys and even caimans seem perfectly relaxed sitting next to them. You are a walking peace zone too. Room to grow: worry a little about the important stuff. Calm is great, but your tax return will not file itself."
+      },
+      "strengths": [
+        {
+          "ru": "Невозмутимость",
+          "en": "Unshakeable calm"
+        },
+        {
+          "ru": "Дружелюбие",
+          "en": "Friendliness"
+        },
+        {
+          "ru": "Принятие",
+          "en": "Acceptance"
+        },
+        {
+          "ru": "Миротворчество",
+          "en": "Peacemaking"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Отстаивать свои интересы, а не только «и так нормально»",
+          "en": "Stand up for yourself instead of \"it's fine\""
+        },
+        {
+          "ru": "Ускоряться, когда это правда нужно",
+          "en": "Speed up when it actually matters"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Все: «Горим! Дедлайн через час!» Ты, неспешно заваривая чай: «Ну, час — это много».",
+          "en": "Everyone: \"We're on fire! Deadline in an hour!\" You, slowly brewing tea: \"An hour is plenty.\""
+        },
+        {
+          "ru": "Твоя реакция на любую драму: «ок».",
+          "en": "Your reaction to any drama: \"ok.\""
+        },
+        {
+          "ru": "Горячая ванна и мандарин на голове — твоё идеальное воскресенье.",
+          "en": "A hot bath with an orange balanced on your head: your ideal Sunday."
+        },
+        {
+          "ru": "К тебе приходят пожаловаться на жизнь, а уходят такими, будто выспались.",
+          "en": "People come to you to vent and leave looking like they have just had a nap."
+        }
+      ],
+      "compatibleWith": [
+        "sloth",
+        "bear",
+        "otter"
+      ],
+      "imagePrompt": "A serene smiling capybara relaxing in a warm hot spring with a small orange balanced on its head, tiny birds nearby, peach and teal palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "penguin",
+      "title": {
+        "ru": "Пингвин-семьянин",
+        "en": "The Devoted Penguin"
+      },
+      "emoji": "🐧",
+      "profile": {
+        "O": 0.19,
+        "C": 0.62,
+        "E": 0.43,
+        "A": 0.58,
+        "N": 0.48
+      },
+      "summary": [
+        {
+          "ru": "Свои — это навсегда",
+          "en": "Your people are forever"
+        },
+        {
+          "ru": "Порядок, традиции и тёплые ритуалы",
+          "en": "Order, traditions and cosy rituals"
+        },
+        {
+          "ru": "Держишься с командой в любую метель",
+          "en": "You huddle with your team through any storm"
+        },
+        {
+          "ru": "Немного переживаешь, но всегда рядом",
+          "en": "A bit of a worrier, but always there"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — пингвин: преданный, организованный и очень «семейный». У тебя высокие добросовестность и доброжелательность, умеренная открытость новому (зачем чинить то, что работает?) и чуть повышенная эмоциональная чувствительность: ты переживаешь за своих.\n\nИмператорские пингвины переживают антарктическую зиму, сбиваясь в плотную толпу и постепенно перемещаясь — с холодного края в тёплый центр и обратно, так что греются все по очереди. Вот это командная работа! Ты тоже умеешь создавать «тёплый круг» для близких. Зона роста — гибкость: иногда можно отменить традицию и попробовать что-то новое. Мир не рухнет.",
+        "en": "You are a penguin: devoted, organised and very family-minded. High conscientiousness and agreeableness, moderate openness (why fix what works?) and slightly above-average emotional sensitivity: you worry about your people.\n\nEmperor penguins survive the Antarctic winter by huddling tightly and slowly shifting, from the cold edge to the warm centre and back, so everyone gets a turn to warm up. Now that is teamwork! You, too, know how to build a warm circle for the people you love. Room to grow: flexibility. Skip a tradition once in a while and try something new. The world will not end."
+      },
+      "strengths": [
+        {
+          "ru": "Преданность",
+          "en": "Devotion"
+        },
+        {
+          "ru": "Организованность",
+          "en": "Organisation"
+        },
+        {
+          "ru": "Забота",
+          "en": "Care"
+        },
+        {
+          "ru": "Стойкость в команде",
+          "en": "Team resilience"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Позволять планам меняться",
+          "en": "Let plans change"
+        },
+        {
+          "ru": "Меньше думать о том, «что скажут»",
+          "en": "Worry less about what people will say"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Новый год: оливье строго по бабушкиному рецепту. Никаких экспериментов, спасибо.",
+          "en": "Holiday dinner: grandma's recipe, strictly. No experiments, thank you."
+        },
+        {
+          "ru": "Твой календарь дней рождения друзей точнее, чем у их мам.",
+          "en": "Your calendar of friends' birthdays is more accurate than their mums'."
+        },
+        {
+          "ru": "В походе у тебя есть пластыри, зарядка, влажные салфетки и запасные носки. Для всех.",
+          "en": "On a hike you have plasters, a charger, wet wipes and spare socks. For everyone."
+        },
+        {
+          "ru": "Пишешь «добрался(-ась)?» каждому, кто уехал на такси после вечеринки.",
+          "en": "You text \"home safe?\" to everyone who took a taxi after the party."
+        }
+      ],
+      "compatibleWith": [
+        "wolf",
+        "elephant",
+        "bear"
+      ],
+      "imagePrompt": "A small round penguin wearing a cozy knitted hat and scarf, hugging a tiny penguin friend on an ice floe with gentle snow, baby blue and white palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "eagle",
+      "title": {
+        "ru": "Орёл-целеустремлённость",
+        "en": "The Ambitious Eagle"
+      },
+      "emoji": "🦅",
+      "profile": {
+        "O": 0.36,
+        "C": 0.59,
+        "E": 0.53,
+        "A": 0.3,
+        "N": 0.29
+      },
+      "summary": [
+        {
+          "ru": "Высокие цели и острый фокус",
+          "en": "High goals and sharp focus"
+        },
+        {
+          "ru": "Решения — быстро и уверенно",
+          "en": "Fast, confident decisions"
+        },
+        {
+          "ru": "Видишь картину целиком",
+          "en": "You see the big picture"
+        },
+        {
+          "ru": "Не любишь, когда тратят твоё время",
+          "en": "You hate wasted time"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — орёл: целеустремлённый, уверенный в себе и решительный. Высокие добросовестность и экстраверсия (особенно её «напористая» часть), низкая тревожность и умеренная доброжелательность: ты можешь быть тёплым человеком, но цель для тебя — приоритет.\n\nЗрение орлов в несколько раз острее человеческого: они замечают добычу с огромной высоты. Так и ты — видишь цель издалека и не отвлекаешься на шум. Зона роста — команда: иногда лучше лететь чуть медленнее, но вместе. Даже самым сильным нужны союзники.",
+        "en": "You are an eagle: driven, self-assured and decisive. High conscientiousness and extraversion (especially its assertive side), low anxiety and moderate agreeableness. You can be warm, but the goal comes first.\n\nEagles' eyesight is several times sharper than ours; they can spot prey from great heights. Same with you: you see your target from far away and ignore the noise. Room to grow: teamwork. Sometimes it is better to fly a little slower but together. Even the strongest need allies."
+      },
+      "strengths": [
+        {
+          "ru": "Целеустремлённость",
+          "en": "Drive"
+        },
+        {
+          "ru": "Решительность",
+          "en": "Decisiveness"
+        },
+        {
+          "ru": "Стратегическое видение",
+          "en": "Strategic vision"
+        },
+        {
+          "ru": "Уверенность",
+          "en": "Confidence"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Делегировать и доверять",
+          "en": "Delegate and trust"
+        },
+        {
+          "ru": "Замедляться, чтобы услышать других",
+          "en": "Slow down to hear others"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твои цели на год расписаны по кварталам. На дворе 3 января.",
+          "en": "Your goals for the year are broken down by quarter. It is January 3rd."
+        },
+        {
+          "ru": "Ты в групповом проекте: «Давайте я просто всё сделаю, так быстрее».",
+          "en": "You in a group project: \"Let me just do it all, it's faster.\""
+        },
+        {
+          "ru": "Отпуск? Только с ноутбуком и «парой созвонов».",
+          "en": "Holiday? Only with a laptop and \"a couple of calls\"."
+        },
+        {
+          "ru": "Ты никогда не опаздываешь. Это все остальные приходят поздно.",
+          "en": "You are never late. Everyone else just arrives late."
+        }
+      ],
+      "compatibleWith": [
+        "wolf",
+        "fox",
+        "honey-badger"
+      ],
+      "imagePrompt": "A majestic yet cute eagle wearing a tiny crown, soaring above fluffy clouds with sun rays, gold and sky-blue palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "octopus",
+      "title": {
+        "ru": "Осьминог-гений",
+        "en": "The Genius Octopus"
+      },
+      "emoji": "🐙",
+      "profile": {
+        "O": 0.55,
+        "C": 0.43,
+        "E": 0.26,
+        "A": 0.34,
+        "N": 0.44
+      },
+      "summary": [
+        {
+          "ru": "Мозг работает в восемь рук",
+          "en": "Your brain runs on eight arms"
+        },
+        {
+          "ru": "Нестандартное мышление — твоя норма",
+          "en": "Unconventional thinking is your normal"
+        },
+        {
+          "ru": "Любишь решать головоломки в одиночку",
+          "en": "You love solving puzzles solo"
+        },
+        {
+          "ru": "Умеешь слиться с фоном, когда люди утомили",
+          "en": "You blend into the background when people get too much"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — осьминог: невероятно любопытный, изобретательный и немного отстранённый. Очень высокая открытость опыту, низкая экстраверсия и умеренная доброжелательность. Скорее всего, ты из тех, кто знает понемногу обо всём и очень много — о чём-то странном.\n\nОсьминоги — звёзды исследований интеллекта беспозвоночных. А ещё у них есть индивидуальные различия в поведении: в классической работе Мазер и Андерсон (1993) у осьминогов выделили измерения, похожие на «активность», «реактивность» и «избегание». Плюс три сердца и голубая кровь — согласись, ты тоже немного инопланетянин. Зона роста — делиться идеями: мир не узнает о твоих гениальных решениях, если они так и останутся в заметках телефона.",
+        "en": "You are an octopus: wildly curious, inventive and slightly aloof. Very high openness, low extraversion and moderate agreeableness. You are probably the person who knows a bit about everything and a lot about something weird.\n\nOctopuses are the stars of invertebrate intelligence research, and they show individual differences too: in a classic study, Mather and Anderson (1993) described octopus personality dimensions resembling \"activity\", \"reactivity\" and \"avoidance\". Add three hearts and blue blood, and admit it, you are a little bit alien as well. Room to grow: share your ideas. The world will not benefit from your genius if it lives only in your notes app."
+      },
+      "strengths": [
+        {
+          "ru": "Креативность",
+          "en": "Creativity"
+        },
+        {
+          "ru": "Многозадачность",
+          "en": "Multitasking"
+        },
+        {
+          "ru": "Независимое мышление",
+          "en": "Independent thinking"
+        },
+        {
+          "ru": "Адаптивность",
+          "en": "Adaptability"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Объяснять идеи простым языком",
+          "en": "Explain ideas in plain language"
+        },
+        {
+          "ru": "Звать людей в свои проекты",
+          "en": "Invite people into your projects"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты одновременно смотришь лекцию, готовишь ужин, переписываешься в трёх чатах и учишь японский.",
+          "en": "You are simultaneously watching a lecture, cooking dinner, texting in three chats and learning Japanese."
+        },
+        {
+          "ru": "Твои хобби за год: керамика, программирование и гадание на кофейной гуще (исключительно в научных целях).",
+          "en": "Your hobbies this year: ceramics, coding and reading coffee grounds (strictly for science)."
+        },
+        {
+          "ru": "Ты на вечеринке: прячешься за фикусом и наблюдаешь за людьми, как антрополог.",
+          "en": "You at a party: hiding behind a ficus, observing humans like an anthropologist."
+        },
+        {
+          "ru": "Тебе говорят «мысли нестандартно». Ты: «А где у вас тут стандарт?»",
+          "en": "They tell you to \"think outside the box\". You: \"What box?\""
+        }
+      ],
+      "compatibleWith": [
+        "owl",
+        "raccoon",
+        "cat"
+      ],
+      "imagePrompt": "A cute curious octopus juggling a book, a paintbrush, a tiny laptop and a teacup with its tentacles, sparkles around, violet and coral palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "elephant",
+      "title": {
+        "ru": "Слон с большим сердцем",
+        "en": "The Big-Hearted Elephant"
+      },
+      "emoji": "🐘",
+      "profile": {
+        "O": 0.37,
+        "C": 0.53,
+        "E": 0.39,
+        "A": 0.63,
+        "N": 0.54
+      },
+      "summary": [
+        {
+          "ru": "Помнишь всё, особенно важное для других",
+          "en": "You remember everything, especially what matters to others"
+        },
+        {
+          "ru": "Эмпатия уровня «чувствую за двоих»",
+          "en": "Empathy level: feeling for two"
+        },
+        {
+          "ru": "Мудрость и ответственность",
+          "en": "Wisdom and responsibility"
+        },
+        {
+          "ru": "Защищаешь тех, кто слабее",
+          "en": "You protect the vulnerable"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — слон: мудрый, заботливый и глубоко чувствующий. Высокие доброжелательность и добросовестность, умеренная открытость и немного повышенная эмоциональная чувствительность — ты близко к сердцу принимаешь и свои, и чужие переживания.\n\nСлоны живут сплочёнными семейными группами во главе с опытной самкой-матриархом, а исследователи наблюдали, как они проявляют заметный интерес к останкам сородичей. Слоновья память вошла в поговорку — и ты тоже помнишь, у кого когда день рождения и кто не ест лук. Зона роста — беречь себя: невозможно нести на своей спине всё стадо.",
+        "en": "You are an elephant: wise, caring and deeply feeling. High agreeableness and conscientiousness, moderate openness and slightly elevated emotional sensitivity. You take both your own and other people's troubles to heart.\n\nElephants live in close-knit family groups led by an experienced matriarch, and researchers have observed them showing striking interest in the remains of other elephants. Their memory is proverbial, and you, too, remember everyone's birthday and who does not eat onions. Room to grow: look after yourself. You cannot carry the whole herd on your back."
+      },
+      "strengths": [
+        {
+          "ru": "Эмпатия",
+          "en": "Empathy"
+        },
+        {
+          "ru": "Ответственность",
+          "en": "Responsibility"
+        },
+        {
+          "ru": "Память на важное",
+          "en": "Memory for what matters"
+        },
+        {
+          "ru": "Мудрость",
+          "en": "Wisdom"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Отпускать старые обиды",
+          "en": "Let go of old grudges"
+        },
+        {
+          "ru": "Просить о помощи",
+          "en": "Ask for help"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты дословно помнишь, что тебе сказали в 2014 году. И кто при этом был в синей кофте.",
+          "en": "You remember word for word what someone said to you in 2014. And who was wearing a blue sweater."
+        },
+        {
+          "ru": "Друг: «Как дела?» Ты: «Подожди, как мама после операции? А кот? А собеседование?»",
+          "en": "Friend: \"How are you?\" You: \"Wait, how is your mum after the surgery? And the cat? And the interview?\""
+        },
+        {
+          "ru": "Ты плачешь над рекламой собачьего корма. Каждый раз.",
+          "en": "You cry at dog food commercials. Every single time."
+        },
+        {
+          "ru": "В рюкзаке: аптечка, перекус на всех и запасной зонт. На всякий случай.",
+          "en": "In your backpack: a first-aid kit, snacks for everyone and a spare umbrella. Just in case."
+        }
+      ],
+      "compatibleWith": [
+        "penguin",
+        "wolf",
+        "golden-retriever"
+      ],
+      "imagePrompt": "A gentle baby elephant holding a heart-shaped balloon with its trunk, little flowers around its feet, pink and soft grey palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "honey-badger",
+      "title": {
+        "ru": "Медоед: «Страх? Не слышал»",
+        "en": "The Fearless Honey Badger"
+      },
+      "emoji": "🦡",
+      "profile": {
+        "O": 0.34,
+        "C": 0.36,
+        "E": 0.55,
+        "A": 0.22,
+        "N": 0.27
+      },
+      "summary": [
+        {
+          "ru": "Бесстрашие — твоя заводская настройка",
+          "en": "Fearlessness is your factory setting"
+        },
+        {
+          "ru": "Не отступаешь, даже если соперник больше",
+          "en": "You do not back down, even from bigger rivals"
+        },
+        {
+          "ru": "Говоришь прямо",
+          "en": "You speak your mind"
+        },
+        {
+          "ru": "Упорство уровня «сто попыток — норма»",
+          "en": "Persistence level: a hundred tries is normal"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — медоед: бесстрашный, напористый и невероятно упрямый (в хорошем смысле). У тебя очень низкий нейротизм, невысокая доброжелательность и высокая экстраверсия — особенно её «напористая» сторона. Ты не ищешь конфликтов, но и не убегаешь от них.\n\nМедоед славится отвагой: он может противостоять хищникам гораздо крупнее себя, а толстая, свободно сидящая шкура помогает ему вывернуться из захвата. Интернет давно сделал его символом девиза «мне всё равно, я иду за мёдом». Зона роста — мягкость: не каждая ситуация — битва, а «прости» — не поражение.",
+        "en": "You are a honey badger: fearless, assertive and gloriously stubborn. Very low neuroticism, low agreeableness and high extraversion, especially its assertive side. You do not go looking for fights, but you do not run from them either.\n\nThe honey badger is famous for its nerve: it will stand up to predators much larger than itself, and its thick, loose skin helps it twist out of a grip. The internet long ago made it the patron saint of \"honey badger don't care\". Room to grow: softness. Not every situation is a battle, and \"sorry\" is not a defeat."
+      },
+      "strengths": [
+        {
+          "ru": "Смелость",
+          "en": "Courage"
+        },
+        {
+          "ru": "Упорство",
+          "en": "Persistence"
+        },
+        {
+          "ru": "Прямота",
+          "en": "Directness"
+        },
+        {
+          "ru": "Стрессоустойчивость",
+          "en": "Stress resistance"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Слушать, прежде чем бросаться в бой",
+          "en": "Listen before you charge"
+        },
+        {
+          "ru": "Выбирать свои битвы",
+          "en": "Pick your battles"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Тебе говорят: «Это невозможно». Ты: «Подержи мой чай».",
+          "en": "They say \"it's impossible\". You: \"Hold my tea.\""
+        },
+        {
+          "ru": "Ты сдаёшь товар без чека и уходишь с извинениями от менеджера.",
+          "en": "You return an item without a receipt and leave with an apology from the manager."
+        },
+        {
+          "ru": "Твой ответ на хейт в комментариях: «Спасибо за охваты».",
+          "en": "Your reply to hate comments: \"Thanks for the engagement.\""
+        },
+        {
+          "ru": "Ты не боишься начальника, налоговой и пауков. Ну, пауков — чуть-чуть.",
+          "en": "You are not scared of your boss, the tax office or spiders. Okay, spiders a little."
+        }
+      ],
+      "compatibleWith": [
+        "eagle",
+        "fox",
+        "dolphin"
+      ],
+      "imagePrompt": "A tiny brave honey badger in a little superhero cape striking a confident pose next to a honey pot, black, white and honey-yellow palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "sloth",
+      "title": {
+        "ru": "Ленивец-философ",
+        "en": "The Mindful Sloth"
+      },
+      "emoji": "🦥",
+      "profile": {
+        "O": 0.31,
+        "C": 0.22,
+        "E": 0.3,
+        "A": 0.45,
+        "N": 0.31
+      },
+      "summary": [
+        {
+          "ru": "Не торопишься — и всё успеваешь (почти)",
+          "en": "In no hurry, and still (mostly) on time"
+        },
+        {
+          "ru": "Мастер жить моментом",
+          "en": "Master of living in the moment"
+        },
+        {
+          "ru": "Спокойствие и доброта",
+          "en": "Calm and kind"
+        },
+        {
+          "ru": "Тратишь энергию только на важное",
+          "en": "Energy only for what matters"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — ленивец: неторопливый, спокойный и по-своему мудрый. Низкая экстраверсия, низкая тревожность, расслабленное отношение к планам и довольно высокая доброжелательность. Пока мир бежит, ты наслаждаешься моментом — и, честно говоря, иногда это самая разумная стратегия.\n\nЛенивцы медлительны не от лени, а из-за очень экономного обмена веществ: их стратегия выживания — тратить минимум энергии. Двигаются они так неспешно, что в их шерсти живут водоросли и даже мотыльки. Ты тоже не умеешь суетиться. Зона роста — дедлайны: иногда стоит включить турборежим на пару часов, чтобы потом снова спокойно висеть на любимой ветке.",
+        "en": "You are a sloth: unhurried, calm and wise in your own way. Low extraversion, low anxiety, a relaxed approach to plans and fairly high agreeableness. While the world rushes, you savour the moment, and honestly, sometimes that is the smartest strategy.\n\nSloths are slow not out of laziness but because of a very thrifty metabolism: their survival strategy is spending as little energy as possible. They move so slowly that algae, and even moths, live in their fur. You simply do not do frantic. Room to grow: deadlines. Switch on turbo mode for a couple of hours now and then, then go back to hanging peacefully from your favourite branch."
+      },
+      "strengths": [
+        {
+          "ru": "Спокойствие",
+          "en": "Calm"
+        },
+        {
+          "ru": "Умение отдыхать",
+          "en": "Ability to rest"
+        },
+        {
+          "ru": "Доброта",
+          "en": "Kindness"
+        },
+        {
+          "ru": "Осознанность",
+          "en": "Mindfulness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Начинать дела не в последний момент",
+          "en": "Do not start everything at the last minute"
+        },
+        {
+          "ru": "Говорить «да» новым впечатлениям",
+          "en": "Say yes to new experiences"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "«Отвечу через минутку» — ответ приходит через три дня.",
+          "en": "\"I'll reply in a minute\" → the reply arrives three days later."
+        },
+        {
+          "ru": "Твой выходной: 11:00 — проснуться, 11:05 — решить, что ещё рано.",
+          "en": "Your day off: 11:00, wake up; 11:05, decide it is still too early."
+        },
+        {
+          "ru": "Ты не прокрастинируешь. Ты «даёшь идее созреть».",
+          "en": "You do not procrastinate. You \"let ideas mature\"."
+        },
+        {
+          "ru": "Будильники на 7:00, 7:10, 7:20… и ни у одного нет шансов.",
+          "en": "Alarms at 7:00, 7:10, 7:20… and not one of them stands a chance."
+        }
+      ],
+      "compatibleWith": [
+        "capybara",
+        "bear",
+        "cat"
+      ],
+      "imagePrompt": "A smiling sleepy sloth hanging from a flowering branch, a tiny sleep mask pushed up on its forehead, sage green and peach palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "golden-retriever",
+      "title": {
+        "ru": "Золотистый ретривер",
+        "en": "The Golden Retriever"
+      },
+      "emoji": "🐕",
+      "profile": {
+        "O": 0.31,
+        "C": 0.41,
+        "E": 0.61,
+        "A": 0.61,
+        "N": 0.44
+      },
+      "summary": [
+        {
+          "ru": "Искренне радуешься каждому человеку",
+          "en": "Genuinely thrilled by every person"
+        },
+        {
+          "ru": "Энтузиазм на максималках",
+          "en": "Enthusiasm turned up to eleven"
+        },
+        {
+          "ru": "Видишь в людях лучшее",
+          "en": "You see the best in people"
+        },
+        {
+          "ru": "Тебя невозможно не любить",
+          "en": "Impossible not to love"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — золотистый ретривер (да, в интернете это уже отдельный тип личности). У тебя очень высокие экстраверсия и доброжелательность: ты искренне радуешься людям, легко заводишь друзей и болеешь за всех вокруг. Тревожность средняя: тебе важно, чтобы тебя любили, и ты немного переживаешь, если кто-то грустит.\n\nЛичность собак — одна из самых изученных тем в психологии животных. Гослинг, Кван и Джон (2003) показали, что оценки личности собак, данные разными людьми, согласуются примерно так же хорошо, как оценки людей. Зона роста — границы: не обязательно соглашаться на всё, чтобы тебя любили. Тебя и так любят.",
+        "en": "You are a golden retriever (yes, the internet has made it a personality type). Very high extraversion and agreeableness: you are genuinely happy to see people, make friends easily and cheer everyone on. Anxiety is moderate: you want to be liked, and you worry a bit when someone is sad.\n\nDog personality is one of the best-studied topics in animal personality research. Gosling, Kwan and John (2003) found that different people's ratings of the same dogs agreed about as well as ratings of humans do. Room to grow: boundaries. You do not have to say yes to everything to be loved. You already are."
+      },
+      "strengths": [
+        {
+          "ru": "Энтузиазм",
+          "en": "Enthusiasm"
+        },
+        {
+          "ru": "Доброта",
+          "en": "Kindness"
+        },
+        {
+          "ru": "Оптимизм",
+          "en": "Optimism"
+        },
+        {
+          "ru": "Преданность",
+          "en": "Loyalty"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Говорить «нет» без чувства вины",
+          "en": "Say no without guilt"
+        },
+        {
+          "ru": "Не принимать чужое настроение на свой счёт",
+          "en": "Do not take other people's moods personally"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Видишь друга на другой стороне улицы и машешь так, будто он вернулся из кругосветки.",
+          "en": "You spot a friend across the street and wave like they have just returned from a round-the-world voyage."
+        },
+        {
+          "ru": "Твой ответ на любое предложение: «Да! А что мы делаем?»",
+          "en": "Your answer to any invitation: \"Yes! What are we doing?\""
+        },
+        {
+          "ru": "Тебе ответили «ок» вместо «окей!!!» — и ты весь вечер перебираешь, что могло пойти не так.",
+          "en": "Someone replied \"ok\" instead of \"okay!!!\" and you spend the evening wondering what went wrong."
+        },
+        {
+          "ru": "К концу собеседования интервьюер показывает тебе фотки своей собаки.",
+          "en": "By the end of your job interview, the interviewer is showing you photos of their dog."
+        }
+      ],
+      "compatibleWith": [
+        "dolphin",
+        "otter",
+        "elephant"
+      ],
+      "imagePrompt": "A fluffy happy golden retriever puppy with a wagging tail and a tennis ball, wearing a little bandana, surrounded by floating hearts, butter-yellow and sky-blue palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ добавляет от −2 до +2 баллов к одной-трём чертам «Большой пятёрки» (O — открытость, C — добросовестность, E — экстраверсия, A — доброжелательность, N — эмоциональная чувствительность). Сумма по каждой черте переводится в шкалу 0–1: (балл − минимум) / (максимум − минимум). Затем выбирается животное, чей профиль из пяти чисел ближе всего к твоему (по евклидову расстоянию). Шкалы черт показываются как бонус, но это не замена научному тесту.",
+    "en": "Each answer adds −2 to +2 points to one to three Big Five traits (O openness, C conscientiousness, E extraversion, A agreeableness, N emotional sensitivity). Each trait total is rescaled to 0–1: (score − min) / (max − min). You then get the animal whose five-number profile is closest to yours (Euclidean distance). Trait bars are shown as a bonus but are not a substitute for a validated test."
+  },
+  "resultIntro": {
+    "ru": "Твоё внутреннее животное найдено! Это игра, а не диагноз, — но черты, на которых она построена, вполне научные.",
+    "en": "Your inner animal has been found! It is a game, not a diagnosis, but the traits behind it are real science."
+  }
+}

@@ -1,0 +1,2017 @@
+{
+  "id": "values-schwartz",
+  "category": "personality",
+  "kind": "likert",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Ваши базовые ценности (опросник Шварца)",
+    "en": "Your Basic Values (Schwartz Values Survey)"
+  },
+  "tagline": {
+    "ru": "Что для вас на самом деле важно — 10 ценностей на одной карте",
+    "en": "What really matters to you — 10 values on one map"
+  },
+  "description": {
+    "ru": "21 короткий «портрет» из Европейского социального исследования покажет вашу личную иерархию 10 базовых ценностей Шварца и ведущий блок — открытость изменениям, сохранение, самоутверждение или самотрансцендентность. Поймите, что вами движет и где возможны внутренние конфликты.",
+    "en": "21 short portraits from the European Social Survey reveal your personal hierarchy of Schwartz's 10 basic values and your leading cluster — openness to change, conservation, self-enhancement or self-transcendence. Understand what drives you and where inner conflicts may arise."
+  },
+  "emoji": "💎",
+  "durationMin": 5,
+  "popularity": 3,
+  "tags": [
+    {
+      "ru": "ценности",
+      "en": "values"
+    },
+    {
+      "ru": "Шварц",
+      "en": "Schwartz"
+    },
+    {
+      "ru": "мотивация",
+      "en": "motivation"
+    },
+    {
+      "ru": "ESS",
+      "en": "ESS"
+    },
+    {
+      "ru": "самопознание",
+      "en": "self-discovery"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряется.** Теория базовых ценностей Шалома Шварца описывает 10 универсальных мотивационных целей: самостоятельность, стимуляция, гедонизм, достижение, власть, безопасность, конформность, традиция, благожелательность и универсализм. Они образуют круг: соседние ценности совместимы, противоположные — конфликтуют. Круг сводится к двум осям и четырём блокам высшего порядка: **открытость изменениям ↔ сохранение** и **самоутверждение ↔ самотрансцендентность** (Schwartz, 1992, 2012). Гедонизм разделяет элементы открытости и самоутверждения; здесь, как часто делается в анализе ESS, он отнесён к открытости изменениям.\n\n**Инструмент.** 21-пунктовая шкала человеческих ценностей (Human Values Scale) Европейского социального исследования (ESS) — версия «Портретного опросника ценностей» (PVQ). Каждый пункт — короткий «портрет» человека; респондент оценивает, насколько этот человек похож на него (6 вариантов). Сравнение с другим человеком, а не прямой вопрос «что для вас важно», снижает влияние социальной желательности. На каждую ценность приходится 2 пункта (универсализм — 3). В оригинале есть мужская и женская версии; на testik используется гендерно-нейтральная формулировка «этот человек», аналогично пересмотренной версии ESS для самозаполнения (Sommer et al., 2025).\n\n**Подсчёт.** Ответы кодируются так, что 6 = «очень похож на меня». Балл ценности — среднее её пунктов. Шварц рекомендует **центрирование**: из каждого балла вычитается индивидуальное среднее по всем 21 ответу, чтобы учесть разные стили ответа (кто-то ставит всем «похож», кто-то — всем «не похож»). Центрирование не меняет порядок ценностей внутри одного человека, поэтому ваша личная иерархия видна сразу; при сравнении с другими людьми ориентируйтесь на центрированные баллы.\n\n**Надёжность и валидность.** Из-за 2–3 пунктов на ценность и намеренно широкого содержания внутренняя согласованность отдельных шкал невысока (часто α < .70); Шварц подчёркивает, что для таких шкал важнее соответствие круговой структуре. Davidov, Schmidt & Schwartz (2008) на данных 20 стран ESS подтвердили структуру, но показали, что некоторые соседние ценности приходится объединять для строгих межстрановых сравнений. Межкультурно иерархия ценностей похожа: наверху благожелательность, универсализм и самостоятельность, внизу — власть и стимуляция (Schwartz & Bardi, 2001).\n\n**Россия.** Теория многократно проверялась в России: Шварц, Бутенко, Седова и Липатова (2012) валидизировали уточнённую версию (PVQ-R); Россия участвовала в ESS с 2006 года. По данным Магуна и Руднева (2010, ESS-2008), по сравнению с большинством европейских стран россияне в среднем выше ценят безопасность и самоутверждение и ниже — открытость изменениям и самотрансцендентность. В их более поздней типологии (ESS-2012) класс «Роста» (высокие открытость и самотрансцендентность) охватывает в России лишь около 2% населения против 24–36% в Скандинавии и Западной Европе; по профилю ценностей Россия ближе к другим постсоциалистическим и средиземноморским странам.\n\n**Ограничения.** Короткая шкала, перевод testik не валидизировался отдельно (официальный русский перевод ESS существует, но здесь не воспроизведён), нормативных баллов на этой шкале мы не приводим. Результат описывает **приоритеты**, а не поведение «здесь и сейчас».",
+    "en": "**What it measures.** Shalom Schwartz's theory of basic human values describes 10 universal motivational goals: self-direction, stimulation, hedonism, achievement, power, security, conformity, tradition, benevolence and universalism. They form a circle: adjacent values are compatible, opposite ones conflict. The circle reduces to two axes and four higher-order clusters: **openness to change ↔ conservation** and **self-enhancement ↔ self-transcendence** (Schwartz, 1992, 2012). Hedonism shares elements of openness and self-enhancement; here, as is common in ESS analyses, it is grouped with openness to change.\n\n**Instrument.** The 21-item Human Values Scale of the European Social Survey (ESS) — a version of the Portrait Values Questionnaire (PVQ). Each item is a short portrait of a person; you rate how much that person is like you (6 options). Comparing yourself with someone else, rather than being asked 'what matters to you', reduces social-desirability bias. Each value has 2 items (universalism 3). The original has male and female versions; testik uses gender-neutral 'this person' wording, similar to the revised ESS self-completion version (Sommer et al., 2025).\n\n**Scoring.** Answers are coded so that 6 = 'very much like me'. A value score is the mean of its items. Schwartz recommends **centring**: subtract your personal mean across all 21 answers from each score to correct for response style (some people rate everyone as 'like me', others as 'not like me'). Centring doesn't change the order of values within one person, so your personal hierarchy is visible straight away; for comparisons with others, use centred scores.\n\n**Reliability and validity.** With 2–3 items per value and deliberately broad content, internal consistency of single scales is modest (often α < .70); Schwartz stresses that fit to the circular structure matters more for such scales. Davidov, Schmidt & Schwartz (2008) confirmed the structure across 20 ESS countries but found some adjacent values must be merged for strict cross-country comparisons. Cross-culturally the hierarchy is similar: benevolence, universalism and self-direction at the top, power and stimulation at the bottom (Schwartz & Bardi, 2001).\n\n**Russia.** The theory has been tested repeatedly in Russia: Schwartz, Butenko, Sedova & Lipatova (2012) validated the refined PVQ-R; Russia took part in the ESS from 2006. According to Magun & Rudnev (2010, ESS 2008), compared with most European countries Russians on average rate security and self-enhancement higher and openness to change and self-transcendence lower. In their later typology (ESS 2012) the 'Growth' class (high openness and self-transcendence) covers only about 2% of Russians versus 24–36% in Scandinavia and Western Europe; Russia's value profile is closer to other post-socialist and Mediterranean countries.\n\n**Limitations.** A short scale; testik's translation hasn't been separately validated (an official ESS Russian translation exists but isn't reproduced here); we don't report norm scores on this scale. The result describes **priorities**, not moment-to-moment behaviour."
+  },
+  "sources": [
+    {
+      "citation": "Schwartz, S. H. (2012). An overview of the Schwartz theory of basic values. Online Readings in Psychology and Culture, 2(1).",
+      "doi": "10.9707/2307-0919.1116"
+    },
+    {
+      "citation": "Schwartz, S. H. (1992). Universals in the content and structure of values: Theoretical advances and empirical tests in 20 countries. Advances in Experimental Social Psychology, 25, 1–65.",
+      "doi": "10.1016/S0065-2601(08)60281-6"
+    },
+    {
+      "citation": "Schwartz, S. H., & Bardi, A. (2001). Value hierarchies across cultures: Taking a similarities perspective. Journal of Cross-Cultural Psychology, 32(3), 268–290.",
+      "doi": "10.1177/0022022101032003002"
+    },
+    {
+      "citation": "Davidov, E., Schmidt, P., & Schwartz, S. H. (2008). Bringing values back in: The adequacy of the European Social Survey to measure values in 20 countries. Public Opinion Quarterly, 72(3), 420–445.",
+      "url": "https://cris.huji.ac.il/en/publications/bringing-values-back-in-the-adequacy-of-the-european-social-surve/"
+    },
+    {
+      "citation": "European Social Survey. (2002). ESS Round 1 source questionnaire: Human values scale (items IPCRTIV … IMPFUN). ESS ERIC.",
+      "url": "https://www.ark.ac.uk/sol/surveys/gen_social_att/ESS/2002/website/Human_Values/IPCRTIV.html"
+    },
+    {
+      "citation": "Sommer, E., Dorer, B., Efu Nkong, U., Hanson, T., Zinn, S., & Schwartz, S. H. (2025). Revision and cross-cultural adaptation of the Human Values Scale for self-completion modes. Survey Practice, 18.",
+      "doi": "10.29115/SP-2025-0017"
+    },
+    {
+      "citation": "Шварц, Ш., Бутенко, Т. П., Седова, Д. С., & Липатова, А. С. (2012). Уточнённая теория базовых индивидуальных ценностей: применение в России. Психология. Журнал Высшей школы экономики, 9(2), 43–70.",
+      "url": "https://publications.hse.ru/articles/66442752"
+    },
+    {
+      "citation": "Магун, В. С., & Руднев, М. Г. (n.d., c. 2015). Европейская ценностная типология и базовые ценности россиян [Рукопись/препринт, НИУ ВШЭ].",
+      "url": "https://www.hse.ru/data/2015/04/03/1096440477/Magun_Rudnev.pdf"
+    },
+    {
+      "citation": "Магун, В. С., & Руднев, М. Г. (2010). Базовые ценности россиян и других европейцев (по материалам опросов 2008 года). Вопросы экономики, (12), 107–130.",
+      "doi": "10.32609/0042-8736-2010-12-107-130",
+      "url": "https://ideas.repec.org/a/nos/voprec/y2010id1111.html"
+    }
+  ],
+  "license": "ESS Human Values Scale (21-item PVQ, S. H. Schwartz, European Social Survey): the items are published openly in the ESS source questionnaires and are widely used free of charge for research and non-commercial purposes with attribution to Schwartz and the ESS; they are not formally public domain. testik adapts the wording to gender-neutral 'this person' and provides its own Russian translation. Cite: Schwartz, S. H. — Human Values Scale, European Social Survey (https://www.europeansocialsurvey.org). Status of commercial use not verified — check ESS ERIC terms / contact the ESS before monetising. All interpretive texts are original testik content.",
+  "instructions": {
+    "ru": "Ниже кратко описаны разные люди. Прочитайте каждое описание и подумайте, **насколько этот человек похож или не похож на вас**. Здесь нет правильных и неправильных ответов.",
+    "en": "Here we briefly describe some people. Please read each description and think about **how much each person is or is not like you**. There are no right or wrong answers."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Очень похож на меня",
+        "en": "Very much like me"
+      },
+      {
+        "ru": "Похож на меня",
+        "en": "Like me"
+      },
+      {
+        "ru": "Отчасти похож на меня",
+        "en": "Somewhat like me"
+      },
+      {
+        "ru": "Немного похож на меня",
+        "en": "A little like me"
+      },
+      {
+        "ru": "Не похож на меня",
+        "en": "Not like me"
+      },
+      {
+        "ru": "Совсем не похож на меня",
+        "en": "Not like me at all"
+      }
+    ],
+    "values": [
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "self-direction",
+      "name": {
+        "ru": "Самостоятельность",
+        "en": "Self-direction"
+      },
+      "description": {
+        "ru": "Независимость мысли и действия: выбирать, создавать, исследовать (Schwartz, 2012).",
+        "en": "Independent thought and action — choosing, creating, exploring (Schwartz, 2012)."
+      },
+      "lowLabel": {
+        "ru": "Опора на готовые решения",
+        "en": "Relies on given ways"
+      },
+      "highLabel": {
+        "ru": "Свобода и своё мнение",
+        "en": "Freedom and own ideas"
+      },
+      "color": "#B8D8F2",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Вам комфортно следовать проверенным путям",
+              "en": "You're comfortable following proven paths"
+            },
+            {
+              "ru": "Независимость — не главный мотив",
+              "en": "Independence isn't a key motive"
+            },
+            {
+              "ru": "Цените готовые инструкции и советы",
+              "en": "You value clear guidance and advice"
+            }
+          ],
+          "detailed": {
+            "ru": "Самостоятельность для вас не стоит на первом месте: вы можете спокойно опираться на мнение экспертов, команду или традицию. Это снижает стресс выбора. **Совет:** в важных решениях всё же оставляйте себе пространство для собственного суждения — оно пригодится, когда готовых ответов нет.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Self-direction isn't top of your list: you can comfortably rely on experts, your team or tradition, which lowers decision stress. **Tip:** in important decisions, still leave room for your own judgment — you'll need it when there are no ready answers.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Цените свободу, но не любой ценой",
+              "en": "You value freedom, but not at any price"
+            },
+            {
+              "ru": "Готовы и к самостоятельности, и к правилам",
+              "en": "You can work both independently and within rules"
+            },
+            {
+              "ru": "Творчество — в меру",
+              "en": "Creativity in measured doses"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам важно иметь своё мнение и выбор, но вы также принимаете рамки, если они разумны. **Совет:** ищите роли, где есть «зона автономии» — участок, за который вы отвечаете полностью, — при общих правилах вокруг.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Having your own view and choices matters, but you accept reasonable boundaries. **Tip:** seek roles with a 'zone of autonomy' — an area you fully own — within shared rules.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Вам важно думать своей головой",
+              "en": "Thinking for yourself is essential"
+            },
+            {
+              "ru": "Свобода выбора — ключ к мотивации",
+              "en": "Freedom of choice drives your motivation"
+            },
+            {
+              "ru": "Микроменеджмент вас демотивирует",
+              "en": "Micromanagement demotivates you"
+            }
+          ],
+          "detailed": {
+            "ru": "Самостоятельность — одна из ваших ведущих ценностей. Вы хотите сами решать, как жить и работать, придумывать своё и исследовать новое. В исследованиях Шварца эта ценность в большинстве стран находится в числе самых важных. **Совет:** выбирайте среды с доверием и гибкостью; договаривайтесь о целях, а не о каждом шаге. Помните, что уважение к свободе других — часть той же ценности.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Self-direction is one of your leading values. You want to decide how to live and work, invent your own ways and explore. In Schwartz's research this value ranks near the top in most countries. **Tip:** choose environments with trust and flexibility; agree on goals rather than every step. Respecting others' freedom is part of the same value.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stimulation",
+      "name": {
+        "ru": "Стимуляция",
+        "en": "Stimulation"
+      },
+      "description": {
+        "ru": "Волнение, новизна и вызов в жизни.",
+        "en": "Excitement, novelty and challenge in life."
+      },
+      "lowLabel": {
+        "ru": "Спокойствие и предсказуемость",
+        "en": "Calm and predictability"
+      },
+      "highLabel": {
+        "ru": "Новизна и приключения",
+        "en": "Novelty and adventure"
+      },
+      "color": "#FFD6A5",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Вы предпочитаете спокойную, предсказуемую жизнь",
+              "en": "You prefer a calm, predictable life"
+            },
+            {
+              "ru": "Риск ради острых ощущений вам чужд",
+              "en": "Thrill-seeking risk isn't for you"
+            },
+            {
+              "ru": "Новое — когда оно действительно нужно",
+              "en": "Novelty only when it's truly needed"
+            }
+          ],
+          "detailed": {
+            "ru": "Острые ощущения и постоянная новизна вас мало привлекают — и это нормально: во многих странах стимуляция находится внизу иерархии ценностей. **Совет:** небольшие «дозы новизны» (новый маршрут, хобби, поездка) поддерживают гибкость мышления, не нарушая вашего комфорта.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Thrills and constant novelty don't draw you much — that's normal: in many countries stimulation ranks low. **Tip:** small doses of novelty (a new route, hobby or trip) keep your thinking flexible without disrupting your comfort.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Любите разнообразие, но цените и стабильность",
+              "en": "You enjoy variety but value stability too"
+            },
+            {
+              "ru": "Новое пробуете с осторожностью",
+              "en": "You try new things carefully"
+            },
+            {
+              "ru": "Скука — сигнал что-то поменять",
+              "en": "Boredom signals a need for change"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам нужно немного разнообразия, чтобы не заскучать, но без «американских горок». **Совет:** планируйте новые впечатления регулярно — раз в месяц что-то впервые — это недорогой способ поддерживать интерес к жизни.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "You need some variety to avoid boredom, but no roller-coasters. **Tip:** schedule novelty regularly — something new once a month — a cheap way to keep life interesting.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Вам нужны новые впечатления и вызовы",
+              "en": "You crave new experiences and challenges"
+            },
+            {
+              "ru": "Рутина быстро надоедает",
+              "en": "Routine bores you quickly"
+            },
+            {
+              "ru": "Готовы рисковать ради яркой жизни",
+              "en": "You'll take risks for an exciting life"
+            }
+          ],
+          "detailed": {
+            "ru": "Стимуляция — одна из ваших ведущих ценностей: вам важно, чтобы жизнь была насыщенной и неожиданной. **Совет:** направляйте эту энергию в «безопасные» вызовы — путешествия, проекты, спорт, смену ролей на работе. Следите, чтобы погоня за новизной не мешала доводить начатое до конца.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Stimulation is one of your leading values: you want life to be full and surprising. **Tip:** channel this energy into safe challenges — travel, projects, sport, rotating roles at work — and make sure novelty-seeking doesn't stop you finishing what you start.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hedonism",
+      "name": {
+        "ru": "Гедонизм",
+        "en": "Hedonism"
+      },
+      "description": {
+        "ru": "Удовольствие и чувственное наслаждение жизнью для себя.",
+        "en": "Pleasure and sensuous gratification for oneself."
+      },
+      "lowLabel": {
+        "ru": "Сдержанность в удовольствиях",
+        "en": "Restraint in pleasures"
+      },
+      "highLabel": {
+        "ru": "Радость и удовольствие",
+        "en": "Joy and enjoyment"
+      },
+      "color": "#FFC8DD",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Удовольствия для вас не главная цель",
+              "en": "Pleasure isn't a main goal for you"
+            },
+            {
+              "ru": "Склонны откладывать радость «на потом»",
+              "en": "You tend to postpone enjoyment"
+            },
+            {
+              "ru": "Долг и дела часто важнее отдыха",
+              "en": "Duty often comes before rest"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы редко ставите удовольствие на первое место — возможно, из-за чувства долга или привычки сначала сделать дела. **Совет:** исследования благополучия показывают, что регулярные маленькие радости важны для восстановления. Запланируйте их, как встречи.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "You rarely put pleasure first — perhaps from a sense of duty or a habit of finishing tasks first. **Tip:** well-being research shows regular small pleasures matter for recovery. Schedule them like appointments.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Умеете радоваться жизни в меру",
+              "en": "You enjoy life in moderation"
+            },
+            {
+              "ru": "Баланс между делами и отдыхом",
+              "en": "A balance of duty and fun"
+            },
+            {
+              "ru": "Удовольствие — приятный бонус",
+              "en": "Pleasure is a nice bonus"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы цените удовольствия, но не подчиняете им жизнь. **Совет:** обратите внимание, какие удовольствия действительно восстанавливают вас (а какие просто отвлекают), и сознательно выбирайте первые.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "You enjoy pleasures without letting them run your life. **Tip:** notice which pleasures truly restore you (versus merely distract) and choose those deliberately.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Вам важно наслаждаться жизнью",
+              "en": "Enjoying life is important to you"
+            },
+            {
+              "ru": "Умеете себя «побаловать»",
+              "en": "You know how to treat yourself"
+            },
+            {
+              "ru": "Радость — источник энергии",
+              "en": "Joy is your energy source"
+            }
+          ],
+          "detailed": {
+            "ru": "Гедонизм — одна из ваших ведущих ценностей: вам важно, чтобы жизнь приносила удовольствие здесь и сейчас. Эта ценность у Шварца соседствует и с открытостью изменениям, и с самоутверждением. **Совет:** это сильный ресурс против выгорания; следите лишь, чтобы краткосрочные удовольствия не мешали долгосрочным целям и здоровью.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Hedonism is one of your leading values: you want life to bring pleasure here and now. In Schwartz's model it borders both openness to change and self-enhancement. **Tip:** it's a strong buffer against burnout; just make sure short-term pleasures don't undermine long-term goals and health.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "achievement",
+      "name": {
+        "ru": "Достижение",
+        "en": "Achievement"
+      },
+      "description": {
+        "ru": "Личный успех через проявление компетентности в соответствии с социальными стандартами.",
+        "en": "Personal success through demonstrating competence according to social standards."
+      },
+      "lowLabel": {
+        "ru": "Успех не главное",
+        "en": "Success isn't central"
+      },
+      "highLabel": {
+        "ru": "Амбиции и признание",
+        "en": "Ambition and recognition"
+      },
+      "color": "#F7E3A1",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Внешний успех вас мало мотивирует",
+              "en": "External success doesn't drive you much"
+            },
+            {
+              "ru": "Соревнование и рейтинги не ваше",
+              "en": "Competition and rankings aren't your thing"
+            },
+            {
+              "ru": "Важнее процесс и смысл",
+              "en": "Process and meaning matter more"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы не стремитесь доказывать свою состоятельность другим. Это даёт свободу от гонки и сравнения. **Совет:** если работа требует видимых результатов, ставьте себе цели «для себя», а не ради рейтинга, — так мотивация будет устойчивее.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "You don't feel a need to prove yourself to others, which frees you from the rat race. **Tip:** if your work requires visible results, set goals for yourself rather than for rankings — motivation will last longer.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Хотите быть успешным, но без гонки",
+              "en": "You want success without the rat race"
+            },
+            {
+              "ru": "Признание приятно, но не обязательно",
+              "en": "Recognition is nice but not essential"
+            },
+            {
+              "ru": "Сочетаете амбиции с другими ценностями",
+              "en": "You balance ambition with other values"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам важно быть компетентным и видеть результат, но успех не определяет вашу самооценку. **Совет:** договаривайтесь о понятных критериях успеха на работе — это поможет оценивать прогресс без тревоги.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Competence and results matter to you, but success doesn't define your self-worth. **Tip:** agree on clear success criteria at work so you can track progress without anxiety.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Вас заряжают цели и успех",
+              "en": "Goals and success energise you"
+            },
+            {
+              "ru": "Хотите, чтобы достижения признавали",
+              "en": "You want achievements to be recognised"
+            },
+            {
+              "ru": "Готовы много работать ради результата",
+              "en": "You'll work hard for results"
+            }
+          ],
+          "detailed": {
+            "ru": "Достижение — одна из ваших ведущих ценностей. Вам важно проявить способности и добиться признанного успеха. **Совет:** это мощный двигатель карьеры; чтобы он не превратился в выгорание, выбирайте цели, которые совпадают и с другими вашими ценностями, и не забывайте праздновать промежуточные победы.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Achievement is one of your leading values: you want to show your abilities and earn recognised success. **Tip:** it's a powerful career engine; to keep it from becoming burnout, pick goals that also fit your other values, and celebrate interim wins.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "name": {
+        "ru": "Власть",
+        "en": "Power"
+      },
+      "description": {
+        "ru": "Социальный статус и престиж, контроль или доминирование над людьми и ресурсами.",
+        "en": "Social status and prestige, control or dominance over people and resources."
+      },
+      "lowLabel": {
+        "ru": "Статус и деньги не важны",
+        "en": "Status and wealth matter little"
+      },
+      "highLabel": {
+        "ru": "Влияние, статус, богатство",
+        "en": "Influence, status, wealth"
+      },
+      "color": "#E0BBE4",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Статус и богатство вас мало волнуют",
+              "en": "Status and wealth matter little to you"
+            },
+            {
+              "ru": "Не стремитесь командовать другими",
+              "en": "You don't seek to control others"
+            },
+            {
+              "ru": "Цените равенство и сотрудничество",
+              "en": "You value equality and cooperation"
+            }
+          ],
+          "detailed": {
+            "ru": "Власть и материальный статус для вас не приоритет — как и для большинства людей: в межкультурных исследованиях Шварца власть обычно на последних местах иерархии. **Совет:** не путайте отказ от власти с отказом от влияния — умение отстаивать интересы своей команды всё равно полезно.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Power and material status aren't priorities for you — as for most people: in Schwartz's cross-cultural studies power usually ranks lowest. **Tip:** don't confuse disinterest in power with giving up influence — standing up for your team still matters.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Деньги и статус важны, но не главное",
+              "en": "Money and status matter, but aren't everything"
+            },
+            {
+              "ru": "Готовы брать ответственность за людей",
+              "en": "You're willing to take charge of people"
+            },
+            {
+              "ru": "Уважение — значимая награда",
+              "en": "Respect is a meaningful reward"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам небезразличны благосостояние и уважение окружающих, но вы не готовы жертвовать ради них всем остальным. **Совет:** честно обсуждайте свои финансовые ожидания на работе — это зрелая позиция, а не жадность.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Wealth and respect matter to you, but not at the expense of everything else. **Tip:** discuss your financial expectations openly at work — it's a mature stance, not greed.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Вам важны статус, богатство, влияние",
+              "en": "Status, wealth and influence matter to you"
+            },
+            {
+              "ru": "Хотите, чтобы к вам прислушивались",
+              "en": "You want people to follow your lead"
+            },
+            {
+              "ru": "Ресурсы — средство и цель",
+              "en": "Resources are both means and goal"
+            }
+          ],
+          "detailed": {
+            "ru": "Власть — одна из ваших ведущих ценностей: вам важно иметь ресурсы, статус и возможность влиять на людей. **Совет:** это помогает в лидерстве и бизнесе, но долгосрочное влияние держится на доверии. Сочетайте амбиции с честностью и заботой о команде — и следите, чтобы цель «иметь больше» не вытесняла отношения.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Power is one of your leading values: resources, status and influence over people matter to you. **Tip:** this helps in leadership and business, but lasting influence rests on trust. Combine ambition with integrity and care for your team, and don't let 'having more' crowd out relationships.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": {
+        "ru": "Безопасность",
+        "en": "Security"
+      },
+      "description": {
+        "ru": "Безопасность, гармония и стабильность общества, отношений и себя самого.",
+        "en": "Safety, harmony and stability of society, of relationships and of self."
+      },
+      "lowLabel": {
+        "ru": "Спокойно к риску",
+        "en": "Relaxed about risk"
+      },
+      "highLabel": {
+        "ru": "Стабильность и защищённость",
+        "en": "Stability and safety"
+      },
+      "color": "#BFE6C8",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Вы спокойно относитесь к неопределённости",
+              "en": "You're relaxed about uncertainty"
+            },
+            {
+              "ru": "Риск не пугает",
+              "en": "Risk doesn't scare you"
+            },
+            {
+              "ru": "Стабильность — не главная цель",
+              "en": "Stability isn't a main goal"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы готовы жить в условиях неопределённости и не тратите много сил на страховку от всех рисков. **Совет:** минимальная «подушка» (финансовая, бытовая) всё равно полезна — она даёт свободу для смелых решений.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "You can live with uncertainty and don't spend much energy insuring against every risk. **Tip:** a basic safety cushion (financial, practical) still helps — it buys freedom for bold choices.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Цените стабильность, но без тревоги",
+              "en": "You value stability without anxiety"
+            },
+            {
+              "ru": "Умеренная осторожность",
+              "en": "Moderate caution"
+            },
+            {
+              "ru": "Риск — только просчитанный",
+              "en": "Only calculated risks"
+            }
+          ],
+          "detailed": {
+            "ru": "Безопасность для вас важна, но не парализует. Вы взвешиваете риски и выбираете разумный баланс. **Совет:** опишите для себя «минимально безопасный сценарий» перед переменами — это помогает решаться на изменения спокойнее.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Security matters, but doesn't paralyse you. You weigh risks and find a sensible balance. **Tip:** outline your 'minimum safe scenario' before a change — it makes big decisions calmer.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Вам очень важны стабильность и защищённость",
+              "en": "Stability and safety are very important"
+            },
+            {
+              "ru": "Избегаете рискованных ситуаций",
+              "en": "You avoid risky situations"
+            },
+            {
+              "ru": "Цените порядок и надёжность",
+              "en": "You value order and reliability"
+            }
+          ],
+          "detailed": {
+            "ru": "Безопасность — одна из ваших ведущих ценностей: вам важно жить в предсказуемом, защищённом мире — лично, в семье и в обществе. Исследования Магуна и Руднева показывают, что в России эта ценность в среднем выражена сильнее, чем во многих странах Европы. **Совет:** стабильность — прочный фундамент. Чтобы она не превращалась в избегание, иногда делайте маленькие «шаги в неизвестность» — так растёт уверенность.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Security is one of your leading values: you want a predictable, protected world — personally, in your family and society. Magun and Rudnev's work suggests this value is on average stronger in Russia than in many European countries. **Tip:** stability is a solid foundation. To keep it from becoming avoidance, take small steps into the unknown now and then — confidence grows that way.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "conformity",
+      "name": {
+        "ru": "Конформность",
+        "en": "Conformity"
+      },
+      "description": {
+        "ru": "Сдерживание действий и побуждений, которые могут расстроить или навредить другим и нарушить социальные ожидания и нормы.",
+        "en": "Restraint of actions and impulses likely to upset or harm others and violate social expectations or norms."
+      },
+      "lowLabel": {
+        "ru": "Свои правила",
+        "en": "Own rules"
+      },
+      "highLabel": {
+        "ru": "Правила и приличия",
+        "en": "Rules and propriety"
+      },
+      "color": "#CFD8DC",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Правила для вас — ориентир, а не закон",
+              "en": "Rules are guidelines, not laws, for you"
+            },
+            {
+              "ru": "Не боитесь выделяться",
+              "en": "You don't mind standing out"
+            },
+            {
+              "ru": "Мнение окружающих мало влияет",
+              "en": "Others' opinions matter little"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы готовы нарушать ожидания, если считаете это правильным. Это источник независимости и инноваций. **Совет:** уважение к правилам других помогает сохранить отношения — выбирайте «битвы», в которых действительно стоит идти против течения.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "You'll defy expectations when you think it's right — a source of independence and innovation. **Tip:** respecting others' rules preserves relationships; pick the battles truly worth fighting.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Соблюдаете правила, когда они разумны",
+              "en": "You follow rules when they make sense"
+            },
+            {
+              "ru": "Стараетесь не задевать других",
+              "en": "You try not to upset others"
+            },
+            {
+              "ru": "Гибко относитесь к нормам",
+              "en": "You're flexible about norms"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы уважаете правила и чувства окружающих, но не следуете нормам слепо. **Совет:** это хороший баланс для командной работы — вы надёжны, но способны предложить изменения.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "You respect rules and others' feelings without following norms blindly. **Tip:** a good balance for teamwork — reliable, yet able to suggest change.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Вам важно вести себя правильно",
+              "en": "Behaving properly matters to you"
+            },
+            {
+              "ru": "Уважаете правила и договорённости",
+              "en": "You respect rules and agreements"
+            },
+            {
+              "ru": "Не хотите огорчать других",
+              "en": "You don't want to upset others"
+            }
+          ],
+          "detailed": {
+            "ru": "Конформность — одна из ваших ведущих ценностей. Вы дисциплинированы, вежливы и надёжны, цените порядок и взаимное уважение. **Совет:** эти качества ценят в коллективах. Следите только, чтобы стремление «не нарушать» не мешало высказывать несогласие, когда это действительно нужно.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Conformity is one of your leading values. You're disciplined, polite and dependable, and you value order and mutual respect. **Tip:** teams appreciate these qualities. Just make sure the wish not to rock the boat doesn't stop you voicing disagreement when it truly matters.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tradition",
+      "name": {
+        "ru": "Традиция",
+        "en": "Tradition"
+      },
+      "description": {
+        "ru": "Уважение, приверженность и принятие обычаев и идей, которые дают культура или религия.",
+        "en": "Respect, commitment and acceptance of the customs and ideas that one's culture or religion provides."
+      },
+      "lowLabel": {
+        "ru": "Свободно к традициям",
+        "en": "Free from tradition"
+      },
+      "highLabel": {
+        "ru": "Верность традициям",
+        "en": "Devoted to tradition"
+      },
+      "color": "#E8D5B7",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Традиции для вас не обязательны",
+              "en": "Traditions aren't binding for you"
+            },
+            {
+              "ru": "Предпочитаете создавать свои ритуалы",
+              "en": "You'd rather create your own rituals"
+            },
+            {
+              "ru": "Скромность — не главная добродетель",
+              "en": "Modesty isn't a core virtue"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы смотрите на обычаи и религиозные нормы как на один из вариантов, а не как на обязательство. **Совет:** даже без опоры на традицию людям нужны собственные ритуалы — семейные, дружеские, личные — они укрепляют чувство принадлежности.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "You see customs and religious norms as one option rather than an obligation. **Tip:** even without tradition, people need their own rituals — family, friends, personal — which strengthen belonging.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Уважаете традиции избирательно",
+              "en": "You honour traditions selectively"
+            },
+            {
+              "ru": "Цените семейные обычаи",
+              "en": "You value family customs"
+            },
+            {
+              "ru": "Скромность — в меру",
+              "en": "Modesty in moderation"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам близки некоторые традиции — например, семейные праздники или культурные обычаи, — но вы не считаете их неизменными. **Совет:** осознанно выбирайте, какие традиции поддерживать: так они становятся источником смысла, а не обязанностью.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Some traditions resonate — family celebrations or cultural customs — but you don't see them as unchangeable. **Tip:** choose consciously which to keep; that makes them a source of meaning, not obligation.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Традиции и обычаи для вас очень важны",
+              "en": "Traditions and customs are very important"
+            },
+            {
+              "ru": "Цените скромность и преемственность",
+              "en": "You value modesty and continuity"
+            },
+            {
+              "ru": "Опираетесь на опыт поколений",
+              "en": "You draw on the wisdom of generations"
+            }
+          ],
+          "detailed": {
+            "ru": "Традиция — одна из ваших ведущих ценностей. Вам важно сохранять связь с семьёй, культурой или верой и вести себя скромно. **Совет:** это даёт устойчивость и чувство корней. В быстро меняющемся мире помогает различать суть традиции и её форму — тогда легче договариваться с теми, кто живёт иначе.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Tradition is one of your leading values: staying connected to family, culture or faith and behaving modestly matter to you. **Tip:** this gives stability and roots. In a fast-changing world, it helps to separate a tradition's essence from its form — that makes it easier to connect with people who live differently.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "benevolence",
+      "name": {
+        "ru": "Благожелательность",
+        "en": "Benevolence"
+      },
+      "description": {
+        "ru": "Сохранение и улучшение благополучия близких людей, с которыми вы часто общаетесь («своих»).",
+        "en": "Preserving and enhancing the welfare of those with whom one is in frequent personal contact (the in-group)."
+      },
+      "lowLabel": {
+        "ru": "Фокус на себе и задачах",
+        "en": "Focus on self and tasks"
+      },
+      "highLabel": {
+        "ru": "Забота о близких",
+        "en": "Care for close ones"
+      },
+      "color": "#FFDAC1",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Забота о других — не главный приоритет",
+              "en": "Caring for others isn't your top priority"
+            },
+            {
+              "ru": "Сосредоточены на своих целях",
+              "en": "You're focused on your own goals"
+            },
+            {
+              "ru": "Дружба важна, но не в центре",
+              "en": "Friendship matters, but isn't central"
+            }
+          ],
+          "detailed": {
+            "ru": "Сейчас благожелательность у вас не на первом месте — возможно, вы сфокусированы на учёбе, карьере или собственных задачах. Это бывает этапом. **Совет:** у большинства людей в мире эта ценность одна из главных; отношения — сильнейший предиктор благополучия, так что вкладывайтесь в них хотя бы по чуть-чуть.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Benevolence isn't at the top for you right now — perhaps you're focused on study, career or personal goals, which can be a phase. **Tip:** for most people worldwide this is a leading value, and relationships are a top predictor of well-being — invest in them, even a little.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Заботитесь о близких, не забывая о себе",
+              "en": "You care for close ones without neglecting yourself"
+            },
+            {
+              "ru": "Верны друзьям",
+              "en": "You're loyal to friends"
+            },
+            {
+              "ru": "Помогаете, когда можете",
+              "en": "You help when you can"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам важны близкие, и вы готовы помогать, но держите баланс с собственными потребностями. **Совет:** это здоровая позиция. Сообщайте близким о своих границах — так помощь остаётся добровольной и радостной.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Close ones matter and you help, while balancing your own needs. **Tip:** a healthy stance. Let loved ones know your limits so helping stays voluntary and joyful.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Близкие люди — центр вашей жизни",
+              "en": "Close people are central in your life"
+            },
+            {
+              "ru": "Верность и забота — ключевые ценности",
+              "en": "Loyalty and care are core values"
+            },
+            {
+              "ru": "Помогать — естественно для вас",
+              "en": "Helping comes naturally"
+            }
+          ],
+          "detailed": {
+            "ru": "Благожелательность — одна из ваших ведущих ценностей, как и у большинства людей в мире (Schwartz & Bardi, 2001). Вы верны друзьям и семье и хотите заботиться об их благополучии. **Совет:** это основа крепких отношений. Не забывайте заботиться и о себе — выгоревший помощник помогает хуже.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Benevolence is one of your leading values — as for most people worldwide (Schwartz & Bardi, 2001). You're loyal to friends and family and want to care for their well-being. **Tip:** that's the bedrock of strong relationships. Look after yourself too — a burnt-out helper helps less.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "universalism",
+      "name": {
+        "ru": "Универсализм",
+        "en": "Universalism"
+      },
+      "description": {
+        "ru": "Понимание, признательность, терпимость и защита благополучия всех людей и природы.",
+        "en": "Understanding, appreciation, tolerance and protection for the welfare of all people and for nature."
+      },
+      "lowLabel": {
+        "ru": "Фокус на «своих»",
+        "en": "Focus on own circle"
+      },
+      "highLabel": {
+        "ru": "Справедливость для всех",
+        "en": "Justice for all"
+      },
+      "color": "#A8E6CF",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Глобальные проблемы вас мало трогают",
+              "en": "Global issues don't move you much"
+            },
+            {
+              "ru": "Фокус на своём круге и делах",
+              "en": "Focus on your own circle and affairs"
+            },
+            {
+              "ru": "Прагматичный взгляд на мир",
+              "en": "A pragmatic world view"
+            }
+          ],
+          "detailed": {
+            "ru": "Вопросы равенства, экологии и терпимости к другим сейчас не в центре вашего внимания. **Совет:** даже небольшие шаги — выслушать человека с другой позицией, сократить отходы — расширяют кругозор и помогают в разнообразных командах.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Equality, ecology and tolerance aren't central for you now. **Tip:** small steps — listening to someone with a different view, cutting waste — broaden your outlook and help in diverse teams.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Цените справедливость и терпимость",
+              "en": "You value fairness and tolerance"
+            },
+            {
+              "ru": "Природа и равенство вам небезразличны",
+              "en": "Nature and equality matter to you"
+            },
+            {
+              "ru": "Идеалы сочетаете с практичностью",
+              "en": "You combine ideals with practicality"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам близки идеи справедливости, равных возможностей и бережного отношения к природе, но вы смотрите на них прагматично. **Совет:** выберите одну-две «свои» темы (экология, образование, права) и поддерживайте их делом — это даёт чувство смысла без перегрузки.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Fairness, equal opportunity and care for nature matter to you, viewed pragmatically. **Tip:** pick one or two causes and support them in practice — meaning without overload.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Справедливость и равенство очень важны",
+              "en": "Fairness and equality matter a lot"
+            },
+            {
+              "ru": "Стараетесь понять непохожих людей",
+              "en": "You try to understand people unlike you"
+            },
+            {
+              "ru": "Забота о природе — ваша ценность",
+              "en": "Caring for nature is your value"
+            }
+          ],
+          "detailed": {
+            "ru": "Универсализм — одна из ваших ведущих ценностей: вам важны равные возможности для всех, понимание разных людей и защита природы. **Совет:** вы можете стать сильным «мостом» между разными группами. Чтобы идеалы не превратились в разочарование, ставьте конкретные достижимые цели и находите единомышленников.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Universalism is one of your leading values: equal opportunities for all, understanding different people and protecting nature matter to you. **Tip:** you can be a strong bridge between groups. To keep ideals from turning into disillusionment, set concrete, achievable goals and find like-minded people.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "openness-to-change",
+      "name": {
+        "ru": "Открытость изменениям",
+        "en": "Openness to change"
+      },
+      "description": {
+        "ru": "Готовность к новым идеям, действиям и опыту: самостоятельность, стимуляция и (частично) гедонизм.",
+        "en": "Readiness for new ideas, actions and experiences: self-direction, stimulation and (partly) hedonism."
+      },
+      "lowLabel": {
+        "ru": "Предпочтение стабильности",
+        "en": "Prefers the familiar"
+      },
+      "highLabel": {
+        "ru": "Свобода и новизна",
+        "en": "Freedom and novelty"
+      },
+      "color": "#9BC1E8",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Вам ближе привычное и проверенное",
+              "en": "You prefer the familiar and proven"
+            },
+            {
+              "ru": "Перемены требуют усилий",
+              "en": "Change takes effort"
+            },
+            {
+              "ru": "Цените предсказуемость",
+              "en": "You value predictability"
+            }
+          ],
+          "detailed": {
+            "ru": "Открытость изменениям у вас выражена слабо: вам комфортнее, когда жизнь устойчива. **Совет:** планируйте перемены заранее и маленькими шагами — так они переносятся легче.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Openness to change is low: you're most comfortable when life is steady. **Tip:** plan changes ahead and in small steps — they're easier that way.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Баланс нового и привычного",
+              "en": "A balance of new and familiar"
+            },
+            {
+              "ru": "Перемены — когда есть смысл",
+              "en": "Change when it makes sense"
+            },
+            {
+              "ru": "Гибкость без хаоса",
+              "en": "Flexibility without chaos"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы открыты новому, но цените и устойчивость. **Совет:** такой профиль хорош для ролей, где нужно внедрять изменения аккуратно и убедительно.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "You're open to new things but also value stability. **Tip:** this suits roles that require introducing change carefully and convincingly.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Свобода, новизна и самовыражение важны",
+              "en": "Freedom, novelty and self-expression matter"
+            },
+            {
+              "ru": "Легко принимаете перемены",
+              "en": "You embrace change easily"
+            },
+            {
+              "ru": "Рутина и контроль тяготят",
+              "en": "Routine and control weigh on you"
+            }
+          ],
+          "detailed": {
+            "ru": "Открытость изменениям — ваш ведущий блок: вам важны независимость, новые впечатления и радость жизни. **Совет:** ищите среды с гибкостью и проектным форматом; уравновешивайте их системой привычек, чтобы идеи доходили до результата.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Openness to change is your leading cluster: independence, new experiences and enjoyment matter. **Tip:** seek flexible, project-based environments and balance them with habits so ideas reach completion.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ],
+      "facets": [
+        "self-direction",
+        "stimulation",
+        "hedonism"
+      ]
+    },
+    {
+      "id": "conservation",
+      "name": {
+        "ru": "Сохранение",
+        "en": "Conservation"
+      },
+      "description": {
+        "ru": "Стремление к порядку, стабильности и сохранению традиций: безопасность, конформность, традиция.",
+        "en": "Order, stability and preservation of the past: security, conformity and tradition."
+      },
+      "lowLabel": {
+        "ru": "Готовность ломать рамки",
+        "en": "Ready to break frames"
+      },
+      "highLabel": {
+        "ru": "Порядок и стабильность",
+        "en": "Order and stability"
+      },
+      "color": "#B5C99A",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Рамки и традиции вас не держат",
+              "en": "Frames and traditions don't hold you"
+            },
+            {
+              "ru": "Спокойно к риску и неопределённости",
+              "en": "Relaxed about risk and uncertainty"
+            },
+            {
+              "ru": "Цените независимость от норм",
+              "en": "You value independence from norms"
+            }
+          ],
+          "detailed": {
+            "ru": "Ценности сохранения у вас выражены слабо: вы мало опираетесь на правила, традиции и гарантии. **Совет:** это даёт свободу, но иногда стоит «подстелить соломку» — договориться о базовых правилах в отношениях и команде.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Conservation values are low: you rely little on rules, traditions and guarantees. **Tip:** this gives freedom, but sometimes it pays to set basic rules in relationships and teams.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Цените порядок, но без жёсткости",
+              "en": "You value order without rigidity"
+            },
+            {
+              "ru": "Традиции — избирательно",
+              "en": "Selective about traditions"
+            },
+            {
+              "ru": "Осторожность в меру",
+              "en": "Moderate caution"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы уважаете правила и стабильность, но готовы их пересматривать. **Совет:** такой баланс помогает быть «надёжным реформатором».\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "You respect rules and stability but are willing to revisit them. **Tip:** this balance makes you a reliable reformer.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Стабильность, порядок и традиции очень важны",
+              "en": "Stability, order and tradition matter a lot"
+            },
+            {
+              "ru": "Уважаете правила и договорённости",
+              "en": "You respect rules and agreements"
+            },
+            {
+              "ru": "Избегаете ненужного риска",
+              "en": "You avoid unnecessary risk"
+            }
+          ],
+          "detailed": {
+            "ru": "Сохранение — ваш ведущий блок ценностей: безопасность, приличия и преемственность. **Совет:** вы — опора для семьи и коллектива. Давайте себе право на эксперимент в безопасных рамках — это делает устойчивость гибкой.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Conservation is your leading cluster: security, propriety and continuity. **Tip:** you're an anchor for family and team. Allow yourself experiments within safe limits — it makes stability flexible.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ],
+      "facets": [
+        "security",
+        "conformity",
+        "tradition"
+      ]
+    },
+    {
+      "id": "self-enhancement",
+      "name": {
+        "ru": "Самоутверждение",
+        "en": "Self-enhancement"
+      },
+      "description": {
+        "ru": "Стремление к личному успеху, статусу и влиянию: достижение и власть.",
+        "en": "Pursuit of personal success, status and influence: achievement and power."
+      },
+      "lowLabel": {
+        "ru": "Скромные амбиции",
+        "en": "Modest ambitions"
+      },
+      "highLabel": {
+        "ru": "Успех и влияние",
+        "en": "Success and influence"
+      },
+      "color": "#F4B183",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Статус и успех не мотивируют",
+              "en": "Status and success don't motivate you"
+            },
+            {
+              "ru": "Избегаете конкуренции",
+              "en": "You avoid competition"
+            },
+            {
+              "ru": "Важнее отношения и смысл",
+              "en": "Relationships and meaning matter more"
+            }
+          ],
+          "detailed": {
+            "ru": "Самоутверждение не в приоритете: вы не стремитесь к статусу и не любите соревноваться. **Совет:** не стесняйтесь заявлять о своих заслугах — это не тщеславие, а честная информация для других.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Self-enhancement isn't a priority: you don't chase status or enjoy competing. **Tip:** don't be shy about your contributions — it's honest information, not vanity.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Амбиции в разумных пределах",
+              "en": "Ambition within reason"
+            },
+            {
+              "ru": "Цените признание",
+              "en": "You appreciate recognition"
+            },
+            {
+              "ru": "Успех — часть, а не вся жизнь",
+              "en": "Success is part, not all, of life"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы хотите успеха и признания, но сохраняете баланс с другими ценностями. **Совет:** формулируйте амбициозные, но значимые для вас цели.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "You want success and recognition while balancing other values. **Tip:** set ambitious goals that are personally meaningful.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Успех, статус и влияние очень важны",
+              "en": "Success, status and influence matter a lot"
+            },
+            {
+              "ru": "Конкуренция вас заряжает",
+              "en": "Competition energises you"
+            },
+            {
+              "ru": "Цените ресурсы и признание",
+              "en": "You value resources and recognition"
+            }
+          ],
+          "detailed": {
+            "ru": "Самоутверждение — ваш ведущий блок. Вы целеустремлённы и хотите влиять. **Совет:** по модели Шварца эти ценности противостоят самотрансцендентности; долгосрочный успех вырастает, когда вы находите, как ваш рост приносит пользу и другим.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Self-enhancement is your leading cluster: you're driven and want influence. **Tip:** in Schwartz's model these values oppose self-transcendence; lasting success grows when your progress also benefits others.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ],
+      "facets": [
+        "achievement",
+        "power"
+      ]
+    },
+    {
+      "id": "self-transcendence",
+      "name": {
+        "ru": "Самотрансцендентность",
+        "en": "Self-transcendence"
+      },
+      "description": {
+        "ru": "Забота о благополучии других — близких и всех людей, а также природы: благожелательность и универсализм.",
+        "en": "Concern for the welfare of others — close ones, all people and nature: benevolence and universalism."
+      },
+      "lowLabel": {
+        "ru": "Фокус на себе",
+        "en": "Self-focused"
+      },
+      "highLabel": {
+        "ru": "Забота о других и мире",
+        "en": "Care for others and the world"
+      },
+      "color": "#C3B1E1",
+      "scoring": "mean",
+      "min": 1,
+      "max": 6,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.99,
+          "label": {
+            "ru": "Мало значимо",
+            "en": "Low priority"
+          },
+          "summary": [
+            {
+              "ru": "Сосредоточены на своих целях",
+              "en": "Focused on your own goals"
+            },
+            {
+              "ru": "Альтруизм не в центре",
+              "en": "Altruism isn't central"
+            },
+            {
+              "ru": "Прагматичный взгляд",
+              "en": "A pragmatic outlook"
+            }
+          ],
+          "detailed": {
+            "ru": "Сейчас интересы других и общества у вас не в приоритете. **Совет:** небольшие регулярные проявления заботы улучшают и ваше благополучие — это один из самых устойчивых выводов позитивной психологии.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Others' and society's interests aren't a priority right now. **Tip:** small, regular acts of care improve your own well-being too — one of positive psychology's sturdiest findings.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 3,
+          "max": 4.49,
+          "label": {
+            "ru": "Умеренно значимо",
+            "en": "Moderate priority"
+          },
+          "summary": [
+            {
+              "ru": "Заботитесь о других в меру сил",
+              "en": "You care for others as you can"
+            },
+            {
+              "ru": "Справедливость важна",
+              "en": "Fairness matters"
+            },
+            {
+              "ru": "Баланс между собой и другими",
+              "en": "Balance between self and others"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам важны близкие и справедливость, но вы помните и о себе. **Совет:** выберите формат помощи, который вам по силам, — так забота становится устойчивой.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Close ones and fairness matter, and you also look after yourself. **Tip:** choose a sustainable way of helping.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        },
+        {
+          "min": 4.5,
+          "max": 6,
+          "label": {
+            "ru": "Очень значимо",
+            "en": "High priority"
+          },
+          "summary": [
+            {
+              "ru": "Забота о людях и мире — ваш главный ориентир",
+              "en": "Caring for people and the world guides you"
+            },
+            {
+              "ru": "Цените верность, равенство, природу",
+              "en": "You value loyalty, equality and nature"
+            },
+            {
+              "ru": "Готовы ставить общее выше личного",
+              "en": "You'll put the common good first"
+            }
+          ],
+          "detailed": {
+            "ru": "Самотрансцендентность — ваш ведущий блок: вы ориентированы на благополучие других. У большинства людей мира это верх иерархии. **Совет:** выбирайте работу и проекты со смыслом для людей — и не забывайте восполнять свой ресурс.\n\n*Помните: важнее не абсолютный балл, а то, выше или ниже эта ценность вашего личного среднего по всем 21 ответу.*",
+            "en": "Self-transcendence is your leading cluster: you're oriented to others' welfare — top of the hierarchy for most people worldwide. **Tip:** choose work and projects meaningful for people, and remember to refill your own tank.\n\n*Remember: what matters most is not the absolute score but whether this value sits above or below your personal average across all 21 answers.*"
+          }
+        }
+      ],
+      "facets": [
+        "benevolence",
+        "universalism"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "pvq1-ipcrtiv",
+      "text": {
+        "ru": "Для этого человека важно придумывать новое и подходить к делу творчески. Ему нравится делать всё по-своему, оригинально.",
+        "en": "Thinking up new ideas and being creative is important to this person. They like to do things in their own original way."
+      },
+      "dimension": "self-direction"
+    },
+    {
+      "id": "pvq2-imprich",
+      "text": {
+        "ru": "Для этого человека важно быть богатым. Он хочет иметь много денег и дорогих вещей.",
+        "en": "It is important to this person to be rich. They want to have a lot of money and expensive things."
+      },
+      "dimension": "power"
+    },
+    {
+      "id": "pvq3-ipeqopt",
+      "text": {
+        "ru": "Этот человек считает важным, чтобы ко всем людям в мире относились одинаково. Он уверен, что у каждого должны быть равные возможности в жизни.",
+        "en": "This person thinks it is important that every person in the world should be treated equally. They believe everyone should have equal opportunities in life."
+      },
+      "dimension": "universalism"
+    },
+    {
+      "id": "pvq4-ipshabt",
+      "text": {
+        "ru": "Для этого человека важно показать свои способности. Он хочет, чтобы люди восхищались тем, что он делает.",
+        "en": "It is important to this person to show their abilities. They want people to admire what they do."
+      },
+      "dimension": "achievement"
+    },
+    {
+      "id": "pvq5-impsafe",
+      "text": {
+        "ru": "Для этого человека важно жить в безопасном окружении. Он избегает всего, что может угрожать его безопасности.",
+        "en": "It is important to this person to live in secure surroundings. They avoid anything that might endanger their safety."
+      },
+      "dimension": "security"
+    },
+    {
+      "id": "pvq6-impdiff",
+      "text": {
+        "ru": "Этот человек любит сюрпризы и всегда ищет новые занятия. Он считает, что в жизни важно попробовать много разного.",
+        "en": "This person likes surprises and is always looking for new things to do. They think it is important to do lots of different things in life."
+      },
+      "dimension": "stimulation"
+    },
+    {
+      "id": "pvq7-ipfrule",
+      "text": {
+        "ru": "Этот человек считает, что люди должны делать то, что им говорят. По его мнению, правила нужно соблюдать всегда, даже когда никто не видит.",
+        "en": "This person believes that people should do what they're told. They think people should follow rules at all times, even when no one is watching."
+      },
+      "dimension": "conformity"
+    },
+    {
+      "id": "pvq8-ipudrst",
+      "text": {
+        "ru": "Для этого человека важно выслушивать людей, которые не похожи на него. Даже если он с ними не согласен, он всё равно хочет их понять.",
+        "en": "It is important to this person to listen to people who are different from them. Even when they disagree with them, they still want to understand them."
+      },
+      "dimension": "universalism"
+    },
+    {
+      "id": "pvq9-ipmodst",
+      "text": {
+        "ru": "Для этого человека важно быть скромным и непритязательным. Он старается не привлекать к себе внимания.",
+        "en": "It is important to this person to be humble and modest. They try not to draw attention to themselves."
+      },
+      "dimension": "tradition"
+    },
+    {
+      "id": "pvq10-ipgdtim",
+      "text": {
+        "ru": "Для этого человека важно хорошо проводить время. Он любит себя «побаловать».",
+        "en": "Having a good time is important to this person. They like to 'spoil' themselves."
+      },
+      "dimension": "hedonism"
+    },
+    {
+      "id": "pvq11-impfree",
+      "text": {
+        "ru": "Для этого человека важно самому принимать решения о том, что делать. Ему нравится быть свободным и ни от кого не зависеть.",
+        "en": "It is important to this person to make their own decisions about what they do. They like to be free and not depend on others."
+      },
+      "dimension": "self-direction"
+    },
+    {
+      "id": "pvq12-iphlppl",
+      "text": {
+        "ru": "Для этого человека очень важно помогать людям вокруг. Он хочет заботиться об их благополучии.",
+        "en": "It's very important to this person to help the people around them. They want to care for their well-being."
+      },
+      "dimension": "benevolence"
+    },
+    {
+      "id": "pvq13-ipsuces",
+      "text": {
+        "ru": "Для этого человека важно добиться большого успеха. Он надеется, что люди признают его достижения.",
+        "en": "Being very successful is important to this person. They hope people will recognise their achievements."
+      },
+      "dimension": "achievement"
+    },
+    {
+      "id": "pvq14-ipstrgv",
+      "text": {
+        "ru": "Для этого человека важно, чтобы государство обеспечивало его безопасность от любых угроз. Он хочет, чтобы государство было сильным и могло защитить своих граждан.",
+        "en": "It is important to this person that the government ensures their safety against all threats. They want the state to be strong so it can defend its citizens."
+      },
+      "dimension": "security"
+    },
+    {
+      "id": "pvq15-ipadvnt",
+      "text": {
+        "ru": "Этот человек ищет приключений и любит рисковать. Он хочет, чтобы жизнь была полна ярких событий.",
+        "en": "This person looks for adventures and likes to take risks. They want to have an exciting life."
+      },
+      "dimension": "stimulation"
+    },
+    {
+      "id": "pvq16-ipbhprp",
+      "text": {
+        "ru": "Для этого человека важно всегда вести себя правильно. Он старается не делать ничего, что люди сочли бы неправильным.",
+        "en": "It is important to this person always to behave properly. They want to avoid doing anything people would say is wrong."
+      },
+      "dimension": "conformity"
+    },
+    {
+      "id": "pvq17-iprspot",
+      "text": {
+        "ru": "Для этого человека важно, чтобы его уважали. Он хочет, чтобы люди делали то, что он говорит.",
+        "en": "It is important to this person to get respect from others. They want people to do what they say."
+      },
+      "dimension": "power"
+    },
+    {
+      "id": "pvq18-iplylfr",
+      "text": {
+        "ru": "Для этого человека важно быть верным своим друзьям. Он хочет посвящать себя близким людям.",
+        "en": "It is important to this person to be loyal to their friends. They want to devote themselves to people close to them."
+      },
+      "dimension": "benevolence"
+    },
+    {
+      "id": "pvq19-impenv",
+      "text": {
+        "ru": "Этот человек твёрдо убеждён, что люди должны беречь природу. Забота об окружающей среде важна для него.",
+        "en": "This person strongly believes that people should care for nature. Looking after the environment is important to them."
+      },
+      "dimension": "universalism"
+    },
+    {
+      "id": "pvq20-imptrad",
+      "text": {
+        "ru": "Для этого человека важны традиции. Он старается следовать обычаям, принятым в его религии или семье.",
+        "en": "Tradition is important to this person. They try to follow the customs handed down by their religion or their family."
+      },
+      "dimension": "tradition"
+    },
+    {
+      "id": "pvq21-impfun",
+      "text": {
+        "ru": "Этот человек использует любую возможность, чтобы повеселиться. Для него важно заниматься тем, что доставляет ему удовольствие.",
+        "en": "This person seeks every chance they can to have fun. It is important to them to do things that give them pleasure."
+      },
+      "dimension": "hedonism"
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "explorer",
+      "title": {
+        "ru": "Исследователь свободы",
+        "en": "The Free Explorer"
+      },
+      "emoji": "🧭",
+      "profile": {
+        "openness-to-change": 1
+      },
+      "summary": [
+        {
+          "ru": "Ваш компас — свобода, новизна и самовыражение",
+          "en": "Your compass is freedom, novelty and self-expression"
+        },
+        {
+          "ru": "Вы легко принимаете перемены",
+          "en": "You embrace change easily"
+        },
+        {
+          "ru": "Вам важно жить по-своему",
+          "en": "Living your own way matters"
+        },
+        {
+          "ru": "Рутина и контроль вас тяготят",
+          "en": "Routine and control weigh on you"
+        }
+      ],
+      "detailed": {
+        "ru": "Среди четырёх больших блоков ценностей Шварца у вас ведущий — **открытость изменениям**: самостоятельность, стимуляция и радость жизни. Вы цените право думать своей головой, пробовать новое и строить жизнь по собственному сценарию.\n\nВ круговой модели Шварца этот блок противостоит **сохранению** (безопасность, конформность, традиция). Это не значит, что вам безразличны стабильность или правила, — просто, когда приходится выбирать, вы чаще выбираете свободу и новизну. Конфликты с людьми, для которых ведущая ценность — порядок, обычно касаются именно этой оси, и их помогает решать понимание: «мы по-разному взвешиваем свободу и безопасность».\n\n**Практика:** выбирайте работу с автономией и разнообразием задач; договаривайтесь о целях, а не о процессе. Чтобы энергия новизны превращалась в результаты, поддерживайте 2–3 простых опорных привычки (планирование недели, финансовая подушка).",
+        "en": "Among Schwartz's four higher-order value clusters, yours is led by **openness to change**: self-direction, stimulation and enjoyment of life. You value the right to think for yourself, try new things and write your own life script.\n\nIn Schwartz's circular model this cluster opposes **conservation** (security, conformity, tradition). It doesn't mean you don't care about stability or rules — only that, when forced to choose, you more often pick freedom and novelty. Conflicts with people who prioritise order usually run along this axis; understanding helps: 'we weigh freedom and security differently'.\n\n**In practice:** choose work with autonomy and varied tasks; agree on goals rather than process. To turn novelty into results, keep 2–3 simple anchor habits (weekly planning, a financial cushion)."
+      },
+      "strengths": [
+        {
+          "ru": "Креативность",
+          "en": "Creativity"
+        },
+        {
+          "ru": "Адаптивность",
+          "en": "Adaptability"
+        },
+        {
+          "ru": "Независимость",
+          "en": "Independence"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить начатое до конца",
+          "en": "Finishing what you start"
+        },
+        {
+          "ru": "Уважать потребность других в стабильности",
+          "en": "Respecting others' need for stability"
+        }
+      ],
+      "compatibleWith": [
+        "humanist",
+        "achiever"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a young explorer with a backpack and compass on a hill with paper planes and balloons, soft colors"
+    },
+    {
+      "id": "guardian",
+      "title": {
+        "ru": "Хранитель",
+        "en": "The Guardian"
+      },
+      "emoji": "🏡",
+      "profile": {
+        "conservation": 1
+      },
+      "summary": [
+        {
+          "ru": "Ваш компас — стабильность, порядок и преемственность",
+          "en": "Your compass is stability, order and continuity"
+        },
+        {
+          "ru": "Вы надёжны и уважаете правила",
+          "en": "You're reliable and respect rules"
+        },
+        {
+          "ru": "Цените безопасность для себя и близких",
+          "en": "You value safety for yourself and loved ones"
+        },
+        {
+          "ru": "Традиции дают вам опору",
+          "en": "Traditions give you roots"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий блок ценностей — **сохранение**: безопасность, конформность и традиция. Вам важно, чтобы жизнь была предсказуемой и защищённой, чтобы люди держали слово и уважали общие нормы, а связь с семьёй и культурой не прерывалась.\n\nВ модели Шварца сохранение противостоит открытости изменениям. Люди с таким профилем — опора семей, коллективов и сообществ: на них можно положиться. По данным исследований на материалах ESS (Магун и Руднев), ценности безопасности в России в среднем выражены сильнее, чем во многих европейских странах, так что вы, вероятно, в хорошей компании.\n\n**Практика:** выбирайте среды с ясными правилами и долгосрочными перспективами. Чтобы стабильность не превращалась в застой, давайте себе «безопасные эксперименты» — ограниченные по времени и рискам попытки нового.",
+        "en": "Your leading value cluster is **conservation**: security, conformity and tradition. You want life to be predictable and protected, people to keep their word and respect shared norms, and ties to family and culture to continue.\n\nIn Schwartz's model conservation opposes openness to change. People with this profile anchor families, teams and communities: others can count on them. ESS-based research (Magun & Rudnev) suggests security values are on average stronger in Russia than in many European countries, so you're likely in good company.\n\n**In practice:** choose environments with clear rules and long-term prospects. To keep stability from becoming stagnation, allow yourself 'safe experiments' — new things limited in time and risk."
+      },
+      "strengths": [
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        },
+        {
+          "ru": "Ответственность",
+          "en": "Responsibility"
+        },
+        {
+          "ru": "Преданность",
+          "en": "Loyalty"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Гибкость при переменах",
+          "en": "Flexibility in change"
+        },
+        {
+          "ru": "Открытость непохожим взглядам",
+          "en": "Openness to different views"
+        }
+      ],
+      "compatibleWith": [
+        "humanist",
+        "achiever"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a cozy house with a warm lamp, a friendly guardian figure and a family tree, soft colors"
+    },
+    {
+      "id": "achiever",
+      "title": {
+        "ru": "Достигатор",
+        "en": "The Achiever"
+      },
+      "emoji": "🏆",
+      "profile": {
+        "self-enhancement": 1
+      },
+      "summary": [
+        {
+          "ru": "Ваш компас — успех, признание и влияние",
+          "en": "Your compass is success, recognition and influence"
+        },
+        {
+          "ru": "Вас заряжают цели и соревнование",
+          "en": "Goals and competition energise you"
+        },
+        {
+          "ru": "Вы хотите, чтобы ваш труд был заметен",
+          "en": "You want your work to be noticed"
+        },
+        {
+          "ru": "Ресурсы и статус — честные мотиваторы",
+          "en": "Resources and status are honest motivators"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий блок ценностей — **самоутверждение**: достижение и власть. Вам важно проявить способности, добиться признанного успеха, иметь ресурсы и влияние.\n\nВ модели Шварца самоутверждение противостоит **самотрансцендентности** (заботе о других и мире). В межкультурных данных власть обычно находится в нижней части иерархии ценностей, так что ваш профиль — менее распространённый и часто связан с предпринимательством и лидерством.\n\n**Практика:** ставьте амбициозные измеримые цели и выбирайте среды, где результат признаётся. Долгосрочное влияние строится на доверии: показывайте, как ваш успех помогает команде и клиентам, — это снимает противоречие между «для себя» и «для других».",
+        "en": "Your leading value cluster is **self-enhancement**: achievement and power. You want to show your abilities, earn recognised success and have resources and influence.\n\nIn Schwartz's model self-enhancement opposes **self-transcendence** (care for others and the world). Cross-culturally, power tends to rank low in the value hierarchy, so your profile is less common and often linked with entrepreneurship and leadership.\n\n**In practice:** set ambitious, measurable goals and choose environments that recognise results. Lasting influence rests on trust: show how your success helps your team and clients — that dissolves the tension between 'for me' and 'for others'."
+      },
+      "strengths": [
+        {
+          "ru": "Целеустремлённость",
+          "en": "Drive"
+        },
+        {
+          "ru": "Энергия и амбиции",
+          "en": "Energy and ambition"
+        },
+        {
+          "ru": "Ориентация на результат",
+          "en": "Results focus"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Эмпатия и командность",
+          "en": "Empathy and teamwork"
+        },
+        {
+          "ru": "Баланс работы и жизни",
+          "en": "Work–life balance"
+        }
+      ],
+      "compatibleWith": [
+        "explorer",
+        "guardian"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a confident climber planting a flag with a trophy on a mountain top, soft colors"
+    },
+    {
+      "id": "humanist",
+      "title": {
+        "ru": "Гуманист",
+        "en": "The Humanist"
+      },
+      "emoji": "🌍",
+      "profile": {
+        "self-transcendence": 1
+      },
+      "summary": [
+        {
+          "ru": "Ваш компас — забота о людях и мире",
+          "en": "Your compass is care for people and the world"
+        },
+        {
+          "ru": "Цените верность, справедливость и природу",
+          "en": "You value loyalty, fairness and nature"
+        },
+        {
+          "ru": "Готовы ставить общее выше личного",
+          "en": "You'll put the common good first"
+        },
+        {
+          "ru": "Сотрудничество для вас важнее конкуренции",
+          "en": "Cooperation beats competition for you"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий блок ценностей — **самотрансцендентность**: благожелательность (забота о близких) и универсализм (справедливость для всех и защита природы). Вам важно, чтобы рядом людям было хорошо, а мир становился справедливее.\n\nЭто самый распространённый профиль в мире: в исследованиях Шварца и Барди благожелательность и универсализм почти во всех странах находятся на вершине иерархии ценностей. В круговой модели этот блок противостоит самоутверждению (власть, достижение).\n\n**Практика:** вам подходят работа и проекты со смыслом для людей — образование, медицина, НКО, социально ориентированный бизнес. Заботьтесь о своём ресурсе и учитесь отстаивать собственные интересы: устойчивый помощник помогает дольше и лучше.",
+        "en": "Your leading value cluster is **self-transcendence**: benevolence (care for close ones) and universalism (fairness for all and protection of nature). You want people around you to be well and the world to become fairer.\n\nThis is the most common profile worldwide: in Schwartz and Bardi's research benevolence and universalism top the value hierarchy in almost every country. In the circular model this cluster opposes self-enhancement (power, achievement).\n\n**In practice:** work and projects meaningful for people suit you — education, health care, non-profits, social business. Protect your energy and learn to stand up for your own interests: a sustainable helper helps longer and better."
+      },
+      "strengths": [
+        {
+          "ru": "Эмпатия",
+          "en": "Empathy"
+        },
+        {
+          "ru": "Справедливость",
+          "en": "Fairness"
+        },
+        {
+          "ru": "Умение объединять людей",
+          "en": "Bringing people together"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Отстаивать свои интересы",
+          "en": "Standing up for yourself"
+        },
+        {
+          "ru": "Говорить «нет»",
+          "en": "Saying no"
+        }
+      ],
+      "compatibleWith": [
+        "explorer",
+        "guardian"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of kind people holding hands around a small green planet with hearts and trees, soft colors"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Ответы кодируются от 6 («очень похож на меня») до 1 («совсем не похож»). Балл каждой из 10 ценностей — среднее её 2–3 пунктов (1–6). Блоки высшего порядка — среднее пунктов входящих ценностей: открытость изменениям = самостоятельность + стимуляция + гедонизм; сохранение = безопасность + конформность + традиция; самоутверждение = достижение + власть; самотрансцендентность = благожелательность + универсализм. **Центрирование (по Шварцу):** относительная важность = балл ценности − ваше среднее по всем 21 ответу. Положительное значение — ценность выше вашего среднего (приоритет), отрицательное — ниже. Ведущий блок (ваш «тип») — блок с наибольшим баллом; при центрировании результат тот же.",
+    "en": "Answers are coded from 6 ('very much like me') to 1 ('not like me at all'). Each of the 10 values is the mean of its 2–3 items (1–6). Higher-order clusters are the mean of their values' items: openness to change = self-direction + stimulation + hedonism; conservation = security + conformity + tradition; self-enhancement = achievement + power; self-transcendence = benevolence + universalism. **Centring (per Schwartz):** relative importance = value score − your mean across all 21 answers. Positive = above your average (a priority), negative = below. Your leading cluster ('type') is the highest-scoring cluster; centring gives the same result."
+  },
+  "resultIntro": {
+    "ru": "Ценности — это то, что вы считаете важным в жизни, ваш внутренний компас. Смотрите прежде всего на **порядок**: какие ценности у вас выше вашего собственного среднего, а какие ниже. Противоположные ценности на круге Шварца часто конкурируют — это нормально и объясняет многие внутренние дилеммы.",
+    "en": "Values are what you consider important in life — your inner compass. Look first at the **order**: which values sit above your own average and which below. Opposite values on Schwartz's circle often compete — that's normal and explains many inner dilemmas."
+  }
+}

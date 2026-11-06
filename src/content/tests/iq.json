@@ -1,0 +1,4942 @@
+{
+  "id": "iq",
+  "category": "cognitive",
+  "kind": "cognitive",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Тест интеллекта (IQ): профиль способностей",
+    "en": "IQ Test: Your Reasoning Profile"
+  },
+  "tagline": {
+    "ru": "Словесная логика, ряды и матрицы — где ваша сильная сторона?",
+    "en": "Verbal logic, series and matrices – where do you shine?"
+  },
+  "description": {
+    "ru": "Тест из 34 заданий по образцу открытого научного банка ICAR. Вы узнаете свой профиль по трём видам мышления — вербальному рассуждению, поиску закономерностей в рядах и зрительным матрицам — и получите приблизительную оценку IQ с честным интервалом погрешности.",
+    "en": "A 34-item test modelled on the open scientific item bank ICAR. You will see your profile across three kinds of reasoning – verbal deduction, finding the rule in letter and number series, and visual matrices – plus an approximate IQ estimate with an honest error band."
+  },
+  "emoji": "🧠",
+  "durationMin": 25,
+  "popularity": 5,
+  "tags": [
+    {
+      "ru": "интеллект",
+      "en": "intelligence"
+    },
+    {
+      "ru": "IQ",
+      "en": "IQ"
+    },
+    {
+      "ru": "логика",
+      "en": "logic"
+    },
+    {
+      "ru": "матрицы",
+      "en": "matrices"
+    },
+    {
+      "ru": "текучий интеллект",
+      "en": "fluid intelligence"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что измеряет тест\nКороткий тест **общих когнитивных способностей в формате ICAR** с тремя типами заданий, соответствующими широким способностям модели Кеттелла–Хорна–Кэрролла (CHC):\n\n| Шкала | Заданий | Способность (CHC) | Пример |\n|---|---|---|---|\n| **Вербальное рассуждение** | 10 | Gf/Gq на словесном материале (логический вывод, отношения, текстовые задачи) | «Если послезавтра будет за два дня до четверга…» |\n| **Ряды** (буквенные и числовые) | 12 | Gf — индуктивное мышление, Gq | И Й Л О Т → ? |\n| **Матрицы** | 12 | Gf — индуктивное и образное мышление (как у Равена) | сетка 3×3, найдите недостающую клетку |\n\nВсе три шкалы связаны общим фактором (**g**), поэтому тест даёт и суммарный балл с *приблизительной* оценкой IQ, **но главный результат — профиль**: в чём вы относительно сильнее — в словесной логике, рядах или матрицах.\n\n### Теория и история (кратко)\n- **Спирмен (1904)** заметил, что результаты всех умственных тестов положительно коррелируют («позитивное многообразие»), и предложил общий фактор *g*.\n- **Кеттелл (1963)** разделил *g* на **текучий** (Gf: решение новых задач, матрицы, ряды) и **кристаллизованный** (Gc: знания, словарный запас) интеллект.\n- **Кэрролл (1993)** переанализировал более 460 массивов данных и предложил трёхуровневую модель; вместе с теорией Хорна–Кеттелла она стала **моделью CHC** (McGrew, 2009) — основой современных батарей (WAIS, Вудкок–Джонсон).\n- **Прогрессивные матрицы Равена** (с 1938 г.) — классический невербальный тест Gf. Карпентер, Джаст и Шелл (1990) показали, что задания Равена строятся из нескольких правил — *постоянство в строке, количественная прогрессия, сложение/вычитание фигур, распределение трёх значений, распределение двух значений* — и что трудность растёт с числом правил и нагрузкой на рабочую память. 12 матриц этого теста составлены именно по этой таксономии.\n- **Векслер (1939)** ввёл *девиационный IQ*: балл относительно своей возрастной группы со средним 100 и стандартным отклонением 15. IQ — это *место человека относительно нормативной выборки*, а не абсолютная величина.\n- **ICAR** (International Cognitive Ability Resource; Condon & Revelle, 2014) — открытый банк заданий, созданный в онлайн-проекте SAPA, с четырьмя типами заданий (вербальное рассуждение, буквенно-числовые ряды, матрицы, мысленное вращение). Короткая версия из 16 заданий (ICAR16) показала α = 0,81 (ω_total = 0,83) на ≈ 97 000 онлайн-участников и коррелировала примерно 0,8 с композитом Shipley-2 после поправок на надёжность и ограничение разброса.\n- В русскоязычных учебниках те же идеи излагаются у А. Анастази («Психологическое тестирование»), Л.Ф. Бурлачука («Психодиагностика»), М.А. Холодной («Психология интеллекта»).\n\n### Задания\n- 2 задания — **открытые образцы ICAR** из каталога проекта (одно вербальное, один буквенный ряд; английский текст дословно, русский — перевод/адаптация).\n- Остальные 32 задания **оригинальные**, написаны для сайта в тех же форматах (полный набор ICAR16 закрыт паролем авторами проекта и здесь не воспроизводится).\n- В русской версии буквенных рядов используются **буквы с теми же порядковыми номерами** в алфавите из 32 букв без Ё, поэтому арифметика правила одинакова в обоих языках; под каждым буквенным рядом показывается строка алфавита.\n- Матрицы заданы не картинками, а машиночитаемым описанием `visual` (сетка 3×3, каждая клетка — список групп фигур {форма, количество, заливка, поворот, размер}); у каждой 6–8 вариантов ответа. Каждая матрица проверена скриптом: девятая клетка, построенная по заявленным правилам, совпадает ровно с одним вариантом, и все варианты различны.\n\n### Процедура\n34 задания тремя блоками (вербальные → ряды → матрицы), внутри блока — от простых к сложным; общее ограничение 25 минут, на матрицу — 90 секунд. Можно пользоваться черновиком, нельзя — калькулятором. Сам ICAR не ограничен по времени; лимит здесь нужен в основном для того, чтобы ответы не искали в интернете.\n\n### Подсчёт\nБалл = число верных ответов по шкалам (вербальная 0–10, ряды 0–12, матрицы 0–12) и общий балл *g* = 0–34. Случайное угадывание даёт ≈ 5,8 верных. **Приблизительный IQ = 100 + 15 × (общий балл − 20,8) / 8,4** (откуда эти числа — см. пояснения к подсчёту). Результат показывается с интервалом ±8 баллов (≈ 90%).\n\n### Надёжность и валидность\nОжидаемая α ≈ 0,92 для общего балла и ≈ 0,8 для каждой шкалы (экстраполяция по статистике заданий ICAR — нужно подтвердить на данных сайта). Баллы ICAR коррелируют с SAT/ACT (≈ 0,5–0,6) и с клиническими тестами (Shipley-2), а факторная структура одинакова у мужчин и женщин и в разных возрастах (Young, Keith & Bond, 2019).\n\n### Ограничения (важно)\n- **Это не клинический тест IQ.** Клинический IQ определяют индивидуально проводимые батареи с профессиональными нормами (WAIS-IV, Стэнфорд–Бине-5 и др.).\n- **Нормы предварительные.** Они экстраполированы с выборки онлайн-добровольцев (SAPA: в основном молодые, образованные, США), а не с репрезентативной выборки, и с *других* заданий того же типа. После ≥ 1000 полных неповторных прохождений их нужно заменить эмпирическим распределением сайта.\n- **Потолок и пол:** с такими нормами тест не может показать больше ≈ 124 и меньше ≈ 63; крайние результаты лучше подавать как «выше 120» или «ниже 75».\n- Онлайн-тесты IQ вообще критикуют за завышенные, ничем не нормированные баллы и за то, что их результаты переоценивают; на IQ влияют образование, язык, усталость, мотивация, тренировка (повторное прохождение тех же заданий повышает балл) и устройство.\n- Различия между шкалами меньше ~1 стандартного отклонения — в основном шум измерения.",
+    "en": "### What this test measures\nA short, **ICAR-style general cognitive ability** test with three item types that map onto broad abilities of the Cattell–Horn–Carroll (CHC) model:\n\n| Subscale | Items | CHC ability | Example |\n|---|---|---|---|\n| **Verbal reasoning** | 10 | Gf/Gq with verbal content (deduction, relations, word problems) | “If the day after tomorrow is two days before Thursday…” |\n| **Series** (letter & number) | 12 | Gf – inductive reasoning, Gq | I J L O S → ? |\n| **Matrices** | 12 | Gf – inductive/figural reasoning (Raven-type) | 3×3 grid, find the missing cell |\n\nAll three load on a common factor (**g**), so the test reports a total score with an *approximate* IQ, **but the main result is the profile** (relative strength in verbal, series and matrix reasoning).\n\n### Theory and history (short)\n- **Spearman (1904)** found that scores on all mental tests correlate positively (the “positive manifold”) and proposed a general factor *g*.\n- **Cattell (1963)** split *g* into **fluid** (Gf: novel problem solving, matrices, series) and **crystallised** (Gc: knowledge, vocabulary) intelligence.\n- **Carroll (1993)** re-analysed 460+ datasets into a three-stratum model; merged with Horn–Cattell this became the **CHC model** (McGrew, 2009), the framework behind modern batteries (WAIS, Woodcock–Johnson).\n- **Raven’s Progressive Matrices** (from 1938) are the classic non-verbal Gf test; Carpenter, Just & Shell (1990) showed that Raven items are built from a handful of rules – *constant in a row, quantitative pairwise progression, figure addition/subtraction, distribution of three values, distribution of two values* – and that difficulty rises with the number of rules and the load on working memory. The 12 matrices here were designed with exactly this taxonomy.\n- **Wechsler (1939)** introduced the *deviation IQ*: a score expressed relative to the person’s age group with mean 100 and SD 15. An IQ is therefore *a rank relative to a norm group*, not an absolute quantity.\n- **ICAR** (International Cognitive Ability Resource; Condon & Revelle, 2014) is a public-domain item bank developed in the online SAPA project with four item types (verbal reasoning, letter–number series, matrix reasoning, 3D rotation). The 16-item ICAR Sample Test (ICAR16) had α = .81 (ω_total = .83) in N ≈ 97 000 online participants and correlated about .8 with the Shipley-2 composite after correction for unreliability/range restriction.\n- In Russian-language textbooks the same ideas are presented in А. Анастази «Психологическое тестирование», Л.Ф. Бурлачук «Психодиагностика», М.А. Холодная «Психология интеллекта».\n\n### Items\n- 2 items are the **public sample items** published by ICAR in its catalogue (one verbal reasoning, one letter series; English verbatim, Russian translated/adapted).\n- The other 32 items are **original** items written for this site in the same formats (the full ICAR16 item set is password-protected by the ICAR team and is not reproduced).\n- Letter series in Russian use **the letters with the same ordinal positions** in the 32-letter Russian alphabet without Ё, so the arithmetic of the rule is identical in both languages; an alphabet strip is displayed under each letter item in both languages.\n- Matrix items are not pictures but a machine-readable `visual` spec (3×3 grid, each cell = list of shape groups {shape, count, fill, rotation, size}); 6–8 answer options each. Each item was checked by script: the 9th cell generated from the stated rules matches exactly one option, and all options are distinct.\n\n### Administration\n34 items in three blocks (verbal → series → matrices), easy to hard within blocks; 25-minute overall limit, 90 s per matrix item. Scratch paper allowed, no calculator. ICAR itself is untimed; the time limit here mainly prevents looking answers up.\n\n### Scoring\nScore = number correct per subscale (verbal 0–10, series 0–12, matrices 0–12) and total *g* = 0–34. Pure guessing gives ≈ 5.8 correct. **Approximate IQ = 100 + 15 × (total − 20.8) / 8.4** (see scoring notes for where these numbers come from). The result is shown with a ±8-point band (≈ 90% interval).\n\n### Reliability & validity\nPredicted α ≈ .92 for the 34-item total, ≈ .8 for each subscale (extrapolated from ICAR item statistics – must be confirmed on site data). ICAR scores correlate with SAT/ACT (≈ .5–.6) and with clinically used tests (Shipley-2), and their factor structure is invariant across sex and age (Young, Keith & Bond, 2019).\n\n### Limitations (please read)\n- **This is not a clinical IQ test.** Clinical IQ comes from individually administered, professionally normed batteries (WAIS-IV, Stanford–Binet-5, etc.).\n- **Norms are provisional.** They are extrapolated from an online volunteer sample (SAPA, mostly young, educated, US), not a representative population sample, and from *different* items of the same type. Replace them with the site’s own empirical distribution after ≥1 000 complete, non-repeated attempts.\n- **Ceiling and floor:** with these norms the test cannot show scores above ≈ 124 or below ≈ 63; extreme results should be reported as “above 120” or “below 75”.\n- Online IQ tests in general are criticised for inflated, un-normed scores and for encouraging over-interpretation; IQ is also affected by education, language, fatigue, motivation, practice (retaking the same items raises scores), and the testing device.\n- Subscale differences smaller than ~1 SD are mostly measurement noise."
+  },
+  "sources": [
+    {
+      "citation": "Condon, D. M., & Revelle, W. (2014). The International Cognitive Ability Resource: Development and initial validation of a public-domain measure. Intelligence, 43, 52–64.",
+      "doi": "10.1016/j.intell.2014.01.004",
+      "url": "https://personality-project.org/revelle/publications/condon.icar.14.pdf"
+    },
+    {
+      "citation": "ICAR Project. ICAR Catalogue (public sample items and item types).",
+      "url": "https://icar-project.com/ICAR_Catalogue.pdf"
+    },
+    {
+      "citation": "Revelle, W. (2026). psychTools: Tools to accompany the “psych” package for psychological research (R package version 2.6.4; data set “ability”, N = 1 525 SAPA participants, ICAR16 items scored 0/1).",
+      "url": "https://CRAN.R-project.org/package=psychTools"
+    },
+    {
+      "citation": "Revelle, W., Dworak, E. M., & Condon, D. M. (2020). Cognitive ability in everyday life: The utility of open-source measures. Current Directions in Psychological Science, 29(4), 358–363.",
+      "doi": "10.1177/0963721420922178"
+    },
+    {
+      "citation": "Dworak, E. M., Revelle, W., Doebler, P., & Condon, D. M. (2021). Using the International Cognitive Ability Resource as an open source tool to explore individual differences in cognitive ability. Personality and Individual Differences, 169, 109906.",
+      "doi": "10.1016/j.paid.2020.109906"
+    },
+    {
+      "citation": "Young, S. R., Keith, T. Z., & Bond, M. A. (2019). Age and sex invariance of the International Cognitive Ability Resource (ICAR). Intelligence, 77, 101399.",
+      "doi": "10.1016/j.intell.2019.101399"
+    },
+    {
+      "citation": "Carpenter, P. A., Just, M. A., & Shell, P. (1990). What one intelligence test measures: A theoretical account of the processing in the Raven Progressive Matrices Test. Psychological Review, 97(3), 404–431.",
+      "doi": "10.1037/0033-295X.97.3.404"
+    },
+    {
+      "citation": "Spearman, C. (1904). “General intelligence,” objectively determined and measured. The American Journal of Psychology, 15(2), 201–292.",
+      "doi": "10.2307/1412107"
+    },
+    {
+      "citation": "Cattell, R. B. (1963). Theory of fluid and crystallized intelligence: A critical experiment. Journal of Educational Psychology, 54(1), 1–22.",
+      "doi": "10.1037/h0046743"
+    },
+    {
+      "citation": "Carroll, J. B. (1993). Human cognitive abilities: A survey of factor-analytic studies. Cambridge University Press."
+    },
+    {
+      "citation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project: Standing on the shoulders of the giants of psychometric intelligence research. Intelligence, 37(1), 1–10.",
+      "doi": "10.1016/j.intell.2008.08.004"
+    },
+    {
+      "citation": "Raven, J. (2000). The Raven’s Progressive Matrices: Change and stability over culture and time. Cognitive Psychology, 41(1), 1–48.",
+      "doi": "10.1006/cogp.1999.0735"
+    },
+    {
+      "citation": "Wechsler, D. (1939). The measurement of adult intelligence. Williams & Wilkins."
+    },
+    {
+      "citation": "Neisser, U., Boodoo, G., Bouchard, T. J., Jr., Boykin, A. W., Brody, N., Ceci, S. J., Halpern, D. F., Loehlin, J. C., Perloff, R., Sternberg, R. J., & Urbina, S. (1996). Intelligence: Knowns and unknowns. American Psychologist, 51(2), 77–101.",
+      "doi": "10.1037/0003-066X.51.2.77"
+    },
+    {
+      "citation": "Deary, I. J. (2012). Intelligence. Annual Review of Psychology, 63, 453–482.",
+      "doi": "10.1146/annurev-psych-120710-100353"
+    },
+    {
+      "citation": "Анастази, А., & Урбина, С. (2007). Психологическое тестирование (7-е междунар. изд.). СПб.: Питер. [Anastasi, A., & Urbina, S. (1997). Psychological testing (7th ed.). Prentice Hall.]"
+    },
+    {
+      "citation": "Бурлачук, Л. Ф. (2002). Психодиагностика: учебник для вузов. СПб.: Питер."
+    },
+    {
+      "citation": "Холодная, М. А. (2002). Психология интеллекта: парадоксы исследования (2-е изд.). СПб.: Питер."
+    }
+  ],
+  "license": "Original items © testik, may be released under CC BY 4.0. Two items (iq-v02, iq-l01) are the public sample items printed in the ICAR Catalogue (https://icar-project.com/ICAR_Catalogue.pdf); ICAR is described by its authors as a public-domain resource (Condon & Revelle, 2014). The remaining ICAR items (incl. the ICAR16 Sample Test) are distributed only to registered users behind a password (https://icar-project.org/types/index.html) to protect item security, so they are NOT reproduced here; to use them verbatim (e.g. for direct ICAR16 norm comparability) register via https://icar-project.com and ask permission for public web use.",
+  "instructions": {
+    "ru": "Вас ждут 34 задания трёх типов: словесные логические задачи, буквенные и числовые ряды и матрицы 3×3. В каждом задании ровно один правильный ответ. На весь тест — 25 минут, на одну матрицу — до 90 секунд. Задания идут от простых к сложным; если не знаете ответ, выберите наиболее вероятный — штрафа за ошибки нет. Можно пользоваться черновиком, но не калькулятором и не интернетом. Проходите тест в спокойной обстановке, на большом экране, если возможно.",
+    "en": "You will see 34 items of three kinds: verbal logic problems, letter and number series, and 3×3 matrices. Each item has exactly one correct answer. You have 25 minutes in total and up to 90 seconds per matrix. Items get harder as you go; if unsure, pick the most likely answer – wrong answers are not penalised. Scratch paper is fine; no calculator or internet. Take the test somewhere quiet, on a large screen if possible."
+  },
+  "timeLimitSec": 1500,
+  "dimensions": [
+    {
+      "id": "g",
+      "name": {
+        "ru": "Общий балл (g)",
+        "en": "Total score (g)"
+      },
+      "description": {
+        "ru": "Сумма верных ответов по всем шкалам — показатель общего фактора способностей; по нему рассчитывается приблизительный IQ.",
+        "en": "Number correct across all subscales – an index of the general ability factor, used for the approximate IQ."
+      },
+      "lowLabel": {
+        "ru": "ниже среднего",
+        "en": "below average"
+      },
+      "highLabel": {
+        "ru": "выше среднего",
+        "en": "above average"
+      },
+      "color": "#E8DFF5",
+      "facets": [
+        "verbal",
+        "series",
+        "matrix"
+      ],
+      "scoring": "sum",
+      "min": 0,
+      "max": 34,
+      "norms": {
+        "mean": 20.8,
+        "sd": 8.4,
+        "n": 1248,
+        "population": "PROVISIONAL: extrapolated from ICAR VR/LN/MR item statistics in SAPA online volunteers (psychTools::ability, 1 248 complete cases, Aug 2012) to this 34-item form; replace with site data",
+        "source": "Condon & Revelle (2014); Revelle (2026) psychTools “ability” – see cognitive.md for the computation"
+      },
+      "bands": [
+        {
+          "min": 0,
+          "max": 6,
+          "label": {
+            "ru": "≈ уровень угадывания",
+            "en": "≈ chance level"
+          },
+          "summary": [
+            {
+              "ru": "Результат близок к случайному угадыванию",
+              "en": "Close to what random guessing gives"
+            },
+            {
+              "ru": "Ориентировочный IQ ≤ 74 — но, скорее всего, тест не отражает ваши способности",
+              "en": "Approximate IQ ≤ 74 – but most likely the test did not capture your ability"
+            },
+            {
+              "ru": "Частые причины: спешка, усталость, отвлечения, незнакомый формат",
+              "en": "Common causes: rushing, fatigue, distraction, unfamiliar format"
+            }
+          ],
+          "detailed": {
+            "ru": "Такое число верных ответов можно получить, просто отвечая наугад, поэтому делать выводы о способностях нельзя. Попробуйте пройти тест ещё раз в спокойной обстановке и без спешки — и помните, что повторное прохождение тех же заданий немного завышает результат.",
+            "en": "This many correct answers can be obtained by pure guessing, so no conclusion about ability is possible. Try again when rested and undisturbed – keeping in mind that retaking the same items slightly inflates the score."
+          }
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "label": {
+            "ru": "Ниже среднего",
+            "en": "Below average"
+          },
+          "summary": [
+            {
+              "ru": "Ориентировочный IQ ≈ 75–84",
+              "en": "Approximate IQ ≈ 75–84"
+            },
+            {
+              "ru": "Задачи на поиск закономерностей пока даются с трудом",
+              "en": "Rule-finding problems were hard for you this time"
+            },
+            {
+              "ru": "Посмотрите профиль: возможно, одна из шкал заметно выше",
+              "en": "Check your profile – one subscale may stand out"
+            }
+          ],
+          "detailed": {
+            "ru": "Результат ниже, чем у большинства участников онлайн-исследований, на которых основаны предварительные нормы. Это не диагноз: короткий онлайн-тест чувствителен к усталости, спешке, языку и непривычному формату. Если вас беспокоят память или мышление в повседневной жизни, корректно оценить их может только специалист (клинический психолог, нейропсихолог) с помощью стандартизированных методик.",
+            "en": "Your score is lower than that of most participants in the online studies on which the provisional norms are based. It is not a diagnosis: a short online test is sensitive to fatigue, haste, language and unfamiliar formats. If you are worried about your thinking or memory in everyday life, only a professional (clinical psychologist or neuropsychologist) using standardised tests can assess this properly."
+          }
+        },
+        {
+          "min": 13,
+          "max": 20,
+          "label": {
+            "ru": "Средний (нижняя половина)",
+            "en": "Average (lower half)"
+          },
+          "summary": [
+            {
+              "ru": "Ориентировочный IQ ≈ 86–99",
+              "en": "Approximate IQ ≈ 86–99"
+            },
+            {
+              "ru": "Типичный результат",
+              "en": "A typical result"
+            },
+            {
+              "ru": "Сильные и слабые стороны лучше видны в профиле",
+              "en": "Your profile shows strengths and weaknesses better than the total"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат в пределах среднего диапазона. Большинство людей попадает именно сюда. Обратите внимание на профиль: если одна шкала заметно выше других, это ваша относительная сила (например, словесная логика при более слабых матрицах).",
+            "en": "Your result is within the average range, where most people fall. Look at your profile: if one subscale is clearly higher than the others, that is your relative strength (for example verbal logic with weaker matrices)."
+          }
+        },
+        {
+          "min": 21,
+          "max": 28,
+          "label": {
+            "ru": "Средний (верхняя половина) и выше среднего",
+            "en": "Average (upper half) to above average"
+          },
+          "summary": [
+            {
+              "ru": "Ориентировочный IQ ≈ 100–113",
+              "en": "Approximate IQ ≈ 100–113"
+            },
+            {
+              "ru": "Вы уверенно находите закономерности",
+              "en": "You find rules reliably"
+            },
+            {
+              "ru": "Ошибки, вероятно, в самых сложных заданиях с 3–4 правилами",
+              "en": "Errors are probably on the hardest items with 3–4 rules"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы справились с большинством заданий, включая задачи средней и высокой сложности. Посмотрите разбор ошибок: в матрицах с несколькими правилами чаще всего упускают одно из них (например, заливку или поворот). Стратегия — проверять каждый признак фигуры отдельно по строкам и по столбцам.",
+            "en": "You solved most items, including medium and hard ones. Review your mistakes: in multi-rule matrices people most often miss one attribute (fill or rotation). The best strategy is to check each attribute separately, row by row and column by column."
+          }
+        },
+        {
+          "min": 29,
+          "max": 34,
+          "label": {
+            "ru": "Высокий (потолок теста)",
+            "en": "High (test ceiling)"
+          },
+          "summary": [
+            {
+              "ru": "Ориентировочный IQ ≈ 115–124+",
+              "en": "Approximate IQ ≈ 115–124+"
+            },
+            {
+              "ru": "Результат у верхней границы того, что измеряет тест",
+              "en": "At the upper limit of what this test can measure"
+            },
+            {
+              "ru": "Точнее различить очень высокие уровни этот тест не может",
+              "en": "It cannot tell very high levels apart"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы решили почти все задания. Поскольку заданий мало, а самые трудные из них проще, чем в профессиональных тестах, точное значение IQ выше ~120 этим тестом не определяется — честнее говорить «выше 120». Для точной оценки высоких способностей нужны длинные тесты с очень трудными заданиями (например, полная форма матриц Равена или ICAR60 под контролем исследователя).",
+            "en": "You solved almost every item. Because the test is short and its hardest items are easier than those of professional tests, it cannot pin down an IQ above ~120 – “above 120” is the honest reading. Measuring very high ability needs long tests with very hard items (e.g. full-length Raven’s Advanced Matrices or the ICAR60 under research conditions)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "verbal",
+      "name": {
+        "ru": "Вербальное рассуждение",
+        "en": "Verbal reasoning"
+      },
+      "description": {
+        "ru": "Логические выводы, отношения, календарные и текстовые задачи, сформулированные словами.",
+        "en": "Logical deduction, relations, calendar and word problems stated in words."
+      },
+      "lowLabel": {
+        "ru": "слабее остальных",
+        "en": "relative weakness"
+      },
+      "highLabel": {
+        "ru": "сильная сторона",
+        "en": "relative strength"
+      },
+      "color": "#F9D5E5",
+      "scoring": "sum",
+      "min": 0,
+      "max": 10,
+      "norms": {
+        "mean": 7.1,
+        "sd": 2.8,
+        "n": 1248,
+        "population": "PROVISIONAL: extrapolated from 4 ICAR verbal-reasoning items (mean p = .71) in SAPA online volunteers to 10 items",
+        "source": "Revelle (2026) psychTools “ability”; Condon & Revelle (2014)"
+      },
+      "bands": [
+        {
+          "min": 0,
+          "max": 4,
+          "label": {
+            "ru": "Ниже типичного",
+            "en": "Below typical"
+          },
+          "summary": [
+            {
+              "ru": "Словесные логические задачи дались труднее",
+              "en": "Verbal logic problems were harder for you"
+            },
+            {
+              "ru": "Частая ошибка — ответ «по первому впечатлению»",
+              "en": "Typical error: answering on first impression"
+            },
+            {
+              "ru": "Помогает перечитывать условие и рисовать схему",
+              "en": "Re-reading and sketching the relations helps"
+            }
+          ],
+          "detailed": {
+            "ru": "Ошибки в таких задачах обычно связаны не с «недостатком ума», а со спешкой: условие читается не до конца или выбирается интуитивно привлекательный ответ. Тренируйтесь записывать отношения (А > Б > В) и проверять каждый вариант.",
+            "en": "Errors on these items usually come from haste rather than lack of ability: the problem is not read to the end or the intuitively attractive answer is chosen. Practise writing relations down (A > B > C) and checking each option."
+          }
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "label": {
+            "ru": "Типичный уровень",
+            "en": "Typical"
+          },
+          "summary": [
+            {
+              "ru": "Большинство задач решено верно",
+              "en": "Most problems solved"
+            },
+            {
+              "ru": "Сложнее всего — задачи с ловушками и «ровно одно утверждение истинно»",
+              "en": "Hardest: trap questions and “exactly one statement is true”"
+            },
+            {
+              "ru": "Сравните с другими шкалами профиля",
+              "en": "Compare with your other subscales"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень вербального рассуждения типичен для участников онлайн-исследований. Если эта шкала выше двух других — вам легче рассуждать словами, чем образами.",
+            "en": "Your verbal reasoning is typical for online study participants. If this subscale is higher than the other two, you reason more easily in words than in images."
+          }
+        },
+        {
+          "min": 9,
+          "max": 10,
+          "label": {
+            "ru": "Сильная сторона",
+            "en": "Strength"
+          },
+          "summary": [
+            {
+              "ru": "Почти все задачи решены",
+              "en": "Nearly all problems solved"
+            },
+            {
+              "ru": "Вы внимательны к формулировкам",
+              "en": "You read carefully"
+            },
+            {
+              "ru": "Хорошо замечаете логические ловушки",
+              "en": "You spot logical traps"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы уверенно решаете словесные логические задачи и не попадаетесь на ловушки. Это полезно в учёбе, аналитике, юриспруденции, программировании — везде, где важно точно следовать условиям.",
+            "en": "You solve verbal logic problems confidently and avoid traps – useful in study, analysis, law, programming and anywhere precise reading of conditions matters."
+          }
+        }
+      ]
+    },
+    {
+      "id": "series",
+      "name": {
+        "ru": "Ряды (буквы и числа)",
+        "en": "Series (letters & numbers)"
+      },
+      "description": {
+        "ru": "Поиск правила, по которому построена последовательность, и продолжение ряда — индуктивное мышление.",
+        "en": "Finding the rule behind a sequence and continuing it – inductive reasoning."
+      },
+      "lowLabel": {
+        "ru": "слабее остальных",
+        "en": "relative weakness"
+      },
+      "highLabel": {
+        "ru": "сильная сторона",
+        "en": "relative strength"
+      },
+      "color": "#CDE7F0",
+      "scoring": "sum",
+      "min": 0,
+      "max": 12,
+      "norms": {
+        "mean": 7.2,
+        "sd": 3.7,
+        "n": 1248,
+        "population": "PROVISIONAL: extrapolated from 4 ICAR letter-series items (mean p = .60) in SAPA online volunteers to 12 items (8 of which are number series, probably slightly easier)",
+        "source": "Revelle (2026) psychTools “ability”; Condon & Revelle (2014)"
+      },
+      "bands": [
+        {
+          "min": 0,
+          "max": 3,
+          "label": {
+            "ru": "Ниже типичного",
+            "en": "Below typical"
+          },
+          "summary": [
+            {
+              "ru": "Правила рядов пока замечаются с трудом",
+              "en": "Series rules were hard to spot"
+            },
+            {
+              "ru": "Попробуйте выписывать разности между соседними членами",
+              "en": "Try writing down differences between neighbours"
+            },
+            {
+              "ru": "Проверяйте чередующиеся и «переплетённые» ряды",
+              "en": "Look for alternating and interleaved patterns"
+            }
+          ],
+          "detailed": {
+            "ru": "Ряды требуют держать в уме несколько гипотез о правиле. Простая стратегия: выписать разности (или отношения) соседних членов, затем разности разностей; если не помогло — проверить, не состоит ли ряд из двух перемешанных.",
+            "en": "Series require holding several hypotheses in mind. A simple strategy: write down differences (or ratios) between neighbours, then differences of differences; if that fails, check whether two series are interleaved."
+          }
+        },
+        {
+          "min": 4,
+          "max": 10,
+          "label": {
+            "ru": "Типичный уровень",
+            "en": "Typical"
+          },
+          "summary": [
+            {
+              "ru": "Простые и средние ряды решены",
+              "en": "Easy and medium series solved"
+            },
+            {
+              "ru": "Трудности — в рядах с меняющимся шагом",
+              "en": "Difficulties with changing steps"
+            },
+            {
+              "ru": "Сравните с матрицами: обе шкалы измеряют индукцию",
+              "en": "Compare with matrices – both measure induction"
+            }
+          ],
+          "detailed": {
+            "ru": "Типичный результат. Если ряды заметно лучше матриц, вам легче искать закономерности в символах и числах, чем в изображениях.",
+            "en": "A typical result. If series are clearly better than matrices, you find patterns more easily in symbols and numbers than in pictures."
+          }
+        },
+        {
+          "min": 11,
+          "max": 12,
+          "label": {
+            "ru": "Сильная сторона",
+            "en": "Strength"
+          },
+          "summary": [
+            {
+              "ru": "Почти все ряды решены",
+              "en": "Nearly all series solved"
+            },
+            {
+              "ru": "Вы быстро находите правило",
+              "en": "You find rules quickly"
+            },
+            {
+              "ru": "Развито индуктивное и числовое мышление",
+              "en": "Strong inductive and numerical reasoning"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы отлично находите скрытые правила в последовательностях. Эта способность тесно связана с текучим интеллектом и пригодится в математике, программировании, анализе данных.",
+            "en": "You are excellent at finding hidden rules in sequences – an ability closely tied to fluid intelligence and useful in mathematics, programming and data analysis."
+          }
+        }
+      ]
+    },
+    {
+      "id": "matrix",
+      "name": {
+        "ru": "Матрицы (текучий интеллект)",
+        "en": "Matrices (fluid reasoning)"
+      },
+      "description": {
+        "ru": "Невербальные задачи типа Равена: найти недостающую фигуру по правилам, действующим в строках и столбцах.",
+        "en": "Non-verbal Raven-type problems: find the missing figure from rules that hold across rows and columns."
+      },
+      "lowLabel": {
+        "ru": "слабее остальных",
+        "en": "relative weakness"
+      },
+      "highLabel": {
+        "ru": "сильная сторона",
+        "en": "relative strength"
+      },
+      "color": "#D9F2D0",
+      "scoring": "sum",
+      "min": 0,
+      "max": 12,
+      "norms": {
+        "mean": 6.6,
+        "sd": 3.2,
+        "n": 1248,
+        "population": "PROVISIONAL: extrapolated from 4 ICAR matrix-reasoning items (mean p = .55) in SAPA online volunteers to 12 items",
+        "source": "Revelle (2026) psychTools “ability”; Condon & Revelle (2014)"
+      },
+      "bands": [
+        {
+          "min": 0,
+          "max": 3,
+          "label": {
+            "ru": "Ниже типичного",
+            "en": "Below typical"
+          },
+          "summary": [
+            {
+              "ru": "Зрительные закономерности дались труднее",
+              "en": "Visual patterns were harder"
+            },
+            {
+              "ru": "Помогает разбирать по одному признаку: форма, число, заливка, поворот",
+              "en": "Analyse one attribute at a time: shape, count, fill, rotation"
+            },
+            {
+              "ru": "Сравнивайте строки, а потом столбцы",
+              "en": "Compare rows first, then columns"
+            }
+          ],
+          "detailed": {
+            "ru": "Матрицы — самая «чистая» мера текучего интеллекта, но они сильно зависят от стратегии и знакомства с форматом. Разбирайте фигуры по одному признаку и проверяйте, как он меняется в строке; трудность резко растёт, когда правил больше двух.",
+            "en": "Matrices are the purest measure of fluid reasoning but depend strongly on strategy and familiarity with the format. Analyse one attribute at a time and check how it changes across a row; difficulty rises sharply beyond two rules."
+          }
+        },
+        {
+          "min": 4,
+          "max": 9,
+          "label": {
+            "ru": "Типичный уровень",
+            "en": "Typical"
+          },
+          "summary": [
+            {
+              "ru": "Матрицы с 1–2 правилами решены",
+              "en": "Matrices with 1–2 rules solved"
+            },
+            {
+              "ru": "Трудности — в заданиях на сложение/вычитание и «исключающее или»",
+              "en": "Difficulties with addition/subtraction and XOR items"
+            },
+            {
+              "ru": "Типичный результат для онлайн-выборок",
+              "en": "Typical for online samples"
+            }
+          ],
+          "detailed": {
+            "ru": "Типичный уровень. Ошибки в последних матрицах ожидаемы: задания с тремя-четырьмя правилами одновременно нагружают рабочую память, и именно это, по Карпентеру и коллегам (1990), отличает людей с высокими баллами по тесту Равена.",
+            "en": "Typical. Errors on the last matrices are expected: items with three or four simultaneous rules load working memory, which is exactly what, according to Carpenter et al. (1990), distinguishes high scorers on Raven’s test."
+          }
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "label": {
+            "ru": "Сильная сторона",
+            "en": "Strength"
+          },
+          "summary": [
+            {
+              "ru": "Почти все матрицы решены",
+              "en": "Nearly all matrices solved"
+            },
+            {
+              "ru": "Вы удерживаете несколько правил одновременно",
+              "en": "You hold several rules in mind at once"
+            },
+            {
+              "ru": "Развито образное и абстрактное мышление",
+              "en": "Strong visual-abstract reasoning"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы решаете даже матрицы с несколькими одновременными правилами — признак хорошей рабочей памяти и текучего интеллекта. Такие способности полезны в инженерии, дизайне, науке и стратегических играх.",
+            "en": "You solve even multi-rule matrices – a sign of good working memory and fluid reasoning, useful in engineering, design, science and strategy games."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "iq-v01",
+      "dimension": "verbal",
+      "text": {
+        "ru": "Анна старше Бориса. Вера младше Бориса. Глеб старше Анны. Кто второй по старшинству?",
+        "en": "Anna is older than Boris. Vera is younger than Boris. Gleb is older than Anna. Who is the second oldest?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Анна",
+            "en": "Anna"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Борис",
+            "en": "Boris"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вера",
+            "en": "Vera"
+          }
+        },
+        {
+          "text": {
+            "ru": "Глеб",
+            "en": "Gleb"
+          }
+        },
+        {
+          "text": {
+            "ru": "Определить невозможно",
+            "en": "Cannot be determined"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Выстраиваем порядок: Глеб > Анна > Борис > Вера. Второй по старшинству — Анна.",
+        "en": "Put them in order: Gleb > Anna > Boris > Vera. The second oldest is Anna."
+      }
+    },
+    {
+      "id": "iq-v02",
+      "dimension": "verbal",
+      "text": {
+        "ru": "Если послезавтра будет за два дня до четверга, то какой сегодня день?",
+        "en": "If the day after tomorrow is two days before Thursday, then what day is it today?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Пятница",
+            "en": "Friday"
+          }
+        },
+        {
+          "text": {
+            "ru": "Понедельник",
+            "en": "Monday"
+          }
+        },
+        {
+          "text": {
+            "ru": "Среда",
+            "en": "Wednesday"
+          }
+        },
+        {
+          "text": {
+            "ru": "Суббота",
+            "en": "Saturday"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вторник",
+            "en": "Tuesday"
+          }
+        },
+        {
+          "text": {
+            "ru": "Воскресенье",
+            "en": "Sunday"
+          },
+          "correct": true
+        }
+      ],
+      "explanation": {
+        "ru": "За два дня до четверга — вторник. Значит, послезавтра вторник, а сегодня воскресенье. (Публичный образец задания ICAR, перевод.)",
+        "en": "Two days before Thursday is Tuesday. So the day after tomorrow is Tuesday, and today is Sunday. (Public ICAR sample item.)"
+      }
+    },
+    {
+      "id": "iq-v03",
+      "dimension": "verbal",
+      "text": {
+        "ru": "Если три дня назад была пятница, какой день недели будет послезавтра?",
+        "en": "If three days ago was Friday, what day of the week will it be the day after tomorrow?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Воскресенье",
+            "en": "Sunday"
+          }
+        },
+        {
+          "text": {
+            "ru": "Понедельник",
+            "en": "Monday"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вторник",
+            "en": "Tuesday"
+          }
+        },
+        {
+          "text": {
+            "ru": "Среда",
+            "en": "Wednesday"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Четверг",
+            "en": "Thursday"
+          }
+        },
+        {
+          "text": {
+            "ru": "Суббота",
+            "en": "Saturday"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Три дня назад пятница → сегодня понедельник → послезавтра среда.",
+        "en": "Three days ago was Friday → today is Monday → the day after tomorrow is Wednesday."
+      }
+    },
+    {
+      "id": "iq-v04",
+      "dimension": "verbal",
+      "text": {
+        "ru": "Какое число составляет треть от половины от четверти числа 480?",
+        "en": "What number is one third of one half of one quarter of 480?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "10",
+            "en": "10"
+          }
+        },
+        {
+          "text": {
+            "ru": "15",
+            "en": "15"
+          }
+        },
+        {
+          "text": {
+            "ru": "20",
+            "en": "20"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "24",
+            "en": "24"
+          }
+        },
+        {
+          "text": {
+            "ru": "30",
+            "en": "30"
+          }
+        },
+        {
+          "text": {
+            "ru": "40",
+            "en": "40"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "480 : 4 = 120; 120 : 2 = 60; 60 : 3 = 20.",
+        "en": "480 ÷ 4 = 120; 120 ÷ 2 = 60; 60 ÷ 3 = 20."
+      }
+    },
+    {
+      "id": "iq-v05",
+      "dimension": "verbal",
+      "text": {
+        "ru": "У мамы Ольги есть единственный брат. Сын этого брата приходится Ольге…",
+        "en": "Olga’s mother has exactly one brother. That brother’s son is Olga’s…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "братом",
+            "en": "brother"
+          }
+        },
+        {
+          "text": {
+            "ru": "дядей",
+            "en": "uncle"
+          }
+        },
+        {
+          "text": {
+            "ru": "племянником",
+            "en": "nephew"
+          }
+        },
+        {
+          "text": {
+            "ru": "двоюродным братом",
+            "en": "cousin"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "внуком",
+            "en": "grandson"
+          }
+        },
+        {
+          "text": {
+            "ru": "отцом",
+            "en": "father"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Брат мамы — дядя Ольги, а сын дяди — двоюродный брат.",
+        "en": "The mother’s brother is Olga’s uncle, and the uncle’s son is her (first) cousin."
+      }
+    },
+    {
+      "id": "iq-v06",
+      "dimension": "verbal",
+      "text": {
+        "ru": "Вы стоите лицом на север. Вы поворачиваетесь на 90° направо, затем на 180°, затем на 90° налево. Куда вы теперь смотрите?",
+        "en": "You are facing north. You turn 90° to the right, then turn 180°, then turn 90° to the left. Which way are you facing now?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "На север",
+            "en": "North"
+          }
+        },
+        {
+          "text": {
+            "ru": "На восток",
+            "en": "East"
+          }
+        },
+        {
+          "text": {
+            "ru": "На юг",
+            "en": "South"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "На запад",
+            "en": "West"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Север → направо = восток → разворот = запад → налево от запада = юг.",
+        "en": "North → right = east → about-turn = west → left from west = south."
+      }
+    },
+    {
+      "id": "iq-v07",
+      "dimension": "verbal",
+      "text": {
+        "ru": "Маше 8 лет, а её брат вчетверо старше неё. Сколько лет будет брату, когда Маше исполнится 20?",
+        "en": "Masha is 8 years old and her brother is four times as old as she is. How old will her brother be when Masha is 20?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "32",
+            "en": "32"
+          }
+        },
+        {
+          "text": {
+            "ru": "40",
+            "en": "40"
+          }
+        },
+        {
+          "text": {
+            "ru": "44",
+            "en": "44"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "48",
+            "en": "48"
+          }
+        },
+        {
+          "text": {
+            "ru": "56",
+            "en": "56"
+          }
+        },
+        {
+          "text": {
+            "ru": "80",
+            "en": "80"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Сейчас брату 32, разница в возрасте 24 года и не меняется. Когда Маше 20, брату 20 + 24 = 44. (Ответ 80 — ловушка «умножить ещё раз на 4».)",
+        "en": "The brother is 32 now; the age gap of 24 years never changes. When Masha is 20 he is 20 + 24 = 44. (80 is the trap of multiplying by 4 again.)"
+      }
+    },
+    {
+      "id": "iq-v08",
+      "dimension": "verbal",
+      "text": {
+        "ru": "Если идёт дождь, матч отменяют (это правило не знает исключений). Сегодня матч не отменили. Что из этого следует?",
+        "en": "If it rains, the match is cancelled (this rule has no exceptions). Today the match was not cancelled. What follows?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Дождь шёл",
+            "en": "It rained"
+          }
+        },
+        {
+          "text": {
+            "ru": "Дождя не было",
+            "en": "It did not rain"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Матч перенесли в зал",
+            "en": "The match was moved indoors"
+          }
+        },
+        {
+          "text": {
+            "ru": "Ничего определённого сказать нельзя",
+            "en": "Nothing definite can be concluded"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Если бы шёл дождь, матч обязательно отменили бы. Его не отменили — значит, дождя не было (логическое правило modus tollens).",
+        "en": "Had it rained, the match would have been cancelled. It was not cancelled, so it did not rain (modus tollens)."
+      }
+    },
+    {
+      "id": "iq-v09",
+      "dimension": "verbal",
+      "text": {
+        "ru": "Все члены шахматного клуба — студенты. Некоторые студенты играют на скрипке. Какое утверждение обязательно верно?",
+        "en": "All members of the chess club are students. Some students play the violin. Which statement must be true?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Некоторые члены шахматного клуба играют на скрипке",
+            "en": "Some members of the chess club play the violin"
+          }
+        },
+        {
+          "text": {
+            "ru": "Ни один член шахматного клуба не играет на скрипке",
+            "en": "No member of the chess club plays the violin"
+          }
+        },
+        {
+          "text": {
+            "ru": "Все скрипачи — студенты",
+            "en": "All violinists are students"
+          }
+        },
+        {
+          "text": {
+            "ru": "Ни одно из этих утверждений не следует обязательно",
+            "en": "None of these statements necessarily follows"
+          },
+          "correct": true
+        }
+      ],
+      "explanation": {
+        "ru": "Скрипачи могут оказаться студентами вне шахматного клуба, поэтому ни (1), ни (2) не следуют. Из «некоторые студенты — скрипачи» не следует, что все скрипачи — студенты. Верен вариант 4.",
+        "en": "The violin-playing students might all be outside the chess club, so neither (1) nor (2) follows; and “some students play the violin” does not mean all violinists are students. Only option 4 is correct."
+      }
+    },
+    {
+      "id": "iq-v10",
+      "dimension": "verbal",
+      "text": {
+        "ru": "Ключ спрятан в одном из трёх мест: в коробке, в ящике стола или в сумке. Из трёх утверждений истинно ровно одно: (1) «Ключ в коробке». (2) «Ключ не в ящике стола». (3) «Ключ не в коробке». Где ключ?",
+        "en": "A key is hidden in one of three places: a box, a drawer or a bag. Exactly one of these statements is true: (1) “The key is in the box.” (2) “The key is not in the drawer.” (3) “The key is not in the box.” Where is the key?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "В коробке",
+            "en": "In the box"
+          }
+        },
+        {
+          "text": {
+            "ru": "В ящике стола",
+            "en": "In the drawer"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "В сумке",
+            "en": "In the bag"
+          }
+        },
+        {
+          "text": {
+            "ru": "Определить невозможно",
+            "en": "Cannot be determined"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Проверим каждое место. Коробка: истинны (1) и (2) — два, не подходит. Сумка: истинны (2) и (3) — два, не подходит. Ящик: истинно только (3) — ровно одно. Ключ в ящике.",
+        "en": "Test each place. Box: (1) and (2) are true – two, impossible. Bag: (2) and (3) are true – two, impossible. Drawer: only (3) is true – exactly one. The key is in the drawer."
+      }
+    },
+    {
+      "id": "iq-n01",
+      "dimension": "series",
+      "text": {
+        "ru": "Какое число следующее?  3, 7, 11, 15, …",
+        "en": "What number comes next?  3, 7, 11, 15, …"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "17",
+            "en": "17"
+          }
+        },
+        {
+          "text": {
+            "ru": "18",
+            "en": "18"
+          }
+        },
+        {
+          "text": {
+            "ru": "19",
+            "en": "19"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "20",
+            "en": "20"
+          }
+        },
+        {
+          "text": {
+            "ru": "21",
+            "en": "21"
+          }
+        },
+        {
+          "text": {
+            "ru": "23",
+            "en": "23"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Каждое число на 4 больше предыдущего: 15 + 4 = 19.",
+        "en": "Each number is 4 more than the previous one: 15 + 4 = 19."
+      }
+    },
+    {
+      "id": "iq-n02",
+      "dimension": "series",
+      "text": {
+        "ru": "Какое число следующее?  1, 4, 9, 16, 25, …",
+        "en": "What number comes next?  1, 4, 9, 16, 25, …"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "30",
+            "en": "30"
+          }
+        },
+        {
+          "text": {
+            "ru": "33",
+            "en": "33"
+          }
+        },
+        {
+          "text": {
+            "ru": "34",
+            "en": "34"
+          }
+        },
+        {
+          "text": {
+            "ru": "36",
+            "en": "36"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "40",
+            "en": "40"
+          }
+        },
+        {
+          "text": {
+            "ru": "49",
+            "en": "49"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Это квадраты 1², 2², 3², 4², 5²; дальше 6² = 36 (разности 3, 5, 7, 9, 11).",
+        "en": "These are the squares 1², 2², 3², 4², 5²; next is 6² = 36 (differences 3, 5, 7, 9, 11)."
+      }
+    },
+    {
+      "id": "iq-n03",
+      "dimension": "series",
+      "text": {
+        "ru": "Какое число следующее?  2, 6, 18, 54, …",
+        "en": "What number comes next?  2, 6, 18, 54, …"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "72",
+            "en": "72"
+          }
+        },
+        {
+          "text": {
+            "ru": "108",
+            "en": "108"
+          }
+        },
+        {
+          "text": {
+            "ru": "150",
+            "en": "150"
+          }
+        },
+        {
+          "text": {
+            "ru": "162",
+            "en": "162"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "180",
+            "en": "180"
+          }
+        },
+        {
+          "text": {
+            "ru": "216",
+            "en": "216"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Каждое число втрое больше предыдущего: 54 × 3 = 162.",
+        "en": "Each number is three times the previous one: 54 × 3 = 162."
+      }
+    },
+    {
+      "id": "iq-l01",
+      "dimension": "series",
+      "text": {
+        "ru": "Какая буква должна быть следующей в ряду?  И Й Л О Т  …?",
+        "en": "In the following alphanumeric series, what letter comes next?  I J L O S  …?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "У",
+            "en": "T"
+          }
+        },
+        {
+          "text": {
+            "ru": "Ф",
+            "en": "U"
+          }
+        },
+        {
+          "text": {
+            "ru": "Х",
+            "en": "V"
+          }
+        },
+        {
+          "text": {
+            "ru": "Ч",
+            "en": "X"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Ш",
+            "en": "Y"
+          }
+        },
+        {
+          "text": {
+            "ru": "Щ",
+            "en": "Z"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Шаг между буквами каждый раз растёт на 1: +1, +2, +3, +4, значит, дальше +5 → Ч. (Публичный образец задания ICAR; в русской версии буквы заменены на буквы с теми же порядковыми номерами в алфавите без Ё.)",
+        "en": "The gap between letters grows by one each time: +1, +2, +3, +4, so next is +5 → X. (Public ICAR sample item.)"
+      },
+      "visual": {
+        "type": "alphabetStrip",
+        "ru": "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я",
+        "en": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",
+        "note": "ICAR public sample item; RU version uses the letters with the same ordinal positions in the 32-letter Russian alphabet without Ё"
+      }
+    },
+    {
+      "id": "iq-n04",
+      "dimension": "series",
+      "text": {
+        "ru": "Какое число следующее?  5, 6, 8, 11, 15, …",
+        "en": "What number comes next?  5, 6, 8, 11, 15, …"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "18",
+            "en": "18"
+          }
+        },
+        {
+          "text": {
+            "ru": "19",
+            "en": "19"
+          }
+        },
+        {
+          "text": {
+            "ru": "20",
+            "en": "20"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "21",
+            "en": "21"
+          }
+        },
+        {
+          "text": {
+            "ru": "22",
+            "en": "22"
+          }
+        },
+        {
+          "text": {
+            "ru": "25",
+            "en": "25"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Прибавляем 1, 2, 3, 4, а затем 5: 15 + 5 = 20.",
+        "en": "Add 1, 2, 3, 4 and then 5: 15 + 5 = 20."
+      }
+    },
+    {
+      "id": "iq-l02",
+      "dimension": "series",
+      "text": {
+        "ru": "Какая буква должна быть следующей в ряду?  В Д З Й М  …?",
+        "en": "In the following alphanumeric series, what letter comes next?  C E H J M  …?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Н",
+            "en": "N"
+          }
+        },
+        {
+          "text": {
+            "ru": "О",
+            "en": "O"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "П",
+            "en": "P"
+          }
+        },
+        {
+          "text": {
+            "ru": "Р",
+            "en": "Q"
+          }
+        },
+        {
+          "text": {
+            "ru": "Л",
+            "en": "L"
+          }
+        },
+        {
+          "text": {
+            "ru": "С",
+            "en": "R"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Шаги чередуются: +2, +3, +2, +3, значит, дальше +2 → О.",
+        "en": "The steps alternate +2, +3, +2, +3, so next is +2 → O."
+      },
+      "visual": {
+        "type": "alphabetStrip",
+        "ru": "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я",
+        "en": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+      }
+    },
+    {
+      "id": "iq-n05",
+      "dimension": "series",
+      "text": {
+        "ru": "Какое число следующее?  2, 3, 5, 8, 13, …",
+        "en": "What number comes next?  2, 3, 5, 8, 13, …"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "18",
+            "en": "18"
+          }
+        },
+        {
+          "text": {
+            "ru": "19",
+            "en": "19"
+          }
+        },
+        {
+          "text": {
+            "ru": "20",
+            "en": "20"
+          }
+        },
+        {
+          "text": {
+            "ru": "21",
+            "en": "21"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "24",
+            "en": "24"
+          }
+        },
+        {
+          "text": {
+            "ru": "26",
+            "en": "26"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Каждое число равно сумме двух предыдущих: 8 + 13 = 21.",
+        "en": "Each number is the sum of the two before it: 8 + 13 = 21."
+      }
+    },
+    {
+      "id": "iq-n06",
+      "dimension": "series",
+      "text": {
+        "ru": "Какое число следующее?  4, 9, 7, 12, 10, …",
+        "en": "What number comes next?  4, 9, 7, 12, 10, …"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "8",
+            "en": "8"
+          }
+        },
+        {
+          "text": {
+            "ru": "12",
+            "en": "12"
+          }
+        },
+        {
+          "text": {
+            "ru": "13",
+            "en": "13"
+          }
+        },
+        {
+          "text": {
+            "ru": "14",
+            "en": "14"
+          }
+        },
+        {
+          "text": {
+            "ru": "15",
+            "en": "15"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "17",
+            "en": "17"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Действия чередуются: +5, −2, +5, −2, значит, дальше +5: 10 + 5 = 15.",
+        "en": "The operations alternate +5, −2, +5, −2, so next is +5: 10 + 5 = 15."
+      }
+    },
+    {
+      "id": "iq-l03",
+      "dimension": "series",
+      "text": {
+        "ru": "Какая буква должна быть следующей в ряду?  Б Ш Г Ц Е Ф  …?",
+        "en": "In the following alphanumeric series, what letter comes next?  B Y D W F U  …?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Ж",
+            "en": "G"
+          }
+        },
+        {
+          "text": {
+            "ru": "З",
+            "en": "H"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Т",
+            "en": "S"
+          }
+        },
+        {
+          "text": {
+            "ru": "У",
+            "en": "T"
+          }
+        },
+        {
+          "text": {
+            "ru": "И",
+            "en": "I"
+          }
+        },
+        {
+          "text": {
+            "ru": "Х",
+            "en": "V"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Здесь два ряда, перемешанных через одну букву: на нечётных местах буквы идут вперёд через одну (+2), на чётных — назад через одну (−2). Седьмая буква принадлежит первому ряду → З.",
+        "en": "Two series are interleaved: letters in odd positions go forward by 2, letters in even positions go backward by 2. The 7th letter belongs to the first series → H."
+      },
+      "visual": {
+        "type": "alphabetStrip",
+        "ru": "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я",
+        "en": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+      }
+    },
+    {
+      "id": "iq-l04",
+      "dimension": "series",
+      "text": {
+        "ru": "Какая буква должна быть следующей в ряду?  Щ Ч Ф Р Л  …?",
+        "en": "In the following alphanumeric series, what letter comes next?  Z X U Q L  …?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Д",
+            "en": "E"
+          }
+        },
+        {
+          "text": {
+            "ru": "Е",
+            "en": "F"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Ж",
+            "en": "G"
+          }
+        },
+        {
+          "text": {
+            "ru": "З",
+            "en": "H"
+          }
+        },
+        {
+          "text": {
+            "ru": "Г",
+            "en": "D"
+          }
+        },
+        {
+          "text": {
+            "ru": "К",
+            "en": "K"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Ряд идёт назад, и шаг каждый раз растёт: −2, −3, −4, −5, значит, дальше −6 → Е.",
+        "en": "The series runs backwards with growing steps: −2, −3, −4, −5, so next is −6 → F."
+      },
+      "visual": {
+        "type": "alphabetStrip",
+        "ru": "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я",
+        "en": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+      }
+    },
+    {
+      "id": "iq-n07",
+      "dimension": "series",
+      "text": {
+        "ru": "Какое число следующее?  3, 5, 9, 17, 33, …",
+        "en": "What number comes next?  3, 5, 9, 17, 33, …"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "49",
+            "en": "49"
+          }
+        },
+        {
+          "text": {
+            "ru": "57",
+            "en": "57"
+          }
+        },
+        {
+          "text": {
+            "ru": "63",
+            "en": "63"
+          }
+        },
+        {
+          "text": {
+            "ru": "65",
+            "en": "65"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "66",
+            "en": "66"
+          }
+        },
+        {
+          "text": {
+            "ru": "67",
+            "en": "67"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Каждое число = предыдущее × 2 − 1 (разности удваиваются: 2, 4, 8, 16, 32): 33 × 2 − 1 = 65.",
+        "en": "Each number = previous × 2 − 1 (the differences double: 2, 4, 8, 16, 32): 33 × 2 − 1 = 65."
+      }
+    },
+    {
+      "id": "iq-n08",
+      "dimension": "series",
+      "text": {
+        "ru": "Какое число следующее?  1, 2, 6, 24, 120, …",
+        "en": "What number comes next?  1, 2, 6, 24, 120, …"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "144",
+            "en": "144"
+          }
+        },
+        {
+          "text": {
+            "ru": "240",
+            "en": "240"
+          }
+        },
+        {
+          "text": {
+            "ru": "360",
+            "en": "360"
+          }
+        },
+        {
+          "text": {
+            "ru": "600",
+            "en": "600"
+          }
+        },
+        {
+          "text": {
+            "ru": "720",
+            "en": "720"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "840",
+            "en": "840"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Множитель растёт: ×2, ×3, ×4, ×5, значит, дальше ×6: 120 × 6 = 720.",
+        "en": "The multiplier grows: ×2, ×3, ×4, ×5, so next is ×6: 120 × 6 = 720."
+      }
+    },
+    {
+      "id": "iq-m01",
+      "dimension": "matrix",
+      "text": {
+        "ru": "Матрица 1. Какой вариант должен стоять на месте знака «?» (правая нижняя клетка)?",
+        "en": "Matrix 1. Which option belongs in the place of the “?” (bottom-right cell)?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Б",
+            "en": "Option B"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант В",
+            "en": "Option C"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Вариант Г",
+            "en": "Option D"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Д",
+            "en": "Option E"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Е",
+            "en": "Option F"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Правильный ответ — В. В каждой строке фигура одна и та же (круг, квадрат, треугольник), а их количество слева направо растёт на 1: 1 → 2 → 3.",
+        "en": "The correct answer is C. Within each row the shape stays the same (circle, square, triangle) and the number of shapes increases by 1 from left to right: 1 → 2 → 3."
+      },
+      "visual": {
+        "type": "matrix3x3",
+        "version": 1,
+        "cells": [
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 2,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 2,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 2,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          null
+        ],
+        "options": [
+          [
+            {
+              "shape": "triangle",
+              "count": 2,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 4,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 3,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ]
+        ],
+        "rule": {
+          "ru": "В каждой строке фигура одна и та же (круг, квадрат, треугольник), а их количество слева направо растёт на 1: 1 → 2 → 3.",
+          "en": "Within each row the shape stays the same (circle, square, triangle) and the number of shapes increases by 1 from left to right: 1 → 2 → 3."
+        },
+        "rules": [
+          {
+            "attribute": "shape",
+            "type": "constant-in-row"
+          },
+          {
+            "attribute": "count",
+            "type": "progression",
+            "axis": "column",
+            "step": 1
+          }
+        ],
+        "taxonomy": [
+          "constant-in-row (shape)",
+          "quantitative pairwise progression (count +1 per column)"
+        ],
+        "render": {
+          "grid": "3x3, row-major; cells[8] is the missing cell (null), shown as a box with \"?\"",
+          "groups": "a cell is an array of groups drawn top-to-bottom, evenly spaced; empty array = blank cell",
+          "shapesInGroup": "count identical shapes laid out centred in rows of at most 3 (e.g. 4 = 3 + 1, 5 = 3 + 2)",
+          "rotation": "degrees clockwise from the default orientation: triangle = equilateral, apex up; star = 5-pointed, point up; diamond = square standing on a vertex; hexagon = flat top; circle/square unaffected",
+          "size": {
+            "s": 0.2,
+            "m": 0.3,
+            "l": 0.42,
+            "unit": "fraction of cell width (shape bounding box)"
+          },
+          "fill": {
+            "none": "outline only",
+            "solid": "filled with the stroke colour",
+            "striped": "outline + parallel 45° hatching (stripes do not rotate with the shape)"
+          },
+          "colour": "monochrome (one stroke colour) – colour is never a rule attribute, so the item works for colour-blind users"
+        }
+      },
+      "timeLimitSec": 90
+    },
+    {
+      "id": "iq-m02",
+      "dimension": "matrix",
+      "text": {
+        "ru": "Матрица 2. Какой вариант должен стоять на месте знака «?» (правая нижняя клетка)?",
+        "en": "Matrix 2. Which option belongs in the place of the “?” (bottom-right cell)?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Б",
+            "en": "Option B"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант В",
+            "en": "Option C"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Г",
+            "en": "Option D"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Д",
+            "en": "Option E"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Вариант Е",
+            "en": "Option F"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Правильный ответ — Д. В каждой строке одна и та же закрашенная фигура; слева направо она увеличивается: маленькая → средняя → большая.",
+        "en": "The correct answer is E. Each row repeats the same solid shape, which grows from left to right: small → medium → large."
+      },
+      "visual": {
+        "type": "matrix3x3",
+        "version": 1,
+        "cells": [
+          [
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "l"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "l"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          null
+        ],
+        "options": [
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "l"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "l"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "l"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "l"
+            }
+          ]
+        ],
+        "rule": {
+          "ru": "В каждой строке одна и та же закрашенная фигура; слева направо она увеличивается: маленькая → средняя → большая.",
+          "en": "Each row repeats the same solid shape, which grows from left to right: small → medium → large."
+        },
+        "rules": [
+          {
+            "attribute": "shape",
+            "type": "constant-in-row"
+          },
+          {
+            "attribute": "fill",
+            "type": "constant"
+          },
+          {
+            "attribute": "size",
+            "type": "progression",
+            "axis": "column",
+            "values": [
+              "s",
+              "m",
+              "l"
+            ]
+          }
+        ],
+        "taxonomy": [
+          "constant-in-row (shape, fill)",
+          "quantitative pairwise progression (size s→m→l)"
+        ],
+        "render": {
+          "grid": "3x3, row-major; cells[8] is the missing cell (null), shown as a box with \"?\"",
+          "groups": "a cell is an array of groups drawn top-to-bottom, evenly spaced; empty array = blank cell",
+          "shapesInGroup": "count identical shapes laid out centred in rows of at most 3 (e.g. 4 = 3 + 1, 5 = 3 + 2)",
+          "rotation": "degrees clockwise from the default orientation: triangle = equilateral, apex up; star = 5-pointed, point up; diamond = square standing on a vertex; hexagon = flat top; circle/square unaffected",
+          "size": {
+            "s": 0.2,
+            "m": 0.3,
+            "l": 0.42,
+            "unit": "fraction of cell width (shape bounding box)"
+          },
+          "fill": {
+            "none": "outline only",
+            "solid": "filled with the stroke colour",
+            "striped": "outline + parallel 45° hatching (stripes do not rotate with the shape)"
+          },
+          "colour": "monochrome (one stroke colour) – colour is never a rule attribute, so the item works for colour-blind users"
+        }
+      },
+      "timeLimitSec": 90
+    },
+    {
+      "id": "iq-m03",
+      "dimension": "matrix",
+      "text": {
+        "ru": "Матрица 3. Какой вариант должен стоять на месте знака «?» (правая нижняя клетка)?",
+        "en": "Matrix 3. Which option belongs in the place of the “?” (bottom-right cell)?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вариант А",
+            "en": "Option A"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Вариант Б",
+            "en": "Option B"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант В",
+            "en": "Option C"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Г",
+            "en": "Option D"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Д",
+            "en": "Option E"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Е",
+            "en": "Option F"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Правильный ответ — А. Каждая из трёх фигур (круг, квадрат, треугольник) встречается ровно один раз в каждой строке и в каждом столбце. В последней строке и последнем столбце не хватает квадрата.",
+        "en": "The correct answer is A. Each of the three shapes (circle, square, triangle) appears exactly once in every row and every column. The last row and the last column are both missing the square."
+      },
+      "visual": {
+        "type": "matrix3x3",
+        "version": 1,
+        "cells": [
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          null
+        ],
+        "options": [
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ]
+        ],
+        "rule": {
+          "ru": "Каждая из трёх фигур (круг, квадрат, треугольник) встречается ровно один раз в каждой строке и в каждом столбце. В последней строке и последнем столбце не хватает квадрата.",
+          "en": "Each of the three shapes (circle, square, triangle) appears exactly once in every row and every column. The last row and the last column are both missing the square."
+        },
+        "rules": [
+          {
+            "attribute": "shape",
+            "type": "distribution-of-three",
+            "values": [
+              "circle",
+              "square",
+              "triangle"
+            ]
+          },
+          {
+            "attribute": "fill",
+            "type": "constant",
+            "value": "striped"
+          }
+        ],
+        "taxonomy": [
+          "distribution of three values (shape)",
+          "constant (fill)"
+        ],
+        "render": {
+          "grid": "3x3, row-major; cells[8] is the missing cell (null), shown as a box with \"?\"",
+          "groups": "a cell is an array of groups drawn top-to-bottom, evenly spaced; empty array = blank cell",
+          "shapesInGroup": "count identical shapes laid out centred in rows of at most 3 (e.g. 4 = 3 + 1, 5 = 3 + 2)",
+          "rotation": "degrees clockwise from the default orientation: triangle = equilateral, apex up; star = 5-pointed, point up; diamond = square standing on a vertex; hexagon = flat top; circle/square unaffected",
+          "size": {
+            "s": 0.2,
+            "m": 0.3,
+            "l": 0.42,
+            "unit": "fraction of cell width (shape bounding box)"
+          },
+          "fill": {
+            "none": "outline only",
+            "solid": "filled with the stroke colour",
+            "striped": "outline + parallel 45° hatching (stripes do not rotate with the shape)"
+          },
+          "colour": "monochrome (one stroke colour) – colour is never a rule attribute, so the item works for colour-blind users"
+        }
+      },
+      "timeLimitSec": 90
+    },
+    {
+      "id": "iq-m04",
+      "dimension": "matrix",
+      "text": {
+        "ru": "Матрица 4. Какой вариант должен стоять на месте знака «?» (правая нижняя клетка)?",
+        "en": "Matrix 4. Which option belongs in the place of the “?” (bottom-right cell)?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Б",
+            "en": "Option B"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант В",
+            "en": "Option C"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Г",
+            "en": "Option D"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Вариант Д",
+            "en": "Option E"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Е",
+            "en": "Option F"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Правильный ответ — Г. В каждом столбце фигура одна и та же (ромб, круг, шестиугольник). Заливка — пустая, штриховка, сплошная — встречается по одному разу в каждой строке и каждом столбце. В последней строке и столбце не хватает пустой (незакрашенной) фигуры.",
+        "en": "The correct answer is D. Each column keeps the same shape (diamond, circle, hexagon). The three fills – empty, striped, solid – each appear once in every row and every column. The last row and column are missing the empty (outline) fill."
+      },
+      "visual": {
+        "type": "matrix3x3",
+        "version": 1,
+        "cells": [
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          null
+        ],
+        "options": [
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "l"
+            }
+          ]
+        ],
+        "rule": {
+          "ru": "В каждом столбце фигура одна и та же (ромб, круг, шестиугольник). Заливка — пустая, штриховка, сплошная — встречается по одному разу в каждой строке и каждом столбце. В последней строке и столбце не хватает пустой (незакрашенной) фигуры.",
+          "en": "Each column keeps the same shape (diamond, circle, hexagon). The three fills – empty, striped, solid – each appear once in every row and every column. The last row and column are missing the empty (outline) fill."
+        },
+        "rules": [
+          {
+            "attribute": "shape",
+            "type": "constant-in-column"
+          },
+          {
+            "attribute": "fill",
+            "type": "distribution-of-three",
+            "values": [
+              "none",
+              "striped",
+              "solid"
+            ]
+          }
+        ],
+        "taxonomy": [
+          "constant-in-column (shape)",
+          "distribution of three values (fill)"
+        ],
+        "render": {
+          "grid": "3x3, row-major; cells[8] is the missing cell (null), shown as a box with \"?\"",
+          "groups": "a cell is an array of groups drawn top-to-bottom, evenly spaced; empty array = blank cell",
+          "shapesInGroup": "count identical shapes laid out centred in rows of at most 3 (e.g. 4 = 3 + 1, 5 = 3 + 2)",
+          "rotation": "degrees clockwise from the default orientation: triangle = equilateral, apex up; star = 5-pointed, point up; diamond = square standing on a vertex; hexagon = flat top; circle/square unaffected",
+          "size": {
+            "s": 0.2,
+            "m": 0.3,
+            "l": 0.42,
+            "unit": "fraction of cell width (shape bounding box)"
+          },
+          "fill": {
+            "none": "outline only",
+            "solid": "filled with the stroke colour",
+            "striped": "outline + parallel 45° hatching (stripes do not rotate with the shape)"
+          },
+          "colour": "monochrome (one stroke colour) – colour is never a rule attribute, so the item works for colour-blind users"
+        }
+      },
+      "timeLimitSec": 90
+    },
+    {
+      "id": "iq-m05",
+      "dimension": "matrix",
+      "text": {
+        "ru": "Матрица 5. Какой вариант должен стоять на месте знака «?» (правая нижняя клетка)?",
+        "en": "Matrix 5. Which option belongs in the place of the “?” (bottom-right cell)?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Б",
+            "en": "Option B"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Вариант В",
+            "en": "Option C"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Г",
+            "en": "Option D"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Д",
+            "en": "Option E"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Е",
+            "en": "Option F"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Правильный ответ — Б. Треугольник с каждым шагом вправо (и вниз) поворачивается на 90° по часовой стрелке. Заливка постоянна в строке. В правом нижнем углу: 180° + 90° + 90° = 360°, то есть исходное положение — вершиной вверх, сплошная заливка.",
+        "en": "The correct answer is B. With every step to the right (and every step down) the triangle turns 90° clockwise; the fill is constant within a row. Bottom-right: 180° + 90° + 90° = 360°, i.e. back to apex-up, solid."
+      },
+      "visual": {
+        "type": "matrix3x3",
+        "version": 1,
+        "cells": [
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 90,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 180,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 90,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 180,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 270,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 180,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 270,
+              "size": "m"
+            }
+          ],
+          null
+        ],
+        "options": [
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 90,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 180,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 270,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "m"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "m"
+            }
+          ]
+        ],
+        "rule": {
+          "ru": "Треугольник с каждым шагом вправо (и вниз) поворачивается на 90° по часовой стрелке. Заливка постоянна в строке. В правом нижнем углу: 180° + 90° + 90° = 360°, то есть исходное положение — вершиной вверх, сплошная заливка.",
+          "en": "With every step to the right (and every step down) the triangle turns 90° clockwise; the fill is constant within a row. Bottom-right: 180° + 90° + 90° = 360°, i.e. back to apex-up, solid."
+        },
+        "rules": [
+          {
+            "attribute": "fill",
+            "type": "constant-in-row"
+          },
+          {
+            "attribute": "rotation",
+            "type": "progression",
+            "axis": "row+column",
+            "step": 90
+          }
+        ],
+        "taxonomy": [
+          "constant-in-row (fill)",
+          "quantitative pairwise progression (rotation +90° per step)"
+        ],
+        "render": {
+          "grid": "3x3, row-major; cells[8] is the missing cell (null), shown as a box with \"?\"",
+          "groups": "a cell is an array of groups drawn top-to-bottom, evenly spaced; empty array = blank cell",
+          "shapesInGroup": "count identical shapes laid out centred in rows of at most 3 (e.g. 4 = 3 + 1, 5 = 3 + 2)",
+          "rotation": "degrees clockwise from the default orientation: triangle = equilateral, apex up; star = 5-pointed, point up; diamond = square standing on a vertex; hexagon = flat top; circle/square unaffected",
+          "size": {
+            "s": 0.2,
+            "m": 0.3,
+            "l": 0.42,
+            "unit": "fraction of cell width (shape bounding box)"
+          },
+          "fill": {
+            "none": "outline only",
+            "solid": "filled with the stroke colour",
+            "striped": "outline + parallel 45° hatching (stripes do not rotate with the shape)"
+          },
+          "colour": "monochrome (one stroke colour) – colour is never a rule attribute, so the item works for colour-blind users"
+        }
+      },
+      "timeLimitSec": 90
+    },
+    {
+      "id": "iq-m06",
+      "dimension": "matrix",
+      "text": {
+        "ru": "Матрица 6. Какой вариант должен стоять на месте знака «?» (правая нижняя клетка)?",
+        "en": "Matrix 6. Which option belongs in the place of the “?” (bottom-right cell)?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Б",
+            "en": "Option B"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант В",
+            "en": "Option C"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Г",
+            "en": "Option D"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Д",
+            "en": "Option E"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Е",
+            "en": "Option F"
+          },
+          "correct": true
+        }
+      ],
+      "explanation": {
+        "ru": "Правильный ответ — Е. В каждой строке фигура одна и та же, а количество фигур в третьей клетке равно сумме первых двух: 1 + 2 = 3, 2 + 2 = 4, 3 + 1 = 4.",
+        "en": "The correct answer is F. Each row keeps one shape, and the number of shapes in the third cell equals the sum of the first two: 1 + 2 = 3, 2 + 2 = 4, 3 + 1 = 4."
+      },
+      "visual": {
+        "type": "matrix3x3",
+        "version": 1,
+        "cells": [
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 2,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 2,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 2,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 4,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          null
+        ],
+        "options": [
+          [
+            {
+              "shape": "diamond",
+              "count": 2,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 5,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 4,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 4,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 4,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ]
+        ],
+        "rule": {
+          "ru": "В каждой строке фигура одна и та же, а количество фигур в третьей клетке равно сумме первых двух: 1 + 2 = 3, 2 + 2 = 4, 3 + 1 = 4.",
+          "en": "Each row keeps one shape, and the number of shapes in the third cell equals the sum of the first two: 1 + 2 = 3, 2 + 2 = 4, 3 + 1 = 4."
+        },
+        "rules": [
+          {
+            "attribute": "shape",
+            "type": "constant-in-row"
+          },
+          {
+            "attribute": "count",
+            "type": "arithmetic",
+            "operation": "col3 = col1 + col2"
+          }
+        ],
+        "taxonomy": [
+          "constant-in-row (shape)",
+          "figure addition – arithmetic on count (col3 = col1 + col2)"
+        ],
+        "render": {
+          "grid": "3x3, row-major; cells[8] is the missing cell (null), shown as a box with \"?\"",
+          "groups": "a cell is an array of groups drawn top-to-bottom, evenly spaced; empty array = blank cell",
+          "shapesInGroup": "count identical shapes laid out centred in rows of at most 3 (e.g. 4 = 3 + 1, 5 = 3 + 2)",
+          "rotation": "degrees clockwise from the default orientation: triangle = equilateral, apex up; star = 5-pointed, point up; diamond = square standing on a vertex; hexagon = flat top; circle/square unaffected",
+          "size": {
+            "s": 0.2,
+            "m": 0.3,
+            "l": 0.42,
+            "unit": "fraction of cell width (shape bounding box)"
+          },
+          "fill": {
+            "none": "outline only",
+            "solid": "filled with the stroke colour",
+            "striped": "outline + parallel 45° hatching (stripes do not rotate with the shape)"
+          },
+          "colour": "monochrome (one stroke colour) – colour is never a rule attribute, so the item works for colour-blind users"
+        }
+      },
+      "timeLimitSec": 90
+    },
+    {
+      "id": "iq-m07",
+      "dimension": "matrix",
+      "text": {
+        "ru": "Матрица 7. Какой вариант должен стоять на месте знака «?» (правая нижняя клетка)?",
+        "en": "Matrix 7. Which option belongs in the place of the “?” (bottom-right cell)?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Б",
+            "en": "Option B"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант В",
+            "en": "Option C"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Г",
+            "en": "Option D"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Д",
+            "en": "Option E"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Вариант Е",
+            "en": "Option F"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Правильный ответ — Д. Третья клетка каждой строки — это наложение (сумма) первых двух: фигура из первой клетки сверху, фигура из второй — снизу, без изменений.",
+        "en": "The correct answer is E. The third cell of each row is the first two cells combined: the figure from cell 1 on top, the figure from cell 2 below it, both unchanged."
+      },
+      "visual": {
+        "type": "matrix3x3",
+        "version": 1,
+        "cells": [
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          null
+        ],
+        "options": [
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ]
+        ],
+        "rule": {
+          "ru": "Третья клетка каждой строки — это наложение (сумма) первых двух: фигура из первой клетки сверху, фигура из второй — снизу, без изменений.",
+          "en": "The third cell of each row is the first two cells combined: the figure from cell 1 on top, the figure from cell 2 below it, both unchanged."
+        },
+        "rules": [
+          {
+            "attribute": "groups",
+            "type": "addition",
+            "operation": "col3 = col1 followed by col2"
+          }
+        ],
+        "taxonomy": [
+          "figure addition (col3 = col1 ∪ col2)"
+        ],
+        "render": {
+          "grid": "3x3, row-major; cells[8] is the missing cell (null), shown as a box with \"?\"",
+          "groups": "a cell is an array of groups drawn top-to-bottom, evenly spaced; empty array = blank cell",
+          "shapesInGroup": "count identical shapes laid out centred in rows of at most 3 (e.g. 4 = 3 + 1, 5 = 3 + 2)",
+          "rotation": "degrees clockwise from the default orientation: triangle = equilateral, apex up; star = 5-pointed, point up; diamond = square standing on a vertex; hexagon = flat top; circle/square unaffected",
+          "size": {
+            "s": 0.2,
+            "m": 0.3,
+            "l": 0.42,
+            "unit": "fraction of cell width (shape bounding box)"
+          },
+          "fill": {
+            "none": "outline only",
+            "solid": "filled with the stroke colour",
+            "striped": "outline + parallel 45° hatching (stripes do not rotate with the shape)"
+          },
+          "colour": "monochrome (one stroke colour) – colour is never a rule attribute, so the item works for colour-blind users"
+        }
+      },
+      "timeLimitSec": 90
+    },
+    {
+      "id": "iq-m08",
+      "dimension": "matrix",
+      "text": {
+        "ru": "Матрица 8. Какой вариант должен стоять на месте знака «?» (правая нижняя клетка)?",
+        "en": "Matrix 8. Which option belongs in the place of the “?” (bottom-right cell)?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Б",
+            "en": "Option B"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант В",
+            "en": "Option C"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Г",
+            "en": "Option D"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Д",
+            "en": "Option E"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Е",
+            "en": "Option F"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Ж",
+            "en": "Option G"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Вариант З",
+            "en": "Option H"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Правильный ответ — Ж. Две закономерности сразу. 1) Звезда, круг и квадрат встречаются по одному разу в каждой строке и каждом столбце — не хватает звезды. 2) Количество фигур растёт на 1 слева направо и на 1 сверху вниз: 3 → 4 → 5.",
+        "en": "The correct answer is G. Two rules at once. (1) Star, circle and square each appear once in every row and column – the star is missing. (2) The number of shapes increases by 1 to the right and by 1 downwards: 3 → 4 → 5."
+      },
+      "visual": {
+        "type": "matrix3x3",
+        "version": 1,
+        "cells": [
+          [
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 2,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 2,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 4,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 4,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          null
+        ],
+        "options": [
+          [
+            {
+              "shape": "star",
+              "count": 4,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 5,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 5,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 6,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 4,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 5,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 5,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ]
+        ],
+        "rule": {
+          "ru": "Две закономерности сразу. 1) Звезда, круг и квадрат встречаются по одному разу в каждой строке и каждом столбце — не хватает звезды. 2) Количество фигур растёт на 1 слева направо и на 1 сверху вниз: 3 → 4 → 5.",
+          "en": "Two rules at once. (1) Star, circle and square each appear once in every row and column – the star is missing. (2) The number of shapes increases by 1 to the right and by 1 downwards: 3 → 4 → 5."
+        },
+        "rules": [
+          {
+            "attribute": "shape",
+            "type": "distribution-of-three",
+            "values": [
+              "star",
+              "circle",
+              "square"
+            ]
+          },
+          {
+            "attribute": "count",
+            "type": "progression",
+            "axis": "row and column",
+            "step": 1
+          }
+        ],
+        "taxonomy": [
+          "distribution of three values (shape)",
+          "quantitative progression in two directions (count)"
+        ],
+        "render": {
+          "grid": "3x3, row-major; cells[8] is the missing cell (null), shown as a box with \"?\"",
+          "groups": "a cell is an array of groups drawn top-to-bottom, evenly spaced; empty array = blank cell",
+          "shapesInGroup": "count identical shapes laid out centred in rows of at most 3 (e.g. 4 = 3 + 1, 5 = 3 + 2)",
+          "rotation": "degrees clockwise from the default orientation: triangle = equilateral, apex up; star = 5-pointed, point up; diamond = square standing on a vertex; hexagon = flat top; circle/square unaffected",
+          "size": {
+            "s": 0.2,
+            "m": 0.3,
+            "l": 0.42,
+            "unit": "fraction of cell width (shape bounding box)"
+          },
+          "fill": {
+            "none": "outline only",
+            "solid": "filled with the stroke colour",
+            "striped": "outline + parallel 45° hatching (stripes do not rotate with the shape)"
+          },
+          "colour": "monochrome (one stroke colour) – colour is never a rule attribute, so the item works for colour-blind users"
+        }
+      },
+      "timeLimitSec": 90
+    },
+    {
+      "id": "iq-m09",
+      "dimension": "matrix",
+      "text": {
+        "ru": "Матрица 9. Какой вариант должен стоять на месте знака «?» (правая нижняя клетка)?",
+        "en": "Matrix 9. Which option belongs in the place of the “?” (bottom-right cell)?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Б",
+            "en": "Option B"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Вариант В",
+            "en": "Option C"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Г",
+            "en": "Option D"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Д",
+            "en": "Option E"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Е",
+            "en": "Option F"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Ж",
+            "en": "Option G"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Правильный ответ — Б. Из первой клетки «вычитается» вторая: фигуры, которые есть во второй клетке, исчезают из первой, остальные остаются в том же порядке. Последняя строка: (шестиугольник, треугольник, квадрат) − шестиугольник = треугольник и квадрат.",
+        "en": "The correct answer is B. The second cell is subtracted from the first: shapes shown in cell 2 are removed from cell 1, the rest stay in the same order. Last row: (hexagon, triangle, square) − hexagon = triangle and square."
+      },
+      "visual": {
+        "type": "matrix3x3",
+        "version": 1,
+        "cells": [
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          null
+        ],
+        "options": [
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ]
+        ],
+        "rule": {
+          "ru": "Из первой клетки «вычитается» вторая: фигуры, которые есть во второй клетке, исчезают из первой, остальные остаются в том же порядке. Последняя строка: (шестиугольник, треугольник, квадрат) − шестиугольник = треугольник и квадрат.",
+          "en": "The second cell is subtracted from the first: shapes shown in cell 2 are removed from cell 1, the rest stay in the same order. Last row: (hexagon, triangle, square) − hexagon = triangle and square."
+        },
+        "rules": [
+          {
+            "attribute": "groups",
+            "type": "subtraction",
+            "operation": "col3 = col1 minus groups present in col2"
+          }
+        ],
+        "taxonomy": [
+          "figure subtraction (col3 = col1 − col2)"
+        ],
+        "render": {
+          "grid": "3x3, row-major; cells[8] is the missing cell (null), shown as a box with \"?\"",
+          "groups": "a cell is an array of groups drawn top-to-bottom, evenly spaced; empty array = blank cell",
+          "shapesInGroup": "count identical shapes laid out centred in rows of at most 3 (e.g. 4 = 3 + 1, 5 = 3 + 2)",
+          "rotation": "degrees clockwise from the default orientation: triangle = equilateral, apex up; star = 5-pointed, point up; diamond = square standing on a vertex; hexagon = flat top; circle/square unaffected",
+          "size": {
+            "s": 0.2,
+            "m": 0.3,
+            "l": 0.42,
+            "unit": "fraction of cell width (shape bounding box)"
+          },
+          "fill": {
+            "none": "outline only",
+            "solid": "filled with the stroke colour",
+            "striped": "outline + parallel 45° hatching (stripes do not rotate with the shape)"
+          },
+          "colour": "monochrome (one stroke colour) – colour is never a rule attribute, so the item works for colour-blind users"
+        }
+      },
+      "timeLimitSec": 90
+    },
+    {
+      "id": "iq-m10",
+      "dimension": "matrix",
+      "text": {
+        "ru": "Матрица 10. Какой вариант должен стоять на месте знака «?» (правая нижняя клетка)?",
+        "en": "Matrix 10. Which option belongs in the place of the “?” (bottom-right cell)?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Б",
+            "en": "Option B"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант В",
+            "en": "Option C"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Г",
+            "en": "Option D"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Вариант Д",
+            "en": "Option E"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Е",
+            "en": "Option F"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Ж",
+            "en": "Option G"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант З",
+            "en": "Option H"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Правильный ответ — Г. Фигуры, которые есть и в первой, и во второй клетке, взаимно уничтожаются; в третью клетку попадают только те, что встречаются ровно в одной из двух (сначала из первой, потом из второй). Последняя строка: (квадрат, ромб) и (ромб, круг) → ромб исчезает → квадрат и круг.",
+        "en": "The correct answer is D. Shapes present in both cell 1 and cell 2 cancel out; the third cell keeps only shapes that occur in exactly one of them (first those from cell 1, then those from cell 2). Last row: (square, diamond) and (diamond, circle) → the diamond cancels → square and circle."
+      },
+      "visual": {
+        "type": "matrix3x3",
+        "version": 1,
+        "cells": [
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          null
+        ],
+        "options": [
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "diamond",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ]
+        ],
+        "rule": {
+          "ru": "Фигуры, которые есть и в первой, и во второй клетке, взаимно уничтожаются; в третью клетку попадают только те, что встречаются ровно в одной из двух (сначала из первой, потом из второй). Последняя строка: (квадрат, ромб) и (ромб, круг) → ромб исчезает → квадрат и круг.",
+          "en": "Shapes present in both cell 1 and cell 2 cancel out; the third cell keeps only shapes that occur in exactly one of them (first those from cell 1, then those from cell 2). Last row: (square, diamond) and (diamond, circle) → the diamond cancels → square and circle."
+        },
+        "rules": [
+          {
+            "attribute": "groups",
+            "type": "xor",
+            "operation": "col3 = symmetric difference of col1 and col2"
+          }
+        ],
+        "taxonomy": [
+          "distribution of two values / exclusive-or (col3 = elements present in exactly one of col1, col2)"
+        ],
+        "render": {
+          "grid": "3x3, row-major; cells[8] is the missing cell (null), shown as a box with \"?\"",
+          "groups": "a cell is an array of groups drawn top-to-bottom, evenly spaced; empty array = blank cell",
+          "shapesInGroup": "count identical shapes laid out centred in rows of at most 3 (e.g. 4 = 3 + 1, 5 = 3 + 2)",
+          "rotation": "degrees clockwise from the default orientation: triangle = equilateral, apex up; star = 5-pointed, point up; diamond = square standing on a vertex; hexagon = flat top; circle/square unaffected",
+          "size": {
+            "s": 0.2,
+            "m": 0.3,
+            "l": 0.42,
+            "unit": "fraction of cell width (shape bounding box)"
+          },
+          "fill": {
+            "none": "outline only",
+            "solid": "filled with the stroke colour",
+            "striped": "outline + parallel 45° hatching (stripes do not rotate with the shape)"
+          },
+          "colour": "monochrome (one stroke colour) – colour is never a rule attribute, so the item works for colour-blind users"
+        }
+      },
+      "timeLimitSec": 90
+    },
+    {
+      "id": "iq-m11",
+      "dimension": "matrix",
+      "text": {
+        "ru": "Матрица 11. Какой вариант должен стоять на месте знака «?» (правая нижняя клетка)?",
+        "en": "Matrix 11. Which option belongs in the place of the “?” (bottom-right cell)?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вариант А",
+            "en": "Option A"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Вариант Б",
+            "en": "Option B"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант В",
+            "en": "Option C"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Г",
+            "en": "Option D"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Д",
+            "en": "Option E"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Е",
+            "en": "Option F"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Ж",
+            "en": "Option G"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант З",
+            "en": "Option H"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Правильный ответ — А. Три независимых правила. 1) Круг, треугольник и шестиугольник — по одному разу в каждой строке и столбце (не хватает треугольника). 2) Заливки «пустая / штриховка / сплошная» тоже по одному разу в каждой строке и столбце (не хватает пустой). 3) В каждой строке количество фигур 1 → 2 → 3.",
+        "en": "The correct answer is A. Three independent rules. (1) Circle, triangle and hexagon appear once in every row and column (the triangle is missing). (2) The fills empty / striped / solid also appear once in every row and column (empty is missing). (3) In every row the number of shapes goes 1 → 2 → 3."
+      },
+      "visual": {
+        "type": "matrix3x3",
+        "version": 1,
+        "cells": [
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 2,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 3,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 2,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 3,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 2,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          null
+        ],
+        "options": [
+          [
+            {
+              "shape": "triangle",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 3,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 3,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 2,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "hexagon",
+              "count": 3,
+              "fill": "striped",
+              "rotation": 0,
+              "size": "s"
+            }
+          ]
+        ],
+        "rule": {
+          "ru": "Три независимых правила. 1) Круг, треугольник и шестиугольник — по одному разу в каждой строке и столбце (не хватает треугольника). 2) Заливки «пустая / штриховка / сплошная» тоже по одному разу в каждой строке и столбце (не хватает пустой). 3) В каждой строке количество фигур 1 → 2 → 3.",
+          "en": "Three independent rules. (1) Circle, triangle and hexagon appear once in every row and column (the triangle is missing). (2) The fills empty / striped / solid also appear once in every row and column (empty is missing). (3) In every row the number of shapes goes 1 → 2 → 3."
+        },
+        "rules": [
+          {
+            "attribute": "shape",
+            "type": "distribution-of-three",
+            "values": [
+              "circle",
+              "triangle",
+              "hexagon"
+            ]
+          },
+          {
+            "attribute": "fill",
+            "type": "distribution-of-three",
+            "values": [
+              "none",
+              "striped",
+              "solid"
+            ]
+          },
+          {
+            "attribute": "count",
+            "type": "progression",
+            "axis": "column",
+            "step": 1
+          }
+        ],
+        "taxonomy": [
+          "distribution of three values (shape)",
+          "distribution of three values (fill, different permutation)",
+          "quantitative pairwise progression (count)"
+        ],
+        "render": {
+          "grid": "3x3, row-major; cells[8] is the missing cell (null), shown as a box with \"?\"",
+          "groups": "a cell is an array of groups drawn top-to-bottom, evenly spaced; empty array = blank cell",
+          "shapesInGroup": "count identical shapes laid out centred in rows of at most 3 (e.g. 4 = 3 + 1, 5 = 3 + 2)",
+          "rotation": "degrees clockwise from the default orientation: triangle = equilateral, apex up; star = 5-pointed, point up; diamond = square standing on a vertex; hexagon = flat top; circle/square unaffected",
+          "size": {
+            "s": 0.2,
+            "m": 0.3,
+            "l": 0.42,
+            "unit": "fraction of cell width (shape bounding box)"
+          },
+          "fill": {
+            "none": "outline only",
+            "solid": "filled with the stroke colour",
+            "striped": "outline + parallel 45° hatching (stripes do not rotate with the shape)"
+          },
+          "colour": "monochrome (one stroke colour) – colour is never a rule attribute, so the item works for colour-blind users"
+        }
+      },
+      "timeLimitSec": 90
+    },
+    {
+      "id": "iq-m12",
+      "dimension": "matrix",
+      "text": {
+        "ru": "Матрица 12. Какой вариант должен стоять на месте знака «?» (правая нижняя клетка)?",
+        "en": "Matrix 12. Which option belongs in the place of the “?” (bottom-right cell)?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вариант А",
+            "en": "Option A"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Б",
+            "en": "Option B"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант В",
+            "en": "Option C"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Г",
+            "en": "Option D"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Д",
+            "en": "Option E"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант Е",
+            "en": "Option F"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "ru": "Вариант Ж",
+            "en": "Option G"
+          }
+        },
+        {
+          "text": {
+            "ru": "Вариант З",
+            "en": "Option H"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Правильный ответ — Е. В каждой клетке две части. Верхняя: фигура зависит от столбца (квадрат, звезда, круг), а их число растёт сверху вниз: 1 → 2 → 3 (значит, три круга). Нижняя: треугольник поворачивается на 90° по часовой с каждым шагом вправо и вниз (180° + 90° + 90° = 360° → вершиной вверх), а его заливка (пустая / штриховка / сплошная) встречается по одному разу в каждой строке и столбце (не хватает пустой).",
+        "en": "The correct answer is F. Each cell has two parts. Top: the shape depends on the column (square, star, circle) and the count grows downwards 1 → 2 → 3 (so: three circles). Bottom: the triangle turns 90° clockwise with every step right and down (180° + 90° + 90° = 360° → apex up), and its fill (empty / striped / solid) appears once in every row and column (empty is missing)."
+      },
+      "visual": {
+        "type": "matrix3x3",
+        "version": 1,
+        "cells": [
+          [
+            {
+              "shape": "square",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 90,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 180,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 2,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 90,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 2,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 180,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 2,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 270,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "square",
+              "count": 3,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 180,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 3,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 270,
+              "size": "s"
+            }
+          ],
+          null
+        ],
+        "options": [
+          [
+            {
+              "shape": "circle",
+              "count": 3,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 180,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 3,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 2,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "star",
+              "count": 3,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 3,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 90,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 3,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 3,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "none",
+              "rotation": 0,
+              "size": "s"
+            }
+          ],
+          [
+            {
+              "shape": "circle",
+              "count": 3,
+              "fill": "solid",
+              "rotation": 0,
+              "size": "s"
+            },
+            {
+              "shape": "triangle",
+              "count": 1,
+              "fill": "striped",
+              "rotation": 270,
+              "size": "s"
+            }
+          ]
+        ],
+        "rule": {
+          "ru": "В каждой клетке две части. Верхняя: фигура зависит от столбца (квадрат, звезда, круг), а их число растёт сверху вниз: 1 → 2 → 3 (значит, три круга). Нижняя: треугольник поворачивается на 90° по часовой с каждым шагом вправо и вниз (180° + 90° + 90° = 360° → вершиной вверх), а его заливка (пустая / штриховка / сплошная) встречается по одному разу в каждой строке и столбце (не хватает пустой).",
+          "en": "Each cell has two parts. Top: the shape depends on the column (square, star, circle) and the count grows downwards 1 → 2 → 3 (so: three circles). Bottom: the triangle turns 90° clockwise with every step right and down (180° + 90° + 90° = 360° → apex up), and its fill (empty / striped / solid) appears once in every row and column (empty is missing)."
+        },
+        "rules": [
+          {
+            "component": "top",
+            "attribute": "shape",
+            "type": "constant-in-column"
+          },
+          {
+            "component": "top",
+            "attribute": "count",
+            "type": "progression",
+            "axis": "row",
+            "step": 1
+          },
+          {
+            "component": "bottom",
+            "attribute": "rotation",
+            "type": "progression",
+            "axis": "row+column",
+            "step": 90
+          },
+          {
+            "component": "bottom",
+            "attribute": "fill",
+            "type": "distribution-of-three",
+            "values": [
+              "none",
+              "striped",
+              "solid"
+            ]
+          }
+        ],
+        "taxonomy": [
+          "two-component cell",
+          "top: constant-in-column (shape) + progression down rows (count)",
+          "bottom: progression (rotation +90°) + distribution of three values (fill)"
+        ],
+        "render": {
+          "grid": "3x3, row-major; cells[8] is the missing cell (null), shown as a box with \"?\"",
+          "groups": "a cell is an array of groups drawn top-to-bottom, evenly spaced; empty array = blank cell",
+          "shapesInGroup": "count identical shapes laid out centred in rows of at most 3 (e.g. 4 = 3 + 1, 5 = 3 + 2)",
+          "rotation": "degrees clockwise from the default orientation: triangle = equilateral, apex up; star = 5-pointed, point up; diamond = square standing on a vertex; hexagon = flat top; circle/square unaffected",
+          "size": {
+            "s": 0.2,
+            "m": 0.3,
+            "l": 0.42,
+            "unit": "fraction of cell width (shape bounding box)"
+          },
+          "fill": {
+            "none": "outline only",
+            "solid": "filled with the stroke colour",
+            "striped": "outline + parallel 45° hatching (stripes do not rotate with the shape)"
+          },
+          "colour": "monochrome (one stroke colour) – colour is never a rule attribute, so the item works for colour-blind users"
+        }
+      },
+      "timeLimitSec": 90
+    }
+  ],
+  "scoringNotes": {
+    "ru": "**Подсчёт.** 1 балл за каждый верный ответ; пропуск или истечение времени = 0. Шкалы: вербальная (10 заданий), ряды (12), матрицы (12); общий балл g = сумма (0–34).\n\n**Приблизительный IQ** = 100 + 15 × (g − 20,8) / 8,4, округлить; показывать интервал ±8 и ограничить вывод диапазоном «ниже 75» … «выше 120».\n\nОткуда 20,8 и 8,4: по открытым данным ICAR16 (psychTools::ability, 1248 участников проекта SAPA с полными ответами, 2012) средняя доля верных ответов в вербальных заданиях ICAR — 0,71, в буквенных рядах — 0,60, в матрицах — 0,55; с учётом наблюдаемых ковариаций между заданиями это даёт для формы из 10 + 12 + 12 заданий ожидаемое среднее 20,8 и SD 8,4 (α ≈ 0,92). Сам ICAR16 в этой выборке: M = 8,37 из 16, SD = 3,93, α = 0,83. Это **предварительная** оценка: задания другие, а выборка — онлайн-добровольцы (моложе и образованнее населения в целом). После накопления ≥ 1000 прохождений замените 20,8 и 8,4 средним и SD сайта (а лучше — процентилями).\n\n**Профиль.** Для каждой шкалы вычисляется z = (балл − среднее) / SD по предварительным нормам; сильной стороной считается шкала, чей z выше среднего z человека более чем на 1. Меньшие различия — в пределах погрешности.",
+    "en": "**Scoring.** 1 point per correct answer; skipped or timed-out items = 0. Subscales: verbal (10 items), series (12), matrices (12); total g = sum (0–34).\n\n**Approximate IQ** = 100 + 15 × (g − 20.8) / 8.4, rounded; show a ±8 band and cap the wording at “below 75” … “above 120”.\n\nWhere 20.8 and 8.4 come from: in the open ICAR16 data (psychTools::ability, 1 248 SAPA participants with complete data, 2012) mean proportion correct is .71 for ICAR verbal-reasoning items, .60 for letter series and .55 for matrices; combined with the observed inter-item covariances this predicts mean 20.8 and SD 8.4 (α ≈ .92) for a 10 + 12 + 12-item form. ICAR16 itself in that sample: M = 8.37 of 16, SD = 3.93, α = .83. This is a **provisional** estimate: the items differ and the sample is online volunteers (younger and more educated than the general population). After ≥ 1 000 attempts, replace 20.8 and 8.4 by the site’s own mean and SD (or better, percentiles).\n\n**Profile.** For each subscale z = (score − mean) / SD using the provisional norms; a subscale is a relative strength when its z exceeds the person’s mean z by more than 1. Smaller differences are within measurement error."
+  },
+  "resultIntro": {
+    "ru": "Ниже — ваш профиль по трём видам мышления и приблизительная оценка IQ. Помните: это короткий онлайн-тест с предварительными нормами, а не клиническое обследование; профиль (что получается лучше, что хуже) информативнее одного числа.",
+    "en": "Below is your profile across three kinds of reasoning and an approximate IQ estimate. Remember: this is a short online test with provisional norms, not a clinical assessment; the profile (what you do better or worse) tells you more than a single number."
+  }
+}

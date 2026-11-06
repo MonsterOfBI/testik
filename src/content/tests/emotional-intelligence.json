@@ -1,0 +1,1413 @@
+{
+  "id": "emotional-intelligence",
+  "category": "relationships",
+  "kind": "likert",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Эмоциональный интеллект: профиль из 7 шкал",
+    "en": "Emotional Intelligence: 7-Scale Profile"
+  },
+  "tagline": {
+    "ru": "Как вы чувствуете, выражаете и разделяете эмоции",
+    "en": "How you notice, express and share emotions"
+  },
+  "description": {
+    "ru": "Открытые научные шкалы К. Барчард из банка IPIP описывают семь граней вашей эмоциональной жизни: внимание к чувствам, роль эмоций в решениях, выражение радости и грусти, отклик на чужие эмоции и сочувствие. Вы получите подробный профиль и советы, как развивать эмоциональные навыки.",
+    "en": "K. Barchard's open IPIP scales map seven facets of your emotional life: attention to feelings, the role of emotion in decisions, expressing joy and sadness, responding to others' emotions, and compassion. Get a detailed profile and tips for building emotional skills."
+  },
+  "emoji": "🧠",
+  "durationMin": 9,
+  "popularity": 5,
+  "tags": [
+    {
+      "ru": "эмоциональный интеллект",
+      "en": "emotional intelligence"
+    },
+    {
+      "ru": "EQ",
+      "en": "EQ"
+    },
+    {
+      "ru": "эмоции",
+      "en": "emotions"
+    },
+    {
+      "ru": "эмпатия",
+      "en": "empathy"
+    },
+    {
+      "ru": "самопознание",
+      "en": "self-awareness"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что измеряет\nЭто **профиль эмоциональных компонентов**, связанных с эмоциональным интеллектом (ЭИ): как вы замечаете свои эмоции, используете их в решениях, выражаете позитивные и негативные чувства и как откликаетесь на эмоции других. Семь шкал разработала психолог Кимберли Барчард (Barchard, 2001) в рамках Международного банка личностных заданий (IPIP); они свободно доступны и широко используются в исследованиях.\n\n1. **Внимание к эмоциям** (10 пунктов)\n2. **Решения на основе эмоций** (9)\n3. **Выражение позитивных эмоций** (9)\n4. **Выражение негативных эмоций** (10)\n5. **Отклик на чужую радость** (10)\n6. **Отклик на чужое страдание** (10)\n7. **Эмпатическое участие** (10)\n\n### Почему именно эти шкалы\nСамая известная модель «чертового» ЭИ — опросник TEIQue К. Петридеса с факторами «благополучие», «самоконтроль», «эмоциональность» и «общительность». Однако все формы TEIQue (включая TEIQue-SF) бесплатны **только для академических исследований**; любое коммерческое или «квазикоммерческое» использование запрещено, а для онлайн-платформ требуется отдельное разрешение (psychometriclab.com). Поэтому мы выбрали полностью открытую альтернативу — шкалы IPIP, которые находятся в общественном достоянии. Их содержание пересекается с «эмоциональностью» TEIQue (восприятие и выражение эмоций, эмпатия), но не покрывает самоконтроль и благополучие — для них на сайте есть отдельные тесты (самоуважение, удовлетворённость жизнью).\n\n### История\nБарчард создала эти шкалы в диссертационном исследовании, чтобы проверить, какие эмоциональные характеристики действительно составляют «эмоциональный интеллект» и чем они отличаются от общих черт личности. Русскоязычная версия опросника адаптирована Г. Г. Князевым, Л. Г. Митрофановой и О. М. Разумниковой (Психологический журнал, 2012, № 4); на сайте используется собственный перевод с английского оригинала IPIP.\n\n### Как проводится и считается\n68 коротких утверждений, стандартная шкала IPIP: «совершенно неверно» (1) — «совершенно верно» (5). Около половины утверждений обратные. Балл по каждой шкале — **среднее, 1–5**. Общий балл не подсчитывается: компоненты не являются «чем больше, тем лучше» — например, высокий балл по отклику на страдание означает высокую чувствительность, а по решениям на основе эмоций — опору на интуицию вместо логики.\n\n### Надёжность и валидность\n- Шкалы IPIP Барчард обладают приемлемой или хорошей внутренней согласованностью; для шкалы выражения позитивных эмоций на сайте IPIP указаны α = 0,81 (женщины) и 0,79 (мужчины).\n- Шкалы проходили проверку в нескольких языках (в т. ч. русская адаптация Князева и соавт., 2012, и турецкая адаптация).\n\n### Нормы\nОпубликованных норм (среднее и SD) в открытом доступе для этих шкал мы не нашли, поэтому процентиль на сайте не показывается; уровни (1,0–2,39 — низкий, 2,4–3,59 — средний, 3,6–5,0 — высокий) построены по положению на шкале ответов.\n\n### Ограничения\n- Самоотчёт: он отражает, как вы *видите* свою эмоциональную жизнь, а не измеряет способности (для способностей существуют тесты вроде MSCEIT).\n- Нет общего балла ЭИ и нет норм для процентилей.\n- Разбиение пунктов по шкалам выражения и отклика восстановлено по ключу IPIP; при развитии сайта стоит сверить с первоисточником.",
+    "en": "### What it measures\nThis is a **profile of emotional components** related to emotional intelligence (EI): how you notice your emotions, use them in decisions, express positive and negative feelings, and respond to other people's emotions. The seven scales were developed by psychologist Kimberly Barchard (Barchard, 2001) for the International Personality Item Pool (IPIP); they are freely available and widely used in research.\n\n1. **Attending to emotions** (10 items)\n2. **Emotion-based decision-making** (9)\n3. **Positive expressivity** (9)\n4. **Negative expressivity** (10)\n5. **Responsive joy** (10)\n6. **Responsive distress** (10)\n7. **Empathic concern** (10)\n\n### Why these scales\nThe best-known trait-EI model is K. V. Petrides' TEIQue, with factors of well-being, self-control, emotionality and sociability. However, all TEIQue forms (including the TEIQue-SF) are free **only for academic research**; any commercial or quasi-commercial use is prohibited, and online survey platforms need separate permission (psychometriclab.com). We therefore chose a fully open alternative — the public-domain IPIP scales. Their content overlaps with TEIQue \"emotionality\" (perceiving and expressing emotions, empathy) but does not cover self-control or well-being — the site has separate tests for those (self-esteem, life satisfaction).\n\n### History\nBarchard built these scales for her doctoral research, to test which emotional characteristics truly make up \"emotional intelligence\" and how they differ from broad personality traits. A Russian version was adapted by G. G. Knyazev, L. G. Mitrofanova and O. M. Razumnikova (Psikhologicheskii Zhurnal, 2012, no. 4); this site uses its own translation from the English IPIP original.\n\n### Administration and scoring\n68 short statements on the standard IPIP scale: Very inaccurate (1) to Very accurate (5). About half are reverse-keyed. Each scale score is a **mean, 1–5**. No total is computed: these components are not \"more is better\" — a high responsive-distress score means high sensitivity, and a high emotion-based decision-making score means relying on intuition over logic.\n\n### Reliability and validity\n- Barchard's IPIP scales have acceptable-to-good internal consistency; for Positive Expressivity the IPIP site lists α = .81 (women) and .79 (men).\n- The scales have been studied in several languages (including the Russian adaptation by Knyazev et al., 2012, and a Turkish adaptation).\n\n### Norms\nWe found no openly published norms (mean and SD) for these scales, so no percentile is shown; the bands (1.0–2.39 low, 2.4–3.59 medium, 3.6–5.0 high) are based on position on the response scale.\n\n### Limitations\n- Self-report: it captures how you *see* your emotional life, not ability (ability tests such as the MSCEIT exist for that).\n- No overall EI score and no norms for percentiles.\n- The split of items between the expressivity and responsiveness scales was reconstructed from the IPIP key and should be re-checked against the source as the site evolves."
+  },
+  "sources": [
+    {
+      "citation": "Barchard, K. A. (2001). Emotional and social intelligence: Examining its place in the nomological network (Doctoral dissertation). University of British Columbia. Scales published in the International Personality Item Pool.",
+      "url": "http://ipip.ori.org/newEmotionalIntelligenceKey.htm"
+    },
+    {
+      "citation": "Goldberg, L. R., Johnson, J. A., Eber, H. W., Hogan, R., Ashton, M. C., Cloninger, C. R., & Gough, H. G. (2006). The International Personality Item Pool and the future of public-domain personality measures. Journal of Research in Personality, 40(1), 84–96.",
+      "doi": "10.1016/j.jrp.2005.08.007"
+    },
+    {
+      "citation": "Князев, Г. Г., Митрофанова, Л. Г., & Разумникова, О. М. (2012). Адаптация русскоязычной версии Опросника эмоционального интеллекта К. Барчард. Психологический журнал, 33(4).",
+      "url": "https://psytests.org/eq/eis.html"
+    },
+    {
+      "citation": "Petrides, K. V. (2009). Technical manual for the Trait Emotional Intelligence Questionnaires (TEIQue). London Psychometric Laboratory. [Cited for the licensing comparison only.]",
+      "url": "https://old.psychometriclab.com/obtaining-the-teique/"
+    },
+    {
+      "citation": "Barchard, K. A. — list of psychological measures (UNLV).",
+      "url": "https://barchard.faculty.unlv.edu/research/psychological-measures/"
+    }
+  ],
+  "license": "Public domain (IPIP). IPIP items and scales may be copied, edited, translated and used for any purpose, commercial or not, without permission or fee (https://ipip.ori.org). Items adapted only by prefixing \"I\" for readability. TEIQue/TEIQue-SF was rejected because it is free for academic research only and prohibits commercial or quasi-commercial use (https://old.psychometriclab.com/obtaining-the-teique/).",
+  "instructions": {
+    "ru": "Ниже — короткие описания того, как люди переживают и выражают эмоции. Оцените, насколько точно каждое утверждение описывает вас. Описывайте себя таким, какой вы обычно есть сейчас, а не таким, каким хотели бы быть. Отвечайте честно, сравнивая себя с людьми вашего пола и примерно вашего возраста.",
+    "en": "Below are short descriptions of how people experience and express emotions. Rate how accurately each statement describes you. Describe yourself as you generally are now, not as you wish to be in the future, and as you honestly see yourself in relation to other people of your gender and roughly your age."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Совершенно неверно",
+        "en": "Very inaccurate"
+      },
+      {
+        "ru": "Скорее неверно",
+        "en": "Moderately inaccurate"
+      },
+      {
+        "ru": "Нечто среднее",
+        "en": "Neither accurate nor inaccurate"
+      },
+      {
+        "ru": "Скорее верно",
+        "en": "Moderately accurate"
+      },
+      {
+        "ru": "Совершенно верно",
+        "en": "Very accurate"
+      }
+    ],
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "attending",
+      "name": {
+        "ru": "Внимание к эмоциям",
+        "en": "Attending to emotions"
+      },
+      "description": {
+        "ru": "Насколько вы замечаете свои чувства, задумываетесь о них и об их причинах.",
+        "en": "How much you notice your feelings and reflect on them and their causes."
+      },
+      "lowLabel": {
+        "ru": "чувства на заднем плане",
+        "en": "feelings in the background"
+      },
+      "highLabel": {
+        "ru": "чуткий внутренний радар",
+        "en": "keen inner radar"
+      },
+      "color": "#FFD6A5",
+      "scoring": "mean",
+      "min": 1,
+      "max": 5,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.39,
+          "label": {
+            "ru": "Чувства на заднем плане",
+            "en": "Feelings in the background"
+          },
+          "summary": [
+            {
+              "ru": "Вы редко анализируете свои эмоции",
+              "en": "You rarely analyse your emotions"
+            },
+            {
+              "ru": "Скорее действуете, чем рефлексируете",
+              "en": "You act more than you reflect"
+            },
+            {
+              "ru": "Эмоции могут «накапливаться» незаметно",
+              "en": "Emotions can build up unnoticed"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы нечасто останавливаетесь, чтобы понять, что именно чувствуете и почему. Это может помогать сосредоточиться на делах, но у такой стратегии есть цена: непрожитые эмоции копятся и потом проявляются раздражением, усталостью или телесным напряжением.\n\n**Попробуйте:** несколько раз в день задавайте себе вопрос «что я сейчас чувствую?» и называйте эмоцию одним словом. Исследования показывают, что даже простое называние эмоций снижает их интенсивность и помогает лучше ими управлять. Помогает и дневник настроения — по 2–3 строчки вечером.",
+            "en": "You don't often pause to figure out what exactly you're feeling and why. That can help you stay focused on tasks, but there's a cost: unprocessed emotions pile up and later show up as irritability, fatigue or physical tension.\n\n**Try this:** a few times a day ask yourself \"what am I feeling right now?\" and name the emotion in one word. Research suggests that simply labelling emotions lowers their intensity and makes them easier to manage. A mood journal — two or three lines in the evening — helps too."
+          }
+        },
+        {
+          "min": 2.4,
+          "max": 3.59,
+          "label": {
+            "ru": "Умеренное внимание к чувствам",
+            "en": "Moderate attention to feelings"
+          },
+          "summary": [
+            {
+              "ru": "Вы замечаете эмоции, когда они достаточно сильные",
+              "en": "You notice emotions when they're strong enough"
+            },
+            {
+              "ru": "Иногда задумываетесь о причинах своих чувств",
+              "en": "You sometimes reflect on why you feel things"
+            },
+            {
+              "ru": "Баланс между рефлексией и действием",
+              "en": "A balance between reflecting and doing"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы обычно понимаете, что чувствуете, особенно в ярких ситуациях, и иногда разбираетесь в причинах своих эмоций. Это хороший баланс: вы не игнорируете свои чувства, но и не «застреваете» в анализе.\n\n**Как развивать:** расширяйте эмоциональный словарь — вместо «нормально» и «плохо» пробуйте точнее: «раздражён(а)», «разочарован(а)», «встревожен(а)». Чем точнее вы различаете эмоции, тем легче понять, что вам нужно.",
+            "en": "You usually know what you're feeling, especially in vivid situations, and sometimes work out why. That's a good balance: you don't ignore your feelings, nor do you get stuck analysing them.\n\n**Growing it:** expand your emotional vocabulary — instead of \"fine\" and \"bad\", try more precise words: \"irritated\", \"disappointed\", \"anxious\". The more finely you distinguish emotions, the easier it is to know what you need."
+          }
+        },
+        {
+          "min": 3.6,
+          "max": 5,
+          "label": {
+            "ru": "Чуткий внутренний радар",
+            "en": "A keen inner radar"
+          },
+          "summary": [
+            {
+              "ru": "Вы хорошо осознаёте свои чувства",
+              "en": "You're very aware of your feelings"
+            },
+            {
+              "ru": "Часто задумываетесь о причинах эмоций",
+              "en": "You often reflect on what causes them"
+            },
+            {
+              "ru": "Это основа эмоционального интеллекта",
+              "en": "This is a cornerstone of emotional intelligence"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы внимательны к своему внутреннему миру: замечаете эмоции, понимаете их причины и часто анализируете своё состояние. Осознавание эмоций — основа эмоционального интеллекта: без него сложно ими управлять и понимать других.\n\n**На что обратить внимание:** важно, чтобы анализ не превращался в «пережёвывание» — бесконечное прокручивание неприятных чувств. Если замечаете, что рефлексия усиливает тревогу, переключайтесь с вопроса «почему мне плохо?» на вопрос «что мне сейчас поможет?».",
+            "en": "You pay close attention to your inner world: you notice emotions, understand their causes and often reflect on your state. Emotional awareness is the foundation of emotional intelligence — without it, managing emotions and understanding others is hard.\n\n**Worth keeping in mind:** make sure reflection doesn't turn into rumination — endlessly replaying unpleasant feelings. If reflecting starts to fuel anxiety, shift from \"why do I feel bad?\" to \"what would help right now?\""
+          }
+        }
+      ]
+    },
+    {
+      "id": "decision",
+      "name": {
+        "ru": "Решения на основе эмоций",
+        "en": "Emotion-based decision-making"
+      },
+      "description": {
+        "ru": "Насколько вы опираетесь на чувства и интуицию, а не только на логику, принимая решения.",
+        "en": "How much you rely on feelings and intuition, rather than only logic, when making decisions."
+      },
+      "lowLabel": {
+        "ru": "голос разума",
+        "en": "voice of reason"
+      },
+      "highLabel": {
+        "ru": "голос сердца",
+        "en": "voice of the heart"
+      },
+      "color": "#CDB4DB",
+      "scoring": "mean",
+      "min": 1,
+      "max": 5,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.39,
+          "label": {
+            "ru": "Голос разума",
+            "en": "Voice of reason"
+          },
+          "summary": [
+            {
+              "ru": "Вы принимаете решения прежде всего логически",
+              "en": "You decide mainly by logic"
+            },
+            {
+              "ru": "Опираетесь на факты, а не на чувства",
+              "en": "You rely on facts, not feelings"
+            },
+            {
+              "ru": "Планируете жизнь рационально",
+              "en": "You plan your life rationally"
+            }
+          ],
+          "detailed": {
+            "ru": "Логика и факты — ваш главный компас. Это делает решения взвешенными и предсказуемыми. Но эмоции тоже несут информацию: тревога может сигналить о реальном риске, а воодушевление — о том, что вам действительно важно.\n\n**Попробуйте:** перед важным решением, составив список «за» и «против», спросите себя: «Что я чувствую, представляя каждый вариант?». Сочетание анализа и внимания к чувствам обычно даёт решения, которыми люди в итоге больше довольны.",
+            "en": "Logic and facts are your main compass. That makes your decisions measured and predictable. But emotions carry information too: anxiety may flag a real risk, excitement may point to what truly matters to you.\n\n**Try this:** before a big decision, after listing pros and cons, ask yourself: \"How do I feel when I imagine each option?\" Combining analysis with attention to feelings tends to produce decisions people end up happier with."
+          }
+        },
+        {
+          "min": 2.4,
+          "max": 3.59,
+          "label": {
+            "ru": "Баланс разума и чувств",
+            "en": "Head and heart in balance"
+          },
+          "summary": [
+            {
+              "ru": "Вы учитываете и логику, и чувства",
+              "en": "You weigh both logic and feelings"
+            },
+            {
+              "ru": "Гибко выбираете стратегию по ситуации",
+              "en": "You flexibly choose by situation"
+            },
+            {
+              "ru": "Интуиция для вас — один из источников информации",
+              "en": "Intuition is one source of information among others"
+            }
+          ],
+          "detailed": {
+            "ru": "Принимая решения, вы опираетесь и на рассуждения, и на собственные ощущения. Такой баланс считается одним из самых продуктивных: чувства подсказывают, что для вас ценно, а логика помогает найти путь.\n\n**Как развивать:** обращайте внимание, в каких сферах вы чаще доверяете сердцу, а в каких — разуму, и насколько это себя оправдывает.",
+            "en": "When making decisions you draw on both reasoning and your own sense of things. This balance is considered one of the most productive: feelings tell you what you value, logic helps you find the way.\n\n**Growing it:** notice in which areas you tend to trust your heart and in which your head — and how well that has worked out."
+          }
+        },
+        {
+          "min": 3.6,
+          "max": 5,
+          "label": {
+            "ru": "Голос сердца",
+            "en": "Voice of the heart"
+          },
+          "summary": [
+            {
+              "ru": "Вы доверяете чувствам и интуиции",
+              "en": "You trust feelings and intuition"
+            },
+            {
+              "ru": "Цели выбираете по вдохновению",
+              "en": "You choose goals by inspiration"
+            },
+            {
+              "ru": "Эмоции задают вам направление",
+              "en": "Emotions give you direction"
+            }
+          ],
+          "detailed": {
+            "ru": "Для вас эмоции — главный ориентир: вы прислушиваетесь к сердцу, выбираете то, что вдохновляет, и верите, что чувства указывают путь. Это помогает жить в согласии с собой и находить мотивацию.\n\n**На что обратить внимание:** сильные эмоции момента (злость, страх, эйфория) могут искажать выбор. В важных решениях полезно дать себе паузу — «переспать» с решением — и проверить его фактами. Так интуиция станет ещё надёжнее.",
+            "en": "Emotions are your main guide: you listen to your heart, pick what inspires you and trust feelings to show the way. That helps you live true to yourself and stay motivated.\n\n**Worth keeping in mind:** strong in-the-moment emotions (anger, fear, euphoria) can skew choices. For big decisions, give yourself a pause — sleep on it — and check against the facts. Your intuition will become even more reliable."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pos-expressivity",
+      "name": {
+        "ru": "Выражение позитивных эмоций",
+        "en": "Positive expressivity"
+      },
+      "description": {
+        "ru": "Насколько открыто вы показываете радость, нежность и привязанность.",
+        "en": "How openly you show joy, warmth and affection."
+      },
+      "lowLabel": {
+        "ru": "радость про себя",
+        "en": "joy kept inside"
+      },
+      "highLabel": {
+        "ru": "радость наружу",
+        "en": "joy on the outside"
+      },
+      "color": "#FDFFB6",
+      "scoring": "mean",
+      "min": 1,
+      "max": 5,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.39,
+          "label": {
+            "ru": "Радость про себя",
+            "en": "Joy kept inside"
+          },
+          "summary": [
+            {
+              "ru": "Вы редко показываете радость и нежность",
+              "en": "You rarely show joy and affection"
+            },
+            {
+              "ru": "Тепло скорее выражаете делами, чем словами и жестами",
+              "en": "You express warmth through deeds more than words or gestures"
+            },
+            {
+              "ru": "Окружающим может быть сложно «прочитать» ваши чувства",
+              "en": "Others may find your feelings hard to read"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы сдержанны в выражении позитивных чувств: радость, нежность и симпатию держите при себе или выражаете очень скромно. Возможно, так принято в вашей семье или культуре, или вы просто человек «не напоказ».\n\n**Попробуйте:** близким людям важно видеть, что они вам дороги. Начните с малого — скажите «я рад(а) тебя видеть», поблагодарите конкретно, улыбнитесь. Выражение позитивных эмоций укрепляет отношения и, как показывают исследования, усиливает и сами переживания радости.",
+            "en": "You're reserved in showing positive feelings: joy, tenderness and liking stay inside or come out very modestly. Perhaps that's the norm in your family or culture, or you're simply not one for display.\n\n**Try this:** the people close to you need to see that they matter. Start small — say \"I'm glad to see you\", thank someone specifically, smile. Expressing positive emotions strengthens relationships and, research suggests, amplifies the joy itself."
+          }
+        },
+        {
+          "min": 2.4,
+          "max": 3.59,
+          "label": {
+            "ru": "Умеренная открытость",
+            "en": "Moderately expressive"
+          },
+          "summary": [
+            {
+              "ru": "Вы показываете радость, когда чувствуете себя в безопасности",
+              "en": "You show joy when you feel safe"
+            },
+            {
+              "ru": "С близкими теплее, чем с незнакомыми",
+              "en": "Warmer with close people than with strangers"
+            },
+            {
+              "ru": "Хороший баланс открытости и сдержанности",
+              "en": "A good balance of openness and restraint"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы выражаете радость и привязанность, но избирательно — скорее с близкими людьми и в подходящей обстановке. Это гибкая и социально уместная стратегия.\n\n**Как развивать:** замечайте моменты, когда хотелось выразить тепло, но вы сдержались, — и иногда позволяйте себе это сделать.",
+            "en": "You show joy and affection, but selectively — mostly with close people and in the right setting. That's a flexible, socially fitting strategy.\n\n**Growing it:** notice moments when you wanted to show warmth but held back — and sometimes let yourself go ahead."
+          }
+        },
+        {
+          "min": 3.6,
+          "max": 5,
+          "label": {
+            "ru": "Радость наружу",
+            "en": "Joy on the outside"
+          },
+          "summary": [
+            {
+              "ru": "Вы открыто показываете радость и нежность",
+              "en": "You openly show joy and tenderness"
+            },
+            {
+              "ru": "Легко обнимаете, смеётесь, выражаете симпатию",
+              "en": "You hug, laugh and show liking easily"
+            },
+            {
+              "ru": "Рядом с вами людям тепло",
+              "en": "People feel warm around you"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы легко и искренне выражаете позитивные чувства: смеётесь вслух, обнимаете друзей, не скрываете, когда счастливы. Это заразительно — такие люди создают вокруг себя тёплую атмосферу и легко сближаются с другими.\n\n**На что обратить внимание:** не все одинаково комфортно воспринимают яркие проявления чувств — например, объятия. Чуткость к границам других сделает вашу теплоту ещё более ценной.",
+            "en": "You express positive feelings easily and genuinely: you laugh out loud, hug friends and don't hide being happy. It's contagious — people like you create a warm atmosphere and connect easily.\n\n**Worth keeping in mind:** not everyone is equally comfortable with vivid displays — hugs, for example. Sensitivity to others' boundaries makes your warmth even more valuable."
+          }
+        }
+      ]
+    },
+    {
+      "id": "neg-expressivity",
+      "name": {
+        "ru": "Выражение негативных эмоций",
+        "en": "Negative expressivity"
+      },
+      "description": {
+        "ru": "Насколько открыто вы показываете грусть, страх и гнев.",
+        "en": "How openly you show sadness, fear and anger."
+      },
+      "lowLabel": {
+        "ru": "держу в себе",
+        "en": "keep it in"
+      },
+      "highLabel": {
+        "ru": "видно сразу",
+        "en": "it shows right away"
+      },
+      "color": "#FFADAD",
+      "scoring": "mean",
+      "min": 1,
+      "max": 5,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.39,
+          "label": {
+            "ru": "Держу в себе",
+            "en": "Keeping it in"
+          },
+          "summary": [
+            {
+              "ru": "Вы редко показываете грусть, страх или злость",
+              "en": "You rarely show sadness, fear or anger"
+            },
+            {
+              "ru": "Окружающие могут не знать, что вам плохо",
+              "en": "Others may not know when you're struggling"
+            },
+            {
+              "ru": "Внешнее спокойствие может скрывать напряжение",
+              "en": "Outer calm may hide inner tension"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы склонны держать негативные эмоции при себе: даже когда вам грустно, страшно или вы злитесь, это мало кто видит. Сдержанность полезна в рабочих и конфликтных ситуациях, но постоянное подавление чувств связано с напряжением и мешает получать поддержку.\n\n**Попробуйте:** найдите хотя бы одного-двух людей, с которыми можно честно сказать «мне сейчас тяжело». Выражать негативные эмоции можно спокойно и уважительно — через «я-сообщения»: «я расстроен(а), потому что…». Помогают и «безопасные» каналы: письмо, спорт, творчество.",
+            "en": "You tend to keep negative emotions to yourself: even when you're sad, scared or angry, few people see it. Restraint helps at work and in conflicts, but constantly suppressing feelings is linked to strain and makes it harder to get support.\n\n**Try this:** find one or two people with whom you can honestly say \"I'm having a hard time.\" Negative emotions can be expressed calmly and respectfully with \"I-statements\": \"I'm upset because…\". Safe outlets help too: writing, exercise, creative work."
+          }
+        },
+        {
+          "min": 2.4,
+          "max": 3.59,
+          "label": {
+            "ru": "Умеренная открытость",
+            "en": "Moderately expressive"
+          },
+          "summary": [
+            {
+              "ru": "Вы показываете негативные чувства по ситуации",
+              "en": "You show negative feelings depending on the situation"
+            },
+            {
+              "ru": "Можете сдержаться, когда это важно",
+              "en": "You can hold back when it matters"
+            },
+            {
+              "ru": "Близкие обычно понимают, когда вам плохо",
+              "en": "Close people usually know when you're down"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы не скрываете грусть или злость полностью, но и не выплёскиваете их. Это гибкий баланс: вы можете сдержаться на работе и быть честнее с близкими.\n\n**Как развивать:** следите, чтобы сдерживание не превращалось в накопление: если чувство повторяется, лучше спокойно обсудить его, чем ждать, пока оно «взорвётся».",
+            "en": "You don't completely hide sadness or anger, nor do you unload it. That's a flexible balance: you can hold back at work and be more open with people close to you.\n\n**Growing it:** make sure holding back doesn't turn into bottling up: if a feeling keeps returning, talk it through calmly rather than waiting for it to explode."
+          }
+        },
+        {
+          "min": 3.6,
+          "max": 5,
+          "label": {
+            "ru": "Видно сразу",
+            "en": "It shows right away"
+          },
+          "summary": [
+            {
+              "ru": "Ваши грусть, страх и злость хорошо заметны",
+              "en": "Your sadness, fear and anger are easy to see"
+            },
+            {
+              "ru": "Вы честны в эмоциях",
+              "en": "You're emotionally honest"
+            },
+            {
+              "ru": "Иногда эмоции могут «выплёскиваться» резко",
+              "en": "Sometimes emotions may spill out sharply"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши негативные эмоции видны окружающим: по лицу понятно, что вам грустно, а злость может проявиться громко. Эмоциональная честность помогает другим понимать вас и вовремя поддержать.\n\n**На что обратить внимание:** в напряжённых ситуациях полезно иметь «паузу» между чувством и его выражением — сделать вдох, досчитать до десяти, отложить разговор. Так вы сохраните честность и при этом не раните ни себя, ни других резкими словами.",
+            "en": "Your negative emotions show: your face tells people when you're sad, and anger may come out loudly. Emotional honesty helps others understand you and support you in time.\n\n**Worth keeping in mind:** in tense moments, it helps to have a pause between feeling and expressing — take a breath, count to ten, postpone the conversation. That keeps your honesty while sparing yourself and others from sharp words."
+          }
+        }
+      ]
+    },
+    {
+      "id": "responsive-joy",
+      "name": {
+        "ru": "Отклик на чужую радость",
+        "en": "Responsive joy"
+      },
+      "description": {
+        "ru": "Насколько вас «заражает» хорошее настроение и радость других людей.",
+        "en": "How much other people's good moods and joy rub off on you."
+      },
+      "lowLabel": {
+        "ru": "чужая радость мимо",
+        "en": "others' joy passes by"
+      },
+      "highLabel": {
+        "ru": "радуюсь вместе",
+        "en": "I rejoice with others"
+      },
+      "color": "#CAFFBF",
+      "scoring": "mean",
+      "min": 1,
+      "max": 5,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.39,
+          "label": {
+            "ru": "Чужая радость проходит мимо",
+            "en": "Others' joy passes you by"
+          },
+          "summary": [
+            {
+              "ru": "Хорошее настроение других мало на вас влияет",
+              "en": "Others' good moods hardly affect you"
+            },
+            {
+              "ru": "Общее веселье редко захватывает",
+              "en": "Group excitement rarely sweeps you up"
+            },
+            {
+              "ru": "Ваше настроение более автономно",
+              "en": "Your mood is more self-contained"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваше настроение мало зависит от того, радуются ли люди вокруг. Это может делать вас эмоционально устойчивым, но иногда означает, что вы упускаете простой источник хорошего самочувствия — радость, разделённую с другими.\n\n**Попробуйте:** когда кто-то делится хорошей новостью, проявите активный интерес — расспросите, порадуйтесь вслух. Психологи называют это «активно-конструктивным откликом»: он заметно укрепляет отношения.",
+            "en": "Your mood depends little on whether people around you are happy. That can make you emotionally steady, but it may also mean missing an easy source of well-being — joy shared with others.\n\n**Try this:** when someone shares good news, show active interest — ask questions, celebrate out loud. Psychologists call this \"active-constructive responding\", and it noticeably strengthens relationships."
+          }
+        },
+        {
+          "min": 2.4,
+          "max": 3.59,
+          "label": {
+            "ru": "Радуюсь за других",
+            "en": "Glad for others"
+          },
+          "summary": [
+            {
+              "ru": "Вам приятно видеть радость других",
+              "en": "You enjoy seeing others happy"
+            },
+            {
+              "ru": "Хорошее настроение близких поднимает ваше",
+              "en": "Loved ones' good moods lift yours"
+            },
+            {
+              "ru": "Оптимальный уровень эмоционального отклика",
+              "en": "A healthy level of emotional resonance"
+            }
+          ],
+          "detailed": {
+            "ru": "Чужая радость вам приятна и часто поднимает настроение, особенно если речь о близких людях. При этом ваше состояние не полностью зависит от окружения.\n\n**Как развивать:** чаще бывайте рядом с людьми и событиями, которые вас наполняют, — праздники, встречи, совместные увлечения.",
+            "en": "Other people's joy pleases you and often lifts your mood, especially with people close to you, yet your state doesn't fully depend on your surroundings.\n\n**Growing it:** spend more time with people and occasions that fill you up — celebrations, get-togethers, shared hobbies."
+          }
+        },
+        {
+          "min": 3.6,
+          "max": 5,
+          "label": {
+            "ru": "Радуюсь вместе",
+            "en": "Rejoicing together"
+          },
+          "summary": [
+            {
+              "ru": "Вы легко заражаетесь радостью других",
+              "en": "You catch others' joy easily"
+            },
+            {
+              "ru": "Смеётесь, когда смеются вокруг",
+              "en": "You laugh when others laugh"
+            },
+            {
+              "ru": "Праздники и общее веселье вас вдохновляют",
+              "en": "Celebrations and shared fun inspire you"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы очень отзывчивы к чужой радости: чужой смех, праздник или хорошая новость сразу поднимают вам настроение. Это ценная черта — умение разделять радость укрепляет дружбу и делает вас приятной компанией.\n\n**На что обратить внимание:** высокая «заразительность» работает в обе стороны — плохое настроение окружающих тоже может на вас влиять. Выбирайте среду, которая вас поддерживает.",
+            "en": "You're highly responsive to others' joy: someone's laughter, a celebration or good news lifts your mood right away. It's a valuable trait — sharing joy strengthens friendships and makes you great company.\n\n**Worth keeping in mind:** high emotional contagion works both ways — other people's bad moods may affect you too. Choose surroundings that support you."
+          }
+        }
+      ]
+    },
+    {
+      "id": "responsive-distress",
+      "name": {
+        "ru": "Отклик на чужое страдание",
+        "en": "Responsive distress"
+      },
+      "description": {
+        "ru": "Насколько сильно вас задевают чужие несчастья и напряжённые события.",
+        "en": "How strongly others' misfortunes and tense events affect you."
+      },
+      "lowLabel": {
+        "ru": "спокойствие в бурю",
+        "en": "calm in a storm"
+      },
+      "highLabel": {
+        "ru": "сильно задевает",
+        "en": "deeply affected"
+      },
+      "color": "#A0C4FF",
+      "scoring": "mean",
+      "min": 1,
+      "max": 5,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.39,
+          "label": {
+            "ru": "Спокойствие в бурю",
+            "en": "Calm in a storm"
+          },
+          "summary": [
+            {
+              "ru": "Вы сохраняете хладнокровие в напряжённых ситуациях",
+              "en": "You stay cool in tense situations"
+            },
+            {
+              "ru": "Чужие беды не выбивают вас из колеи",
+              "en": "Others' troubles don't knock you off balance"
+            },
+            {
+              "ru": "В экстренных случаях на вас можно положиться",
+              "en": "People can rely on you in emergencies"
+            }
+          ],
+          "detailed": {
+            "ru": "Вас трудно выбить из колеи: в кризисах и экстренных ситуациях вы остаётесь спокойным(-ой), а чужие несчастья не захлёстывают вас эмоционально. Это ценное качество для сложных профессий и трудных моментов.\n\n**На что обратить внимание:** окружающим иногда важно видеть, что вас тронула их беда. Даже если внутри вы спокойны, скажите об участии словами: «мне очень жаль, что так случилось».",
+            "en": "It's hard to knock you off balance: in crises and emergencies you stay calm, and others' misfortunes don't flood you emotionally. That's valuable in demanding jobs and difficult moments.\n\n**Worth keeping in mind:** people sometimes need to see that their trouble touched you. Even if you feel calm inside, put your care into words: \"I'm so sorry this happened.\""
+          }
+        },
+        {
+          "min": 2.4,
+          "max": 3.59,
+          "label": {
+            "ru": "Сочувствие без потери опоры",
+            "en": "Moved, but grounded"
+          },
+          "summary": [
+            {
+              "ru": "Чужие беды вас трогают",
+              "en": "Others' troubles move you"
+            },
+            {
+              "ru": "При этом вы сохраняете способность действовать",
+              "en": "Yet you can still act"
+            },
+            {
+              "ru": "Сбалансированный эмоциональный отклик",
+              "en": "A balanced emotional response"
+            }
+          ],
+          "detailed": {
+            "ru": "Вас трогают чужие несчастья, вы можете прослезиться на грустном фильме, но в целом сохраняете опору и способность действовать. Это оптимальное сочетание чувствительности и устойчивости.\n\n**Как поддерживать:** продолжайте сочетать сопереживание с практической помощью — это лучшая защита от бессилия.",
+            "en": "Others' misfortunes move you, a sad film may bring tears, yet you generally stay grounded and able to act. It's a good combination of sensitivity and resilience.\n\n**Keeping it up:** keep pairing feeling-with with practical help — the best antidote to helplessness."
+          }
+        },
+        {
+          "min": 3.6,
+          "max": 5,
+          "label": {
+            "ru": "Сильно задевает",
+            "en": "Deeply affected"
+          },
+          "summary": [
+            {
+              "ru": "Чужая боль сильно отзывается в вас",
+              "en": "Others' pain resonates strongly in you"
+            },
+            {
+              "ru": "Вас легко растрогать до слёз",
+              "en": "You're easily moved to tears"
+            },
+            {
+              "ru": "В напряжённых ситуациях вам непросто сохранять спокойствие",
+              "en": "Staying calm under pressure can be hard"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы очень чувствительны к чужим страданиям и напряжённым событиям: новости, грустные истории, чужая боль задевают вас глубоко. Это говорит о большой отзывчивости, но может и истощать.\n\n**Как беречь себя:** дозируйте тяжёлый контент — новости, ленты, фильмы. Превращайте переживание в действие: помочь, поддержать, пожертвовать — это снижает чувство бессилия. Освойте простые техники успокоения (медленное дыхание, заземление), чтобы в стрессовых ситуациях быстрее возвращаться в равновесие.",
+            "en": "You're very sensitive to others' suffering and to tense events: news, sad stories and others' pain affect you deeply. It speaks to great responsiveness, but it can also wear you out.\n\n**Looking after yourself:** ration heavy content — news, feeds, films. Turn feeling into action — helping, supporting, donating — which eases helplessness. Learn simple calming techniques (slow breathing, grounding) to regain balance faster under stress."
+          }
+        }
+      ]
+    },
+    {
+      "id": "empathic-concern",
+      "name": {
+        "ru": "Эмпатическое участие",
+        "en": "Empathic concern"
+      },
+      "description": {
+        "ru": "Насколько вы сочувствуете другим, особенно тем, кому трудно, и готовы о них беспокоиться.",
+        "en": "How much you feel for others — especially those who struggle — and care about them."
+      },
+      "lowLabel": {
+        "ru": "прагматичный взгляд",
+        "en": "pragmatic outlook"
+      },
+      "highLabel": {
+        "ru": "тёплое участие",
+        "en": "warm concern"
+      },
+      "color": "#BDB2FF",
+      "scoring": "mean",
+      "min": 1,
+      "max": 5,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.39,
+          "label": {
+            "ru": "Прагматичный взгляд",
+            "en": "A pragmatic outlook"
+          },
+          "summary": [
+            {
+              "ru": "Вы скорее держите дистанцию от чужих проблем",
+              "en": "You keep some distance from others' problems"
+            },
+            {
+              "ru": "Считаете, что каждый отвечает за себя",
+              "en": "You tend to believe people are responsible for themselves"
+            },
+            {
+              "ru": "Сочувствие проявляете избирательно",
+              "en": "You're selective with sympathy"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы склонны смотреть на чужие трудности прагматично и не любите вмешиваться в проблемы других. Возможно, вы считаете, что люди должны сами отвечать за свою жизнь, или просто бережёте силы.\n\n**Попробуйте:** иногда представляйте, через что проходит человек, — без оценки, просто из любопытства. Небольшие проявления участия (спросить, как дела, предложить помощь) мало стоят, но сильно укрепляют связи и, по данным исследований, повышают благополучие самого помогающего.",
+            "en": "You tend to view others' difficulties pragmatically and prefer not to get involved in their problems. Perhaps you believe people should take responsibility for their lives, or you're simply conserving energy.\n\n**Try this:** now and then imagine what someone is going through — without judging, just out of curiosity. Small acts of care (asking how they are, offering help) cost little but strengthen bonds and, research suggests, boost the helper's own well-being."
+          }
+        },
+        {
+          "min": 2.4,
+          "max": 3.59,
+          "label": {
+            "ru": "Участие с границами",
+            "en": "Concern with boundaries"
+          },
+          "summary": [
+            {
+              "ru": "Вы сочувствуете тем, кому трудно",
+              "en": "You feel for those who struggle"
+            },
+            {
+              "ru": "При этом сохраняете границы",
+              "en": "While keeping your boundaries"
+            },
+            {
+              "ru": "Помогаете, когда видите в этом смысл",
+              "en": "You help when you see the point"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы сочувствуете людям в трудном положении и готовы помочь, но не берёте на себя чужие проблемы целиком. Это здоровое сочетание теплоты и трезвости.\n\n**Как развивать:** подумайте, какое дело или сообщество вам близко, — регулярное участие в нём (волонтёрство, помощь знакомым) даёт ощущение смысла.",
+            "en": "You feel for people in difficult situations and are willing to help, without taking on their problems wholesale. That's a healthy mix of warmth and clear-headedness.\n\n**Growing it:** think about which cause or community feels close to you — regular involvement (volunteering, helping people you know) brings a sense of meaning."
+          }
+        },
+        {
+          "min": 3.6,
+          "max": 5,
+          "label": {
+            "ru": "Тёплое участие",
+            "en": "Warm concern"
+          },
+          "summary": [
+            {
+              "ru": "Вы глубоко сочувствуете людям в трудном положении",
+              "en": "You deeply feel for people in hardship"
+            },
+            {
+              "ru": "Не смотрите свысока на чужую слабость",
+              "en": "You don't look down on weakness"
+            },
+            {
+              "ru": "Готовы вовлекаться и помогать",
+              "en": "You're ready to get involved and help"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам свойственно тёплое, искреннее участие: вы беспокоитесь о других, сочувствуете тем, кому хуже, и не осуждаете слабость. Это основа доброты и просоциального поведения.\n\n**На что обратить внимание:** помогая другим, не забывайте о себе. Участие устойчивее, когда вы восполняете собственные ресурсы и умеете иногда сказать «нет».",
+            "en": "You show warm, genuine concern: you care about others, feel for those worse off and don't judge weakness. That's the foundation of kindness and prosocial behaviour.\n\n**Worth keeping in mind:** while helping others, don't forget yourself. Care is more sustainable when you refill your own resources and can sometimes say \"no\"."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Я задумываюсь о причинах своих эмоций.",
+        "en": "I think about the causes of my emotions."
+      },
+      "dimension": "attending"
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Я выражаю привязанность физически — объятиями, прикосновениями.",
+        "en": "I express my affection physically."
+      },
+      "dimension": "pos-expressivity"
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Я люблю смотреть, как дети открывают подарки.",
+        "en": "I like to watch children open presents."
+      },
+      "dimension": "responsive-joy"
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Принимая важные решения, я прислушиваюсь к своим чувствам.",
+        "en": "I listen to my feelings when making important decisions."
+      },
+      "dimension": "decision"
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Когда я злюсь, я могу накричать.",
+        "en": "I shout or scream when I'm angry."
+      },
+      "dimension": "neg-expressivity"
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Чужие несчастья глубоко меня трогают.",
+        "en": "I am deeply moved by others' misfortunes."
+      },
+      "dimension": "responsive-distress"
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Я беспокоюсь о других людях.",
+        "en": "I am concerned about others."
+      },
+      "dimension": "empathic-concern"
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Я уделяю много внимания своим чувствам.",
+        "en": "I pay a lot of attention to my feelings."
+      },
+      "dimension": "attending"
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Если что-то смешно, я смеюсь вслух.",
+        "en": "I laugh out loud if something is funny."
+      },
+      "dimension": "pos-expressivity"
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Если люди вокруг смеются, обычно я тоже начинаю смеяться.",
+        "en": "I usually end up laughing if the people around me are laughing."
+      },
+      "dimension": "responsive-joy"
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Я выбираю жизненные цели по вдохновению, а не по логике.",
+        "en": "I base my goals in life on inspiration, rather than logic."
+      },
+      "dimension": "decision"
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Когда случается что-то плохое, я не могу скрыть, что расстроен(а).",
+        "en": "I can't help but look upset when something bad happens."
+      },
+      "dimension": "neg-expressivity"
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Меня легко растрогать до слёз.",
+        "en": "I am easily moved to tears."
+      },
+      "dimension": "responsive-distress"
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Я сочувствую тем, кому живётся хуже, чем мне.",
+        "en": "I feel sympathy for those who are worse off than myself."
+      },
+      "dimension": "empathic-concern"
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Обычно я отдаю себе отчёт в том, что чувствую.",
+        "en": "I am usually aware of the way that I'm feeling."
+      },
+      "dimension": "attending"
+    },
+    {
+      "id": "q16",
+      "text": {
+        "ru": "Я выражаю радость по-детски непосредственно.",
+        "en": "I express my happiness in a childlike manner."
+      },
+      "dimension": "pos-expressivity"
+    },
+    {
+      "id": "q17",
+      "text": {
+        "ru": "Я чувствую радость других людей.",
+        "en": "I feel other people's joy."
+      },
+      "dimension": "responsive-joy"
+    },
+    {
+      "id": "q18",
+      "text": {
+        "ru": "Я планирую свою жизнь, исходя из того, что чувствую.",
+        "en": "I plan my life based on how I feel."
+      },
+      "dimension": "decision"
+    },
+    {
+      "id": "q19",
+      "text": {
+        "ru": "Я показываю свой страх.",
+        "en": "I show my fear."
+      },
+      "dimension": "neg-expressivity"
+    },
+    {
+      "id": "q20",
+      "text": {
+        "ru": "Я страдаю, когда другим плохо.",
+        "en": "I suffer from others' sorrows."
+      },
+      "dimension": "responsive-distress"
+    },
+    {
+      "id": "q21",
+      "text": {
+        "ru": "Я сочувствую бездомным.",
+        "en": "I sympathize with the homeless."
+      },
+      "dimension": "empathic-concern"
+    },
+    {
+      "id": "q22",
+      "text": {
+        "ru": "Я замечаю свои эмоции.",
+        "en": "I notice my emotions."
+      },
+      "dimension": "attending"
+    },
+    {
+      "id": "q23",
+      "text": {
+        "ru": "Иногда я смеюсь вслух, когда читаю или смотрю фильм.",
+        "en": "I sometimes laugh out loud when reading or watching TV."
+      },
+      "dimension": "pos-expressivity"
+    },
+    {
+      "id": "q24",
+      "text": {
+        "ru": "Когда другие празднуют, меня захватывает общее оживление.",
+        "en": "I get caught up in the excitement when others are celebrating."
+      },
+      "dimension": "responsive-joy"
+    },
+    {
+      "id": "q25",
+      "text": {
+        "ru": "Я считаю, что эмоции задают направление в жизни.",
+        "en": "I believe emotions give direction to life."
+      },
+      "dimension": "decision"
+    },
+    {
+      "id": "q26",
+      "text": {
+        "ru": "Подозреваю, что, когда мне грустно, меня выдаёт выражение лица.",
+        "en": "I suspect that my facial expressions give me away when I feel sad."
+      },
+      "dimension": "neg-expressivity"
+    },
+    {
+      "id": "q27",
+      "text": {
+        "ru": "Меня расстраивают несчастья даже незнакомых людей.",
+        "en": "I am upset by the misfortunes of strangers."
+      },
+      "dimension": "responsive-distress"
+    },
+    {
+      "id": "q28",
+      "text": {
+        "ru": "Я считаю, что преступникам нужна помощь, а не наказание.",
+        "en": "I believe that criminals should receive help rather than punishment."
+      },
+      "dimension": "empathic-concern"
+    },
+    {
+      "id": "q29",
+      "text": {
+        "ru": "Я часто останавливаюсь, чтобы разобраться, что я чувствую.",
+        "en": "I often stop to analyze how I'm feeling."
+      },
+      "dimension": "attending"
+    },
+    {
+      "id": "q30",
+      "text": {
+        "ru": "Я обнимаю близких друзей.",
+        "en": "I hug my close friends."
+      },
+      "dimension": "pos-expressivity"
+    },
+    {
+      "id": "q31",
+      "text": {
+        "ru": "Хорошее настроение других сильно на меня влияет.",
+        "en": "I am strongly influenced by the good moods of others."
+      },
+      "dimension": "responsive-joy"
+    },
+    {
+      "id": "q32",
+      "text": {
+        "ru": "Я слушаю сердце, а не разум.",
+        "en": "I listen to my heart rather than my brain."
+      },
+      "dimension": "decision"
+    },
+    {
+      "id": "q33",
+      "text": {
+        "ru": "Я показываю свою грусть.",
+        "en": "I show my sadness."
+      },
+      "dimension": "neg-expressivity"
+    },
+    {
+      "id": "q34",
+      "text": {
+        "ru": "Я бы расстроился (расстроилась), увидев раненое животное.",
+        "en": "I would be upset if I saw an injured animal."
+      },
+      "dimension": "responsive-distress"
+    },
+    {
+      "id": "q35",
+      "text": {
+        "ru": "Я считаю, что бедные заслуживают нашего сочувствия.",
+        "en": "I believe that the poor deserve our sympathy."
+      },
+      "dimension": "empathic-concern"
+    },
+    {
+      "id": "q36",
+      "text": {
+        "ru": "Я редко задумываюсь о том, что чувствую.",
+        "en": "I rarely think about how I feel."
+      },
+      "dimension": "attending",
+      "reverse": true
+    },
+    {
+      "id": "q37",
+      "text": {
+        "ru": "Когда я счастлив(а), я этого не скрываю.",
+        "en": "I show my feelings when I'm happy."
+      },
+      "dimension": "pos-expressivity"
+    },
+    {
+      "id": "q38",
+      "text": {
+        "ru": "Мне трудно оставаться в плохом настроении, если люди вокруг счастливы.",
+        "en": "I find it hard to stay in a bad mood if the people around me are happy."
+      },
+      "dimension": "responsive-joy"
+    },
+    {
+      "id": "q39",
+      "text": {
+        "ru": "Я планирую свою жизнь логически.",
+        "en": "I plan my life logically."
+      },
+      "dimension": "decision",
+      "reverse": true
+    },
+    {
+      "id": "q40",
+      "text": {
+        "ru": "Как бы мне ни было плохо, я держу чувства при себе.",
+        "en": "I keep my feelings to myself, regardless of how unhappy I am."
+      },
+      "dimension": "neg-expressivity",
+      "reverse": true
+    },
+    {
+      "id": "q41",
+      "text": {
+        "ru": "Я сохраняю спокойствие даже в напряжённых ситуациях.",
+        "en": "I am calm even in tense situations."
+      },
+      "dimension": "responsive-distress",
+      "reverse": true
+    },
+    {
+      "id": "q42",
+      "text": {
+        "ru": "Я мало беспокоюсь о других.",
+        "en": "I feel little concern for others."
+      },
+      "dimension": "empathic-concern",
+      "reverse": true
+    },
+    {
+      "id": "q43",
+      "text": {
+        "ru": "Я редко анализирую свои эмоции.",
+        "en": "I rarely analyze my emotions."
+      },
+      "dimension": "attending",
+      "reverse": true
+    },
+    {
+      "id": "q44",
+      "text": {
+        "ru": "Мне трудно показать людям, что они мне небезразличны.",
+        "en": "I find it difficult showing people that I care about them."
+      },
+      "dimension": "pos-expressivity",
+      "reverse": true
+    },
+    {
+      "id": "q45",
+      "text": {
+        "ru": "Когда мне грустно, мне неприятно находиться среди счастливых людей.",
+        "en": "I dislike being around happy people when I'm feeling sad."
+      },
+      "dimension": "responsive-joy",
+      "reverse": true
+    },
+    {
+      "id": "q46",
+      "text": {
+        "ru": "Я считаю, что важные решения должны опираться на логические рассуждения.",
+        "en": "I believe important decisions should be based on logical reasoning."
+      },
+      "dimension": "decision",
+      "reverse": true
+    },
+    {
+      "id": "q47",
+      "text": {
+        "ru": "Мне трудно показать людям, что я на них злюсь.",
+        "en": "I find it difficult showing people that I'm angry with them."
+      },
+      "dimension": "neg-expressivity",
+      "reverse": true
+    },
+    {
+      "id": "q48",
+      "text": {
+        "ru": "События нелегко выбивают меня из колеи.",
+        "en": "I am not easily disturbed by events."
+      },
+      "dimension": "responsive-distress",
+      "reverse": true
+    },
+    {
+      "id": "q49",
+      "text": {
+        "ru": "Я не испытываю сочувствия к преступникам.",
+        "en": "I have no sympathy for criminals."
+      },
+      "dimension": "empathic-concern",
+      "reverse": true
+    },
+    {
+      "id": "q50",
+      "text": {
+        "ru": "Я плохо понимаю собственные чувства.",
+        "en": "I am not in touch with my feelings."
+      },
+      "dimension": "attending",
+      "reverse": true
+    },
+    {
+      "id": "q51",
+      "text": {
+        "ru": "Мне трудно проявлять нежность.",
+        "en": "I have difficulty showing affection."
+      },
+      "dimension": "pos-expressivity",
+      "reverse": true
+    },
+    {
+      "id": "q52",
+      "text": {
+        "ru": "Чужое счастье меня не трогает.",
+        "en": "I am unaffected by other people's happiness."
+      },
+      "dimension": "responsive-joy",
+      "reverse": true
+    },
+    {
+      "id": "q53",
+      "text": {
+        "ru": "Я слушаю разум, а не сердце.",
+        "en": "I listen to my brain rather than my heart."
+      },
+      "dimension": "decision",
+      "reverse": true
+    },
+    {
+      "id": "q54",
+      "text": {
+        "ru": "Как бы мне ни было страшно, я держу чувства при себе.",
+        "en": "I keep my feelings to myself, regardless of how scared I am."
+      },
+      "dimension": "neg-expressivity",
+      "reverse": true
+    },
+    {
+      "id": "q55",
+      "text": {
+        "ru": "Чужие страдания меня не задевают.",
+        "en": "I am unaffected by the suffering of others."
+      },
+      "dimension": "responsive-distress",
+      "reverse": true
+    },
+    {
+      "id": "q56",
+      "text": {
+        "ru": "Я свысока отношусь к любой слабости.",
+        "en": "I look down on any weakness."
+      },
+      "dimension": "empathic-concern",
+      "reverse": true
+    },
+    {
+      "id": "q57",
+      "text": {
+        "ru": "Я часто не обращаю внимания на свои чувства.",
+        "en": "I often ignore my feelings."
+      },
+      "dimension": "attending",
+      "reverse": true
+    },
+    {
+      "id": "q58",
+      "text": {
+        "ru": "Я держу радостные чувства при себе.",
+        "en": "I keep my happy feelings to myself."
+      },
+      "dimension": "pos-expressivity",
+      "reverse": true
+    },
+    {
+      "id": "q59",
+      "text": {
+        "ru": "Общее воодушевление редко меня захватывает.",
+        "en": "I rarely get caught up in the excitement."
+      },
+      "dimension": "responsive-joy",
+      "reverse": true
+    },
+    {
+      "id": "q60",
+      "text": {
+        "ru": "Я принимаю решения на основе фактов, а не чувств.",
+        "en": "I make decisions based on facts, not feelings."
+      },
+      "dimension": "decision",
+      "reverse": true
+    },
+    {
+      "id": "q61",
+      "text": {
+        "ru": "Я редко показываю свой гнев.",
+        "en": "I rarely show my anger."
+      },
+      "dimension": "neg-expressivity",
+      "reverse": true
+    },
+    {
+      "id": "q62",
+      "text": {
+        "ru": "Я редко плачу на грустных фильмах.",
+        "en": "I rarely cry during sad movies."
+      },
+      "dimension": "responsive-distress",
+      "reverse": true
+    },
+    {
+      "id": "q63",
+      "text": {
+        "ru": "Я не люблю вмешиваться в чужие проблемы.",
+        "en": "I don't like to get involved in other people's problems."
+      },
+      "dimension": "empathic-concern",
+      "reverse": true
+    },
+    {
+      "id": "q64",
+      "text": {
+        "ru": "Я редко замечаю свои эмоциональные реакции.",
+        "en": "I rarely notice my emotional reactions."
+      },
+      "dimension": "attending",
+      "reverse": true
+    },
+    {
+      "id": "q65",
+      "text": {
+        "ru": "Я не люблю детские дни рождения.",
+        "en": "I dislike children's birthday parties."
+      },
+      "dimension": "responsive-joy",
+      "reverse": true
+    },
+    {
+      "id": "q66",
+      "text": {
+        "ru": "Мне бы хотелось легче показывать свои негативные чувства.",
+        "en": "I wish I could more easily show my negative feelings."
+      },
+      "dimension": "neg-expressivity",
+      "reverse": true
+    },
+    {
+      "id": "q67",
+      "text": {
+        "ru": "В экстренных ситуациях я остаюсь спокойным (спокойной).",
+        "en": "I remain calm during emergencies."
+      },
+      "dimension": "responsive-distress",
+      "reverse": true
+    },
+    {
+      "id": "q68",
+      "text": {
+        "ru": "Я мало сочувствую безработным.",
+        "en": "I have little sympathy for the unemployed."
+      },
+      "dimension": "empathic-concern",
+      "reverse": true
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Ответы кодируются от 1 («совершенно неверно») до 5 («совершенно верно»). В обратных утверждениях балл переворачивается: 6 минус ответ. Балл по каждой из 7 шкал — среднее по её утверждениям (1–5). Уровни: 1,0–2,39 — низкий, 2,4–3,59 — средний, 3,6–5,0 — высокий. Общий балл и процентили не рассчитываются, так как опубликованных норм для этих шкал нет.",
+    "en": "Answers are coded 1 (very inaccurate) to 5 (very accurate). Reverse-keyed items are flipped: 6 minus the answer. Each of the 7 scale scores is the mean of its items (1–5). Bands: 1.0–2.39 low, 2.4–3.59 medium, 3.6–5.0 high. No total score or percentile is computed, because no published norms exist for these scales."
+  },
+  "resultIntro": {
+    "ru": "Эмоциональный интеллект — это не одна цифра, а набор навыков и склонностей. Здесь нет «правильного» профиля: у каждой комбинации свои сильные стороны. Посмотрите на свои семь граней.",
+    "en": "Emotional intelligence isn't one number but a set of skills and tendencies. There's no \"right\" profile — every combination has its strengths. Here are your seven facets."
+  }
+}

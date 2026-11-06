@@ -1,0 +1,397 @@
+{
+  "id": "empathy",
+  "category": "relationships",
+  "kind": "likert",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Торонтский опросник эмпатии (TEQ)",
+    "en": "Toronto Empathy Questionnaire (TEQ)"
+  },
+  "tagline": {
+    "ru": "Насколько глубоко вы чувствуете других людей?",
+    "en": "How deeply do you feel with other people?"
+  },
+  "description": {
+    "ru": "Короткий научный опросник, созданный в Университете Торонто на основе почти всех известных шкал эмпатии. Вы узнаете, насколько сильно откликаетесь на эмоции окружающих, как ваш результат соотносится с данными исследования, и получите советы, как развивать эмпатию и не выгорать от неё.",
+    "en": "A short research questionnaire built at the University of Toronto from nearly every major empathy scale. Find out how strongly you respond to other people's emotions, how you compare with the research sample, and get tips for growing empathy without burning out."
+  },
+  "emoji": "🤝",
+  "durationMin": 3,
+  "popularity": 3,
+  "tags": [
+    {
+      "ru": "эмпатия",
+      "en": "empathy"
+    },
+    {
+      "ru": "сочувствие",
+      "en": "compassion"
+    },
+    {
+      "ru": "отношения",
+      "en": "relationships"
+    },
+    {
+      "ru": "эмоции",
+      "en": "emotions"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что измеряет\n**Эмпатию как эмоциональный процесс**: способность «заражаться» чувствами других, замечать их эмоциональное состояние и откликаться на него заботой. Авторы опирались на представление об эмпатии как прежде всего эмоциональном, а не интеллектуальном явлении: это не столько умение анализировать чужие мысли, сколько способность чувствовать вместе с другим.\n\n### История\nТоронтский опросник эмпатии (Toronto Empathy Questionnaire, TEQ) создали Р. Натан Спренг, Мэри Маккиннон, Рэймонд Мар и Брайан Левин (Университет Торонто, 2009). Они провели факторный анализ ответов на пункты почти всех популярных опросников эмпатии того времени и выделили общий фактор, а затем отобрали 16 утверждений, которые лучше всего его отражают. Получилась короткая, одномерная и надёжная шкала, которую сегодня используют в психологии, медицине и нейронауке. Опросник валидирован также на китайском, чешском, турецком и других языках.\n\n### Как проводится и считается\n16 утверждений, частотная шкала: «никогда» (0), «редко» (1), «иногда» (2), «часто» (3), «всегда» (4). Восемь утверждений — обратные (2, 4, 7, 10, 11, 12, 14, 15). Итог — сумма, **0–64**.\n\n### Надёжность и валидность\n- Внутренняя согласованность α = 0,85–0,87 в трёх исследованиях; ретестовая надёжность r = 0,81 через ≈ 2 месяца (Spreng et al., 2009).\n- Сильная корреляция с «Коэффициентом эмпатии» (EQ) Барон-Коэна (r = 0,80) и отрицательная — с «Коэффициентом аутистического спектра» (r ≈ −0,30); положительные связи с тестом «Чтение мыслей по глазам» (r = 0,35) и задачей межличностного восприятия (r = 0,23).\n- В двух из трёх исследований женщины набирали больше мужчин (d = 0,63–0,73), в первом различий не было.\n\n### Нормы\nИсследование 1 (Spreng et al., 2009): **M = 44,54, SD = 7,70, N = 200** студентов Университета Торонто (средний возраст 18,8 года; 100 женщин и 100 мужчин). В исследованиях 2 и 3 средние были 47,27 (7,48) и 46,95 (7,47). Именно норма исследования 1 (сбалансированная по полу) используется для процентиля. Официальных пороговых значений нет; уровни на сайте построены вокруг среднего ± 1 SD.\n\n### Ограничения\n- Нормы получены на молодых студентах Канады; для других возрастов и культур уровни могут отличаться.\n- Самоотчёт: люди склонны видеть себя более эмпатичными, чем показывают поведенческие задачи.\n- Опросник измеряет в основном эмоциональную эмпатию и сочувствие; «когнитивная» эмпатия (понимание чужой точки зрения) отражена слабее.\n- Русский текст — авторский перевод для сайта; опубликованной валидированной русскоязычной адаптации TEQ мы не нашли.",
+    "en": "### What it measures\n**Empathy as an emotional process**: the capacity to catch other people's feelings, notice their emotional state and respond with care. The authors treated empathy primarily as an emotional rather than intellectual phenomenon — less about analysing others' thoughts, more about feeling with them.\n\n### History\nThe Toronto Empathy Questionnaire (TEQ) was developed by R. Nathan Spreng, Margaret McKinnon, Raymond Mar and Brian Levine at the University of Toronto (2009). They factor-analysed responses to items from nearly all popular empathy questionnaires of the time, identified the common factor, and chose the 16 statements that best captured it. The result is a short, unidimensional, reliable scale now used across psychology, medicine and neuroscience. It has also been validated in Chinese, Czech, Turkish and other languages.\n\n### Administration and scoring\n16 statements on a frequency scale: Never (0), Rarely (1), Sometimes (2), Often (3), Always (4). Eight items are reverse-scored (2, 4, 7, 10, 11, 12, 14, 15). Score = sum, **0–64**.\n\n### Reliability and validity\n- Internal consistency α = .85–.87 across three studies; test–retest r = .81 over ≈ 2 months (Spreng et al., 2009).\n- Strong correlation with Baron-Cohen's Empathy Quotient (r = .80) and negative correlation with the Autism-Spectrum Quotient (r ≈ −.30); positive links with the Reading the Mind in the Eyes Test (r = .35) and the Interpersonal Perception Task (r = .23).\n- In two of three studies women scored higher than men (d = .63–.73); in the first there was no difference.\n\n### Norms\nStudy 1 (Spreng et al., 2009): **M = 44.54, SD = 7.70, N = 200** University of Toronto undergraduates (mean age 18.8; 100 women, 100 men). Studies 2 and 3 had means of 47.27 (7.48) and 46.95 (7.47). The sex-balanced Study 1 norm is used for the percentile. There are no official cut-offs; the bands here are built around the mean ± 1 SD.\n\n### Limitations\n- Norms come from young Canadian students; other ages and cultures may differ.\n- Self-report: people tend to see themselves as more empathic than behavioural tasks show.\n- The TEQ mainly captures emotional empathy and sympathy; \"cognitive\" empathy (perspective-taking) is covered less.\n- The Russian text is this site's own translation; we found no published, validated Russian adaptation of the TEQ."
+  },
+  "sources": [
+    {
+      "citation": "Spreng, R. N., McKinnon, M. C., Mar, R. A., & Levine, B. (2009). The Toronto Empathy Questionnaire: Scale development and initial validation of a factor-analytic solution to multiple empathy measures. Journal of Personality Assessment, 91(1), 62–71.",
+      "doi": "10.1080/00223890802484381"
+    },
+    {
+      "citation": "Singer, T., & Klimecki, O. M. (2014). Empathy and compassion. Current Biology, 24(18), R875–R878.",
+      "doi": "10.1016/j.cub.2014.06.054"
+    },
+    {
+      "citation": "Psychometric analysis of the Czech version of the Toronto Empathy Questionnaire (peer-reviewed article; PubMed Central PMC8156475, PMID 34067852).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8156475"
+    },
+    {
+      "citation": "Validation of the Toronto Empathy Questionnaire (TEQ) among medical students in China: Analyses using three psychometric methods (peer-reviewed article; PubMed Central PMC7199516).",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7199516/"
+    }
+  ],
+  "license": "Freely available research scale: the complete item set and scoring key are printed in the open scientific literature (Spreng et al., 2009, Appendix) and the authors did not attach licensing restrictions or fees; the TEQ is routinely reproduced for research, clinical and educational use. It is not formally public domain, so cite Spreng et al. (2009) and, for paid/commercial products, confirm with the first author (R. Nathan Spreng). Russian wording is this site's own translation (no published validated Russian adaptation found).",
+  "instructions": {
+    "ru": "Ниже приведены утверждения о чувствах и поступках. Внимательно прочитайте каждое и отметьте, как часто вы чувствуете или ведёте себя так, как описано. Правильных и неправильных ответов нет, подвохов тоже — просто отвечайте как можно честнее.",
+    "en": "Below is a list of statements about feelings and behaviour. Please read each one carefully and rate how frequently you feel or act in the manner described. There are no right or wrong answers or trick questions — please answer as honestly as you can."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Никогда",
+        "en": "Never"
+      },
+      {
+        "ru": "Редко",
+        "en": "Rarely"
+      },
+      {
+        "ru": "Иногда",
+        "en": "Sometimes"
+      },
+      {
+        "ru": "Часто",
+        "en": "Often"
+      },
+      {
+        "ru": "Всегда",
+        "en": "Always"
+      }
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "empathy",
+      "name": {
+        "ru": "Эмпатия",
+        "en": "Empathy"
+      },
+      "description": {
+        "ru": "Способность чувствовать эмоции других людей, замечать их состояние и откликаться заботой.",
+        "en": "Your capacity to feel others' emotions, notice their state and respond with care."
+      },
+      "lowLabel": {
+        "ru": "сдержанный отклик",
+        "en": "reserved response"
+      },
+      "highLabel": {
+        "ru": "глубокое сопереживание",
+        "en": "deep feeling-with"
+      },
+      "color": "#C9E4C5",
+      "scoring": "sum",
+      "min": 0,
+      "max": 64,
+      "norms": {
+        "mean": 44.54,
+        "sd": 7.7,
+        "n": 200,
+        "population": "University of Toronto undergraduates (Study 1; 100 women, 100 men; mean age 18.8)",
+        "source": "Spreng et al. (2009), J Pers Assess 91(1), 62–71, Table 3"
+      },
+      "bands": [
+        {
+          "min": 0,
+          "max": 36,
+          "label": {
+            "ru": "Сдержанная эмпатия",
+            "en": "Reserved empathy"
+          },
+          "summary": [
+            {
+              "ru": "Чужие эмоции редко захватывают вас целиком",
+              "en": "Other people's emotions rarely sweep you up"
+            },
+            {
+              "ru": "Вы скорее опираетесь на логику, чем на сопереживание",
+              "en": "You lean on logic more than on feeling-with"
+            },
+            {
+              "ru": "В трудных ситуациях сохраняете холодную голову",
+              "en": "You keep a cool head in emotional situations"
+            },
+            {
+              "ru": "Ниже, чем у большинства людей в исследовании",
+              "en": "Lower than most people in the study"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат ниже среднего: эмоции других людей не так сильно на вас влияют. Это может быть особенностью темперамента, следствием усталости и выгорания или привычкой держать чувства на расстоянии. Плюс такой позиции — устойчивость: вы не «тонете» в чужих переживаниях и можете действовать хладнокровно там, где другим трудно. Минус — близкие люди иногда могут чувствовать, что их не до конца слышат.\n\n**Что может помочь.** Эмпатия — во многом навык, и её можно тренировать. Попробуйте в разговоре задавать себе вопрос: «Что сейчас чувствует этот человек и что ему нужно — совет или просто поддержка?». Практикуйте активное слушание: перескажите своими словами, что вы услышали, и назовите эмоцию («похоже, ты очень расстроен(а)»). Художественная литература и кино тоже развивают способность понимать других. Если вы замечаете, что раньше сопереживали сильнее, а сейчас чувствуете пустоту, — это может быть признаком выгорания, и стоит позаботиться об отдыхе.",
+            "en": "Your score is below average: other people's emotions don't affect you very strongly. This may reflect temperament, tiredness and burnout, or a habit of keeping feelings at arm's length. The upside is steadiness — you don't drown in others' distress and can act calmly where others struggle. The downside is that people close to you may sometimes feel not fully heard.\n\n**What can help.** Empathy is largely a skill, and it can be trained. In conversations, ask yourself: \"What is this person feeling, and what do they need — advice or just support?\" Practise active listening: reflect back what you heard and name the emotion (\"sounds like you're really upset\"). Fiction and film also build the ability to understand others. If you notice you used to feel more for others and now feel numb, that can be a sign of burnout — make room for rest."
+          }
+        },
+        {
+          "min": 37,
+          "max": 44,
+          "label": {
+            "ru": "Умеренная эмпатия",
+            "en": "Moderate empathy"
+          },
+          "summary": [
+            {
+              "ru": "Вы замечаете чувства других и откликаетесь на них",
+              "en": "You notice others' feelings and respond to them"
+            },
+            {
+              "ru": "Сопереживание не мешает вам сохранять границы",
+              "en": "Empathy doesn't override your boundaries"
+            },
+            {
+              "ru": "Около среднего уровня",
+              "en": "Around the average"
+            },
+            {
+              "ru": "Ваш отклик зависит от ситуации и близости человека",
+              "en": "How much you respond depends on the situation and the person"
+            }
+          ],
+          "detailed": {
+            "ru": "У вас уровень эмпатии, близкий к среднему. Вы видите, когда кому-то плохо, сочувствуете и готовы помочь, но при этом не растворяетесь в чужих эмоциях. Скорее всего, сильнее всего вы откликаетесь на близких людей и на явную несправедливость, а в повседневной суете можете не всегда замечать тонкие сигналы.\n\n**Как развивать.** Обращайте внимание на невербальные сигналы — тон голоса, позу, паузы: они часто говорят больше слов. Перед тем как дать совет, спросите: «Хочешь, я просто выслушаю?». Хороший способ углубить эмпатию — любопытство: задавайте открытые вопросы и интересуйтесь, как человек видит ситуацию со своей стороны.",
+            "en": "Your empathy is close to average. You notice when someone is struggling, feel for them and want to help, without dissolving into their emotions. You probably respond most strongly to people close to you and to obvious injustice, while subtle signals may slip past in everyday bustle.\n\n**Growing it.** Pay attention to nonverbal cues — tone of voice, posture, pauses: they often say more than words. Before giving advice, ask, \"Would you like me to just listen?\" Curiosity is a great way to deepen empathy: ask open questions and explore how the other person sees things from their side."
+          }
+        },
+        {
+          "min": 45,
+          "max": 52,
+          "label": {
+            "ru": "Эмпатия выше среднего",
+            "en": "Above-average empathy"
+          },
+          "summary": [
+            {
+              "ru": "Вы тонко чувствуете настроение людей",
+              "en": "You're finely tuned to people's moods"
+            },
+            {
+              "ru": "Чужая радость и боль заметно отзываются в вас",
+              "en": "Others' joy and pain resonate strongly in you"
+            },
+            {
+              "ru": "Вам естественно поддерживать и защищать",
+              "en": "Supporting and protecting others comes naturally"
+            },
+            {
+              "ru": "Выше, чем у большинства участников исследования",
+              "en": "Higher than most people in the study"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат выше среднего: вы хорошо считываете эмоции других, искренне сопереживаете и хотите помочь. Люди, вероятно, часто делятся с вами переживаниями — рядом с вами они чувствуют, что их понимают. Высокая эмпатия связана с более тёплыми отношениями, просоциальным поведением и умением работать с людьми.\n\n**На что обратить внимание.** Сопереживание — ценный дар, но ему нужна опора. Учитесь различать сочувствие (я понимаю и забочусь) и эмоциональное заражение (мне так же плохо, как тебе): первое поддерживает, второе истощает. Заботьтесь о своих ресурсах и не бойтесь говорить «сейчас у меня нет сил, давай поговорим позже».",
+            "en": "Your score is above average: you read others' emotions well, genuinely feel for them and want to help. People probably often confide in you — around you they feel understood. High empathy goes with warmer relationships, prosocial behaviour and strong people skills.\n\n**Worth keeping in mind.** Empathy is a gift, but it needs grounding. Learn to tell compassion (I understand and I care) from emotional contagion (I feel as bad as you do): the first sustains you, the second drains you. Look after your own resources and don't be afraid to say, \"I don't have the energy right now — can we talk later?\""
+          }
+        },
+        {
+          "min": 53,
+          "max": 64,
+          "label": {
+            "ru": "Высокая эмпатия",
+            "en": "High empathy"
+          },
+          "summary": [
+            {
+              "ru": "Вы очень глубоко чувствуете других людей",
+              "en": "You feel other people very deeply"
+            },
+            {
+              "ru": "Замечаете эмоции даже без слов",
+              "en": "You pick up emotions even without words"
+            },
+            {
+              "ru": "Несправедливость и чужая боль задевают вас сильно",
+              "en": "Injustice and others' pain hit you hard"
+            },
+            {
+              "ru": "Важно беречь себя от эмоционального выгорания",
+              "en": "Protecting yourself from empathic burnout matters"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы набрали очень высокий балл: чужие эмоции отзываются в вас ярко и сильно, вы легко «настраиваетесь» на других и часто первым(-ой) приходите на помощь. Это делает вас прекрасным другом, партнёром и специалистом в помогающих профессиях.\n\n**Как беречь себя.** У высокой эмпатии есть обратная сторона — эмпатический дистресс, когда чужая боль становится вашей и истощает. Исследования показывают, что практики сострадания (желать другому добра и действовать, а не только переживать) помогают помогать без выгорания. Отслеживайте свои границы: вы не обязаны решать все чужие проблемы. Регулярно восстанавливайтесь — сон, движение, время наедине с собой, общение с теми, кто поддерживает вас самих.",
+            "en": "You scored very high: other people's emotions resonate in you vividly, you tune in to others easily, and you're often first to help. That makes you a wonderful friend, partner and professional in helping fields.\n\n**Looking after yourself.** High empathy has a flip side — empathic distress, when another's pain becomes your own and wears you down. Research suggests compassion practices (wishing others well and acting, not just feeling) help you help without burning out. Watch your boundaries: you don't have to fix everyone's problems. Recharge regularly — sleep, movement, time alone, and people who support you, too."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Когда кто-то рядом радостно взволнован, я тоже заражаюсь этим волнением",
+        "en": "When someone else is feeling excited, I tend to get excited too"
+      },
+      "dimension": "empathy"
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Чужие несчастья не особенно меня беспокоят",
+        "en": "Other people's misfortunes do not disturb me a great deal"
+      },
+      "dimension": "empathy",
+      "reverse": true
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Меня огорчает, когда я вижу, что с кем-то обращаются неуважительно",
+        "en": "It upsets me to see someone being treated disrespectfully"
+      },
+      "dimension": "empathy"
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Я остаюсь равнодушным (равнодушной), когда близкий мне человек счастлив",
+        "en": "I remain unaffected when someone close to me is happy"
+      },
+      "dimension": "empathy",
+      "reverse": true
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Мне нравится помогать другим почувствовать себя лучше",
+        "en": "I enjoy making other people feel better"
+      },
+      "dimension": "empathy"
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Я испытываю нежность и участие к тем, кому повезло меньше, чем мне",
+        "en": "I have tender, concerned feelings for people less fortunate than me"
+      },
+      "dimension": "empathy"
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Когда друг начинает рассказывать о своих проблемах, я стараюсь перевести разговор на другую тему",
+        "en": "When a friend starts to talk about his/her problems, I try to steer the conversation towards something else"
+      },
+      "dimension": "empathy",
+      "reverse": true
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Я могу понять, что человеку грустно, даже если он ничего об этом не говорит",
+        "en": "I can tell when others are sad even when they do not say anything"
+      },
+      "dimension": "empathy"
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Я замечаю, что нахожусь «на одной волне» с настроением других людей",
+        "en": "I find that I am \"in tune\" with other people's moods"
+      },
+      "dimension": "empathy"
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Я не сочувствую людям, которые сами довели себя до серьёзной болезни",
+        "en": "I do not feel sympathy for people who cause their own serious illnesses"
+      },
+      "dimension": "empathy",
+      "reverse": true
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Меня раздражает, когда кто-то плачет",
+        "en": "I become irritated when someone cries"
+      },
+      "dimension": "empathy",
+      "reverse": true
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Мне не особенно интересно, что чувствуют другие люди",
+        "en": "I am not really interested in how other people feel"
+      },
+      "dimension": "empathy",
+      "reverse": true
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Когда я вижу расстроенного человека, мне очень хочется помочь",
+        "en": "I get a strong urge to help when I see someone who is upset"
+      },
+      "dimension": "empathy"
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Когда я вижу, что с кем-то поступают несправедливо, я не испытываю к нему особой жалости",
+        "en": "When I see someone being treated unfairly, I do not feel very much pity for them"
+      },
+      "dimension": "empathy",
+      "reverse": true
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Мне кажется глупым, когда люди плачут от счастья",
+        "en": "I find it silly for people to cry out of happiness"
+      },
+      "dimension": "empathy",
+      "reverse": true
+    },
+    {
+      "id": "q16",
+      "text": {
+        "ru": "Когда я вижу, что кем-то пользуются, мне хочется его защитить",
+        "en": "When I see someone being taken advantage of, I feel kind of protective towards him/her"
+      },
+      "dimension": "empathy"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Ответы кодируются: «никогда» = 0, «редко» = 1, «иногда» = 2, «часто» = 3, «всегда» = 4. В обратных утверждениях (2, 4, 7, 10, 11, 12, 14, 15) балл переворачивается: 4 минус ответ. Итог — сумма по 16 утверждениям, от 0 до 64. Процентиль рассчитан по нормальному распределению с M = 44,54 и SD = 7,70 (Spreng et al., 2009, исследование 1).",
+    "en": "Answers are coded Never = 0, Rarely = 1, Sometimes = 2, Often = 3, Always = 4. Reverse-keyed items (2, 4, 7, 10, 11, 12, 14, 15) are flipped: 4 minus the answer. Your score is the sum of all 16 items, 0–64. The percentile assumes a normal distribution with M = 44.54 and SD = 7.70 (Spreng et al., 2009, Study 1)."
+  },
+  "resultIntro": {
+    "ru": "Эмпатия — это способность почувствовать мир глазами другого человека. Её уровень зависит и от характера, и от опыта, и даже от того, насколько вы сейчас устали. Вот ваш результат.",
+    "en": "Empathy is the ability to feel the world through someone else's eyes. It depends on temperament, experience and even how tired you are right now. Here's your result."
+  }
+}

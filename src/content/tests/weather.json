@@ -1,0 +1,2610 @@
+{
+  "id": "weather",
+  "category": "fun",
+  "kind": "choice",
+  "seriousness": "fun",
+  "title": {
+    "ru": "Какая ты погода?",
+    "en": "What Kind of Weather Are You?"
+  },
+  "tagline": {
+    "ru": "Гроза, туман или северное сияние? Узнай свой эмоциональный прогноз",
+    "en": "Thunderstorm, fog or northern lights? Get your emotional forecast"
+  },
+  "description": {
+    "ru": "Психологи описывают эмоции через два главных параметра — насколько чувство приятное и насколько оно заряжено энергией. Мы добавили к ним тепло, постоянство и загадочность, собрали 15 жизненных ситуаций — и составили твой личный прогноз погоды.",
+    "en": "Psychologists map emotions on two core axes — how pleasant a feeling is and how energized it is. We added warmth, steadiness and mystery, wrote 15 everyday situations — and put together your personal weather forecast."
+  },
+  "emoji": "🌦️",
+  "durationMin": 4,
+  "popularity": 3,
+  "tags": [
+    {
+      "ru": "эмоции",
+      "en": "emotions"
+    },
+    {
+      "ru": "настроение",
+      "en": "mood"
+    },
+    {
+      "ru": "погода",
+      "en": "weather"
+    },
+    {
+      "ru": "весёлые тесты",
+      "en": "fun quizzes"
+    }
+  ],
+  "methodology": {
+    "ru": "## На чём основан тест\n\n- **Циркумплексная модель аффекта.** Russell (1980, *Journal of Personality and Social Psychology*) показал, что эмоции удобно располагать на круге с двумя осями: **валентность** (приятно — неприятно) и **возбуждение** (энергично — спокойно). Радость лежит в зоне «приятно и энергично», безмятежность — «приятно и спокойно», злость и тревога — «неприятно и энергично», грусть и скука — «неприятно и спокойно». Шкалы «Свет» (V) и «Энергия» (R) в тесте — это и есть эти две оси.\n- **Погода влияет на настроение меньше, чем кажется.** Denissen и коллеги (2008, *Emotion*, N = 1233, онлайн-дневники) нашли, что погода объясняет совсем немного в ежедневном настроении: самые крупные коэффициенты были около |0,07|. Солнце было связано с меньшей усталостью, но люди сильно различались по чувствительности к погоде.\n- **Типы реакций на погоду.** Klimstra и коллеги (2011, *Emotion*; 497 подростков и их мамы, 30 дней дневников) выделили четыре типа: «любители лета», «ненавистники лета», «ненавистники дождя» и «невозмутимые». Невозмутимых было почти половина — 48%, по пересказу CurrentResults. Тип реакции частично совпадал у детей и матерей.\n- **Хорошая погода помогает, если выйти на улицу.** Keller и коллеги (2005, *Psychological Science*): тёплая солнечная весенняя погода улучшала настроение и широту мышления, но только у тех, кто проводил время на улице.\n- **Погода и удовлетворённость жизнью.** Lucas и Lawless (2013, *JPSP*; данные более миллиона американцев) показали, что погода в день опроса почти не меняет оценку жизни в целом.\n- **Сезонность всерьёз.** Сезонное аффективное расстройство описано Rosenthal и коллегами (1984). Это клиническое состояние, а не «тип погоды», поэтому тест его не оценивает (см. дисклеймер).\n\nМетафора «человек = погода» использует эти идеи образно: у каждой погоды есть «эмоциональная температура» (валентность), «скорость ветра» (возбуждение), а также тепло, постоянство и загадочность.\n\n## Как работает тест\n\n1. 15 оригинальных ситуационных вопросов, 5–6 вариантов в каждом.\n2. Ответы дают баллы по пяти шкалам: V, R, W, S, O.\n3. Суммы нормируются к 0–1 и сравниваются с профилями 12 погод; побеждает ближайшая.\n4. Калибровка на 120 000 симулированных случайных прохождений. Доля каждого результата:\n\n- ⛈️ Гроза: 8.1%\n- ☀️ Солнечный день: 9.0%\n- 🌫️ Туман: 8.1%\n- ❄️ Снегопад: 7.9%\n- 🌧️ Тёплый летний дождь: 8.3%\n- 🌌 Северное сияние: 8.2%\n- 🌈 Радуга: 8.0%\n- 🌨️ Метель: 8.9%\n- 🧊 Ясное морозное утро: 8.1%\n- ☁️ Пасмурный уютный день: 8.6%\n- 🔥 Жаркий июльский полдень: 7.7%\n- 🍃 Весенний ветер: 9.1%\n\nТакже проверено, что «персонаж», последовательно отвечающий в духе погоды, получает именно её.\n\n## Ограничения\n\nТест не валидирован. Шкалы V и R опираются на реальную модель эмоций, но вопросы спрашивают о привычных реакциях, а не о текущем настроении. Поэтому это скорее «эмоциональный стиль», чем замер аффекта.",
+    "en": "## What this quiz is based on\n\n- **The circumplex model of affect.** Russell (1980, *Journal of Personality and Social Psychology*) showed that emotions can be arranged on a circle with two axes: **valence** (pleasant–unpleasant) and **arousal** (activated–calm). Joy is pleasant and activated, serenity pleasant and calm, anger and anxiety unpleasant and activated, sadness and boredom unpleasant and calm. Our ‘Light’ (V) and ‘Energy’ (R) scales are those two axes.\n- **Weather affects mood less than we think.** Denissen and colleagues (2008, *Emotion*, N = 1,233 online diaries) found weather explained very little day-to-day mood variance (largest coefficients around |.07|). Sunlight was linked to less tiredness, and people differed a lot in how sensitive they were to weather.\n- **Weather reactivity types.** Klimstra and colleagues (2011, *Emotion*; 497 adolescents and their mothers, 30 days of diaries) identified four types: Summer Lovers, Summer Haters, Rain Haters and Unaffected. Almost half — 48%, according to a CurrentResults summary — were Unaffected. Types partly ran in families.\n- **Nice weather helps if you go outside.** Keller and colleagues (2005, *Psychological Science*): warm, sunny spring weather improved mood and broadened thinking — but only for people who spent time outdoors.\n- **Weather and life satisfaction.** Lucas & Lawless (2013, *JPSP*, data from over a million Americans) found that the weather on the day of a survey barely moves people's ratings of their life overall.\n- **Seasonality, seriously.** Seasonal affective disorder was described by Rosenthal and colleagues (1984). It's a clinical condition, not a ‘weather type’, so this quiz does not assess it (see disclaimer).\n\nThe ‘person = weather’ metaphor uses these ideas playfully: each weather has an ‘emotional temperature’ (valence) and a ‘wind speed’ (arousal), plus warmth, steadiness and mystery.\n\n## How the quiz works\n\n1. 15 original situational questions with 5–6 options each.\n2. Answers add points on five scales: V, R, W, S, O.\n3. Sums are rescaled to 0–1 and compared to 12 weather profiles; the nearest wins.\n4. Calibrated on 120,000 simulated random runs. Share of each result:\n\n- ⛈️ Thunderstorm: 8.1%\n- ☀️ Sunny Day: 9.0%\n- 🌫️ Fog: 8.1%\n- ❄️ Snowfall: 7.9%\n- 🌧️ Warm Summer Rain: 8.3%\n- 🌌 Northern Lights: 8.2%\n- 🌈 Rainbow: 8.0%\n- 🌨️ Blizzard: 8.9%\n- 🧊 Crisp Frosty Morning: 8.1%\n- ☁️ Cozy Overcast Day: 8.6%\n- 🔥 Hot July Noon: 7.7%\n- 🍃 Spring Wind: 9.1%\n\nWe also checked that a ‘persona’ answering consistently in the spirit of each weather gets that weather.\n\n## Limitations\n\nNot a validated instrument. V and R are grounded in a real model of emotion, but the questions ask about habitual reactions, not current mood — so this is an ‘emotional style’, not a measurement of affect."
+  },
+  "sources": [
+    {
+      "citation": "Russell, J. A. (1980). A circumplex model of affect. Journal of Personality and Social Psychology, 39(6), 1161–1178.",
+      "doi": "10.1037/h0077714"
+    },
+    {
+      "citation": "Denissen, J. J. A., Butalid, L., Penke, L., & van Aken, M. A. G. (2008). The effects of weather on daily mood: A multilevel approach. Emotion, 8(5), 662–667.",
+      "doi": "10.1037/a0013497"
+    },
+    {
+      "citation": "Klimstra, T. A., Frijns, T., Keijsers, L., Denissen, J. J. A., Raaijmakers, Q. A. W., van Aken, M. A. G., Koot, H. M., van Lier, P. A. C., & Meeus, W. H. J. (2011). Come rain or come shine: Individual differences in how weather affects mood. Emotion, 11(6), 1495–1499.",
+      "doi": "10.1037/a0024649"
+    },
+    {
+      "citation": "Keller, M. C., Fredrickson, B. L., Ybarra, O., Côté, S., Johnson, K., Mikels, J., Conway, A., & Wager, T. (2005). A warm heart and a clear head: The contingent effects of weather on mood and cognition. Psychological Science, 16(9), 724–731.",
+      "doi": "10.1111/j.1467-9280.2005.01602.x"
+    },
+    {
+      "citation": "Lucas, R. E., & Lawless, N. M. (2013). Does life seem better on a sunny day? Examining the association between daily weather conditions and life satisfaction judgments. Journal of Personality and Social Psychology, 104(5), 872–884.",
+      "doi": "10.1037/a0032124"
+    },
+    {
+      "citation": "Rosenthal, N. E., Sack, D. A., Gillin, J. C., Lewy, A. J., Goodwin, F. K., Davenport, Y., Mueller, P. S., Newsome, D. A., & Wehr, T. A. (1984). Seasonal affective disorder: A description of the syndrome and preliminary findings with light therapy. Archives of General Psychiatry, 41(1), 72–80.",
+      "doi": "10.1001/archpsyc.1984.01790120076010"
+    },
+    {
+      "citation": "CurrentResults (n.d.). What's your weather personality type? (summary of Klimstra et al., 2011).",
+      "url": "https://www.currentresults.com/Weather-Science/4-weather-mood-personality-types.php"
+    }
+  ],
+  "license": "Original content © testik. All questions, outcomes and texts were written from scratch for this site; no items are copied or adapted from copyrighted questionnaires or quiz sites. Scientific papers are cited only as inspiration.",
+  "disclaimer": {
+    "ru": "Развлекательный тест, а не оценка настроения или психического здоровья. Если осенью и зимой у тебя неделями держатся упадок сил, подавленность и сонливость, это может быть сезонное аффективное расстройство, и с ним стоит обратиться к врачу или психологу. В России можно позвонить на бесплатный телефон доверия 8-800-2000-122 (для детей и подростков) или 051 (Москва); за рубежом — на местную горячую линию (findahelpline.com).",
+    "en": "This is an entertainment quiz, not an assessment of mood or mental health. If low energy, low mood and oversleeping last for weeks in autumn and winter, it may be seasonal affective disorder — worth discussing with a doctor or therapist. Find a local helpline at findahelpline.com."
+  },
+  "instructions": {
+    "ru": "Отвечай так, как обычно реагируешь, а не так, как хотел(а) бы. В каждом вопросе — один вариант. Зонт не понадобится.",
+    "en": "Answer the way you usually react, not the way you wish you did. One option per question. No umbrella needed."
+  },
+  "dimensions": [
+    {
+      "id": "V",
+      "name": {
+        "ru": "Свет",
+        "en": "Light"
+      },
+      "description": {
+        "ru": "Насколько приятны твои привычные эмоции — от светлой грусти до сияющего оптимизма. Ось «валентность» из модели Рассела.",
+        "en": "How pleasant your habitual emotions are — from wistful to radiant. The valence axis of Russell's model."
+      },
+      "lowLabel": {
+        "ru": "Светлая грусть",
+        "en": "Wistful"
+      },
+      "highLabel": {
+        "ru": "Сияющий оптимизм",
+        "en": "Radiant optimism"
+      },
+      "color": "#FFE29A",
+      "scoring": "sum",
+      "min": -8,
+      "max": 20,
+      "bands": [
+        {
+          "min": -8,
+          "max": 2,
+          "label": {
+            "ru": "Светлая грусть",
+            "en": "Wistful"
+          },
+          "summary": [
+            {
+              "ru": "Видишь мир без розовых очков",
+              "en": "You see the world without rose-tinted glasses"
+            },
+            {
+              "ru": "Меланхолия как эстетика",
+              "en": "Melancholy as an aesthetic"
+            },
+            {
+              "ru": "Глубина вместо бодрости",
+              "en": "Depth over pep"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебе ближе задумчивые и сложные эмоции. Это не недостаток: умение быть с грустью делает тебя честным(ой) и глубоким(ой). Если серость затягивается на недели, поговори с кем-то — это важно.",
+            "en": "Pensive, complex feelings come naturally to you. That's not a flaw: being able to sit with sadness makes you honest and deep. If the grey lasts for weeks, talk to someone — it matters."
+          }
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "label": {
+            "ru": "Переменная облачность",
+            "en": "Partly cloudy"
+          },
+          "summary": [
+            {
+              "ru": "Бывает по-разному — и это нормально",
+              "en": "Some days sunny, some not — normal"
+            },
+            {
+              "ru": "Реалистичный оптимизм",
+              "en": "Realistic optimism"
+            },
+            {
+              "ru": "Умеешь радоваться без эйфории",
+              "en": "Joy without euphoria"
+            }
+          ],
+          "detailed": {
+            "ru": "У тебя сбалансированная палитра эмоций: ты радуешься, грустишь и возвращаешься в равновесие.",
+            "en": "Your emotional palette is balanced: you feel joy and sadness and return to equilibrium."
+          }
+        },
+        {
+          "min": 6,
+          "max": 20,
+          "label": {
+            "ru": "Сияющий оптимизм",
+            "en": "Radiant optimism"
+          },
+          "summary": [
+            {
+              "ru": "Видишь хорошее во всём",
+              "en": "See the good in everything"
+            },
+            {
+              "ru": "Заражаешь радостью",
+              "en": "Your joy is contagious"
+            },
+            {
+              "ru": "Быстро восстанавливаешься",
+              "en": "Bounce back fast"
+            }
+          ],
+          "detailed": {
+            "ru": "Позитивные эмоции — твой ресурс, и они помогают тебе и окружающим. Только не обесценивай чужую грусть: иногда людям нужен не лучик света, а просто плечо.",
+            "en": "Positive emotions are your resource, for you and others. Just don't brush off other people's sadness — sometimes they need a shoulder, not a sunbeam."
+          }
+        }
+      ]
+    },
+    {
+      "id": "R",
+      "name": {
+        "ru": "Энергия",
+        "en": "Energy"
+      },
+      "description": {
+        "ru": "Сила «ветра» внутри: как быстро ты реагируешь, насколько ярко проявляешь эмоции. Ось «возбуждение» из модели Рассела.",
+        "en": "Your inner wind speed: how fast you react and how vividly you show feelings. The arousal axis of Russell's model."
+      },
+      "lowLabel": {
+        "ru": "Штиль",
+        "en": "Calm"
+      },
+      "highLabel": {
+        "ru": "Шторм",
+        "en": "Storm"
+      },
+      "color": "#FFB7B2",
+      "scoring": "sum",
+      "min": -12,
+      "max": 23,
+      "bands": [
+        {
+          "min": -12,
+          "max": 2,
+          "label": {
+            "ru": "Штиль",
+            "en": "Calm"
+          },
+          "summary": [
+            {
+              "ru": "Спокойный темп",
+              "en": "Calm pace"
+            },
+            {
+              "ru": "Эмоции тихие, но глубокие",
+              "en": "Quiet but deep feelings"
+            },
+            {
+              "ru": "Любишь размеренность",
+              "en": "Love a steady rhythm"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты заряжаешься в тишине и редко «взрываешься». Хороший противовес суетливому миру.",
+            "en": "You recharge in quiet and rarely blow up — a welcome counterweight to a frantic world."
+          }
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "label": {
+            "ru": "Лёгкий ветер",
+            "en": "Breezy"
+          },
+          "summary": [
+            {
+              "ru": "Энергия по ситуации",
+              "en": "Energy as needed"
+            },
+            {
+              "ru": "Умеешь и зажечь, и затихнуть",
+              "en": "Can spark or settle"
+            },
+            {
+              "ru": "Гибкий темп",
+              "en": "Flexible pace"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты регулируешь свою энергию под обстоятельства — полезный навык.",
+            "en": "You adjust your energy to the moment — a useful skill."
+          }
+        },
+        {
+          "min": 6,
+          "max": 23,
+          "label": {
+            "ru": "Шторм",
+            "en": "Storm"
+          },
+          "summary": [
+            {
+              "ru": "Яркие реакции",
+              "en": "Vivid reactions"
+            },
+            {
+              "ru": "Много энергии",
+              "en": "Lots of energy"
+            },
+            {
+              "ru": "Скука невыносима",
+              "en": "Boredom is unbearable"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты живёшь на высоких оборотах: заражаешь драйвом, быстро решаешь. Не забывай о «штиле» — отдых делает бурю только сильнее.",
+            "en": "You run at high RPM — contagious drive, quick decisions. Don't skip the calm: rest makes the storm stronger."
+          }
+        }
+      ]
+    },
+    {
+      "id": "W",
+      "name": {
+        "ru": "Тепло",
+        "en": "Warmth"
+      },
+      "description": {
+        "ru": "Насколько твои эмоции направлены на людей: забота, утешение, объятия. Близко к доброжелательности.",
+        "en": "How much your emotions flow toward people: care, comfort, hugs. Akin to agreeableness."
+      },
+      "lowLabel": {
+        "ru": "Свежий холодок",
+        "en": "Crisp and independent"
+      },
+      "highLabel": {
+        "ru": "Тёплый фронт",
+        "en": "Warm front"
+      },
+      "color": "#FFDAC1",
+      "scoring": "sum",
+      "min": -12,
+      "max": 27,
+      "bands": [
+        {
+          "min": -12,
+          "max": 2,
+          "label": {
+            "ru": "Свежий холодок",
+            "en": "Crisp and independent"
+          },
+          "summary": [
+            {
+              "ru": "Ценишь независимость",
+              "en": "Value independence"
+            },
+            {
+              "ru": "Держишь дистанцию",
+              "en": "Keep some distance"
+            },
+            {
+              "ru": "Сначала разум, потом чувства",
+              "en": "Head first, then heart"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты самостоятелен(на) и не растворяешься в чужих эмоциях. Близким иногда важно услышать, что они тебе дороги, — скажи это словами.",
+            "en": "You're self-reliant and don't dissolve in others' emotions. Loved ones sometimes need to hear they matter — say it out loud."
+          }
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "label": {
+            "ru": "Умеренно тепло",
+            "en": "Mild"
+          },
+          "summary": [
+            {
+              "ru": "Заботишься, не теряя себя",
+              "en": "Care without losing yourself"
+            },
+            {
+              "ru": "Тепло по-своему",
+              "en": "Warm in your own way"
+            },
+            {
+              "ru": "Есть границы",
+              "en": "Have boundaries"
+            }
+          ],
+          "detailed": {
+            "ru": "У тебя здоровый баланс между заботой о других и о себе.",
+            "en": "You balance caring for others and yourself."
+          }
+        },
+        {
+          "min": 6,
+          "max": 27,
+          "label": {
+            "ru": "Тёплый фронт",
+            "en": "Warm front"
+          },
+          "summary": [
+            {
+              "ru": "Утешаешь всех",
+              "en": "Comfort everyone"
+            },
+            {
+              "ru": "Обнимашки — твой язык",
+              "en": "Hugs are your language"
+            },
+            {
+              "ru": "Чувствуешь чужое настроение",
+              "en": "Sense others' moods"
+            }
+          ],
+          "detailed": {
+            "ru": "Рядом с тобой тепло. Береги себя: даже самому тёплому фронту нужно где-то набираться солнца.",
+            "en": "It's warm around you. Look after yourself — even a warm front needs to soak up sun somewhere."
+          }
+        }
+      ]
+    },
+    {
+      "id": "S",
+      "name": {
+        "ru": "Постоянство",
+        "en": "Steadiness"
+      },
+      "description": {
+        "ru": "Насколько стабильно твоё настроение и предсказуемы реакции. Противоположный полюс — переменчивость (близко к высокому нейротизму).",
+        "en": "How stable your mood and predictable your reactions are. The opposite pole is changeability (akin to high neuroticism)."
+      },
+      "lowLabel": {
+        "ru": "Переменчивость",
+        "en": "Changeable"
+      },
+      "highLabel": {
+        "ru": "Устойчивый антициклон",
+        "en": "Stable high pressure"
+      },
+      "color": "#B5EAD7",
+      "scoring": "sum",
+      "min": -15,
+      "max": 24,
+      "bands": [
+        {
+          "min": -15,
+          "max": 0,
+          "label": {
+            "ru": "Переменчивость",
+            "en": "Changeable"
+          },
+          "summary": [
+            {
+              "ru": "Настроение меняется быстро",
+              "en": "Moods shift fast"
+            },
+            {
+              "ru": "Живо реагируешь",
+              "en": "React vividly"
+            },
+            {
+              "ru": "Любишь перемены",
+              "en": "Love change"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты чувствуешь мир остро и быстро меняешься. Это даёт гибкость и яркость. Ритуалы — сон, прогулка, любимый чай — помогают не уставать от собственных бурь.",
+            "en": "You feel the world intensely and shift quickly — that brings flexibility and color. Rituals like sleep, walks and a favorite tea keep your storms from wearing you out."
+          }
+        },
+        {
+          "min": 1,
+          "max": 4,
+          "label": {
+            "ru": "Сезонные колебания",
+            "en": "Seasonal swings"
+          },
+          "summary": [
+            {
+              "ru": "Обычно ровно, иногда штормит",
+              "en": "Mostly steady, sometimes stormy"
+            },
+            {
+              "ru": "Умеешь вернуться в баланс",
+              "en": "Return to balance"
+            },
+            {
+              "ru": "Гибкость + опора",
+              "en": "Flexibility plus grounding"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты в целом устойчив(а), но живо реагируешь на важное.",
+            "en": "You're generally steady but respond vividly to what matters."
+          }
+        },
+        {
+          "min": 5,
+          "max": 24,
+          "label": {
+            "ru": "Устойчивый антициклон",
+            "en": "Stable high pressure"
+          },
+          "summary": [
+            {
+              "ru": "Ровное настроение",
+              "en": "Even mood"
+            },
+            {
+              "ru": "Предсказуемость",
+              "en": "Predictability"
+            },
+            {
+              "ru": "Опора для других",
+              "en": "A rock for others"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты стабилен(на) и надёжен(на) — к тебе приходят «переждать бурю». Не забывай, что и тебе можно иногда раскиснуть.",
+            "en": "You're steady and reliable — people come to you to wait out storms. Remember you're allowed to fall apart sometimes too."
+          }
+        }
+      ]
+    },
+    {
+      "id": "O",
+      "name": {
+        "ru": "Загадочность",
+        "en": "Mystery"
+      },
+      "description": {
+        "ru": "Воображение, мечтательность, любовь к необычному. Близко к открытости опыту.",
+        "en": "Imagination, dreaminess, love of the unusual. Akin to openness to experience."
+      },
+      "lowLabel": {
+        "ru": "Ясно и понятно",
+        "en": "Clear skies"
+      },
+      "highLabel": {
+        "ru": "Туманная тайна",
+        "en": "Misty mystery"
+      },
+      "color": "#C7CEEA",
+      "scoring": "sum",
+      "min": -3,
+      "max": 26,
+      "bands": [
+        {
+          "min": -3,
+          "max": 4,
+          "label": {
+            "ru": "Ясно и понятно",
+            "en": "Clear skies"
+          },
+          "summary": [
+            {
+              "ru": "Прагматичность",
+              "en": "Pragmatic"
+            },
+            {
+              "ru": "Говоришь как есть",
+              "en": "Say it like it is"
+            },
+            {
+              "ru": "Реальность > фантазии",
+              "en": "Reality over fantasy"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты твёрдо стоишь на земле — ценное качество. Иногда позволяй себе помечтать без цели: это тоже отдых.",
+            "en": "You're grounded — a valuable trait. Let yourself daydream without purpose sometimes; it's rest too."
+          }
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "label": {
+            "ru": "Лёгкая дымка",
+            "en": "Light haze"
+          },
+          "summary": [
+            {
+              "ru": "Мечтаешь, но по делу",
+              "en": "Dream with purpose"
+            },
+            {
+              "ru": "Любопытство в меру",
+              "en": "Moderate curiosity"
+            },
+            {
+              "ru": "Баланс фантазии и логики",
+              "en": "Fantasy meets logic"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты сочетаешь воображение и практичность.",
+            "en": "You combine imagination with practicality."
+          }
+        },
+        {
+          "min": 8,
+          "max": 26,
+          "label": {
+            "ru": "Туманная тайна",
+            "en": "Misty mystery"
+          },
+          "summary": [
+            {
+              "ru": "Богатый внутренний мир",
+              "en": "Rich inner world"
+            },
+            {
+              "ru": "Любишь странное и красивое",
+              "en": "Love the strange and beautiful"
+            },
+            {
+              "ru": "Тебя сложно разгадать",
+              "en": "Hard to read"
+            }
+          ],
+          "detailed": {
+            "ru": "Твоё воображение — источник творчества. Делись им: люди хотят знать, что происходит в твоём тумане.",
+            "en": "Your imagination fuels creativity. Share it — people want to know what's going on in your fog."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Утро понедельника, звонит будильник. Ты…",
+        "en": "Monday morning, the alarm goes off. You…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вскакиваю с первого раза — уже придумал(а), как сделать этот день",
+            "en": "Jump up on the first ring — I've already planned how to make today great"
+          },
+          "scores": {
+            "R": 2,
+            "V": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Пять раз жму «ещё 5 минут» и смотрю в потолок, размышляя о бренности бытия",
+            "en": "Hit snooze five times and stare at the ceiling contemplating the fleeting nature of existence"
+          },
+          "scores": {
+            "R": -1,
+            "O": 1,
+            "V": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Встаю в 6:30, как всегда. Будильник — для подстраховки",
+            "en": "Get up at 6:30 like always. The alarm is just a backup"
+          },
+          "scores": {
+            "S": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу в общий чат «доброе утро, котики ☀️»",
+            "en": "Text the group chat ‘good morning, sunshines ☀️’"
+          },
+          "scores": {
+            "W": 2,
+            "V": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Просыпаюсь от того, что мне приснился гениальный сюжет, и записываю его",
+            "en": "Wake up from a dream with a genius plot and write it down"
+          },
+          "scores": {
+            "O": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Злюсь на будильник, на понедельник и на мироздание. Но встаю",
+            "en": "Rage at the alarm, at Monday and at the universe. But I get up"
+          },
+          "scores": {
+            "R": 1,
+            "V": -1,
+            "S": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Друг отменил встречу за час до неё.",
+        "en": "A friend cancels plans an hour before."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Ничего страшного! Значит, у меня свободный вечер — ура",
+            "en": "No problem! A free evening — yay"
+          },
+          "scores": {
+            "V": 2,
+            "S": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Ок». Внутри — маленький ураган, снаружи — «без проблем»",
+            "en": "‘Ok.’ Inside: a small hurricane. Outside: ‘no worries’"
+          },
+          "scores": {
+            "S": -1,
+            "R": 1,
+            "V": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Спрашиваю, всё ли у него в порядке, и предлагаю привезти суп",
+            "en": "Ask if they're okay and offer to bring soup"
+          },
+          "scores": {
+            "W": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Иду гулять одна(один) по вечерним улицам и думаю о жизни",
+            "en": "Go for a solo evening walk and think about life"
+          },
+          "scores": {
+            "O": 1,
+            "R": -1,
+            "W": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Спокойно переносим. У меня всё равно было чем заняться",
+            "en": "Calmly reschedule. I had other things to do anyway"
+          },
+          "scores": {
+            "S": 2,
+            "R": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Какая музыка чаще всего играет у тебя в голове?",
+        "en": "What music plays in your head most often?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Что-то громкое и драйвовое — чтобы хотелось бежать",
+            "en": "Something loud and driving — makes me want to run"
+          },
+          "scores": {
+            "R": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Эмбиент, лоу-фай и звук дождя",
+            "en": "Ambient, lo-fi and the sound of rain"
+          },
+          "scores": {
+            "R": -1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Песня из рекламы. Уже третий день",
+            "en": "A jingle from a commercial. Day three"
+          },
+          "scores": {
+            "S": 1,
+            "O": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Весёлый поп, под который невозможно не подпевать",
+            "en": "Happy pop you can't help singing along to"
+          },
+          "scores": {
+            "V": 2,
+            "W": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Драматичная классика: то тихо, то ВНЕЗАПНО ГРОМКО",
+            "en": "Dramatic classical: quiet, then SUDDENLY LOUD"
+          },
+          "scores": {
+            "S": -2,
+            "R": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Эпичный саундтрек к фильму, которого не существует (режиссёр — я)",
+            "en": "An epic soundtrack to a movie that doesn't exist (directed by me)"
+          },
+          "scores": {
+            "O": 2,
+            "R": 1,
+            "W": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Как ты обычно злишься?",
+        "en": "How do you usually get angry?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Быстро и громко — и через 10 минут уже всё прошло",
+            "en": "Fast and loud — and ten minutes later it's over"
+          },
+          "scores": {
+            "R": 2,
+            "S": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Холодно и долго: ледяной взгляд, короткие ответы",
+            "en": "Cold and long: an icy stare and one-word answers"
+          },
+          "scores": {
+            "W": -2,
+            "S": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Почти никогда — не вижу смысла тратить на это силы",
+            "en": "Almost never — not worth the energy"
+          },
+          "scores": {
+            "S": 1,
+            "V": 1,
+            "R": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Молча ухожу в себя, и меня никто не может найти",
+            "en": "Retreat inward silently; nobody can find me"
+          },
+          "scores": {
+            "O": 1,
+            "W": -1,
+            "R": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Злюсь, потом плачу, потом извиняюсь и всех обнимаю",
+            "en": "Get mad, then cry, then apologize and hug everyone"
+          },
+          "scores": {
+            "W": 2,
+            "S": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Идеальный выходной?",
+        "en": "Your ideal day off?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Пикник с большой компанией на солнце",
+            "en": "A sunny picnic with a big group"
+          },
+          "scores": {
+            "V": 1,
+            "W": 1,
+            "R": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Дома: плед, чай, сериал — и пусть за окном хоть что",
+            "en": "At home: blanket, tea, a show — whatever's happening outside"
+          },
+          "scores": {
+            "R": -2,
+            "S": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Спонтанная поездка с друзьями — куда, решим на вокзале",
+            "en": "A spontaneous trip with friends — we'll pick where at the station"
+          },
+          "scores": {
+            "S": -1,
+            "R": 1,
+            "O": 1,
+            "W": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Поход в горы в одиночку, чтобы проверить себя",
+            "en": "A solo mountain hike to test myself"
+          },
+          "scores": {
+            "R": 1,
+            "W": -1,
+            "S": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ночная прогулка: звёзды, огни и философские разговоры",
+            "en": "A night walk: stars, lights and philosophical talk"
+          },
+          "scores": {
+            "O": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Помогать бабушке на даче, а потом пить чай на веранде",
+            "en": "Help grandma in her garden, then tea on the porch"
+          },
+          "scores": {
+            "W": 2,
+            "S": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Друзья говорят, что ты…",
+        "en": "Friends say you're…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "…как батарейка: зарядишь кого угодно",
+            "en": "…a battery: you can charge up anyone"
+          },
+          "scores": {
+            "R": 2,
+            "V": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "…загадка: вроде знаем тебя, а вроде и нет",
+            "en": "…a mystery: they know you, but also don't"
+          },
+          "scores": {
+            "O": 2,
+            "W": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "…надёжный(ая), как швейцарские часы",
+            "en": "…as reliable as a Swiss watch"
+          },
+          "scores": {
+            "S": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "…самый тёплый человек на свете",
+            "en": "…the warmest person in the world"
+          },
+          "scores": {
+            "W": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "…непредсказуемый(ая): никто не знает, что ты выкинешь",
+            "en": "…unpredictable: nobody knows what you'll do next"
+          },
+          "scores": {
+            "S": -2,
+            "R": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "…генератор идей: с тобой каждый день — новое приключение",
+            "en": "…an idea generator: every day with you is a new adventure"
+          },
+          "scores": {
+            "O": 1,
+            "R": 1,
+            "W": 1,
+            "V": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Какой цвет тебе ближе всего?",
+        "en": "Which color feels most like you?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Солнечно-жёлтый",
+            "en": "Sunshine yellow"
+          },
+          "scores": {
+            "V": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Глубокий фиолетовый или изумрудный",
+            "en": "Deep violet or emerald"
+          },
+          "scores": {
+            "O": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Серебристо-белый",
+            "en": "Silvery white"
+          },
+          "scores": {
+            "S": 1,
+            "W": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тёплый персиковый",
+            "en": "Warm peach"
+          },
+          "scores": {
+            "W": 1,
+            "V": 1,
+            "R": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Чёрно-синий, как небо перед бурей",
+            "en": "Blue-black, like the sky before a storm"
+          },
+          "scores": {
+            "R": 1,
+            "V": -1,
+            "S": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Серый — он подходит ко всему",
+            "en": "Grey — goes with everything"
+          },
+          "scores": {
+            "S": 1,
+            "R": -1,
+            "O": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Тебе пишут: «Нам надо поговорить». Первая мысль?",
+        "en": "Someone texts: ‘We need to talk.’ First thought?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "О нет. Перебираю все свои грехи с 2009 года",
+            "en": "Oh no. Reviewing all my sins since 2009"
+          },
+          "scores": {
+            "V": -1,
+            "S": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Наверное, хорошие новости! Может, сюрприз?",
+            "en": "Probably good news! A surprise, maybe?"
+          },
+          "scores": {
+            "V": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Сразу перезваниваю — человеку, видимо, нужна поддержка",
+            "en": "Call right back — they probably need support"
+          },
+          "scores": {
+            "W": 2,
+            "R": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Отвечаю: «Давай. Когда?» — и спокойно жду",
+            "en": "Reply ‘Sure. When?’ and wait calmly"
+          },
+          "scores": {
+            "S": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Сочиняю в голове 12 сценариев, включая инопланетян",
+            "en": "Invent 12 scenarios in my head, including aliens"
+          },
+          "scores": {
+            "O": 2,
+            "S": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Как ты относишься к переменам?",
+        "en": "How do you feel about change?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Обожаю! Перемены — моя стихия",
+            "en": "Love it! Change is my element"
+          },
+          "scores": {
+            "S": -2,
+            "V": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Нужны, но аккуратно и по плану",
+            "en": "Necessary — carefully and with a plan"
+          },
+          "scores": {
+            "S": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Сначала страшно, но после них я всегда расцветаю",
+            "en": "Scary at first, but I always bloom afterward"
+          },
+          "scores": {
+            "V": 1,
+            "S": -1,
+            "W": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Я сам(а) их устраиваю — и иногда это ураган",
+            "en": "I'm the one who causes them — sometimes it's a hurricane"
+          },
+          "scores": {
+            "R": 2,
+            "S": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Всё меняется, а я наблюдаю и запоминаю",
+            "en": "Everything changes; I watch and remember"
+          },
+          "scores": {
+            "O": 1,
+            "R": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Что ты делаешь на шумной вечеринке?",
+        "en": "What do you do at a loud party?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Танцую в центре и заражаю всех энергией",
+            "en": "Dance in the middle and energize everyone"
+          },
+          "scores": {
+            "R": 2,
+            "V": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Нахожу того, кому грустно, и сижу с ним на кухне",
+            "en": "Find whoever's sad and sit with them in the kitchen"
+          },
+          "scores": {
+            "W": 2,
+            "R": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Стою у окна и сочиняю историю про каждого гостя",
+            "en": "Stand by the window inventing a backstory for every guest"
+          },
+          "scores": {
+            "O": 2,
+            "W": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ухожу ровно в 23:00, как и планировал(а)",
+            "en": "Leave at 11 pm sharp, as planned"
+          },
+          "scores": {
+            "S": 2,
+            "W": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Спорю с кем-нибудь до хрипоты — и выигрываю",
+            "en": "Argue with someone till I'm hoarse — and win"
+          },
+          "scores": {
+            "R": 2,
+            "W": -1,
+            "V": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Твоя суперсила в трудный момент?",
+        "en": "Your superpower in a crisis?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Сохраняю спокойствие, когда все паникуют",
+            "en": "Stay calm while everyone panics"
+          },
+          "scores": {
+            "S": 2,
+            "R": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Нахожу хорошее даже в самом плохом",
+            "en": "Find the good even in the worst"
+          },
+          "scores": {
+            "V": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Обнимаю и утешаю — все приходят ко мне",
+            "en": "Hug and comfort — everyone comes to me"
+          },
+          "scores": {
+            "W": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Действую решительно и жёстко — некогда сюсюкаться",
+            "en": "Act fast and firmly — no time for coddling"
+          },
+          "scores": {
+            "R": 1,
+            "W": -1,
+            "S": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Придумываю нестандартный выход, о котором никто не подумал",
+            "en": "Come up with an unusual way out nobody thought of"
+          },
+          "scores": {
+            "O": 2,
+            "R": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Любимое время суток?",
+        "en": "Your favorite time of day?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Рассвет: свежо, тихо, всё впереди",
+            "en": "Dawn: fresh, quiet, everything ahead"
+          },
+          "scores": {
+            "S": 1,
+            "V": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Полдень: солнце, люди, жизнь кипит",
+            "en": "Noon: sun, people, life in full swing"
+          },
+          "scores": {
+            "R": 1,
+            "V": 1,
+            "W": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Сумерки — самое время подумать",
+            "en": "Dusk — the perfect time to think"
+          },
+          "scores": {
+            "O": 1,
+            "R": -1,
+            "V": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Глубокая ночь: тишина и космос",
+            "en": "Deep night: silence and the cosmos"
+          },
+          "scores": {
+            "O": 2,
+            "W": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Любое — главное, чтобы рядом были свои",
+            "en": "Any — as long as my people are around"
+          },
+          "scores": {
+            "W": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Зимний вечер: за окном темно, а дома горит гирлянда и пахнет печеньем",
+            "en": "A winter evening: dark outside, fairy lights and cookies inside"
+          },
+          "scores": {
+            "R": -1,
+            "V": 1,
+            "W": 1,
+            "O": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Как ты пишешь сообщения?",
+        "en": "How do you text?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "КАПСОМ И С ТРЕМЯ ВОСКЛИЦАТЕЛЬНЫМИ!!!",
+            "en": "IN ALL CAPS WITH THREE EXCLAMATION MARKS!!!"
+          },
+          "scores": {
+            "R": 2,
+            "S": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Длинно, тепло и с сердечками",
+            "en": "Long, warm and full of hearts"
+          },
+          "scores": {
+            "W": 2,
+            "V": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Коротко: «ок», «да», «нет»",
+            "en": "Short: ‘ok’, ‘yes’, ‘no’"
+          },
+          "scores": {
+            "W": -1,
+            "S": 1,
+            "O": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Загадочно… с многоточиями…",
+            "en": "Mysteriously… with ellipses…"
+          },
+          "scores": {
+            "O": 2,
+            "V": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Голосовыми по пять минут — с отступлениями и смехом",
+            "en": "Five-minute voice notes — with tangents and laughter"
+          },
+          "scores": {
+            "R": 1,
+            "V": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Пачками по 15 сообщений: идеи, ссылки, мемы и «а ещё!»",
+            "en": "In bursts of 15: ideas, links, memes and ‘oh, and also!’"
+          },
+          "scores": {
+            "R": 1,
+            "O": 1,
+            "W": 1,
+            "S": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "На тебя свалились неожиданные деньги. Что сделаешь?",
+        "en": "You get some unexpected money. What do you do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Куплю подарки всем близким",
+            "en": "Buy presents for everyone I love"
+          },
+          "scores": {
+            "W": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Отложу — у меня есть план",
+            "en": "Save it — I have a plan"
+          },
+          "scores": {
+            "S": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Куплю билет туда, где никто из друзей ещё не был",
+            "en": "Buy a ticket somewhere none of my friends have been"
+          },
+          "scores": {
+            "O": 1,
+            "R": 1,
+            "S": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Устрою огромную вечеринку",
+            "en": "Throw a huge party"
+          },
+          "scores": {
+            "R": 1,
+            "V": 1,
+            "W": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Запишусь на курс чего-нибудь странного — стеклодувства или астрономии",
+            "en": "Sign up for a course in something unusual — glassblowing or astronomy"
+          },
+          "scores": {
+            "O": 2,
+            "V": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Твой девиз?",
+        "en": "Your motto?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "«После дождя всегда выходит солнце»",
+            "en": "‘After the rain, the sun always comes out’"
+          },
+          "scores": {
+            "V": 1,
+            "S": -1,
+            "W": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Тише едешь — дальше будешь»",
+            "en": "‘Slow and steady wins the race’"
+          },
+          "scores": {
+            "S": 2,
+            "R": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Живи ярко, гори жарко»",
+            "en": "‘Live bright, burn hot’"
+          },
+          "scores": {
+            "R": 2,
+            "V": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Не всё то, чем кажется»",
+            "en": "‘Things aren't what they seem’"
+          },
+          "scores": {
+            "O": 1,
+            "V": -1,
+            "R": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Сила — в характере»",
+            "en": "‘Strength is in character’"
+          },
+          "scores": {
+            "W": -1,
+            "R": 1,
+            "S": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Обними ближнего своего»",
+            "en": "‘Hug thy neighbor’"
+          },
+          "scores": {
+            "W": 2,
+            "V": 1
+          }
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "thunderstorm",
+      "title": {
+        "ru": "Гроза — страсть, драма и озоновая свежесть",
+        "en": "Thunderstorm — passion, drama and fresh ozone"
+      },
+      "emoji": "⛈️",
+      "profile": {
+        "V": 0.27,
+        "R": 0.6,
+        "W": 0.4,
+        "S": 0.29,
+        "O": 0.3
+      },
+      "summary": [
+        {
+          "ru": "Эмоции у тебя яркие, быстрые и громкие",
+          "en": "Your emotions are vivid, fast and loud"
+        },
+        {
+          "ru": "Вспыхиваешь и так же быстро отходишь",
+          "en": "You flare up and cool down just as fast"
+        },
+        {
+          "ru": "После тебя воздух чище — ты говоришь то, что все боялись",
+          "en": "The air is clearer after you — you say what others feared to"
+        },
+        {
+          "ru": "Скучно с тобой не бывает никогда",
+          "en": "Never a dull moment with you"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — гроза: яркая, мощная, немного пугающая и абсолютно завораживающая. Эмоции у тебя проходят на максимальной громкости — восторг, возмущение, вдохновение. Ты можешь «прогреметь» на совещании, а через десять минут уже смеяться и предлагать мир. Зато после тебя всегда свежо: ты не копишь недосказанности и называешь вещи своими именами.\n\nВ модели эмоций Рассела (1980) твоя зона — высокое возбуждение: энергия, которая может быть и радостной, и тревожно-злой. Это нормальная часть эмоционального спектра, а не «плохой характер». Чтобы гроза не превращалась в ураган, помогают паузы: прогулка, физическая активность и правило «отвечаю на сообщение через 10 минут, а не через 10 секунд».",
+        "en": "You're a thunderstorm: bright, powerful, a little scary and utterly mesmerizing. Your emotions play at full volume — rapture, outrage, inspiration. You can ‘thunder’ in a meeting and ten minutes later be laughing and making peace. And the air's always fresher after you: you don't bottle things up, and you call things what they are.\n\nIn Russell's (1980) model of emotion, your zone is high arousal: energy that can be joyful or angry-anxious. That's a normal part of the emotional spectrum, not a ‘bad temper’. To keep the storm from becoming a hurricane, use pauses: a walk, exercise, and the rule ‘reply in 10 minutes, not 10 seconds’."
+      },
+      "strengths": [
+        {
+          "ru": "Честность и прямота",
+          "en": "Honesty and directness"
+        },
+        {
+          "ru": "Мощная энергия",
+          "en": "Powerful energy"
+        },
+        {
+          "ru": "Страсть к тому, что важно",
+          "en": "Passion for what matters"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Пауза перед ответом",
+          "en": "Pause before replying"
+        },
+        {
+          "ru": "Выпускать пар через движение",
+          "en": "Burn off steam through movement"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твоё «я спокоен(на)» звучит громче, чем у других «я в ярости»",
+          "en": "Your ‘I'm calm’ is louder than other people's ‘I'm furious’"
+        },
+        {
+          "ru": "Ты поссорился(лась) с принтером, помирился(лась) с принтером и написал(а) ему стих — всё за обеденный перерыв",
+          "en": "You fought with the printer, made up with the printer and wrote it a poem — all during lunch break"
+        },
+        {
+          "ru": "Мама: «Не кричи». Ты: «Я НЕ КРИЧУ, Я ОБЪЯСНЯЮ С ЧУВСТВОМ»",
+          "en": "Mom: ‘Stop yelling.’ You: ‘I'M NOT YELLING, I'M EXPLAINING WITH FEELING’"
+        },
+        {
+          "ru": "Твой мозг в 3 ночи: «А давай перекрасим стены, бросим работу и заведём енота»",
+          "en": "Your brain at 3 a.m.: ‘Let's repaint the walls, quit our job and adopt a raccoon’"
+        }
+      ],
+      "compatibleWith": [
+        "rainbow",
+        "warmrain",
+        "springwind"
+      ],
+      "imagePrompt": "A cute fluffy storm cloud character with a determined dramatic expression and tiny glowing lightning bolts like hair, soft rain drops, soft pastel indigo, violet and electric yellow tones, glossy flat-3D style, smooth deep-lilac to periwinkle gradient background, minimal, no text"
+    },
+    {
+      "id": "sunny",
+      "title": {
+        "ru": "Солнечный день — человек-витамин D",
+        "en": "Sunny Day — a human dose of vitamin D"
+      },
+      "emoji": "☀️",
+      "profile": {
+        "V": 0.54,
+        "R": 0.5,
+        "W": 0.51,
+        "S": 0.49,
+        "O": 0.24
+      },
+      "summary": [
+        {
+          "ru": "Рядом с тобой всем теплее и светлее",
+          "en": "Everyone feels warmer and brighter around you"
+        },
+        {
+          "ru": "Оптимизм без притворства",
+          "en": "Optimism without pretending"
+        },
+        {
+          "ru": "Ты стабилен(на): хорошее настроение — это норма, а не праздник",
+          "en": "Steady: good mood is your normal, not a special occasion"
+        },
+        {
+          "ru": "Любишь людей, прогулки и простые радости",
+          "en": "You love people, walks and simple joys"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — ясное небо и +23: тепло, понятно и хорошо. Ты искренне радуешься людям, легко находишь хорошее даже в обычном вторнике и умеешь поддержать так, что человек снова видит солнце. Тебя любят дети, животные и бабушки на лавочках.\n\nВ исследовании Klimstra и коллег (2011) часть людей — «любители лета» — чувствовали себя заметно лучше в тёплые солнечные дни. А Keller и коллеги (2005) показали, что хорошая погода поднимает настроение, если действительно выйти на улицу. Ты, похоже, носишь это солнце с собой. Одна подсказка: не каждому сразу нужен лучик света — иногда человеку сначала нужно, чтобы его просто выслушали в его пасмурном дне.",
+        "en": "You're clear skies and 73°F: warm, easy and good. You genuinely enjoy people, find the bright side of an ordinary Tuesday and can support someone until they see the sun again. Kids, animals and grandmas on park benches love you.\n\nIn Klimstra and colleagues' (2011) study, some people — ‘Summer Lovers’ — felt noticeably better on warm, sunny days, and Keller and colleagues (2005) showed nice weather lifts mood if you actually go outside. You seem to carry that sunshine with you. One tip: not everyone needs a sunbeam right away — sometimes a person first needs to be heard in their cloudy day."
+      },
+      "strengths": [
+        {
+          "ru": "Оптимизм",
+          "en": "Optimism"
+        },
+        {
+          "ru": "Тепло к людям",
+          "en": "Warmth toward people"
+        },
+        {
+          "ru": "Эмоциональная устойчивость",
+          "en": "Emotional steadiness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Выдерживать чужую грусть, не спеша её «чинить»",
+          "en": "Sit with others' sadness without rushing to fix it"
+        },
+        {
+          "ru": "Признавать свои пасмурные дни",
+          "en": "Admit your own cloudy days"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты здороваешься с курьером, кассиром и голубем. Голубь отвечает",
+          "en": "You greet the courier, the cashier and a pigeon. The pigeon greets you back"
+        },
+        {
+          "ru": "Друзья в депрессии от дедлайнов, ты: «Зато мы вместе!» — и почему-то это работает",
+          "en": "Friends are drowning in deadlines; you go ‘But we're together!’ — and somehow it works"
+        },
+        {
+          "ru": "Бабушки во дворе считают тебя «хорошим(ей) мальчиком/девочкой», хотя тебе 32",
+          "en": "The grandmas in your courtyard still call you ‘such a good kid’, and you're 32"
+        },
+        {
+          "ru": "Твоя батарейка социальной энергии: 147%",
+          "en": "Your social battery: 147%"
+        }
+      ],
+      "compatibleWith": [
+        "rainbow",
+        "snowfall",
+        "heatwave"
+      ],
+      "imagePrompt": "A cute round smiling sun character with soft rosy cheeks and gentle rays, waving happily, a tiny daisy beside it, soft pastel yellow and peach tones, glossy flat-3D style, smooth sky-blue to butter-yellow gradient background, minimal, no text"
+    },
+    {
+      "id": "fog",
+      "title": {
+        "ru": "Туман — тихая загадка",
+        "en": "Fog — a quiet mystery"
+      },
+      "emoji": "🌫️",
+      "profile": {
+        "V": 0.32,
+        "R": 0.25,
+        "W": 0.31,
+        "S": 0.44,
+        "O": 0.49
+      },
+      "summary": [
+        {
+          "ru": "У тебя богатый внутренний мир, куда пускают не всех",
+          "en": "Your rich inner world has an exclusive guest list"
+        },
+        {
+          "ru": "Говоришь мало, замечаешь много",
+          "en": "You say little and notice a lot"
+        },
+        {
+          "ru": "Любишь полутона, недосказанность и атмосферу",
+          "en": "You love half-tones, the unspoken and atmosphere"
+        },
+        {
+          "ru": "Тебя невозможно разгадать за один вечер",
+          "en": "Nobody figures you out in one evening"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — туман над утренней рекой: тихий, красивый и немного таинственный. Ты не любишь громких эмоций и пустых разговоров, зато в твоей голове живут целые миры — истории, образы, наблюдения. Люди часто думают, что ты холодный(ая), а на самом деле ты просто бережёшь свою глубину для тех, кто готов в неё всмотреться.\n\nВ модели Рассела твоя зона — спокойные эмоции с лёгким оттенком меланхолии: задумчивость, созерцание. А высокая «загадочность» близка к открытости опыту — воображению и чувствительности к красоте. Твоя зона роста — иногда «рассеиваться» первым(ой): написать другу, поделиться идеей, позвать на прогулку. Твой туман гораздо уютнее, когда в нём кто-то есть.",
+        "en": "You're mist over a morning river: quiet, beautiful and a little mysterious. You dislike loud emotions and small talk, but your mind holds whole worlds — stories, images, observations. People often think you're cold; really, you just save your depth for those willing to look into it.\n\nIn Russell's model your zone is calm emotion with a hint of melancholy: pensiveness, contemplation. And your high ‘mystery’ score resembles openness to experience — imagination and sensitivity to beauty. Growth zone: ‘lift’ first sometimes — text a friend, share an idea, suggest a walk. Your fog is much cozier with someone in it."
+      },
+      "strengths": [
+        {
+          "ru": "Воображение",
+          "en": "Imagination"
+        },
+        {
+          "ru": "Наблюдательность",
+          "en": "Observation"
+        },
+        {
+          "ru": "Глубина",
+          "en": "Depth"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Делиться мыслями вслух",
+          "en": "Share your thoughts out loud"
+        },
+        {
+          "ru": "Проявлять инициативу в общении",
+          "en": "Reach out first"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "На вопрос «как дела?» ты отвечаешь «сложно сказать» — и это самый честный ответ в мире",
+          "en": "When asked ‘how are you?’ you say ‘hard to say’ — the most honest answer in the world"
+        },
+        {
+          "ru": "Ты прочитал(а) сообщение 3 часа назад и всё ещё сочиняешь идеальный ответ из двух слов",
+          "en": "You read the message three hours ago and are still crafting the perfect two-word reply"
+        },
+        {
+          "ru": "Знакомые: «Ты загадочный(ая)». Ты: просто забыл(а) включить звук в разговоре",
+          "en": "People: ‘You're so mysterious.’ You: just forgot to unmute in the conversation"
+        },
+        {
+          "ru": "Твоя любимая погода — та, при которой можно не выходить и не объяснять почему",
+          "en": "Your favorite weather is the kind where you can stay home without explaining why"
+        }
+      ],
+      "compatibleWith": [
+        "aurora",
+        "snowfall",
+        "overcast"
+      ],
+      "imagePrompt": "A cute soft translucent fog cloud character with sleepy mysterious half-closed eyes and a small knowing smile, drifting over a tiny calm lake with reeds, soft pastel grey, lilac and pearl tones, glossy flat-3D style, smooth misty-grey to lavender gradient background, minimal, no text"
+    },
+    {
+      "id": "snowfall",
+      "title": {
+        "ru": "Снегопад — тихое волшебство",
+        "en": "Snowfall — quiet magic"
+      },
+      "emoji": "❄️",
+      "profile": {
+        "V": 0.54,
+        "R": 0.33,
+        "W": 0.5,
+        "S": 0.49,
+        "O": 0.35
+      },
+      "summary": [
+        {
+          "ru": "Рядом с тобой мир замедляется и становится красивее",
+          "en": "The world slows down and gets prettier around you"
+        },
+        {
+          "ru": "Спокойный(ая), мягкий(ая), уютный(ая)",
+          "en": "Calm, gentle and cozy"
+        },
+        {
+          "ru": "Умеешь создавать маленькие чудеса",
+          "en": "You create small everyday miracles"
+        },
+        {
+          "ru": "Любишь тишину, но не одиночество",
+          "en": "You love quiet, not loneliness"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — первый снег за окном: всё вдруг становится тихим, чистым и немного сказочным. Ты не любишь суеты, зато умеешь превращать обычный вечер в маленькое чудо: какао, гирлянда, хорошее кино и правильный человек рядом. Ты мягкий(ая), но не хрупкий(ая), а спокойствие у тебя тёплое, а не холодное.\n\nВ модели Рассела твоя зона — приятные спокойные эмоции: безмятежность, умиротворение, тихая радость. Исследования показывают, что такие «низкоэнергичные» позитивные состояния — тоже важная часть благополучия, а не только восторг и драйв. Твоя зона роста — не откладывать жизнь «до лучших времён»: иногда стоит выйти из уютного дома и слепить снеговика прямо сейчас.",
+        "en": "You're the first snow outside the window: suddenly everything is quiet, clean and a bit magical. You avoid fuss but turn ordinary evenings into small miracles: cocoa, string lights, a good movie and the right person nearby. You're gentle but not fragile, and your calm is warm, not cold.\n\nIn Russell's model your zone is pleasant, calm emotion: serenity, peace, quiet joy. Low-energy positive states like these are an important part of well-being too, not just excitement and drive. Growth zone: don't put life off ‘until better times’ — sometimes step out of the cozy house and build that snowman right now."
+      },
+      "strengths": [
+        {
+          "ru": "Умиротворённость",
+          "en": "Serenity"
+        },
+        {
+          "ru": "Создание уюта",
+          "en": "Creating coziness"
+        },
+        {
+          "ru": "Мягкая сила",
+          "en": "Gentle strength"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Не откладывать радости на потом",
+          "en": "Don't postpone joy"
+        },
+        {
+          "ru": "Говорить о своих желаниях громче",
+          "en": "Voice your wishes louder"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твой идеальный вечер: плед, какао и фильм, который ты смотришь уже в 14-й раз",
+          "en": "Your perfect evening: a blanket, cocoa and a movie you're watching for the 14th time"
+        },
+        {
+          "ru": "Гирлянда у тебя висит круглый год. «Это не новогодняя, это для настроения»",
+          "en": "Your string lights stay up all year. ‘They're not holiday lights, they're mood lights’"
+        },
+        {
+          "ru": "Ты ловишь снежинки языком в 30 лет — и не собираешься останавливаться",
+          "en": "You catch snowflakes on your tongue at 30 — and have no plans to stop"
+        },
+        {
+          "ru": "Мама: «Опять сидишь дома?» Ты: «Я не сижу, я уютничаю»",
+          "en": "Mom: ‘Staying in again?’ You: ‘I'm not staying in, I'm cozying’"
+        }
+      ],
+      "compatibleWith": [
+        "sunny",
+        "fog",
+        "warmrain"
+      ],
+      "imagePrompt": "A cute fluffy snowflake character with a soft gentle smile wearing a tiny knitted scarf, holding a mug of cocoa, slow falling snowflakes around, soft pastel ice-blue and cream tones, glossy flat-3D style, smooth pale-blue to pink gradient background, minimal, no text"
+    },
+    {
+      "id": "warmrain",
+      "title": {
+        "ru": "Тёплый летний дождь — нежность и эмпатия",
+        "en": "Warm Summer Rain — tenderness and empathy"
+      },
+      "emoji": "🌧️",
+      "profile": {
+        "V": 0.42,
+        "R": 0.36,
+        "W": 0.56,
+        "S": 0.36,
+        "O": 0.38
+      },
+      "summary": [
+        {
+          "ru": "Чувствуешь других так, будто это твои эмоции",
+          "en": "You feel others' emotions as if they were your own"
+        },
+        {
+          "ru": "Умеешь утешать, как никто",
+          "en": "Nobody comforts like you do"
+        },
+        {
+          "ru": "Плачешь легко — и в этом нет слабости",
+          "en": "You cry easily — and that's no weakness"
+        },
+        {
+          "ru": "После разговора с тобой людям становится легче",
+          "en": "People feel lighter after talking to you"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — тёплый дождь в июле: тот, под которым хочется снять обувь и пойти по лужам. Ты чувствуешь людей очень тонко: замечаешь, когда кому-то грустно, раньше, чем человек сам это понял. Ты умеешь утешить, обнять и быть рядом без лишних слов. Иногда ты плачешь над фильмами, книгами и рекламой. Это не слабость, а большая эмоциональная чуткость.\n\nПо шкалам у тебя много тепла и мягкой, переменчивой эмоциональности. Твоя эмпатия — дар, но её важно беречь: чужие эмоции не должны полностью затапливать твои. Помогают простые границы («сейчас я не могу, давай завтра») и забота о себе — такая же нежная, как та, что ты даришь другим.",
+        "en": "You're a warm July rain — the kind you want to walk through barefoot. You read people finely, noticing someone's sadness before they've noticed it themselves. You comfort, hug and stay close without needing words. Sometimes you cry at movies, books and commercials — not weakness, but deep emotional sensitivity.\n\nOn our scales you score high on warmth with soft, shifting emotionality. Your empathy is a gift, but it needs protecting: other people's feelings shouldn't flood your own. Simple boundaries (‘I can't right now, let's talk tomorrow’) and self-care as gentle as the care you give others both help."
+      },
+      "strengths": [
+        {
+          "ru": "Эмпатия",
+          "en": "Empathy"
+        },
+        {
+          "ru": "Умение утешать",
+          "en": "Comforting"
+        },
+        {
+          "ru": "Искренность",
+          "en": "Sincerity"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Ставить границы",
+          "en": "Set boundaries"
+        },
+        {
+          "ru": "Не брать на себя чужие эмоции целиком",
+          "en": "Don't absorb others' feelings whole"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты плачешь на мультике, на свадьбе незнакомцев в ленте и на видео, где собака встречает хозяина",
+          "en": "You cry at cartoons, at strangers' weddings in your feed and at dog-greets-owner videos"
+        },
+        {
+          "ru": "Друг: «У меня всё нормально». Ты: «Я уже еду с пледом и пирогом»",
+          "en": "Friend: ‘I'm fine.’ You: ‘I'm on my way with a blanket and a pie’"
+        },
+        {
+          "ru": "Ты извиняешься перед стулом, о который ударился(лась)",
+          "en": "You apologize to the chair you bumped into"
+        },
+        {
+          "ru": "Твоя роль в любой компании — «психолог на кухне в 2 часа ночи»",
+          "en": "Your role in every friend group: the 2 a.m. kitchen therapist"
+        }
+      ],
+      "compatibleWith": [
+        "thunderstorm",
+        "rainbow",
+        "snowfall"
+      ],
+      "imagePrompt": "A cute soft rain cloud character with a tender caring smile, gentle warm raindrops falling on little blooming flowers below, a tiny heart-shaped puddle, soft pastel blue, mint and peach tones, glossy flat-3D style, smooth aqua-to-peach gradient background, minimal, no text"
+    },
+    {
+      "id": "aurora",
+      "title": {
+        "ru": "Северное сияние — редкое чудо",
+        "en": "Northern Lights — a rare wonder"
+      },
+      "emoji": "🌌",
+      "profile": {
+        "V": 0.5,
+        "R": 0.52,
+        "W": 0.33,
+        "S": 0.36,
+        "O": 0.45
+      },
+      "summary": [
+        {
+          "ru": "Ты такой(ая) один(одна) — и это видно сразу",
+          "en": "There's only one of you, and it shows"
+        },
+        {
+          "ru": "Вдохновение приходит вспышками",
+          "en": "Inspiration comes in flashes"
+        },
+        {
+          "ru": "Независимый(ая), необычный(ая), немного космический(ая)",
+          "en": "Independent, unusual and a little cosmic"
+        },
+        {
+          "ru": "Тебя стоит «ловить» — ты появляешься, когда захочешь",
+          "en": "People have to ‘catch’ you — you appear when you want to"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — северное сияние: редкое, необъяснимое и захватывающее дух. Ты мыслишь нестандартно, загораешься идеями и умеешь удивлять. Иногда ты исчезаешь на неделю в своём проекте, а потом появляешься с чем-то невероятным. Ты независим(а) и не подстраиваешься под ожидания, и именно поэтому тебя запоминают.\n\nПо шкалам это высокая открытость (воображение, творчество), позитивная энергия и переменчивость: вспышки вдохновения сменяются тишиной. Такой ритм часто встречается у творческих людей. Зона роста — предсказуемость для близких: им не обязательно знать, когда ты вспыхнешь, но важно знать, что ты не исчез(ла) навсегда. Короткое «я в процессе, люблю» творит чудеса.",
+        "en": "You're the northern lights: rare, inexplicable and breathtaking. You think unconventionally, catch fire with ideas and love to surprise. Sometimes you vanish into a project for a week and resurface with something incredible. You're independent and don't bend to expectations — which is exactly why people remember you.\n\nOn our scales that's high openness (imagination, creativity), positive energy and changeability: flashes of inspiration followed by silence. That rhythm is common among creative people. Growth zone: predictability for loved ones — they needn't know when you'll blaze, but they should know you haven't vanished for good. A quick ‘deep in a project, love you’ works wonders."
+      },
+      "strengths": [
+        {
+          "ru": "Креативность",
+          "en": "Creativity"
+        },
+        {
+          "ru": "Оригинальность",
+          "en": "Originality"
+        },
+        {
+          "ru": "Способность вдохновлять",
+          "en": "Inspiring others"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Держать близких в курсе",
+          "en": "Keep loved ones posted"
+        },
+        {
+          "ru": "Доводить вспышки до результата",
+          "en": "Turn sparks into finished work"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твоё вдохновение приходит в 3 ночи, в душе и ровно тогда, когда ты уже лёг(легла)",
+          "en": "Your inspiration strikes at 3 a.m., in the shower, and right after you've gone to bed"
+        },
+        {
+          "ru": "Ты пропал(а) из чата на 9 дней, а потом прислал(а) мультфильм, который сам(а) нарисовал(а)",
+          "en": "You vanished from the chat for 9 days, then sent an animated short you made yourself"
+        },
+        {
+          "ru": "Бабушка: «Ну кем ты работаешь-то?» Ты объясняешь 20 минут. Бабушка: «Понятно, программист»",
+          "en": "Grandma: ‘So what's your job?’ You explain for 20 minutes. Grandma: ‘Got it, computers’"
+        },
+        {
+          "ru": "В твоих заметках 300 идей, и каждая — «гениальная, но потом»",
+          "en": "Your notes app holds 300 ideas, each one ‘genius, but later’"
+        }
+      ],
+      "compatibleWith": [
+        "fog",
+        "springwind",
+        "frost"
+      ],
+      "imagePrompt": "A cute ethereal aurora ribbon character swirling in the night sky with sparkly dreamy eyes and a gentle smile, tiny stars and a little snowy hill below, soft pastel green, teal and violet glow, glossy flat-3D style, smooth navy-to-violet gradient background, minimal, no text"
+    },
+    {
+      "id": "rainbow",
+      "title": {
+        "ru": "Радуга — оптимист после любой бури",
+        "en": "Rainbow — the optimist after every storm"
+      },
+      "emoji": "🌈",
+      "profile": {
+        "V": 0.55,
+        "R": 0.44,
+        "W": 0.46,
+        "S": 0.32,
+        "O": 0.3
+      },
+      "summary": [
+        {
+          "ru": "Чувствуешь всё — и всё равно выбираешь надежду",
+          "en": "You feel everything — and still choose hope"
+        },
+        {
+          "ru": "Твоя суперсила — восстанавливаться",
+          "en": "Your superpower is bouncing back"
+        },
+        {
+          "ru": "Яркий(ая), разноцветный(ая), многогранный(ая)",
+          "en": "Bright, colorful, many-sided"
+        },
+        {
+          "ru": "Превращаешь плохое в хорошую историю",
+          "en": "You turn bad days into good stories"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — радуга: появляешься после дождя и напоминаешь всем, что всё не зря. Ты не из тех, кому всегда легко: твоё настроение меняется, и ты чувствуешь и грусть, и тревогу. Но у тебя редкий дар — после любой бури ты находишь в себе свет и делишься им с другими. Твои истории о провалах всегда заканчиваются смехом.\n\nВ психологии это похоже на сочетание эмоциональной чувствительности и жизнестойкости — умения восстанавливаться после трудностей. Позитивные эмоции при этом не отрицают негативные, а помогают их пережить. Твоя зона роста — не требовать от себя радуги сразу: иногда дождю нужно просто дать пролиться.",
+        "en": "You're a rainbow: you appear after the rain and remind everyone it was all worth it. Things aren't always easy for you — your moods shift, and you feel sadness and worry. But you have a rare gift: after any storm you find light in yourself and share it. Your stories about failures always end in laughter.\n\nPsychologically, that resembles a mix of emotional sensitivity and resilience — the ability to recover from hardship. Positive emotions don't deny negative ones; they help you get through them. Growth zone: don't demand a rainbow of yourself right away — sometimes the rain just needs to fall."
+      },
+      "strengths": [
+        {
+          "ru": "Жизнестойкость",
+          "en": "Resilience"
+        },
+        {
+          "ru": "Надежда",
+          "en": "Hope"
+        },
+        {
+          "ru": "Многогранность",
+          "en": "Many-sidedness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Разрешать себе грустить",
+          "en": "Let yourself be sad"
+        },
+        {
+          "ru": "Не торопить хорошее настроение",
+          "en": "Don't rush the good mood"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты: плачешь из-за провала → через час рассказываешь о нём как о стендапе → друзья рыдают от смеха",
+          "en": "You: cry over a fail → an hour later tell it like stand-up → friends cry laughing"
+        },
+        {
+          "ru": "Твоё настроение за день: 🌧️☀️🌧️🌈☀️",
+          "en": "Your mood today: 🌧️☀️🌧️🌈☀️"
+        },
+        {
+          "ru": "Тебя бросили, уволили и облил автобус — а ты такой(ая): «Зато какой сюжет!»",
+          "en": "Dumped, fired and splashed by a bus — and you're like: ‘What a plot twist!’"
+        },
+        {
+          "ru": "Мама: «Ты в кого такой(ая)?» Ты: «В погоду, мам»",
+          "en": "Mom: ‘Who do you take after?’ You: ‘The weather, Mom’"
+        }
+      ],
+      "compatibleWith": [
+        "thunderstorm",
+        "sunny",
+        "warmrain"
+      ],
+      "imagePrompt": "A cute smiling rainbow arc character with soft fluffy clouds as hands, a few sparkling raindrops still falling, soft pastel rainbow tones, glossy flat-3D style, smooth sky-blue to pink gradient background, minimal, no text"
+    },
+    {
+      "id": "blizzard",
+      "title": {
+        "ru": "Метель — непреклонный характер",
+        "en": "Blizzard — an unstoppable force"
+      },
+      "emoji": "🌨️",
+      "profile": {
+        "V": 0.34,
+        "R": 0.59,
+        "W": 0.26,
+        "S": 0.51,
+        "O": 0.22
+      },
+      "summary": [
+        {
+          "ru": "Сильный(ая), решительный(ая), неудержимый(ая)",
+          "en": "Strong, decisive, unstoppable"
+        },
+        {
+          "ru": "Если ты что-то решил(а) — не остановить",
+          "en": "Once you've decided, nothing stops you"
+        },
+        {
+          "ru": "Тепло показываешь делами, а не словами",
+          "en": "You show warmth in actions, not words"
+        },
+        {
+          "ru": "Сложности тебя только раззадоривают",
+          "en": "Difficulty just fires you up"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — метель: мощная, упорная и совершенно не боящаяся препятствий. Ты не тратишь время на сантименты: видишь цель — идёшь к ней, даже если вокруг ничего не видно. Люди иногда принимают твою прямоту за холодность, но те, кто знает тебя близко, понимают: если случится беда, ты первым(ой) приедешь с лопатой и будешь откапывать.\n\nПо шкалам это высокая энергия и устойчивость в паре с независимостью и прагматичностью. Такой характер отлично работает в кризисах и сложных проектах. Зона роста — эмоциональная теплота словами: сказать «я тобой горжусь» или «мне тебя не хватало» — тоже проявление силы. И иногда метели стоит стихнуть, чтобы увидеть, как красиво она всё замела.",
+        "en": "You're a blizzard: powerful, persistent and completely unfazed by obstacles. You don't waste time on sentiment: you see the goal and head for it, even in a whiteout. People sometimes mistake your directness for coldness, but those close to you know that if trouble hits, you'll be first on the scene with a shovel.\n\nOn our scales that's high energy and steadiness, combined with independence and pragmatism. This temperament shines in crises and tough projects. Growth zone: warmth in words — saying ‘I'm proud of you’ or ‘I missed you’ is strength too. And sometimes a blizzard should settle down long enough to see how beautifully it has covered everything."
+      },
+      "strengths": [
+        {
+          "ru": "Решительность",
+          "en": "Determination"
+        },
+        {
+          "ru": "Стойкость",
+          "en": "Resilience"
+        },
+        {
+          "ru": "Надёжность в кризис",
+          "en": "Reliability in a crisis"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Говорить о чувствах словами",
+          "en": "Put feelings into words"
+        },
+        {
+          "ru": "Сбавлять напор с близкими",
+          "en": "Ease off the pressure with loved ones"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "«Мне не холодно» — говоришь ты в лёгкой куртке в −20, и это правда",
+          "en": "‘I'm not cold,’ you say in a light jacket at −4°F — and it's true"
+        },
+        {
+          "ru": "Твоё «ок» в чате заставляет всех нервно перечитывать собственные сообщения",
+          "en": "Your ‘ok’ in the chat makes everyone nervously reread their own messages"
+        },
+        {
+          "ru": "Друг плачет. Ты: «Так. Кто обидел? Адрес»",
+          "en": "Friend's crying. You: ‘Right. Who did it? Address.’"
+        },
+        {
+          "ru": "Ты решил(а) бегать по утрам — и бегаешь уже пятый год. Даже в метель. Особенно в метель",
+          "en": "You decided to run every morning — and you have for five years. Even in blizzards. Especially in blizzards"
+        }
+      ],
+      "compatibleWith": [
+        "frost",
+        "thunderstorm",
+        "heatwave"
+      ],
+      "imagePrompt": "A cute determined snow cloud character with a brave little frown and swirling snowflakes around like a cape, tiny pine trees below, soft pastel icy-blue, white and lilac tones, glossy flat-3D style, smooth steel-blue to lilac gradient background, minimal, no text"
+    },
+    {
+      "id": "frost",
+      "title": {
+        "ru": "Ясное морозное утро — бодрость и чёткость",
+        "en": "Crisp Frosty Morning — clarity and pep"
+      },
+      "emoji": "🧊",
+      "profile": {
+        "V": 0.5,
+        "R": 0.53,
+        "W": 0.32,
+        "S": 0.59,
+        "O": 0.21
+      },
+      "summary": [
+        {
+          "ru": "Ясная голова в любой ситуации",
+          "en": "A clear head in any situation"
+        },
+        {
+          "ru": "Дисциплина — твой способ быть свободным(ой)",
+          "en": "Discipline is how you stay free"
+        },
+        {
+          "ru": "Бодрый(ая), чёткий(ая), без лишней драмы",
+          "en": "Peppy, precise, drama-free"
+        },
+        {
+          "ru": "Холодок — только снаружи",
+          "en": "The chill is only on the outside"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — ясное морозное утро: свежо, светло и всё видно до горизонта. Ты рано встаёшь, думаешь чётко и не любишь, когда эмоции мешают делу. У тебя стабильное настроение, понятные планы и бодрость, которой завидуют совы. Люди ценят тебя за то, что с тобой всё ясно: ты говоришь, что думаешь, и делаешь, что обещал(а).\n\nПо шкалам это высокая устойчивость и позитивная энергия при лёгкой эмоциональной дистанции. Исследования хронотипов показывают, что «жаворонки» в среднем более добросовестны, и это хорошо видно по твоему стилю. Зона роста — тепло и гибкость: не все умеют быть такими же собранными, а иногда лучший план — это его отсутствие и тёплый чай с другом.",
+        "en": "You're a crisp, frosty morning: fresh, bright, and you can see all the way to the horizon. You rise early, think clearly and don't let emotions get in the way of what needs doing. Your mood is steady, your plans clear, and your morning pep makes night owls jealous. People value you because things are clear with you: you say what you think and do what you promise.\n\nOn our scales that's high steadiness and positive energy with a little emotional distance. Chronotype research shows ‘larks’ tend to be more conscientious on average — and it shows in your style. Growth zone: warmth and flexibility. Not everyone can be as organized, and sometimes the best plan is no plan and a warm tea with a friend."
+      },
+      "strengths": [
+        {
+          "ru": "Ясность мышления",
+          "en": "Clear thinking"
+        },
+        {
+          "ru": "Самодисциплина",
+          "en": "Self-discipline"
+        },
+        {
+          "ru": "Стабильность",
+          "en": "Stability"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Проявлять тепло открыто",
+          "en": "Show warmth openly"
+        },
+        {
+          "ru": "Прощать неидеальность — себе и другим",
+          "en": "Forgive imperfection — yours and others'"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты пишешь коллегам «доброе утро» в 6:45, и они воспринимают это как угрозу",
+          "en": "You text coworkers ‘good morning’ at 6:45 and they take it as a threat"
+        },
+        {
+          "ru": "Твоя зарядка: 20 минут. Зарядка твоих друзей: телефона, до 100%",
+          "en": "Your morning workout: 20 minutes. Your friends' morning charge: their phones, to 100%"
+        },
+        {
+          "ru": "Ты моешь кружку сразу после того, как допил(а). Друзья считают это суперсилой",
+          "en": "You wash your mug the second you finish it. Your friends consider this a superpower"
+        },
+        {
+          "ru": "Тебя не берёт ни простуда, ни драма в общем чате",
+          "en": "Neither colds nor group-chat drama can touch you"
+        }
+      ],
+      "compatibleWith": [
+        "blizzard",
+        "overcast",
+        "aurora"
+      ],
+      "imagePrompt": "A cute crisp ice crystal character with a bright confident smile and rosy cheeks, morning sun rising behind snowy hills, sparkling frost patterns, soft pastel ice-blue, white and soft gold tones, glossy flat-3D style, smooth pale-gold to sky-blue gradient background, minimal, no text"
+    },
+    {
+      "id": "overcast",
+      "title": {
+        "ru": "Пасмурный уютный день — непоколебимое спокойствие",
+        "en": "Cozy Overcast Day — unshakable calm"
+      },
+      "emoji": "☁️",
+      "profile": {
+        "V": 0.42,
+        "R": 0.25,
+        "W": 0.4,
+        "S": 0.62,
+        "O": 0.2
+      },
+      "summary": [
+        {
+          "ru": "Тебя почти невозможно вывести из равновесия",
+          "en": "It's nearly impossible to throw you off balance"
+        },
+        {
+          "ru": "Любишь размеренность и предсказуемость",
+          "en": "You love routine and predictability"
+        },
+        {
+          "ru": "Рядом с тобой хочется выдохнуть",
+          "en": "People exhale around you"
+        },
+        {
+          "ru": "Погода, дедлайны и драмы — всё мимо",
+          "en": "Weather, deadlines, drama — all bounce off"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — мягкий пасмурный день: не холодно, не жарко, спокойно и очень уютно. Тебя сложно удивить, напугать или вывести из себя: ты встречаешь и хорошее, и плохое ровно и рассудительно. Ты ценишь привычки, любимые вещи и спокойный ритм, а тревожные друзья тянутся к тебе, как к тёплой батарее.\n\nКстати, в исследовании Klimstra и коллег (2011) почти половина участников оказалась «невозмутимыми»: их настроение почти не зависело от погоды. А Denissen и коллеги (2008) показали, что погода в целом объясняет совсем немного в ежедневном настроении. Ты — живое воплощение этих данных. Зона роста — иногда разрешать себе всплески: новое хобби, спонтанная поездка или громкий смех — и это не нарушит твой антициклон.",
+        "en": "You're a soft overcast day: not cold, not hot, calm and very cozy. It's hard to surprise, scare or rile you: you meet good and bad alike with an even, sensible temper. You treasure habits, favorite things and a calm rhythm, and anxious friends gravitate to you like to a warm radiator.\n\nBy the way, in Klimstra and colleagues' (2011) study almost half the participants were ‘Unaffected’ — their mood barely depended on weather — and Denissen and colleagues (2008) showed weather explains very little of daily mood overall. You're those findings in human form. Growth zone: allow yourself some bursts — a new hobby, a spontaneous trip, a loud laugh. They won't break your high-pressure system."
+      },
+      "strengths": [
+        {
+          "ru": "Невозмутимость",
+          "en": "Composure"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Dependability"
+        },
+        {
+          "ru": "Успокаивающее присутствие",
+          "en": "A calming presence"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Пробовать новое",
+          "en": "Try new things"
+        },
+        {
+          "ru": "Показывать эмоции, даже маленькие",
+          "en": "Show emotions, even small ones"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "За окном ураган, в новостях паника, а ты: «Ну, суп сам себя не сварит»",
+          "en": "There's a hurricane outside and panic on the news, and you're like: ‘Well, the soup won't cook itself’"
+        },
+        {
+          "ru": "Ты заказываешь одно и то же уже 4 года, и официант начинает готовить, когда ты входишь",
+          "en": "You've ordered the same thing for four years; the server starts cooking when you walk in"
+        },
+        {
+          "ru": "Друг: «Ты вообще когда-нибудь паникуешь?» Ты: «Один раз. В 2017-м. Кончился сыр»",
+          "en": "Friend: ‘Do you ever panic?’ You: ‘Once. In 2017. We ran out of cheese’"
+        },
+        {
+          "ru": "Твоё лицо на американских горках и в очереди в банке — одинаковое",
+          "en": "Your face on a roller coaster and in a bank queue: identical"
+        }
+      ],
+      "compatibleWith": [
+        "frost",
+        "fog",
+        "sunny"
+      ],
+      "imagePrompt": "A cute soft grey-white cloud character lounging calmly with a content sleepy smile, wrapped in a tiny blanket and holding a teacup, a little house window glowing below, soft pastel grey, cream and dusty-blue tones, glossy flat-3D style, smooth dove-grey to blush gradient background, minimal, no text"
+    },
+    {
+      "id": "heatwave",
+      "title": {
+        "ru": "Жаркий июльский полдень — энергия на максимум",
+        "en": "Hot July Noon — energy at full blast"
+      },
+      "emoji": "🔥",
+      "profile": {
+        "V": 0.5,
+        "R": 0.6,
+        "W": 0.47,
+        "S": 0.44,
+        "O": 0.22
+      },
+      "summary": [
+        {
+          "ru": "Тебя много, и это прекрасно",
+          "en": "There's a lot of you — and that's great"
+        },
+        {
+          "ru": "Живёшь на полную: работа, спорт, вечеринки",
+          "en": "You live full-on: work, sports, parties"
+        },
+        {
+          "ru": "Горячий(ая) в эмоциях, щедрый(ая) в дружбе",
+          "en": "Hot-blooded in emotion, generous in friendship"
+        },
+        {
+          "ru": "Действовать — лучше, чем думать",
+          "en": "Doing beats overthinking"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — июльский полдень: солнце в зените, воздух звенит, хочется в море и на подвиги. Ты полон(на) энергии, быстро загораешься, легко заводишь людей и обожаешь движение — спорт, поездки, большие компании. Ты прямолинеен(на) и практичен(на): вместо того чтобы долго думать, ты делаешь и смотришь, что выйдет.\n\nВ модели Рассела твоя зона — высокое возбуждение с позитивной окраской: азарт, воодушевление, восторг. «Любители лета» из исследования Klimstra и коллег, наверное, тебя бы поняли. Зона роста — тень и вода: даже самое жаркое солнце должно иногда заходить, иначе можно сгореть. Режим отдыха и сна — твой кондиционер.",
+        "en": "You're a July noon: sun at its peak, the air humming, everyone wants a swim and an adventure. You're full of energy, quick to catch fire, great at firing people up, and you love motion — sports, trips, big groups. You're direct and practical: rather than overthinking, you act and see what happens.\n\nIn Russell's model your zone is high arousal with positive tone: excitement, enthusiasm, elation. The ‘Summer Lovers’ in Klimstra and colleagues' study would get you. Growth zone: shade and water — even the hottest sun must set sometimes, or you'll burn out. Rest and sleep are your air conditioning."
+      },
+      "strengths": [
+        {
+          "ru": "Энергичность",
+          "en": "Energy"
+        },
+        {
+          "ru": "Энтузиазм",
+          "en": "Enthusiasm"
+        },
+        {
+          "ru": "Щедрость в дружбе",
+          "en": "Generosity in friendship"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Отдыхать до того, как устанешь",
+          "en": "Rest before you're exhausted"
+        },
+        {
+          "ru": "Слушать тех, кто медленнее",
+          "en": "Listen to slower people"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Тебе написали «как дела?», а ты уже зовёшь человека на сап-борд, концерт и в поход",
+          "en": "Someone texts ‘how are you?’ and you're already inviting them paddleboarding, to a concert and on a hike"
+        },
+        {
+          "ru": "Твоё «отдохнуть» — это пробежать полумарафон, а потом пойти на вечеринку",
+          "en": "Your idea of ‘resting’ is a half-marathon followed by a party"
+        },
+        {
+          "ru": "Друзья выключают твою энергию только ночью. И то не всегда",
+          "en": "Friends can only switch off your energy at night. Not always, though"
+        },
+        {
+          "ru": "Бабушка: «Надень панамку!» Ты уже на третьем пляже",
+          "en": "Grandma: ‘Wear a sun hat!’ You're already at your third beach"
+        }
+      ],
+      "compatibleWith": [
+        "sunny",
+        "springwind",
+        "blizzard"
+      ],
+      "imagePrompt": "A cute energetic sun character with a big grin, tiny sunglasses and a swim ring, beach waves and a little ice-cream cart nearby, soft pastel orange, coral and turquoise tones, glossy flat-3D style, smooth coral-to-aqua gradient background, minimal, no text"
+    },
+    {
+      "id": "springwind",
+      "title": {
+        "ru": "Весенний ветер — ветер перемен",
+        "en": "Spring Wind — the wind of change"
+      },
+      "emoji": "🍃",
+      "profile": {
+        "V": 0.47,
+        "R": 0.54,
+        "W": 0.44,
+        "S": 0.35,
+        "O": 0.39
+      },
+      "summary": [
+        {
+          "ru": "Ты приносишь новое: идеи, людей, планы",
+          "en": "You bring the new: ideas, people, plans"
+        },
+        {
+          "ru": "Не можешь усидеть на месте",
+          "en": "You can't sit still"
+        },
+        {
+          "ru": "Лёгкий(ая), игривый(ая) и очень любопытный(ая)",
+          "en": "Light, playful and very curious"
+        },
+        {
+          "ru": "С тобой всё начинается",
+          "en": "Everything starts with you"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — весенний ветер: свежий, игривый и приносящий запах перемен. Ты вечно что-то начинаешь — проекты, хобби, путешествия, знакомства — и вдохновляешь на это других. Ты любопытен(на), общителен(на) и немного непоседлив(а): тебе тесно в рамках, и ты постоянно ищешь, что бы ещё попробовать.\n\nПо шкалам это высокая энергия, открытость опыту и тепло к людям — сочетание, которое делает тебя прирождённым инициатором. Переменчивость здесь — не слабость, а двигатель. Зона роста — доводить начатое: ветер перемен прекрасен, но иногда стоит задержаться в одном месте и посмотреть, что выросло из посаженных тобой семян.",
+        "en": "You're a spring wind: fresh, playful and carrying the scent of change. You're always starting something — projects, hobbies, trips, friendships — and inspiring others to do the same. You're curious, sociable and a little restless: boxes feel cramped, and you're always hunting for the next thing to try.\n\nOn our scales that's high energy, openness to experience and warmth toward people — a combo that makes you a natural initiator. Changeability here isn't weakness; it's an engine. Growth zone: finishing things. The wind of change is wonderful, but sometimes linger in one place and see what's grown from the seeds you planted."
+      },
+      "strengths": [
+        {
+          "ru": "Инициативность",
+          "en": "Initiative"
+        },
+        {
+          "ru": "Любознательность",
+          "en": "Curiosity"
+        },
+        {
+          "ru": "Лёгкость в общении",
+          "en": "Easy sociability"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить начатое",
+          "en": "Finish what you start"
+        },
+        {
+          "ru": "Давать себе передышку",
+          "en": "Give yourself a breather"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "У тебя 4 начатых курса, 3 хобби и 1 идея стартапа, придуманная по дороге в магазин",
+          "en": "You have 4 courses in progress, 3 hobbies and 1 startup idea invented on the way to the store"
+        },
+        {
+          "ru": "Ты перекрасил(а) волосы, переставил(а) мебель и выучил(а) пять слов по-японски — и всё в один вторник",
+          "en": "You dyed your hair, rearranged the furniture and learned five Japanese words — all on one Tuesday"
+        },
+        {
+          "ru": "Друзья узнают о твоих планах из сторис, причём уже из аэропорта",
+          "en": "Friends learn about your plans from your stories — already from the airport"
+        },
+        {
+          "ru": "Мама: «Когда ты остепенишься?» Ты: «Мам, ветер не остепеняется»",
+          "en": "Mom: ‘When will you settle down?’ You: ‘Mom, the wind doesn't settle down’"
+        }
+      ],
+      "compatibleWith": [
+        "aurora",
+        "heatwave",
+        "thunderstorm"
+      ],
+      "imagePrompt": "A cute playful swirl-of-wind character with a mischievous happy face, carrying fresh green leaves, cherry blossom petals and a tiny paper kite, soft pastel mint, pink and sky-blue tones, glossy flat-3D style, smooth mint-to-sky-blue gradient background, minimal, no text"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ добавляет баллы к пяти шкалам: свет (V, приятность эмоций), энергия (R, уровень возбуждения), тепло (W, направленность на людей), постоянство (S, стабильность настроения) и загадочность (O, воображение). Суммы приводятся к 0–1: (сумма − минимум) / (максимум − минимум). Твоя «погода» — та, чей профиль ближе всего к твоему (евклидово расстояние). Профили откалиброваны так, чтобы при случайных ответах все 12 погод выпадали примерно поровну.",
+    "en": "Each answer adds points to five scales: light (V, how pleasant your emotions are), energy (R, arousal), warmth (W, orientation toward people), steadiness (S, mood stability) and mystery (O, imagination). Sums are rescaled to 0–1 as (sum − min) / (max − min). Your ‘weather’ is the one whose profile is closest to yours (Euclidean distance). Profiles were calibrated so that all 12 weathers come up about equally often under random answering."
+  },
+  "resultIntro": {
+    "ru": "Метеорологи testik проанализировали твои ответы. Сегодня в твоём регионе:",
+    "en": "testik's meteorologists have analyzed your answers. Today's forecast for your region:"
+  }
+}

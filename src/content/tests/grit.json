@@ -1,0 +1,551 @@
+{
+  "id": "grit",
+  "category": "wellbeing",
+  "kind": "likert",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Шкала упорства (Grit-S)",
+    "en": "Short Grit Scale (Grit-S)"
+  },
+  "tagline": {
+    "ru": "Страсть и упорство: насколько далеко вы готовы идти к цели?",
+    "en": "Passion plus perseverance: how far will you go for a goal?"
+  },
+  "description": {
+    "ru": "Краткая шкала упорства Анджелы Дакворт — того самого понятия grit из знаменитой лекции TED и бестселлера. Вы узнаете, насколько вы последовательны в интересах и настойчивы в усилиях, как ваш результат соотносится со взрослыми из исследования, и получите советы, как развивать выдержку.",
+    "en": "Angela Duckworth's Short Grit Scale — the \"grit\" from the famous TED talk and bestseller. Find out how consistent your interests are and how persistent your effort is, how you compare with adults in the research, and get tips for building staying power."
+  },
+  "emoji": "🧗",
+  "durationMin": 2,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "упорство",
+      "en": "grit"
+    },
+    {
+      "ru": "мотивация",
+      "en": "motivation"
+    },
+    {
+      "ru": "цели",
+      "en": "goals"
+    },
+    {
+      "ru": "самодисциплина",
+      "en": "self-discipline"
+    },
+    {
+      "ru": "продуктивность",
+      "en": "productivity"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что измеряет\n**Упорство (grit)** — по определению Анджелы Дакворт, «страсть и настойчивость в достижении долгосрочных целей». Модель включает два компонента:\n- **Постоянство интересов** — способность годами держаться одного направления, не перескакивая с цели на цель;\n- **Настойчивость в усилиях** — трудолюбие, доведение начатого до конца, устойчивость к неудачам.\n\n### История\nДакворт с коллегами описали упорство в 2007 году (полная шкала Grit-O, 12 пунктов) и показали, что оно добавляет к предсказанию успеха нечто сверх IQ. Краткую версию **Grit-S** (8 пунктов) разработали Дакворт и Куинн (2009): она сохраняет двухфакторную структуру и лучшие психометрические свойства. В 2016 году книга «Grit» сделала понятие всемирно известным (в книге приведена другая, 10-пунктовая шкала, не валидированная как Grit-S). На русском языке психометрику полной шкалы Grit изучали Тюменева, Кузьмина и Карданова (НИУ ВШЭ, 2014; 3383 девятиклассника): две субшкалы надёжны (α = 0,76 и 0,84), но слабо связаны между собой (r = 0,24), поэтому авторы советуют интерпретировать их отдельно. Опубликованную русскоязычную адаптацию именно Grit-S мы не нашли; перевод на сайте авторский.\n\n### Как проводится и считается\n8 утверждений, 5 вариантов: от «совсем не про меня» (1) до «очень похоже на меня» (5). Пункты постоянства интересов (1, 3, 5, 6) сформулированы негативно и считаются в обратную сторону. Общий балл — **среднее по 8 пунктам (1–5)**; субшкалы — средние по своим 4 пунктам. Оригинальная инструкция просит сравнивать себя с большинством людей в мире, а не только со знакомыми.\n\n### Надёжность и валидность\n- Внутренняя согласованность: α = 0,73–0,83 (общий балл) в исследованиях-разработках; настойчивость α = 0,60–0,78, постоянство α = 0,73–0,79; мета-анализ — средняя α = 0,79 по 46 выборкам (Credé et al., 2017).\n- Ретест: r = 0,68 через год (подростки).\n- Grit-S был связан с уровнем образования и меньшим числом смен карьеры у взрослых, предсказывал оценки подростков, удержание курсантов Вест-Пойнта в первое лето подготовки и успех в финальных раундах национального конкурса по орфографии (Duckworth & Quinn, 2009).\n- Критика: мета-анализ Credé, Tynan и Harms (2017) показал, что упорство сильно пересекается с добросовестностью (Big Five) и предсказывает успех лишь умеренно; настойчивость в усилиях работает лучше, чем постоянство интересов.\n\n### Нормы\nВзрослые (Duckworth & Quinn, 2009, табл. 3; N = 1554): **M = 3,4, SD = 0,7**. Средние субшкал в той же выборке: постоянство интересов ≈ 2,9, настойчивость ≈ 3,7 (SD для субшкал в доступных источниках не приведены, поэтому процентиль для них не рассчитывается). Упорство растёт с возрастом: от ≈ 3,2 у 25–34-летних до ≈ 3,7 у людей 65+. Подростки и финалисты конкурса по орфографии: M = 3,4 (SD 0,8).\n\n### Ограничения\n- Самоотчёт, чувствительный к социальной желательности и к «эффекту эталонной группы» (с кем вы себя сравниваете).\n- Сильное пересечение с добросовестностью: grit — не совсем «новая» черта.\n- Высокое упорство не всегда полезно: иногда мудрее сменить цель.\n- Нормы — в основном американские онлайн-выборки (≈ 80% женщин).",
+    "en": "### What it measures\n**Grit** — in Angela Duckworth's definition, \"passion and perseverance for long-term goals\". The model has two components:\n- **Consistency of interest** — sticking with one direction for years rather than hopping from goal to goal;\n- **Perseverance of effort** — working hard, finishing what you start, resilience to setbacks.\n\n### History\nDuckworth and colleagues introduced grit in 2007 (the 12-item Grit-O) and showed it adds to the prediction of success beyond IQ. The short **Grit-S** (8 items) was developed by Duckworth and Quinn (2009): it keeps the two-factor structure with improved psychometric properties. The 2016 book *Grit* made the idea world-famous (the book uses a different, 10-item scale not validated as the Grit-S). In Russian, the full Grit scale was studied by Tyumeneva, Kuzmina and Kardanova (HSE, 2014; 3,383 ninth-graders): both subscales were reliable (α = .76 and .84) but only weakly correlated (r = .24), so the authors advise interpreting them separately. We found no published Russian adaptation of the Grit-S specifically; the Russian wording here is the site's own translation.\n\n### Administration and scoring\n8 statements, 5 options from \"Not like me at all\" (1) to \"Very much like me\" (5). Consistency-of-interest items (1, 3, 5, 6) are negatively worded and reverse-scored. Overall score = **mean of all 8 items (1–5)**; each subscale = mean of its 4 items. The original instructions ask you to compare yourself with most people in the world, not just people you know.\n\n### Reliability and validity\n- Internal consistency: α = .73–.83 (total) in the development samples; perseverance α = .60–.78, consistency α = .73–.79; meta-analytic mean α = .79 across 46 samples (Credé et al., 2017).\n- Test–retest: r = .68 over one year (adolescents).\n- Grit-S was associated with educational attainment and fewer career changes among adults, predicted adolescents' GPA, predicted retention of West Point cadets through summer training, and predicted reaching later rounds of the Scripps National Spelling Bee (Duckworth & Quinn, 2009).\n- Criticism: the meta-analysis by Credé, Tynan and Harms (2017) found grit overlaps strongly with conscientiousness (Big Five) and predicts success only modestly; perseverance of effort predicts better than consistency of interest.\n\n### Norms\nAdults (Duckworth & Quinn, 2009, Table 3; N = 1,554): **M = 3.4, SD = 0.7**. Subscale means in that sample: consistency ≈ 2.9, perseverance ≈ 3.7 (subscale SDs were not available in the sources we could access, so no subscale percentile is shown). Grit rises with age: from ≈ 3.2 at ages 25–34 to ≈ 3.7 at 65+. Adolescents and spelling-bee finalists: M = 3.4 (SD 0.8).\n\n### Limitations\n- Self-report, sensitive to social desirability and reference-group effects (who you compare yourself with).\n- Strong overlap with conscientiousness: grit is not an entirely \"new\" trait.\n- High grit isn't always adaptive: sometimes changing goals is wiser.\n- Norms come mostly from US online samples (≈ 80% women)."
+  },
+  "sources": [
+    {
+      "citation": "Duckworth, A. L., & Quinn, P. D. (2009). Development and validation of the Short Grit Scale (Grit-S). Journal of Personality Assessment, 91(2), 166–174.",
+      "doi": "10.1080/00223890802634290",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19205937/"
+    },
+    {
+      "citation": "Duckworth, A. L., Peterson, C., Matthews, M. D., & Kelly, D. R. (2007). Grit: Perseverance and passion for long-term goals. Journal of Personality and Social Psychology, 92(6), 1087–1101.",
+      "doi": "10.1037/0022-3514.92.6.1087"
+    },
+    {
+      "citation": "Credé, M., Tynan, M. C., & Harms, P. D. (2017). Much ado about grit: A meta-analytic synthesis of the grit literature. Journal of Personality and Social Psychology, 113(3), 492–511.",
+      "doi": "10.1037/pspp0000102"
+    },
+    {
+      "citation": "Tyumeneva, Y., Kuzmina, J., & Kardanova, E. (2014). IRT analysis and validation of the Grit scale: A Russian investigation (HSE Working Papers, WP BRP 24/PSY/2014). National Research University Higher School of Economics.",
+      "url": "https://www.hse.ru/data/2014/11/19/1101023281/24PSY2014.pdf"
+    },
+    {
+      "citation": "Duckworth, A. (2016). Grit: The power of passion and perseverance. Scribner."
+    },
+    {
+      "citation": "Testable scale library: Grit-S — summary of norms, reliability and terms of use.",
+      "url": "https://www.testable.org/scale/grit-s-short-grit-scale"
+    }
+  ],
+  "license": "Copyrighted by Angela Duckworth; free for non-commercial research, educational and self-reflection use without fees or individual permission, with citation of Duckworth & Quinn (2009) (terms as summarised at https://www.testable.org/scale/grit-s-short-grit-scale ; see also angeladuckworth.com). Any commercial use (e.g. a monetised site with ads or paid results) needs the copyright holder's permission — if testik is monetised, request permission or replace with a public-domain IPIP perseverance/industriousness scale. Russian wording is this site's own translation.",
+  "instructions": {
+    "ru": "Ниже приведены утверждения, которые могут относиться или не относиться к вам. Чтобы результат был точнее, сравнивайте себя с большинством людей — не только с теми, кого вы хорошо знаете, а с людьми в целом. Правильных и неправильных ответов нет — просто отвечайте честно!",
+    "en": "Here are a number of statements that may or may not apply to you. For the most accurate score, when responding, think of how you compare to most people — not just the people you know well, but most people in the world. There are no right or wrong answers, so just answer honestly!"
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Совсем не про меня",
+        "en": "Not like me at all"
+      },
+      {
+        "ru": "Не очень похоже на меня",
+        "en": "Not much like me"
+      },
+      {
+        "ru": "Отчасти похоже на меня",
+        "en": "Somewhat like me"
+      },
+      {
+        "ru": "Во многом похоже на меня",
+        "en": "Mostly like me"
+      },
+      {
+        "ru": "Очень похоже на меня",
+        "en": "Very much like me"
+      }
+    ],
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "grit",
+      "name": {
+        "ru": "Упорство (общий балл)",
+        "en": "Grit (overall)"
+      },
+      "description": {
+        "ru": "Страсть и настойчивость в достижении долгосрочных целей: среднее по обеим субшкалам.",
+        "en": "Passion and perseverance for long-term goals: the average of both subscales."
+      },
+      "lowLabel": {
+        "ru": "пока в поиске",
+        "en": "still exploring"
+      },
+      "highLabel": {
+        "ru": "иду до конца",
+        "en": "in it for the long haul"
+      },
+      "color": "#FFC8A2",
+      "facets": [
+        "consistency",
+        "perseverance"
+      ],
+      "scoring": "mean",
+      "min": 1,
+      "max": 5,
+      "norms": {
+        "mean": 3.4,
+        "sd": 0.7,
+        "n": 1554,
+        "population": "US adults aged 25+ (online sample, ~80% women)",
+        "source": "Duckworth & Quinn (2009), J Pers Assess 91(2), Table 3 (as summarised by Testable scale library)"
+      },
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.74,
+          "label": {
+            "ru": "Пока в поиске",
+            "en": "Still exploring"
+          },
+          "summary": [
+            {
+              "ru": "Вам сложно долго держаться одной цели",
+              "en": "Sticking with one goal for long is hard right now"
+            },
+            {
+              "ru": "Новые интересы легко вытесняют старые",
+              "en": "New interests easily push out old ones"
+            },
+            {
+              "ru": "Ниже, чем у большинства взрослых в исследовании",
+              "en": "Lower than most adults in the study"
+            },
+            {
+              "ru": "Это может отражать этап жизни, а не характер",
+              "en": "This may reflect a life stage, not your character"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат говорит о том, что сейчас вам непросто долго удерживать одну цель и продолжать, когда становится трудно или скучно. Новые идеи манят, а прежние проекты теряют блеск. Это совсем не обязательно «слабость характера»: многие люди проходят через период поиска, когда пробовать разное — именно то, что нужно, чтобы найти своё. Кроме того, упорство трудно проявлять в делах, которые вам на самом деле не интересны.\n\n**Что может помочь.** Анджела Дакворт подчёркивает, что страсть обычно не «находится» сразу, а развивается: сначала интерес, потом практика, потом смысл. Выберите одно направление и дайте ему честный срок — например, три месяца. Делите большую цель на маленькие шаги с видимым прогрессом. Заранее решите, что будете делать в момент спада («если не хочется — делаю хотя бы 10 минут»). И помните о себе: сон, отдых и поддержка людей делают выдержку гораздо доступнее.",
+            "en": "Your score suggests it's currently hard for you to hold one goal for a long time and keep going when things get hard or dull. New ideas beckon while older projects lose their shine. That isn't necessarily a \"character flaw\": many people pass through a season of exploring, when trying lots of things is exactly what helps them find their thing. Besides, perseverance is hard to muster for things you don't genuinely care about.\n\n**What can help.** Angela Duckworth stresses that passion is rarely \"found\" all at once — it develops: first interest, then practice, then purpose. Pick one direction and give it a fair trial — say, three months. Break big goals into small steps with visible progress. Decide in advance what you'll do in a slump (\"if I don't feel like it, I'll do just 10 minutes\"). And look after yourself: sleep, rest and supportive people make staying power far more attainable."
+          }
+        },
+        {
+          "min": 2.75,
+          "max": 3.49,
+          "label": {
+            "ru": "Умеренная выдержка",
+            "en": "Moderate grit"
+          },
+          "summary": [
+            {
+              "ru": "Вы умеете стараться, но не всегда долго",
+              "en": "You can work hard, though not always for the long haul"
+            },
+            {
+              "ru": "Интересы иногда меняются быстрее, чем хотелось бы",
+              "en": "Interests sometimes shift faster than you'd like"
+            },
+            {
+              "ru": "Около среднего уровня",
+              "en": "Around the average"
+            },
+            {
+              "ru": "Хорошая база, чтобы выращивать упорство",
+              "en": "A good base for growing grit"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень упорства близок к среднему. Вы способны трудиться и доводить дела до конца, особенно когда цель ясна и важна, но иногда энтузиазм угасает раньше, чем проект завершён, или вас увлекает что-то новое. Это очень распространённый профиль — и хорошая база для роста.\n\n**Как развивать.** Посмотрите на две шкалы ниже: что у вас выше — старание (perseverance) или постоянство интересов (consistency)? Если проседает постоянство, помогает «иерархия целей»: одна главная цель верхнего уровня, которой подчинены остальные, — так новые идеи можно оценивать вопросом «приближает ли это меня к главному?». Если проседает старание — работает «осознанная практика»: конкретная задача на развитие, полная концентрация, обратная связь и повторение. Окружайте себя людьми, для которых упорство — норма: культура вокруг сильно влияет на нашу выдержку.",
+            "en": "Your grit is close to average. You can work hard and finish things, especially when the goal is clear and meaningful, but sometimes enthusiasm fades before a project is done, or something new catches your eye. It's a very common profile — and a good base for growth.\n\n**Growing it.** Check the two scales below: which is higher, perseverance of effort or consistency of interest? If consistency lags, a \"goal hierarchy\" helps: one top-level goal that others serve, so you can test new ideas with \"does this move me toward what matters most?\" If effort lags, try deliberate practice: a specific stretch goal, full focus, feedback and repetition. Surround yourself with people for whom perseverance is the norm — the culture around us shapes our staying power."
+          }
+        },
+        {
+          "min": 3.5,
+          "max": 4.24,
+          "label": {
+            "ru": "Выдержка выше среднего",
+            "en": "Above-average grit"
+          },
+          "summary": [
+            {
+              "ru": "Вы обычно доводите начатое до конца",
+              "en": "You usually finish what you start"
+            },
+            {
+              "ru": "Неудачи не выбивают вас надолго",
+              "en": "Setbacks don't knock you out for long"
+            },
+            {
+              "ru": "Ваши цели довольно устойчивы",
+              "en": "Your goals are fairly stable"
+            },
+            {
+              "ru": "Выше, чем у большинства взрослых в исследовании",
+              "en": "Higher than most adults in the study"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат выше среднего: вы умеете долго работать над целью, не сдаётесь после первых неудач и, как правило, не бросаете проекты на полпути. Исследования Дакворт связывают такую выдержку с более высоким уровнем образования, меньшим числом смен карьеры и с тем, что люди чаще проходят трудные «отборочные» периоды — от учёбы до армейской подготовки.\n\n**Как поддерживать.** Помните, что упорство лучше всего работает в связке со смыслом: регулярно напоминайте себе, *зачем* вы делаете то, что делаете, и как это помогает другим. Не путайте упорство с упрямством: иногда сменить способ достижения цели (а изредка — и саму цель) — мудрое решение. И оставляйте место восстановлению: долгая дистанция требует отдыха.",
+            "en": "Your score is above average: you can work on a goal for a long time, don't quit after early failures, and generally don't abandon projects halfway. Duckworth's research links this kind of grit with higher educational attainment, fewer career changes and getting through demanding \"make-or-break\" periods — from school to military training.\n\n**Keeping it going.** Grit works best paired with purpose: regularly remind yourself *why* you're doing what you do and how it helps others. Don't confuse grit with stubbornness: sometimes changing the route to a goal (and occasionally the goal itself) is wise. And leave room for recovery: a long race needs rest."
+          }
+        },
+        {
+          "min": 4.25,
+          "max": 5,
+          "label": {
+            "ru": "Высокая выдержка",
+            "en": "High grit"
+          },
+          "summary": [
+            {
+              "ru": "Вы очень упорны и последовательны",
+              "en": "You're highly persistent and consistent"
+            },
+            {
+              "ru": "Долгосрочные цели для вас — норма",
+              "en": "Long-term goals are your normal"
+            },
+            {
+              "ru": "Трудности скорее мобилизуют, чем останавливают",
+              "en": "Difficulties mobilise rather than stop you"
+            },
+            {
+              "ru": "Это один из самых высоких результатов",
+              "en": "Among the highest results"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы набрали очень высокий балл: страсть и упорство в достижении долгосрочных целей — ваша сильная сторона. Вы держитесь выбранного направления годами, много трудитесь и не теряете решимости от неудач. Такие люди часто достигают мастерства в своём деле, потому что выдерживают годы практики, которые нужны для экспертности.\n\n**На что обратить внимание.** Высокая выдержка иногда мешает вовремя остановиться: продолжать проект, который уже не имеет смысла, или работать на износ. Время от времени честно спрашивайте себя: «Если бы я начинал(а) сегодня, выбрал(а) бы я эту цель?». Следите за признаками выгорания и не стесняйтесь просить о помощи — это не слабость, а часть стратегии на длинной дистанции. И делитесь опытом: ваш пример и поддержка могут помочь другим развить упорство.",
+            "en": "You scored very high: passion and perseverance for long-term goals are a real strength. You stick with a chosen direction for years, work hard, and don't lose resolve after setbacks. People like this often reach mastery because they sustain the years of practice expertise demands.\n\n**Worth keeping in mind.** Very high grit can make it hard to stop in time — persisting with a project that no longer makes sense, or working yourself into the ground. Now and then ask honestly: \"If I were starting today, would I choose this goal?\" Watch for signs of burnout and don't hesitate to ask for help — that's not weakness but part of a long-distance strategy. And share what you know: your example and encouragement can help others build grit."
+          }
+        }
+      ]
+    },
+    {
+      "id": "consistency",
+      "name": {
+        "ru": "Постоянство интересов",
+        "en": "Consistency of interest"
+      },
+      "description": {
+        "ru": "Насколько устойчивы ваши цели и интересы во времени.",
+        "en": "How stable your goals and interests are over time."
+      },
+      "lowLabel": {
+        "ru": "интересы меняются",
+        "en": "shifting interests"
+      },
+      "highLabel": {
+        "ru": "один курс годами",
+        "en": "one course for years"
+      },
+      "color": "#FFE5B4",
+      "scoring": "mean",
+      "min": 1,
+      "max": 5,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.49,
+          "label": {
+            "ru": "Многообразие интересов",
+            "en": "Wide-ranging interests"
+          },
+          "summary": [
+            {
+              "ru": "Интересы и цели часто меняются",
+              "en": "Interests and goals change often"
+            },
+            {
+              "ru": "Новое легко отвлекает от начатого",
+              "en": "New things easily pull you away"
+            },
+            {
+              "ru": "Плюс — любопытство и гибкость",
+              "en": "Upside: curiosity and flexibility"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши интересы подвижны: вы легко загораетесь новым и так же легко переключаетесь. Это говорит о любопытстве и открытости, но может мешать доводить долгие проекты до результата.\n\n**Попробуйте:** заведите «список идей на потом» — записывайте туда новые увлечения, не бросая текущее. Через месяц многие из них потеряют привлекательность, а лучшие можно будет осознанно включить в планы.",
+            "en": "Your interests are fluid: you catch fire with new things easily and switch just as easily. That speaks to curiosity and openness, but can get in the way of seeing long projects through.\n\n**Try this:** keep an \"ideas for later\" list — jot new interests there without dropping your current project. A month later many will have lost their pull, and the best can be deliberately added to your plans."
+          }
+        },
+        {
+          "min": 2.5,
+          "max": 3.74,
+          "label": {
+            "ru": "Умеренное постоянство",
+            "en": "Moderate consistency"
+          },
+          "summary": [
+            {
+              "ru": "Ваши интересы в целом устойчивы",
+              "en": "Your interests are broadly stable"
+            },
+            {
+              "ru": "Иногда цели всё же меняются",
+              "en": "Goals still shift sometimes"
+            },
+            {
+              "ru": "Типичный уровень для взрослых",
+              "en": "Typical for adults"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы способны долго держаться выбранного направления, хотя время от времени цели меняются или проекты, рассчитанные на месяцы, теряют для вас привлекательность. Для взрослых это типичный уровень — в исследованиях постоянство интересов обычно ниже, чем старание.\n\n**Как развивать:** формулируйте долгосрочную цель через смысл («зачем»), а не только через задачу — смысл помогает пережить скучные этапы.",
+            "en": "You can stay with a chosen direction for a long time, though goals sometimes change or months-long projects lose their appeal. That's typical for adults — in research, consistency of interest usually runs lower than perseverance of effort.\n\n**Growing it:** frame long-term goals in terms of meaning (the \"why\"), not just the task — meaning carries you through the dull stretches."
+          }
+        },
+        {
+          "min": 3.75,
+          "max": 5,
+          "label": {
+            "ru": "Устойчивая страсть",
+            "en": "Steady passion"
+          },
+          "summary": [
+            {
+              "ru": "Вы годами держитесь своих целей",
+              "en": "You hold to your goals for years"
+            },
+            {
+              "ru": "Новые идеи редко сбивают с курса",
+              "en": "New ideas rarely knock you off course"
+            },
+            {
+              "ru": "Чёткий долгосрочный фокус",
+              "en": "A clear long-term focus"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши интересы и цели очень устойчивы: вы знаете, к чему стремитесь, и новые идеи редко уводят вас в сторону. Это «страсть» в понимании Дакворт — не вспышка энтузиазма, а постоянство направления.\n\n**На что обратить внимание:** оставляйте место любопытству — иногда новое помогает по-свежему взглянуть на главную цель.",
+            "en": "Your interests and goals are very stable: you know what you're aiming for, and new ideas rarely lead you astray. This is \"passion\" in Duckworth's sense — not a burst of enthusiasm but consistency of direction.\n\n**Worth keeping in mind:** leave room for curiosity — sometimes something new offers a fresh perspective on your main goal."
+          }
+        }
+      ]
+    },
+    {
+      "id": "perseverance",
+      "name": {
+        "ru": "Настойчивость в усилиях",
+        "en": "Perseverance of effort"
+      },
+      "description": {
+        "ru": "Трудолюбие, доведение начатого до конца и устойчивость к неудачам.",
+        "en": "Hard work, finishing what you start and resilience to setbacks."
+      },
+      "lowLabel": {
+        "ru": "быстро устаю",
+        "en": "effort fades"
+      },
+      "highLabel": {
+        "ru": "работаю до результата",
+        "en": "work until it's done"
+      },
+      "color": "#B5EAD7",
+      "scoring": "mean",
+      "min": 1,
+      "max": 5,
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.49,
+          "label": {
+            "ru": "Энергия на старте",
+            "en": "Energy at the start"
+          },
+          "summary": [
+            {
+              "ru": "Вам трудно продолжать, когда становится тяжело",
+              "en": "Keeping going when it gets hard is tough"
+            },
+            {
+              "ru": "Неудачи могут надолго выбивать из колеи",
+              "en": "Setbacks can throw you for a while"
+            },
+            {
+              "ru": "Начинать легче, чем заканчивать",
+              "en": "Starting is easier than finishing"
+            }
+          ],
+          "detailed": {
+            "ru": "Сейчас вам непросто прикладывать усилия долго, особенно после неудач. Иногда это связано с усталостью, перегрузкой или с тем, что задача не кажется вам важной.\n\n**Попробуйте:** уменьшайте шаги до такого размера, чтобы их было трудно не сделать; отмечайте прогресс; планируйте заранее, как поддержите себя после неудачи («что я сделаю, если не получится?»).",
+            "en": "Right now sustaining effort is hard, especially after setbacks. Sometimes that reflects fatigue, overload, or a task that doesn't feel important to you.\n\n**Try this:** shrink steps until they're hard not to do; track your progress; plan in advance how you'll support yourself after a setback (\"what will I do if it doesn't work out?\")."
+          }
+        },
+        {
+          "min": 2.5,
+          "max": 3.74,
+          "label": {
+            "ru": "Умеренное старание",
+            "en": "Moderate perseverance"
+          },
+          "summary": [
+            {
+              "ru": "Вы умеете трудиться, когда цель важна",
+              "en": "You work hard when the goal matters"
+            },
+            {
+              "ru": "Иногда бросаете начатое",
+              "en": "Sometimes you leave things unfinished"
+            },
+            {
+              "ru": "Неудачи огорчают, но не останавливают надолго",
+              "en": "Setbacks sting but don't stop you for long"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы трудолюбивы и способны доводить дела до конца, хотя не всегда. Чаще всего старание зависит от того, насколько вам важна цель.\n\n**Как развивать:** привязывайте рабочие привычки к расписанию (одно и то же время, одно и то же место) — привычка снижает зависимость от мотивации.",
+            "en": "You're hard-working and able to finish things, though not always. Effort often depends on how much the goal matters to you.\n\n**Growing it:** anchor work habits to a schedule (same time, same place) — habit reduces reliance on motivation."
+          }
+        },
+        {
+          "min": 3.75,
+          "max": 5,
+          "label": {
+            "ru": "Неутомимое старание",
+            "en": "Tireless effort"
+          },
+          "summary": [
+            {
+              "ru": "Вы трудолюбивы и усердны",
+              "en": "You're hard-working and diligent"
+            },
+            {
+              "ru": "Доводите начатое до конца",
+              "en": "You finish what you begin"
+            },
+            {
+              "ru": "Неудачи не лишают вас решимости",
+              "en": "Setbacks don't discourage you"
+            }
+          ],
+          "detailed": {
+            "ru": "Старание — ваша сильная сторона: вы много работаете, доводите дела до конца и не теряете решимости после неудач. По данным мета-анализа, именно эта грань упорства сильнее всего связана с успеваемостью и результатами.\n\n**На что обратить внимание:** не забывайте о восстановлении и о том, чтобы направлять усилия на действительно важные для вас цели.",
+            "en": "Effort is your strength: you work hard, see things through and stay resolute after setbacks. Meta-analytic evidence suggests this facet of grit is the one most linked to performance.\n\n**Worth keeping in mind:** remember to recover, and to aim your effort at goals that truly matter to you."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Новые идеи и проекты порой отвлекают меня от начатого раньше.",
+        "en": "New ideas and projects sometimes distract me from previous ones."
+      },
+      "dimension": "consistency",
+      "reverse": true
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Неудачи меня не обескураживают.",
+        "en": "Setbacks don't discourage me."
+      },
+      "dimension": "perseverance"
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Бывало, что я ненадолго увлекался (увлекалась) какой-то идеей или проектом, а потом терял(а) к нему интерес.",
+        "en": "I have been obsessed with a certain idea or project for a short time but later lost interest."
+      },
+      "dimension": "consistency",
+      "reverse": true
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Я трудолюбив(а).",
+        "en": "I am a hard worker."
+      },
+      "dimension": "perseverance"
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Я часто ставлю перед собой цель, а потом переключаюсь на другую.",
+        "en": "I often set a goal but later choose to pursue a different one."
+      },
+      "dimension": "consistency",
+      "reverse": true
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Мне трудно сохранять сосредоточенность на проектах, которые занимают больше нескольких месяцев.",
+        "en": "I have difficulty maintaining my focus on projects that take more than a few months to complete."
+      },
+      "dimension": "consistency",
+      "reverse": true
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Я довожу до конца всё, что начинаю.",
+        "en": "I finish whatever I begin."
+      },
+      "dimension": "perseverance"
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Я усерден (усердна).",
+        "en": "I am diligent."
+      },
+      "dimension": "perseverance"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Ответы кодируются от 1 («совсем не про меня») до 5 («очень похоже на меня»). Утверждения 1, 3, 5 и 6 (постоянство интересов) — обратные: 6 минус ответ. Постоянство интересов — среднее по пунктам 1, 3, 5, 6; настойчивость — среднее по пунктам 2, 4, 7, 8; общий балл упорства — среднее по всем 8 пунктам (то же, что среднее двух субшкал), от 1 до 5. Процентиль для общего балла рассчитан по нормальному распределению с M = 3,4 и SD = 0,7 (Duckworth & Quinn, 2009).",
+    "en": "Answers are coded 1 (not like me at all) to 5 (very much like me). Items 1, 3, 5 and 6 (consistency of interest) are reverse-scored: 6 minus the answer. Consistency = mean of items 1, 3, 5, 6; perseverance = mean of items 2, 4, 7, 8; overall grit = mean of all 8 items (equal to the mean of the two subscales), 1–5. The overall percentile assumes a normal distribution with M = 3.4 and SD = 0.7 (Duckworth & Quinn, 2009)."
+  },
+  "resultIntro": {
+    "ru": "Упорство — это не талант, с которым рождаются, а сочетание интереса, практики, смысла и надежды, которое можно развивать. Вот ваш профиль.",
+    "en": "Grit isn't a talent you're born with — it's a mix of interest, practice, purpose and hope that you can grow. Here's your profile."
+  }
+}

@@ -1,0 +1,994 @@
+{
+  "id": "attachment-style",
+  "category": "relationships",
+  "kind": "likert",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Стиль привязанности (ECR-R)",
+    "en": "Attachment Style (ECR-R)"
+  },
+  "tagline": {
+    "ru": "Почему вы любите именно так? Узнайте свой стиль привязанности",
+    "en": "Why do you love the way you do? Discover your attachment style"
+  },
+  "description": {
+    "ru": "Научный опросник «Опыт близких отношений» (ECR-R) измеряет две главные оси привязанности — тревожность и избегание близости. Вы узнаете свой стиль (надёжный, тревожный, избегающий или боязливый), увидите, как ваши баллы соотносятся с более чем 22 000 людей, и получите советы для более спокойных и тёплых отношений.",
+    "en": "The research-grade Experiences in Close Relationships–Revised (ECR-R) measures the two core axes of attachment: anxiety and avoidance. Discover your style (secure, anxious, dismissive or fearful), see how your scores compare with over 22,000 people, and get advice for calmer, warmer relationships."
+  },
+  "emoji": "💞",
+  "durationMin": 8,
+  "popularity": 5,
+  "tags": [
+    {
+      "ru": "отношения",
+      "en": "relationships"
+    },
+    {
+      "ru": "привязанность",
+      "en": "attachment"
+    },
+    {
+      "ru": "любовь",
+      "en": "love"
+    },
+    {
+      "ru": "тревожность",
+      "en": "anxiety"
+    },
+    {
+      "ru": "близость",
+      "en": "intimacy"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что измеряет\nВзрослую **привязанность** в романтических отношениях по двум независимым измерениям:\n- **Тревожность привязанности** — страх быть отвергнутым или брошенным, потребность в подтверждении любви, сильная чувствительность к признакам охлаждения.\n- **Избегание близости** — дискомфорт от эмоциональной близости и зависимости, стремление держать дистанцию и полагаться только на себя.\n\n### Теория и история\nТеорию привязанности создали Джон Боулби и Мэри Эйнсворт, изучая связь ребёнка с близким взрослым. Хейзан и Шейвер (1987) перенесли её на романтическую любовь, выделив надёжный, тревожный и избегающий стили. Бартоломью и Горовиц (1991) предложили четырёхкатегориальную модель — **надёжный, тревожно-озабоченный, отвергающе-избегающий и боязливо-избегающий** стили, — которая укладывается в пространство двух осей «тревожность × избегание». Бреннан, Кларк и Шейвер (1998) свели сотни вопросов из существующих методик в опросник ECR, а Фрейли, Уоллер и Бреннан (2000) с помощью теории ответов на задания (IRT) отобрали лучшие пункты — так появился **ECR-R** (36 утверждений, по 18 на шкалу).\n\n### Как проводится и считается\n36 утверждений о том, как вы *обычно* переживаете близкие отношения (не только текущие), 7-балльная шкала согласия. Тревожность — пункты 1–18 (обратные 9 и 11), избегание — пункты 19–36 (обратные 20, 22, 26–31, 33–36). Балл по каждой шкале — **среднее, 1–7**.\n\nСтиль определяется по положению на двумерной карте: граница «низко/высоко» — середина шкалы (4,0). Надёжный: обе оси ниже 4; тревожно-озабоченный: высокая тревожность, низкое избегание; отвергающий: низкая тревожность, высокое избегание; боязливый: обе высоки. Важно: сам Р. К. Фрейли рекомендует в исследованиях работать с непрерывными баллами, а не с категориями — стиль на сайте является удобным ориентиром, а точнее всего вас описывают два числа.\n\n### Надёжность и валидность\n- Внутренняя согласованность обеих шкал обычно **≈ 0,90 и выше** (Fraley, сайт ECR-R); у самых надёжных респондентов может быть чуть ниже.\n- Высокая стабильность за 3 недели и хорошая конвергентная/дискриминантная валидность (Sibley, Fischer, & Liu, 2005).\n- В онлайн-выборке >22 000 человек шкалы коррелируют r = 0,41.\n- Русскоязычные адаптации: Казанцева (2008); краткая версия ECR-R-14 (Чистопольская, Митина, Ениколопов и др., 2018). Перевод пунктов на сайте выполнен заново по английскому оригиналу.\n\n### Нормы\nОнлайн-выборка Р. К. Фрейли (N > 22 000; 78% женщин; средний возраст 24 года): **тревожность M = 3,64 (SD 1,33)**, **избегание M = 2,93 (SD 1,18)**. Различия по полу и семейному положению малы; с возрастом тревожность слегка снижается, избегание слегка растёт.\n\n### Ограничения\n- Самоотчёт: люди с выраженным избеганием иногда недооценивают свою тревогу.\n- Стиль привязанности не приговор и не диагноз — он меняется под влиянием опыта, надёжных отношений и психотерапии.\n- Категории огрубляют картину: два человека с одним «стилем» могут сильно различаться по баллам.\n- Нормы получены на добровольцах англоязычного сайта, в основном молодых женщинах.",
+    "en": "### What it measures\nAdult **attachment** in romantic relationships along two independent dimensions:\n- **Attachment anxiety** — fear of rejection or abandonment, need for reassurance, high sensitivity to signs of a partner pulling away.\n- **Attachment avoidance** — discomfort with emotional closeness and dependence, a preference for distance and self-reliance.\n\n### Theory and history\nAttachment theory began with John Bowlby and Mary Ainsworth's work on infants and caregivers. Hazan and Shaver (1987) extended it to romantic love (secure, anxious and avoidant styles). Bartholomew and Horowitz (1991) proposed a four-category model — **secure, preoccupied, dismissing and fearful** — that maps onto the two-dimensional space of anxiety × avoidance. Brennan, Clark and Shaver (1998) distilled hundreds of items from existing measures into the ECR, and Fraley, Waller and Brennan (2000) used item response theory to select the best items, producing the **ECR-R** (36 items, 18 per scale).\n\n### Administration and scoring\n36 statements about how you *generally* experience close relationships (not only your current one), rated on a 7-point agreement scale. Anxiety = items 1–18 (reverse: 9, 11); avoidance = items 19–36 (reverse: 20, 22, 26–31, 33–36). Each scale score is a **mean, 1–7**.\n\nYour style is read off your position on the two-dimensional map, splitting each axis at the scale midpoint (4.0). Secure: both below 4; preoccupied: high anxiety, low avoidance; dismissing: low anxiety, high avoidance; fearful: both high. Note that R. C. Fraley himself recommends analysing continuous scores rather than categories in research — the style label is a convenient guide, while your two numbers describe you more precisely.\n\n### Reliability and validity\n- Internal consistency is typically **≈ .90 or higher** for both scales (Fraley, ECR-R site), possibly a little lower at the secure end.\n- High 3-week stability and good convergent/discriminant validity (Sibley, Fischer, & Liu, 2005).\n- In an online sample of >22,000, the two scales correlate r = .41.\n- Russian adaptations: Kazantseva (2008); short ECR-R-14 (Chistopolskaya, Mitina, Enikolopov et al., 2018). The Russian item wording used here is a fresh translation from the English original.\n\n### Norms\nR. C. Fraley's online sample (N > 22,000; 78% women; mean age 24): **anxiety M = 3.64 (SD 1.33)**, **avoidance M = 2.93 (SD 1.18)**. Sex and marital-status differences are small; with age, anxiety declines slightly and avoidance rises slightly.\n\n### Limitations\n- Self-report: highly avoidant people sometimes under-report their anxiety.\n- Attachment style is neither destiny nor a diagnosis — it shifts with experience, secure relationships and therapy.\n- Categories coarsen the picture: two people with the same \"style\" can differ a lot in their scores.\n- Norms come from volunteers on an English-language website, mostly young women."
+  },
+  "sources": [
+    {
+      "citation": "Fraley, R. C., Waller, N. G., & Brennan, K. A. (2000). An item response theory analysis of self-report measures of adult attachment. Journal of Personality and Social Psychology, 78(2), 350–365.",
+      "doi": "10.1037/0022-3514.78.2.350"
+    },
+    {
+      "citation": "Fraley, R. C. (n.d.). The Experiences in Close Relationships–Revised (ECR-R) questionnaire [items and scoring].",
+      "url": "https://labs.psychology.illinois.edu/~rcfraley/measures/ecrritems.htm"
+    },
+    {
+      "citation": "Fraley, R. C. (n.d.). Information on the ECR-R: norms and scoring notes.",
+      "url": "https://labs.psychology.illinois.edu/~rcfraley/measures/ecrr-oldernorms.htm"
+    },
+    {
+      "citation": "Brennan, K. A., Clark, C. L., & Shaver, P. R. (1998). Self-report measurement of adult attachment: An integrative overview. In J. A. Simpson & W. S. Rholes (Eds.), Attachment theory and close relationships (pp. 46–76). Guilford Press."
+    },
+    {
+      "citation": "Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: A test of a four-category model. Journal of Personality and Social Psychology, 61(2), 226–244.",
+      "doi": "10.1037/0022-3514.61.2.226"
+    },
+    {
+      "citation": "Hazan, C., & Shaver, P. (1987). Romantic love conceptualized as an attachment process. Journal of Personality and Social Psychology, 52(3), 511–524.",
+      "doi": "10.1037/0022-3514.52.3.511"
+    },
+    {
+      "citation": "Sibley, C. G., Fischer, R., & Liu, J. H. (2005). Reliability and validity of the Revised Experiences in Close Relationships (ECR-R) self-report measure of adult romantic attachment. Personality and Social Psychology Bulletin, 31(11), 1524–1536.",
+      "doi": "10.1177/0146167205276865"
+    },
+    {
+      "citation": "Казанцева, Т. В. (2008). Адаптация модифицированной методики «Опыт близких отношений» К. Бреннан и Р. К. Фрейли. Известия РГПУ им. А. И. Герцена, (74-2), 139–143.",
+      "url": "https://lib.herzen.spb.ru/media/magazines/contents/1/34(74)2/kazantseva_34_74_2_139_143.pdf"
+    }
+  ],
+  "license": "Free research instrument published openly by its author: items and scoring are posted by R. C. Fraley at https://labs.psychology.illinois.edu/~rcfraley/measures/ecrritems.htm and reproduced in the peer-reviewed article (Fraley, Waller, & Brennan, 2000). The page states no license restrictions (it explicitly allows randomising items and rewording targets), and the ECR-R is widely used without fee. Not public domain, so keep the attribution; for any paid/commercial product, confirm with the author. Russian wording is an original translation for this site (published Russian adaptation: Kazantseva, 2008).",
+  "instructions": {
+    "ru": "Утверждения ниже касаются того, как вы чувствуете себя в эмоционально близких (романтических) отношениях. Нас интересует, как вы *обычно* переживаете отношения, а не только то, что происходит в текущих. Оцените, насколько вы согласны с каждым утверждением. Если сейчас вы не в отношениях, опирайтесь на прошлый опыт.",
+    "en": "The statements below concern how you feel in emotionally intimate (romantic) relationships. We're interested in how you *generally* experience relationships, not just in what is happening in a current relationship. Rate how much you agree with each statement. If you're not in a relationship right now, draw on past experience."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Совершенно не согласен(-на)",
+        "en": "Strongly disagree"
+      },
+      {
+        "ru": "Не согласен(-на)",
+        "en": "Disagree"
+      },
+      {
+        "ru": "Скорее не согласен(-на)",
+        "en": "Somewhat disagree"
+      },
+      {
+        "ru": "Нечто среднее",
+        "en": "Neutral / mixed"
+      },
+      {
+        "ru": "Скорее согласен(-на)",
+        "en": "Somewhat agree"
+      },
+      {
+        "ru": "Согласен(-на)",
+        "en": "Agree"
+      },
+      {
+        "ru": "Полностью согласен(-на)",
+        "en": "Strongly agree"
+      }
+    ],
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "anxiety",
+      "name": {
+        "ru": "Тревожность привязанности",
+        "en": "Attachment anxiety"
+      },
+      "description": {
+        "ru": "Насколько сильно вы беспокоитесь о том, что вас отвергнут, разлюбят или бросят.",
+        "en": "How much you worry about being rejected, unloved or abandoned."
+      },
+      "lowLabel": {
+        "ru": "спокойное доверие",
+        "en": "calm trust"
+      },
+      "highLabel": {
+        "ru": "страх потерять любовь",
+        "en": "fear of losing love"
+      },
+      "color": "#F7B2BD",
+      "scoring": "mean",
+      "min": 1,
+      "max": 7,
+      "norms": {
+        "mean": 3.64,
+        "sd": 1.33,
+        "n": 22000,
+        "population": "Online ECR-R takers (>22,000; 78% women; mean age 24, SD 10)",
+        "source": "Fraley, ECR-R information page (labs.psychology.illinois.edu/~rcfraley/measures/ecrr-oldernorms.htm)"
+      },
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.49,
+          "label": {
+            "ru": "Низкая тревожность",
+            "en": "Low anxiety"
+          },
+          "summary": [
+            {
+              "ru": "Вы редко сомневаетесь в чувствах партнёра",
+              "en": "You rarely doubt your partner's feelings"
+            },
+            {
+              "ru": "Разлука и паузы в общении не выбивают вас из колеи",
+              "en": "Time apart or slow replies don't throw you"
+            },
+            {
+              "ru": "Вам не нужно постоянное подтверждение любви",
+              "en": "You don't need constant reassurance"
+            },
+            {
+              "ru": "Ниже, чем у большинства людей",
+              "en": "Lower than most people"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы чувствуете себя в отношениях довольно спокойно: не ждёте подвоха, не прокручиваете в голове, почему партнёр не ответил сразу, и не боитесь, что вас вот-вот разлюбят. Это хорошая основа для доверия — вы можете давать партнёру свободу и не воспринимать его потребность в личном пространстве как угрозу.\n\n**На что обратить внимание.** Иногда очень низкая тревожность сочетается с тем, что человек не замечает тревоги партнёра. Если ваш близкий человек более чувствителен к дистанции, простые сигналы — «я задержусь, но думаю о тебе» — помогут ему чувствовать себя так же спокойно, как вам.",
+            "en": "You feel fairly calm in relationships: you don't expect the worst, don't replay why your partner didn't reply right away, and don't fear being suddenly unloved. That's a strong foundation for trust — you can give a partner freedom without reading their need for space as a threat.\n\n**Worth keeping in mind.** Very low anxiety can sometimes mean missing a partner's anxiety. If someone close to you is more sensitive to distance, small signals — \"running late, thinking of you\" — help them feel as settled as you do."
+          }
+        },
+        {
+          "min": 2.5,
+          "max": 3.99,
+          "label": {
+            "ru": "Умеренная тревожность",
+            "en": "Moderate anxiety"
+          },
+          "summary": [
+            {
+              "ru": "Обычно вы доверяете партнёру",
+              "en": "You usually trust your partner"
+            },
+            {
+              "ru": "В напряжённые моменты могут появляться сомнения",
+              "en": "Doubts can surface in tense moments"
+            },
+            {
+              "ru": "Около среднего уровня",
+              "en": "Around the average level"
+            },
+            {
+              "ru": "Вы умеете успокаиваться и возвращать доверие",
+              "en": "You can calm yourself and restore trust"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш уровень тревожности близок к среднему. В целом вы чувствуете себя в отношениях достаточно уверенно, но в периоды неопределённости — ссора, долгое молчание, перемены в жизни партнёра — могут появляться мысли «а вдруг я ему (ей) больше не нужен(а)?». Это нормальная человеческая реакция.\n\n**Что помогает.** Замечайте момент, когда тревога начинает «додумывать» за партнёра, и проверяйте догадки вопросом, а не выводами. Говорите о своих потребностях прямо: «мне важно, чтобы ты написал(а), когда доберёшься». Ясные договорённости снижают почву для тревоги у обоих.",
+            "en": "Your anxiety is close to average. You generally feel secure enough in relationships, but in uncertain stretches — an argument, a long silence, changes in your partner's life — thoughts like \"what if they don't need me any more?\" can appear. That's a normal human reaction.\n\n**What helps.** Notice when anxiety starts filling in the blanks for your partner, and check your guesses with a question instead of a conclusion. State your needs directly: \"it matters to me that you text when you get home.\" Clear agreements leave less room for anxiety on both sides."
+          }
+        },
+        {
+          "min": 4,
+          "max": 5.49,
+          "label": {
+            "ru": "Повышенная тревожность",
+            "en": "Elevated anxiety"
+          },
+          "summary": [
+            {
+              "ru": "Вы часто беспокоитесь о прочности отношений",
+              "en": "You often worry about how solid the relationship is"
+            },
+            {
+              "ru": "Признаки охлаждения замечаете очень быстро",
+              "en": "You pick up on signs of distance very quickly"
+            },
+            {
+              "ru": "Вам важно регулярное подтверждение любви",
+              "en": "Regular reassurance matters a lot to you"
+            },
+            {
+              "ru": "Выше, чем у большинства людей",
+              "en": "Higher than most people"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы глубоко вовлекаетесь в отношения и очень чувствительны к тому, насколько партнёр рядом. Задержка с ответом, изменившийся тон или планы без вас могут запускать тревогу и желание срочно прояснить ситуацию. За этим стоит сильная потребность в близости — и, нередко, прошлый опыт, когда близость была ненадёжной.\n\n**Что помогает.** Учитесь успокаивать себя до того, как действовать: подышите, займитесь чем-то телесным, напишите мысль на бумаге, а потом решите, нужно ли что-то говорить. Опирайтесь не только на партнёра — друзья, увлечения и забота о себе снижают «ставки» каждого эпизода. Выбирайте людей, которые последовательны и тёплые: рядом с надёжным партнёром тревожность со временем заметно снижается. Если тревога мешает жить, хорошо помогает терапия (например, эмоционально-фокусированная или схема-терапия).",
+            "en": "You invest deeply in relationships and are highly attuned to how close your partner is. A slow reply, a changed tone or plans that don't include you can trigger worry and an urge to sort things out right now. Underneath is a strong need for closeness — and often past experiences where closeness felt unreliable.\n\n**What helps.** Practise calming yourself before acting: breathe, move your body, write the thought down, then decide whether anything needs saying. Lean on more than your partner — friends, interests and self-care lower the stakes of each moment. Choose people who are consistent and warm: with a reliable partner, anxiety tends to ease noticeably over time. If anxiety gets in the way, therapy (for example emotionally focused or schema therapy) helps a lot."
+          }
+        },
+        {
+          "min": 5.5,
+          "max": 7,
+          "label": {
+            "ru": "Высокая тревожность",
+            "en": "High anxiety"
+          },
+          "summary": [
+            {
+              "ru": "Страх потерять любовь — частый спутник ваших отношений",
+              "en": "Fear of losing love is a frequent companion"
+            },
+            {
+              "ru": "Вы много думаете о том, как к вам относится партнёр",
+              "en": "You think a lot about how your partner feels about you"
+            },
+            {
+              "ru": "Сомнения в себе усиливаются рядом с близким человеком",
+              "en": "Self-doubt grows around the people you love"
+            },
+            {
+              "ru": "Это очень высокий уровень по сравнению с другими",
+              "en": "Very high compared with others"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат говорит о сильной тревоге в близких отношениях. Скорее всего, вы часто боитесь, что вас бросят или разлюбят, много анализируете поведение партнёра и испытываете боль, когда не получаете нужной поддержки. Это изматывает — и это не ваша «вина»: такая чувствительность обычно складывается из опыта, в котором любовь приходилось заслуживать или ждать.\n\n**Что помогает.** Первое — бережность к себе: ваша потребность в близости нормальна. Второе — навыки саморегуляции: заметить волну тревоги, назвать её («это мой страх, а не факт»), переждать пик, прежде чем писать или выяснять отношения. Третье — внимание к выбору партнёров: тревожных людей часто притягивают «недоступные», что поддерживает тревогу. С психологом работа с тревожной привязанностью идёт особенно эффективно — это одна из самых изученных тем в психотерапии.",
+            "en": "Your score points to strong anxiety in close relationships. You probably often fear being left or unloved, analyse your partner's behaviour closely, and hurt when you don't get the support you need. That's exhausting — and it isn't your \"fault\": this sensitivity usually grows out of experiences where love had to be earned or waited for.\n\n**What helps.** First, gentleness: your need for closeness is normal. Second, self-regulation skills: notice the wave of anxiety, name it (\"this is my fear, not a fact\"), and ride out the peak before texting or confronting. Third, attention to who you choose: anxious people are often drawn to unavailable partners, which keeps anxiety alive. Working with a therapist on anxious attachment is especially effective — it's one of the best-studied topics in psychotherapy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "avoidance",
+      "name": {
+        "ru": "Избегание близости",
+        "en": "Attachment avoidance"
+      },
+      "description": {
+        "ru": "Насколько некомфортны для вас эмоциональная близость, открытость и зависимость от партнёра.",
+        "en": "How uncomfortable you are with emotional closeness, openness and depending on a partner."
+      },
+      "lowLabel": {
+        "ru": "легко сближаюсь",
+        "en": "closeness comes easily"
+      },
+      "highLabel": {
+        "ru": "держу дистанцию",
+        "en": "keep my distance"
+      },
+      "color": "#B5C7F2",
+      "scoring": "mean",
+      "min": 1,
+      "max": 7,
+      "norms": {
+        "mean": 2.93,
+        "sd": 1.18,
+        "n": 22000,
+        "population": "Online ECR-R takers (>22,000; 78% women; mean age 24, SD 10)",
+        "source": "Fraley, ECR-R information page (labs.psychology.illinois.edu/~rcfraley/measures/ecrr-oldernorms.htm)"
+      },
+      "bands": [
+        {
+          "min": 1,
+          "max": 2.49,
+          "label": {
+            "ru": "Низкое избегание",
+            "en": "Low avoidance"
+          },
+          "summary": [
+            {
+              "ru": "Вам легко быть близким человеком",
+              "en": "Closeness comes easily to you"
+            },
+            {
+              "ru": "Вы делитесь чувствами и опираетесь на партнёра",
+              "en": "You share feelings and lean on your partner"
+            },
+            {
+              "ru": "Зависимость в отношениях вас не пугает",
+              "en": "Depending on someone doesn't scare you"
+            },
+            {
+              "ru": "Около среднего или ниже",
+              "en": "Around or below average"
+            }
+          ],
+          "detailed": {
+            "ru": "Эмоциональная близость для вас естественна: вы рассказываете партнёру о своих переживаниях, обращаетесь за поддержкой и сами охотно её даёте. Вам комфортно, когда в отношениях есть взаимная зависимость — для вас это не потеря свободы, а опора.\n\n**На что обратить внимание.** Открытость — большой ресурс. Следите лишь за тем, чтобы у вас оставались и собственные интересы и круг общения: близость прочнее, когда у каждого есть своя устойчивая жизнь.",
+            "en": "Emotional closeness feels natural to you: you tell your partner what's going on inside, turn to them for support and happily give it back. Mutual dependence feels like a source of strength rather than a loss of freedom.\n\n**Worth keeping in mind.** Openness is a big asset. Just make sure you also keep your own interests and friendships: closeness is sturdiest when each person has a steady life of their own."
+          }
+        },
+        {
+          "min": 2.5,
+          "max": 3.99,
+          "label": {
+            "ru": "Умеренное избегание",
+            "en": "Moderate avoidance"
+          },
+          "summary": [
+            {
+              "ru": "Близость вам важна, но нужна и личная территория",
+              "en": "Closeness matters, but so does personal space"
+            },
+            {
+              "ru": "Раскрываетесь постепенно, по мере доверия",
+              "en": "You open up gradually as trust builds"
+            },
+            {
+              "ru": "Иногда предпочитаете справляться сами",
+              "en": "Sometimes you'd rather handle things alone"
+            },
+            {
+              "ru": "Немного выше среднего",
+              "en": "Slightly above average"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы цените близость, но вам нужно время и пространство: раскрываетесь постепенно, не всегда спешите делиться трудностями и иногда предпочитаете решать проблемы самостоятельно. Это вполне распространённый и здоровый баланс, если партнёр понимает ваши потребности.\n\n**Что помогает.** Попробуйте иногда делиться чуть больше, чем привыкли, — например, рассказывать не только о событиях, но и о том, что вы при этом почувствовали. Если вам нужна пауза, проговаривайте это: «мне нужно немного побыть одному (одной), а вечером поговорим» — так партнёр не воспримет дистанцию как отвержение.",
+            "en": "You value closeness but need time and space: you open up gradually, don't always rush to share difficulties, and sometimes prefer to handle problems yourself. That's a common and healthy balance when a partner understands your needs.\n\n**What helps.** Try sharing a little more than usual now and then — not just what happened, but how you felt about it. When you need a pause, say so: \"I need a bit of time alone; let's talk tonight\" — that way your partner won't read distance as rejection."
+          }
+        },
+        {
+          "min": 4,
+          "max": 5.49,
+          "label": {
+            "ru": "Повышенное избегание",
+            "en": "Elevated avoidance"
+          },
+          "summary": [
+            {
+              "ru": "Сильная близость может вызывать дискомфорт",
+              "en": "Intense closeness can feel uncomfortable"
+            },
+            {
+              "ru": "Вы привыкли полагаться прежде всего на себя",
+              "en": "You're used to relying mainly on yourself"
+            },
+            {
+              "ru": "О чувствах говорить непросто",
+              "en": "Talking about feelings isn't easy"
+            },
+            {
+              "ru": "Выше, чем у большинства людей",
+              "en": "Higher than most people"
+            }
+          ],
+          "detailed": {
+            "ru": "Независимость для вас очень важна. Когда партнёр хочет больше близости, разговоров о чувствах или совместности, вам может становиться тесно, и хочется отстраниться. Скорее всего, вы привыкли справляться сами и не очень доверяете тому, что на других можно положиться. Эта стратегия когда-то, вероятно, защищала вас — но в близких отношениях она может мешать получать поддержку.\n\n**Что помогает.** Замечайте момент, когда хочется «закрыться», и пробуйте маленький шаг навстречу вместо ухода: одно предложение о том, что вы чувствуете. Исследования показывают, что даже избегающие люди получают пользу от поддержки, если она предлагается мягко и без давления. Подумайте, какие сигналы близости вам комфортны (совместные дела, помощь, юмор), — и расскажите о них партнёру.",
+            "en": "Independence matters a great deal to you. When a partner wants more closeness, more talk about feelings or more togetherness, things can start to feel crowded, and you may want to pull back. You've probably learned to rely on yourself and don't fully trust that others can be counted on. That strategy may once have protected you — but in close relationships it can block the support you deserve.\n\n**What helps.** Notice the urge to shut down and try a small step toward rather than away: one sentence about how you feel. Research suggests even avoidant people benefit from support when it's offered gently and without pressure. Think about which kinds of closeness feel comfortable to you (doing things together, practical help, humour) — and tell your partner."
+          }
+        },
+        {
+          "min": 5.5,
+          "max": 7,
+          "label": {
+            "ru": "Высокое избегание",
+            "en": "High avoidance"
+          },
+          "summary": [
+            {
+              "ru": "Эмоциональная близость ощущается как угроза свободе",
+              "en": "Emotional closeness feels like a threat to freedom"
+            },
+            {
+              "ru": "Вы почти никогда не опираетесь на партнёра",
+              "en": "You almost never lean on a partner"
+            },
+            {
+              "ru": "Держать дистанцию — привычная стратегия",
+              "en": "Keeping distance is a familiar strategy"
+            },
+            {
+              "ru": "Очень высокий уровень по сравнению с другими",
+              "en": "Very high compared with others"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат говорит о выраженном избегании близости. Скорее всего, вам трудно раскрываться, зависеть от кого-то и принимать заботу; когда отношения становятся слишком тесными, включается желание уйти в работу, хобби или просто в себя. Часто за этим стоит опыт, в котором проявлять потребности было небезопасно или бесполезно.\n\n**Что помогает.** Начните с осознавания: какие ситуации запускают желание дистанцироваться и что вы при этом чувствуете в теле. Экспериментируйте с безопасными формами близости — с человеком, который не давит. Полезно помнить, что независимость и близость не исключают друг друга: самые устойчивые пары сочетают и то и другое. Если одиночество или постоянные расставания вас тяготят, работа с психологом помогает постепенно расширить «зону комфорта» в отношениях.",
+            "en": "Your score shows pronounced avoidance of closeness. Opening up, depending on someone and accepting care are probably hard; when a relationship gets too close, you may retreat into work, hobbies or yourself. Often this reflects experiences where showing needs felt unsafe or pointless.\n\n**What helps.** Start with awareness: which situations trigger the urge to withdraw, and what do you feel in your body when it happens? Experiment with safe forms of closeness with someone who doesn't push. Remember that independence and intimacy aren't opposites — the most stable couples have both. If loneliness or repeated break-ups weigh on you, therapy can gradually widen your comfort zone in relationships."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Я боюсь потерять любовь партнёра.",
+        "en": "I'm afraid that I will lose my partner's love."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Я часто беспокоюсь, что партнёр не захочет оставаться со мной.",
+        "en": "I often worry that my partner will not want to stay with me."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Я часто беспокоюсь, что партнёр на самом деле меня не любит.",
+        "en": "I often worry that my partner doesn't really love me."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Я переживаю, что партнёры не будут заботиться обо мне так же сильно, как я забочусь о них.",
+        "en": "I worry that romantic partners won't care about me as much as I care about them."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Мне часто хочется, чтобы чувства партнёра ко мне были такими же сильными, как мои чувства к нему (к ней).",
+        "en": "I often wish that my partner's feelings for me were as strong as my feelings for him or her."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Я много переживаю из-за своих отношений.",
+        "en": "I worry a lot about my relationships."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Когда партнёра нет рядом, я беспокоюсь, что он (она) может увлечься кем-то другим.",
+        "en": "When my partner is out of sight, I worry that he or she might become interested in someone else."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Когда я показываю партнёру свои чувства, я боюсь, что он (она) не чувствует ко мне того же.",
+        "en": "When I show my feelings for romantic partners, I'm afraid they will not feel the same about me."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Я редко беспокоюсь о том, что партнёр может меня оставить.",
+        "en": "I rarely worry about my partner leaving me."
+      },
+      "dimension": "anxiety",
+      "reverse": true
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Рядом с партнёром я начинаю сомневаться в себе.",
+        "en": "My romantic partner makes me doubt myself."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Я нечасто беспокоюсь о том, что меня бросят.",
+        "en": "I do not often worry about being abandoned."
+      },
+      "dimension": "anxiety",
+      "reverse": true
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Мне кажется, что партнёры не хотят такой близости, какой хотелось бы мне.",
+        "en": "I find that my partner(s) don't want to get as close as I would like."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Иногда чувства партнёров ко мне меняются без видимой причины.",
+        "en": "Sometimes romantic partners change their feelings about me for no apparent reason."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Моё желание очень тесной близости иногда отпугивает людей.",
+        "en": "My desire to be very close sometimes scares people away."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Я боюсь, что, узнав меня получше, партнёр разочаруется в том, какой (какая) я на самом деле.",
+        "en": "I'm afraid that once a romantic partner gets to know me, he or she won't like who I really am."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q16",
+      "text": {
+        "ru": "Меня злит, что я не получаю от партнёра той нежности и поддержки, которые мне нужны.",
+        "en": "It makes me mad that I don't get the affection and support I need from my partner."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q17",
+      "text": {
+        "ru": "Я беспокоюсь, что не дотягиваю до других людей.",
+        "en": "I worry that I won't measure up to other people."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q18",
+      "text": {
+        "ru": "Кажется, партнёр замечает меня, только когда я злюсь.",
+        "en": "My partner only seems to notice me when I'm angry."
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "q19",
+      "text": {
+        "ru": "Я предпочитаю не показывать партнёру, что чувствую в глубине души.",
+        "en": "I prefer not to show a partner how I feel deep down."
+      },
+      "dimension": "avoidance"
+    },
+    {
+      "id": "q20",
+      "text": {
+        "ru": "Мне комфортно делиться с партнёром личными мыслями и чувствами.",
+        "en": "I feel comfortable sharing my private thoughts and feelings with my partner."
+      },
+      "dimension": "avoidance",
+      "reverse": true
+    },
+    {
+      "id": "q21",
+      "text": {
+        "ru": "Мне трудно позволить себе зависеть от партнёра.",
+        "en": "I find it difficult to allow myself to depend on romantic partners."
+      },
+      "dimension": "avoidance"
+    },
+    {
+      "id": "q22",
+      "text": {
+        "ru": "Мне очень комфортно быть в близких отношениях с партнёром.",
+        "en": "I am very comfortable being close to romantic partners."
+      },
+      "dimension": "avoidance",
+      "reverse": true
+    },
+    {
+      "id": "q23",
+      "text": {
+        "ru": "Мне некомфортно раскрываться перед партнёром.",
+        "en": "I don't feel comfortable opening up to romantic partners."
+      },
+      "dimension": "avoidance"
+    },
+    {
+      "id": "q24",
+      "text": {
+        "ru": "Я предпочитаю не сближаться с партнёрами слишком сильно.",
+        "en": "I prefer not to be too close to romantic partners."
+      },
+      "dimension": "avoidance"
+    },
+    {
+      "id": "q25",
+      "text": {
+        "ru": "Мне становится не по себе, когда партнёр хочет очень тесной близости.",
+        "en": "I get uncomfortable when a romantic partner wants to be very close."
+      },
+      "dimension": "avoidance"
+    },
+    {
+      "id": "q26",
+      "text": {
+        "ru": "Мне сравнительно легко сблизиться с партнёром.",
+        "en": "I find it relatively easy to get close to my partner."
+      },
+      "dimension": "avoidance",
+      "reverse": true
+    },
+    {
+      "id": "q27",
+      "text": {
+        "ru": "Сближение с партнёром не вызывает у меня трудностей.",
+        "en": "It's not difficult for me to get close to my partner."
+      },
+      "dimension": "avoidance",
+      "reverse": true
+    },
+    {
+      "id": "q28",
+      "text": {
+        "ru": "Обычно я обсуждаю с партнёром свои проблемы и тревоги.",
+        "en": "I usually discuss my problems and concerns with my partner."
+      },
+      "dimension": "avoidance",
+      "reverse": true
+    },
+    {
+      "id": "q29",
+      "text": {
+        "ru": "В трудную минуту мне помогает обратиться к партнёру.",
+        "en": "It helps to turn to my romantic partner in times of need."
+      },
+      "dimension": "avoidance",
+      "reverse": true
+    },
+    {
+      "id": "q30",
+      "text": {
+        "ru": "Я рассказываю партнёру практически обо всём.",
+        "en": "I tell my partner just about everything."
+      },
+      "dimension": "avoidance",
+      "reverse": true
+    },
+    {
+      "id": "q31",
+      "text": {
+        "ru": "Я обсуждаю с партнёром то, что происходит.",
+        "en": "I talk things over with my partner."
+      },
+      "dimension": "avoidance",
+      "reverse": true
+    },
+    {
+      "id": "q32",
+      "text": {
+        "ru": "Я нервничаю, когда партнёры становятся слишком близки мне.",
+        "en": "I am nervous when partners get too close to me."
+      },
+      "dimension": "avoidance"
+    },
+    {
+      "id": "q33",
+      "text": {
+        "ru": "Мне комфортно полагаться на партнёра.",
+        "en": "I feel comfortable depending on romantic partners."
+      },
+      "dimension": "avoidance",
+      "reverse": true
+    },
+    {
+      "id": "q34",
+      "text": {
+        "ru": "Мне легко зависеть от партнёра.",
+        "en": "I find it easy to depend on romantic partners."
+      },
+      "dimension": "avoidance",
+      "reverse": true
+    },
+    {
+      "id": "q35",
+      "text": {
+        "ru": "Мне легко проявлять нежность к партнёру.",
+        "en": "It's easy for me to be affectionate with my partner."
+      },
+      "dimension": "avoidance",
+      "reverse": true
+    },
+    {
+      "id": "q36",
+      "text": {
+        "ru": "Партнёр действительно понимает меня и мои потребности.",
+        "en": "My partner really understands me and my needs."
+      },
+      "dimension": "avoidance",
+      "reverse": true
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "secure",
+      "title": {
+        "ru": "Надёжный стиль",
+        "en": "Secure"
+      },
+      "emoji": "🏡",
+      "profile": {
+        "anxiety": 0.25,
+        "avoidance": 0.25
+      },
+      "summary": [
+        {
+          "ru": "Вам комфортно и в близости, и в автономии",
+          "en": "You're comfortable with both closeness and autonomy"
+        },
+        {
+          "ru": "Вы доверяете партнёру и не боитесь, что вас бросят",
+          "en": "You trust your partner and don't fear abandonment"
+        },
+        {
+          "ru": "Конфликты решаете разговором, а не уходом или нападением",
+          "en": "You handle conflict by talking, not withdrawing or attacking"
+        },
+        {
+          "ru": "Самый распространённый стиль среди взрослых",
+          "en": "The most common style among adults"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваши баллы и по тревожности, и по избеганию ниже середины шкалы — это область **надёжной привязанности**. Вы, как правило, чувствуете себя достойным любви и считаете, что на близких людей можно положиться. Вам легко сближаться, но и время порознь не вызывает тревоги.\n\nЛюди с надёжным стилем обычно легче говорят о потребностях, лучше переносят конфликты и быстрее восстанавливаются после ссор. Это не означает, что у вас не бывает трудностей: надёжность — не отсутствие проблем, а уверенность, что их можно решать вместе.\n\n**Как развивать дальше.** Ваша устойчивость может помогать партнёру с более тревожным или избегающим стилем: исследования показывают, что надёжный партнёр со временем смягчает чужую неуверенность. Продолжайте прямо говорить о чувствах, поддерживать и признавать потребности другого.",
+        "en": "Both your anxiety and avoidance scores fall below the scale midpoint — the zone of **secure attachment**. You generally feel worthy of love and believe the people close to you can be relied on. Getting close is easy, and time apart doesn't set off alarm bells.\n\nSecurely attached people usually find it easier to talk about needs, handle conflict better and recover faster after arguments. That doesn't mean you never struggle: security isn't the absence of problems but confidence that they can be worked out together.\n\n**Growing further.** Your steadiness can help a partner with a more anxious or avoidant style: research suggests a secure partner gradually softens the other's insecurity. Keep naming feelings directly, offering support and honouring the other person's needs."
+      },
+      "strengths": [
+        {
+          "ru": "Доверие и открытость",
+          "en": "Trust and openness"
+        },
+        {
+          "ru": "Здоровые границы",
+          "en": "Healthy boundaries"
+        },
+        {
+          "ru": "Конструктивное решение конфликтов",
+          "en": "Constructive conflict resolution"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Замечать, что другим близость может даваться труднее",
+          "en": "Remember that closeness may be harder for others"
+        },
+        {
+          "ru": "Не игнорировать тревожные сигналы в отношениях из-за оптимизма",
+          "en": "Don't let optimism make you overlook real red flags"
+        }
+      ],
+      "imagePrompt": "Two cute pastel characters sitting together on a cozy porch of a small house, relaxed and smiling, soft pastel flat-3D style"
+    },
+    {
+      "id": "preoccupied",
+      "title": {
+        "ru": "Тревожно-озабоченный стиль",
+        "en": "Anxious-preoccupied"
+      },
+      "emoji": "💞",
+      "profile": {
+        "anxiety": 0.75,
+        "avoidance": 0.25
+      },
+      "summary": [
+        {
+          "ru": "Вы очень цените близость и стремитесь к ней",
+          "en": "You deeply value and seek closeness"
+        },
+        {
+          "ru": "Часто беспокоитесь, любят ли вас так же сильно",
+          "en": "You often worry whether you're loved as much"
+        },
+        {
+          "ru": "Быстро замечаете признаки охлаждения",
+          "en": "You quickly sense signs of distance"
+        },
+        {
+          "ru": "Вам важно подтверждение и внимание",
+          "en": "Reassurance and attention matter a lot to you"
+        }
+      ],
+      "detailed": {
+        "ru": "У вас высокая тревожность и низкое избегание — это **тревожно-озабоченный** стиль. Вы открыты, тёплы и готовы много вкладывать в отношения, но нередко сомневаетесь, что партнёр отвечает тем же. Молчание, задержки или перемены в настроении близкого человека легко запускают тревогу, а вместе с ней — желание срочно сблизиться, выяснить, получить подтверждение.\n\nЭтот стиль часто складывается, когда в прошлом любовь была непредсказуемой: то есть, то нет. Мозг учится постоянно «сканировать» отношения на предмет угроз. Хорошая новость: рядом с надёжным партнёром и с навыками саморегуляции тревожность со временем снижается.\n\n**Что помогает.** Развивайте опору внутри себя и вне отношений: друзья, увлечения, режим, забота о теле. Учитесь отличать факт от интерпретации и говорить о потребностях спокойно, а не в момент пика тревоги. Обращайте внимание на последовательных, тёплых людей — даже если поначалу они кажутся «менее захватывающими», чем те, кто держит вас в неопределённости.",
+        "en": "You combine high anxiety with low avoidance — the **anxious-preoccupied** style. You're open, warm and ready to invest a lot in relationships, yet often doubt that your partner feels the same. Silence, delays or shifts in a loved one's mood easily set off worry, along with an urge to get closer, clarify and be reassured right away.\n\nThis style often develops when love was unpredictable in the past — there one moment, gone the next — so the mind learns to scan relationships constantly for threats. The good news: with a reliable partner and some self-regulation skills, anxiety tends to decrease over time.\n\n**What helps.** Build support inside yourself and outside the relationship: friends, interests, routines, caring for your body. Learn to separate facts from interpretations, and voice your needs calmly rather than at the peak of anxiety. Pay attention to consistent, warm people — even if at first they seem less thrilling than those who keep you guessing."
+      },
+      "strengths": [
+        {
+          "ru": "Эмоциональная открытость и теплота",
+          "en": "Emotional openness and warmth"
+        },
+        {
+          "ru": "Высокая чуткость к партнёру",
+          "en": "High sensitivity to a partner"
+        },
+        {
+          "ru": "Готовность вкладываться в отношения",
+          "en": "Willingness to invest in relationships"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Успокаивать себя до разговора",
+          "en": "Self-soothing before a conversation"
+        },
+        {
+          "ru": "Опора вне отношений",
+          "en": "Support outside the relationship"
+        },
+        {
+          "ru": "Не принимать молчание за отвержение",
+          "en": "Not reading silence as rejection"
+        }
+      ],
+      "imagePrompt": "Cute pastel character hugging a big glowing heart and looking at a phone with hopeful eyes, soft pastel flat-3D style"
+    },
+    {
+      "id": "dismissive",
+      "title": {
+        "ru": "Отвергающе-избегающий стиль",
+        "en": "Dismissive-avoidant"
+      },
+      "emoji": "🏔️",
+      "profile": {
+        "anxiety": 0.25,
+        "avoidance": 0.75
+      },
+      "summary": [
+        {
+          "ru": "Вы цените независимость и самостоятельность",
+          "en": "You prize independence and self-sufficiency"
+        },
+        {
+          "ru": "Сильная близость может вызывать желание отстраниться",
+          "en": "Intense closeness can make you want to pull back"
+        },
+        {
+          "ru": "О чувствах говорить непросто",
+          "en": "Talking about feelings isn't easy"
+        },
+        {
+          "ru": "Страха быть брошенным почти нет",
+          "en": "Little fear of being abandoned"
+        }
+      ],
+      "detailed": {
+        "ru": "У вас низкая тревожность и высокое избегание — **отвергающе-избегающий** стиль. Вы уверены в себе, редко боитесь, что вас бросят, и прекрасно справляетесь сами. Но эмоциональная близость, зависимость от партнёра и разговоры «по душам» могут ощущаться как давление; в такие моменты хочется отстраниться, уйти в дела или обесценить важность отношений.\n\nЭтот стиль часто складывается, когда в прошлом проявление потребностей не встречало отклика, — и человек научился рассчитывать только на себя. Это защищает от разочарований, но лишает поддержки и глубины, которые дают близкие отношения.\n\n**Что помогает.** Попробуйте замечать момент, когда хочется отдалиться, и задавать себе вопрос: что я сейчас чувствую? Делайте маленькие шаги к открытости — расскажите партнёру об одной своей тревоге или радости. Договаривайтесь о пространстве, а не исчезайте: «мне нужен вечер для себя» звучит совсем иначе, чем молчание. Независимость и близость могут уживаться — и вместе делают отношения прочнее.",
+        "en": "You combine low anxiety with high avoidance — the **dismissive-avoidant** style. You're self-assured, rarely fear being left and handle life well on your own. But emotional closeness, depending on a partner and heart-to-heart talks can feel like pressure; at those moments you may want to step back, dive into tasks or play down how much the relationship matters.\n\nThis style often develops when, in the past, expressing needs didn't get a response — so a person learns to count only on themselves. It guards against disappointment, but it also cuts you off from the support and depth close relationships can offer.\n\n**What helps.** Notice the moment you want to pull away and ask yourself: what am I feeling right now? Take small steps toward openness — share one worry or one joy with your partner. Negotiate space instead of disappearing: \"I need an evening to myself\" lands very differently from silence. Independence and intimacy can coexist — and together they make relationships stronger."
+      },
+      "strengths": [
+        {
+          "ru": "Самостоятельность и устойчивость",
+          "en": "Self-reliance and steadiness"
+        },
+        {
+          "ru": "Спокойствие в кризисах",
+          "en": "Calm in a crisis"
+        },
+        {
+          "ru": "Уважение к личным границам",
+          "en": "Respect for personal boundaries"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Делиться чувствами",
+          "en": "Sharing feelings"
+        },
+        {
+          "ru": "Принимать поддержку",
+          "en": "Accepting support"
+        },
+        {
+          "ru": "Предупреждать о потребности в паузе",
+          "en": "Signalling when you need space"
+        }
+      ],
+      "imagePrompt": "Cute pastel character standing calmly on a small mountain peak with a backpack, looking at the horizon, soft pastel flat-3D style"
+    },
+    {
+      "id": "fearful",
+      "title": {
+        "ru": "Боязливо-избегающий стиль",
+        "en": "Fearful-avoidant"
+      },
+      "emoji": "🦔",
+      "profile": {
+        "anxiety": 0.75,
+        "avoidance": 0.75
+      },
+      "summary": [
+        {
+          "ru": "Вам очень хочется близости — и одновременно страшно",
+          "en": "You long for closeness — and fear it at the same time"
+        },
+        {
+          "ru": "Сближение и отдаление могут сменять друг друга",
+          "en": "You may swing between moving closer and pulling away"
+        },
+        {
+          "ru": "Доверять другим и себе в отношениях непросто",
+          "en": "Trusting others — and yourself — in love is hard"
+        },
+        {
+          "ru": "Этот стиль не приговор — он может меняться",
+          "en": "This style isn't fixed — it can change"
+        }
+      ],
+      "detailed": {
+        "ru": "У вас высокие баллы и по тревожности, и по избеганию — это **боязливо-избегающий** (дезорганизованный) стиль. Вам важна близость и страшно её потерять, но когда отношения становятся по-настоящему близкими, страх быть раненым заставляет отстраняться. Получается внутренний конфликт «иди сюда — уходи», который бывает очень утомительным и для вас, и для партнёра.\n\nЭтот стиль часто связан с болезненным опытом в прошлом, когда близкие люди были источником одновременно и тепла, и боли. Поэтому важно помнить: дело не в том, что с вами «что-то не так», — ваша психика научилась защищаться. И она может научиться другому.\n\n**Что помогает.** Медленный темп в отношениях и партнёр, который последователен и бережен. Навыки распознавания и регуляции эмоций: когда хочется и прижаться, и сбежать — остановиться и назвать оба чувства. Для этого стиля особенно полезна работа с психотерапевтом: в безопасных отношениях с терапевтом многие впервые получают опыт надёжной близости.",
+        "en": "You score high on both anxiety and avoidance — the **fearful-avoidant** (disorganised) style. Closeness matters to you and losing it is frightening, yet when a relationship becomes truly close, fear of being hurt pushes you away. The result is an inner \"come here — go away\" conflict that can be exhausting for you and your partner.\n\nThis style is often linked to painful past experiences in which close people were a source of both warmth and hurt. So remember: it's not that something is \"wrong\" with you — your mind learned to protect itself. And it can learn something new.\n\n**What helps.** A slower pace in relationships and a partner who is consistent and gentle. Skills for recognising and regulating emotions: when you want to both cling and run, pause and name both feelings. Therapy is especially helpful for this style: within a safe therapeutic relationship, many people experience reliable closeness for the first time."
+      },
+      "strengths": [
+        {
+          "ru": "Глубина чувств",
+          "en": "Emotional depth"
+        },
+        {
+          "ru": "Чуткость к нюансам отношений",
+          "en": "Sensitivity to relational nuance"
+        },
+        {
+          "ru": "Сильное желание настоящей близости",
+          "en": "A strong wish for genuine intimacy"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Медленный, безопасный темп сближения",
+          "en": "A slow, safe pace of getting close"
+        },
+        {
+          "ru": "Регуляция эмоций",
+          "en": "Emotion regulation"
+        },
+        {
+          "ru": "Поддержка специалиста",
+          "en": "Professional support"
+        }
+      ],
+      "imagePrompt": "Cute pastel hedgehog character peeking shyly from behind a flower toward a friendly character offering a cup of tea, soft pastel flat-3D style"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Ответы кодируются от 1 («совершенно не согласен») до 7 («полностью согласен»). В обратных утверждениях (9, 11, 20, 22, 26–31, 33–36) балл переворачивается: 8 минус ответ. Тревожность — среднее по пунктам 1–18, избегание — среднее по пунктам 19–36 (каждое от 1 до 7). Для определения стиля баллы нормируются в 0–1 ((балл − 1) / 6), и выбирается ближайший профиль: надёжный (0,25; 0,25), тревожно-озабоченный (0,75; 0,25), отвергающий (0,25; 0,75), боязливый (0,75; 0,75). Это эквивалентно делению каждой оси по середине шкалы (4,0). Процентили: тревожность — M 3,64, SD 1,33; избегание — M 2,93, SD 1,18 (Fraley, N > 22 000).",
+    "en": "Answers are coded 1 (strongly disagree) to 7 (strongly agree). Reverse-keyed items (9, 11, 20, 22, 26–31, 33–36) are flipped: 8 minus the answer. Anxiety = mean of items 1–18; avoidance = mean of items 19–36 (each 1–7). For the style, scores are normalised to 0–1 ((score − 1) / 6) and the nearest profile wins: secure (0.25, 0.25), preoccupied (0.75, 0.25), dismissive (0.25, 0.75), fearful (0.75, 0.75) — equivalent to splitting each axis at the scale midpoint (4.0). Percentiles: anxiety M 3.64, SD 1.33; avoidance M 2.93, SD 1.18 (Fraley, N > 22,000)."
+  },
+  "resultIntro": {
+    "ru": "Стиль привязанности — это не ярлык, а карта ваших привычных способов любить и защищаться. Он складывается из опыта и может меняться. Посмотрите, где вы находитесь на этой карте.",
+    "en": "Attachment style isn't a label — it's a map of your habitual ways of loving and protecting yourself. It's shaped by experience and it can change. Here's where you are on the map."
+  }
+}

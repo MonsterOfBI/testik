@@ -1,0 +1,1153 @@
+{
+  "id": "crt",
+  "category": "cognitive",
+  "kind": "cognitive",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Тест когнитивной рефлексии (CRT)",
+    "en": "Cognitive Reflection Test (CRT)"
+  },
+  "tagline": {
+    "ru": "Сколько стоит мяч? Проверьте, ловит ли вас интуиция",
+    "en": "How much is the ball? See whether your intuition fools you"
+  },
+  "description": {
+    "ru": "11 коротких задач-ловушек: первый пришедший в голову ответ обычно неверен. Вы узнаете, насколько часто останавливаетесь и перепроверяете интуицию, и увидите свой профиль «интуитивный — рефлексивный» в сравнении с тысячами участников исследований.",
+    "en": "11 short trick problems where the first answer that springs to mind is usually wrong. Find out how often you stop and double-check your intuition, and see your “intuitive vs reflective” profile compared with thousands of research participants."
+  },
+  "emoji": "🤔",
+  "durationMin": 6,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "мышление",
+      "en": "thinking"
+    },
+    {
+      "ru": "логика",
+      "en": "logic"
+    },
+    {
+      "ru": "интуиция",
+      "en": "intuition"
+    },
+    {
+      "ru": "когнитивные искажения",
+      "en": "cognitive biases"
+    },
+    {
+      "ru": "Канеман",
+      "en": "Kahneman"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что измеряет тест\n**Тест когнитивной рефлексии** (CRT; Frederick, 2005) измеряет склонность **остановиться и проверить интуитивный ответ, который приходит в голову сразу, но оказывается неверным**. В каждом задании есть привлекательная «ловушка» (например, 10 в задаче про биту и мяч). Чтобы ответить верно, нужно заметить противоречие и немного подумать. В терминах теории двух систем мышления (Stanovich & West, 2000; Канеман, «Думай медленно… решай быстро») тест противопоставляет быструю автоматическую **Систему 1** медленной и требующей усилий **Системе 2**.\n\n### Задания (11)\n- **CRT-классический** — 3 исходных задания Фредерика (бита и мяч, станки, кувшинки); английский текст дословно.\n- **CRT-2** (Thomson & Oppenheimer, 2016) — 4 задания, меньше опирающиеся на арифметику и менее известные публике.\n- **CRT-расширенный** — 4 дополнительных числовых задания Toplak, West & Stanovich (2014).\n- Русские версии — аккуратные адаптации: доллары и центы заменены рублями с теми же числами, кубические футы — кубометрами; в задании CRT-2 «Эмили — April, May → June» ловушка с названиями месяцев заменена культурным эквивалентом **Вера, Надежда → Любовь**, логика сохранена (ответ — девочка, названная в вопросе).\n\n### Формат и подсчёт\nОригинальный CRT — **с открытым ответом**. Здесь он предлагается с выбором из 3–4 вариантов: правильный ответ, **интуитивная ловушка** и 1–2 других ответа. Sirota & Juanchich (2018) показали, что версии CRT с выбором ответа дают близкие баллы и сопоставимую валидность, а ещё позволяют напрямую считать интуитивные ответы.\n- **Балл рефлексии** = число верных ответов (0–11), с подбаллами по каждому набору.\n- **Интуитивный балл** = число выбранных ловушек (0–11); остальные ответы — «прочие ошибки».\n- Профиль на сайте: *рефлексивный* (в основном верные), *интуитивный* (в основном ловушки) или *смешанный*.\nОграничения времени нет (в оригинале его тоже нет).\n\n### Нормы\n- Frederick (2005): 3428 участников (35 выборок, в основном студенты американских университетов): **среднее 1,24 из 3**; около трети не решили ни одной задачи, 17% решили все три. Средние колебались от **2,18 в MIT**, 1,63 в Принстоне и 1,51 в Университете Карнеги–Меллон до более низких значений в менее селективных университетах.\n- Мета-исследование 118 работ, 44 558 участников из 21 страны (Brañas-Garza, Kujal & Lenkei, 2019): 37,5% не решили ни одной задачи, 23,2% — одну, 21,1% — две, 18,2% — все три (**среднее ≈ 1,20, SD ≈ 1,13**, рассчитано по этому распределению); доля верных: бита и мяч 31,8%, станки 40,2%, кувшинки 47,8%. Женщины в среднем решают меньше, студенты — больше, денежное вознаграждение не влияет, а прохождение в конце длинного эксперимента снижает результат.\n- CRT-2 (студенты UCLA, Thomson & Oppenheimer, 2016): в среднем 56% верных; по заданиям — забег 63%, овцы 83%, имя дочери 62%, яма 16%.\n- Опубликованных норм для полного набора из 11 заданий нет — процентили общего балла нужно строить по данным сайта.\n\n### Надёжность и валидность\nα Кронбаха: исходный CRT ≈ 0,62, CRT-2 ≈ 0,51, 7 заданий CRT + CRT-2 ≈ 0,71 (Thomson & Oppenheimer, 2016). Баллы CRT связаны с численной грамотностью, общими способностями и устойчивостью к когнитивным искажениям (Toplak, West & Stanovich, 2011), а также с терпеливостью и отношением к риску (Frederick, 2005).\n\n### Ограничения\n- **Знакомость заданий**: задача про биту и мяч очень известна. На MTurk 72% участников видели хотя бы одно задание, и их баллы были выше (1,90 против 1,29; Thomson & Oppenheimer, 2016); см. также Haigh (2016). Bialek & Pennycook (2018) показали, что предсказательная сила CRT сохраняется и при повторном знакомстве, но абсолютные баллы «опытных» участников нельзя сравнивать с нормами «наивных». Стоит спрашивать пользователя, встречал ли он эти задачи.\n- Классические задания опираются на счёт, поэтому CRT отчасти измеряет математические навыки; CRT-2 создавался, чтобы это ослабить.\n- Заданий мало → надёжность невысока; один ответ сильно меняет балл.\n- Выбор из вариантов показывает правильный ответ и делает задачу чуть легче, чем свободный ответ.",
+    "en": "### What it measures\nThe **Cognitive Reflection Test** (CRT; Frederick, 2005) measures the tendency to **stop and check an intuitive answer that comes to mind immediately but is wrong**. Each item has an attractive “lure” (e.g. 10 cents in the bat-and-ball problem). Getting the item right requires noticing the conflict and doing a little deliberate reasoning. In dual-process terms (Stanovich & West, 2000; Kahneman, 2011), it pits fast, automatic **System 1** against slow, effortful **System 2**.\n\n### Items (11)\n- **CRT-classic** – Frederick’s original 3 items (bat & ball, machines, lily pads), English verbatim.\n- **CRT-2** (Thomson & Oppenheimer, 2016) – 4 items that rely less on arithmetic and are less familiar to the public.\n- **CRT-extended** – the 4 additional numerical items of Toplak, West & Stanovich (2014).\n- Russian versions are careful adaptations: dollars/cents became rubles with the same numbers; cubic feet became cubic metres; in the CRT-2 “Emily – April, May → June” item, the month-name lure was replaced by the culturally equivalent name sequence **Вера, Надежда → Любовь** (Faith, Hope → Love), keeping the logic (the answer is the girl named in the question).\n\n### Format and scoring\nThe original CRT is **open-ended**. Here it is multiple choice (3–4 options): the correct answer, the **intuitive lure**, and 1–2 other answers. Sirota & Juanchich (2018) found that multiple-choice versions of the CRT give similar scores and similar validity to the open format, and they make the intuitive answer directly measurable.\n- **Reflection score** = number correct (0–11), with sub-scores for each set.\n- **Intuitive score** = number of lure answers chosen (0–11). The rest are “other errors”.\n- The site’s profile: *reflective* (mostly correct), *intuitive* (mostly lures) or *mixed*.\nNo time limit (the original is untimed).\n\n### Norms\n- Frederick (2005): 3 428 respondents (35 samples, mostly US university students): **mean 1.24 of 3**; about a third scored 0 and 17% scored 3. Means ranged from **2.18 at MIT**, 1.63 at Princeton and 1.51 at Carnegie Mellon down to lower values at less selective universities.\n- Meta-study of 118 studies, 44 558 participants in 21 countries (Brañas-Garza, Kujal & Lenkei, 2019): 37.5% answered none correctly, 23.2% one, 21.1% two, 18.2% all three (**mean ≈ 1.20, SD ≈ 1.13**, computed from that distribution); percent correct: bat & ball 31.8%, machines 40.2%, lily pads 47.8%. Women scored lower than men; students higher than non-students; money incentives had no effect; taking the CRT at the end of a long session lowered scores.\n- CRT-2 (UCLA undergraduates, Thomson & Oppenheimer, 2016): 56% correct on average; by item – race 63%, sheep 83%, Emily 62%, hole 16%.\n- No published norms for the 11-item combination – percentiles for the total score should be built from site data.\n\n### Reliability and validity\nCronbach’s α: original CRT ≈ .62, CRT-2 ≈ .51, 7-item CRT + CRT-2 ≈ .71 (Thomson & Oppenheimer, 2016). CRT scores correlate with numeracy, cognitive ability and resistance to heuristics-and-biases (Toplak, West & Stanovich, 2011), as well as with patience and risk preferences (Frederick, 2005).\n\n### Limitations\n- **Familiarity**: the bat-and-ball problem is famous. On MTurk, 72% reported having seen at least one item and they scored higher (1.90 vs 1.29; Thomson & Oppenheimer, 2016); see also Haigh (2016). Bialek & Pennycook (2018) found that the CRT’s predictive validity survived repeated exposure, but absolute scores of experienced respondents should not be compared with naive norms. Ask users whether they have seen the items before.\n- Classic items rely on numeracy, so the CRT is partly a maths test; the CRT-2 was designed to reduce this.\n- Few items → low reliability; one answer moves the score a lot.\n- Multiple choice makes the correct answer visible and slightly easier than free recall."
+  },
+  "sources": [
+    {
+      "citation": "Frederick, S. (2005). Cognitive reflection and decision making. Journal of Economic Perspectives, 19(4), 25–42.",
+      "doi": "10.1257/089533005775196732",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/089533005775196732"
+    },
+    {
+      "citation": "Thomson, K. S., & Oppenheimer, D. M. (2016). Investigating an alternate form of the cognitive reflection test. Judgment and Decision Making, 11(1), 99–113.",
+      "url": "https://dlab.sauder.ubc.ca/sjdm/journal/15/151029/jdm151029.html"
+    },
+    {
+      "citation": "Toplak, M. E., West, R. F., & Stanovich, K. E. (2014). Assessing miserly information processing: An expansion of the Cognitive Reflection Test. Thinking & Reasoning, 20(2), 147–168.",
+      "doi": "10.1080/13546783.2013.844729"
+    },
+    {
+      "citation": "Brañas-Garza, P., Kujal, P., & Lenkei, B. (2019). Cognitive reflection test: Whom, how, when. Journal of Behavioral and Experimental Economics, 82, 101455.",
+      "doi": "10.1016/j.socec.2019.101455",
+      "url": "https://mpra.ub.uni-muenchen.de/68049/1/MPRA_paper_68049.pdf"
+    },
+    {
+      "citation": "Sirota, M., & Juanchich, M. (2018). Effect of response format on cognitive reflection: Validating a two- and four-option multiple choice question version of the Cognitive Reflection Test. Behavior Research Methods, 50(6), 2511–2522.",
+      "doi": "10.3758/s13428-018-1029-4"
+    },
+    {
+      "citation": "Toplak, M. E., West, R. F., & Stanovich, K. E. (2011). The Cognitive Reflection Test as a predictor of performance on heuristics-and-biases tasks. Memory & Cognition, 39(7), 1275–1289.",
+      "doi": "10.3758/s13421-011-0104-1"
+    },
+    {
+      "citation": "Stanovich, K. E., & West, R. F. (2000). Individual differences in reasoning: Implications for the rationality debate? Behavioral and Brain Sciences, 23(5), 645–665.",
+      "doi": "10.1017/S0140525X00003435"
+    },
+    {
+      "citation": "Kahneman, D. (2011). Thinking, fast and slow. Farrar, Straus and Giroux. [Рус. пер.: Канеман, Д. (2013). Думай медленно… решай быстро. М.: АСТ.]"
+    },
+    {
+      "citation": "Haigh, M. (2016). Has the standard Cognitive Reflection Test become a victim of its own success? Advances in Cognitive Psychology, 12(3), 145–149.",
+      "doi": "10.5709/acp-0193-5"
+    },
+    {
+      "citation": "Bialek, M., & Pennycook, G. (2018). The cognitive reflection test is robust to multiple exposures. Behavior Research Methods, 50(5), 1953–1959.",
+      "doi": "10.3758/s13428-017-0963-x"
+    },
+    {
+      "citation": "Stupple, E. J. N., Pitchford, M., Ball, L. J., Hunt, T. E., & Steel, R. (2017). Slower is not always better: Response-time evidence clarifies the limited role of miserly information processing in the Cognitive Reflection Test. PLoS ONE, 12(11), e0186404.",
+      "doi": "10.1371/journal.pone.0186404"
+    }
+  ],
+  "license": "Items are short reasoning problems published in peer-reviewed research and used freely in research and teaching; they are reproduced with citation. The CRT-2 article (Thomson & Oppenheimer, 2016, Judgment and Decision Making) is open access under CC BY 3.0. No permission requirement for the CRT items is known; the article texts themselves (Frederick 2005; Toplak et al. 2014) are copyrighted, so only the items, not the papers, are reproduced. The Russian adaptations and the multiple-choice distractors are the site’s own work.",
+  "instructions": {
+    "ru": "Перед вами 11 коротких задач. Читайте внимательно и выбирайте ответ, который считаете правильным. Ограничения по времени нет, но не пользуйтесь калькулятором и подсказками. Если вы уже встречали какие-то из этих задач, отметьте это в конце — так результат будет честнее.",
+    "en": "Below are 11 short problems. Read carefully and choose the answer you believe is correct. There is no time limit, but please do not use a calculator or look anything up. If you have seen some of these problems before, say so at the end – it makes the comparison fairer."
+  },
+  "dimensions": [
+    {
+      "id": "total",
+      "name": {
+        "ru": "Когнитивная рефлексия (всего верных)",
+        "en": "Cognitive reflection (total correct)"
+      },
+      "description": {
+        "ru": "Сколько раз вы преодолели ловушку и нашли верный ответ.",
+        "en": "How often you overcame the trap and found the right answer."
+      },
+      "lowLabel": {
+        "ru": "доверяет интуиции",
+        "en": "trusts first intuition"
+      },
+      "highLabel": {
+        "ru": "перепроверяет себя",
+        "en": "double-checks"
+      },
+      "color": "#CDE7F0",
+      "facets": [
+        "crt-classic",
+        "crt-verbal",
+        "crt-extended"
+      ],
+      "scoring": "sum",
+      "min": 0,
+      "max": 11,
+      "bands": [
+        {
+          "min": 0,
+          "max": 3,
+          "label": {
+            "ru": "Интуитивный стиль",
+            "en": "Intuitive style"
+          },
+          "summary": [
+            {
+              "ru": "Вы чаще отвечаете быстро, по первому впечатлению",
+              "en": "You mostly answer fast, on first impression"
+            },
+            {
+              "ru": "Ловушки срабатывают — как и у большинства людей",
+              "en": "The traps work on you – as on most people"
+            },
+            {
+              "ru": "Полезная привычка: «Проверю ещё раз»",
+              "en": "Useful habit: “let me check once more”"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы склонны доверять первому ответу, который приходит в голову. В повседневной жизни это экономит силы и часто срабатывает, но в задачах с подвохом, при денежных решениях и оценке процентов и вероятностей стоит притормозить и пересчитать. Хорошая новость: рефлексии можно научиться — привычка задавать себе вопрос «а как бы я проверил ответ?» заметно снижает число ошибок.",
+            "en": "You tend to trust the first answer that comes to mind. In daily life this saves effort and often works, but with trick questions, money decisions, percentages and probabilities it pays to slow down and recompute. The good news: reflection can be learned – the habit of asking “how would I check this?” noticeably reduces errors."
+          }
+        },
+        {
+          "min": 4,
+          "max": 7,
+          "label": {
+            "ru": "Смешанный стиль",
+            "en": "Mixed style"
+          },
+          "summary": [
+            {
+              "ru": "Часть ловушек вы распознали",
+              "en": "You spotted some of the traps"
+            },
+            {
+              "ru": "Чаще ошибки в задачах на проценты и скорость работы",
+              "en": "Errors cluster in percentage and work-rate problems"
+            },
+            {
+              "ru": "Типичный результат для образованных взрослых",
+              "en": "Typical for educated adults"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы замечаете подвох во многих задачах, но не во всех. Посмотрите, какие именно ловушки сработали: числовые (проценты, скорость) или словесные (формулировка «все, кроме»). Это подскажет, где интуиция чаще вас подводит.",
+            "en": "You spot the catch in many but not all problems. Look at which traps worked – numerical ones (percentages, rates) or verbal ones (“all but”) – to see where your intuition misleads you most."
+          }
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "label": {
+            "ru": "Рефлексивный стиль",
+            "en": "Reflective style"
+          },
+          "summary": [
+            {
+              "ru": "Вы почти всегда перепроверяете первую мысль",
+              "en": "You almost always double-check your first thought"
+            },
+            {
+              "ru": "Высокий уровень когнитивной рефлексии",
+              "en": "High cognitive reflection"
+            },
+            {
+              "ru": "Вы устойчивее к типичным когнитивным искажениям",
+              "en": "More resistant to typical cognitive biases"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы уверенно распознаёте ловушки и находите верный ответ. В исследованиях высокий балл CRT связан с более точными суждениями о вероятностях, меньшей подверженностью когнитивным искажениям и большей терпеливостью в финансовых решениях. Обратная сторона — иногда излишняя перепроверка там, где хватило бы интуиции.",
+            "en": "You reliably detect the traps and find the right answer. In research, high CRT scores go with more accurate probability judgements, lower susceptibility to cognitive biases and more patient financial choices. The flip side can be over-checking where intuition would do."
+          }
+        }
+      ]
+    },
+    {
+      "id": "crt-classic",
+      "name": {
+        "ru": "Классический CRT (Фредерик, 3 задачи)",
+        "en": "Classic CRT (Frederick, 3 items)"
+      },
+      "description": {
+        "ru": "Три исходные задачи 2005 года — для сравнения с мировыми нормами.",
+        "en": "The three original 2005 items – for comparison with worldwide norms."
+      },
+      "lowLabel": {
+        "ru": "0 из 3",
+        "en": "0 of 3"
+      },
+      "highLabel": {
+        "ru": "3 из 3",
+        "en": "3 of 3"
+      },
+      "color": "#F9D5E5",
+      "scoring": "sum",
+      "min": 0,
+      "max": 3,
+      "norms": {
+        "mean": 1.2,
+        "sd": 1.13,
+        "n": 44558,
+        "population": "118 studies, 21 countries, 2007–2015 (≈ 42% students); mean/SD computed from the reported score distribution 37.5/23.2/21.1/18.2%",
+        "source": "Brañas-Garza, Kujal & Lenkei (2019); cf. Frederick (2005): M = 1.24, N = 3 428"
+      },
+      "bands": [
+        {
+          "min": 0,
+          "max": 0,
+          "label": {
+            "ru": "0 из 3",
+            "en": "0 of 3"
+          },
+          "summary": [
+            {
+              "ru": "Как примерно у 38% участников исследований",
+              "en": "Like about 38% of research participants"
+            },
+            {
+              "ru": "Все три ловушки сработали",
+              "en": "All three traps worked"
+            },
+            {
+              "ru": "Очень частый результат",
+              "en": "A very common result"
+            }
+          ],
+          "detailed": {
+            "ru": "Ни одна из трёх классических задач не решена — так отвечает больше трети участников исследований по всему миру, включая студентов хороших университетов.",
+            "en": "None of the three classic items solved – the result of more than a third of research participants worldwide, including students at good universities."
+          }
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "label": {
+            "ru": "1 из 3",
+            "en": "1 of 3"
+          },
+          "summary": [
+            {
+              "ru": "Как примерно у 23% участников",
+              "en": "Like about 23% of participants"
+            },
+            {
+              "ru": "Близко к среднему (1,2)",
+              "en": "Close to the average (1.2)"
+            },
+            {
+              "ru": "Чаще всего решают задачу про кувшинки",
+              "en": "Lily pads is the most often solved item"
+            }
+          ],
+          "detailed": {
+            "ru": "Результат около среднего мирового (≈ 1,2 из 3).",
+            "en": "Around the worldwide average (≈ 1.2 of 3)."
+          }
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "label": {
+            "ru": "2 из 3",
+            "en": "2 of 3"
+          },
+          "summary": [
+            {
+              "ru": "Как примерно у 21% участников",
+              "en": "Like about 21% of participants"
+            },
+            {
+              "ru": "Выше среднего",
+              "en": "Above average"
+            },
+            {
+              "ru": "Как средний студент Принстона (1,63) или выше",
+              "en": "At or above a typical Princeton student (1.63)"
+            }
+          ],
+          "detailed": {
+            "ru": "Выше среднего: в исследовании Фредерика такой балл был выше среднего почти во всех университетах.",
+            "en": "Above average: in Frederick’s study this was above the mean of almost every university sample."
+          }
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "label": {
+            "ru": "3 из 3",
+            "en": "3 of 3"
+          },
+          "summary": [
+            {
+              "ru": "Как примерно у 18% участников",
+              "en": "Like about 18% of participants"
+            },
+            {
+              "ru": "Уровень лучших студентов MIT (среднее 2,18)",
+              "en": "MIT-student level (mean 2.18)"
+            },
+            {
+              "ru": "Если задачи были знакомы — результат завышен",
+              "en": "If you knew the items, the score is inflated"
+            }
+          ],
+          "detailed": {
+            "ru": "Все три классические задачи решены. Если вы видели их раньше (они очень популярны), результат стоит оценивать по менее известным заданиям CRT-2.",
+            "en": "All three classic items solved. If you had seen them before (they are very popular), judge yourself by the less familiar CRT-2 items."
+          }
+        }
+      ]
+    },
+    {
+      "id": "crt-verbal",
+      "name": {
+        "ru": "CRT-2 (менее числовые задачи)",
+        "en": "CRT-2 (less numerical items)"
+      },
+      "description": {
+        "ru": "4 задачи Thomson & Oppenheimer (2016), где ловушка в формулировке, а не в счёте.",
+        "en": "4 items by Thomson & Oppenheimer (2016) where the trap lies in wording rather than arithmetic."
+      },
+      "lowLabel": {
+        "ru": "0 из 4",
+        "en": "0 of 4"
+      },
+      "highLabel": {
+        "ru": "4 из 4",
+        "en": "4 of 4"
+      },
+      "color": "#FFF1C9",
+      "scoring": "sum",
+      "min": 0,
+      "max": 4,
+      "bands": [
+        {
+          "min": 0,
+          "max": 1,
+          "label": {
+            "ru": "Ниже типичного",
+            "en": "Below typical"
+          },
+          "summary": [
+            {
+              "ru": "Словесные ловушки сработали",
+              "en": "The wording traps worked"
+            },
+            {
+              "ru": "Читайте условие до конца",
+              "en": "Read the question to the end"
+            },
+            {
+              "ru": "Ориентир: у студентов UCLA в среднем 56% верных",
+              "en": "Benchmark: UCLA students averaged 56% correct"
+            }
+          ],
+          "detailed": {
+            "ru": "Словесные ловушки опираются на привычные шаблоны («второй → первый», «апрель, май → июнь»). Они срабатывают, когда мы отвечаем по шаблону, не дочитав условие.",
+            "en": "Wording traps exploit familiar patterns (“second → first”, “April, May → June”). They work when we answer the pattern instead of the question."
+          }
+        },
+        {
+          "min": 2,
+          "max": 3,
+          "label": {
+            "ru": "Типичный уровень",
+            "en": "Typical"
+          },
+          "summary": [
+            {
+              "ru": "Близко к среднему студентов (≈ 2,2 из 4)",
+              "en": "Close to the student average (≈ 2.2 of 4)"
+            },
+            {
+              "ru": "Самая трудная — задача про яму",
+              "en": "The hole problem is the hardest"
+            },
+            {
+              "ru": "Большинство ловушек распознано",
+              "en": "Most traps spotted"
+            }
+          ],
+          "detailed": {
+            "ru": "Типичный результат. Задачу про яму решают лишь около 16% студентов — не огорчайтесь, если она вас подловила.",
+            "en": "A typical result. Only about 16% of students solve the hole problem – don’t worry if it caught you."
+          }
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "label": {
+            "ru": "Все верно",
+            "en": "All correct"
+          },
+          "summary": [
+            {
+              "ru": "Все словесные ловушки распознаны",
+              "en": "All wording traps spotted"
+            },
+            {
+              "ru": "Внимательное чтение условий",
+              "en": "Careful reading"
+            },
+            {
+              "ru": "Редкий результат",
+              "en": "A rare result"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы распознали все словесные ловушки, включая самую трудную — про яму.",
+            "en": "You spotted all the wording traps, including the hardest (the hole)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "crt-extended",
+      "name": {
+        "ru": "Расширенный CRT (Toplak и др., 4 задачи)",
+        "en": "Extended CRT (Toplak et al., 4 items)"
+      },
+      "description": {
+        "ru": "Дополнительные числовые задачи-ловушки: совместная работа, места в рейтинге, перепродажа, проценты.",
+        "en": "Additional numerical trap problems: joint work, rank positions, resale, percentages."
+      },
+      "lowLabel": {
+        "ru": "0 из 4",
+        "en": "0 of 4"
+      },
+      "highLabel": {
+        "ru": "4 из 4",
+        "en": "4 of 4"
+      },
+      "color": "#D9F2D0",
+      "scoring": "sum",
+      "min": 0,
+      "max": 4,
+      "bands": [
+        {
+          "min": 0,
+          "max": 1,
+          "label": {
+            "ru": "Ниже типичного",
+            "en": "Below typical"
+          },
+          "summary": [
+            {
+              "ru": "Числовые ловушки сработали",
+              "en": "The numerical traps worked"
+            },
+            {
+              "ru": "Чаще всего путают проценты от разной базы",
+              "en": "Percentages of different bases are the usual pitfall"
+            },
+            {
+              "ru": "Полезно записывать промежуточные шаги",
+              "en": "Writing intermediate steps helps"
+            }
+          ],
+          "detailed": {
+            "ru": "Эти задачи требуют не столько сложной математики, сколько отказа от быстрого «среднего» или «очевидного» ответа. Записывайте промежуточные шаги — это лучший способ поймать ошибку.",
+            "en": "These problems require not hard maths but rejecting the quick “average” or “obvious” answer. Writing down intermediate steps is the best way to catch the error."
+          }
+        },
+        {
+          "min": 2,
+          "max": 3,
+          "label": {
+            "ru": "Типичный уровень",
+            "en": "Typical"
+          },
+          "summary": [
+            {
+              "ru": "Часть числовых ловушек распознана",
+              "en": "Some numerical traps spotted"
+            },
+            {
+              "ru": "Типичный результат",
+              "en": "A typical result"
+            },
+            {
+              "ru": "Сравните с классическим CRT",
+              "en": "Compare with the classic CRT"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы распознали часть числовых ловушек. Опубликованных норм для этого набора нет, поэтому сравнение будет строиться по данным сайта.",
+            "en": "You spotted some numerical traps. There are no published norms for this set, so comparison will use site data."
+          }
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "label": {
+            "ru": "Все верно",
+            "en": "All correct"
+          },
+          "summary": [
+            {
+              "ru": "Все числовые ловушки распознаны",
+              "en": "All numerical traps spotted"
+            },
+            {
+              "ru": "Аккуратный счёт",
+              "en": "Careful calculation"
+            },
+            {
+              "ru": "Высокая когнитивная рефлексия",
+              "en": "High cognitive reflection"
+            }
+          ],
+          "detailed": {
+            "ru": "Все четыре дополнительные задачи решены верно — признак аккуратного, рефлексивного мышления при работе с числами.",
+            "en": "All four additional problems solved – a sign of careful, reflective thinking with numbers."
+          }
+        }
+      ]
+    },
+    {
+      "id": "intuitive",
+      "name": {
+        "ru": "Интуитивные ответы",
+        "en": "Intuitive answers"
+      },
+      "description": {
+        "ru": "Сколько раз вы выбрали именно «ловушку» — быстрый интуитивный, но неверный ответ.",
+        "en": "How many times you chose the lure – the quick, intuitive but wrong answer."
+      },
+      "lowLabel": {
+        "ru": "редко ведётся на ловушки",
+        "en": "rarely takes the bait"
+      },
+      "highLabel": {
+        "ru": "часто ведётся на ловушки",
+        "en": "often takes the bait"
+      },
+      "color": "#FFD8BE",
+      "scoring": "sum",
+      "min": 0,
+      "max": 11,
+      "bands": [
+        {
+          "min": 0,
+          "max": 2,
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely"
+          },
+          "summary": [
+            {
+              "ru": "Интуиция почти не подводит вас в ловушках",
+              "en": "Intuition rarely misleads you on traps"
+            },
+            {
+              "ru": "Если ошибки есть — это «прочие» ошибки",
+              "en": "Any errors are “other” errors"
+            },
+            {
+              "ru": "Признак привычки перепроверять",
+              "en": "A sign of a checking habit"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы почти не выбирали интуитивные ловушки. Если верных ответов при этом мало, ошибки другого типа — скорее в счёте или в понимании условия, а не в импульсивности.",
+            "en": "You rarely chose the intuitive lures. If your correct count is still low, your errors are of another kind – calculation or comprehension rather than impulsiveness."
+          }
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "summary": [
+            {
+              "ru": "Часть ловушек сработала",
+              "en": "Some traps worked"
+            },
+            {
+              "ru": "Типично для большинства людей",
+              "en": "Typical for most people"
+            },
+            {
+              "ru": "Обратите внимание, какие именно",
+              "en": "Notice which ones"
+            }
+          ],
+          "detailed": {
+            "ru": "Интуитивный ответ иногда побеждает — так происходит у большинства людей. Самые «цепкие» ловушки — бита и мяч и задача про проценты.",
+            "en": "The intuitive answer sometimes wins – as for most people. The stickiest traps are the bat-and-ball and the percentage problem."
+          }
+        },
+        {
+          "min": 6,
+          "max": 11,
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "summary": [
+            {
+              "ru": "Вы часто отвечаете первым пришедшим в голову",
+              "en": "You often go with the first answer that comes to mind"
+            },
+            {
+              "ru": "Ошибки именно интуитивные, а не случайные",
+              "en": "Errors are intuitive rather than random"
+            },
+            {
+              "ru": "Приём: «а если проверить ответ подстановкой?»",
+              "en": "Trick: “what if I plug the answer back in?”"
+            }
+          ],
+          "detailed": {
+            "ru": "Большинство ваших ошибок — именно интуитивные ловушки. Это значит, что вы хорошо улавливаете «очевидный» ответ, но не проверяете его. Простейший приём — подставить ответ обратно в условие (если мяч стоит 10, сколько тогда стоит бита?).",
+            "en": "Most of your errors are the intuitive lures: you catch the “obvious” answer quickly but do not check it. The simplest fix is to plug the answer back in (if the ball costs 10 cents, what does the bat cost?)."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "crt-1",
+      "dimension": "crt-classic",
+      "text": {
+        "ru": "Бита и мяч вместе стоят 110 рублей. Бита стоит на 100 рублей дороже мяча. Сколько стоит мяч?",
+        "en": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "10 рублей",
+            "en": "10 cents"
+          },
+          "scores": {
+            "intuitive": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "5 рублей",
+            "en": "5 cents"
+          },
+          "correct": true,
+          "scores": {
+            "total": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "9 рублей",
+            "en": "9 cents"
+          }
+        },
+        {
+          "text": {
+            "ru": "1 рубль",
+            "en": "1 cent"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Интуитивный ответ — 10, но тогда бита стоила бы 110, а вместе 120. Если мяч стоит x, бита — x + 100; x + (x + 100) = 110 → x = 5.",
+        "en": "The intuitive answer is 10 cents, but then the bat would cost $1.10 and the total $1.20. If the ball costs x, the bat costs x + 1.00; 2x + 1.00 = 1.10 → x = 5 cents."
+      }
+    },
+    {
+      "id": "crt-2",
+      "dimension": "crt-classic",
+      "text": {
+        "ru": "Если 5 станков за 5 минут делают 5 деталей, за сколько минут 100 станков сделают 100 деталей?",
+        "en": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "100 минут",
+            "en": "100 minutes"
+          },
+          "scores": {
+            "intuitive": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "5 минут",
+            "en": "5 minutes"
+          },
+          "correct": true,
+          "scores": {
+            "total": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "20 минут",
+            "en": "20 minutes"
+          }
+        },
+        {
+          "text": {
+            "ru": "1 минута",
+            "en": "1 minute"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Один станок делает одну деталь за 5 минут. 100 станков работают параллельно и сделают 100 деталей за те же 5 минут.",
+        "en": "Each machine makes one widget in 5 minutes. 100 machines working in parallel make 100 widgets in the same 5 minutes."
+      }
+    },
+    {
+      "id": "crt-3",
+      "dimension": "crt-classic",
+      "text": {
+        "ru": "На озере растут кувшинки. Каждый день площадь, которую они занимают, удваивается. За 48 дней кувшинки покрывают всё озеро. За сколько дней они покроют половину озера?",
+        "en": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "24 дня",
+            "en": "24 days"
+          },
+          "scores": {
+            "intuitive": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "47 дней",
+            "en": "47 days"
+          },
+          "correct": true,
+          "scores": {
+            "total": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "46 дней",
+            "en": "46 days"
+          }
+        },
+        {
+          "text": {
+            "ru": "36 дней",
+            "en": "36 days"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Площадь удваивается каждый день, значит, за день до полного покрытия (на 47-й день) была покрыта ровно половина.",
+        "en": "The patch doubles daily, so one day before it covers the whole lake (day 47) it covered exactly half."
+      }
+    },
+    {
+      "id": "crt-4",
+      "dimension": "crt-verbal",
+      "text": {
+        "ru": "Вы бежите в забеге и обгоняете бегуна, который был вторым. Каким вы стали?",
+        "en": "If you’re running a race and you pass the person in second place, what place are you in?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Первым",
+            "en": "First"
+          },
+          "scores": {
+            "intuitive": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Вторым",
+            "en": "Second"
+          },
+          "correct": true,
+          "scores": {
+            "total": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Третьим",
+            "en": "Third"
+          }
+        },
+        {
+          "text": {
+            "ru": "Зависит от числа бегунов",
+            "en": "It depends on the number of runners"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Вы заняли место того, кого обогнали, — второе. Первый по-прежнему впереди.",
+        "en": "You take the place of the person you passed – second. The leader is still ahead of you."
+      }
+    },
+    {
+      "id": "crt-5",
+      "dimension": "crt-verbal",
+      "text": {
+        "ru": "У фермера было 15 овец. Все, кроме 8, погибли. Сколько овец осталось?",
+        "en": "A farmer had 15 sheep and all but 8 died. How many are left?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "7",
+            "en": "7"
+          },
+          "scores": {
+            "intuitive": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "8",
+            "en": "8"
+          },
+          "correct": true,
+          "scores": {
+            "total": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "15",
+            "en": "15"
+          }
+        },
+        {
+          "text": {
+            "ru": "0",
+            "en": "0"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "«Все, кроме 8» — значит, 8 выжили. Ответ 7 получается, если машинально вычесть 8 из 15.",
+        "en": "“All but 8 died” means 8 survived. 7 comes from automatically computing 15 − 8."
+      }
+    },
+    {
+      "id": "crt-6",
+      "dimension": "crt-verbal",
+      "text": {
+        "ru": "У отца Маши три дочери. Первых двух зовут Вера и Надежда. Как зовут третью дочь?",
+        "en": "Emily’s father has three daughters. The first two are named April and May. What is the third daughter’s name?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Любовь",
+            "en": "June"
+          },
+          "scores": {
+            "intuitive": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Маша",
+            "en": "Emily"
+          },
+          "correct": true,
+          "scores": {
+            "total": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Софья",
+            "en": "July"
+          }
+        },
+        {
+          "text": {
+            "ru": "Определить невозможно",
+            "en": "It cannot be determined"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Третья дочь — сама Маша. Пара «Вера, Надежда» подталкивает к привычному «Любовь» (русская адаптация: в оригинале — April, May → June).",
+        "en": "The third daughter is Emily herself. “April, May” primes the pattern answer “June”."
+      }
+    },
+    {
+      "id": "crt-7",
+      "dimension": "crt-verbal",
+      "text": {
+        "ru": "Сколько кубических метров земли в яме глубиной 3 м, шириной 3 м и длиной 3 м?",
+        "en": "How many cubic feet of dirt are there in a hole that is 3′ deep × 3′ wide × 3′ long?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "27",
+            "en": "27"
+          },
+          "scores": {
+            "intuitive": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "0 — в яме нет земли",
+            "en": "None – a hole contains no dirt"
+          },
+          "correct": true,
+          "scores": {
+            "total": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "9",
+            "en": "9"
+          }
+        },
+        {
+          "text": {
+            "ru": "81",
+            "en": "81"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Яма — это пустота: земли в ней нет. 3 × 3 × 3 = 27 — объём ямы, а не земли.",
+        "en": "A hole is empty – there is no dirt in it. 3 × 3 × 3 = 27 is the volume of the hole, not of dirt."
+      }
+    },
+    {
+      "id": "crt-8",
+      "dimension": "crt-extended",
+      "text": {
+        "ru": "Иван выпивает бочку воды за 6 дней, а Мария — за 12 дней. За сколько дней они выпьют одну бочку вместе?",
+        "en": "If John can drink one barrel of water in 6 days, and Mary can drink one barrel of water in 12 days, how long would it take them to drink one barrel of water together?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "9 дней",
+            "en": "9 days"
+          },
+          "scores": {
+            "intuitive": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "4 дня",
+            "en": "4 days"
+          },
+          "correct": true,
+          "scores": {
+            "total": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "18 дней",
+            "en": "18 days"
+          }
+        },
+        {
+          "text": {
+            "ru": "3 дня",
+            "en": "3 days"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "За день Иван выпивает 1/6 бочки, Мария — 1/12; вместе 1/6 + 1/12 = 3/12 = 1/4 бочки в день → 4 дня. 9 — интуитивное «среднее» 6 и 12.",
+        "en": "Per day John drinks 1/6 and Mary 1/12 of a barrel: together 1/4 per day → 4 days. 9 is the intuitive “average” of 6 and 12."
+      }
+    },
+    {
+      "id": "crt-9",
+      "dimension": "crt-extended",
+      "text": {
+        "ru": "Ученик получил оценку, которая оказалась одновременно 15-й по высоте и 15-й с конца в классе. Сколько учеников в классе?",
+        "en": "Jerry received both the 15th highest and the 15th lowest mark in the class. How many students are in the class?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "30",
+            "en": "30"
+          },
+          "scores": {
+            "intuitive": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "29",
+            "en": "29"
+          },
+          "correct": true,
+          "scores": {
+            "total": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "31",
+            "en": "31"
+          }
+        },
+        {
+          "text": {
+            "ru": "15",
+            "en": "15"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Над ним 14 учеников, под ним 14, плюс он сам: 14 + 14 + 1 = 29.",
+        "en": "There are 14 students above him, 14 below, plus Jerry himself: 14 + 14 + 1 = 29."
+      }
+    },
+    {
+      "id": "crt-10",
+      "dimension": "crt-extended",
+      "text": {
+        "ru": "Человек покупает поросёнка за 60 рублей, продаёт за 70, снова покупает за 80 и окончательно продаёт за 90. Сколько он заработал?",
+        "en": "A man buys a pig for $60, sells it for $70, buys it back for $80, and sells it finally for $90. How much has he made?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "10 рублей",
+            "en": "$10"
+          },
+          "scores": {
+            "intuitive": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "20 рублей",
+            "en": "$20"
+          },
+          "correct": true,
+          "scores": {
+            "total": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "30 рублей",
+            "en": "$30"
+          }
+        },
+        {
+          "text": {
+            "ru": "0 рублей",
+            "en": "$0"
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "Две независимые сделки: +10 (60 → 70) и +10 (80 → 90), итого +20. Всего потрачено 140, получено 160.",
+        "en": "Two separate deals: +10 (60 → 70) and +10 (80 → 90) = +20. He paid 140 in total and received 160."
+      }
+    },
+    {
+      "id": "crt-11",
+      "dimension": "crt-extended",
+      "text": {
+        "ru": "В начале 2008 года Семён вложил 8000 рублей в акции. Через полгода, 17 июля, акции подешевели на 50%. К счастью, с 17 июля по 17 октября они подорожали на 75%. Что теперь у Семёна?",
+        "en": "Simon decided to invest $8,000 in the stock market one day early in 2008. Six months after he invested, on July 17, the stocks he had purchased were down 50%. Fortunately for Simon, from July 17 to October 17, the stocks he had purchased went up 75%. At this point, Simon has:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Остался при своих",
+            "en": "broken even in the stock market"
+          }
+        },
+        {
+          "text": {
+            "ru": "Оказался в плюсе",
+            "en": "is ahead of where he began"
+          },
+          "scores": {
+            "intuitive": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Оказался в минусе",
+            "en": "has lost money"
+          },
+          "correct": true,
+          "scores": {
+            "total": 1
+          }
+        }
+      ],
+      "explanation": {
+        "ru": "8000 − 50% = 4000; 4000 + 75% = 7000 < 8000. Проценты считаются от разной базы, поэтому +75% не перекрывает −50%.",
+        "en": "$8,000 − 50% = $4,000; $4,000 + 75% = $7,000 < $8,000. The percentages apply to different bases, so +75% does not make up for −50%."
+      }
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый верный ответ = 1 балл рефлексии (общий 0–11; подбаллы: классический CRT 0–3, CRT-2 0–4, расширенный 0–4). Каждый выбранный «ловушечный» вариант (у него scores.intuitive = 1) = 1 интуитивный балл. Прочие ошибки = общее число заданий − верные − интуитивные. Профиль: «рефлексивный», если верных ≥ 8; «интуитивный», если интуитивных ответов больше, чем верных; иначе «смешанный». Процентиль для классического CRT считается по нормам мета-анализа (M = 1,20; SD = 1,13) или, точнее, по распределению 37,5 / 23,2 / 21,1 / 18,2% для 0 / 1 / 2 / 3 баллов. Норм для общего балла 0–11 нет — используйте распределение данных сайта.",
+    "en": "Each correct answer = 1 reflection point (total 0–11; sub-scores: classic CRT 0–3, CRT-2 0–4, extended 0–4). Each chosen lure option (scores.intuitive = 1) = 1 intuitive point. Other errors = items − correct − intuitive. Profile: “reflective” if correct ≥ 8; “intuitive” if intuitive answers outnumber correct ones; otherwise “mixed”. The classic-CRT percentile uses the meta-analytic norms (M = 1.20, SD = 1.13) or, better, the distribution 37.5 / 23.2 / 21.1 / 18.2% for scores 0 / 1 / 2 / 3. There are no norms for the 0–11 total – use the site’s own distribution."
+  },
+  "resultIntro": {
+    "ru": "В каждой задаче был очевидный, но неверный ответ. Ниже — сколько раз вы его избежали, сколько раз он вас поймал, и как это соотносится с результатами тысяч участников исследований.",
+    "en": "Every problem had an obvious but wrong answer. Below: how often you avoided it, how often it caught you, and how that compares with thousands of research participants."
+  }
+}

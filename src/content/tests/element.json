@@ -1,0 +1,1935 @@
+{
+  "id": "element",
+  "category": "fun",
+  "kind": "choice",
+  "seriousness": "fun",
+  "title": {
+    "ru": "Какая ты стихия?",
+    "en": "Which element are you?"
+  },
+  "tagline": {
+    "ru": "Огонь, вода, земля, воздух — или что-то пореже? Тест по мотивам 2500-летней теории темпераментов",
+    "en": "Fire, water, earth, air, or something rarer? A quiz based on a 2,500-year-old theory of temperament"
+  },
+  "description": {
+    "ru": "От Эмпедокла и Гиппократа до Павлова и Айзенка люди пытались разделить характеры на четыре типа. Пройди 15 ситуаций — и узнай свою стихию, свой классический темперамент и то, как его описывает современная психология.",
+    "en": "From Empedocles and Hippocrates to Pavlov and Eysenck, people have tried to sort characters into four types. Go through 15 situations to find your element, your classical temperament and how modern psychology describes it."
+  },
+  "emoji": "🔥",
+  "durationMin": 4,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "темперамент",
+      "en": "temperament"
+    },
+    {
+      "ru": "стихии",
+      "en": "elements"
+    },
+    {
+      "ru": "история психологии",
+      "en": "history of psychology"
+    },
+    {
+      "ru": "развлечение",
+      "en": "fun"
+    }
+  ],
+  "methodology": {
+    "ru": "### Что это за тест\nРазвлекательный тест о **темпераменте**. 15 ситуаций оцениваются по четырём шкалам: экстраверсия (E), эмоциональная реактивность / нейротизм (N), открытость опыту (O) и добросовестность (C). Четыре классические стихии определяются в основном двумя первыми осями, а «эфир» и «металл» — двумя дополнительными.\n\n### Историческая линия — честно\n1. **Эмпедокл (V в. до н. э.)** описал четыре «корня» мира: огонь, воздух, воду и землю.\n2. **Гиппократовская медицина** (трактат «О природе человека») связала здоровье с балансом четырёх «соков»: крови, жёлтой желчи, чёрной желчи и флегмы. Каждый сок соотносили с парой качеств (тёплое/холодное, сухое/влажное), стихией и временем года: кровь — воздух — весна; жёлтая желчь — огонь — лето; чёрная желчь — **земля** — осень; флегма — **вода** — зима.\n3. **Гален (II в. н. э.)** развил учение о «смешениях» (temperamentum — «смесь») и описал девять вариантов темперамента; привычная «четвёрка» личностных типов — сангвиник, холерик, меланхолик, флегматик — окончательно оформилась позже, в средневековой и ренессансной традиции (Stelmack & Stalikas, 1991; Kagan, 1994).\n4. **Кант** (1798) и **Вундт** (1874/1903) превратили типы в психологические описания; Вундт расположил их на двух осях — сила и скорость эмоций.\n5. **Павлов** связал четыре типа со свойствами нервной системы (сила, уравновешенность, подвижность) — эта линия стала классикой отечественной психологии индивидуальных различий (Ильин, 2004).\n6. **Айзенк** показал, что четыре типа удобно ложатся в квадранты двух измеряемых черт — экстраверсии и нейротизма: холерик = E+N+, сангвиник = E+N−, меланхолик = E−N+, флегматик = E−N− (Eysenck & Eysenck, 1985). Эти же две черты входят в «Большую пятёрку».\n\n**Важно:** гуморальная теория как объяснение физиологии давно опровергнута — никакой «чёрной желчи» в характере нет. Научной ценностью обладают лишь описательные наблюдения, которые современная психология измеряет совсем другими инструментами. **Эфир** (пятый элемент Аристотеля) и **металл** (из китайской системы у-син) в классическую четвёрку не входят; мы добавили их ради игры и честно привязали к открытости опыту и добросовестности.\n\nМногие популярные сайты связывают флегматика с землёй, а меланхолика — с водой. В античной схеме было наоборот: меланхолия — холодная и сухая, как земля; флегма — холодная и влажная, как вода. Мы следуем первоисточникам.\n\n### Ограничения\nВопросы оригинальные; тест не валидирован, надёжность не измерялась. Для научной оценки экстраверсии и нейротизма используй валидированные опросники (например, шкалы «Большой пятёрки» из открытого пула IPIP).\n\n### Как считается результат\nКаждый ответ даёт от −2 до +2 баллов по одной-трём шкалам. Суммы переводятся в шкалу 0–1, и выбирается стихия, чей профиль ближе всего к твоему (евклидово расстояние). Профили откалиброваны симуляцией случайных ответов, так что все шесть стихий выпадают примерно с равной частотой.",
+    "en": "### What this quiz is\nAn entertainment quiz about **temperament**. 15 situations are scored on four scales: extraversion (E), emotional reactivity / neuroticism (N), openness (O) and conscientiousness (C). The four classical elements are defined mainly by the first two axes; \"aether\" and \"metal\" by the two extra ones.\n\n### The historical lineage, honestly\n1. **Empedocles (5th c. BCE)** described four \"roots\" of the world: fire, air, water and earth.\n2. **Hippocratic medicine** (the treatise On the Nature of Man) tied health to the balance of four humours: blood, yellow bile, black bile and phlegm. Each humour was paired with qualities (hot/cold, dry/moist), an element and a season: blood — air — spring; yellow bile — fire — summer; black bile — **earth** — autumn; phlegm — **water** — winter.\n3. **Galen (2nd c. CE)** developed the doctrine of mixtures (temperamentum, \"mixture\") and described nine temperaments; the familiar four personality types — sanguine, choleric, melancholic, phlegmatic — took their final shape later, in medieval and Renaissance tradition (Stelmack & Stalikas, 1991; Kagan, 1994).\n4. **Kant** (1798) and **Wundt** (1874/1903) turned the types into psychological descriptions; Wundt placed them on two axes, the strength and the speed of emotions.\n5. **Pavlov** linked the four types to properties of the nervous system (strength, balance, mobility), a line that became classic in Russian differential psychology (Ilyin, 2004).\n6. **Eysenck** showed the four types fit neatly into the quadrants of two measurable traits, extraversion and neuroticism: choleric = E+N+, sanguine = E+N−, melancholic = E−N+, phlegmatic = E−N− (Eysenck & Eysenck, 1985). Both traits are part of the Big Five.\n\n**Important:** humoral theory as an explanation of physiology was disproved long ago; there is no \"black bile\" in anyone's character. Only the descriptive observations have value, and modern psychology measures them with entirely different tools. **Aether** (Aristotle's fifth element) and **metal** (from the Chinese wuxing system) are not part of the classical four; we added them for fun and openly tied them to openness and conscientiousness.\n\nMany pop sites pair the phlegmatic with earth and the melancholic with water. The ancient scheme was the other way round: melancholy is cold and dry, like earth; phlegm is cold and moist, like water. We follow the original sources.\n\n### Limitations\nThe questions are original; the quiz is not validated and its reliability has not been measured. For a scientific measure of extraversion and neuroticism, use validated inventories (e.g., Big Five scales from the public-domain IPIP).\n\n### How the result is computed\nEach answer adds −2 to +2 points on one to three scales. Totals are rescaled to 0–1, and you get the element whose profile is closest to yours (Euclidean distance). Profiles were calibrated by simulating random answers, so all six elements come up about equally often."
+  },
+  "sources": [
+    {
+      "citation": "Stelmack, R. M., & Stalikas, A. (1991). Galen and the humour theory of temperament. Personality and Individual Differences, 12(3), 255–263."
+    },
+    {
+      "citation": "Kagan, J. (1994). Galen's prophecy: Temperament in human nature. New York: Basic Books (paperback ed. Westview Press, 1998)."
+    },
+    {
+      "citation": "Eysenck, H. J., & Eysenck, M. W. (1985). Personality and individual differences: A natural science approach. New York: Plenum Press."
+    },
+    {
+      "citation": "Eysenck, H. J. (1967). The biological basis of personality. Springfield, IL: Charles C. Thomas."
+    },
+    {
+      "citation": "Strelau, J. (1998). Temperament: A psychological perspective. New York: Plenum Press."
+    },
+    {
+      "citation": "Ильин, Е. П. (2004). Психология индивидуальных различий. СПб.: Питер."
+    },
+    {
+      "citation": "Lumen Learning. Introduction to Psychology: Eysenck personality dimensions (figure mapping the four temperaments onto extraversion and stability).",
+      "url": "https://content.one.lumenlearning.com/introductiontopsychology/chapter/learn-it-eysenck-personality-dimensions/"
+    },
+    {
+      "citation": "Goldberg, L. R., Johnson, J. A., Eber, H. W., Hogan, R., Ashton, M. C., Cloninger, C. R., & Gough, H. G. (2006). The International Personality Item Pool and the future of public-domain personality measures. Journal of Research in Personality, 40(1), 84–96.",
+      "doi": "10.1016/j.jrp.2005.08.007"
+    }
+  ],
+  "license": "Original content written for testik (all questions and outcome texts are original). Historical theories are described and cited, not reproduced from any copyrighted test.",
+  "disclaimer": {
+    "ru": "Развлекательный тест. Античная теория темпераментов — часть истории психологии, а не современная наука; результат не является психологической диагностикой.",
+    "en": "Entertainment quiz. The ancient theory of temperaments is part of the history of psychology, not modern science; your result is not a psychological assessment."
+  },
+  "instructions": {
+    "ru": "Отвечай так, как обычно поступаешь в жизни, а не как «было бы правильно». Первый пришедший в голову вариант обычно самый честный.",
+    "en": "Answer the way you usually act in real life, not how you think you should. Your first instinct is usually the most honest one."
+  },
+  "dimensions": [
+    {
+      "id": "E",
+      "name": {
+        "ru": "Экстраверсия",
+        "en": "Extraversion"
+      },
+      "description": {
+        "ru": "Социальная энергия: общительность, активность, напористость и любовь к ярким впечатлениям.",
+        "en": "Social energy: sociability, activity, assertiveness and a taste for excitement."
+      },
+      "lowLabel": {
+        "ru": "тишина, глубина",
+        "en": "quiet, reserved"
+      },
+      "highLabel": {
+        "ru": "общительность, драйв",
+        "en": "outgoing, energetic"
+      },
+      "color": "#FFD59E",
+      "scoring": "sum",
+      "min": -16,
+      "max": 22,
+      "bands": [
+        {
+          "min": -16,
+          "max": -4,
+          "label": {
+            "ru": "Тихая батарейка",
+            "en": "Quiet battery"
+          },
+          "summary": [
+            {
+              "ru": "Заряжаешься в тишине и наедине с собой",
+              "en": "You recharge in quiet and solitude"
+            },
+            {
+              "ru": "Мало друзей, но настоящих",
+              "en": "Few friends, but real ones"
+            },
+            {
+              "ru": "Сначала думаешь, потом говоришь",
+              "en": "You think first, then speak"
+            }
+          ],
+          "detailed": {
+            "ru": "Интроверсия — не застенчивость, а способ распределять энергию. Ты глубже погружаешься в дела и людей. Совет: планируй «окна тишины» после шумных событий и не извиняйся за них.",
+            "en": "Introversion is not shyness; it is a way of spending energy. You go deeper into tasks and people. Tip: schedule quiet time after busy events, and do not apologise for it."
+          }
+        },
+        {
+          "min": -3,
+          "max": 9,
+          "label": {
+            "ru": "Амбиверт",
+            "en": "Ambivert"
+          },
+          "summary": [
+            {
+              "ru": "Можешь и зажечь, и уйти в себя",
+              "en": "You can light up a room or retreat"
+            },
+            {
+              "ru": "Подстраиваешься под компанию",
+              "en": "You adapt to the company"
+            },
+            {
+              "ru": "Нужны и люди, и тишина",
+              "en": "You need both people and quiet"
+            }
+          ],
+          "detailed": {
+            "ru": "Большинство людей находятся где-то посередине, и это удобно: ты чувствуешь, когда нужно говорить, а когда слушать. Совет: следи за своим «социальным топливом» и вовремя меняй режим.",
+            "en": "Most people sit somewhere in the middle, and it is a handy place to be: you sense when to talk and when to listen. Tip: watch your \"social fuel gauge\" and switch modes in time."
+          }
+        },
+        {
+          "min": 10,
+          "max": 22,
+          "label": {
+            "ru": "Солнечная батарея",
+            "en": "Solar panel"
+          },
+          "summary": [
+            {
+              "ru": "Люди тебя заряжают",
+              "en": "People charge you up"
+            },
+            {
+              "ru": "Легко знакомишься и ведёшь за собой",
+              "en": "You make friends easily and lead"
+            },
+            {
+              "ru": "Любишь движ и яркие впечатления",
+              "en": "You love action and excitement"
+            }
+          ],
+          "detailed": {
+            "ru": "Высокая экстраверсия связана с позитивными эмоциями и социальной уверенностью. Риск — перегрузить расписание и забыть про отдых. Совет: иногда давай слово самым тихим в компании — они удивят.",
+            "en": "High extraversion goes with positive emotions and social confidence. The risk is overloading your schedule and forgetting to rest. Tip: now and then, give the floor to the quietest person in the room. They will surprise you."
+          }
+        }
+      ]
+    },
+    {
+      "id": "N",
+      "name": {
+        "ru": "Эмоциональная чувствительность",
+        "en": "Emotional sensitivity (Neuroticism)"
+      },
+      "description": {
+        "ru": "Насколько сильно и часто ты переживаешь тревогу, напряжение и перепады настроения (в науке — нейротизм).",
+        "en": "How strongly and often you feel worry, tension and mood swings (neuroticism in the research literature)."
+      },
+      "lowLabel": {
+        "ru": "спокойствие, устойчивость",
+        "en": "calm, resilient"
+      },
+      "highLabel": {
+        "ru": "чувствительность, тревожность",
+        "en": "sensitive, reactive"
+      },
+      "color": "#A9D2F5",
+      "scoring": "sum",
+      "min": -18,
+      "max": 23,
+      "bands": [
+        {
+          "min": -18,
+          "max": -5,
+          "label": {
+            "ru": "Дзен-режим",
+            "en": "Zen mode"
+          },
+          "summary": [
+            {
+              "ru": "Тебя сложно выбить из колеи",
+              "en": "Hard to knock you off balance"
+            },
+            {
+              "ru": "Быстро восстанавливаешься после стресса",
+              "en": "You bounce back quickly"
+            },
+            {
+              "ru": "Спокойствие — твой суперскилл",
+              "en": "Calm is your superpower"
+            }
+          ],
+          "detailed": {
+            "ru": "Эмоциональная устойчивость помогает в кризисах и делает тебя опорой для других. Иногда спокойствие могут принять за равнодушие. Совет: проговаривай вслух, что тебе не всё равно, — людям это важно.",
+            "en": "Emotional stability helps in a crisis and makes you a rock for others. Sometimes calm can be mistaken for indifference. Tip: say out loud that you care. People need to hear it."
+          }
+        },
+        {
+          "min": -4,
+          "max": 9,
+          "label": {
+            "ru": "Живые эмоции",
+            "en": "Balanced feelings"
+          },
+          "summary": [
+            {
+              "ru": "Переживаешь, но не тонешь",
+              "en": "You worry but do not drown"
+            },
+            {
+              "ru": "Эмоции — сигнал, а не приговор",
+              "en": "Emotions are signals, not verdicts"
+            },
+            {
+              "ru": "Обычно быстро приходишь в себя",
+              "en": "You usually recover fast"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты чувствуешь и радость, и тревогу, но в целом держишь баланс. Совет: заметь, что именно выбивает тебя из колеи чаще всего (недосып? голод? неопределённость?), и подстрахуйся заранее.",
+            "en": "You feel joy and worry, but overall you keep your balance. Tip: notice what throws you off most often (lack of sleep? hunger? uncertainty?) and plan around it."
+          }
+        },
+        {
+          "min": 10,
+          "max": 23,
+          "label": {
+            "ru": "Тонкая настройка",
+            "en": "Finely tuned"
+          },
+          "summary": [
+            {
+              "ru": "Остро чувствуешь всё вокруг",
+              "en": "You feel everything intensely"
+            },
+            {
+              "ru": "Замечаешь риски раньше других",
+              "en": "You spot risks before others"
+            },
+            {
+              "ru": "Эмпатия и глубина переживаний",
+              "en": "Empathy and depth of feeling"
+            }
+          ],
+          "detailed": {
+            "ru": "Высокая чувствительность — это не слабость: она связана с осторожностью и вниманием к деталям. Но хроническая тревога утомляет. Совет: дыхание 4-7-8, прогулки и сон — скучные, но рабочие инструменты. Если тревога мешает жить, стоит поговорить со специалистом.",
+            "en": "High sensitivity is not weakness: it goes with caution and attention to detail. But chronic worry is exhausting. Tip: slow breathing, walks and sleep are boring but effective tools. If anxiety gets in the way of life, talk to a professional."
+          }
+        }
+      ]
+    },
+    {
+      "id": "O",
+      "name": {
+        "ru": "Открытость опыту",
+        "en": "Openness to experience"
+      },
+      "description": {
+        "ru": "Любопытство, воображение, тяга к новому и необычному: идеи, искусство, путешествия, эксперименты.",
+        "en": "Curiosity, imagination and appetite for the new and unusual: ideas, art, travel, experiments."
+      },
+      "lowLabel": {
+        "ru": "практичность, привычное",
+        "en": "practical, familiar"
+      },
+      "highLabel": {
+        "ru": "любопытство, фантазия",
+        "en": "curious, imaginative"
+      },
+      "color": "#C9B6F2",
+      "scoring": "sum",
+      "min": 0,
+      "max": 18,
+      "bands": [
+        {
+          "min": 0,
+          "max": 6,
+          "label": {
+            "ru": "Земной реалист",
+            "en": "Down-to-earth realist"
+          },
+          "summary": [
+            {
+              "ru": "Ценишь проверенное и понятное",
+              "en": "You value the tried and true"
+            },
+            {
+              "ru": "Конкретика важнее абстракций",
+              "en": "Concrete beats abstract"
+            },
+            {
+              "ru": "Новое — только если оно реально полезно",
+              "en": "New things only if they are truly useful"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты опираешься на опыт и здравый смысл и не гонишься за модой ради моды. Это экономит силы и делает тебя надёжным. Совет: раз в месяц пробуй одну маленькую новинку — новое блюдо, маршрут или жанр. Без обязательств, просто как эксперимент.",
+            "en": "You rely on experience and common sense and do not chase novelty for its own sake. That saves energy and makes you dependable. Tip: once a month, try one small new thing (a dish, a route, a genre), no commitment, just an experiment."
+          }
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "label": {
+            "ru": "Любопытный прагматик",
+            "en": "Curious pragmatist"
+          },
+          "summary": [
+            {
+              "ru": "Новое интересно, но без фанатизма",
+              "en": "Open to new things, within reason"
+            },
+            {
+              "ru": "Совмещаешь фантазию и практичность",
+              "en": "You mix imagination with practicality"
+            },
+            {
+              "ru": "Легко подстраиваешься под ситуацию",
+              "en": "You adapt to the situation"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь и помечтать, и вернуться на землю. Новые идеи тебе интересны, если видно, как их применить. Совет: доверяй своему любопытству чуть чаще — именно на стыке привычного и нового у тебя рождаются лучшие решения.",
+            "en": "You can daydream and come back down to earth. New ideas interest you when you can see how to use them. Tip: trust your curiosity a bit more often. Your best ideas come from mixing the familiar with the new."
+          }
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "label": {
+            "ru": "Исследователь идей",
+            "en": "Explorer of ideas"
+          },
+          "summary": [
+            {
+              "ru": "Обожаешь новое, сложное и странное",
+              "en": "You love the new, the complex and the weird"
+            },
+            {
+              "ru": "Богатое воображение и эстетическое чутьё",
+              "en": "Rich imagination and aesthetic sense"
+            },
+            {
+              "ru": "Скука — твой главный враг",
+              "en": "Boredom is your arch-enemy"
+            }
+          ],
+          "detailed": {
+            "ru": "Высокая открытость связана с творчеством, любознательностью и широтой интересов. Обратная сторона — быстро загораешься и так же быстро остываешь. Совет: выбирай одну идею из десяти и доводи её до конца, а остальные складывай в «банк идей».",
+            "en": "High openness goes with creativity, curiosity and wide interests. The flip side: you catch fire quickly and cool down just as fast. Tip: pick one idea in ten and finish it; keep the rest in an \"idea bank\"."
+          }
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": {
+        "ru": "Добросовестность",
+        "en": "Conscientiousness"
+      },
+      "description": {
+        "ru": "Организованность, дисциплина, надёжность и умение доводить дела до конца.",
+        "en": "Organisation, discipline, reliability and the ability to see things through."
+      },
+      "lowLabel": {
+        "ru": "спонтанность, гибкость",
+        "en": "spontaneous, flexible"
+      },
+      "highLabel": {
+        "ru": "порядок, дисциплина",
+        "en": "organised, disciplined"
+      },
+      "color": "#A8E0C8",
+      "scoring": "sum",
+      "min": -6,
+      "max": 23,
+      "bands": [
+        {
+          "min": -6,
+          "max": 3,
+          "label": {
+            "ru": "Вольный дух",
+            "en": "Free spirit"
+          },
+          "summary": [
+            {
+              "ru": "Живёшь по настроению, а не по плану",
+              "en": "You live by mood, not by plan"
+            },
+            {
+              "ru": "Легко импровизируешь",
+              "en": "You improvise with ease"
+            },
+            {
+              "ru": "Дедлайны — скорее пожелания",
+              "en": "Deadlines are more like suggestions"
+            }
+          ],
+          "detailed": {
+            "ru": "Спонтанность делает тебя гибким и лёгким на подъём, но важные дела могут утонуть в хаосе. Совет: не пытайся стать машиной продуктивности — заведи всего одно правило, например «важное записываю сразу», и держись за него.",
+            "en": "Spontaneity makes you flexible and quick to say yes, but important tasks can drown in chaos. Tip: do not try to become a productivity machine. Adopt one rule, such as \"I write down important things immediately\", and stick to it."
+          }
+        },
+        {
+          "min": 4,
+          "max": 13,
+          "label": {
+            "ru": "Гибкий организатор",
+            "en": "Flexible organiser"
+          },
+          "summary": [
+            {
+              "ru": "План есть, но без фанатизма",
+              "en": "You have a plan, but you are not obsessed"
+            },
+            {
+              "ru": "Умеешь собраться, когда надо",
+              "en": "You can focus when it matters"
+            },
+            {
+              "ru": "Баланс между порядком и свободой",
+              "en": "A balance of order and freedom"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь планировать, но не расстраиваешься, если всё пошло иначе. Это удобная середина. Совет: определи 2–3 сферы, где порядок действительно важен (деньги, здоровье, учёба/работа), и там держи планку повыше.",
+            "en": "You can plan, but you do not fall apart when things change. A comfortable middle ground. Tip: choose 2 or 3 areas where order really matters (money, health, study or work) and keep the bar higher there."
+          }
+        },
+        {
+          "min": 14,
+          "max": 23,
+          "label": {
+            "ru": "Мастер порядка",
+            "en": "Master of order"
+          },
+          "summary": [
+            {
+              "ru": "Списки, планы и чек-листы — твоё всё",
+              "en": "Lists, plans and checklists are your thing"
+            },
+            {
+              "ru": "На тебя можно положиться",
+              "en": "People can count on you"
+            },
+            {
+              "ru": "Доводишь начатое до конца",
+              "en": "You finish what you start"
+            }
+          ],
+          "detailed": {
+            "ru": "Добросовестность — один из самых надёжных предикторов успеха в учёбе и работе. Но перфекционизм может отнимать радость. Совет: планируй и отдых тоже. Слот «ничего не делать» в календаре — тоже продуктивность.",
+            "en": "Conscientiousness is one of the most reliable predictors of success at school and work. But perfectionism can steal the joy. Tip: plan your rest too. A \"do nothing\" slot in the calendar counts as productivity."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Друзья зовут в спонтанную поездку. Выезд — через час.",
+        "en": "Friends invite you on a spontaneous trip. Departure in one hour."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Уже собираю рюкзак! Маршрут обсудим по дороге",
+            "en": "Already packing! We will sort out the route on the way"
+          },
+          "scores": {
+            "E": 2,
+            "N": -1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Еду, но сначала проверю погоду, бюджет и где мы ночуем",
+            "en": "I am in, but first I check the weather, the budget and where we sleep"
+          },
+          "scores": {
+            "E": 1,
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Еду… и всю дорогу переживаю, всё ли пройдёт нормально",
+            "en": "I go… and worry the whole way whether it will all be okay"
+          },
+          "scores": {
+            "E": 1,
+            "N": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Спасибо, но у меня уютный вечер, и я его никому не отдам",
+            "en": "Thanks, but I have a cosy evening planned and I am not giving it up"
+          },
+          "scores": {
+            "E": -2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Через час?! Мне нужно минимум три дня, чтобы морально подготовиться",
+            "en": "In an hour?! I need at least three days to prepare emotionally"
+          },
+          "scores": {
+            "E": -1,
+            "N": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Поеду, если по пути будет что-нибудь странное — заброшенная обсерватория, например",
+            "en": "Only if there is something weird on the way, like an abandoned observatory"
+          },
+          "scores": {
+            "O": 2,
+            "E": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Тебя несправедливо раскритиковали при всех.",
+        "en": "You get unfairly criticised in front of everyone."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Отвечаю сразу — громко и по делу",
+            "en": "Answer back on the spot, loud and to the point"
+          },
+          "scores": {
+            "E": 2,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Снаружи — полное спокойствие, внутри — ураган до самой ночи",
+            "en": "Calm on the outside, a hurricane inside until midnight"
+          },
+          "scores": {
+            "E": -1,
+            "N": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Пропускаю мимо ушей: на всех не угодишь",
+            "en": "Let it slide. You cannot please everyone"
+          },
+          "scores": {
+            "N": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Отшучиваюсь — и напряжение как рукой снимает",
+            "en": "Make a joke, and the tension melts away"
+          },
+          "scores": {
+            "E": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Потом спокойно разбираю ситуацию и пишу аргументированное сообщение",
+            "en": "Later, calmly analyse what happened and send a well-argued message"
+          },
+          "scores": {
+            "C": 2,
+            "E": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Как ты восстанавливаешься после тяжёлой недели?",
+        "en": "How do you recharge after a rough week?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Концерт, вечеринка, танцы — мне нужно больше людей!",
+            "en": "A gig, a party, dancing. I need more people!"
+          },
+          "scores": {
+            "E": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Тишина, книга, горячая ванна. Телефон — в авиарежим",
+            "en": "Silence, a book, a hot bath. Phone on airplane mode"
+          },
+          "scores": {
+            "E": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Генеральная уборка и план на следующую неделю. Порядок снаружи — порядок внутри",
+            "en": "A deep clean and next week's plan. Order outside, order inside"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Рисую, сочиняю, смотрю на звёзды и придумываю миры",
+            "en": "Draw, write, stargaze and invent new worlds"
+          },
+          "scores": {
+            "O": 2,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Долгий разговор по душам с одним близким человеком — чтобы всё проговорить",
+            "en": "A long heart-to-heart with one close person to talk it all through"
+          },
+          "scores": {
+            "E": -1,
+            "N": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "В компании ты обычно…",
+        "en": "In a group you are usually…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Заводила: рассказываю истории и придумываю игры",
+            "en": "The life of the party: telling stories and inventing games"
+          },
+          "scores": {
+            "E": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тот, кто спорит до хрипоты, если тема задела",
+            "en": "The one who argues until hoarse if the topic hits a nerve"
+          },
+          "scores": {
+            "E": 2,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Спокойный слушатель, к которому потом подходят поговорить наедине",
+            "en": "The calm listener people come to later for a private chat"
+          },
+          "scores": {
+            "E": -1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Наблюдатель: замечаю, кто на кого как посмотрел, и делаю выводы",
+            "en": "The observer who notices who looked at whom, and draws conclusions"
+          },
+          "scores": {
+            "E": -1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Человек с неожиданными идеями: «А давайте в следующий раз в планетарий?»",
+            "en": "The one with left-field ideas: \"Next time, let's go to the planetarium?\""
+          },
+          "scores": {
+            "O": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Ты опаздываешь на важную встречу, а автобус встал в пробке.",
+        "en": "You are late for an important meeting and the bus is stuck in traffic."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Нервно стучу ногой, пишу всем, что опаздываю, и мысленно ругаю мэрию",
+            "en": "Tap my foot, text everyone I am late and silently blame city hall"
+          },
+          "scores": {
+            "E": 1,
+            "N": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Выхожу и бегу. Ногами быстрее!",
+            "en": "Get off and run. Feet are faster!"
+          },
+          "scores": {
+            "E": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ну, опоздаю. Мир не рухнет",
+            "en": "So I will be late. The world will not end"
+          },
+          "scores": {
+            "N": -2,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Такого не бывает: я всегда выезжаю с запасом в сорок минут",
+            "en": "Never happens. I always leave forty minutes early"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Тихо переживаю и репетирую, как буду извиняться",
+            "en": "Quietly fret and rehearse my apology"
+          },
+          "scores": {
+            "E": -1,
+            "N": 1,
+            "C": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Какое время года тебе ближе всего?",
+        "en": "Which season feels most like you?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Весна: всё оживает, хочется гулять и влюбляться",
+            "en": "Spring: everything wakes up, you want to stroll and fall in love"
+          },
+          "scores": {
+            "E": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Лето: жара, движ, яркие эмоции",
+            "en": "Summer: heat, action, big emotions"
+          },
+          "scores": {
+            "E": 1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Осень: дождь, шарф, глубокие мысли",
+            "en": "Autumn: rain, a scarf, deep thoughts"
+          },
+          "scores": {
+            "E": -1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Зима: тишина, снег и никакой суеты",
+            "en": "Winter: silence, snow and no fuss"
+          },
+          "scores": {
+            "E": -1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Любое, если небо красивое — с грозой, звездопадом или радугой",
+            "en": "Any season, as long as the sky is interesting: storms, meteor showers, rainbows"
+          },
+          "scores": {
+            "O": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Твой стиль работы над большим проектом:",
+        "en": "Your style on a big project:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Рывок! Всё за одну бессонную ночь на чистом вдохновении",
+            "en": "One big sprint! All done in one sleepless night on pure inspiration"
+          },
+          "scores": {
+            "E": 1,
+            "N": 1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Чёткий план, контрольные точки, никаких сюрпризов",
+            "en": "A clear plan, milestones, no surprises"
+          },
+          "scores": {
+            "C": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Медленно, но верно. Главное — без нервов",
+            "en": "Slow and steady. The main thing is no stress"
+          },
+          "scores": {
+            "N": -1,
+            "E": -1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Шлифую каждую деталь, пока не станет идеально",
+            "en": "Polish every detail until it is perfect"
+          },
+          "scores": {
+            "C": 1,
+            "N": 1,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Месяц ищу вдохновение, а потом выдаю что-то, чего никто не ждал",
+            "en": "Spend a month hunting for inspiration, then deliver something nobody expected"
+          },
+          "scores": {
+            "O": 2,
+            "C": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "В разгаре спора ты вдруг понимаешь, что прав собеседник.",
+        "en": "Mid-argument, you suddenly realise the other person is right."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Признаю это сразу и с юмором",
+            "en": "Admit it right away, with a laugh"
+          },
+          "scores": {
+            "E": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Дожимаю спор из принципа — сдаваться не в моём стиле",
+            "en": "Keep pushing on principle. Surrender is not my style"
+          },
+          "scores": {
+            "E": 1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Молча соглашаюсь, а потом неделю прокручиваю этот разговор в голове",
+            "en": "Quietly agree, then replay the conversation in my head for a week"
+          },
+          "scores": {
+            "E": -1,
+            "N": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Спокойно киваю: «Справедливо, принимаю»",
+            "en": "Calmly nod: \"Fair enough, I accept that\""
+          },
+          "scores": {
+            "E": -1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Предлагаю посмотреть на вопрос с совсем другой стороны — вдруг мы оба неправы",
+            "en": "Suggest looking at it from a totally different angle; maybe we are both wrong"
+          },
+          "scores": {
+            "O": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Тебе предстоит выступить перед большой аудиторией.",
+        "en": "You have to speak in front of a big audience."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Ура, сцена! Чем больше зрителей, тем лучше",
+            "en": "Yes, a stage! The bigger the crowd, the better"
+          },
+          "scores": {
+            "E": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Волнуюсь так, что дрожат руки, но выступаю с огнём",
+            "en": "My hands shake with nerves, but I perform with fire"
+          },
+          "scores": {
+            "E": 1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Готовлюсь две недели и репетирую перед зеркалом",
+            "en": "Prepare for two weeks and rehearse in front of the mirror"
+          },
+          "scores": {
+            "C": 2,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Не люблю такое, но справлюсь спокойно и без драмы",
+            "en": "Not my favourite thing, but I will handle it calmly, no drama"
+          },
+          "scores": {
+            "E": -1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тревожусь заранее и втайне надеюсь, что выступление отменят",
+            "en": "Worry for days and secretly hope it gets cancelled"
+          },
+          "scores": {
+            "E": -1,
+            "N": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Как ты злишься?",
+        "en": "How do you get angry?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вспыхиваю мгновенно — и так же быстро остываю",
+            "en": "Flare up instantly, cool down just as fast"
+          },
+          "scores": {
+            "E": 1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Почти не злюсь: максимум закатываю глаза",
+            "en": "Hardly ever. An eye-roll at most"
+          },
+          "scores": {
+            "N": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Злюсь тихо и долго, но никому не показываю",
+            "en": "Quietly and for a long time, without showing anyone"
+          },
+          "scores": {
+            "E": -1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Высказываю всё прямо и сразу — так честнее",
+            "en": "Say it all directly and immediately; it is more honest"
+          },
+          "scores": {
+            "E": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Иду в спортзал или драю квартиру до блеска",
+            "en": "Hit the gym or scrub the flat until it shines"
+          },
+          "scores": {
+            "C": 2,
+            "N": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "Твоё отношение к планам:",
+        "en": "Your relationship with plans:"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "План — это скелет моей жизни",
+            "en": "A plan is the skeleton of my life"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Планы? Я живу по вдохновению",
+            "en": "Plans? I live by inspiration"
+          },
+          "scores": {
+            "C": -2,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Планирую, но если всё сломалось — ну и ладно, переиграем",
+            "en": "I plan, but if it falls apart, fine, we will improvise"
+          },
+          "scores": {
+            "N": -1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Планирую и очень расстраиваюсь, когда что-то идёт не по плану",
+            "en": "I plan, and get really upset when things go off script"
+          },
+          "scores": {
+            "C": 1,
+            "N": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Всегда держу план Б, В и Г — на всякий случай",
+            "en": "Always keep plans B, C and D, just in case"
+          },
+          "scores": {
+            "C": 1,
+            "N": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Друзья описывают тебя одним словом. Скорее всего, это…",
+        "en": "Your friends describe you in one word. Most likely…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "«Зажигалка»",
+            "en": "\"Firecracker\""
+          },
+          "scores": {
+            "E": 2,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Солнышко»",
+            "en": "\"Sunshine\""
+          },
+          "scores": {
+            "E": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Скала»",
+            "en": "\"Rock\""
+          },
+          "scores": {
+            "N": -1,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Глубина»",
+            "en": "\"Deep\""
+          },
+          "scores": {
+            "E": -1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Человек-план»",
+            "en": "\"The planner\""
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«Человек-вселенная»",
+            "en": "\"A whole universe\""
+          },
+          "scores": {
+            "O": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Приходит неприятная новость — не катастрофа, но обидно.",
+        "en": "You get some annoying news. Not a disaster, but it stings."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Звоню другу, вместе смеёмся над ситуацией — и всё, отпустило",
+            "en": "Call a friend, laugh about it together, and it is gone"
+          },
+          "scores": {
+            "E": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Злюсь и сразу кидаюсь всё исправлять",
+            "en": "Get angry and rush straight into fixing it"
+          },
+          "scores": {
+            "E": 1,
+            "N": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ухожу в себя и долго это переживаю",
+            "en": "Withdraw and process it for a long time"
+          },
+          "scores": {
+            "E": -1,
+            "N": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Пожимаю плечами: бывает",
+            "en": "Shrug: it happens"
+          },
+          "scores": {
+            "N": -2
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу список: что можно исправить, а что — просто отпустить",
+            "en": "Write a list: what I can fix and what I just let go"
+          },
+          "scores": {
+            "C": 2,
+            "N": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Какой вид из окна тебе по душе?",
+        "en": "Which view from the window speaks to you?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Вулкан. Пусть будет драматично",
+            "en": "A volcano. Let it be dramatic"
+          },
+          "scores": {
+            "E": 1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Бескрайнее небо и ветер",
+            "en": "An endless sky and wind"
+          },
+          "scores": {
+            "E": 1,
+            "N": -1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Горы и старый лес",
+            "en": "Mountains and an ancient forest"
+          },
+          "scores": {
+            "E": -1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Спокойное озеро без единой волны",
+            "en": "A still lake without a ripple"
+          },
+          "scores": {
+            "E": -1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Северное сияние",
+            "en": "The northern lights"
+          },
+          "scores": {
+            "O": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Ночной город в огнях небоскрёбов",
+            "en": "A night city glittering with skyscrapers"
+          },
+          "scores": {
+            "C": 1,
+            "E": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Решение нужно принять прямо сейчас — за десять секунд.",
+        "en": "You have to make a decision right now, in ten seconds."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Решаю мгновенно, разбираться буду потом",
+            "en": "Decide instantly, figure it out later"
+          },
+          "scores": {
+            "E": 1,
+            "N": -1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Паника! Ладно, решаю, но потом сто раз пересматриваю",
+            "en": "Panic! Okay, I decide, then second-guess it a hundred times"
+          },
+          "scores": {
+            "N": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Действую по заранее продуманному алгоритму",
+            "en": "Follow an algorithm I worked out in advance"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Доверяю интуиции — у неё хороший вкус",
+            "en": "Trust my intuition; it has good taste"
+          },
+          "scores": {
+            "O": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Не спешу, даже если торопят",
+            "en": "Take my time, even if they rush me"
+          },
+          "scores": {
+            "E": -1,
+            "N": -1
+          }
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "fire",
+      "title": {
+        "ru": "Огонь",
+        "en": "Fire"
+      },
+      "emoji": "🔥",
+      "profile": {
+        "E": 0.83,
+        "N": 0.72,
+        "O": 0.25,
+        "C": 0.37
+      },
+      "summary": [
+        {
+          "ru": "Страсть, энергия и скорость",
+          "en": "Passion, energy and speed"
+        },
+        {
+          "ru": "Загораешься сам и зажигаешь других",
+          "en": "You catch fire and light others up"
+        },
+        {
+          "ru": "Эмоции на максимум — и в радости, и в споре",
+          "en": "Emotions at full volume, in joy and in arguments"
+        },
+        {
+          "ru": "Классический темперамент — холерик",
+          "en": "Classical temperament: choleric"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — огонь: энергичный, страстный и очень живой. В современных терминах это сочетание высокой экстраверсии и высокой эмоциональной реактивности: ты быстро загораешься, ярко чувствуешь и сразу действуешь. С тобой не бывает скучно — и редко бывает тихо.\n\nВ античной схеме огонь (горячий и сухой) соответствовал жёлтой желчи и лету, а темперамент с избытком жёлтой желчи позже назвали холерическим. Ганс Айзенк заметил, что четыре древних темперамента удивительно хорошо ложатся на две его оси: холерик — это экстраверт с высокой эмоциональной нестабильностью. В русской традиции добавляют ещё Павлова: «сильный неуравновешенный» тип нервной системы, где возбуждение берёт верх над торможением.\n\nТвоя сила — драйв: ты запускаешь проекты, вдохновляешь людей и не боишься конфликтов, если речь о важном. Зона роста — пауза. Огонь греет, пока горит ровно: научись считать до десяти перед резким ответом, и твоя энергия станет не пожаром, а двигателем.",
+        "en": "You are fire: energetic, passionate and intensely alive. In modern terms that is high extraversion combined with high emotional reactivity: you light up fast, feel things vividly and act immediately. Life with you is never boring, and rarely quiet.\n\nIn the ancient scheme, fire (hot and dry) matched yellow bile and summer, and the temperament with too much yellow bile was later called choleric. Hans Eysenck noticed that the four ancient temperaments fit his two axes surprisingly well: the choleric is an extravert high in emotional instability. Russian textbooks add Pavlov: a \"strong, unbalanced\" nervous system, where excitation overpowers inhibition.\n\nYour strength is drive: you start projects, inspire people and do not shy away from conflict when something matters. Your growth edge is the pause. Fire warms while it burns steadily. Learn to count to ten before a sharp reply, and your energy becomes an engine rather than a wildfire."
+      },
+      "strengths": [
+        {
+          "ru": "Энергия и инициатива",
+          "en": "Energy and initiative"
+        },
+        {
+          "ru": "Смелость",
+          "en": "Boldness"
+        },
+        {
+          "ru": "Умение вдохновлять",
+          "en": "Ability to inspire"
+        },
+        {
+          "ru": "Честность в эмоциях",
+          "en": "Emotional honesty"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Пауза перед резкими словами",
+          "en": "Pause before sharp words"
+        },
+        {
+          "ru": "Доводить начатое, когда первая искра погасла",
+          "en": "Finish things after the first spark fades"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты в споре о том, как правильно варить гречку: через пять минут это уже вопрос чести.",
+          "en": "You in a debate about how to cook rice: five minutes in, it is a matter of honour."
+        },
+        {
+          "ru": "Твоё «я спокоен» звучит на 20 децибел громче, чем у остальных.",
+          "en": "Your \"I am calm\" is 20 decibels louder than everyone else's."
+        },
+        {
+          "ru": "Записаться на марафон в понедельник, купить экипировку во вторник, найти новую страсть к четвергу.",
+          "en": "Sign up for a marathon on Monday, buy the gear on Tuesday, find a new passion by Thursday."
+        },
+        {
+          "ru": "Друзья заранее предупреждают официанта: «Не обращайте внимания, у нас просто эмоциональное обсуждение».",
+          "en": "Your friends warn the waiter in advance: \"Don't mind us, we are just having a passionate discussion.\""
+        }
+      ],
+      "compatibleWith": [
+        "air",
+        "ether"
+      ],
+      "imagePrompt": "A cute smiling flame character with big sparkling eyes, dancing with tiny sparks, warm coral, peach and golden palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "air",
+      "title": {
+        "ru": "Воздух",
+        "en": "Air"
+      },
+      "emoji": "🌬️",
+      "profile": {
+        "E": 0.78,
+        "N": 0.2,
+        "O": 0.29,
+        "C": 0.24
+      },
+      "summary": [
+        {
+          "ru": "Лёгкость, оптимизм и общительность",
+          "en": "Lightness, optimism and sociability"
+        },
+        {
+          "ru": "Быстро переключаешься и не держишь обид",
+          "en": "You switch fast and never hold grudges"
+        },
+        {
+          "ru": "Новые люди и идеи — твой кислород",
+          "en": "New people and ideas are your oxygen"
+        },
+        {
+          "ru": "Классический темперамент — сангвиник",
+          "en": "Classical temperament: sanguine"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — воздух: лёгкий, весёлый и подвижный. В языке современной психологии это высокая экстраверсия плюс высокая эмоциональная устойчивость. Ты легко знакомишься, быстро отходишь от неприятностей и умеешь находить хорошее даже в понедельнике.\n\nВ античной медицине воздух (горячий и влажный) был связан с кровью — по-латыни sanguis — и с весной. Отсюда и «сангвиник»: человек жизнерадостный, общительный, лёгкий на подъём. Айзенк поместил сангвиника в квадрант «экстраверт + эмоционально стабильный», а у Павлова это «сильный, уравновешенный, подвижный» тип — самый «удобный» для перемен.\n\nТвоя сила — гибкость и позитив: ты разряжаешь обстановку, объединяешь людей и легко адаптируешься к новому. Зона роста — глубина и постоянство. Ветер свободен, но иногда стоит задержаться на одном месте подольше, чтобы что-то по-настоящему выросло.",
+        "en": "You are air: light, cheerful and always on the move. In modern psychological language that is high extraversion plus high emotional stability. You make friends easily, bounce back from setbacks fast and can find something good even in a Monday.\n\nIn ancient medicine air (hot and moist) was linked to blood — sanguis in Latin — and to spring. Hence \"sanguine\": cheerful, sociable and quick to say yes. Eysenck placed the sanguine in the \"extraverted and emotionally stable\" quadrant, and for Pavlov it is the \"strong, balanced, mobile\" type, the one best built for change.\n\nYour strength is flexibility and optimism: you lighten the mood, bring people together and adapt to anything new. Your growth edge is depth and constancy. The wind is free, but sometimes you need to stay in one place long enough for something to really grow."
+      },
+      "strengths": [
+        {
+          "ru": "Оптимизм",
+          "en": "Optimism"
+        },
+        {
+          "ru": "Общительность",
+          "en": "Sociability"
+        },
+        {
+          "ru": "Гибкость",
+          "en": "Flexibility"
+        },
+        {
+          "ru": "Отходчивость",
+          "en": "Quick recovery"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Не бросать дела на середине",
+          "en": "Do not drop things halfway"
+        },
+        {
+          "ru": "Слушать до конца, а не только ждать своей реплики",
+          "en": "Listen to the end instead of waiting for your turn"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты: «Мы же знакомы?» Человек: «Нет». Ты, через десять минут: «Ну, теперь знакомы!»",
+          "en": "You: \"Have we met?\" Them: \"No.\" You, ten minutes later: \"Well, now we have!\""
+        },
+        {
+          "ru": "У тебя восемь хобби, и ни одно не продержалось дольше сезона. Зато какие были сезоны!",
+          "en": "You have eight hobbies and none lasted more than a season. But what seasons they were!"
+        },
+        {
+          "ru": "Обида? А, точно, я же хотел(а) обидеться. Забыл(а), ладно.",
+          "en": "A grudge? Oh right, I meant to be upset. Forgot. Never mind."
+        },
+        {
+          "ru": "Ты приходишь в гости «на часок» с тремя новыми друзьями, которых встретил(а) по дороге.",
+          "en": "You drop by \"for an hour\" with three new friends you met on the way."
+        }
+      ],
+      "compatibleWith": [
+        "fire",
+        "water"
+      ],
+      "imagePrompt": "A cute cloud-like breeze spirit with rosy cheeks swirling with leaves and paper airplanes, sky blue, mint and white palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "earth",
+      "title": {
+        "ru": "Земля",
+        "en": "Earth"
+      },
+      "emoji": "⛰️",
+      "profile": {
+        "E": 0.14,
+        "N": 0.74,
+        "O": 0.2,
+        "C": 0.54
+      },
+      "summary": [
+        {
+          "ru": "Глубина, серьёзность и чуткость",
+          "en": "Depth, seriousness and sensitivity"
+        },
+        {
+          "ru": "Замечаешь детали, которые другие пропускают",
+          "en": "You notice details others miss"
+        },
+        {
+          "ru": "Чувствуешь сильно, но показываешь не всем",
+          "en": "You feel deeply but show it to few"
+        },
+        {
+          "ru": "Классический темперамент — меланхолик",
+          "en": "Classical temperament: melancholic"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — земля: глубокая, вдумчивая и очень чуткая. Это сочетание интроверсии и высокой эмоциональной чувствительности, часто вместе с аккуратностью и любовью к качеству. Ты долго переживаешь важное, тщательно обдумываешь решения и редко делаешь что-то «на отвали».\n\nВопреки популярным схемам, в античной традиции именно земля (холодная и сухая) соответствовала чёрной желчи — по-гречески melaina cholē — и осени. Так появился «меланхолик». Важно: в классических текстах меланхолия связывалась не только с грустью, но и с глубиной ума — ещё в «Проблемах», приписываемых Аристотелю, спрашивается, почему выдающиеся люди так часто меланхолики. У Айзенка это квадрант «интроверт + эмоционально нестабильный», у Павлова — «слабый» тип: высокая чувствительность нервной системы.\n\nТвоя сила — глубина, эмпатия и внимание к деталям: ты видишь риски раньше других и делаешь вещи по-настоящему хорошо. Зона роста — бережность к себе. Чувствительность не нужно «лечить», но ей нужен уход: сон, движение и люди, рядом с которыми можно не держать лицо.",
+        "en": "You are earth: deep, thoughtful and highly sensitive. That is introversion combined with high emotional sensitivity, often with care and a love of quality. You process important things for a long time, think decisions through and rarely do anything half-heartedly.\n\nContrary to many pop charts, in the ancient tradition it was earth (cold and dry) that matched black bile — melaina cholē in Greek — and autumn. Hence \"melancholic\". Note that classical texts linked melancholy not only to sadness but also to depth of mind: the Problems attributed to Aristotle asks why outstanding people are so often melancholic. For Eysenck this is the \"introverted and emotionally unstable\" quadrant; for Pavlov, the \"weak\" type, meaning a highly sensitive nervous system.\n\nYour strength is depth, empathy and attention to detail: you spot risks early and do things properly. Your growth edge is self-care. Sensitivity does not need \"fixing\", but it needs looking after: sleep, movement and people around whom you do not have to keep a brave face."
+      },
+      "strengths": [
+        {
+          "ru": "Глубина мышления",
+          "en": "Depth of thought"
+        },
+        {
+          "ru": "Внимание к деталям",
+          "en": "Attention to detail"
+        },
+        {
+          "ru": "Эмпатия",
+          "en": "Empathy"
+        },
+        {
+          "ru": "Ответственность",
+          "en": "Responsibility"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Не прокручивать неудачи по кругу",
+          "en": "Stop replaying setbacks on a loop"
+        },
+        {
+          "ru": "Разрешать себе «достаточно хорошо» вместо «идеально»",
+          "en": "Allow yourself \"good enough\" instead of \"perfect\""
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты перечитываешь сообщение пять раз перед отправкой. А потом ещё раз — уже после.",
+          "en": "You reread a message five times before sending it. And once more afterwards."
+        },
+        {
+          "ru": "Тебе сказали «нормально получилось», и теперь ты три дня гадаешь, что значит «нормально».",
+          "en": "Someone said \"it turned out fine\", and now you spend three days decoding \"fine\"."
+        },
+        {
+          "ru": "Твой плейлист «для настроения» состоит из песен, под которые хорошо смотреть в окно поезда.",
+          "en": "Your \"mood\" playlist is all songs for staring out of a train window."
+        },
+        {
+          "ru": "Ты помнишь неловкий момент 2016 года лучше, чем свой пароль от почты.",
+          "en": "You remember an awkward moment from 2016 better than your email password."
+        }
+      ],
+      "compatibleWith": [
+        "water",
+        "metal"
+      ],
+      "imagePrompt": "A cute little mountain character with a mossy cap and tiny flowers, sitting peacefully with a small lantern among autumn leaves, sage green, terracotta and cream palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "water",
+      "title": {
+        "ru": "Вода",
+        "en": "Water"
+      },
+      "emoji": "💧",
+      "profile": {
+        "E": 0.17,
+        "N": 0.16,
+        "O": 0.15,
+        "C": 0.37
+      },
+      "summary": [
+        {
+          "ru": "Спокойствие, терпение и устойчивость",
+          "en": "Calm, patience and steadiness"
+        },
+        {
+          "ru": "Обтекаешь препятствия, а не бьёшься о них",
+          "en": "You flow around obstacles instead of hitting them"
+        },
+        {
+          "ru": "Рядом с тобой всем становится тише",
+          "en": "Everything gets quieter around you"
+        },
+        {
+          "ru": "Классический темперамент — флегматик",
+          "en": "Classical temperament: phlegmatic"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — вода: спокойная, терпеливая и удивительно устойчивая. Это сочетание интроверсии и высокой эмоциональной стабильности. Тебя трудно вывести из себя, ты не принимаешь поспешных решений и умеешь ждать — а это, как известно, вода и камень точит.\n\nВ античной схеме вода (холодная и влажная) соответствовала флегме — слизи — и зиме. Звучит не очень романтично, но «флегматик» в итоге стал означать человека невозмутимого и надёжного. У Айзенка это квадрант «интроверт + эмоционально стабильный», а у Павлова — «сильный, уравновешенный, инертный» тип: медленно раскачивается, зато и сбить его с курса трудно.\n\nТвоя сила — выдержка: в кризисе ты сохраняешь ясную голову, а людям рядом с тобой спокойнее. Зона роста — инициатива. Спокойная вода прекрасна, но иногда стоит устроить небольшую волну: сказать о своём желании первым или попробовать что-то без долгих раздумий.",
+        "en": "You are water: calm, patient and remarkably steady. That is introversion combined with high emotional stability. It is hard to rattle you, you do not make rash decisions and you know how to wait, and as the saying goes, dripping water wears away stone.\n\nIn the ancient scheme water (cold and moist) matched phlegm and winter. Not very romantic, but \"phlegmatic\" came to mean someone unflappable and dependable. For Eysenck this is the \"introverted and emotionally stable\" quadrant; for Pavlov, the \"strong, balanced, inert\" type: slow to start, but hard to knock off course.\n\nYour strength is composure: in a crisis you keep a clear head, and people feel calmer around you. Your growth edge is initiative. Still water is beautiful, but sometimes make a small wave: say what you want first, or try something without a long deliberation."
+      },
+      "strengths": [
+        {
+          "ru": "Невозмутимость",
+          "en": "Composure"
+        },
+        {
+          "ru": "Терпение",
+          "en": "Patience"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        },
+        {
+          "ru": "Умение слушать",
+          "en": "Listening"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Проявлять инициативу",
+          "en": "Take the initiative"
+        },
+        {
+          "ru": "Показывать эмоции, чтобы близкие не гадали",
+          "en": "Show your feelings so loved ones do not have to guess"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Вокруг пожарная тревога, все бегут. Ты: «Так, сначала возьму куртку».",
+          "en": "Fire alarm, everyone is running. You: \"Right, let me get my jacket first.\""
+        },
+        {
+          "ru": "Тебя спрашивают «ты злишься?», а ты просто так выглядишь, когда думаешь.",
+          "en": "People ask \"are you angry?\" No, that is just your thinking face."
+        },
+        {
+          "ru": "Твоя реакция на сюжетный поворот, от которого весь кинозал ахнул: лёгкое «хм».",
+          "en": "Your reaction to a plot twist that made the whole cinema gasp: a mild \"hm\"."
+        },
+        {
+          "ru": "Ты выбираешь кафе так долго, что друзья успевают проголодаться дважды.",
+          "en": "You choose a café so slowly that your friends get hungry twice."
+        }
+      ],
+      "compatibleWith": [
+        "earth",
+        "air"
+      ],
+      "imagePrompt": "A cute round water droplet character floating on a calm lake with lily pads and soft ripples, aqua, lavender and pearl palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "ether",
+      "title": {
+        "ru": "Эфир",
+        "en": "Aether"
+      },
+      "emoji": "✨",
+      "profile": {
+        "E": 0.47,
+        "N": 0.46,
+        "O": 0.6,
+        "C": 0.12
+      },
+      "summary": [
+        {
+          "ru": "Воображение без границ",
+          "en": "Imagination without limits"
+        },
+        {
+          "ru": "Видишь связи там, где другие видят хаос",
+          "en": "You see connections where others see chaos"
+        },
+        {
+          "ru": "Немного не от мира сего — и это комплимент",
+          "en": "A little otherworldly, and that is a compliment"
+        },
+        {
+          "ru": "Пятый элемент Аристотеля",
+          "en": "Aristotle's fifth element"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — эфир: мечтательный, необычный и бесконечно любопытный. В терминах «Большой пятёрки» у тебя очень высокая открытость опыту и довольно свободное отношение к планам и порядку. Тебя вдохновляют идеи, искусство, странные факты и вопросы, на которые нет ответа.\n\nАристотель считал, что четырёх земных стихий мало: небесные тела, по его мнению, состоят из особого пятого элемента — эфира, вечного и неизменного. Средневековые учёные называли его quinta essentia, «пятая сущность», — отсюда наше слово «квинтэссенция». Это не темперамент из классической четвёрки, поэтому мы связали эфир не с эмоциональностью, а с открытостью опыту — чертой, которой у древних просто не было названия.\n\nТвоя сила — воображение и способность придумывать то, чего ещё нет. Зона роста — заземление: выбирай одну идею из десяти и доводи её до реальности. Небо — твой дом, но строить что-то приходится на земле.",
+        "en": "You are aether: dreamy, unusual and endlessly curious. In Big Five terms you have very high openness to experience and a pretty relaxed attitude to plans and order. You are inspired by ideas, art, strange facts and questions that have no answer.\n\nAristotle thought four earthly elements were not enough: the heavenly bodies, he argued, are made of a special fifth element, aether, eternal and unchanging. Medieval scholars called it quinta essentia, the \"fifth essence\", which gave us the word \"quintessence\". It is not one of the classical four temperaments, so we link aether not to emotionality but to openness, a trait the ancients had no name for.\n\nYour strength is imagination and the ability to invent what does not exist yet. Your growth edge is grounding: pick one idea in ten and bring it into reality. The sky is your home, but building happens on the ground."
+      },
+      "strengths": [
+        {
+          "ru": "Воображение",
+          "en": "Imagination"
+        },
+        {
+          "ru": "Оригинальность",
+          "en": "Originality"
+        },
+        {
+          "ru": "Широта интересов",
+          "en": "Wide interests"
+        },
+        {
+          "ru": "Интуиция",
+          "en": "Intuition"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Доводить идеи до воплощения",
+          "en": "Turn ideas into reality"
+        },
+        {
+          "ru": "Иногда проверять, какой сегодня день недели",
+          "en": "Occasionally check what day of the week it is"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "«Я на пять минут загуглю» → через два часа ты знаешь всё о брачных ритуалах глубоководных рыб.",
+          "en": "\"Just a quick google\" → two hours later you know everything about the mating rituals of deep-sea fish."
+        },
+        {
+          "ru": "Твои заметки в телефоне: список покупок, идея для романа и вопрос «а что, если время — это суп?».",
+          "en": "Your notes app: a shopping list, an idea for a novel and \"what if time is soup?\"."
+        },
+        {
+          "ru": "Ты не опаздываешь — ты просто живёшь в своём часовом поясе.",
+          "en": "You are not late, you just live in your own time zone."
+        },
+        {
+          "ru": "Друзья: «О чём думаешь?» Ты: «Да так, о том, снятся ли рыбам сны».",
+          "en": "Friends: \"What are you thinking about?\" You: \"Oh, just whether fish dream.\""
+        }
+      ],
+      "compatibleWith": [
+        "fire",
+        "air"
+      ],
+      "imagePrompt": "A cute glowing star-sprite character floating among swirling iridescent stardust and tiny planets, lilac, pink and pearl palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    },
+    {
+      "id": "metal",
+      "title": {
+        "ru": "Металл",
+        "en": "Metal"
+      },
+      "emoji": "⚙️",
+      "profile": {
+        "E": 0.47,
+        "N": 0.27,
+        "O": 0.03,
+        "C": 0.75
+      },
+      "summary": [
+        {
+          "ru": "Дисциплина, ясность и принципы",
+          "en": "Discipline, clarity and principles"
+        },
+        {
+          "ru": "Слово — как сталь: сказал — сделал",
+          "en": "Your word is steel: said it, did it"
+        },
+        {
+          "ru": "Порядок — твоя форма заботы",
+          "en": "Order is how you show care"
+        },
+        {
+          "ru": "Стихия из китайской системы у-син",
+          "en": "An element from the Chinese wuxing system"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — металл: собранный, принципиальный и надёжный. В терминах «Большой пятёрки» у тебя очень высокая добросовестность и неплохая эмоциональная устойчивость, а к новинкам ты относишься прагматично: сначала докажите, что это работает. Ты держишь слово, ценишь ясность и не любишь, когда всё делается «как-нибудь».\n\nМеталла нет среди греческих стихий: он пришёл из другой традиции — китайской системы у-син («пяти фаз»): дерево, огонь, земля, металл и вода. Там металл связывали с осенью, западом, чёткостью и завершённостью. Это не научная модель личности, а древняя классификация природы, поэтому мы честно сопоставили металл с современной чертой — добросовестностью, одним из самых надёжных предикторов успеха в учёбе и работе.\n\nТвоя сила — организованность и честность: на тебя можно опереться. Зона роста — гибкость. Даже самая прочная сталь закаляется в огне: иногда позволяй плану поменяться, а людям — сделать по-своему.",
+        "en": "You are metal: focused, principled and reliable. In Big Five terms you have very high conscientiousness and good emotional stability, and you are pragmatic about novelty: prove that it works first. You keep your word, value clarity and dislike things done any old way.\n\nMetal is not one of the Greek elements. It comes from a different tradition, the Chinese wuxing (\"five phases\") system: wood, fire, earth, metal and water. There metal was linked to autumn, the west, clarity and completion. That is an ancient classification of nature, not a scientific personality model, so we openly match metal to a modern trait: conscientiousness, one of the most reliable predictors of success at school and work.\n\nYour strength is organisation and integrity: people can lean on you. Your growth edge is flexibility. Even the strongest steel is tempered in fire, so sometimes let the plan change and let people do things their own way."
+      },
+      "strengths": [
+        {
+          "ru": "Дисциплина",
+          "en": "Discipline"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        },
+        {
+          "ru": "Ясность мышления",
+          "en": "Clear thinking"
+        },
+        {
+          "ru": "Принципиальность",
+          "en": "Integrity"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Пробовать новое, не дожидаясь гарантий",
+          "en": "Try new things without guarantees"
+        },
+        {
+          "ru": "Прощать себе и другим мелкие ошибки",
+          "en": "Forgive small mistakes, yours and others'"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твой список дел на выходные содержит пункт «отдохнуть (14:00–15:30)».",
+          "en": "Your weekend to-do list includes \"relax (2:00–3:30 p.m.)\"."
+        },
+        {
+          "ru": "Фраза «давай как-нибудь по ходу разберёмся» вызывает у тебя лёгкий нервный тик.",
+          "en": "The phrase \"let's just figure it out as we go\" gives you a slight eye twitch."
+        },
+        {
+          "ru": "Ты единственный человек в группе, который читал инструкцию. До покупки.",
+          "en": "You are the only person in the group who read the manual. Before buying the thing."
+        },
+        {
+          "ru": "Твои папки на компьютере называются «2024_проекты_финал_проверено». И это действительно финал.",
+          "en": "Your folders are named \"2024_projects_final_checked\". And they really are final."
+        }
+      ],
+      "compatibleWith": [
+        "earth",
+        "water"
+      ],
+      "imagePrompt": "A cute shiny little robot-like metal sphere character with a tiny gear crown and a neat checklist, silver, mint and soft blue palette, soft pastel colors, glossy flat-3D style, smooth gradient background, cute, minimal, high detail, no text"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Ответы дают баллы по четырём шкалам: экстраверсия (E), эмоциональная реактивность (N), открытость (O) и добросовестность (C). Каждая сумма переводится в шкалу 0–1: (балл − минимум) / (максимум − минимум). Затем выбирается стихия, чей профиль ближе всего (евклидово расстояние). Огонь ≈ E+N+, воздух ≈ E+N−, земля ≈ E−N+, вода ≈ E−N−, эфир ≈ высокая O, металл ≈ высокая C.",
+    "en": "Answers add points on four scales: extraversion (E), emotional reactivity (N), openness (O) and conscientiousness (C). Each total is rescaled to 0–1: (score − min) / (max − min). You then get the element with the nearest profile (Euclidean distance). Fire ≈ E+N+, air ≈ E+N−, earth ≈ E−N+, water ≈ E−N−, aether ≈ high O, metal ≈ high C."
+  },
+  "resultIntro": {
+    "ru": "Твоя стихия определена! Древние объясняли её «соками» тела, мы — чертами личности. Первое — история, второе — наука.",
+    "en": "Your element is revealed! The ancients explained it with bodily humours; we use personality traits. The first is history, the second is science."
+  }
+}

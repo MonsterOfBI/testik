@@ -1,0 +1,325 @@
+{
+  "id": "anxiety-gad7",
+  "category": "mental-health",
+  "kind": "likert",
+  "seriousness": "screening",
+  "title": {
+    "ru": "Тревожность (GAD-7)",
+    "en": "Anxiety (GAD-7)"
+  },
+  "tagline": {
+    "ru": "Семь вопросов, которые помогут понять, сколько места тревога занимает в вашей жизни",
+    "en": "Seven questions to see how much room worry takes up in your life"
+  },
+  "description": {
+    "ru": "GAD-7 — одна из самых распространённых в мире коротких шкал для скрининга тревоги, которой пользуются врачи общей практики и психологи. За пару минут вы узнаете, насколько выражены симптомы тревоги за последние две недели — от минимальных до выраженных, — и как ваш результат соотносится с показателями людей в целом. Это не диагноз, а бережный повод прислушаться к себе.",
+    "en": "The GAD-7 is one of the most widely used brief anxiety screening scales in the world, used by family doctors and psychologists alike. In about two minutes you will see how pronounced your anxiety symptoms have been over the last two weeks — from minimal to severe — and how your score compares with the general population. It is not a diagnosis, but a gentle way to check in with yourself."
+  },
+  "emoji": "🍃",
+  "durationMin": 2,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "тревога",
+      "en": "anxiety"
+    },
+    {
+      "ru": "беспокойство",
+      "en": "worry"
+    },
+    {
+      "ru": "скрининг",
+      "en": "screening"
+    },
+    {
+      "ru": "психическое здоровье",
+      "en": "mental health"
+    },
+    {
+      "ru": "самочувствие",
+      "en": "wellbeing"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряет тест.** Шкала генерализованного тревожного расстройства из 7 пунктов (Generalized Anxiety Disorder-7, GAD-7) оценивает, как часто за последние две недели человека беспокоили семь ключевых проявлений тревоги: нервозность, неконтролируемое беспокойство, тревога по разным поводам, трудности с расслаблением, двигательное беспокойство, раздражительность и ощущение надвигающейся беды. Пункты соответствуют критериям генерализованного тревожного расстройства (ГТР) по DSM-IV.\n\n**История.** Шкалу разработали Роберт Спитцер, Курт Кроенке, Джанет Уильямс и Бернд Лёве как часть семейства опросников Patient Health Questionnaire (PHQ) при образовательном гранте компании Pfizer; публикация вышла в журнале *Archives of Internal Medicine* в 2006 году. Пункты были отобраны из более широкого набора в исследовании 2 740 взрослых пациентов 15 клиник первичной медицинской помощи в США; у 965 из них результат сверяли с телефонным интервью специалиста в области психического здоровья.\n\n**Как проводится и считается.** Человек отвечает на 7 вопросов по шкале от 0 («ни разу») до 3 («почти каждый день»). Общий балл — сумма ответов, от 0 до 21. Официальные пороги тяжести: 5, 10 и 15 баллов (лёгкая, умеренная и выраженная тревога).\n\n**Надёжность и валидность.** При пороге 10 баллов GAD-7 выявлял генерализованное тревожное расстройство с чувствительностью 89 % и специфичностью 82 % по сравнению со структурированным интервью (Spitzer et al., 2006). Внутренняя согласованность — отличная (α Кронбаха = 0,92), ретестовая надёжность — хорошая (ICC = 0,83). Хотя шкала создавалась для ГТР, она неплохо работает и как скрининг панического расстройства, социальной тревожности и ПТСР (Kroenke et al., 2007). В репрезентативной выборке населения Германии (n = 5 030) α = 0,89, однофакторная структура подтвердилась и оказалась инвариантной по полу и возрасту; средний балл у женщин — 3,2 (SD 3,5), у мужчин — 2,7 (SD 3,2); около 5 % людей набирали 10 баллов и выше и около 1 % — 15 и выше (Löwe et al., 2008).\n\n**Русская версия.** Используется официальный перевод на русский язык (для России), распространяемый вместе с оригиналом на сайте phqscreeners.com. Психометрические свойства русскоязычной версии изучались, в частности, в работе А. А. Золотаревой (2023, «Консультативная психология и психотерапия»).\n\n**Нормы на сайте.** Процентиль рассчитывается по данным Löwe et al. (2008). Поскольку в общей популяции большинство людей набирают 0–3 балла, распределение сильно смещено, и процентиль — приблизительная оценка.\n\n**Ограничения.** Это самоотчёт о коротком периоде; тест не различает виды тревожных расстройств и не исключает телесных причин тревожных симптомов (например, нарушений работы щитовидной железы, избытка кофеина или побочных эффектов лекарств). Пороги проверялись в основном в первичном звене здравоохранения. Скрининговый результат — не диагноз.",
+    "en": "**What it measures.** The Generalized Anxiety Disorder 7-item scale (GAD-7) measures how often, over the last two weeks, a person has been bothered by seven core symptoms of anxiety: nervousness, uncontrollable worry, worrying about many things, trouble relaxing, restlessness, irritability and a sense of dread. The items follow the DSM-IV criteria for generalized anxiety disorder (GAD).\n\n**History.** The scale was developed by Robert Spitzer, Kurt Kroenke, Janet Williams and Bernd Löwe as part of the Patient Health Questionnaire (PHQ) family, with an educational grant from Pfizer, and published in *Archives of Internal Medicine* in 2006. The items were selected from a larger pool in a study of 2,740 adult patients in 15 US primary-care clinics; for 965 of them the result was compared with a telephone interview by a mental-health professional.\n\n**Administration and scoring.** Seven questions are answered from 0 (\"not at all\") to 3 (\"nearly every day\"). The total score is the sum, from 0 to 21. Official severity cut-points are 5, 10 and 15 (mild, moderate and severe anxiety).\n\n**Reliability and validity.** At a cut-off of 10, the GAD-7 identified generalized anxiety disorder with 89% sensitivity and 82% specificity against a structured interview (Spitzer et al., 2006). Internal consistency was excellent (Cronbach's α = 0.92) and test–retest reliability good (ICC = 0.83). Although designed for GAD, it also works reasonably well as a screener for panic disorder, social anxiety disorder and PTSD (Kroenke et al., 2007). In a representative German general-population sample (n = 5,030), α was 0.89 and the one-factor structure was confirmed and invariant across sex and age; mean scores were 3.2 (SD 3.5) for women and 2.7 (SD 3.2) for men; about 5% scored 10 or higher and about 1% scored 15 or higher (Löwe et al., 2008).\n\n**Russian version.** The official Russian (for Russia) translation distributed with the original at phqscreeners.com is used. The psychometric properties of the Russian-language version were studied, for example, by A. A. Zolotareva (2023, *Counseling Psychology and Psychotherapy*).\n\n**Norms on this site.** Percentiles are estimated from Löwe et al. (2008). Because most people in the general population score 0–3, the distribution is strongly skewed and the percentile is an approximation.\n\n**Limitations.** It is a self-report covering a short period; it does not distinguish between anxiety disorders and cannot rule out physical causes of anxiety-like symptoms (such as thyroid problems, too much caffeine or medication side effects). The cut-offs were validated mainly in primary care. A screening result is not a diagnosis."
+  },
+  "sources": [
+    {
+      "citation": "Spitzer, R. L., Kroenke, K., Williams, J. B. W., & Löwe, B. (2006). A brief measure for assessing generalized anxiety disorder: The GAD-7. Archives of Internal Medicine, 166(10), 1092–1097.",
+      "doi": "10.1001/archinte.166.10.1092"
+    },
+    {
+      "citation": "Löwe, B., Decker, O., Müller, S., Brähler, E., Schellberg, D., Herzog, W., & Herzberg, P. Y. (2008). Validation and standardization of the Generalized Anxiety Disorder Screener (GAD-7) in the general population. Medical Care, 46(3), 266–274.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18388841/",
+      "doi": "10.1097/MLR.0b013e318160d093"
+    },
+    {
+      "citation": "Kroenke, K., Spitzer, R. L., Williams, J. B. W., Monahan, P. O., & Löwe, B. (2007). Anxiety disorders in primary care: Prevalence, impairment, comorbidity, and detection. Annals of Internal Medicine, 146(5), 317–325.",
+      "doi": "10.7326/0003-4819-146-5-200703060-00004"
+    },
+    {
+      "citation": "Золотарева, А. А. (2023). Адаптация русскоязычной версии шкалы генерализованного тревожного расстройства (GAD-7). Консультативная психология и психотерапия, 31(4). [Zolotareva, A. A. Adaptation of the Russian version of the Generalized Anxiety Disorder-7. Counseling Psychology and Psychotherapy.]",
+      "url": "https://psyjournals.ru/en/journals/cpp/archive/2023_n4/Zolotareva"
+    },
+    {
+      "citation": "Pfizer Inc. PHQ and GAD-7 screeners and official translations.",
+      "url": "https://www.phqscreeners.com/"
+    }
+  ],
+  "license": "Free to use. The GAD-7 was developed by Drs. Robert L. Spitzer, Janet B. W. Williams, Kurt Kroenke and colleagues with an educational grant from Pfizer Inc.; the official forms carry the statement 'No permission required to reproduce, translate, display or distribute.' Originals and official translations (incl. Russian for Russia): https://www.phqscreeners.com/ . Keep item wording and scoring unchanged and credit the developers.",
+  "disclaimer": {
+    "ru": "Этот тест — скрининговый инструмент, а не диагноз. Он помогает заметить возможные трудности и решить, стоит ли обратиться к специалисту, но поставить диагноз может только врач-психиатр, психотерапевт или клинический психолог после очной консультации. Результат теста не заменяет медицинскую помощь. Высокий балл по этой шкале может быть связан не только с тревожным расстройством, но и с усталостью, стрессом или телесными причинами — разобраться поможет специалист. Если вам сейчас очень тяжело или появляются мысли о том, чтобы причинить себе вред, пожалуйста, не оставайтесь с этим наедине. Экстренные службы в России и странах ЕС — 112. Москва: Московская служба психологической помощи населению — 051 (с мобильного 8-495-051), круглосуточно и бесплатно. Детям, подросткам и родителям: Детский телефон доверия — 8-800-2000-122 (бесплатно по всей России). В других странах бесплатную линию помощи можно найти на сайте findahelpline.com.",
+    "en": "This test is a screening tool, not a diagnosis. It can help you notice possible difficulties and decide whether to talk to a professional, but only a qualified clinician (a psychiatrist, psychotherapist or clinical psychologist) can make a diagnosis after a personal consultation. Your result does not replace medical care. A high score can reflect not only an anxiety disorder but also exhaustion, stress or physical causes — a professional can help you sort this out. If you are going through a very hard time or having thoughts of hurting yourself, please don't stay alone with it. Emergency services: 112 in Russia and the EU (911 in the US and Canada). Moscow: Moscow Psychological Help Service — 051 (from a mobile 8-495-051), 24/7 and free of charge. Children, teenagers and parents in Russia: Children's Helpline — 8-800-2000-122 (free nationwide). US: call or text 988 (Suicide & Crisis Lifeline). UK and Ireland: Samaritans — 116 123. Other countries: find a free helpline at findahelpline.com."
+  },
+  "instructions": {
+    "ru": "Как часто за последние 2 недели Вас беспокоили следующие проблемы? Для каждого пункта выберите вариант, который подходит лучше всего. Здесь нет правильных или неправильных ответов — отвечайте так, как есть на самом деле.",
+    "en": "Over the last 2 weeks, how often have you been bothered by the following problems? For each item, choose the answer that fits best. There are no right or wrong answers — just answer as things really are."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Ни разу",
+        "en": "Not at all"
+      },
+      {
+        "ru": "Несколько дней",
+        "en": "Several days"
+      },
+      {
+        "ru": "Более недели",
+        "en": "More than half the days"
+      },
+      {
+        "ru": "Почти каждый день",
+        "en": "Nearly every day"
+      }
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "anxiety",
+      "name": {
+        "ru": "Тревога",
+        "en": "Anxiety"
+      },
+      "description": {
+        "ru": "Насколько часто за последние две недели вас беспокоили основные проявления тревоги: напряжение, неконтролируемое беспокойство, трудности с расслаблением, раздражительность и ощущение надвигающейся беды.",
+        "en": "How often over the last two weeks you have been bothered by the core signs of anxiety: tension, uncontrollable worry, trouble relaxing, irritability and a sense of dread."
+      },
+      "lowLabel": {
+        "ru": "Спокойствие, мало тревоги",
+        "en": "Calm, little worry"
+      },
+      "highLabel": {
+        "ru": "Выраженная тревога",
+        "en": "Severe anxiety"
+      },
+      "color": "#BFE3D0",
+      "scoring": "sum",
+      "min": 0,
+      "max": 21,
+      "norms": {
+        "mean": 2.97,
+        "sd": 3.37,
+        "n": 5030,
+        "population": "German general population, nationally representative household survey 2006 (53.6% women, mean age 48.4)",
+        "source": "Löwe et al. (2008), Medical Care 46(3):266–274; overall mean/SD pooled from the reported sex-specific values (women 3.2 ± 3.5, men 2.7 ± 3.2). Distribution is right-skewed: ~5% score ≥10, ~1% ≥15."
+      },
+      "bands": [
+        {
+          "min": 0,
+          "max": 4,
+          "label": {
+            "ru": "Минимальная тревога",
+            "en": "Minimal anxiety"
+          },
+          "summary": [
+            {
+              "ru": "За последние две недели признаков тревоги почти не было.",
+              "en": "Over the last two weeks you have had few or no signs of anxiety."
+            },
+            {
+              "ru": "В этом диапазоне находится большинство людей в общей популяции.",
+              "en": "Most people in the general population score in this range."
+            },
+            {
+              "ru": "Обычные волнения нормальны: они приходят и уходят, не захватывая жизнь.",
+              "en": "Everyday worries are normal: they come and go without taking over."
+            },
+            {
+              "ru": "Сохраняйте то, что вас поддерживает: сон, движение, близких людей.",
+              "en": "Keep the things that support you: sleep, movement, people you trust."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши ответы говорят о том, что тревога сейчас занимает в вашей жизни совсем немного места. Это не значит, что вы никогда не волнуетесь, — просто волнение не становится постоянным фоном и не мешает жить. Это хороший момент, чтобы заметить, что именно помогает вам сохранять равновесие: режим сна, физическая активность, общение, любимые занятия, — и беречь эти ресурсы.\n\nЕсли тест не отражает того, что вы чувствуете, или тревога появляется приступами (например, внезапные приступы страха с сердцебиением), об этом всё равно стоит рассказать врачу или психологу: короткая шкала может не уловить всех вариантов тревожных переживаний. Состояние меняется со временем, и к тесту можно вернуться через несколько недель.",
+            "en": "Your answers suggest that anxiety currently takes up very little room in your life. That does not mean you never worry — rather, worry does not become a constant background or get in the way of living. This is a good moment to notice what helps you stay balanced — regular sleep, physical activity, time with people, activities you enjoy — and to protect those resources.\n\nIf the result does not match how you feel, or if your anxiety comes in sudden waves (for example, sudden episodes of fear with a racing heart), it is still worth mentioning to a doctor or psychologist: a short scale cannot capture every form of anxiety. How we feel changes over time, so you are welcome to come back to this test in a few weeks."
+          }
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "label": {
+            "ru": "Лёгкая тревога",
+            "en": "Mild anxiety"
+          },
+          "summary": [
+            {
+              "ru": "Некоторые симптомы тревоги беспокоили вас по нескольку дней.",
+              "en": "Some anxiety symptoms have bothered you on several days."
+            },
+            {
+              "ru": "Это частая реакция на напряжённые или неопределённые периоды жизни.",
+              "en": "This is a common response to busy or uncertain times."
+            },
+            {
+              "ru": "На этом уровне часто хорошо помогают приёмы самопомощи.",
+              "en": "Self-help strategies often work well at this level."
+            },
+            {
+              "ru": "Полезно повторить тест через 2–4 недели и понаблюдать за динамикой.",
+              "en": "It helps to retake the test in 2–4 weeks and watch how things change."
+            }
+          ],
+          "detailed": {
+            "ru": "За последние две недели тревога время от времени давала о себе знать: возможно, было труднее расслабиться, мысли возвращались к поводам для беспокойства или вы чаще раздражались. Так бывает у многих людей, особенно когда вокруг много перемен, нагрузки или неопределённости. Хорошая новость в том, что на этом уровне часто помогают простые и доступные шаги.\n\nПопробуйте: медленное дыхание с удлинённым выдохом (например, вдох на 4 счёта, выдох на 6) по нескольку минут в день; регулярную физическую активность — даже 20–30 минут ходьбы; «время для беспокойства» — 15 минут в день, когда вы записываете тревожные мысли, а в остальное время мягко откладываете их; ограничение кофеина, алкоголя и бесконечного чтения новостей; стабильный режим сна. Поговорите о своих переживаниях с человеком, которому доверяете. Хорошо зарекомендовали себя материалы по самопомощи, основанные на когнитивно-поведенческой терапии.\n\nЕсли через несколько недель тревога не уменьшается, усиливается или начинает мешать работе, учёбе, отношениям или сну, стоит обратиться к психологу или психотерапевту — не нужно ждать, пока станет совсем тяжело.",
+            "en": "Over the last two weeks anxiety has made itself felt now and then: perhaps it was harder to relax, your thoughts kept returning to worries, or you were more irritable than usual. This happens to many people, especially at times of change, pressure or uncertainty. The good news is that simple, accessible steps often help at this level.\n\nYou could try: slow breathing with a longer out-breath (for example, in for 4 counts, out for 6) for a few minutes a day; regular physical activity — even a 20–30-minute walk; a scheduled \"worry time\" — 15 minutes a day to write worries down, gently postponing them the rest of the time; cutting down on caffeine, alcohol and endless news scrolling; and a steady sleep routine. Talk about what is on your mind with someone you trust. Self-help materials based on cognitive behavioural therapy (CBT) have good evidence behind them.\n\nIf after a few weeks the anxiety has not eased, has grown, or starts getting in the way of work, study, relationships or sleep, it is worth seeing a psychologist or psychotherapist — there is no need to wait until things get really hard."
+          }
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "label": {
+            "ru": "Умеренная тревога",
+            "en": "Moderate anxiety"
+          },
+          "summary": [
+            {
+              "ru": "Тревога присутствовала во многие дни и, вероятно, влияет на повседневную жизнь.",
+              "en": "Anxiety has been present on many days and is probably affecting daily life."
+            },
+            {
+              "ru": "10 баллов — официальный порог, при котором рекомендуется консультация специалиста.",
+              "en": "A score of 10 is the official threshold at which a professional assessment is recommended."
+            },
+            {
+              "ru": "Тревога такого уровня хорошо поддаётся лечению, например когнитивно-поведенческой терапии.",
+              "en": "Anxiety at this level responds well to treatment, such as cognitive behavioural therapy."
+            },
+            {
+              "ru": "Обратиться за помощью — это забота о себе, а не слабость.",
+              "en": "Asking for help is an act of self-care, not a weakness."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат говорит о том, что тревога в последние недели была частым спутником и, скорее всего, отнимает немало сил: может быть трудно сосредоточиться, расслабиться, заснуть или перестать прокручивать мысли. Это не ваша вина и не черта характера — так проявляется состояние, которое хорошо известно специалистам и хорошо поддаётся помощи.\n\nНачиная с 10 баллов разработчики шкалы рекомендуют пройти консультацию специалиста: врача общей практики, психотерапевта, психиатра или клинического психолога. Он поможет понять, что стоит за симптомами (генерализованная тревога, панические атаки, последствия стресса или телесные причины), и подобрать помощь. Наиболее изученный метод — когнитивно-поведенческая терапия; в некоторых случаях врач может предложить и лекарства.\n\nПока вы ищете специалиста, продолжайте опираться на то, что помогает: дыхательные упражнения, движение, режим сна, меньше кофеина и алкоголя, разговор с близким человеком. Если вам становится очень тяжело, воспользуйтесь телефонами помощи, указанными ниже.",
+            "en": "Your result suggests that anxiety has been a frequent companion in recent weeks and is probably taking a lot of energy: it may be hard to concentrate, relax, fall asleep or stop going over things in your head. This is not your fault and not a character flaw — it is a well-known state that specialists understand and that responds well to help.\n\nFrom a score of 10, the scale's developers recommend a professional assessment by a family doctor, psychotherapist, psychiatrist or clinical psychologist. They can help work out what lies behind the symptoms (generalized anxiety, panic attacks, the effects of stress or a physical cause) and find the right support. The best-studied approach is cognitive behavioural therapy; in some cases a doctor may also suggest medication.\n\nWhile you look for a professional, keep leaning on what helps: breathing exercises, movement, a sleep routine, less caffeine and alcohol, and talking with someone close. If things become very hard, please use the helplines listed below."
+          }
+        },
+        {
+          "min": 15,
+          "max": 21,
+          "label": {
+            "ru": "Выраженная тревога",
+            "en": "Severe anxiety"
+          },
+          "summary": [
+            {
+              "ru": "Симптомы тревоги беспокоили вас большую часть дней и, вероятно, очень изматывают.",
+              "en": "Anxiety symptoms have bothered you most days and are probably very draining."
+            },
+            {
+              "ru": "Пожалуйста, постарайтесь в ближайшее время обратиться к врачу или психотерапевту.",
+              "en": "Please try to contact a doctor or psychotherapist soon."
+            },
+            {
+              "ru": "Выраженная тревога лечится — многим людям становится заметно легче с поддержкой.",
+              "en": "Severe anxiety is treatable — many people feel noticeably better with support."
+            },
+            {
+              "ru": "Если вы чувствуете, что не справляетесь, звоните на линии помощи прямо сейчас.",
+              "en": "If you feel overwhelmed, please call a helpline right away."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши ответы показывают, что тревога в последние две недели была почти постоянной и, скорее всего, сильно влияет на сон, работу, отношения и самочувствие. Жить в таком напряжении очень утомительно, и важно знать: это состояние поддаётся лечению, и вам не нужно справляться с ним в одиночку.\n\nМы бережно рекомендуем записаться на приём к психиатру, психотерапевту или клиническому психологу в ближайшие дни; можно начать и с врача общей практики. Специалист поможет разобраться в причинах и подобрать помощь — психотерапию, а при необходимости и медикаментозное лечение. Если трудно сделать первый шаг самостоятельно, попросите близкого человека помочь найти специалиста или побыть рядом.\n\nПока помощь не началась, старайтесь снижать нагрузку там, где это возможно, держаться привычного ритма сна и еды и не оставаться надолго в одиночестве. Если тревога становится невыносимой или появляются мысли о том, чтобы причинить себе вред, сразу обратитесь на линию психологической помощи или в экстренные службы (112).",
+            "en": "Your answers show that anxiety has been almost constant over the last two weeks and is probably affecting your sleep, work, relationships and wellbeing a great deal. Living with this level of tension is exhausting, and it is important to know that it is treatable and that you do not have to cope with it alone.\n\nWe gently recommend booking an appointment with a psychiatrist, psychotherapist or clinical psychologist in the next few days; starting with your family doctor is fine too. A professional can help understand the causes and find the right help — psychotherapy and, if needed, medication. If the first step feels hard, ask someone close to help you find a specialist or to keep you company.\n\nUntil help begins, try to reduce demands where you can, keep a regular rhythm of sleep and meals, and avoid spending long stretches alone. If the anxiety becomes unbearable or you have thoughts of hurting yourself, contact a crisis line or emergency services (112) straight away."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "gad7-1",
+      "text": {
+        "ru": "Вы нервничали, тревожились или испытывали сильный стресс",
+        "en": "Feeling nervous, anxious, or on edge"
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "gad7-2",
+      "text": {
+        "ru": "Вы были неспособны успокоиться или контролировать своё волнение",
+        "en": "Not being able to stop or control worrying"
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "gad7-3",
+      "text": {
+        "ru": "Вы слишком сильно волновались по различным поводам",
+        "en": "Worrying too much about different things"
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "gad7-4",
+      "text": {
+        "ru": "Вам было трудно расслабиться",
+        "en": "Trouble relaxing"
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "gad7-5",
+      "text": {
+        "ru": "Вы были настолько суетливы, что Вам было тяжело усидеть на месте",
+        "en": "Being so restless that it is hard to sit still"
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "gad7-6",
+      "text": {
+        "ru": "Вы легко злились или раздражались",
+        "en": "Becoming easily annoyed or irritable"
+      },
+      "dimension": "anxiety"
+    },
+    {
+      "id": "gad7-7",
+      "text": {
+        "ru": "Вы испытывали страх, словно должно произойти нечто ужасное",
+        "en": "Feeling afraid, as if something awful might happen"
+      },
+      "dimension": "anxiety"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ оценивается от 0 («Ни разу») до 3 («Почти каждый день»). Баллы по 7 вопросам суммируются: общий балл от 0 до 21. Официальные диапазоны (Spitzer et al., 2006): 0–4 — минимальная тревога, 5–9 — лёгкая, 10–14 — умеренная, 15–21 — выраженная. Начиная с 10 баллов рекомендуется консультация специалиста. Процентиль сравнивает ваш результат с репрезентативной выборкой взрослого населения Германии (Löwe et al., 2008) и является приблизительным.",
+    "en": "Each answer is scored from 0 (\"Not at all\") to 3 (\"Nearly every day\"). The 7 item scores are added up for a total of 0–21. Official ranges (Spitzer et al., 2006): 0–4 minimal, 5–9 mild, 10–14 moderate, 15–21 severe anxiety. A professional assessment is recommended from a score of 10. The percentile compares your score with a representative sample of German adults (Löwe et al., 2008) and is approximate."
+  },
+  "resultIntro": {
+    "ru": "Спасибо, что нашли время прислушаться к себе. Ниже — ваш результат и несколько мыслей о том, что с ним можно сделать. Помните: тест отражает только последние две недели, и любое состояние может меняться.",
+    "en": "Thank you for taking a moment to check in with yourself. Below is your result and some thoughts on what you can do with it. Remember: the test reflects only the last two weeks, and how you feel can change."
+  }
+}

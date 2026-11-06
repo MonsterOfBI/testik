@@ -1,0 +1,1469 @@
+{
+  "id": "career-klimov",
+  "category": "career",
+  "kind": "choice",
+  "seriousness": "fun",
+  "title": {
+    "ru": "Тип профессии по Климову: природа, техника, человек, знак, образ",
+    "en": "Klimov Career Types: Nature, Tech, People, Signs, Art"
+  },
+  "tagline": {
+    "ru": "20 быстрых выборов — и ясно, с чем вам интереснее работать",
+    "en": "20 quick choices to see what you'd most like to work with"
+  },
+  "description": {
+    "ru": "Выбирайте из пар занятий то, что вам больше по душе. Тест на основе классической российской классификации профессий Е. А. Климова покажет ваш ведущий тип — «Человек — Природа», «Техника», «Человек», «Знаковая система» или «Художественный образ» — и подскажет подходящие профессии.",
+    "en": "Pick the activity you prefer from each pair. Based on E. A. Klimov's classic Russian classification of occupations, the test shows your leading type — Person–Nature, Technology, Person, Sign System or Artistic Image — and suggests matching careers."
+  },
+  "emoji": "🧩",
+  "durationMin": 3,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "профориентация",
+      "en": "career guidance"
+    },
+    {
+      "ru": "Климов",
+      "en": "Klimov"
+    },
+    {
+      "ru": "выбор профессии",
+      "en": "choosing a career"
+    },
+    {
+      "ru": "школьникам",
+      "en": "for students"
+    },
+    {
+      "ru": "интересы",
+      "en": "interests"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряется.** Тест основан на классификации профессий Евгения Александровича Климова (1930–2014), профессора МГУ, одного из основателей отечественной психологии труда и профориентации. Климов делил профессии по **предмету труда** на пять типов: «Человек — Природа», «Человек — Техника», «Человек — Человек», «Человек — Знаковая система» и «Человек — Художественный образ». Для диагностики склонностей он создал «Дифференциально-диагностический опросник» (ДДО): 20 пар видов деятельности, из каждой нужно выбрать более привлекательную; каждый тип встречается 8 раз. ДДО десятилетиями используется в российских школах и центрах профориентации.\n\n**Почему не оригинальный ДДО.** Опросник ДДО — авторское произведение (Климов скончался в 2014 году; по ГК РФ авторское право действует 70 лет после смерти автора), а многие его формулировки устарели (это отмечают и современные адаптации, например модификация А. А. Азбеля). Поэтому testik **сохраняет теоретическую основу и формат** (20 пар, каждый тип — 8 раз, по одному разу в каждом сочетании пар дважды), но **все виды деятельности написаны заново** с учётом современных профессий. Это не ДДО, а авторский тест testik на основе типологии Климова.\n\n**Подсчёт.** За выбор варианта начисляется 1 балл соответствующему типу; сумма по типу — 0–8, общая сумма — 20. Уровни testik: 0–2 — слабый интерес, 3–5 — средний, 6–8 — выраженный. Ведущий тип — с максимальным баллом; полезно смотреть и на второй.\n\n**Связь с RIASEC.** Типы Климова частично соответствуют типам Холланда: «Природа» и «Техника» — реалистическому/исследовательскому, «Человек» — социальному/предприимчивому, «Знак» — конвенциональному/исследовательскому, «Образ» — артистическому. Для более подробной картины пройдите тест career-riasec.\n\n**Ограничения.** Пункты testik не проходили психометрической проверки, норм нет; формат вынужденного выбора даёт ипсативные (относительные) баллы — они показывают, что вам интереснее **по сравнению** с другими типами, но не абсолютную силу интереса. Интерес ≠ способности. Результат — повод попробовать профессии на практике.",
+    "en": "**What it measures.** The test is based on the classification of occupations by Evgeny Aleksandrovich Klimov (1930–2014), professor at Moscow State University and a founder of Russian work psychology and career guidance. Klimov grouped occupations by their **subject of labour** into five types: Person–Nature, Person–Technology, Person–Person, Person–Sign System and Person–Artistic Image. To assess inclinations he created the 'Differential Diagnostic Questionnaire' (DDO): 20 pairs of activities, choosing the more attractive one in each; each type appears 8 times. The DDO has been used in Russian schools and career centres for decades.\n\n**Why not the original DDO.** The DDO is a copyrighted work (Klimov died in 2014; Russian copyright lasts 70 years after the author's death), and many of its wordings are outdated (as modern adaptations such as A. A. Azbel's modification note). So testik **keeps the theoretical basis and format** (20 pairs, each type 8 times, every pairing of types appearing twice) but **writes all activities from scratch** to reflect modern occupations. This is not the DDO; it is testik's own test based on Klimov's typology.\n\n**Scoring.** Each choice gives 1 point to its type; each type scores 0–8, total 20. testik bands: 0–2 weak interest, 3–5 moderate, 6–8 strong. Your leading type is the highest; look at the second one too.\n\n**Link to RIASEC.** Klimov's types partly map onto Holland's: Nature and Technology onto Realistic/Investigative, Person onto Social/Enterprising, Sign onto Conventional/Investigative, Artistic Image onto Artistic. For a more detailed picture take the career-riasec test.\n\n**Limitations.** testik's items have not been psychometrically validated and there are no norms; the forced-choice format yields ipsative (relative) scores — they show what interests you **compared with** the other types, not absolute interest strength. Interest ≠ ability. Treat the result as an invitation to try careers in practice."
+  },
+  "sources": [
+    {
+      "citation": "Климов, Е. А. (1990). Как выбирать профессию: Книга для учащихся старших классов средней школы (2-е изд.). Москва: Просвещение."
+    },
+    {
+      "citation": "Климов, Е. А. (1996). Психология профессионального самоопределения. Ростов-на-Дону: Феникс."
+    },
+    {
+      "citation": "Грецов, А. Г., & Азбель, А. А. (2012). Психологические тесты для старшеклассников и студентов. Санкт-Петербург: Питер."
+    },
+    {
+      "citation": "Psytests.org. (n.d.). Дифференциально-диагностический опросник (ДДО) Е. А. Климова и модификация А. А. Азбеля [Описание методики].",
+      "url": "https://psytests.org/work/ddo.html"
+    },
+    {
+      "citation": "Holland, J. L. (1997). Making vocational choices: A theory of vocational personalities and work environments (3rd ed.). Psychological Assessment Resources."
+    }
+  ],
+  "license": "Original items and texts © testik (may be released under CC BY 4.0). The test follows the theory and 20-pair forced-choice format of E. A. Klimov's typology but does NOT reproduce the copyrighted DDO items (E. A. Klimov, d. 2014; copyright in Russia runs 70 years post mortem). Theories, classifications and test formats are not protected by copyright; specific item wording is.",
+  "instructions": {
+    "ru": "Представьте, что после обучения вы можете выполнять любую работу одинаково хорошо. В каждой паре выберите то занятие, которое вам **больше нравится**, — даже если не нравятся оба. Не думайте долго.",
+    "en": "Imagine that after training you could do any job equally well. In each pair choose the activity you **like more** — even if neither appeals. Don't overthink it."
+  },
+  "dimensions": [
+    {
+      "id": "nature",
+      "name": {
+        "ru": "Человек — Природа",
+        "en": "Person — Nature"
+      },
+      "description": {
+        "ru": "Работа с живой и неживой природой: растения, животные, микроорганизмы, почва, вода, экосистемы.",
+        "en": "Work with living and non-living nature: plants, animals, micro-organisms, soil, water, ecosystems."
+      },
+      "lowLabel": {
+        "ru": "Природа — не предмет труда",
+        "en": "Nature isn't your work focus"
+      },
+      "highLabel": {
+        "ru": "Тянет к живому и природе",
+        "en": "Drawn to nature and living things"
+      },
+      "color": "#BFE6C8",
+      "scoring": "sum",
+      "min": 0,
+      "max": 8,
+      "bands": [
+        {
+          "min": 0,
+          "max": 2,
+          "label": {
+            "ru": "Слабый интерес",
+            "en": "Weak interest"
+          },
+          "summary": [
+            {
+              "ru": "Работа с природой вас мало привлекает",
+              "en": "Working with nature holds little appeal"
+            },
+            {
+              "ru": "Вам ближе люди, техника, знаки или образы",
+              "en": "People, technology, signs or images suit you better"
+            },
+            {
+              "ru": "Природа — скорее отдых, чем работа",
+              "en": "Nature is for leisure, not work"
+            }
+          ],
+          "detailed": {
+            "ru": "Профессии, где главное — растения, животные или экосистемы, скорее всего, не станут вашим призванием. Это не мешает любить природу на отдыхе. **Совет:** если интересна «зелёная» тема (экология, устойчивое развитие), посмотрите на неё через ваш ведущий тип — например, эко-журналистика, экологическое право или аналитика климатических данных.",
+            "en": "Careers centred on plants, animals or ecosystems probably won't be your calling — which doesn't stop you loving nature on holiday. **Tip:** if 'green' topics interest you, approach them through your leading type — environmental journalism, environmental law or climate-data analytics."
+          }
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "label": {
+            "ru": "Средний интерес",
+            "en": "Moderate interest"
+          },
+          "summary": [
+            {
+              "ru": "Природа вам интересна, но не обязательно как работа",
+              "en": "Nature interests you, but not necessarily as a job"
+            },
+            {
+              "ru": "Подойдут профессии на стыке",
+              "en": "Hybrid careers may fit"
+            },
+            {
+              "ru": "Можно проверить интерес практикой",
+              "en": "Test your interest in practice"
+            }
+          ],
+          "detailed": {
+            "ru": "Интерес к природе у вас есть, но он не доминирует. **Совет:** попробуйте волонтёрство в приюте для животных, экологическую экспедицию или работу в саду — так станет понятно, хотите ли вы связать с этим профессию (ветеринария, агрономия, ландшафтный дизайн, биотехнологии).",
+            "en": "You have an interest in nature, but it doesn't dominate. **Tip:** try volunteering at an animal shelter, an ecological expedition or gardening — you'll see whether you want a related career (veterinary medicine, agronomy, landscape design, biotech)."
+          }
+        },
+        {
+          "min": 6,
+          "max": 8,
+          "label": {
+            "ru": "Выраженный интерес",
+            "en": "Strong interest"
+          },
+          "summary": [
+            {
+              "ru": "Вас тянет к живому и к природе",
+              "en": "You're drawn to living things and nature"
+            },
+            {
+              "ru": "Терпение и наблюдательность — ваши сильные стороны",
+              "en": "Patience and observation are your strengths"
+            },
+            {
+              "ru": "Подходит работа вне офиса",
+              "en": "Work outside the office may suit you"
+            },
+            {
+              "ru": "Важно, чтобы труд приносил пользу природе",
+              "en": "You want your work to benefit nature"
+            }
+          ],
+          "detailed": {
+            "ru": "Природа — ваш предмет труда. Работа в этой сфере требует терпения (результат растёт неделями и месяцами), наблюдательности и готовности работать в разных условиях.\n\n**Профессии:** ветеринар, зоотехник, кинолог, агроном, селекционер, специалист по защите растений, эколог, лесничий, биолог, микробиолог, биотехнолог, гидролог, ландшафтный дизайнер, специалист по аквакультуре. **Совет:** уделите внимание биологии, химии и географии; ищите колледжи и вузы с сильной полевой практикой.",
+            "en": "Nature is your work subject. This field needs patience (results grow over weeks and months), observation and readiness to work in varied conditions.\n\n**Careers:** veterinarian, animal-care specialist, dog trainer, agronomist, plant breeder, plant-protection specialist, ecologist, forester, biologist, microbiologist, biotechnologist, hydrologist, landscape designer, aquaculture specialist. **Tip:** focus on biology, chemistry and geography; look for programmes with strong fieldwork."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": {
+        "ru": "Человек — Техника",
+        "en": "Person — Technology"
+      },
+      "description": {
+        "ru": "Работа с машинами, механизмами, устройствами, материалами и энергией: создание, монтаж, ремонт, управление.",
+        "en": "Work with machines, devices, materials and energy: building, installing, repairing, operating."
+      },
+      "lowLabel": {
+        "ru": "Техника не увлекает",
+        "en": "Machines don't excite you"
+      },
+      "highLabel": {
+        "ru": "Люблю технику и устройства",
+        "en": "Loves machines and devices"
+      },
+      "color": "#B8D8F2",
+      "scoring": "sum",
+      "min": 0,
+      "max": 8,
+      "bands": [
+        {
+          "min": 0,
+          "max": 2,
+          "label": {
+            "ru": "Слабый интерес",
+            "en": "Weak interest"
+          },
+          "summary": [
+            {
+              "ru": "Механизмы и устройства вас мало интересуют",
+              "en": "Machines and devices interest you little"
+            },
+            {
+              "ru": "Ремонт и наладка — не ваше",
+              "en": "Repair and tuning aren't your thing"
+            },
+            {
+              "ru": "Ваша энергия направлена на другое",
+              "en": "Your energy goes elsewhere"
+            }
+          ],
+          "detailed": {
+            "ru": "Техника как предмет труда вас не притягивает. **Совет:** базовая техническая грамотность (настроить гаджет, разобраться в программе) всё равно пригодится в любой профессии — но строить карьеру лучше на вашем ведущем типе.",
+            "en": "Technology as a work subject doesn't attract you. **Tip:** basic tech literacy (setting up a gadget, learning software) still helps in any job — but build your career on your leading type."
+          }
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "label": {
+            "ru": "Средний интерес",
+            "en": "Moderate interest"
+          },
+          "summary": [
+            {
+              "ru": "Техника вам интересна в прикладном виде",
+              "en": "You like technology in applied form"
+            },
+            {
+              "ru": "Можете разобраться в устройстве, если нужно",
+              "en": "You can figure out how things work when needed"
+            },
+            {
+              "ru": "Подойдут профессии на стыке",
+              "en": "Hybrid careers may fit"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам не чужда техника, но она не главный мотив. **Совет:** обратите внимание на профессии, где техника — инструмент: медицинская техника, звукорежиссура, фото- и видеопроизводство, инженерный дизайн.",
+            "en": "You're comfortable with technology, but it isn't your main motive. **Tip:** look at careers where technology is a tool: medical equipment, sound engineering, photo and video production, industrial design."
+          }
+        },
+        {
+          "min": 6,
+          "max": 8,
+          "label": {
+            "ru": "Выраженный интерес",
+            "en": "Strong interest"
+          },
+          "summary": [
+            {
+              "ru": "Вас увлекают машины, устройства, механизмы",
+              "en": "Machines, devices and mechanisms fascinate you"
+            },
+            {
+              "ru": "Любите собирать, чинить, налаживать",
+              "en": "You love building, fixing and tuning"
+            },
+            {
+              "ru": "Цените точность и осязаемый результат",
+              "en": "You value precision and tangible results"
+            },
+            {
+              "ru": "Хорошее пространственное мышление",
+              "en": "Good spatial thinking"
+            }
+          ],
+          "detailed": {
+            "ru": "Техника — ваш предмет труда. Вам интересно, как всё устроено, и приятно, когда устройство начинает работать благодаря вам. Таких специалистов в России остро не хватает — это реальное карьерное преимущество.\n\n**Профессии:** инженер-конструктор, инженер-механик, электромонтажник, автомеханик, оператор станков с ЧПУ, сварщик, специалист по робототехнике, мехатроник, сервисный инженер, оператор БПЛА, машинист, пилот, специалист по ремонту электроники. **Совет:** физика, математика и черчение/3D-моделирование; кружки робототехники, технопарки, колледжи с реальной практикой.",
+            "en": "Technology is your work subject. You want to know how things work and enjoy making a device run thanks to you. Such specialists are in short supply in many labour markets — a real career advantage.\n\n**Careers:** design engineer, mechanical engineer, electrician, auto mechanic, CNC operator, welder, robotics specialist, mechatronics technician, service engineer, drone operator, train driver, pilot, electronics repair technician. **Tip:** physics, maths and drafting/3D modelling; robotics clubs, tech parks, colleges with real practice."
+          }
+        }
+      ]
+    },
+    {
+      "id": "human",
+      "name": {
+        "ru": "Человек — Человек",
+        "en": "Person — Person"
+      },
+      "description": {
+        "ru": "Работа с людьми: обучение, воспитание, лечение, обслуживание, консультирование, управление.",
+        "en": "Work with people: teaching, upbringing, healing, service, counselling, managing."
+      },
+      "lowLabel": {
+        "ru": "Работа с людьми утомляет",
+        "en": "People-work drains you"
+      },
+      "highLabel": {
+        "ru": "Люблю работать с людьми",
+        "en": "Loves working with people"
+      },
+      "color": "#FFD6E0",
+      "scoring": "sum",
+      "min": 0,
+      "max": 8,
+      "bands": [
+        {
+          "min": 0,
+          "max": 2,
+          "label": {
+            "ru": "Слабый интерес",
+            "en": "Weak interest"
+          },
+          "summary": [
+            {
+              "ru": "Постоянное общение вас скорее утомляет",
+              "en": "Constant interaction tends to tire you"
+            },
+            {
+              "ru": "Вам ближе вещи, знаки или образы",
+              "en": "Things, signs or images suit you better"
+            },
+            {
+              "ru": "Помогающие профессии — не ваше",
+              "en": "Helping professions aren't for you"
+            }
+          ],
+          "detailed": {
+            "ru": "Профессии, где основное — общение, обучение или обслуживание людей, вряд ли будут вас наполнять. **Совет:** выбирайте среды, где коммуникация дозирована и функциональна, а навыки общения развивайте как полезный инструмент, а не как основу карьеры.",
+            "en": "Careers centred on interaction, teaching or serving people probably won't fulfil you. **Tip:** choose settings where communication is limited and functional, and develop people skills as a useful tool rather than the basis of your career."
+          }
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "label": {
+            "ru": "Средний интерес",
+            "en": "Moderate interest"
+          },
+          "summary": [
+            {
+              "ru": "Общение вам приятно в разумной дозе",
+              "en": "You enjoy people in reasonable doses"
+            },
+            {
+              "ru": "Можете быть наставником в своей теме",
+              "en": "You can mentor in your own field"
+            },
+            {
+              "ru": "Подойдут смешанные роли",
+              "en": "Hybrid roles fit"
+            }
+          ],
+          "detailed": {
+            "ru": "Работа с людьми вам по силам и приятна, но не обязана быть главной. **Совет:** роли, где вы помогаете людям через экспертизу (преподаватель своего предмета, консультант, руководитель проекта), могут быть отличным балансом.",
+            "en": "You can work with people and enjoy it, but it needn't be central. **Tip:** roles where you help people through expertise (teaching your subject, consulting, project lead) can be a great balance."
+          }
+        },
+        {
+          "min": 6,
+          "max": 8,
+          "label": {
+            "ru": "Выраженный интерес",
+            "en": "Strong interest"
+          },
+          "summary": [
+            {
+              "ru": "Вас заряжает работа с людьми",
+              "en": "Working with people energises you"
+            },
+            {
+              "ru": "Умеете слушать, объяснять, убеждать",
+              "en": "You listen, explain and persuade well"
+            },
+            {
+              "ru": "Вам важны польза и отклик",
+              "en": "Making a difference and feedback matter"
+            },
+            {
+              "ru": "Легко находите общий язык",
+              "en": "You connect easily"
+            }
+          ],
+          "detailed": {
+            "ru": "Люди — ваш предмет труда. Вы, вероятно, хорошо понимаете других, умеете объяснять и поддерживать. Такие профессии требуют эмоциональной устойчивости, терпения и умения ставить границы.\n\n**Профессии:** учитель, воспитатель, психолог, врач, медсестра/медбрат, социальный работник, HR-специалист, менеджер по работе с клиентами, продавец-консультант, администратор гостиницы, экскурсовод, тренер, юрист, следователь, руководитель. **Совет:** вожатство, волонтёрство, тьюторство — лучший способ проверить себя; заранее учитесь профилактике выгорания.",
+            "en": "People are your work subject. You probably understand others well, explain and support. These careers need emotional resilience, patience and boundary-setting.\n\n**Careers:** teacher, preschool teacher, psychologist, physician, nurse, social worker, HR specialist, account manager, sales consultant, hotel administrator, tour guide, coach, lawyer, investigator, manager. **Tip:** camp counselling, volunteering and tutoring are the best tests; learn burnout prevention early."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sign",
+      "name": {
+        "ru": "Человек — Знаковая система",
+        "en": "Person — Sign System"
+      },
+      "description": {
+        "ru": "Работа с условными знаками, цифрами, кодами, текстами, языками, схемами, картами и данными.",
+        "en": "Work with symbols, numbers, codes, texts, languages, diagrams, maps and data."
+      },
+      "lowLabel": {
+        "ru": "Цифры и тексты утомляют",
+        "en": "Numbers and texts tire you"
+      },
+      "highLabel": {
+        "ru": "Люблю данные и символы",
+        "en": "Loves data and symbols"
+      },
+      "color": "#F7E3A1",
+      "scoring": "sum",
+      "min": 0,
+      "max": 8,
+      "bands": [
+        {
+          "min": 0,
+          "max": 2,
+          "label": {
+            "ru": "Слабый интерес",
+            "en": "Weak interest"
+          },
+          "summary": [
+            {
+              "ru": "Долгая работа с цифрами и текстами утомляет",
+              "en": "Long work with numbers and texts tires you"
+            },
+            {
+              "ru": "Вам нужна живая, предметная работа",
+              "en": "You need hands-on, tangible work"
+            },
+            {
+              "ru": "Таблицы и код — не ваш выбор",
+              "en": "Spreadsheets and code aren't your pick"
+            }
+          ],
+          "detailed": {
+            "ru": "Абстрактная работа со знаками — цифрами, кодом, документами — вам не близка. **Совет:** автоматизируйте неизбежную «бумажную» часть любой работы и выбирайте профессии, где результат осязаем.",
+            "en": "Abstract work with signs — numbers, code, documents — doesn't suit you. **Tip:** automate the unavoidable paperwork in any job and choose careers with tangible results."
+          }
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "label": {
+            "ru": "Средний интерес",
+            "en": "Moderate interest"
+          },
+          "summary": [
+            {
+              "ru": "С данными работаете уверенно, когда нужно",
+              "en": "You handle data confidently when needed"
+            },
+            {
+              "ru": "Цифровая грамотность — ваш плюс",
+              "en": "Digital literacy is a plus"
+            },
+            {
+              "ru": "Подойдут роли на стыке",
+              "en": "Hybrid roles fit"
+            }
+          ],
+          "detailed": {
+            "ru": "Знаковые системы вам доступны, но не главный интерес. **Совет:** базовые навыки работы с данными (таблицы, основы программирования, иностранный язык) усиливают почти любую профессию — инвестируйте в них.",
+            "en": "Sign systems are accessible to you but not your main interest. **Tip:** basic data skills (spreadsheets, coding basics, a foreign language) strengthen almost any career — invest in them."
+          }
+        },
+        {
+          "min": 6,
+          "max": 8,
+          "label": {
+            "ru": "Выраженный интерес",
+            "en": "Strong interest"
+          },
+          "summary": [
+            {
+              "ru": "Вам нравится работать с цифрами, кодом, текстами",
+              "en": "You enjoy numbers, code and texts"
+            },
+            {
+              "ru": "Внимательны к деталям и точны",
+              "en": "You're detail-oriented and precise"
+            },
+            {
+              "ru": "Хорошо удерживаете концентрацию",
+              "en": "You sustain concentration well"
+            },
+            {
+              "ru": "Цените логику и порядок",
+              "en": "You value logic and order"
+            }
+          ],
+          "detailed": {
+            "ru": "Знаковые системы — ваш предмет труда. Вам комфортно в мире символов: формул, программ, документов, языков, карт и баз данных. Это один из самых быстрорастущих типов в цифровой экономике.\n\n**Профессии:** программист, аналитик данных, тестировщик, бухгалтер, экономист, аудитор, переводчик, лингвист, редактор-корректор, картограф, геодезист-расчётчик, специалист по кибербезопасности, архивист, математик, актуарий. **Совет:** математика, информатика, иностранные языки; олимпиады и онлайн-курсы по программированию и анализу данных.",
+            "en": "Sign systems are your work subject. You're comfortable in a world of symbols: formulas, programs, documents, languages, maps and databases. This is one of the fastest-growing types in the digital economy.\n\n**Careers:** software developer, data analyst, QA tester, accountant, economist, auditor, translator, linguist, editor-proofreader, cartographer, survey analyst, cybersecurity specialist, archivist, mathematician, actuary. **Tip:** maths, computer science and languages; competitions and online courses in coding and data analysis."
+          }
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "name": {
+        "ru": "Человек — Художественный образ",
+        "en": "Person — Artistic Image"
+      },
+      "description": {
+        "ru": "Создание, воспроизведение и оформление художественных образов: изобразительное искусство, музыка, литература, сцена, дизайн.",
+        "en": "Creating, performing and designing artistic images: visual arts, music, literature, stage, design."
+      },
+      "lowLabel": {
+        "ru": "Творчество — не профессия",
+        "en": "Art isn't your career path"
+      },
+      "highLabel": {
+        "ru": "Живу творчеством",
+        "en": "Lives to create"
+      },
+      "color": "#E7C6F0",
+      "scoring": "sum",
+      "min": 0,
+      "max": 8,
+      "bands": [
+        {
+          "min": 0,
+          "max": 2,
+          "label": {
+            "ru": "Слабый интерес",
+            "en": "Weak interest"
+          },
+          "summary": [
+            {
+              "ru": "Творчество как профессия вас мало привлекает",
+              "en": "Creative work as a career holds little appeal"
+            },
+            {
+              "ru": "Вам ближе конкретные, понятные задачи",
+              "en": "Concrete, clear tasks suit you better"
+            },
+            {
+              "ru": "Искусство — для отдыха",
+              "en": "Art is for leisure"
+            }
+          ],
+          "detailed": {
+            "ru": "Профессии, где главный продукт — художественный образ, вряд ли станут вашим выбором. **Совет:** творческие методы (визуализация, сторителлинг) всё равно полезны в любой работе — используйте их как инструмент.",
+            "en": "Careers whose main product is an artistic image probably won't be your choice. **Tip:** creative methods (visualisation, storytelling) are still useful in any work — use them as tools."
+          }
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "label": {
+            "ru": "Средний интерес",
+            "en": "Moderate interest"
+          },
+          "summary": [
+            {
+              "ru": "Творчество вам приятно",
+              "en": "You enjoy creativity"
+            },
+            {
+              "ru": "Подойдут прикладные творческие роли",
+              "en": "Applied creative roles may fit"
+            },
+            {
+              "ru": "Хобби может стать вторым навыком",
+              "en": "A hobby can become a second skill"
+            }
+          ],
+          "detailed": {
+            "ru": "У вас есть творческая жилка, но она не доминирует. **Совет:** обратите внимание на прикладные профессии на стыке творчества и других типов — UX-дизайн, архитектура, маркетинг, гейм-дизайн, педагогика искусства.",
+            "en": "You have a creative streak, but it doesn't dominate. **Tip:** look at applied careers combining creativity with other types — UX design, architecture, marketing, game design, arts education."
+          }
+        },
+        {
+          "min": 6,
+          "max": 8,
+          "label": {
+            "ru": "Выраженный интерес",
+            "en": "Strong interest"
+          },
+          "summary": [
+            {
+              "ru": "Вам важно создавать и выражать себя",
+              "en": "Creating and self-expression matter"
+            },
+            {
+              "ru": "Вы чувствительны к форме, цвету, звуку, слову",
+              "en": "You're sensitive to form, colour, sound and words"
+            },
+            {
+              "ru": "Рутина вас гасит",
+              "en": "Routine dampens you"
+            },
+            {
+              "ru": "Портфолио — ваш главный актив",
+              "en": "A portfolio is your key asset"
+            }
+          ],
+          "detailed": {
+            "ru": "Художественный образ — ваш предмет труда. Вас вдохновляет создавать то, что вызывает эмоции и впечатления. Творческие профессии конкурентны, поэтому важны портфолио, регулярная практика и умение представить свою работу.\n\n**Профессии:** художник-иллюстратор, графический и UX/UI-дизайнер, дизайнер интерьеров, архитектор, фотограф, видеограф, монтажёр, моушн-дизайнер, музыкант, композитор, звукорежиссёр, актёр, режиссёр, писатель, сценарист, дизайнер одежды, ювелир. **Совет:** собирайте портфолио с первых работ, ищите обратную связь у практиков и развивайте «второй навык» — маркетинг или технологии.",
+            "en": "Artistic images are your work subject. You're inspired to create things that evoke emotion and impressions. Creative careers are competitive, so a portfolio, regular practice and presenting your work matter.\n\n**Careers:** illustrator, graphic and UX/UI designer, interior designer, architect, photographer, videographer, video editor, motion designer, musician, composer, sound engineer, actor, director, writer, screenwriter, fashion designer, jeweller. **Tip:** build a portfolio from your first works, seek feedback from practitioners and develop a 'second skill' — marketing or technology."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "k1",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Ухаживать за животными в ветеринарной клинике",
+            "en": "Care for animals at a veterinary clinic"
+          },
+          "scores": {
+            "nature": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ремонтировать и настраивать велосипеды и электросамокаты",
+            "en": "Repair and tune bicycles and e-scooters"
+          },
+          "scores": {
+            "tech": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Объяснять младшим школьникам трудную тему",
+            "en": "Explain a difficult topic to younger students"
+          },
+          "scores": {
+            "human": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Составлять таблицы и находить в них ошибки",
+            "en": "Build spreadsheets and find errors in them"
+          },
+          "scores": {
+            "sign": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Рисовать иллюстрации к книге",
+            "en": "Draw illustrations for a book"
+          },
+          "scores": {
+            "art": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Выращивать растения в теплице и следить за их здоровьем",
+            "en": "Grow plants in a greenhouse and monitor their health"
+          },
+          "scores": {
+            "nature": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k4",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Собирать и настраивать 3D-принтер",
+            "en": "Assemble and calibrate a 3D printer"
+          },
+          "scores": {
+            "tech": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Помогать новичку освоиться в коллективе",
+            "en": "Help a newcomer settle into a team"
+          },
+          "scores": {
+            "human": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k5",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Писать код для небольшой программы",
+            "en": "Write code for a small program"
+          },
+          "scores": {
+            "sign": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Снимать и монтировать видеоролик",
+            "en": "Shoot and edit a video"
+          },
+          "scores": {
+            "art": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k6",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Изучать пробы воды и почвы в экспедиции",
+            "en": "Study water and soil samples on a field expedition"
+          },
+          "scores": {
+            "nature": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Помогать знакомым помириться после ссоры",
+            "en": "Help people you know make up after a quarrel"
+          },
+          "scores": {
+            "human": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k7",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Чинить бытовую технику",
+            "en": "Repair household appliances"
+          },
+          "scores": {
+            "tech": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Переводить текст с иностранного языка",
+            "en": "Translate a text from a foreign language"
+          },
+          "scores": {
+            "sign": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k8",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Быть вожатым группы детей в летнем лагере",
+            "en": "Lead a group of children at a summer camp"
+          },
+          "scores": {
+            "human": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Сочинять музыку или делать аранжировки",
+            "en": "Compose or arrange music"
+          },
+          "scores": {
+            "art": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k9",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Решать математические и логические задачи",
+            "en": "Solve maths and logic problems"
+          },
+          "scores": {
+            "sign": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Дрессировать собак",
+            "en": "Train dogs"
+          },
+          "scores": {
+            "nature": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k10",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Придумывать дизайн интерьера комнаты",
+            "en": "Design the interior of a room"
+          },
+          "scores": {
+            "art": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Прокладывать и подключать электропроводку",
+            "en": "Install and connect electrical wiring"
+          },
+          "scores": {
+            "tech": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k11",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Управлять строительной или сельскохозяйственной техникой",
+            "en": "Operate construction or farm machinery"
+          },
+          "scores": {
+            "tech": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Наблюдать за птицами и вести учёт их численности",
+            "en": "Observe birds and keep count of their populations"
+          },
+          "scores": {
+            "nature": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k12",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Проверять бухгалтерские документы",
+            "en": "Check accounting documents"
+          },
+          "scores": {
+            "sign": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Консультировать покупателей при выборе товара",
+            "en": "Advise customers on choosing a product"
+          },
+          "scores": {
+            "human": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k13",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Выводить новые сорта растений",
+            "en": "Breed new plant varieties"
+          },
+          "scores": {
+            "nature": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Играть роль в спектакле",
+            "en": "Act a role in a play"
+          },
+          "scores": {
+            "art": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k14",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Ухаживать за больным человеком",
+            "en": "Care for a sick person"
+          },
+          "scores": {
+            "human": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ремонтировать смартфоны и ноутбуки",
+            "en": "Repair smartphones and laptops"
+          },
+          "scores": {
+            "tech": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k15",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Писать рассказы или сценарии",
+            "en": "Write stories or scripts"
+          },
+          "scores": {
+            "art": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Составлять расписание для большой группы людей",
+            "en": "Draw up a timetable for a large group of people"
+          },
+          "scores": {
+            "sign": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k16",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Организовывать волонтёрскую акцию",
+            "en": "Organise a volunteer event"
+          },
+          "scores": {
+            "human": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Работать в заповеднике: охранять лес и его обитателей",
+            "en": "Work in a nature reserve protecting the forest and its wildlife"
+          },
+          "scores": {
+            "nature": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k17",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Анализировать данные опроса и строить графики",
+            "en": "Analyse survey data and build charts"
+          },
+          "scores": {
+            "sign": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Проектировать деталь в CAD-программе и изготавливать её на станке",
+            "en": "Design a part in CAD software and make it on a machine"
+          },
+          "scores": {
+            "tech": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k18",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Делать художественные фотографии",
+            "en": "Take artistic photographs"
+          },
+          "scores": {
+            "art": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Проводить собеседования и подбирать людей в команду",
+            "en": "Interview candidates and build a team"
+          },
+          "scores": {
+            "human": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k19",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Лечить растения в саду и защищать их от вредителей",
+            "en": "Treat garden plants and protect them from pests"
+          },
+          "scores": {
+            "nature": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Прокладывать маршруты по картам и навигационным данным",
+            "en": "Plot routes using maps and navigation data"
+          },
+          "scores": {
+            "sign": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "k20",
+      "text": {
+        "ru": "Что бы вы выбрали?",
+        "en": "Which would you rather do?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Собирать и настраивать электронные устройства",
+            "en": "Assemble and set up electronic devices"
+          },
+          "scores": {
+            "tech": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Придумывать логотип и фирменный стиль",
+            "en": "Create a logo and brand identity"
+          },
+          "scores": {
+            "art": 1
+          }
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "type-nature",
+      "title": {
+        "ru": "Человек — Природа",
+        "en": "Person — Nature"
+      },
+      "emoji": "🌿",
+      "profile": {
+        "nature": 1
+      },
+      "summary": [
+        {
+          "ru": "Ваш предмет труда — живая природа",
+          "en": "Your work subject is living nature"
+        },
+        {
+          "ru": "Терпение и наблюдательность",
+          "en": "Patience and observation"
+        },
+        {
+          "ru": "Важна польза для природы и людей",
+          "en": "Benefit to nature and people matters"
+        },
+        {
+          "ru": "Подходит работа вне офиса",
+          "en": "Work outside the office suits you"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий тип по классификации Е. А. Климова — **«Человек — Природа»**. Вам интересно иметь дело с растениями, животными, микроорганизмами и экосистемами. Результат такого труда часто появляется не сразу, поэтому важны терпение, наблюдательность и ответственность за живое.\n\n**Профессии:** ветеринар, зоотехник, кинолог, агроном, селекционер, эколог, лесничий, биолог, микробиолог, биотехнолог, гидролог, ландшафтный дизайнер, специалист по аквакультуре, фермер.\n\n**Что дальше:** посмотрите, какой тип у вас на втором месте. «Природа + Знак» — исследователь, аналитик экологических данных; «Природа + Техника» — агроинженер, специалист по точному земледелию; «Природа + Человек» — ветеринарный врач, эко-просветитель; «Природа + Образ» — ландшафтный дизайнер, флорист, фотограф дикой природы.",
+        "en": "Your leading type in E. A. Klimov's classification is **Person — Nature**. You're interested in plants, animals, micro-organisms and ecosystems. Results in this work often take time, so patience, observation and responsibility for living things matter.\n\n**Careers:** veterinarian, animal-care specialist, dog trainer, agronomist, plant breeder, ecologist, forester, biologist, microbiologist, biotechnologist, hydrologist, landscape designer, aquaculture specialist, farmer.\n\n**Next steps:** check your second type. Nature + Sign: researcher, environmental-data analyst; Nature + Technology: agricultural engineer, precision-farming specialist; Nature + Person: veterinarian, environmental educator; Nature + Art: landscape designer, florist, wildlife photographer."
+      },
+      "strengths": [
+        {
+          "ru": "Терпение",
+          "en": "Patience"
+        },
+        {
+          "ru": "Наблюдательность",
+          "en": "Observation"
+        },
+        {
+          "ru": "Забота о живом",
+          "en": "Care for living things"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Работа с данными и отчётами",
+          "en": "Working with data and reports"
+        },
+        {
+          "ru": "Коммуникация с людьми",
+          "en": "Communicating with people"
+        }
+      ],
+      "compatibleWith": [
+        "type-tech",
+        "type-sign"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a young naturalist with a puppy, a potted sprout and a magnifying glass in a meadow, soft colors"
+    },
+    {
+      "id": "type-tech",
+      "title": {
+        "ru": "Человек — Техника",
+        "en": "Person — Technology"
+      },
+      "emoji": "⚙️",
+      "profile": {
+        "tech": 1
+      },
+      "summary": [
+        {
+          "ru": "Ваш предмет труда — техника и механизмы",
+          "en": "Your work subject is machines and devices"
+        },
+        {
+          "ru": "Любите собирать, чинить, налаживать",
+          "en": "You love building, fixing and tuning"
+        },
+        {
+          "ru": "Цените точный осязаемый результат",
+          "en": "You value precise, tangible results"
+        },
+        {
+          "ru": "Востребованный профиль на рынке труда",
+          "en": "An in-demand profile"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий тип по классификации Климова — **«Человек — Техника»**. Вас притягивают машины, приборы, механизмы, материалы и энергия: создавать, монтировать, ремонтировать, управлять. В таких профессиях важны точность, техническое мышление и ответственность — ошибка может стоить дорого.\n\n**Профессии:** инженер-конструктор, инженер-механик, электромонтажник, автомеханик, оператор станков с ЧПУ, сварщик, мехатроник, специалист по робототехнике, сервисный инженер, оператор БПЛА, машинист, пилот, мастер по ремонту электроники.\n\n**Что дальше:** «Техника + Знак» — программист встраиваемых систем, инженер-проектировщик; «Техника + Образ» — промышленный дизайнер, звукорежиссёр; «Техника + Человек» — преподаватель технических дисциплин, руководитель производственного участка; «Техника + Природа» — агроинженер, специалист по энергетике.",
+        "en": "Your leading type in Klimov's classification is **Person — Technology**. Machines, instruments, mechanisms, materials and energy attract you: building, installing, repairing, operating. These careers require precision, technical thinking and responsibility — mistakes can be costly.\n\n**Careers:** design engineer, mechanical engineer, electrician, auto mechanic, CNC operator, welder, mechatronics technician, robotics specialist, service engineer, drone operator, train driver, pilot, electronics repair technician.\n\n**Next steps:** Technology + Sign: embedded-systems programmer, design engineer; Technology + Art: industrial designer, sound engineer; Technology + Person: technical-subject teacher, production supervisor; Technology + Nature: agricultural engineer, energy specialist."
+      },
+      "strengths": [
+        {
+          "ru": "Техническая смекалка",
+          "en": "Technical aptitude"
+        },
+        {
+          "ru": "Точность",
+          "en": "Precision"
+        },
+        {
+          "ru": "Практичность",
+          "en": "Practicality"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Объяснять решения другим",
+          "en": "Explaining decisions to others"
+        },
+        {
+          "ru": "Документация",
+          "en": "Documentation"
+        }
+      ],
+      "compatibleWith": [
+        "type-nature",
+        "type-sign"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a cheerful engineer with a wrench beside a friendly little robot and gears, soft colors"
+    },
+    {
+      "id": "type-human",
+      "title": {
+        "ru": "Человек — Человек",
+        "en": "Person — Person"
+      },
+      "emoji": "🤝",
+      "profile": {
+        "human": 1
+      },
+      "summary": [
+        {
+          "ru": "Ваш предмет труда — люди",
+          "en": "Your work subject is people"
+        },
+        {
+          "ru": "Умеете слушать, объяснять, поддерживать",
+          "en": "You listen, explain and support"
+        },
+        {
+          "ru": "Вас заряжает отклик и польза",
+          "en": "Feedback and helping energise you"
+        },
+        {
+          "ru": "Важно беречь себя от выгорания",
+          "en": "Protect yourself from burnout"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий тип по классификации Климова — **«Человек — Человек»**. Вам интересно обучать, воспитывать, лечить, консультировать, обслуживать и руководить. Такие профессии требуют умения понимать людей, терпения, эмоциональной устойчивости и высокой ответственности.\n\n**Профессии:** учитель, воспитатель, психолог, врач, медсестра/медбрат, социальный работник, HR-специалист, менеджер по работе с клиентами, администратор, экскурсовод, тренер, юрист, следователь, руководитель.\n\n**Что дальше:** «Человек + Знак» — юрист, HR-аналитик, преподаватель точных наук; «Человек + Природа» — врач, ветеринар, педагог-эколог; «Человек + Образ» — педагог искусства, ведущий, актёр; «Человек + Техника» — инструктор, мастер производственного обучения. Попробуйте себя в вожатстве, наставничестве или волонтёрстве.",
+        "en": "Your leading type in Klimov's classification is **Person — Person**. You're interested in teaching, upbringing, healing, counselling, serving and leading. These careers require understanding people, patience, emotional resilience and high responsibility.\n\n**Careers:** teacher, preschool teacher, psychologist, physician, nurse, social worker, HR specialist, account manager, administrator, tour guide, coach, lawyer, investigator, manager.\n\n**Next steps:** Person + Sign: lawyer, HR analyst, maths or science teacher; Person + Nature: physician, veterinarian, environmental educator; Person + Art: arts teacher, presenter, actor; Person + Technology: instructor, vocational trainer. Try camp counselling, mentoring or volunteering."
+      },
+      "strengths": [
+        {
+          "ru": "Эмпатия",
+          "en": "Empathy"
+        },
+        {
+          "ru": "Коммуникация",
+          "en": "Communication"
+        },
+        {
+          "ru": "Умение мотивировать",
+          "en": "Motivating others"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Границы и самозабота",
+          "en": "Boundaries and self-care"
+        },
+        {
+          "ru": "Опора на факты",
+          "en": "Relying on facts"
+        }
+      ],
+      "compatibleWith": [
+        "type-art",
+        "type-sign"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a friendly teacher-doctor figure with children and speech bubbles with hearts, soft colors"
+    },
+    {
+      "id": "type-sign",
+      "title": {
+        "ru": "Человек — Знаковая система",
+        "en": "Person — Sign System"
+      },
+      "emoji": "🔢",
+      "profile": {
+        "sign": 1
+      },
+      "summary": [
+        {
+          "ru": "Ваш предмет труда — знаки, цифры, тексты, код",
+          "en": "Your work subject is symbols, numbers, texts and code"
+        },
+        {
+          "ru": "Внимательны к деталям",
+          "en": "You're detail-oriented"
+        },
+        {
+          "ru": "Хорошо концентрируетесь",
+          "en": "You concentrate well"
+        },
+        {
+          "ru": "Один из самых растущих типов профессий",
+          "en": "One of the fastest-growing career types"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий тип по классификации Климова — **«Человек — Знаковая система»**. Вам интересны цифры, формулы, языки, программы, документы, карты и данные. Такие профессии требуют усидчивости, точности, логики и умения долго удерживать внимание.\n\n**Профессии:** программист, аналитик данных, тестировщик, бухгалтер, экономист, аудитор, переводчик, лингвист, редактор-корректор, картограф, специалист по кибербезопасности, архивист, математик, актуарий.\n\n**Что дальше:** «Знак + Человек» — преподаватель, юрист, HR-аналитик; «Знак + Техника» — инженер-программист, специалист по автоматизации; «Знак + Образ» — UX-исследователь, верстальщик, редактор; «Знак + Природа» — биоинформатик, климатолог. Цифровые навыки — ваш главный карьерный актив.",
+        "en": "Your leading type in Klimov's classification is **Person — Sign System**. Numbers, formulas, languages, programs, documents, maps and data interest you. These careers require persistence, accuracy, logic and sustained attention.\n\n**Careers:** software developer, data analyst, QA tester, accountant, economist, auditor, translator, linguist, editor-proofreader, cartographer, cybersecurity specialist, archivist, mathematician, actuary.\n\n**Next steps:** Sign + Person: teacher, lawyer, HR analyst; Sign + Technology: software engineer, automation specialist; Sign + Art: UX researcher, layout designer, editor; Sign + Nature: bioinformatician, climate scientist. Digital skills are your key career asset."
+      },
+      "strengths": [
+        {
+          "ru": "Логика",
+          "en": "Logic"
+        },
+        {
+          "ru": "Точность",
+          "en": "Accuracy"
+        },
+        {
+          "ru": "Усидчивость",
+          "en": "Persistence"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Коммуникация и презентация результатов",
+          "en": "Communicating and presenting results"
+        },
+        {
+          "ru": "Гибкость",
+          "en": "Flexibility"
+        }
+      ],
+      "compatibleWith": [
+        "type-human",
+        "type-tech"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a focused coder with a laptop surrounded by floating numbers, letters and charts, soft colors"
+    },
+    {
+      "id": "type-art",
+      "title": {
+        "ru": "Человек — Художественный образ",
+        "en": "Person — Artistic Image"
+      },
+      "emoji": "🎨",
+      "profile": {
+        "art": 1
+      },
+      "summary": [
+        {
+          "ru": "Ваш предмет труда — художественный образ",
+          "en": "Your work subject is the artistic image"
+        },
+        {
+          "ru": "Вам важно создавать и выражать себя",
+          "en": "Creating and self-expression matter"
+        },
+        {
+          "ru": "Чувствительны к форме, цвету, звуку, слову",
+          "en": "Sensitive to form, colour, sound and words"
+        },
+        {
+          "ru": "Портфолио — ваш главный актив",
+          "en": "A portfolio is your key asset"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий тип по классификации Климова — **«Человек — Художественный образ»**. Вам интересно создавать, исполнять и оформлять произведения: рисунок, музыку, текст, сцену, дизайн, фото и видео. Такие профессии требуют воображения, развитого вкуса, настойчивости и умения выдерживать критику.\n\n**Профессии:** иллюстратор, графический и UX/UI-дизайнер, дизайнер интерьеров, архитектор, фотограф, видеограф, монтажёр, моушн-дизайнер, музыкант, композитор, звукорежиссёр, актёр, режиссёр, писатель, сценарист, дизайнер одежды, ювелир.\n\n**Что дальше:** «Образ + Знак» — редактор, UX-дизайнер, гейм-дизайнер; «Образ + Техника» — промышленный дизайнер, звукорежиссёр, 3D-художник; «Образ + Человек» — педагог искусства, арт-терапевт, ведущий; «Образ + Природа» — ландшафтный дизайнер, флорист. Начните собирать портфолио уже сейчас.",
+        "en": "Your leading type in Klimov's classification is **Person — Artistic Image**. You want to create, perform and design works: drawing, music, writing, stage, design, photo and video. These careers require imagination, developed taste, persistence and resilience to criticism.\n\n**Careers:** illustrator, graphic and UX/UI designer, interior designer, architect, photographer, videographer, video editor, motion designer, musician, composer, sound engineer, actor, director, writer, screenwriter, fashion designer, jeweller.\n\n**Next steps:** Art + Sign: editor, UX designer, game designer; Art + Technology: industrial designer, sound engineer, 3D artist; Art + Person: arts teacher, art therapist, presenter; Art + Nature: landscape designer, florist. Start your portfolio now."
+      },
+      "strengths": [
+        {
+          "ru": "Воображение",
+          "en": "Imagination"
+        },
+        {
+          "ru": "Вкус",
+          "en": "Taste"
+        },
+        {
+          "ru": "Выразительность",
+          "en": "Expressiveness"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Дисциплина и сроки",
+          "en": "Discipline and deadlines"
+        },
+        {
+          "ru": "Продвижение своих работ",
+          "en": "Promoting your work"
+        }
+      ],
+      "compatibleWith": [
+        "type-human",
+        "type-nature"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a joyful artist with a paintbrush, a guitar and a camera among colorful splashes, soft colors"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый выбор даёт 1 балл одному из пяти типов. Каждый тип встречается в 8 парах, поэтому балл по типу — от 0 до 8, а сумма всех баллов всегда 20. Ведущий тип — с наибольшим баллом (при равенстве покажите оба). Уровни: 0–2 — слабый интерес, 3–5 — средний, 6–8 — выраженный.",
+    "en": "Each choice gives 1 point to one of five types. Each type appears in 8 pairs, so each type scores 0–8 and all scores always sum to 20. Your leading type is the highest score (show both if tied). Levels: 0–2 weak, 3–5 moderate, 6–8 strong interest."
+  },
+  "resultIntro": {
+    "ru": "Климов делил все профессии по тому, **с чем** человек работает: с природой, техникой, людьми, знаками или художественными образами. Ниже — ваш ведущий тип и то, как его можно сочетать со вторым по силе.",
+    "en": "Klimov grouped all occupations by **what** you work with: nature, technology, people, signs or artistic images. Below is your leading type and how to combine it with your second-strongest."
+  }
+}

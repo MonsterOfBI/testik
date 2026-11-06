@@ -1,0 +1,372 @@
+{
+  "id": "depression-phq9",
+  "category": "mental-health",
+  "kind": "likert",
+  "seriousness": "screening",
+  "title": {
+    "ru": "Депрессия (PHQ-9)",
+    "en": "Depression (PHQ-9)"
+  },
+  "tagline": {
+    "ru": "Короткая проверка настроения и сил — та же, что используют врачи по всему миру",
+    "en": "A short check of mood and energy — the same one doctors use worldwide"
+  },
+  "description": {
+    "ru": "PHQ-9 — самый распространённый в мире опросник для скрининга депрессии. Девять вопросов о последних двух неделях помогут оценить, насколько выражены симптомы сниженного настроения, — от минимальных до тяжёлых, — и понять, когда стоит обратиться за поддержкой. Результат не является диагнозом, но может стать первым шагом к тому, чтобы позаботиться о себе.",
+    "en": "The PHQ-9 is the most widely used depression screening questionnaire in the world. Nine questions about the last two weeks help you see how pronounced symptoms of low mood are — from minimal to severe — and understand when it makes sense to reach out for support. The result is not a diagnosis, but it can be a first step toward taking care of yourself."
+  },
+  "emoji": "🌤️",
+  "durationMin": 3,
+  "popularity": 5,
+  "tags": [
+    {
+      "ru": "депрессия",
+      "en": "depression"
+    },
+    {
+      "ru": "настроение",
+      "en": "mood"
+    },
+    {
+      "ru": "скрининг",
+      "en": "screening"
+    },
+    {
+      "ru": "психическое здоровье",
+      "en": "mental health"
+    },
+    {
+      "ru": "энергия",
+      "en": "energy"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряет тест.** Patient Health Questionnaire-9 (PHQ-9) — модуль депрессии из опросника PHQ. Девять пунктов точно соответствуют девяти критериям большого депрессивного эпизода по DSM-IV: потеря интереса, сниженное настроение, нарушения сна, усталость, изменения аппетита, чувство вины или никчёмности, трудности концентрации, заторможенность или беспокойство и мысли о смерти или самоповреждении. Оценивается частота каждого симптома за последние 2 недели.\n\n**История.** PHQ разработан Робертом Спитцером, Джанет Уильямс, Куртом Кроенке и коллегами как самозаполняемая версия диагностической системы PRIME-MD при образовательном гранте компании Pfizer. Валидация PHQ-9 опубликована в 2001 году (*Journal of General Internal Medicine*) на данных 6 000 пациентов 8 клиник первичной помощи и 7 акушерско-гинекологических клиник; у 580 из них результат сверялся с независимым интервью специалиста в области психического здоровья.\n\n**Как считается.** Каждый ответ оценивается от 0 до 3; общий балл — от 0 до 27. Официальные пороги тяжести: 5, 10, 15 и 20 баллов (лёгкая, умеренная, умеренно тяжёлая и тяжёлая депрессивная симптоматика). Оригинальный опросник содержит также 10-й вопрос о том, насколько проблемы затрудняют повседневную жизнь; он не входит в балл и в онлайн-версии сайта опущен.\n\n**Надёжность и валидность.** При пороге 10 баллов чувствительность и специфичность для большой депрессии составили по 88 %. Внутренняя согласованность α = 0,89 (первичная помощь) и 0,86 (акушерско-гинекологические клиники), ретестовая надёжность через 48 часов — 0,84 (Kroenke et al., 2001). В репрезентативной выборке населения Германии (n = 5 018) подтверждена однофакторная структура; средний балл у женщин — 3,1 (SD 3,5), у мужчин — 2,7 (SD 3,5); у 5,6 % выявлена симптоматика умеренной и большей тяжести (Kocalevent et al., 2013).\n\n**Вопрос 9 и безопасность.** Любой ответ, кроме «Ни разу», на вопрос 9 (мысли о смерти или самоповреждении) клинически требует отдельного внимания независимо от общего балла. Поэтому сайт в этом случае показывает мягкое сообщение с контактами экстренной психологической помощи. Положительный ответ не означает, что человек обязательно находится в опасности, но это важный повод поговорить со специалистом.\n\n**Русская версия.** Используется официальный перевод на русский язык (для России), распространяемый Pfizer вместе с оригиналом на сайте phqscreeners.com; формулировки пунктов и вариантов ответа воспроизведены дословно. На бланке указано: «Воспроизведение, перевод, показ и распространение разрешены».\n\n**Нормы на сайте.** Процентиль рассчитывается по данным Kocalevent et al. (2013). Распределение баллов в популяции сильно смещено к нулю, поэтому процентиль приблизителен.\n\n**Ограничения.** Это самоотчёт о коротком периоде. Похожие симптомы могут быть вызваны горем, хроническим стрессом, недосыпом, телесными заболеваниями (например, гипотиреозом или анемией) или лекарствами. Тест не позволяет отличить депрессивный эпизод в рамках биполярного расстройства. Диагноз ставит только специалист.",
+    "en": "**What it measures.** The Patient Health Questionnaire-9 (PHQ-9) is the depression module of the PHQ. Its nine items map directly onto the nine DSM-IV criteria for a major depressive episode: loss of interest, low mood, sleep problems, fatigue, appetite changes, guilt or worthlessness, poor concentration, slowing or restlessness, and thoughts of death or self-harm. It rates how often each symptom occurred over the last 2 weeks.\n\n**History.** The PHQ was developed by Robert Spitzer, Janet Williams, Kurt Kroenke and colleagues as a self-report version of the PRIME-MD diagnostic system, with an educational grant from Pfizer. The PHQ-9 validation was published in 2001 (*Journal of General Internal Medicine*) using data from 6,000 patients in 8 primary-care and 7 obstetrics–gynaecology clinics; for 580 of them the result was compared with an independent interview by a mental-health professional.\n\n**Scoring.** Each answer scores 0 to 3; the total ranges from 0 to 27. Official severity cut-points are 5, 10, 15 and 20 (mild, moderate, moderately severe and severe depressive symptoms). The original form also has a 10th question on how much the problems make daily life difficult; it is not part of the score and is omitted from the online version on this site.\n\n**Reliability and validity.** At a cut-off of 10, sensitivity and specificity for major depression were both 88%. Internal consistency was α = 0.89 (primary care) and 0.86 (obstetrics–gynaecology), and 48-hour test–retest reliability was 0.84 (Kroenke et al., 2001). In a representative German general-population sample (n = 5,018), a one-factor structure was confirmed; mean scores were 3.1 (SD 3.5) for women and 2.7 (SD 3.5) for men, and 5.6% had moderate or higher symptom severity (Kocalevent et al., 2013).\n\n**Item 9 and safety.** Any answer other than \"Not at all\" on item 9 (thoughts of death or self-harm) clinically calls for separate attention, regardless of the total score. In that case the site shows a gentle message with crisis-support contacts. A positive answer does not necessarily mean a person is in danger, but it is an important reason to talk to a professional.\n\n**Russian version.** The official Russian (for Russia) translation distributed by Pfizer alongside the original at phqscreeners.com is used, with item and answer wording reproduced verbatim. The form states that reproduction, translation, display and distribution are permitted.\n\n**Norms on this site.** Percentiles are estimated from Kocalevent et al. (2013). Population scores are strongly skewed toward zero, so the percentile is approximate.\n\n**Limitations.** It is a self-report covering a short period. Similar symptoms can be caused by grief, chronic stress, lack of sleep, physical illness (such as hypothyroidism or anaemia) or medication. The test cannot tell whether a depressive episode is part of bipolar disorder. Only a clinician can make a diagnosis."
+  },
+  "sources": [
+    {
+      "citation": "Kroenke, K., Spitzer, R. L., & Williams, J. B. W. (2001). The PHQ-9: Validity of a brief depression severity measure. Journal of General Internal Medicine, 16(9), 606–613.",
+      "doi": "10.1046/j.1525-1497.2001.016009606.x"
+    },
+    {
+      "citation": "Kocalevent, R.-D., Hinz, A., & Brähler, E. (2013). Standardization of the depression screener Patient Health Questionnaire (PHQ-9) in the general population. General Hospital Psychiatry, 35(5), 551–555.",
+      "url": "https://read.qxmd.com/read/23664569/standardization-of-the-depression-screener-patient-health-questionnaire-phq-9-in-the-general-population",
+      "doi": "10.1016/j.genhosppsych.2013.04.006"
+    },
+    {
+      "citation": "Spitzer, R. L., Kroenke, K., & Williams, J. B. W. (1999). Validation and utility of a self-report version of PRIME-MD: The PHQ primary care study. JAMA, 282(18), 1737–1744.",
+      "doi": "10.1001/jama.282.18.1737"
+    },
+    {
+      "citation": "Pfizer Inc. PHQ-9 — official Russian (for Russia) translation.",
+      "url": "https://www.ecfs.eu/sites/default/files/general-content-files/working-groups/Mental%20Health/PHQ9_Russian%20for%20Russia.pdf"
+    },
+    {
+      "citation": "Pfizer Inc. PHQ and GAD-7 screeners and official translations.",
+      "url": "https://www.phqscreeners.com/"
+    }
+  ],
+  "license": "Free to use. The PHQ-9 was developed by Drs. Robert L. Spitzer, Janet B. W. Williams, Kurt Kroenke and colleagues with an educational grant from Pfizer Inc.; the official forms carry the statement 'No permission required to reproduce, translate, display or distribute.' Originals and official translations (incl. Russian for Russia): https://www.phqscreeners.com/ . Keep item wording and scoring unchanged and credit the developers.",
+  "disclaimer": {
+    "ru": "Этот тест — скрининговый инструмент, а не диагноз. Он помогает заметить возможные трудности и решить, стоит ли обратиться к специалисту, но поставить диагноз может только врач-психиатр, психотерапевт или клинический психолог после очной консультации. Результат теста не заменяет медицинскую помощь. Важно: если в вопросе 9 (мысли о том, что лучше было бы умереть, или о том, чтобы причинить себе вред) вы выбрали любой ответ, кроме «Ни разу», сайт покажет вам отдельное сообщение с контактами помощи — независимо от общего балла. Пожалуйста, прочитайте его и не откладывайте разговор со специалистом. Если вам сейчас очень тяжело или появляются мысли о том, чтобы причинить себе вред, пожалуйста, не оставайтесь с этим наедине. Экстренные службы в России и странах ЕС — 112. Москва: Московская служба психологической помощи населению — 051 (с мобильного 8-495-051), круглосуточно и бесплатно. Детям, подросткам и родителям: Детский телефон доверия — 8-800-2000-122 (бесплатно по всей России). В других странах бесплатную линию помощи можно найти на сайте findahelpline.com.",
+    "en": "This test is a screening tool, not a diagnosis. It can help you notice possible difficulties and decide whether to talk to a professional, but only a qualified clinician (a psychiatrist, psychotherapist or clinical psychologist) can make a diagnosis after a personal consultation. Your result does not replace medical care. Important: if you chose any answer other than \"Not at all\" on question 9 (thoughts that you would be better off dead or of hurting yourself), the site will show you a separate message with help contacts — regardless of your total score. Please read it and do not put off talking to a professional. If you are going through a very hard time or having thoughts of hurting yourself, please don't stay alone with it. Emergency services: 112 in Russia and the EU (911 in the US and Canada). Moscow: Moscow Psychological Help Service — 051 (from a mobile 8-495-051), 24/7 and free of charge. Children, teenagers and parents in Russia: Children's Helpline — 8-800-2000-122 (free nationwide). US: call or text 988 (Suicide & Crisis Lifeline). UK and Ireland: Samaritans — 116 123. Other countries: find a free helpline at findahelpline.com."
+  },
+  "instructions": {
+    "ru": "Как часто за последние 2 недели Вас беспокоили следующие проблемы? Для каждого пункта выберите вариант, который подходит лучше всего. Здесь нет правильных или неправильных ответов.",
+    "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems? For each item, choose the answer that fits best. There are no right or wrong answers."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Ни разу",
+        "en": "Not at all"
+      },
+      {
+        "ru": "Несколько дней",
+        "en": "Several days"
+      },
+      {
+        "ru": "Более недели",
+        "en": "More than half the days"
+      },
+      {
+        "ru": "Почти каждый день",
+        "en": "Nearly every day"
+      }
+    ],
+    "values": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "depression",
+      "name": {
+        "ru": "Депрессивная симптоматика",
+        "en": "Depressive symptoms"
+      },
+      "description": {
+        "ru": "Насколько часто за последние две недели вас беспокоили основные проявления депрессии: сниженное настроение, потеря интереса, усталость, нарушения сна и аппетита, трудности с концентрацией и тяжёлые мысли о себе.",
+        "en": "How often over the last two weeks you have been bothered by the core signs of depression: low mood, loss of interest, fatigue, sleep and appetite changes, poor concentration and heavy thoughts about yourself."
+      },
+      "lowLabel": {
+        "ru": "Настроение в порядке",
+        "en": "Mood is OK"
+      },
+      "highLabel": {
+        "ru": "Тяжёлая симптоматика",
+        "en": "Severe symptoms"
+      },
+      "color": "#C9D7F2",
+      "scoring": "sum",
+      "min": 0,
+      "max": 27,
+      "norms": {
+        "mean": 2.91,
+        "sd": 3.51,
+        "n": 5018,
+        "population": "German general population, nationally representative household surveys 2003–2008 (53.6% women, mean age 48.9)",
+        "source": "Kocalevent, Hinz & Brähler (2013), General Hospital Psychiatry 35(5):551–555; overall mean/SD pooled from the reported sex-specific values (women 3.1 ± 3.5, men 2.7 ± 3.5). Distribution is right-skewed."
+      },
+      "bands": [
+        {
+          "min": 0,
+          "max": 4,
+          "label": {
+            "ru": "Минимальная симптоматика",
+            "en": "None to minimal"
+          },
+          "summary": [
+            {
+              "ru": "Признаков депрессии за последние две недели практически нет.",
+              "en": "There have been almost no signs of depression over the last two weeks."
+            },
+            {
+              "ru": "Так отвечает большинство людей в общей популяции.",
+              "en": "Most people in the general population answer this way."
+            },
+            {
+              "ru": "Грустные или вялые дни бывают у всех — это нормально.",
+              "en": "Everyone has sad or sluggish days — that is normal."
+            },
+            {
+              "ru": "Продолжайте заботиться о сне, движении и общении.",
+              "en": "Keep looking after your sleep, movement and connections."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши ответы говорят о том, что сейчас настроение и уровень энергии в целом в порядке. Отдельные трудные дни бывают у каждого и не означают депрессии. Хорошее время, чтобы заметить, что помогает вам поддерживать равновесие, и беречь это: регулярный сон, движение, дневной свет, общение с близкими и занятия, которые приносят радость.\n\nЕсли ваш результат не совпадает с тем, что вы чувствуете, или вас беспокоит что-то, о чём тест не спрашивал, об этом всё равно можно и нужно поговорить с врачом или психологом.",
+            "en": "Your answers suggest that your mood and energy are generally fine right now. Everyone has the occasional hard day, and that does not mean depression. It is a good time to notice what helps you stay balanced and to protect it: regular sleep, movement, daylight, time with people close to you and activities that bring you joy.\n\nIf your result does not match how you feel, or something is bothering you that the test did not ask about, it is still perfectly fine — and worthwhile — to talk with a doctor or psychologist."
+          }
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "label": {
+            "ru": "Лёгкая симптоматика",
+            "en": "Mild"
+          },
+          "summary": [
+            {
+              "ru": "Некоторые симптомы сниженного настроения беспокоили вас по нескольку дней.",
+              "en": "Some symptoms of low mood have bothered you on several days."
+            },
+            {
+              "ru": "Часто это реакция на усталость, стресс или трудный период.",
+              "en": "This is often a response to tiredness, stress or a difficult period."
+            },
+            {
+              "ru": "Помогают режим, движение, общение и маленькие приятные дела.",
+              "en": "Routine, movement, connection and small enjoyable activities help."
+            },
+            {
+              "ru": "Повторите тест через 2 недели; если лучше не становится — обратитесь к специалисту.",
+              "en": "Retake the test in 2 weeks; if things do not improve, see a professional."
+            }
+          ],
+          "detailed": {
+            "ru": "За последние две недели вы иногда замечали у себя признаки сниженного настроения: усталость, меньше интереса к делам, трудности со сном или концентрацией. Так бывает у многих людей в периоды перегрузки, перемен или потерь. На этом уровне часто помогают бережные шаги, которые возвращают в жизнь энергию и смысл.\n\nПопробуйте «поведенческую активацию»: каждый день планируйте хотя бы одно небольшое дело, которое приносит удовольствие или ощущение выполненного, — прогулку, встречу, хобби. Старайтесь вставать и ложиться в одно и то же время, бывать на дневном свету, двигаться (даже 20–30 минут ходьбы), ограничить алкоголь. Расскажите о своём состоянии человеку, которому доверяете: поддержка близких — важный защитный фактор.\n\nРазработчики шкалы рекомендуют на этом уровне наблюдать за динамикой и повторить тест через пару недель. Если симптомы сохраняются, усиливаются или мешают работе, учёбе и отношениям, стоит обратиться к психологу, психотерапевту или врачу.",
+            "en": "Over the last two weeks you have sometimes noticed signs of low mood: tiredness, less interest in things, trouble sleeping or concentrating. This happens to many people during times of overload, change or loss. At this level, gentle steps that bring energy and meaning back into life often help.\n\nTry \"behavioural activation\": every day, plan at least one small activity that gives you pleasure or a sense of achievement — a walk, meeting someone, a hobby. Aim to get up and go to bed at the same times, spend time in daylight, move your body (even a 20–30-minute walk) and cut down on alcohol. Tell someone you trust how you are feeling: support from others is an important protective factor.\n\nAt this level the scale's developers suggest watching how things develop and repeating the test in a couple of weeks. If the symptoms persist, increase, or get in the way of work, study or relationships, it is worth seeing a psychologist, psychotherapist or doctor."
+          }
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "label": {
+            "ru": "Умеренная симптоматика",
+            "en": "Moderate"
+          },
+          "summary": [
+            {
+              "ru": "Симптомы депрессии присутствовали во многие дни.",
+              "en": "Depressive symptoms have been present on many days."
+            },
+            {
+              "ru": "10 баллов — порог, при котором рекомендуется консультация специалиста.",
+              "en": "A score of 10 is the threshold at which a professional assessment is recommended."
+            },
+            {
+              "ru": "Депрессия хорошо поддаётся лечению — психотерапией и, при необходимости, лекарствами.",
+              "en": "Depression responds well to treatment — psychotherapy and, if needed, medication."
+            },
+            {
+              "ru": "Вы заслуживаете поддержки — не нужно ждать, пока станет хуже.",
+              "en": "You deserve support — there is no need to wait until it gets worse."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат говорит о том, что в последние недели вам было непросто: сниженное настроение, усталость или потеря интереса появлялись часто и, вероятно, отнимают много сил. Это не лень и не слабость характера — так проявляется состояние, которое хорошо знакомо специалистам и хорошо поддаётся помощи.\n\nНачиная с 10 баллов рекомендуется обсудить своё состояние со специалистом: психотерапевтом, психиатром, клиническим психологом или врачом общей практики. Он поможет разобраться в причинах (в том числе исключить телесные, например нарушения работы щитовидной железы) и подобрать помощь. Наиболее изучены когнитивно-поведенческая и интерперсональная психотерапия; в ряде случаев врач может предложить антидепрессанты.\n\nПока вы ищете специалиста, старайтесь сохранять простой распорядок дня, не отказываться полностью от общения и движения и ставить себе маленькие, выполнимые цели. Если становится очень тяжело или появляются мысли о том, чтобы причинить себе вред, сразу обратитесь на линию помощи.",
+            "en": "Your result suggests that the last few weeks have been hard: low mood, tiredness or loss of interest came up often and are probably taking a lot of energy. This is not laziness or a character flaw — it is a state that specialists know well and that responds well to help.\n\nFrom a score of 10, it is recommended to discuss how you feel with a professional: a psychotherapist, psychiatrist, clinical psychologist or family doctor. They can help work out the causes (including ruling out physical ones such as thyroid problems) and find the right help. Cognitive behavioural therapy and interpersonal therapy are the best studied; in some cases a doctor may suggest antidepressants.\n\nWhile you look for a professional, try to keep a simple daily routine, not to give up contact with people and movement completely, and to set yourself small, achievable goals. If things become very hard or you have thoughts of hurting yourself, please contact a helpline straight away."
+          }
+        },
+        {
+          "min": 15,
+          "max": 19,
+          "label": {
+            "ru": "Умеренно тяжёлая симптоматика",
+            "en": "Moderately severe"
+          },
+          "summary": [
+            {
+              "ru": "Симптомы депрессии были с вами больше половины дней.",
+              "en": "Depressive symptoms have been with you more than half the days."
+            },
+            {
+              "ru": "На этом уровне обычно рекомендуется активное лечение.",
+              "en": "Active treatment is usually recommended at this level."
+            },
+            {
+              "ru": "Постарайтесь записаться к специалисту в ближайшие дни.",
+              "en": "Try to book an appointment with a professional in the next few days."
+            },
+            {
+              "ru": "Расскажите о своём состоянии близкому человеку — вы не должны справляться в одиночку.",
+              "en": "Tell someone close to you how you feel — you do not have to cope alone."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши ответы показывают, что депрессивные симптомы в последние две недели были выражены и, скорее всего, заметно мешают повседневной жизни: работе, учёбе, отношениям, заботе о себе. Это тяжело, и то, что вы прошли этот тест, — уже шаг навстречу себе.\n\nНа этом уровне специалисты обычно рекомендуют активное лечение — психотерапию, лекарства или их сочетание. Пожалуйста, постарайтесь в ближайшие дни записаться к психиатру или психотерапевту; можно начать с врача общей практики. Если сделать это самостоятельно трудно, попросите близкого человека помочь найти специалиста и, возможно, сходить с вами.\n\nДо начала помощи будьте к себе особенно бережны: снизьте требования к себе, держитесь простого режима сна и питания, не оставайтесь надолго в одиночестве. Если появляются мысли о смерти или о том, чтобы причинить себе вред, не ждите приёма — звоните на линию психологической помощи или в экстренные службы (112).",
+            "en": "Your answers show that depressive symptoms have been pronounced over the last two weeks and are probably getting in the way of daily life — work, study, relationships, looking after yourself. That is hard, and taking this test is already a step toward caring for yourself.\n\nAt this level, specialists usually recommend active treatment — psychotherapy, medication or both. Please try to book an appointment with a psychiatrist or psychotherapist in the next few days; starting with your family doctor is fine too. If doing this on your own feels hard, ask someone close to help you find a professional and perhaps go with you.\n\nUntil help begins, be especially gentle with yourself: lower your expectations, keep a simple routine of sleep and meals, and avoid long stretches alone. If thoughts of death or of hurting yourself come up, do not wait for an appointment — call a crisis line or emergency services (112)."
+          }
+        },
+        {
+          "min": 20,
+          "max": 27,
+          "label": {
+            "ru": "Тяжёлая симптоматика",
+            "en": "Severe"
+          },
+          "summary": [
+            {
+              "ru": "Симптомы депрессии были почти постоянными и, вероятно, очень изматывают.",
+              "en": "Depressive symptoms have been almost constant and are probably exhausting."
+            },
+            {
+              "ru": "Пожалуйста, обратитесь к психиатру или психотерапевту как можно скорее.",
+              "en": "Please contact a psychiatrist or psychotherapist as soon as possible."
+            },
+            {
+              "ru": "Даже тяжёлая депрессия лечится — помощь действительно работает.",
+              "en": "Even severe depression is treatable — help really does work."
+            },
+            {
+              "ru": "Если вам небезопасно прямо сейчас, звоните 112 или на линию помощи.",
+              "en": "If you are not safe right now, call 112 or a crisis line."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш результат говорит о том, что вам сейчас очень тяжело: сниженное настроение, усталость и другие симптомы присутствуют почти каждый день. Когда депрессия так выражена, может казаться, что ничего не изменится, — но это часть самой депрессии, а не правда о вашем будущем. Тяжёлая депрессия лечится, и многим людям становится значительно лучше.\n\nПожалуйста, постарайтесь как можно скорее — в идеале в ближайшие дни — обратиться к психиатру или психотерапевту. Если сил на это нет, расскажите о своём состоянии близкому человеку и попросите его помочь. Специалист может предложить психотерапию, медикаментозное лечение или их сочетание и вместе с вами составить план безопасности.\n\nЕсли у вас есть мысли о смерти или о том, чтобы причинить себе вред, или вы чувствуете, что можете не справиться, пожалуйста, прямо сейчас позвоните в экстренные службы (112) или на линию психологической помощи — контакты указаны ниже. Вы не одни, и вы заслуживаете помощи.",
+            "en": "Your result suggests that you are having a very hard time right now: low mood, tiredness and other symptoms are present almost every day. When depression is this strong, it can feel as if nothing will ever change — but that feeling is part of the depression, not the truth about your future. Severe depression is treatable, and many people get significantly better.\n\nPlease try to contact a psychiatrist or psychotherapist as soon as possible — ideally within the next few days. If you do not have the energy for that, tell someone close to you how you are and ask them to help. A professional can offer psychotherapy, medication or both, and can make a safety plan together with you.\n\nIf you are having thoughts of death or of hurting yourself, or you feel you might not cope, please call emergency services (112) or a crisis line right now — the contacts are listed below. You are not alone, and you deserve help."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "phq9-1",
+      "text": {
+        "ru": "Вам не хотелось ничего делать",
+        "en": "Little interest or pleasure in doing things"
+      },
+      "dimension": "depression"
+    },
+    {
+      "id": "phq9-2",
+      "text": {
+        "ru": "У Вас было плохое настроение, Вы были подавлены или испытывали чувство безысходности",
+        "en": "Feeling down, depressed, or hopeless"
+      },
+      "dimension": "depression"
+    },
+    {
+      "id": "phq9-3",
+      "text": {
+        "ru": "Вам было трудно заснуть, у Вас был прерывистый сон, или Вы слишком много спали",
+        "en": "Trouble falling or staying asleep, or sleeping too much"
+      },
+      "dimension": "depression"
+    },
+    {
+      "id": "phq9-4",
+      "text": {
+        "ru": "Вы были утомлены, или у Вас было мало сил",
+        "en": "Feeling tired or having little energy"
+      },
+      "dimension": "depression"
+    },
+    {
+      "id": "phq9-5",
+      "text": {
+        "ru": "У Вас был плохой аппетит, или Вы переедали",
+        "en": "Poor appetite or overeating"
+      },
+      "dimension": "depression"
+    },
+    {
+      "id": "phq9-6",
+      "text": {
+        "ru": "Вы плохо о себе думали: считали себя неудачником (неудачницей), или были в себе разочарованы, или считали, что подвели свою семью",
+        "en": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down"
+      },
+      "dimension": "depression"
+    },
+    {
+      "id": "phq9-7",
+      "text": {
+        "ru": "Вам было трудно сосредоточиться (например, на чтении газеты или на просмотре телепередач)",
+        "en": "Trouble concentrating on things, such as reading the newspaper or watching television"
+      },
+      "dimension": "depression"
+    },
+    {
+      "id": "phq9-8",
+      "text": {
+        "ru": "Вы двигались или говорили настолько медленно, что окружающие это замечали? Или, наоборот, Вы были настолько суетливы или взбудоражены, что двигались гораздо больше обычного",
+        "en": "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual"
+      },
+      "dimension": "depression"
+    },
+    {
+      "id": "phq9-9",
+      "text": {
+        "ru": "Вас посещали мысли о том, что Вам лучше было бы умереть, или о том, чтобы причинить себе какой-нибудь вред",
+        "en": "Thoughts that you would be better off dead or of hurting yourself in some way"
+      },
+      "dimension": "depression",
+      "crisisIfAtLeast": 1
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ оценивается от 0 («Ни разу») до 3 («Почти каждый день»). Баллы по 9 вопросам суммируются: общий балл от 0 до 27. Официальные диапазоны (Kroenke et al., 2001): 0–4 — минимальная, 5–9 — лёгкая, 10–14 — умеренная, 15–19 — умеренно тяжёлая, 20–27 — тяжёлая симптоматика. Начиная с 10 баллов рекомендуется консультация специалиста. Отдельно от общего балла: если на вопрос 9 дан любой ответ, кроме «Ни разу» (значение больше 0), сайт показывает сообщение с контактами экстренной помощи. Процентиль сравнивает результат с репрезентативной выборкой взрослого населения Германии (Kocalevent et al., 2013) и является приблизительным.",
+    "en": "Each answer is scored from 0 (\"Not at all\") to 3 (\"Nearly every day\"). The 9 item scores are added up for a total of 0–27. Official ranges (Kroenke et al., 2001): 0–4 none–minimal, 5–9 mild, 10–14 moderate, 15–19 moderately severe, 20–27 severe. A professional assessment is recommended from a score of 10. Separately from the total: if item 9 is answered with anything other than \"Not at all\" (value above 0), the site shows a message with crisis-help contacts. The percentile compares your score with a representative sample of German adults (Kocalevent et al., 2013) and is approximate."
+  },
+  "resultIntro": {
+    "ru": "Спасибо, что ответили на эти вопросы честно — это не всегда легко. Ниже ваш результат и мысли о том, что можно сделать дальше. Тест отражает только последние две недели; состояние может и будет меняться.",
+    "en": "Thank you for answering these questions honestly — that is not always easy. Below is your result and some thoughts on what you could do next. The test reflects only the last two weeks; how you feel can and will change."
+  }
+}

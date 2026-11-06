@@ -1,0 +1,506 @@
+{
+  "id": "adhd-asrs",
+  "category": "mental-health",
+  "kind": "choice",
+  "seriousness": "screening",
+  "title": {
+    "ru": "СДВГ у взрослых (ASRS v1.1, скрининг)",
+    "en": "Adult ADHD (ASRS v1.1 Screener)"
+  },
+  "tagline": {
+    "ru": "Шесть вопросов Всемирной организации здравоохранения о внимании, организованности и неусидчивости",
+    "en": "Six World Health Organization questions about attention, organisation and restlessness"
+  },
+  "description": {
+    "ru": "Шкала самооценки СДВГ у взрослых (ASRS v1.1) разработана рабочей группой Всемирной организации здравоохранения. Её шесть вопросов — те, что лучше всего отличают взрослых с синдромом дефицита внимания и гиперактивности. Вы узнаете, соответствуют ли ваши ответы скрининговому критерию, и что делать, если хочется разобраться глубже. Результат — не диагноз, а повод для разговора со специалистом.",
+    "en": "The Adult ADHD Self-Report Scale (ASRS v1.1) was developed by a World Health Organization workgroup. Its six questions are the ones that best distinguish adults with attention-deficit/hyperactivity disorder. You will see whether your answers meet the screening criterion and what to do if you would like to explore further. The result is not a diagnosis, but a starting point for a conversation with a specialist."
+  },
+  "emoji": "⚡",
+  "durationMin": 2,
+  "popularity": 5,
+  "tags": [
+    {
+      "ru": "СДВГ",
+      "en": "ADHD"
+    },
+    {
+      "ru": "внимание",
+      "en": "attention"
+    },
+    {
+      "ru": "нейроразнообразие",
+      "en": "neurodiversity"
+    },
+    {
+      "ru": "организованность",
+      "en": "organisation"
+    },
+    {
+      "ru": "скрининг",
+      "en": "screening"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряет тест.** Adult ADHD Self-Report Scale (ASRS v1.1) — шкала самооценки симптомов синдрома дефицита внимания и гиперактивности (СДВГ) у взрослых. Полный вариант содержит 18 вопросов, соответствующих 18 симптомам критерия A СДВГ по DSM-IV, переформулированным применительно к взрослой жизни. Часть A (6 вопросов) — короткий скрининг из тех пунктов, которые лучше всего предсказывали диагноз; именно она используется на сайте. Вопросы касаются последних 6 месяцев.\n\n**История.** Шкала создана Рональдом Кесслером, Леонардом Адлером и коллегами при рабочей группе ВОЗ по СДВГ у взрослых в рамках Всемирного исследования психического здоровья (World Mental Health Survey Initiative) и опубликована в журнале *Psychological Medicine* в 2005 году. Шесть пунктов скрининга отобраны статистически по данным клинических интервью в американском национальном исследовании коморбидности (NCS-R).\n\n**Как считается.** Для каждого вопроса есть «затенённая» зона ответов, указывающая на клинически значимую частоту симптома: для вопросов 1–3 — «Иногда», «Часто», «Очень часто»; для вопросов 4–6 — «Часто» и «Очень часто». Подсчитывается число ответов в затенённой зоне (0–6). **Четыре и более** таких ответа означают, что симптомы «в высокой степени соответствуют СДВГ у взрослых и требуется дальнейшее обследование».\n\n**Точность.** В исходной работе (Kessler et al., 2005) невзвешенный 6-пунктовый скрининг превзошёл полную 18-пунктовую шкалу: чувствительность 68,7 % (против 56,3 %), специфичность 99,5 % (против 98,3 %), общая точность классификации 97,9 % (против 96,2 %), каппа 0,76 (против 0,58). Валидность скрининга подтверждена и в репрезентативной выборке участников медицинской страховой программы (Kessler et al., 2007). Высокая специфичность означает, что положительный результат — серьёзный повод для обследования, а умеренная чувствительность — что отрицательный результат не исключает СДВГ полностью.\n\n**Альтернативный подсчёт.** В обновлении правил подсчёта (Harvard NCS, на основе Kessler et al., 2007) для исследовательских целей предложена шкала 0–24 (никогда = 0 … очень часто = 4; положительный скрининг — 14 и выше; 0–9 — низкий отрицательный, 10–13 — высокий отрицательный, 14–17 — низкий положительный, 18–24 — высокий положительный диапазон). Для клинического использования и в первичном звене рекомендован исходный подсчёт 0–6, который и применяется на сайте.\n\n**Части A и B.** Полная шкала (часть B, ещё 12 вопросов) уточняет картину симптомов для клинициста, но не используется для скрининговой классификации. По условиям правообладателя 18-пунктовый вариант требует отдельного разрешения, поэтому на сайте представлена только часть A.\n\n**Ограничения.** Это самоотчёт. Трудности с вниманием и организованностью бывают при тревоге, депрессии, хроническом недосыпе, выгорании, расстройствах аутистического спектра и других состояниях. Для диагноза СДВГ нужны начало симптомов в детстве, их проявление в нескольких сферах жизни и заметное влияние на функционирование, а также клиническое интервью со специалистом. Шкала основана на критериях DSM-IV; существует обновлённый вариант ASRS-5 для DSM-5 (Ustun et al., 2017), также распространяемый по разрешению.",
+    "en": "**What it measures.** The Adult ADHD Self-Report Scale (ASRS v1.1) is a self-report measure of adult attention-deficit/hyperactivity disorder (ADHD) symptoms. The full version has 18 questions matching the 18 DSM-IV criterion A symptoms of ADHD, reworded for adult life. Part A (6 questions) is a short screener made of the items that best predicted diagnosis; this is the part used on this site. The questions cover the past 6 months.\n\n**History.** The scale was developed by Ronald Kessler, Lenard Adler and colleagues with the WHO Workgroup on Adult ADHD as part of the World Mental Health Survey Initiative, and published in *Psychological Medicine* in 2005. The six screener items were selected statistically using clinical interview data from the US National Comorbidity Survey Replication (NCS-R).\n\n**Scoring.** Each question has a \"shaded\" response zone indicating a clinically meaningful frequency: for questions 1–3, \"Sometimes\", \"Often\" or \"Very often\"; for questions 4–6, \"Often\" or \"Very often\". The number of answers in the shaded zone is counted (0–6). **Four or more** such answers mean that symptoms are \"highly consistent with ADHD in adults and further investigation is warranted\".\n\n**Accuracy.** In the original study (Kessler et al., 2005) the unweighted 6-item screener outperformed the full 18-item scale: sensitivity 68.7% (vs 56.3%), specificity 99.5% (vs 98.3%), total classification accuracy 97.9% (vs 96.2%) and kappa 0.76 (vs 0.58). The screener's validity was also confirmed in a representative sample of health-plan members (Kessler et al., 2007). High specificity means a positive result is a serious reason for an assessment; moderate sensitivity means a negative result does not fully rule ADHD out.\n\n**Alternative scoring.** A scoring update from Harvard NCS (based on Kessler et al., 2007) proposes a 0–24 scale for research use (never = 0 … very often = 4; screen positive at 14 or more; 0–9 low negative, 10–13 high negative, 14–17 low positive, 18–24 high positive). For clinical and primary-care use the original 0–6 scoring is recommended, and that is what this site uses.\n\n**Parts A and B.** The full scale (Part B, 12 more questions) gives clinicians a fuller picture of symptoms but is not used for the screening classification. Under the copyright holders' terms, the 18-item version requires separate permission, so only Part A is presented on this site.\n\n**Limitations.** It is a self-report. Problems with attention and organisation also occur with anxiety, depression, chronic sleep loss, burnout, autism and other conditions. An ADHD diagnosis requires symptoms starting in childhood, showing up in several areas of life and noticeably affecting functioning, plus a clinical interview with a specialist. The scale is based on DSM-IV criteria; an updated ASRS-5 for DSM-5 exists (Ustun et al., 2017) and is also distributed by permission."
+  },
+  "sources": [
+    {
+      "citation": "Kessler, R. C., Adler, L., Ames, M., Demler, O., Faraone, S., Hiripi, E., Howes, M. J., Jin, R., Secnik, K., Spencer, T., Ustun, T. B., & Walters, E. E. (2005). The World Health Organization Adult ADHD Self-Report Scale (ASRS): A short screening scale for use in the general population. Psychological Medicine, 35(2), 245–256.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15841682/",
+      "doi": "10.1017/S0033291704002892"
+    },
+    {
+      "citation": "Kessler, R. C., Adler, L. A., Gruber, M. J., Sarawate, C. A., Spencer, T., & Van Brunt, D. L. (2007). Validity of the World Health Organization Adult ADHD Self-Report Scale (ASRS) Screener in a representative sample of health plan members. International Journal of Methods in Psychiatric Research, 16(2), 52–65.",
+      "doi": "10.1002/mpr.208"
+    },
+    {
+      "citation": "Harvard Medical School, National Comorbidity Survey. ASRS v1.1 Screener (6Q) scoring update.",
+      "url": "https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/ASRS_v1.1_screener(6Q)_scoring_update.pdf"
+    },
+    {
+      "citation": "Ustun, B., Adler, L. A., Rudin, C., Faraone, S. V., Spencer, T. J., Berglund, P., Gruber, M. J., & Kessler, R. C. (2017). The World Health Organization Adult Attention-Deficit/Hyperactivity Disorder Self-Report Screening Scale for DSM-5. JAMA Psychiatry, 74(5), 520–527.",
+      "doi": "10.1001/jamapsychiatry.2017.0298"
+    },
+    {
+      "citation": "Harvard Medical School, National Comorbidity Survey. Adult ADHD Self-Report Scale (ASRS) — instrument, terms of use and translations.",
+      "url": "https://www.hcp.med.harvard.edu/ncs/asrs.php"
+    }
+  ],
+  "license": "ASRS v1.1 6-question screener (Part A): 'Use of the ASRS v1.1 6-question screener is free and does not require any formal permission or approval' (https://www.hcp.med.harvard.edu/ncs/asrs.php). Copyright © New York University and President and Fellows of Harvard College; show this notice, cite Kessler et al. (2005), do not alter the items, the scoring algorithm or the two-level shading; the site owners prefer linking to their official PDF. The full 18-item Symptom Checklist (Part B) and the ASRS-5 require permission requested via the same page — not included here. Before launch, replace the Russian item wording with the official Russian translation listed on that page.",
+  "disclaimer": {
+    "ru": "Этот тест — скрининговый инструмент, а не диагноз. Он помогает заметить возможные трудности и решить, стоит ли обратиться к специалисту, но поставить диагноз может только врач-психиатр, психотерапевт или клинический психолог после очной консультации. Результат теста не заменяет медицинскую помощь. Положительный результат скрининга не означает, что у вас СДВГ, а отрицательный — что его точно нет. Диагноз ставит психиатр после подробной беседы, включая вопросы о детстве. СДВГ — особенность развития нервной системы, с которой можно хорошо жить, особенно при правильной поддержке. Если вам сейчас очень тяжело или появляются мысли о том, чтобы причинить себе вред, пожалуйста, не оставайтесь с этим наедине. Экстренные службы в России и странах ЕС — 112. Москва: Московская служба психологической помощи населению — 051 (с мобильного 8-495-051), круглосуточно и бесплатно. Детям, подросткам и родителям: Детский телефон доверия — 8-800-2000-122 (бесплатно по всей России). В других странах бесплатную линию помощи можно найти на сайте findahelpline.com.",
+    "en": "This test is a screening tool, not a diagnosis. It can help you notice possible difficulties and decide whether to talk to a professional, but only a qualified clinician (a psychiatrist, psychotherapist or clinical psychologist) can make a diagnosis after a personal consultation. Your result does not replace medical care. A positive screen does not mean you have ADHD, and a negative one does not rule it out. A diagnosis is made by a psychiatrist after a detailed interview, including questions about childhood. ADHD is a neurodevelopmental difference that people can live well with, especially with the right support. If you are going through a very hard time or having thoughts of hurting yourself, please don't stay alone with it. Emergency services: 112 in Russia and the EU (911 in the US and Canada). Moscow: Moscow Psychological Help Service — 051 (from a mobile 8-495-051), 24/7 and free of charge. Children, teenagers and parents in Russia: Children's Helpline — 8-800-2000-122 (free nationwide). US: call or text 988 (Suicide & Crisis Lifeline). UK and Ireland: Samaritans — 116 123. Other countries: find a free helpline at findahelpline.com."
+  },
+  "instructions": {
+    "ru": "Ответьте, пожалуйста, на вопросы ниже, оценивая себя по каждому пункту. Выберите вариант, который лучше всего описывает, как вы себя чувствовали и вели в последние 6 месяцев.",
+    "en": "Please answer the questions below, rating yourself on each of the criteria shown. For each question, choose the option that best describes how you have felt and conducted yourself over the past 6 months."
+  },
+  "dimensions": [
+    {
+      "id": "adhd",
+      "name": {
+        "ru": "Скрининг СДВГ (часть A)",
+        "en": "ADHD screener (Part A)"
+      },
+      "description": {
+        "ru": "Число ответов из шести, попавших в «затенённую» зону, — то есть симптомов, которые встречаются у вас с клинически значимой частотой.",
+        "en": "How many of your six answers fall in the \"shaded\" zone — that is, symptoms you experience at a clinically meaningful frequency."
+      },
+      "lowLabel": {
+        "ru": "Ниже порога скрининга",
+        "en": "Below screening threshold"
+      },
+      "highLabel": {
+        "ru": "Соответствует критерию",
+        "en": "Meets screening criterion"
+      },
+      "color": "#D9CCF2",
+      "scoring": "sum",
+      "min": 0,
+      "max": 6,
+      "bands": [
+        {
+          "min": 0,
+          "max": 3,
+          "label": {
+            "ru": "Ниже порога скрининга",
+            "en": "Below the screening threshold"
+          },
+          "summary": [
+            {
+              "ru": "Менее четырёх из шести ключевых признаков встречаются у вас с частотой, характерной для СДВГ у взрослых.",
+              "en": "Fewer than four of the six key signs occur at the frequency typical of adult ADHD."
+            },
+            {
+              "ru": "Скрининговый критерий СДВГ не выполнен.",
+              "en": "The ADHD screening criterion is not met."
+            },
+            {
+              "ru": "Трудности с вниманием и организацией бывают у многих — причин много: недосып, стресс, тревога.",
+              "en": "Many people struggle with attention and organisation — causes include poor sleep, stress and anxiety."
+            },
+            {
+              "ru": "Если трудности давние и сильно мешают жизни, к специалисту всё равно можно обратиться.",
+              "en": "If the difficulties are long-standing and really get in the way, you can still see a specialist."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши ответы не соответствуют скрининговому критерию СДВГ: менее четырёх из шести ключевых признаков проявляются у вас с той частотой, которая характерна для взрослых с СДВГ. Это хорошо согласуется с тем, что СДВГ у вас маловероятен, но скрининг не идеален: примерно у трети взрослых с СДВГ результат по этой шкале может оказаться ниже порога.\n\nЕсли вы всё же замечаете, что вам трудно сосредотачиваться, доводить дела до конца или помнить о делах, посмотрите сначала на базовые вещи: достаточно ли вы спите, нет ли длительного стресса, тревоги или сниженного настроения (на сайте есть тесты GAD-7 и PHQ-9), не перегружены ли вы задачами. Помогают внешние «опоры» для памяти и внимания: календарь с напоминаниями, списки дел, разбивка больших задач на маленькие шаги, таймер для коротких рабочих отрезков, меньшее количество отвлекающих уведомлений.\n\nЕсли трудности с вниманием и организованностью были с вами с детства, проявляются и на работе, и дома и заметно мешают жить, имеет смысл обсудить это с психиатром или психотерапевтом, даже при результате ниже порога.",
+            "en": "Your answers do not meet the ADHD screening criterion: fewer than four of the six key signs occur at the frequency typical of adults with ADHD. This fits with ADHD being unlikely for you, but screening is not perfect: roughly a third of adults with ADHD may score below the threshold on this scale.\n\nIf you still notice that it is hard to concentrate, finish tasks or remember things, look first at the basics: are you getting enough sleep, is there long-term stress, anxiety or low mood (this site has the GAD-7 and PHQ-9 tests), are you overloaded with tasks? External supports for memory and attention help: a calendar with reminders, to-do lists, breaking big tasks into small steps, a timer for short focused work periods, and fewer distracting notifications.\n\nIf difficulties with attention and organisation have been with you since childhood, show up both at work and at home, and noticeably get in the way of life, it makes sense to discuss them with a psychiatrist or psychotherapist even with a score below the threshold."
+          }
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "label": {
+            "ru": "Соответствует скрининговому критерию СДВГ",
+            "en": "Consistent with adult ADHD — worth a closer look"
+          },
+          "summary": [
+            {
+              "ru": "Четыре или более ключевых признака встречаются у вас с частотой, характерной для СДВГ у взрослых.",
+              "en": "Four or more key signs occur at the frequency typical of adult ADHD."
+            },
+            {
+              "ru": "По правилам шкалы это означает, что симптомы в высокой степени соответствуют СДВГ и стоит пройти обследование.",
+              "en": "By the scale's rules, symptoms are highly consistent with ADHD and an assessment is warranted."
+            },
+            {
+              "ru": "Это не диагноз: похожие трудности бывают при тревоге, депрессии, недосыпе и выгорании.",
+              "en": "This is not a diagnosis: similar difficulties occur with anxiety, depression, sleep loss and burnout."
+            },
+            {
+              "ru": "СДВГ хорошо изучен, и существует много эффективных способов поддержки.",
+              "en": "ADHD is well understood, and there are many effective forms of support."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши ответы соответствуют скрининговому критерию: как минимум четыре из шести ключевых признаков — трудности с завершением дел, организацией, памятью на обязательства, откладывание сложных задач, неусидчивость или ощущение «внутреннего мотора» — встречаются у вас достаточно часто. Разработчики шкалы описывают такой результат как «симптомы в высокой степени соответствуют СДВГ у взрослых; требуется дальнейшее обследование». Возможно, этот результат многое объясняет в вашем опыте — и это может принести облегчение.\n\nЧтобы разобраться, обратитесь к психиатру (желательно имеющему опыт работы со взрослыми с СДВГ). Диагностика включает подробную беседу о вашей жизни сейчас и в детстве, иногда — разговор с близкими, школьные характеристики и дополнительные опросники. Важно исключить или учесть другие причины похожих трудностей: тревогу, депрессию, нарушения сна. Если СДВГ подтвердится, помогают психообразование, когнитивно-поведенческая терапия, коучинг и, по решению врача, медикаментозное лечение.\n\nУже сейчас можно опереться на стратегии, которые помогают многим людям с СДВГ: выносить память «наружу» (напоминания, списки, календарь), делить задачи на короткие шаги с ясным первым действием, работать короткими отрезками с таймером, работать рядом с другим человеком («body doubling»), регулярно двигаться и беречь сон. СДВГ — это особенность работы мозга, а не недостаток силы воли; многие люди с СДВГ живут полной жизнью, особенно когда подбирают подходящие им условия.",
+            "en": "Your answers meet the screening criterion: at least four of the six key signs — trouble finishing tasks, getting organised, remembering obligations, putting off demanding tasks, fidgeting, or feeling \"driven by a motor\" — occur quite often for you. The scale's developers describe this result as \"symptoms highly consistent with ADHD in adults; further investigation is warranted\". This result may explain a lot about your experience — and that can be a relief.\n\nTo find out more, see a psychiatrist (ideally one experienced with adult ADHD). An assessment includes a detailed conversation about your life now and in childhood, sometimes input from people close to you, school reports and additional questionnaires. It is important to rule out or take into account other causes of similar difficulties, such as anxiety, depression and sleep problems. If ADHD is confirmed, psychoeducation, cognitive behavioural therapy, coaching and — if the doctor recommends it — medication can all help.\n\nYou can already lean on strategies that help many people with ADHD: move memory \"outside your head\" (reminders, lists, a calendar), break tasks into short steps with a clear first action, work in short timed blocks, work alongside another person (\"body doubling\"), move regularly and protect your sleep. ADHD is a difference in how the brain works, not a lack of willpower; many people with ADHD live full lives, especially once they find conditions that suit them."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "asrs-a1",
+      "text": {
+        "ru": "Как часто вам бывает трудно довести до конца завершающие детали проекта, когда самые сложные части уже сделаны?",
+        "en": "How often do you have trouble wrapping up the final details of a project, once the challenging parts have been done?"
+      },
+      "dimension": "adhd",
+      "options": [
+        {
+          "text": {
+            "ru": "Никогда",
+            "en": "Never"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Rarely"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Очень часто",
+            "en": "Very often"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "asrs-a2",
+      "text": {
+        "ru": "Как часто вам бывает трудно навести порядок в делах, когда нужно выполнить задачу, требующую организованности?",
+        "en": "How often do you have difficulty getting things in order when you have to do a task that requires organization?"
+      },
+      "dimension": "adhd",
+      "options": [
+        {
+          "text": {
+            "ru": "Никогда",
+            "en": "Never"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Rarely"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Очень часто",
+            "en": "Very often"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "asrs-a3",
+      "text": {
+        "ru": "Как часто у вас бывают трудности с тем, чтобы помнить о встречах или обязательствах?",
+        "en": "How often do you have problems remembering appointments or obligations?"
+      },
+      "dimension": "adhd",
+      "options": [
+        {
+          "text": {
+            "ru": "Никогда",
+            "en": "Never"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Rarely"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Очень часто",
+            "en": "Very often"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "asrs-a4",
+      "text": {
+        "ru": "Когда вам предстоит задача, требующая серьёзного обдумывания, как часто вы избегаете её или откладываете начало?",
+        "en": "When you have a task that requires a lot of thought, how often do you avoid or delay getting started?"
+      },
+      "dimension": "adhd",
+      "options": [
+        {
+          "text": {
+            "ru": "Никогда",
+            "en": "Never"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Rarely"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Очень часто",
+            "en": "Very often"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "asrs-a5",
+      "text": {
+        "ru": "Как часто вы ёрзаете или беспокойно двигаете руками или ногами, когда вам приходится долго сидеть?",
+        "en": "How often do you fidget or squirm with your hands or feet when you have to sit down for a long time?"
+      },
+      "dimension": "adhd",
+      "options": [
+        {
+          "text": {
+            "ru": "Никогда",
+            "en": "Never"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Rarely"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Очень часто",
+            "en": "Very often"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "asrs-a6",
+      "text": {
+        "ru": "Как часто вы чувствуете себя чрезмерно активным (активной) и вынужденным (вынужденной) что-то делать, как будто вас приводит в движение мотор?",
+        "en": "How often do you feel overly active and compelled to do things, like you were driven by a motor?"
+      },
+      "dimension": "adhd",
+      "options": [
+        {
+          "text": {
+            "ru": "Никогда",
+            "en": "Never"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Rarely"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "adhd": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Очень часто",
+            "en": "Very often"
+          },
+          "scores": {
+            "adhd": 1
+          }
+        }
+      ]
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Для каждого вопроса есть «затенённая» зона ответов: для вопросов 1–3 это «Иногда», «Часто» и «Очень часто», для вопросов 4–6 — «Часто» и «Очень часто». Каждый ответ в затенённой зоне даёт 1 балл, остальные — 0. Сумма от 0 до 6. При 4 баллах и более симптомы считаются в высокой степени соответствующими СДВГ у взрослых, и рекомендуется обследование у специалиста (Kessler et al., 2005). Алгоритм подсчёта является частью инструмента и не изменяется.",
+    "en": "Each question has a \"shaded\" response zone: for questions 1–3 it is \"Sometimes\", \"Often\" and \"Very often\"; for questions 4–6 it is \"Often\" and \"Very often\". Each answer in the shaded zone scores 1 point, others score 0. The total is 0 to 6. With 4 or more points, symptoms are considered highly consistent with adult ADHD and a specialist assessment is recommended (Kessler et al., 2005). The scoring algorithm is part of the instrument and is not modified."
+  },
+  "resultIntro": {
+    "ru": "Спасибо, что прошли этот короткий скрининг. Ниже — ваш результат. Помните: у каждого человека свой способ работы внимания, а скрининг лишь подсказывает, стоит ли разобраться глубже вместе со специалистом.",
+    "en": "Thank you for completing this short screener. Your result is below. Remember: everyone's attention works in its own way, and a screener only suggests whether it is worth exploring further with a specialist."
+  }
+}

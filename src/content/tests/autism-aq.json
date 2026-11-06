@@ -1,0 +1,644 @@
+{
+ "id": "autism-aq",
+ "category": "mental-health",
+ "kind": "choice",
+ "seriousness": "screening",
+ "title": {
+  "ru": "Аутичные черты (AQ-10)",
+  "en": "Autistic traits (AQ-10)"
+ },
+ "tagline": {
+  "ru": "Десять вопросов о том, как вы воспринимаете детали, переключаете внимание и понимаете других людей",
+  "en": "Ten questions about how you notice details, switch attention and read other people"
+ },
+ "description": {
+  "ru": "AQ-10 — краткая версия «Коэффициента аутистического спектра», созданного в Центре исследований аутизма Кембриджского университета. Тест оценивает выраженность аутичных черт — особенностей восприятия, внимания и общения, которые в разной степени есть у всех людей. Вы узнаете, превышает ли ваш результат порог, при котором специалисты рекомендуют подумать о диагностической консультации. Это не диагноз, а повод лучше понять себя.",
+  "en": "The AQ-10 is the short form of the Autism-Spectrum Quotient developed at the Autism Research Centre, University of Cambridge. It looks at autistic traits — differences in perception, attention and communication that everyone has to some degree. You will see whether your score reaches the level at which specialists suggest considering a diagnostic assessment. It is not a diagnosis, but a way to understand yourself better."
+ },
+ "emoji": "♾️",
+ "durationMin": 3,
+ "popularity": 5,
+ "tags": [
+  {
+   "ru": "аутизм",
+   "en": "autism"
+  },
+  {
+   "ru": "нейроразнообразие",
+   "en": "neurodiversity"
+  },
+  {
+   "ru": "восприятие",
+   "en": "perception"
+  },
+  {
+   "ru": "общение",
+   "en": "communication"
+  },
+  {
+   "ru": "скрининг",
+   "en": "screening"
+  }
+ ],
+ "methodology": {
+  "ru": "**Что измеряет тест.** «Коэффициент аутистического спектра» (Autism-Spectrum Quotient, AQ) измеряет выраженность аутичных черт у взрослых с интеллектом в пределах нормы. Он исходит из представления о том, что аутичные черты распределены непрерывно во всём населении: у каждого человека они есть в той или иной степени, а аутизм находится на одном из концов этого спектра. Полный AQ (Baron-Cohen et al., 2001) состоит из 50 утверждений и пяти областей по 10 пунктов: социальные навыки, переключение внимания, внимание к деталям, коммуникация и воображение. AQ-10 (Allison, Auyeung & Baron-Cohen, 2012) включает по два наиболее информативных пункта из каждой области.\n\n**Как проводится и считается.** На каждое утверждение отвечают «определённо согласен», «скорее согласен», «скорее не согласен» или «определённо не согласен». За ответ в направлении аутичной черты начисляется 1 балл — независимо от того, «определённый» он или «скорее»: за согласие с утверждениями 1, 7, 8, 10 и за несогласие с утверждениями 2, 3, 4, 5, 6, 9. Сумма — от 0 до 10. При **6 баллах и выше** рекомендуется рассмотреть направление на специализированную диагностическую консультацию. Национальный институт здоровья и качества медицинской помощи Великобритании (NICE, CG142) рекомендует AQ-10 для первичного выявления возможного аутизма у взрослых без выраженной интеллектуальной недостаточности.\n\n**Точность и надёжность.** В исследовании на 449 взрослых аутичных участниках и 838 участниках контрольной группы при пороге 6 баллов чувствительность AQ-10 составила 0,88, специфичность — 0,91, положительная прогностическая ценность — 0,85; α Кронбаха = 0,85; корреляция с полным AQ-50 — r = 0,92. Средний балл: аутичные взрослые — 7,93 (SD 1,93), контрольная группа — 2,77 (SD 2,00). Авторы подчёркивают, что при низкой распространённости аутизма в общей популяции (около 1 %) прогностическая ценность положительного результата резко снижается. Последующие исследования среди людей, направленных на диагностику, показали, что AQ хуже отличает аутизм от других состояний, чем в исходной выборке (Ashwood et al., 2016).\n\n**Язык и подход.** На сайте используется нейроаффирмативный язык: аутизм описывается как вариант нейроразнообразия — иной способ восприятия, мышления и общения со своими сильными сторонами и трудностями, а не «поломка», которую нужно исправить.\n\n**Ограничения.** Самоотчёт; результат зависит от самонаблюдения и может искажаться привычкой маскировать свои особенности (это чаще описывается у женщин). Высокий балл может быть связан и с социальной тревожностью, СДВГ или депрессией. Нормы получены на добровольцах из Великобритании. Русская формулировка пунктов на сайте — перевод, не прошедший отдельной валидации. Диагноз аутизма ставит только специалист после комплексного обследования.",
+  "en": "**What it measures.** The Autism-Spectrum Quotient (AQ) measures the degree of autistic traits in adults of average or higher intellectual ability. It is based on the idea that autistic traits are distributed continuously across the whole population: everyone has them to some degree, and autism lies towards one end of this spectrum. The full AQ (Baron-Cohen et al., 2001) has 50 statements in five areas of 10 items each: social skill, attention switching, attention to detail, communication and imagination. The AQ-10 (Allison, Auyeung & Baron-Cohen, 2012) takes the two most informative items from each area.\n\n**Administration and scoring.** Each statement is answered \"definitely agree\", \"slightly agree\", \"slightly disagree\" or \"definitely disagree\". One point is given for an answer in the direction of the autistic trait, whether \"definitely\" or \"slightly\": for agreeing with statements 1, 7, 8 and 10 and for disagreeing with statements 2, 3, 4, 5, 6 and 9. The total is 0 to 10. With **6 or more points**, referral for a specialist diagnostic assessment should be considered. The UK National Institute for Health and Care Excellence (NICE, CG142) recommends the AQ-10 for initial identification of possible autism in adults without a moderate or severe learning disability.\n\n**Accuracy and reliability.** In a study of 449 autistic adults and 838 controls, at a cut-off of 6 the AQ-10 had a sensitivity of 0.88, specificity of 0.91 and positive predictive value of 0.85; Cronbach's α = 0.85; correlation with the full AQ-50, r = 0.92. Mean scores: autistic adults 7.93 (SD 1.93), controls 2.77 (SD 2.00). The authors stress that at the low prevalence of autism in the general population (about 1%), the positive predictive value drops sharply. Later research among people referred for diagnostic assessment found that the AQ distinguished autism from other conditions less well than in the original sample (Ashwood et al., 2016).\n\n**Language and approach.** This site uses neurodiversity-affirming language: autism is described as a form of neurodiversity — a different way of perceiving, thinking and communicating, with its own strengths and challenges — not as a \"defect\" to be fixed.\n\n**Limitations.** It is a self-report; results depend on self-observation and can be skewed by a habit of masking one's traits (described more often in women). A high score can also be linked to social anxiety, ADHD or depression. Norms come from UK volunteers. The Russian wording of the items on this site is a translation that has not been separately validated. Only a specialist can diagnose autism, after a comprehensive assessment."
+ },
+ "sources": [
+  {
+   "citation": "Allison, C., Auyeung, B., & Baron-Cohen, S. (2012). Toward brief “red flags” for autism screening: The Short Autism Spectrum Quotient and the Short Quantitative Checklist in 1,000 cases and 3,000 controls. Journal of the American Academy of Child & Adolescent Psychiatry, 51(2), 202–212.",
+   "url": "https://docs.autismresearchcentre.com/papers/2012_Allisonetal_JAACAP_RedFlags.pdf",
+   "doi": "10.1016/j.jaac.2011.11.003"
+  },
+  {
+   "citation": "Baron-Cohen, S., Wheelwright, S., Skinner, R., Martin, J., & Clubley, E. (2001). The Autism-Spectrum Quotient (AQ): Evidence from Asperger syndrome/high-functioning autism, males and females, scientists and mathematicians. Journal of Autism and Developmental Disorders, 31(1), 5–17.",
+   "doi": "10.1023/A:1005653411471"
+  },
+  {
+   "citation": "National Institute for Health and Care Excellence. (2012). Autism spectrum disorder in adults: Diagnosis and management (Clinical guideline CG142).",
+   "url": "https://www.nice.org.uk/guidance/cg142"
+  },
+  {
+   "citation": "Ashwood, K. L., Gillan, N., Horder, J., Hayward, H., Woodhouse, E., McEwen, F. S., … Murphy, D. G. (2016). Predicting the diagnosis of autism in adults using the Autism-Spectrum Quotient (AQ) questionnaire. Psychological Medicine, 46(12), 2595–2604.",
+   "doi": "10.1017/S0033291716001082"
+  },
+  {
+   "citation": "Autism Research Centre, University of Cambridge. Downloadable tests and terms of use.",
+   "url": "https://www.autismresearchcentre.com/tests/"
+  }
+ ],
+ "license": "RESTRICTED — confirm before publishing. The AQ/AQ-10 are © Autism Research Centre (ARC), University of Cambridge. ARC makes its tests freely available 'to the research community or for clinicians … provided that they are used for research purposes and not for commercial use', with due acknowledgement of ARC as the source, and states 'You may not adapt or modify any of these tests, unless permission has been given by the Autism Research Centre' (https://www.autismresearchcentre.com/tests/). A public consumer website (especially with ads or paid features) is neither research nor clinical use, and the Russian translation counts as an adaptation: obtain written permission from ARC for both before launch.",
+ "disclaimer": {
+  "ru": "Этот тест — скрининговый инструмент, а не диагноз. Он помогает заметить возможные трудности и решить, стоит ли обратиться к специалисту, но поставить диагноз может только врач-психиатр, психотерапевт или клинический психолог после очной консультации. Результат теста не заменяет медицинскую помощь. Этот тест оценивает аутичные черты, а не наличие или отсутствие аутизма. Аутизм — это не болезнь, а особенность развития нервной системы; официальную диагностику проводит психиатр или клинический психолог, имеющий опыт работы со взрослыми, после комплексного обследования. Если вам сейчас очень тяжело или появляются мысли о том, чтобы причинить себе вред, пожалуйста, не оставайтесь с этим наедине. Экстренные службы в России и странах ЕС — 112. Москва: Московская служба психологической помощи населению — 051 (с мобильного 8-495-051), круглосуточно и бесплатно. Детям, подросткам и родителям: Детский телефон доверия — 8-800-2000-122 (бесплатно по всей России). В других странах бесплатную линию помощи можно найти на сайте findahelpline.com.",
+  "en": "This test is a screening tool, not a diagnosis. It can help you notice possible difficulties and decide whether to talk to a professional, but only a qualified clinician (a psychiatrist, psychotherapist or clinical psychologist) can make a diagnosis after a personal consultation. Your result does not replace medical care. This test looks at autistic traits; it does not tell you whether you are or are not autistic. Autism is not an illness but a neurodevelopmental difference; a formal assessment is carried out by a psychiatrist or clinical psychologist experienced with adults, after a comprehensive evaluation. If you are going through a very hard time or having thoughts of hurting yourself, please don't stay alone with it. Emergency services: 112 in Russia and the EU (911 in the US and Canada). Moscow: Moscow Psychological Help Service — 051 (from a mobile 8-495-051), 24/7 and free of charge. Children, teenagers and parents in Russia: Children's Helpline — 8-800-2000-122 (free nationwide). US: call or text 988 (Suicide & Crisis Lifeline). UK and Ireland: Samaritans — 116 123. Other countries: find a free helpline at findahelpline.com."
+ },
+ "instructions": {
+  "ru": "Ниже приведены утверждения. Внимательно прочитайте каждое и выберите, насколько вы с ним согласны или не согласны. Отвечайте о том, как обычно бывает в вашей жизни. Правильных и неправильных ответов нет.",
+  "en": "Below is a list of statements. Please read each one carefully and choose how strongly you agree or disagree with it. Answer about how things usually are in your life. There are no right or wrong answers."
+ },
+ "dimensions": [
+  {
+   "id": "aq",
+   "name": {
+    "ru": "Аутичные черты",
+    "en": "Autistic traits"
+   },
+   "description": {
+    "ru": "Насколько выражены особенности, характерные для аутичного восприятия и мышления: внимание к деталям, трудности с переключением внимания, особенности понимания намерений и чувств других людей, интерес к систематизации.",
+    "en": "How pronounced the traits typical of autistic perception and thinking are: attention to detail, difficulty switching attention, differences in reading other people's intentions and feelings, and an interest in systems and categories."
+   },
+   "lowLabel": {
+    "ru": "Мало аутичных черт",
+    "en": "Few autistic traits"
+   },
+   "highLabel": {
+    "ru": "Много аутичных черт",
+    "en": "Many autistic traits"
+   },
+   "color": "#CDEBF2",
+   "scoring": "sum",
+   "min": 0,
+   "max": 10,
+   "norms": {
+    "mean": 2.77,
+    "sd": 2,
+    "n": 838,
+    "population": "UK adults without an autism diagnosis (volunteer control group recruited online by the Autism Research Centre)",
+    "source": "Allison, Auyeung & Baron-Cohen (2012), JAACAP 51(2):202–212. Autistic adults in the same study: 7.93 ± 1.93 (n = 449)."
+   },
+   "bands": [
+    {
+     "min": 0,
+     "max": 5,
+     "label": {
+      "ru": "Ниже порога скрининга",
+      "en": "Below the screening threshold"
+     },
+     "summary": [
+      {
+       "ru": "Ваш балл ниже 6 — порога, при котором рекомендуют диагностическую консультацию.",
+       "en": "Your score is below 6, the threshold at which a diagnostic assessment is suggested."
+      },
+      {
+       "ru": "Аутичные черты в той или иной мере есть у всех людей — это нормально.",
+       "en": "Everyone has some autistic traits — that is normal."
+      },
+      {
+       "ru": "Короткий тест может не уловить всего, особенно если вы привыкли маскировать свои особенности.",
+       "en": "A short test may not capture everything, especially if you are used to masking your traits."
+      },
+      {
+       "ru": "Если вы узнаёте себя в описаниях аутичного опыта, вы можете обратиться к специалисту и при таком результате.",
+       "en": "If you recognise yourself in descriptions of autistic experience, you can still seek an assessment."
+      }
+     ],
+     "detailed": {
+      "ru": "Ваш результат ниже порога скрининга. Это значит, что в ваших ответах сравнительно мало аутичных черт — примерно на уровне людей без диагноза аутизма в исследовании разработчиков теста. Многие из нас иногда замечают мелкие детали, любят порядок или устают от шумного общения: такие черты распределены во всём населении и не делают человека аутичным сами по себе.\n\nВместе с тем короткий скрининг не идеален. Некоторые аутичные люди — особенно женщины и те, кто с детства научился подстраиваться под окружающих («маскинг», или камуфляж), — могут набирать невысокие баллы. Если вы давно чувствуете, что воспринимаете мир иначе, устаёте от социального взаимодействия, испытываете сенсорную перегрузку или узнаёте себя в рассказах аутичных людей, вы вправе обратиться за диагностической консультацией и при таком результате. Понимание себя — ценная цель сама по себе.",
+      "en": "Your result is below the screening threshold. This means your answers show relatively few autistic traits — roughly at the level of people without an autism diagnosis in the test developers' study. Many of us sometimes notice small details, like order or feel tired by noisy socialising: such traits are spread across the whole population and do not in themselves make a person autistic.\n\nAt the same time, a short screener is not perfect. Some autistic people — especially women and those who learned early on to adapt to others (\"masking\", or camouflaging) — may score lower. If you have long felt that you perceive the world differently, find social interaction draining, experience sensory overload, or recognise yourself in autistic people's accounts, you are entitled to seek a diagnostic assessment even with this result. Understanding yourself is a worthwhile goal in its own right."
+     }
+    },
+    {
+     "min": 6,
+     "max": 10,
+     "label": {
+      "ru": "На уровне порога скрининга или выше",
+      "en": "At or above the screening threshold"
+     },
+     "summary": [
+      {
+       "ru": "Ваш балл 6 или выше — у вас много черт, характерных для аутичного восприятия и мышления.",
+       "en": "Your score is 6 or above — you show many traits typical of autistic perception and thinking."
+      },
+      {
+       "ru": "При таком результате специалисты рекомендуют рассмотреть диагностическую консультацию.",
+       "en": "At this level, specialists suggest considering a diagnostic assessment."
+      },
+      {
+       "ru": "Высокий балл не равен диагнозу: похожие ответы бывают при социальной тревожности или СДВГ.",
+       "en": "A high score is not a diagnosis: similar answers can occur with social anxiety or ADHD."
+      },
+      {
+       "ru": "Аутизм — это иной способ воспринимать мир, со своими сильными сторонами и трудностями.",
+       "en": "Autism is a different way of experiencing the world, with its own strengths and challenges."
+      }
+     ],
+     "detailed": {
+      "ru": "Ваш результат на уровне порога скрининга или выше. В ваших ответах много черт, характерных для аутичного восприятия и мышления: например, внимание к деталям и звукам, интерес к систематизации, особенности переключения внимания или понимания намерений и чувств других людей. В исследовании разработчиков теста большинство аутичных взрослых набирали 6 баллов и выше. Для кого-то такой результат становится долгожданным объяснением собственного опыта.\n\nЕсли вы хотите разобраться, обратитесь к психиатру или клиническому психологу, имеющему опыт диагностики аутизма у взрослых. Диагностика обычно включает подробную беседу о вашем развитии и повседневной жизни, иногда — разговор с близкими и специализированные методики. Специалист также поможет учесть другие возможные объяснения (социальную тревожность, СДВГ, депрессию), которые могут повышать баллы. Формальная диагностика не обязательна для всех, но может помочь получить понимание, поддержку и разумные приспособления на учёбе или работе.\n\nНезависимо от того, решите ли вы пройти диагностику, полезно прислушиваться к своим потребностям: беречь себя от сенсорной перегрузки (наушники, тихие места, перерывы), планировать время на восстановление после общения, опираться на сильные стороны и интересы. Многим помогает знакомство с опытом других аутичных людей и сообществами самоадвокатов. Аутизм — не то, что нужно «исправлять»; важно найти условия, в которых вам хорошо.",
+      "en": "Your result is at or above the screening threshold. Your answers show many traits typical of autistic perception and thinking: for example, attention to details and sounds, an interest in systems and categories, differences in switching attention or in reading other people's intentions and feelings. In the test developers' study, most autistic adults scored 6 or higher. For some people, a result like this becomes a long-awaited explanation of their own experience.\n\nIf you would like to explore this, see a psychiatrist or clinical psychologist experienced in assessing autism in adults. An assessment usually includes a detailed conversation about your development and daily life, sometimes input from people close to you and specialised tools. A specialist can also take into account other possible explanations (social anxiety, ADHD, depression) that can raise scores. A formal diagnosis is not necessary for everyone, but it can bring understanding, support and reasonable adjustments at school or work.\n\nWhether or not you decide to seek an assessment, it helps to listen to your own needs: protect yourself from sensory overload (headphones, quiet spaces, breaks), plan recovery time after socialising, and build on your strengths and interests. Many people find it helpful to learn from other autistic people's experience and from self-advocacy communities. Autism is not something to be \"fixed\"; what matters is finding conditions in which you thrive."
+     }
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "aq10-1",
+   "text": {
+    "ru": "Я часто замечаю негромкие звуки, которые другие не замечают.",
+    "en": "I often notice small sounds when others do not."
+   },
+   "dimension": "aq",
+   "options": [
+    {
+     "text": {
+      "ru": "Определённо согласен (согласна)",
+      "en": "Definitely agree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее согласен (согласна)",
+      "en": "Slightly agree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее не согласен (не согласна)",
+      "en": "Slightly disagree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Определённо не согласен (не согласна)",
+      "en": "Definitely disagree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "aq10-2",
+   "text": {
+    "ru": "Обычно я больше сосредоточиваюсь на общей картине, чем на мелких деталях.",
+    "en": "I usually concentrate more on the whole picture, rather than the small details."
+   },
+   "dimension": "aq",
+   "options": [
+    {
+     "text": {
+      "ru": "Определённо согласен (согласна)",
+      "en": "Definitely agree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее согласен (согласна)",
+      "en": "Slightly agree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее не согласен (не согласна)",
+      "en": "Slightly disagree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Определённо не согласен (не согласна)",
+      "en": "Definitely disagree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "aq10-3",
+   "text": {
+    "ru": "Мне легко делать несколько дел одновременно.",
+    "en": "I find it easy to do more than one thing at once."
+   },
+   "dimension": "aq",
+   "options": [
+    {
+     "text": {
+      "ru": "Определённо согласен (согласна)",
+      "en": "Definitely agree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее согласен (согласна)",
+      "en": "Slightly agree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее не согласен (не согласна)",
+      "en": "Slightly disagree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Определённо не согласен (не согласна)",
+      "en": "Definitely disagree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "aq10-4",
+   "text": {
+    "ru": "Если меня прерывают, я могу очень быстро вернуться к тому, чем занимался (занималась).",
+    "en": "If there is an interruption, I can switch back to what I was doing very quickly."
+   },
+   "dimension": "aq",
+   "options": [
+    {
+     "text": {
+      "ru": "Определённо согласен (согласна)",
+      "en": "Definitely agree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее согласен (согласна)",
+      "en": "Slightly agree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее не согласен (не согласна)",
+      "en": "Slightly disagree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Определённо не согласен (не согласна)",
+      "en": "Definitely disagree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "aq10-5",
+   "text": {
+    "ru": "Мне легко «читать между строк», когда со мной разговаривают.",
+    "en": "I find it easy to ‘read between the lines’ when someone is talking to me."
+   },
+   "dimension": "aq",
+   "options": [
+    {
+     "text": {
+      "ru": "Определённо согласен (согласна)",
+      "en": "Definitely agree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее согласен (согласна)",
+      "en": "Slightly agree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее не согласен (не согласна)",
+      "en": "Slightly disagree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Определённо не согласен (не согласна)",
+      "en": "Definitely disagree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "aq10-6",
+   "text": {
+    "ru": "Я умею понять, что слушающему меня человеку становится скучно.",
+    "en": "I know how to tell if someone listening to me is getting bored."
+   },
+   "dimension": "aq",
+   "options": [
+    {
+     "text": {
+      "ru": "Определённо согласен (согласна)",
+      "en": "Definitely agree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее согласен (согласна)",
+      "en": "Slightly agree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее не согласен (не согласна)",
+      "en": "Slightly disagree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Определённо не согласен (не согласна)",
+      "en": "Definitely disagree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "aq10-7",
+   "text": {
+    "ru": "Когда я читаю историю, мне трудно понять намерения персонажей.",
+    "en": "When I’m reading a story I find it difficult to work out the characters’ intentions."
+   },
+   "dimension": "aq",
+   "options": [
+    {
+     "text": {
+      "ru": "Определённо согласен (согласна)",
+      "en": "Definitely agree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее согласен (согласна)",
+      "en": "Slightly agree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее не согласен (не согласна)",
+      "en": "Slightly disagree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Определённо не согласен (не согласна)",
+      "en": "Definitely disagree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "aq10-8",
+   "text": {
+    "ru": "Мне нравится собирать информацию о категориях вещей (например, о марках автомобилей, видах птиц, типах поездов, видах растений и т. п.).",
+    "en": "I like to collect information about categories of things (e.g. types of car, types of bird, types of train, types of plant etc)."
+   },
+   "dimension": "aq",
+   "options": [
+    {
+     "text": {
+      "ru": "Определённо согласен (согласна)",
+      "en": "Definitely agree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее согласен (согласна)",
+      "en": "Slightly agree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее не согласен (не согласна)",
+      "en": "Slightly disagree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Определённо не согласен (не согласна)",
+      "en": "Definitely disagree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "aq10-9",
+   "text": {
+    "ru": "Мне легко понять, что человек думает или чувствует, просто взглянув на его лицо.",
+    "en": "I find it easy to work out what someone is thinking or feeling just by looking at their face."
+   },
+   "dimension": "aq",
+   "options": [
+    {
+     "text": {
+      "ru": "Определённо согласен (согласна)",
+      "en": "Definitely agree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее согласен (согласна)",
+      "en": "Slightly agree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее не согласен (не согласна)",
+      "en": "Slightly disagree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Определённо не согласен (не согласна)",
+      "en": "Definitely disagree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "aq10-10",
+   "text": {
+    "ru": "Мне трудно понять намерения людей.",
+    "en": "I find it difficult to work out people’s intentions."
+   },
+   "dimension": "aq",
+   "options": [
+    {
+     "text": {
+      "ru": "Определённо согласен (согласна)",
+      "en": "Definitely agree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее согласен (согласна)",
+      "en": "Slightly agree"
+     },
+     "scores": {
+      "aq": 1
+     }
+    },
+    {
+     "text": {
+      "ru": "Скорее не согласен (не согласна)",
+      "en": "Slightly disagree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    },
+    {
+     "text": {
+      "ru": "Определённо не согласен (не согласна)",
+      "en": "Definitely disagree"
+     },
+     "scores": {
+      "aq": 0
+     }
+    }
+   ]
+  }
+ ],
+ "scoringNotes": {
+  "ru": "За каждый ответ в направлении аутичной черты начисляется 1 балл, независимо от того, «определённый» он или «скорее»: за согласие с утверждениями 1, 7, 8 и 10 и за несогласие с утверждениями 2, 3, 4, 5, 6 и 9. Остальные ответы — 0 баллов. Сумма от 0 до 10. При 6 баллах и выше рекомендуется рассмотреть специализированную диагностическую консультацию (Allison et al., 2012; NICE CG142). Процентиль сравнивает ваш результат с контрольной группой взрослых без диагноза аутизма из исследования разработчиков.",
+  "en": "One point is given for each answer in the direction of the autistic trait, whether \"definitely\" or \"slightly\": for agreeing with statements 1, 7, 8 and 10 and for disagreeing with statements 2, 3, 4, 5, 6 and 9. Other answers score 0. The total is 0 to 10. With 6 or more points, a specialist diagnostic assessment should be considered (Allison et al., 2012; NICE CG142). The percentile compares your score with the control group of adults without an autism diagnosis from the developers' study."
+ },
+ "resultIntro": {
+  "ru": "Спасибо, что прошли тест. Каждый человек воспринимает мир по-своему, и аутичные черты — часть этого разнообразия. Ниже ваш результат и мысли о том, что с ним можно сделать.",
+  "en": "Thank you for taking the test. Everyone experiences the world in their own way, and autistic traits are part of that diversity. Below is your result and some thoughts on what you can do with it."
+ },
+ "draft": true
+}

@@ -1,0 +1,1116 @@
+{
+  "id": "burnout-cbi",
+  "category": "mental-health",
+  "kind": "choice",
+  "seriousness": "screening",
+  "title": {
+    "ru": "Выгорание (Копенгагенский опросник, CBI)",
+    "en": "Burnout (Copenhagen Burnout Inventory)"
+  },
+  "tagline": {
+    "ru": "Сколько сил у вас остаётся — в жизни в целом и после работы?",
+    "en": "How much energy do you have left — in life overall and after work?"
+  },
+  "description": {
+    "ru": "Копенгагенский опросник выгорания — свободно доступный научный инструмент, разработанный датскими исследователями. Он оценивает выгорание как хроническую усталость и истощение в двух сферах: в жизни в целом и в связи с работой. Вы получите два балла от 0 до 100, узнаете, где проходит принятый порог выгорания, и найдёте идеи, как восстановить силы.",
+    "en": "The Copenhagen Burnout Inventory is a freely available research instrument developed by Danish researchers. It measures burnout as chronic fatigue and exhaustion in two areas: life in general and work. You will get two scores from 0 to 100, see where the commonly used burnout threshold lies, and find ideas for recovering your energy."
+  },
+  "emoji": "🪫",
+  "durationMin": 3,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "выгорание",
+      "en": "burnout"
+    },
+    {
+      "ru": "работа",
+      "en": "work"
+    },
+    {
+      "ru": "усталость",
+      "en": "fatigue"
+    },
+    {
+      "ru": "стресс",
+      "en": "stress"
+    },
+    {
+      "ru": "скрининг",
+      "en": "screening"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряет тест.** Копенгагенский опросник выгорания (Copenhagen Burnout Inventory, CBI) определяет выгорание как степень физической и психологической усталости и истощения, которую человек испытывает и связывает с определённой сферой жизни. Опросник состоит из трёх шкал: **личное выгорание** (6 пунктов: общая усталость и истощение, независимо от их причины), **выгорание, связанное с работой** (7 пунктов: истощение, которое человек связывает со своей работой) и **выгорание, связанное с клиентами** (6 пунктов: для тех, кто работает с людьми — пациентами, учениками, клиентами). На сайте используются первые две шкалы, поскольку третья подходит только людям помогающих и сервисных профессий.\n\n**История.** CBI разработан Таге Кристенсеном и коллегами в Национальном исследовательском центре производственной среды (Копенгаген) для проспективного исследования PUMA (Project on Burnout, Motivation and Job Satisfaction) среди работников социальной сферы и опубликован в журнале *Work & Stress* в 2005 году. Сегодня его широко используют как свободно доступную альтернативу Maslach Burnout Inventory (MBI). MBI — классический инструмент, рассматривающий выгорание как сочетание эмоционального истощения, деперсонализации и сниженной профессиональной эффективности, но он защищён авторским правом и распространяется платно (Mind Garden); CBI же сосредоточен на ядре выгорания — истощении — и подходит людям любых профессий.\n\n**Как считается.** Ответы кодируются как 100, 75, 50, 25 и 0 баллов («всегда» … «никогда/почти никогда» или «в очень высокой степени» … «в очень малой степени»). Пункт «Хватает ли у вас сил на семью и друзей в свободное время?» считается в обратном порядке. Балл по шкале — среднее арифметическое ответов, от 0 до 100.\n\n**Интерпретация.** Авторы рассматривают CBI как непрерывную шкалу. В исследованиях широко используется условный порог: 50 баллов и выше — выгорание; 50–74 — умеренное, 75–99 — высокое, 100 — тяжёлое (например, Creedy et al., 2017). Это исследовательское соглашение, а не клинически валидированный диагностический порог. В руководстве к CBI балл 50 и выше обозначен как высокая степень выгорания; в исследовании PUMA такой балл имели 22,2 % участников по шкале личного выгорания и 19,8 % — по шкале рабочего. Средние баллы (SD) в PUMA: 35,9 (16,5) — личное выгорание, 33,0 (17,7) — рабочее, 30,9 (17,6) — выгорание, связанное с клиентами.\n\n**Надёжность и валидность.** Внутренняя согласованность шкал в исходном исследовании — α = 0,85–0,87. Баллы по шкалам были связаны с больничными, проблемами со сном и намерением уволиться. CBI адаптирован во многих странах; русскоязычная версия студенческого варианта (CBI-S) проверена на 771 студенте-медике в Казахстане: α = 0,90 для шкалы личного выгорания, ретестовая надёжность ICC = 0,81.\n\n**Важно знать.** В МКБ-11 выгорание (QD85) описано как профессиональный феномен, возникающий в результате хронического стресса на работе, который не был успешно преодолён, а не как медицинское заболевание. Похожая усталость бывает при депрессии, тревожных расстройствах, анемии, нарушениях работы щитовидной железы и других состояниях — разобраться поможет врач.\n\n**Ограничения.** Самоотчёт; нормы получены на датских работниках социальной сферы; пороги условны. Русская формулировка пунктов рабочего выгорания на сайте — тщательный перевод, а не отдельно валидированная версия.",
+    "en": "**What it measures.** The Copenhagen Burnout Inventory (CBI) defines burnout as the degree of physical and psychological fatigue and exhaustion that a person experiences and attributes to a particular area of life. It has three scales: **personal burnout** (6 items: general fatigue and exhaustion regardless of cause), **work-related burnout** (7 items: exhaustion the person attributes to their work) and **client-related burnout** (6 items: for people who work with clients, patients, students and so on). This site uses the first two scales, because the third applies only to people in helping and service professions.\n\n**History.** The CBI was developed by Tage Kristensen and colleagues at the National Research Centre for the Working Environment in Copenhagen for the prospective PUMA study (Project on Burnout, Motivation and Job Satisfaction) among human-service workers, and was published in *Work & Stress* in 2005. Today it is widely used as a freely available alternative to the Maslach Burnout Inventory (MBI). The MBI is the classic instrument, which views burnout as a combination of emotional exhaustion, depersonalisation and reduced personal accomplishment, but it is copyrighted and sold commercially (Mind Garden); the CBI focuses on the core of burnout — exhaustion — and suits people in any occupation.\n\n**Scoring.** Answers are coded 100, 75, 50, 25 and 0 (\"always\" … \"never/almost never\", or \"to a very high degree\" … \"to a very low degree\"). The item \"Do you have enough energy for family and friends during leisure time?\" is reverse-scored. The scale score is the mean of its items, from 0 to 100.\n\n**Interpretation.** The authors treat the CBI as a continuous scale. Research commonly uses a conventional threshold: 50 or above indicates burnout; 50–74 moderate, 75–99 high, 100 severe (e.g., Creedy et al., 2017). This is a research convention, not a clinically validated diagnostic cut-off. The CBI manual labels a score of 50 or more as a high degree of burnout; in the PUMA study 22.2% of participants scored this high on personal burnout and 19.8% on work-related burnout. PUMA means (SD): personal 35.9 (16.5), work-related 33.0 (17.7), client-related 30.9 (17.6).\n\n**Reliability and validity.** Internal consistency in the original study was α = 0.85–0.87. Scale scores were associated with sickness absence, sleep problems and intention to quit. The CBI has been adapted in many countries; a Russian-language version of the student form (CBI-S) was tested in 771 medical students in Kazakhstan: α = 0.90 for personal burnout and test–retest ICC = 0.81.\n\n**Good to know.** In ICD-11, burnout (QD85) is described as an occupational phenomenon resulting from chronic workplace stress that has not been successfully managed — not as a medical condition. Similar fatigue occurs with depression, anxiety disorders, anaemia, thyroid problems and other conditions; a doctor can help sort this out.\n\n**Limitations.** Self-report; norms come from Danish human-service workers; the thresholds are conventions. The Russian wording of the work-related items on this site is a careful translation rather than a separately validated version."
+  },
+  "sources": [
+    {
+      "citation": "Kristensen, T. S., Borritz, M., Villadsen, E., & Christensen, K. B. (2005). The Copenhagen Burnout Inventory: A new tool for the assessment of burnout. Work & Stress, 19(3), 192–207.",
+      "doi": "10.1080/02678370500297720"
+    },
+    {
+      "citation": "Borritz, M., Rugulies, R., Bjorner, J. B., Villadsen, E., Mikkelsen, O. A., & Kristensen, T. S. (2006). Burnout among employees in human service work: Design and baseline findings of the PUMA study. Scandinavian Journal of Public Health, 34(1), 49–58."
+    },
+    {
+      "citation": "Kristensen, T. S., Borritz, M., Villadsen, E., & Christensen, K. B. (2004). The Copenhagen Burnout Inventory (1st ed.): Questionnaire, scoring and reference values. National Institute of Occupational Health, Copenhagen.",
+      "url": "https://nfa.dk/media/hl5nbers/cbi-first-edition.pdf"
+    },
+    {
+      "citation": "Creedy, D. K., Sidebotham, M., Gamble, J., Pallant, J., & Fenwick, J. (2017). Prevalence of burnout, depression, anxiety and stress in Australian midwives: A cross-sectional survey. BMC Pregnancy and Childbirth, 17, 13.",
+      "doi": "10.1186/s12884-016-1212-5"
+    },
+    {
+      "citation": "Psychometric properties of the Russian version of the Copenhagen Burnout Inventory–Student Survey (R-CBI-S) in medical students in Kazakhstan (2021). Psychology in Russia: State of the Art. PMID 36810989.",
+      "url": "https://www.pubmed.gov/36810989/"
+    },
+    {
+      "citation": "National Research Centre for the Working Environment (NFA), Denmark. Copenhagen Burnout Inventory — questionnaire and manual.",
+      "url": "https://nfa.dk/da/Vaerktoejer/Sporgeskemaer/Sporgeskema-til-maaling-af-udbraendthed/Copenhagen-Burnout-Inventory-CBI"
+    },
+    {
+      "citation": "World Health Organization. (2019). Burn-out an \"occupational phenomenon\": International Classification of Diseases (ICD-11, QD85).",
+      "url": "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases"
+    }
+  ],
+  "license": "Free to use. The CBI was developed at the Danish National Research Centre for the Working Environment (NFA), is distributed free of charge by NFA and is widely used as a non-proprietary alternative to the copyrighted Maslach Burnout Inventory (https://nfa.dk/da/Vaerktoejer/Sporgeskemaer/Sporgeskema-til-maaling-af-udbraendthed/Copenhagen-Burnout-Inventory-CBI). Cite Kristensen et al. (2005). English items reproduced from the published instrument; Russian wording is the site's own translation.",
+  "disclaimer": {
+    "ru": "Этот тест — скрининговый инструмент, а не диагноз. Он помогает заметить возможные трудности и решить, стоит ли обратиться к специалисту, но поставить диагноз может только врач-психиатр, психотерапевт или клинический психолог после очной консультации. Результат теста не заменяет медицинскую помощь. Выгорание по МКБ-11 — профессиональный феномен, а не медицинский диагноз. Сильная усталость может быть признаком депрессии, тревоги или телесного заболевания, поэтому при выраженном истощении стоит обратиться к врачу. Если вам сейчас очень тяжело или появляются мысли о том, чтобы причинить себе вред, пожалуйста, не оставайтесь с этим наедине. Экстренные службы в России и странах ЕС — 112. Москва: Московская служба психологической помощи населению — 051 (с мобильного 8-495-051), круглосуточно и бесплатно. Детям, подросткам и родителям: Детский телефон доверия — 8-800-2000-122 (бесплатно по всей России). В других странах бесплатную линию помощи можно найти на сайте findahelpline.com.",
+    "en": "This test is a screening tool, not a diagnosis. It can help you notice possible difficulties and decide whether to talk to a professional, but only a qualified clinician (a psychiatrist, psychotherapist or clinical psychologist) can make a diagnosis after a personal consultation. Your result does not replace medical care. Under ICD-11, burnout is an occupational phenomenon, not a medical diagnosis. Severe fatigue can be a sign of depression, anxiety or a physical illness, so if you feel deeply exhausted it is worth seeing a doctor. If you are going through a very hard time or having thoughts of hurting yourself, please don't stay alone with it. Emergency services: 112 in Russia and the EU (911 in the US and Canada). Moscow: Moscow Psychological Help Service — 051 (from a mobile 8-495-051), 24/7 and free of charge. Children, teenagers and parents in Russia: Children's Helpline — 8-800-2000-122 (free nationwide). US: call or text 988 (Suicide & Crisis Lifeline). UK and Ireland: Samaritans — 116 123. Other countries: find a free helpline at findahelpline.com."
+  },
+  "instructions": {
+    "ru": "Ниже — вопросы о том, как вы себя чувствуете. Отвечайте о том, как обычно бывает в последнее время. Вопросы о работе относятся к вашей основной текущей работе (если вы сейчас не работаете, можно ответить только на первую часть и ориентироваться на шкалу личного выгорания). Выберите вариант, который подходит лучше всего.",
+    "en": "Below are questions about how you feel. Answer about how things usually are these days. Questions about work refer to your current main job (if you are not working at the moment, you can focus on the first part and the personal burnout score). Choose the answer that fits best."
+  },
+  "dimensions": [
+    {
+      "id": "personal",
+      "name": {
+        "ru": "Личное выгорание",
+        "en": "Personal burnout"
+      },
+      "description": {
+        "ru": "Общая физическая и эмоциональная усталость и истощение — независимо от того, чем они вызваны: работой, заботой о близких, учёбой или жизненными обстоятельствами.",
+        "en": "General physical and emotional fatigue and exhaustion — regardless of the cause: work, caring for others, study or life circumstances."
+      },
+      "lowLabel": {
+        "ru": "Силы восстанавливаются",
+        "en": "Energy recovers"
+      },
+      "highLabel": {
+        "ru": "Сильное истощение",
+        "en": "Deep exhaustion"
+      },
+      "color": "#F4C7C3",
+      "scoring": "mean",
+      "min": 0,
+      "max": 100,
+      "norms": {
+        "mean": 35.9,
+        "sd": 16.5,
+        "n": 1898,
+        "population": "Danish human-service workers, PUMA study baseline (n = 1,917 in total; 83% women)",
+        "source": "Kristensen et al. CBI manual, 1st ed. (NFA, 2004), reference values; also Kristensen et al. (2005), Work & Stress 19(3). 22.2% scored ≥ 50."
+      },
+      "bands": [
+        {
+          "min": 0,
+          "max": 49,
+          "label": {
+            "ru": "Низкий уровень выгорания",
+            "en": "Low burnout"
+          },
+          "summary": [
+            {
+              "ru": "Общий уровень усталости и истощения у вас сейчас невысокий.",
+              "en": "Your general level of tiredness and exhaustion is currently low."
+            },
+            {
+              "ru": "Ваш балл ниже порога 50, который обычно используют для выделения выгорания.",
+              "en": "Your score is below 50, the threshold commonly used to identify burnout."
+            },
+            {
+              "ru": "Для сравнения: в датском исследовании PUMA средний балл составил около 36.",
+              "en": "For comparison: the average in the Danish PUMA study was about 36."
+            },
+            {
+              "ru": "Усталость иногда бывает у всех — главное, что вы успеваете восстанавливаться.",
+              "en": "Everyone gets tired sometimes — what matters is that you are able to recover."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши ответы говорят о том, что сейчас вы не испытываете выраженного физического и эмоционального истощения. Усталость, конечно, бывает, но вы, по-видимому, успеваете восстанавливать силы.\n\nПродолжайте поддерживать то, что вам помогает: достаточный сон, движение, отдых без чувства вины, общение и занятия, которые наполняют. Если вы замечаете, что нагрузка растёт, полезно вернуться к тесту через несколько недель и посмотреть на динамику.",
+            "en": "Your answers suggest that you are not currently experiencing marked physical or emotional exhaustion. Of course you get tired, but you seem to be able to recover your energy.\n\nKeep supporting what helps you: enough sleep, movement, guilt-free rest, connection and activities that recharge you. If you notice demands increasing, it can be useful to come back to the test in a few weeks and see how things change."
+          }
+        },
+        {
+          "min": 50,
+          "max": 74,
+          "label": {
+            "ru": "Умеренное выгорание",
+            "en": "Moderate burnout"
+          },
+          "summary": [
+            {
+              "ru": "Вы часто чувствуете усталость и истощение — физическое и эмоциональное.",
+              "en": "You often feel tired and exhausted — physically and emotionally."
+            },
+            {
+              "ru": "Балл 50 и выше обычно рассматривают как признак выгорания.",
+              "en": "A score of 50 or above is usually regarded as a sign of burnout."
+            },
+            {
+              "ru": "Истощение может быть связано с работой, заботой о близких, учёбой или жизненными обстоятельствами.",
+              "en": "Exhaustion can be linked to work, caring for others, study or life circumstances."
+            },
+            {
+              "ru": "Сейчас важно найти источники нагрузки и время для восстановления.",
+              "en": "Now it is important to identify what is draining you and make time to recover."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши ответы показывают, что вы часто чувствуете себя уставшим (уставшей) и истощённым (истощённой), и это касается не только тела, но и эмоций. По принятому в исследованиях соглашению балл от 50 соответствует выгоранию. Такое истощение может накапливаться из-за работы, ухода за близкими, учёбы, финансовых или личных трудностей.\n\nПопробуйте понять, что сейчас забирает больше всего сил, и что из этого можно уменьшить, отложить или разделить с кем-то. Защищайте сон, старайтесь делать перерывы и хотя бы немного двигаться каждый день, разрешайте себе отдых без чувства вины. Поддержка близких очень важна — расскажите им, что вам тяжело.\n\nЕсли истощение длится неделями, не проходит после отдыха или сопровождается упадком настроения, тревогой, частыми болезнями, стоит обратиться к врачу (чтобы исключить телесные причины усталости, например анемию или нарушения работы щитовидной железы) и к психологу.",
+            "en": "Your answers show that you often feel tired and exhausted, and not only physically but emotionally too. By the convention used in research, a score from 50 corresponds to burnout. This kind of exhaustion can build up from work, caring for others, study, financial or personal difficulties.\n\nTry to work out what is draining you most right now, and what could be reduced, postponed or shared with someone. Protect your sleep, try to take breaks and move a little every day, and allow yourself rest without guilt. Support from others matters — tell the people close to you that you are struggling.\n\nIf the exhaustion lasts for weeks, does not lift after rest, or comes with low mood, anxiety or frequent illness, it is worth seeing a doctor (to rule out physical causes of fatigue such as anaemia or thyroid problems) and a psychologist."
+          }
+        },
+        {
+          "min": 75,
+          "max": 99,
+          "label": {
+            "ru": "Высокий уровень выгорания",
+            "en": "High burnout"
+          },
+          "summary": [
+            {
+              "ru": "Вы почти постоянно чувствуете сильное истощение.",
+              "en": "You feel deeply exhausted almost all the time."
+            },
+            {
+              "ru": "Это высокий уровень выгорания — ваш организм просит передышки.",
+              "en": "This is a high level of burnout — your body and mind are asking for a break."
+            },
+            {
+              "ru": "Одних приёмов самопомощи может быть недостаточно: важно изменить нагрузку.",
+              "en": "Self-help alone may not be enough: the load itself needs to change."
+            },
+            {
+              "ru": "Пожалуйста, обратитесь к врачу или психологу в ближайшее время.",
+              "en": "Please contact a doctor or psychologist soon."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши ответы показывают, что вы почти постоянно испытываете сильную физическую и эмоциональную усталость и чувство, что больше не можете. Это высокий уровень выгорания. Важно понимать: это не слабость и не лень, а закономерная реакция на длительное перенапряжение.\n\nНа этом уровне одних техник самопомощи часто недостаточно — нужно менять саму нагрузку. Подумайте, можно ли взять отпуск или больничный, сократить объём обязанностей, перераспределить задачи, попросить о помощи дома и на работе. Обратитесь к врачу: он поможет исключить телесные причины усталости и при необходимости оформить временную нетрудоспособность. Психолог или психотерапевт поможет восстановиться и выстроить устойчивые границы.\n\nВыраженное выгорание часто сопровождается тревогой и депрессией; вы можете пройти на сайте тесты GAD-7 и PHQ-9. Если вы чувствуете, что не справляетесь, или появляются мысли о том, чтобы причинить себе вред, звоните на линию психологической помощи.",
+            "en": "Your answers show that you almost constantly feel strong physical and emotional fatigue and a sense that you cannot go on. This is a high level of burnout. It is important to understand that this is not weakness or laziness, but a natural response to prolonged overload.\n\nAt this level, self-help techniques alone are often not enough — the load itself needs to change. Consider whether you could take leave or sick leave, reduce your responsibilities, redistribute tasks, or ask for help at home and at work. See a doctor: they can rule out physical causes of fatigue and, if needed, arrange time off. A psychologist or psychotherapist can help you recover and build sustainable boundaries.\n\nSevere burnout often comes with anxiety and depression; you can take the GAD-7 and PHQ-9 tests on this site. If you feel you cannot cope, or you have thoughts of hurting yourself, please call a crisis line."
+          }
+        },
+        {
+          "min": 100,
+          "max": 100,
+          "label": {
+            "ru": "Тяжёлое выгорание",
+            "en": "Severe burnout"
+          },
+          "summary": [
+            {
+              "ru": "На все вопросы вы выбрали самый тяжёлый вариант ответа.",
+              "en": "You chose the most severe answer to every question."
+            },
+            {
+              "ru": "Это максимально возможный уровень выгорания по этой шкале.",
+              "en": "This is the highest possible level of burnout on this scale."
+            },
+            {
+              "ru": "Вам сейчас очень тяжело, и вы заслуживаете помощи и передышки.",
+              "en": "You are having a very hard time, and you deserve help and a break."
+            },
+            {
+              "ru": "Пожалуйста, обратитесь к врачу или психотерапевту как можно скорее.",
+              "en": "Please contact a doctor or psychotherapist as soon as possible."
+            }
+          ],
+          "detailed": {
+            "ru": "Вы отметили самый тяжёлый вариант на каждый вопрос — это означает крайнюю степень истощения. Жить в таком состоянии очень трудно, и, скорее всего, сил почти не остаётся ни на работу, ни на близких, ни на себя.\n\nПожалуйста, отнеситесь к этому результату серьёзно и бережно. Постарайтесь как можно скорее обратиться к врачу или психотерапевту: они помогут оценить состояние, исключить телесные причины и решить вопрос о временном освобождении от нагрузки. Расскажите близким о том, что происходит, и попросите о конкретной помощи. Это не тот момент, когда нужно «потерпеть ещё немного».\n\nЕсли вы чувствуете, что не справляетесь, или появляются мысли о том, чтобы причинить себе вред, пожалуйста, прямо сейчас обратитесь на линию психологической помощи или в экстренные службы (112).",
+            "en": "You chose the most severe answer to every question — this indicates extreme exhaustion. Living like this is very hard, and there is probably almost no energy left for work, for the people close to you, or for yourself.\n\nPlease take this result seriously and gently. Try to see a doctor or psychotherapist as soon as possible: they can assess how you are, rule out physical causes and help arrange time away from your duties. Tell the people close to you what is going on and ask for specific help. This is not the moment to \"hold on a little longer\".\n\nIf you feel you cannot cope, or you have thoughts of hurting yourself, please contact a crisis line or emergency services (112) right now."
+          }
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "name": {
+        "ru": "Выгорание, связанное с работой",
+        "en": "Work-related burnout"
+      },
+      "description": {
+        "ru": "Усталость и истощение, которые вы связываете со своей работой: как вы чувствуете себя в конце рабочего дня, утром перед работой и хватает ли сил на жизнь вне работы.",
+        "en": "Fatigue and exhaustion that you attribute to your work: how you feel at the end of the working day, in the morning before work, and whether you have energy left for life outside work."
+      },
+      "lowLabel": {
+        "ru": "Работа не истощает",
+        "en": "Work is sustainable"
+      },
+      "highLabel": {
+        "ru": "Работа истощает",
+        "en": "Work is draining"
+      },
+      "color": "#F9E3B4",
+      "scoring": "mean",
+      "min": 0,
+      "max": 100,
+      "norms": {
+        "mean": 33,
+        "sd": 17.7,
+        "n": 1910,
+        "population": "Danish human-service workers, PUMA study baseline (n = 1,917 in total; 83% women)",
+        "source": "Kristensen et al. CBI manual, 1st ed. (NFA, 2004), reference values; also Kristensen et al. (2005), Work & Stress 19(3). 19.8% scored ≥ 50."
+      },
+      "bands": [
+        {
+          "min": 0,
+          "max": 49,
+          "label": {
+            "ru": "Низкий уровень выгорания",
+            "en": "Low burnout"
+          },
+          "summary": [
+            {
+              "ru": "Работа в целом не истощает вас сильнее, чем вы успеваете восстановиться.",
+              "en": "Overall, work does not drain you faster than you can recover."
+            },
+            {
+              "ru": "Ваш балл ниже порога 50, который обычно используют для выделения выгорания.",
+              "en": "Your score is below 50, the threshold commonly used to identify burnout."
+            },
+            {
+              "ru": "Для сравнения: в датском исследовании PUMA средний балл составил 33.",
+              "en": "For comparison: the average in the Danish PUMA study was 33."
+            },
+            {
+              "ru": "Продолжайте беречь границы между работой и отдыхом.",
+              "en": "Keep protecting the boundary between work and rest."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши ответы говорят о том, что работа сейчас не забирает у вас больше сил, чем вы успеваете восстановить. Бывают утомительные дни, но они не складываются в хроническое истощение, и после работы остаётся энергия на близких и на себя.\n\nЭто хороший момент, чтобы заметить, что помогает сохранять баланс: разумный объём задач, поддержка коллег, перерывы в течение дня, возможность «выключаться» вечером и в выходные. Эти привычки — лучшая профилактика выгорания в будущем, особенно в периоды повышенной нагрузки.",
+            "en": "Your answers suggest that work is not currently taking more energy than you are able to restore. There are tiring days, but they do not add up to chronic exhaustion, and you still have energy for the people close to you and for yourself after work.\n\nThis is a good moment to notice what helps you stay balanced: a reasonable workload, supportive colleagues, breaks during the day, the ability to switch off in the evenings and at weekends. These habits are the best protection against burnout in the future, especially during busy periods."
+          }
+        },
+        {
+          "min": 50,
+          "max": 74,
+          "label": {
+            "ru": "Умеренное выгорание",
+            "en": "Moderate burnout"
+          },
+          "summary": [
+            {
+              "ru": "Работа часто оставляет вас уставшим (уставшей) и опустошённым (опустошённой).",
+              "en": "Work often leaves you tired and drained."
+            },
+            {
+              "ru": "Балл 50 и выше обычно рассматривают как признак выгорания.",
+              "en": "A score of 50 or above is usually regarded as a sign of burnout."
+            },
+            {
+              "ru": "Это сигнал пересмотреть нагрузку, а не признак вашей слабости.",
+              "en": "This is a signal to review your workload, not a sign of weakness."
+            },
+            {
+              "ru": "Помогают границы, перерывы, восстановление и разговор с руководителем о нагрузке.",
+              "en": "Boundaries, breaks, recovery and talking with your manager about workload help."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши ответы показывают, что работа регулярно забирает больше сил, чем вы успеваете восстановить: к концу дня вы часто чувствуете себя вымотанным (вымотанной), а мысли о новом рабочем дне могут вызывать тяжесть. По принятому в исследованиях соглашению балл от 50 соответствует выгоранию. Выгорание — это реакция на длительную перегрузку, а не личная неудача.\n\nПопробуйте начать с того, что в ваших силах: отметить, какие задачи и ситуации истощают больше всего; договориться о приоритетах и реалистичных сроках; делать короткие перерывы в течение дня; не брать работу домой и оставлять время, когда вы недоступны для рабочих сообщений. Если есть возможность, обсудите нагрузку с руководителем — выгорание во многом зависит от условий работы (объём, контроль, поддержка, справедливость), а не только от вас.\n\nВажно также восстанавливать базовые ресурсы — сон, движение, общение, отдых. Если истощение не проходит после отпуска, нарастает или сопровождается тревогой, сниженным настроением, нарушениями сна, стоит обратиться к психологу или психотерапевту.",
+            "en": "Your answers show that work regularly takes more energy than you can restore: you often feel worn out by the end of the day, and thinking about another working day may feel heavy. By the convention used in research, a score from 50 corresponds to burnout. Burnout is a response to prolonged overload, not a personal failure.\n\nStart with what is within your reach: notice which tasks and situations drain you the most; agree on priorities and realistic deadlines; take short breaks during the day; avoid taking work home and keep times when you are unavailable for work messages. If possible, discuss your workload with your manager — burnout depends heavily on working conditions (workload, control, support, fairness), not only on you.\n\nIt is also important to restore your basic resources — sleep, movement, connection, rest. If the exhaustion does not lift after a holiday, keeps growing, or comes with anxiety, low mood or sleep problems, it is worth seeing a psychologist or psychotherapist."
+          }
+        },
+        {
+          "min": 75,
+          "max": 99,
+          "label": {
+            "ru": "Высокий уровень выгорания",
+            "en": "High burnout"
+          },
+          "summary": [
+            {
+              "ru": "Работа почти постоянно вызывает у вас истощение.",
+              "en": "Work leaves you exhausted almost all the time."
+            },
+            {
+              "ru": "Это высокий уровень выгорания — ваш организм просит передышки.",
+              "en": "This is a high level of burnout — your body and mind are asking for a break."
+            },
+            {
+              "ru": "Одних приёмов самопомощи может быть недостаточно: важно изменить нагрузку.",
+              "en": "Self-help alone may not be enough: the load itself needs to change."
+            },
+            {
+              "ru": "Пожалуйста, обратитесь к врачу или психологу в ближайшее время.",
+              "en": "Please contact a doctor or psychologist soon."
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши ответы показывают, что работа почти постоянно истощает вас: усталость не проходит после выходных, каждый рабочий час даётся тяжело, а на близких и на себя сил почти не остаётся. Это высокий уровень выгорания. Важно понимать: это не слабость и не лень, а закономерная реакция на длительное перенапряжение.\n\nНа этом уровне одних техник самопомощи часто недостаточно — нужно менять саму нагрузку. Подумайте, можно ли взять отпуск или больничный, сократить объём обязанностей, перераспределить задачи, попросить о помощи дома и на работе. Обратитесь к врачу: он поможет исключить телесные причины усталости и при необходимости оформить временную нетрудоспособность. Психолог или психотерапевт поможет восстановиться и выстроить устойчивые границы.\n\nВыраженное выгорание часто сопровождается тревогой и депрессией; вы можете пройти на сайте тесты GAD-7 и PHQ-9. Если вы чувствуете, что не справляетесь, или появляются мысли о том, чтобы причинить себе вред, звоните на линию психологической помощи.",
+            "en": "Your answers show that work exhausts you almost constantly: the tiredness does not lift after weekends, every working hour feels hard, and there is little energy left for the people close to you or for yourself. This is a high level of burnout. It is important to understand that this is not weakness or laziness, but a natural response to prolonged overload.\n\nAt this level, self-help techniques alone are often not enough — the load itself needs to change. Consider whether you could take leave or sick leave, reduce your responsibilities, redistribute tasks, or ask for help at home and at work. See a doctor: they can rule out physical causes of fatigue and, if needed, arrange time off. A psychologist or psychotherapist can help you recover and build sustainable boundaries.\n\nSevere burnout often comes with anxiety and depression; you can take the GAD-7 and PHQ-9 tests on this site. If you feel you cannot cope, or you have thoughts of hurting yourself, please call a crisis line."
+          }
+        },
+        {
+          "min": 100,
+          "max": 100,
+          "label": {
+            "ru": "Тяжёлое выгорание",
+            "en": "Severe burnout"
+          },
+          "summary": [
+            {
+              "ru": "На все вопросы вы выбрали самый тяжёлый вариант ответа.",
+              "en": "You chose the most severe answer to every question."
+            },
+            {
+              "ru": "Это максимально возможный уровень выгорания по этой шкале.",
+              "en": "This is the highest possible level of burnout on this scale."
+            },
+            {
+              "ru": "Вам сейчас очень тяжело, и вы заслуживаете помощи и передышки.",
+              "en": "You are having a very hard time, and you deserve help and a break."
+            },
+            {
+              "ru": "Пожалуйста, обратитесь к врачу или психотерапевту как можно скорее.",
+              "en": "Please contact a doctor or psychotherapist as soon as possible."
+            }
+          ],
+          "detailed": {
+            "ru": "Вы отметили самый тяжёлый вариант на каждый вопрос — это означает крайнюю степень истощения. Жить в таком состоянии очень трудно, и, скорее всего, сил почти не остаётся ни на работу, ни на близких, ни на себя.\n\nПожалуйста, отнеситесь к этому результату серьёзно и бережно. Постарайтесь как можно скорее обратиться к врачу или психотерапевту: они помогут оценить состояние, исключить телесные причины и решить вопрос о временном освобождении от нагрузки. Расскажите близким о том, что происходит, и попросите о конкретной помощи. Это не тот момент, когда нужно «потерпеть ещё немного».\n\nЕсли вы чувствуете, что не справляетесь, или появляются мысли о том, чтобы причинить себе вред, пожалуйста, прямо сейчас обратитесь на линию психологической помощи или в экстренные службы (112).",
+            "en": "You chose the most severe answer to every question — this indicates extreme exhaustion. Living like this is very hard, and there is probably almost no energy left for work, for the people close to you, or for yourself.\n\nPlease take this result seriously and gently. Try to see a doctor or psychotherapist as soon as possible: they can assess how you are, rule out physical causes and help arrange time away from your duties. Tell the people close to you what is going on and ask for specific help. This is not the moment to \"hold on a little longer\".\n\nIf you feel you cannot cope, or you have thoughts of hurting yourself, please contact a crisis line or emergency services (112) right now."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cbi-p1",
+      "text": {
+        "ru": "Как часто вы чувствуете усталость?",
+        "en": "How often do you feel tired?"
+      },
+      "dimension": "personal",
+      "options": [
+        {
+          "text": {
+            "ru": "Всегда",
+            "en": "Always"
+          },
+          "scores": {
+            "personal": 100
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "personal": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "personal": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Seldom"
+          },
+          "scores": {
+            "personal": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "Никогда или почти никогда",
+            "en": "Never / almost never"
+          },
+          "scores": {
+            "personal": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cbi-p2",
+      "text": {
+        "ru": "Как часто вы чувствуете физическое истощение?",
+        "en": "How often are you physically exhausted?"
+      },
+      "dimension": "personal",
+      "options": [
+        {
+          "text": {
+            "ru": "Всегда",
+            "en": "Always"
+          },
+          "scores": {
+            "personal": 100
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "personal": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "personal": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Seldom"
+          },
+          "scores": {
+            "personal": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "Никогда или почти никогда",
+            "en": "Never / almost never"
+          },
+          "scores": {
+            "personal": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cbi-p3",
+      "text": {
+        "ru": "Как часто вы чувствуете эмоциональное истощение?",
+        "en": "How often are you emotionally exhausted?"
+      },
+      "dimension": "personal",
+      "options": [
+        {
+          "text": {
+            "ru": "Всегда",
+            "en": "Always"
+          },
+          "scores": {
+            "personal": 100
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "personal": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "personal": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Seldom"
+          },
+          "scores": {
+            "personal": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "Никогда или почти никогда",
+            "en": "Never / almost never"
+          },
+          "scores": {
+            "personal": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cbi-p4",
+      "text": {
+        "ru": "Как часто вы думаете: «Я больше не могу это выносить»?",
+        "en": "How often do you think: “I can’t take it anymore”?"
+      },
+      "dimension": "personal",
+      "options": [
+        {
+          "text": {
+            "ru": "Всегда",
+            "en": "Always"
+          },
+          "scores": {
+            "personal": 100
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "personal": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "personal": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Seldom"
+          },
+          "scores": {
+            "personal": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "Никогда или почти никогда",
+            "en": "Never / almost never"
+          },
+          "scores": {
+            "personal": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cbi-p5",
+      "text": {
+        "ru": "Как часто вы чувствуете себя измотанным (измотанной)?",
+        "en": "How often do you feel worn out?"
+      },
+      "dimension": "personal",
+      "options": [
+        {
+          "text": {
+            "ru": "Всегда",
+            "en": "Always"
+          },
+          "scores": {
+            "personal": 100
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "personal": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "personal": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Seldom"
+          },
+          "scores": {
+            "personal": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "Никогда или почти никогда",
+            "en": "Never / almost never"
+          },
+          "scores": {
+            "personal": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cbi-p6",
+      "text": {
+        "ru": "Как часто вы чувствуете слабость и подверженность болезням?",
+        "en": "How often do you feel weak and susceptible to illness?"
+      },
+      "dimension": "personal",
+      "options": [
+        {
+          "text": {
+            "ru": "Всегда",
+            "en": "Always"
+          },
+          "scores": {
+            "personal": 100
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "personal": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "personal": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Seldom"
+          },
+          "scores": {
+            "personal": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "Никогда или почти никогда",
+            "en": "Never / almost never"
+          },
+          "scores": {
+            "personal": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cbi-w1",
+      "text": {
+        "ru": "Ваша работа изматывает вас эмоционально?",
+        "en": "Is your work emotionally exhausting?"
+      },
+      "dimension": "work",
+      "options": [
+        {
+          "text": {
+            "ru": "В очень высокой степени",
+            "en": "To a very high degree"
+          },
+          "scores": {
+            "work": 100
+          }
+        },
+        {
+          "text": {
+            "ru": "В высокой степени",
+            "en": "To a high degree"
+          },
+          "scores": {
+            "work": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "В некоторой степени",
+            "en": "Somewhat"
+          },
+          "scores": {
+            "work": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "В малой степени",
+            "en": "To a low degree"
+          },
+          "scores": {
+            "work": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "В очень малой степени",
+            "en": "To a very low degree"
+          },
+          "scores": {
+            "work": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cbi-w2",
+      "text": {
+        "ru": "Чувствуете ли вы, что «выгорели» из-за работы?",
+        "en": "Do you feel burnt out because of your work?"
+      },
+      "dimension": "work",
+      "options": [
+        {
+          "text": {
+            "ru": "В очень высокой степени",
+            "en": "To a very high degree"
+          },
+          "scores": {
+            "work": 100
+          }
+        },
+        {
+          "text": {
+            "ru": "В высокой степени",
+            "en": "To a high degree"
+          },
+          "scores": {
+            "work": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "В некоторой степени",
+            "en": "Somewhat"
+          },
+          "scores": {
+            "work": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "В малой степени",
+            "en": "To a low degree"
+          },
+          "scores": {
+            "work": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "В очень малой степени",
+            "en": "To a very low degree"
+          },
+          "scores": {
+            "work": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cbi-w3",
+      "text": {
+        "ru": "Вызывает ли у вас работа досаду и разочарование?",
+        "en": "Does your work frustrate you?"
+      },
+      "dimension": "work",
+      "options": [
+        {
+          "text": {
+            "ru": "В очень высокой степени",
+            "en": "To a very high degree"
+          },
+          "scores": {
+            "work": 100
+          }
+        },
+        {
+          "text": {
+            "ru": "В высокой степени",
+            "en": "To a high degree"
+          },
+          "scores": {
+            "work": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "В некоторой степени",
+            "en": "Somewhat"
+          },
+          "scores": {
+            "work": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "В малой степени",
+            "en": "To a low degree"
+          },
+          "scores": {
+            "work": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "В очень малой степени",
+            "en": "To a very low degree"
+          },
+          "scores": {
+            "work": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cbi-w4",
+      "text": {
+        "ru": "Чувствуете ли вы себя измотанным (измотанной) в конце рабочего дня?",
+        "en": "Do you feel worn out at the end of the working day?"
+      },
+      "dimension": "work",
+      "options": [
+        {
+          "text": {
+            "ru": "Всегда",
+            "en": "Always"
+          },
+          "scores": {
+            "work": 100
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "work": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "work": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Seldom"
+          },
+          "scores": {
+            "work": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "Никогда или почти никогда",
+            "en": "Never / almost never"
+          },
+          "scores": {
+            "work": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cbi-w5",
+      "text": {
+        "ru": "Чувствуете ли вы опустошённость утром при мысли о предстоящем рабочем дне?",
+        "en": "Are you exhausted in the morning at the thought of another day at work?"
+      },
+      "dimension": "work",
+      "options": [
+        {
+          "text": {
+            "ru": "Всегда",
+            "en": "Always"
+          },
+          "scores": {
+            "work": 100
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "work": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "work": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Seldom"
+          },
+          "scores": {
+            "work": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "Никогда или почти никогда",
+            "en": "Never / almost never"
+          },
+          "scores": {
+            "work": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cbi-w6",
+      "text": {
+        "ru": "Кажется ли вам, что каждый рабочий час даётся вам с усталостью?",
+        "en": "Do you feel that every working hour is tiring for you?"
+      },
+      "dimension": "work",
+      "options": [
+        {
+          "text": {
+            "ru": "Всегда",
+            "en": "Always"
+          },
+          "scores": {
+            "work": 100
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "work": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "work": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Seldom"
+          },
+          "scores": {
+            "work": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "Никогда или почти никогда",
+            "en": "Never / almost never"
+          },
+          "scores": {
+            "work": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cbi-w7",
+      "text": {
+        "ru": "Хватает ли у вас сил на семью и друзей в свободное время?",
+        "en": "Do you have enough energy for family and friends during leisure time?"
+      },
+      "dimension": "work",
+      "options": [
+        {
+          "text": {
+            "ru": "Всегда",
+            "en": "Always"
+          },
+          "scores": {
+            "work": 0
+          }
+        },
+        {
+          "text": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "scores": {
+            "work": 25
+          }
+        },
+        {
+          "text": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "scores": {
+            "work": 50
+          }
+        },
+        {
+          "text": {
+            "ru": "Редко",
+            "en": "Seldom"
+          },
+          "scores": {
+            "work": 75
+          }
+        },
+        {
+          "text": {
+            "ru": "Никогда или почти никогда",
+            "en": "Never / almost never"
+          },
+          "scores": {
+            "work": 100
+          }
+        }
+      ]
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ переводится в баллы: 100, 75, 50, 25 или 0 (от самого «тяжёлого» варианта к самому лёгкому). Вопрос «Хватает ли у вас сил на семью и друзей в свободное время?» считается наоборот (ответ «Всегда» = 0). Балл каждой шкалы — среднее по её вопросам, от 0 до 100: личное выгорание — 6 вопросов, выгорание, связанное с работой, — 7 вопросов. Условные диапазоны: 0–49 — низкий уровень, 50–74 — умеренное выгорание, 75–99 — высокое, 100 — тяжёлое. Диапазоны применяются к неокруглённому среднему. Средние баллы в датском исследовании PUMA: 35,9 ± 16,5 (личное) и 33,0 ± 17,7 (рабочее); процентиль сравнивает ваш результат с этой выборкой.",
+    "en": "Each answer is converted to points: 100, 75, 50, 25 or 0 (from the most to the least severe option). The question \"Do you have enough energy for family and friends during leisure time?\" is reverse-scored (\"Always\" = 0). Each scale score is the mean of its questions, from 0 to 100: personal burnout has 6 questions, work-related burnout 7. Conventional ranges: 0–49 low, 50–74 moderate, 75–99 high, 100 severe burnout. Ranges are applied to the unrounded mean. Mean scores in the Danish PUMA study: 35.9 ± 16.5 (personal) and 33.0 ± 17.7 (work-related); the percentile compares your score with this sample."
+  },
+  "resultIntro": {
+    "ru": "Спасибо, что нашли время на себя. Ниже — два ваших результата: общий уровень истощения и истощение, связанное с работой. Высокие баллы — это не оценка вас как человека, а сигнал о том, что нагрузке и восстановлению стоит уделить внимание.",
+    "en": "Thank you for taking time for yourself. Below are your two results: your general level of exhaustion and exhaustion related to work. High scores are not a judgement of you as a person, but a signal that your workload and recovery deserve attention."
+  }
+}

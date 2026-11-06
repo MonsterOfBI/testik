@@ -1,0 +1,873 @@
+{
+  "id": "chronotype",
+  "category": "wellbeing",
+  "kind": "choice",
+  "seriousness": "scientific",
+  "title": {
+    "ru": "Сова или жаворонок? Тест на хронотип",
+    "en": "Owl or Lark? Chronotype Test"
+  },
+  "tagline": {
+    "ru": "5 вопросов — и вы знаете, когда ваш мозг работает лучше всего",
+    "en": "5 questions to find when your brain works best"
+  },
+  "description": {
+    "ru": "Короткая научная версия опросника Хорна — Остберга покажет, к какому хронотипу вы относитесь — от выраженной «совы» до «жаворонка». Вы получите советы по сну, свету и планированию дня, основанные на исследованиях циркадных ритмов и «социального джетлага».",
+    "en": "A short, research-based version of the Horne–Östberg questionnaire shows your chronotype — from definite owl to definite lark. You'll get advice on sleep, light and planning your day based on circadian-rhythm research and 'social jetlag'."
+  },
+  "emoji": "🦉",
+  "durationMin": 2,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "сон",
+      "en": "sleep"
+    },
+    {
+      "ru": "хронотип",
+      "en": "chronotype"
+    },
+    {
+      "ru": "продуктивность",
+      "en": "productivity"
+    },
+    {
+      "ru": "циркадные ритмы",
+      "en": "circadian rhythms"
+    },
+    {
+      "ru": "сова или жаворонок",
+      "en": "owl or lark"
+    }
+  ],
+  "methodology": {
+    "ru": "**Что измеряется.** Хронотип — индивидуальное предпочтение времени сна и активности, отражающее фазу внутренних (циркадных) часов. Он непрерывен: от выраженных «жаворонков» до выраженных «сов», большинство людей — посередине.\n\n**Инструмент.** Используется сокращённая версия опросника утренности-вечерности Хорна и Остберга (MEQ, 1976; 19 пунктов) — **rMEQ** из 5 пунктов (Adan & Almirall, 1991): предпочитаемое время подъёма, самочувствие после пробуждения, время вечерней усталости, время пика самочувствия и самооценка типа. Баллы: 4–25. Границы категорий rMEQ (Adan & Almirall, 1991): 4–7 — выраженный вечерний, 8–11 — умеренно вечерний, 12–17 — промежуточный, 18–21 — умеренно утренний, 22–25 — выраженный утренний тип.\n\n**Надёжность и валидность.** По обзору Di Milia и соавт. (2013, приводится по Tonetti, Adan & Natale) надёжность rMEQ — около .69–.73, ретестовая — .76–.79; корреляция с полной версией MEQ — .87–.90. rMEQ валидизирован по объективным показателям — двигательной активности (актиграфия), температуре тела и субъективной бодрости — и хорошо различает крайние хронотипы. Нормы: у студентов Италии и Испании (N = 849) M = 13,3, SD = 3,6 (мужчины 13,0, женщины 13,4); в когорте пациентов сомнологических клиник STAGES (N = 1770) — M = 14,5, SD = 4,0. Альтернативные итальянские границы для трёх категорий: 4–10 вечерний, 11–18 промежуточный, 19–25 утренний тип.\n\n**Социальный джетлаг.** Wittmann, Dinich, Merrow & Roenneberg (2006) описали рассогласование биологического и социального времени: разницу середины сна в выходные и будни. Она особенно велика у вечерних типов и связана с курением, потреблением кофеина и алкоголя, а в работе Roenneberg и соавт. (2012) — с повышенным индексом массы тела. Хронотип меняется с возрастом: в среднем самый поздний около 20 лет (Roenneberg et al., 2004), позже сдвигается на утро. Рекомендации по освещению (Brown et al., 2022): много яркого света днём, приглушённый свет за ~3 часа до сна, темнота ночью.\n\n**Ограничения.** Опросник измеряет **предпочтения**, а не точную фазу мелатонина; на ответы влияют обязанности, сезон и возраст. Нормы получены на студентах (более «совиная» выборка), поэтому для людей старшего возраста процентиль будет смещён. Это не диагностика расстройств сна: при хронической бессоннице, сильной дневной сонливости или храпе обратитесь к сомнологу.",
+    "en": "**What it measures.** Chronotype is your individual preference for the timing of sleep and activity, reflecting the phase of your internal (circadian) clock. It is continuous: from definite 'larks' to definite 'owls', with most people in between.\n\n**Instrument.** We use the reduced version of Horne & Östberg's Morningness–Eveningness Questionnaire (MEQ, 1976; 19 items) — the 5-item **rMEQ** (Adan & Almirall, 1991): preferred rising time, tiredness after waking, evening tiredness time, peak 'feeling best' time and self-rated type. Score range 4–25. rMEQ cut-offs (Adan & Almirall, 1991): 4–7 definitely evening, 8–11 moderately evening, 12–17 neither, 18–21 moderately morning, 22–25 definitely morning.\n\n**Reliability and validity.** Per the review by Di Milia et al. (2013), as cited by Tonetti, Adan & Natale, rMEQ reliability is about .69–.73 and test–retest .76–.79; correlation with the full MEQ is .87–.90. The rMEQ has been validated against objective markers — motor activity (actigraphy), body temperature and subjective alertness — and discriminates well between extreme chronotypes. Norms: university students in Italy and Spain (N = 849), M = 13.3, SD = 3.6 (men 13.0, women 13.4); in the STAGES sleep-clinic cohort (N = 1,770), M = 14.5, SD = 4.0. Alternative Italian three-category cut-offs: 4–10 evening, 11–18 intermediate, 19–25 morning type.\n\n**Social jetlag.** Wittmann, Dinich, Merrow & Roenneberg (2006) described the misalignment between biological and social time: the difference in mid-sleep between free days and workdays. It is largest in evening types and is linked to smoking and caffeine/alcohol use, and — in Roenneberg et al. (2012) — to higher body-mass index. Chronotype changes with age: on average latest around age 20 (Roenneberg et al., 2004), shifting earlier later in life. Lighting recommendations (Brown et al., 2022): plenty of bright light by day, dim light for ~3 hours before bed, darkness at night.\n\n**Limitations.** The questionnaire measures **preferences**, not exact melatonin phase; answers are influenced by obligations, season and age. Norms come from students (a more evening-oriented sample), so percentiles for older adults will be skewed. This is not a sleep-disorder diagnosis: for chronic insomnia, severe daytime sleepiness or loud snoring, see a sleep specialist."
+  },
+  "sources": [
+    {
+      "citation": "Horne, J. A., & Östberg, O. (1976). A self-assessment questionnaire to determine morningness-eveningness in human circadian rhythms. International Journal of Chronobiology, 4(2), 97–110."
+    },
+    {
+      "citation": "Adan, A., & Almirall, H. (1991). Horne & Östberg morningness-eveningness questionnaire: A reduced scale. Personality and Individual Differences, 12(3), 241–253.",
+      "doi": "10.1016/0191-8869(91)90110-W"
+    },
+    {
+      "citation": "Tonetti, L., Adan, A., & Natale, V. (n.d.). A more accurate assessment of circadian typology is achieved by asking persons to indicate their preferred times [Author manuscript]. Universitat de Barcelona repository.",
+      "url": "https://diposit.ub.edu/dspace/bitstream/2445/220392/1/844004.pdf"
+    },
+    {
+      "citation": "National Sleep Research Resource. (n.d.). STAGES dataset: rMEQ total score (variable cir_0700) — scoring range and five-category cut-offs.",
+      "url": "https://sleepdata.org/datasets/stages/variables/cir_0700"
+    },
+    {
+      "citation": "Tonetti, L., Andreose, A., Bacaro, V., Giovagnoli, S., Grimaldi, M., Natale, V., & Crocetti, E. (2024). External validity of the reduced Morningness–Eveningness Questionnaire for Children and Adolescents: An actigraphic study. Journal of Sleep Research, 33(3), e13948.",
+      "doi": "10.1111/jsr.13948"
+    },
+    {
+      "citation": "Di Milia, L., Adan, A., Natale, V., & Randler, C. (2013). Reviewing the psychometric properties of contemporary circadian typology measures. Chronobiology International, 30(10), 1261–1271.",
+      "doi": "10.3109/07420528.2013.817415"
+    },
+    {
+      "citation": "Wittmann, M., Dinich, J., Merrow, M., & Roenneberg, T. (2006). Social jetlag: Misalignment of biological and social time. Chronobiology International, 23(1–2), 497–509.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16687322/"
+    },
+    {
+      "citation": "Roenneberg, T., Allebrandt, K. V., Merrow, M., & Vetter, C. (2012). Social jetlag and obesity. Current Biology, 22(10), 939–943.",
+      "doi": "10.1016/j.cub.2012.03.038"
+    },
+    {
+      "citation": "Roenneberg, T., Kuehnle, T., Pramstaller, P. P., Ricken, J., Havel, M., Guth, A., & Merrow, M. (2004). A marker for the end of adolescence. Current Biology, 14(24), R1038–R1039.",
+      "doi": "10.1016/j.cub.2004.11.039"
+    },
+    {
+      "citation": "Facer-Childs, E. R., Middleton, B., Skene, D. J., & Bagshaw, A. P. (2019). Resetting the late timing of 'night owls' has a positive impact on mental health and performance. Sleep Medicine, 60, 236–247.",
+      "doi": "10.1016/j.sleep.2019.05.001"
+    },
+    {
+      "citation": "Brown, T. M., Brainard, G. C., Cajochen, C., et al. (2022). Recommendations for daytime, evening, and nighttime indoor light exposure to best support physiology, sleep, and wakefulness in healthy adults. PLOS Biology, 20(3), e3001571.",
+      "doi": "10.1371/journal.pbio.3001571"
+    }
+  ],
+  "license": "The MEQ (Horne & Östberg, 1976) and its 5-item reduced form (rMEQ; Adan & Almirall, 1991) are published research instruments that are widely reproduced free of charge for research and clinical use (e.g., by university sleep programmes), but neither carries a formal open licence such as CC or public-domain dedication; the original articles are copyrighted by their publishers. Use here: 5 short items with attribution to the authors, translated by testik for non-diagnostic self-assessment. Recommendation: keep the attribution, do not sell the questionnaire itself, and if testik is commercial, consider written confirmation from the authors (A. Adan, Universitat de Barcelona) — status: low-to-moderate risk, not verified. All interpretive text and advice are original testik content.",
+  "instructions": {
+    "ru": "Ответьте на 5 вопросов о том, когда вам **комфортнее** спать, просыпаться и работать. Думайте о своих естественных предпочтениях за последние недели, а не о том, к чему вас вынуждает расписание.",
+    "en": "Answer 5 questions about when you **prefer** to sleep, wake and be active. Think about your natural preferences over recent weeks, not what your schedule forces you to do."
+  },
+  "dimensions": [
+    {
+      "id": "morningness",
+      "color": "#FFE0A3",
+      "name": {
+        "ru": "Утренность — вечерность",
+        "en": "Morningness–eveningness"
+      },
+      "description": {
+        "ru": "Насколько ваши предпочтения по времени сна, пробуждения и активности сдвинуты на утро (высокий балл) или на вечер (низкий балл). Шкала сокращённого опросника Хорна — Остберга (rMEQ), 4–25 баллов.",
+        "en": "How far your preferred timing of sleep, waking and activity is shifted toward morning (high score) or evening (low score). Reduced Horne–Östberg questionnaire (rMEQ) scale, 4–25 points."
+      },
+      "lowLabel": {
+        "ru": "Сова (вечерний тип)",
+        "en": "Owl (evening type)"
+      },
+      "highLabel": {
+        "ru": "Жаворонок (утренний тип)",
+        "en": "Lark (morning type)"
+      },
+      "scoring": "sum",
+      "min": 4,
+      "max": 25,
+      "norms": {
+        "mean": 13.3,
+        "sd": 3.6,
+        "n": 849,
+        "population": "University students, Italy and Spain (mean age ≈ 21–23); students are on average later chronotypes than the general adult population",
+        "source": "Tonetti, L., Adan, A., & Natale, V. — rMEQ data reported in 'A more accurate assessment of circadian typology is achieved by asking persons to indicate their preferred times' (Universitat de Barcelona repository, https://diposit.ub.edu/dspace/bitstream/2445/220392/1/844004.pdf)"
+      },
+      "bands": [
+        {
+          "min": 4,
+          "max": 7,
+          "label": {
+            "ru": "Выраженный вечерний тип",
+            "en": "Definitely evening type"
+          },
+          "summary": [
+            {
+              "ru": "Пик бодрости — поздно вечером и ночью",
+              "en": "Peak alertness is late evening and night"
+            },
+            {
+              "ru": "Ранние подъёмы даются очень тяжело",
+              "en": "Early starts are very hard"
+            },
+            {
+              "ru": "Высокий риск «социального джетлага»",
+              "en": "High risk of 'social jetlag'"
+            },
+            {
+              "ru": "Свет утром — ваш главный союзник",
+              "en": "Morning light is your best ally"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши внутренние часы заметно сдвинуты на поздний режим. Это во многом биология (гены, возраст), а не лень. Проблемы начинаются, когда школа или работа требуют ранних подъёмов: возникает хронический недосып в будни и «отсыпание» в выходные — так называемый социальный джетлаг, который в исследованиях связан с худшим самочувствием, настроением и метаболическим здоровьем.\n\n**Что помогает:** яркий дневной свет в первые часы после подъёма (прогулка, у окна, работа при хорошем освещении); приглушённый тёплый свет и меньше экранов за 2–3 часа до сна; одинаковое время подъёма и в будни, и в выходные (разница не больше часа); кофеин — только в первой половине дня. В исследовании «сдвига» сов (Facer-Childs et al., 2019) за 3 недели таких мер участники ложились и вставали примерно на 2 часа раньше и отмечали улучшение настроения. По возможности договоритесь о гибком графике и ставьте сложные задачи на вторую половину дня.",
+            "en": "Your internal clock is clearly set late. This is largely biology (genes, age), not laziness. Trouble starts when school or work demand early starts: chronic sleep loss on weekdays and catch-up sleep on weekends — so-called social jetlag, which research links to poorer mood, well-being and metabolic health.\n\n**What helps:** bright daylight in the first hours after waking (walk outside, sit by a window); dim, warm light and fewer screens 2–3 hours before bed; the same wake time on workdays and free days (within about an hour); caffeine only in the first half of the day. In a study that shifted 'night owls' (Facer-Childs et al., 2019), three weeks of such measures moved sleep and wake times about 2 hours earlier and improved mood. Where possible, negotiate flexible hours and schedule demanding work for the afternoon."
+          }
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "label": {
+            "ru": "Умеренно вечерний тип",
+            "en": "Moderately evening type"
+          },
+          "summary": [
+            {
+              "ru": "Лучше всего работаете во второй половине дня",
+              "en": "You work best in the afternoon and evening"
+            },
+            {
+              "ru": "Утро «раскачивается» медленно",
+              "en": "Mornings start slowly"
+            },
+            {
+              "ru": "Склонность засиживаться допоздна",
+              "en": "A tendency to stay up late"
+            },
+            {
+              "ru": "Режим можно мягко сдвинуть светом",
+              "en": "Light can gently shift your rhythm"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваш ритм умеренно сдвинут на вечер: вы можете встать рано, но продуктивность и настроение приходят ближе к обеду. Без внешних ограничений вы, скорее всего, ложитесь позже, чем требует будничное расписание.\n\n**Что помогает:** держите стабильное время подъёма; выходите на дневной свет в первый час после пробуждения; переносите важные «мыслительные» задачи на дневные и ранние вечерние часы, а рутинные — на утро; избегайте яркого света и длинных сессий в телефоне перед сном. Небольшая физическая активность утром тоже помогает «проснуться» часам организма.",
+            "en": "Your rhythm leans moderately toward evening: you can get up early, but energy and mood arrive closer to midday. Without external limits you probably go to bed later than your weekday schedule allows.\n\n**What helps:** keep a stable wake time; get daylight within the first hour after waking; put important thinking tasks in the afternoon and early evening and routine tasks in the morning; avoid bright light and long phone sessions before bed. Some light morning exercise also helps your body clock wake up."
+          }
+        },
+        {
+          "min": 12,
+          "max": 17,
+          "label": {
+            "ru": "Промежуточный тип",
+            "en": "Intermediate type"
+          },
+          "summary": [
+            {
+              "ru": "Нет сильного сдвига ни на утро, ни на вечер",
+              "en": "No strong lean to morning or evening"
+            },
+            {
+              "ru": "Легче всех подстраиваетесь под расписание",
+              "en": "You adapt to schedules most easily"
+            },
+            {
+              "ru": "Пик обычно в первой половине — середине дня",
+              "en": "Peak is usually late morning to midday"
+            },
+            {
+              "ru": "Режим всё равно важен для качества сна",
+              "en": "A routine still matters for sleep quality"
+            }
+          ],
+          "detailed": {
+            "ru": "Большинство людей относятся именно к промежуточному типу. Вам относительно легко жить по обычному графику, а при необходимости — сдвигаться в обе стороны. Но гибкость не отменяет базовой гигиены сна: при нерегулярном режиме и вечернем свете внутренние часы постепенно «уезжают» на более позднее время.\n\n**Что помогает:** 7–9 часов сна для взрослых, стабильное время подъёма, дневной свет и активность днём, тёмная и прохладная спальня. Планируйте самые сложные задачи на ваше «окно ясности» — обычно поздним утром.",
+            "en": "Most people are intermediate types. You find it relatively easy to live on a standard schedule and can shift either way when needed. Flexibility doesn't cancel basic sleep hygiene, though: with irregular hours and evening light, the body clock gradually drifts later.\n\n**What helps:** 7–9 hours of sleep for adults, a stable wake time, daylight and activity during the day, a dark and cool bedroom. Schedule your hardest tasks for your 'clarity window' — usually late morning."
+          }
+        },
+        {
+          "min": 18,
+          "max": 21,
+          "label": {
+            "ru": "Умеренно утренний тип",
+            "en": "Moderately morning type"
+          },
+          "summary": [
+            {
+              "ru": "Утро — ваше продуктивное время",
+              "en": "Morning is your productive time"
+            },
+            {
+              "ru": "Вечером энергия заметно падает",
+              "en": "Energy drops noticeably in the evening"
+            },
+            {
+              "ru": "Легко просыпаетесь без будильника",
+              "en": "You wake easily, often without an alarm"
+            },
+            {
+              "ru": "Поздние мероприятия даются тяжелее",
+              "en": "Late events are harder for you"
+            }
+          ],
+          "detailed": {
+            "ru": "Ваши внутренние часы немного опережают среднее: вы бодры утром и раньше устаёте вечером. Школьные и офисные графики обычно вам подходят — это преимущество.\n\n**Что помогает:** ставьте сложные, требующие концентрации задачи на утро, а встречи и рутину — на вторую половину дня. Не «насилуйте» себя поздними дедлайнами: после вечера с недосыпом вы восстанавливаетесь хуже, чем совы. Если нужно сдвинуться позже (поездка, поздняя смена), помогает яркий свет вечером и затемнение утром.",
+            "en": "Your internal clock runs slightly ahead of average: you're alert in the morning and tire earlier in the evening. School and office schedules usually suit you — an advantage.\n\n**What helps:** put demanding, focus-heavy tasks in the morning and meetings and routine in the afternoon. Don't force late deadlines on yourself: you recover from short nights less easily than owls. If you need to shift later (travel, late shift), bright evening light and morning darkness help."
+          }
+        },
+        {
+          "min": 22,
+          "max": 25,
+          "label": {
+            "ru": "Выраженный утренний тип",
+            "en": "Definitely morning type"
+          },
+          "summary": [
+            {
+              "ru": "Встаёте рано и сразу «в строю»",
+              "en": "You rise early and are ready to go"
+            },
+            {
+              "ru": "Пик продуктивности — ранним утром",
+              "en": "Peak productivity is early morning"
+            },
+            {
+              "ru": "Рано хочется спать вечером",
+              "en": "You get sleepy early in the evening"
+            },
+            {
+              "ru": "Ночные смены и поздние события — испытание",
+              "en": "Night shifts and late events are a challenge"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы классический «жаворонок»: просыпаетесь рано, бодры почти сразу и к вечеру быстро выдыхаетесь. С возрастом такой ритм встречается чаще — у пожилых людей хронотип в среднем сдвигается на утро.\n\n**Что помогает:** защищайте утренние часы для самой важной работы; планируйте общение и вечерние события с учётом своего «окна», заранее договаривайтесь о раннем уходе. Если вы просыпаетесь слишком рано и не можете уснуть, помогает больше яркого света вечером и меньше — рано утром. Избегайте ночных смен, если есть выбор: утренние типы переносят их хуже.",
+            "en": "You're a classic 'lark': you wake early, feel alert almost immediately and fade quickly by evening. This pattern becomes more common with age — chronotype tends to shift earlier in older adults.\n\n**What helps:** protect morning hours for your most important work; plan social and evening events around your window and agree on leaving early in advance. If you wake too early and can't fall back asleep, more bright light in the evening and less in the early morning helps. Avoid night shifts if you have a choice: morning types tolerate them less well."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "meq1",
+      "text": {
+        "ru": "Если бы вы могли совершенно свободно планировать свой день и ориентировались только на собственное «лучшее» самочувствие, во сколько вы бы вставали?",
+        "en": "Considering only your own 'feeling best' rhythm, at what time would you get up if you were entirely free to plan your day?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "5:00–6:30",
+            "en": "5:00–6:30 AM"
+          },
+          "scores": {
+            "morningness": 5
+          }
+        },
+        {
+          "text": {
+            "ru": "6:30–7:45",
+            "en": "6:30–7:45 AM"
+          },
+          "scores": {
+            "morningness": 4
+          }
+        },
+        {
+          "text": {
+            "ru": "7:45–9:45",
+            "en": "7:45–9:45 AM"
+          },
+          "scores": {
+            "morningness": 3
+          }
+        },
+        {
+          "text": {
+            "ru": "9:45–11:00",
+            "en": "9:45–11:00 AM"
+          },
+          "scores": {
+            "morningness": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "11:00–12:00",
+            "en": "11:00 AM–12:00 noon"
+          },
+          "scores": {
+            "morningness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "meq7",
+      "text": {
+        "ru": "Как вы обычно чувствуете себя в первые полчаса после утреннего пробуждения?",
+        "en": "During the first half-hour after having woken in the morning, how tired do you feel?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Очень уставшим(-ей)",
+            "en": "Very tired"
+          },
+          "scores": {
+            "morningness": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Скорее уставшим(-ей)",
+            "en": "Fairly tired"
+          },
+          "scores": {
+            "morningness": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Скорее бодрым(-ой)",
+            "en": "Fairly refreshed"
+          },
+          "scores": {
+            "morningness": 3
+          }
+        },
+        {
+          "text": {
+            "ru": "Совершенно бодрым(-ой)",
+            "en": "Very refreshed"
+          },
+          "scores": {
+            "morningness": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "meq10",
+      "text": {
+        "ru": "Во сколько вечером вы начинаете чувствовать усталость и потребность во сне?",
+        "en": "At what time in the evening do you feel tired and, as a result, in need of sleep?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "20:00–21:00",
+            "en": "8:00–9:00 PM"
+          },
+          "scores": {
+            "morningness": 5
+          }
+        },
+        {
+          "text": {
+            "ru": "21:00–22:15",
+            "en": "9:00–10:15 PM"
+          },
+          "scores": {
+            "morningness": 4
+          }
+        },
+        {
+          "text": {
+            "ru": "22:15–0:45",
+            "en": "10:15 PM–12:45 AM"
+          },
+          "scores": {
+            "morningness": 3
+          }
+        },
+        {
+          "text": {
+            "ru": "0:45–2:00",
+            "en": "12:45–2:00 AM"
+          },
+          "scores": {
+            "morningness": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "2:00–3:00",
+            "en": "2:00–3:00 AM"
+          },
+          "scores": {
+            "morningness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "meq18",
+      "text": {
+        "ru": "В какое время суток, по вашим ощущениям, вы находитесь на пике самочувствия?",
+        "en": "At what time of day do you think you reach your 'feeling best' peak?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "5:00–8:00",
+            "en": "5:00–8:00 AM"
+          },
+          "scores": {
+            "morningness": 5
+          }
+        },
+        {
+          "text": {
+            "ru": "8:00–10:00",
+            "en": "8:00–10:00 AM"
+          },
+          "scores": {
+            "morningness": 4
+          }
+        },
+        {
+          "text": {
+            "ru": "10:00–17:00",
+            "en": "10:00 AM–5:00 PM"
+          },
+          "scores": {
+            "morningness": 3
+          }
+        },
+        {
+          "text": {
+            "ru": "17:00–22:00",
+            "en": "5:00–10:00 PM"
+          },
+          "scores": {
+            "morningness": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "22:00–5:00",
+            "en": "10:00 PM–5:00 AM"
+          },
+          "scores": {
+            "morningness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "meq19",
+      "text": {
+        "ru": "Говорят, что люди бывают «утреннего» и «вечернего» типа. К какому типу вы относите себя?",
+        "en": "One hears about 'morning' and 'evening' types of people. Which ONE of these types do you consider yourself to be?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Определённо к «утреннему»",
+            "en": "Definitely a 'morning' type"
+          },
+          "scores": {
+            "morningness": 6
+          }
+        },
+        {
+          "text": {
+            "ru": "Скорее к «утреннему», чем к «вечернему»",
+            "en": "Rather more a 'morning' than an 'evening' type"
+          },
+          "scores": {
+            "morningness": 4
+          }
+        },
+        {
+          "text": {
+            "ru": "Скорее к «вечернему», чем к «утреннему»",
+            "en": "Rather more an 'evening' than a 'morning' type"
+          },
+          "scores": {
+            "morningness": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Определённо к «вечернему»",
+            "en": "Definitely an 'evening' type"
+          },
+          "scores": {
+            "morningness": 0
+          }
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "definite-owl",
+      "title": {
+        "ru": "Сова",
+        "en": "Night Owl"
+      },
+      "emoji": "🦉",
+      "profile": {
+        "morningness": 0.05
+      },
+      "summary": [
+        {
+          "ru": "Ваш биологический день начинается и заканчивается поздно",
+          "en": "Your biological day starts and ends late"
+        },
+        {
+          "ru": "Пик ясности и креативности — вечером",
+          "en": "Clarity and creativity peak in the evening"
+        },
+        {
+          "ru": "Ранние будни создают «социальный джетлаг»",
+          "en": "Early workdays create 'social jetlag'"
+        },
+        {
+          "ru": "Свет утром и темнота вечером сдвигают часы раньше",
+          "en": "Morning light and evening darkness shift your clock earlier"
+        }
+      ],
+      "detailed": {
+        "ru": "Вы — выраженный вечерний хронотип. Это устойчивая особенность, заметно определяемая генетикой и возрастом (к 20 годам люди в среднем наиболее «совиные», затем хронотип постепенно сдвигается раньше). Сов в обществе меньшинство, а расписания школ и офисов рассчитаны на более ранние типы — отсюда разрыв между биологическими и социальными часами, который Тилль Рённеберг назвал **социальным джетлагом**.\n\nСоциальный джетлаг — это разница между серединой сна в выходные и в будни. Если она больше 1–2 часов, организм каждую неделю «перелетает» несколько часовых поясов. Исследования связывают это с недосыпом, худшим настроением, более высоким потреблением кофеина и никотина и метаболическими рисками. Вечерний хронотип также чаще сочетается с депрессивными симптомами — поэтому забота о режиме для вас не прихоть, а профилактика.\n\n**План на 3 недели:** (1) фиксированное время подъёма каждый день; (2) 20–30 минут дневного света в первый час после пробуждения; (3) за 2–3 часа до сна — приглушённый тёплый свет, ночной режим экранов; (4) кофеин только до обеда; (5) завтрак, спорт и общение — днём, а не ночью. Ставьте творческие и сложные задачи на вечерние часы, если график позволяет, и честно расскажите руководителю о своём ритме — гибкий график для сов часто окупается продуктивностью.",
+        "en": "You are a definite evening chronotype. This is a stable trait, shaped substantially by genetics and age (people are on average latest around age 20, then gradually shift earlier). Owls are a minority, and school and office schedules suit earlier types — hence the gap between biological and social clocks that Till Roenneberg called **social jetlag**.\n\nSocial jetlag is the difference between your mid-sleep on free days and on workdays. If it exceeds 1–2 hours, your body 'flies' across several time zones every week. Research links this to sleep loss, worse mood, more caffeine and nicotine use and metabolic risks. Eveningness is also more often accompanied by depressive symptoms — so a regular schedule is prevention, not pedantry.\n\n**A 3-week plan:** (1) a fixed wake time every day; (2) 20–30 minutes of daylight within the first hour after waking; (3) dim, warm light and night mode on screens 2–3 hours before bed; (4) caffeine only before lunch; (5) meals, exercise and socialising in the daytime rather than at night. Put creative and demanding tasks in the evening if your schedule allows, and be open with your manager about your rhythm — flexible hours for owls often pay off in productivity."
+      },
+      "strengths": [
+        {
+          "ru": "Вечерняя продуктивность и креативность",
+          "en": "Evening productivity and creativity"
+        },
+        {
+          "ru": "Комфорт в поздних сменах и проектах",
+          "en": "Comfort with late shifts and projects"
+        },
+        {
+          "ru": "Часто — гибкость мышления",
+          "en": "Often flexible, novelty-seeking thinking"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Стабильное время подъёма",
+          "en": "A stable wake time"
+        },
+        {
+          "ru": "Утренний свет",
+          "en": "Morning light"
+        },
+        {
+          "ru": "Меньше экранов перед сном",
+          "en": "Fewer screens before bed"
+        }
+      ],
+      "compatibleWith": [
+        "moderate-owl"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a sleepy-eyed owl working on a laptop under a crescent moon and stars, soft colors"
+    },
+    {
+      "id": "moderate-owl",
+      "title": {
+        "ru": "Умеренная сова",
+        "en": "Moderate Owl"
+      },
+      "emoji": "🌙",
+      "profile": {
+        "morningness": 0.25
+      },
+      "summary": [
+        {
+          "ru": "Раскачиваетесь к обеду, пик — днём и вечером",
+          "en": "You warm up by midday and peak afternoon to evening"
+        },
+        {
+          "ru": "Можете жить в обычном графике, но с усилием",
+          "en": "You can live on a standard schedule, with effort"
+        },
+        {
+          "ru": "Без режима легко «уезжаете» в поздний сон",
+          "en": "Without routine you drift to later sleep"
+        },
+        {
+          "ru": "Небольшие привычки дают заметный эффект",
+          "en": "Small habits make a noticeable difference"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ритм умеренно сдвинут на вечер. Вы справляетесь с ранним стартом, но лучшие часы для мышления и общения приходятся на вторую половину дня. Если не следить за режимом, вечерний свет и занятия постепенно отодвигают засыпание, а будничный недосып компенсируется долгим сном в выходные — классический социальный джетлаг.\n\n**Что делать:** держите будильник на одно время всю неделю (в выходные — не более чем на час позже); выходите на улицу утром; переносите важные задачи на 11:00–18:00; ставьте «цифровой закат» за час до сна. Если вы учитесь, по возможности выбирайте более поздние пары или занятия и не планируйте сложные экзамены на 8 утра без подготовки режима заранее.",
+        "en": "Your rhythm leans moderately toward evening. You cope with early starts, but your best hours for thinking and socialising come in the afternoon. Without a routine, evening light and activities gradually push sleep later, and weekday sleep loss gets 'repaid' with long weekend lie-ins — classic social jetlag.\n\n**What to do:** keep the same alarm all week (no more than an hour later at weekends); get outside in the morning; move important work to roughly 11 AM–6 PM; set a 'digital sunset' an hour before bed. If you study, choose later classes where possible and don't schedule hard exams at 8 AM without adjusting your routine beforehand."
+      },
+      "strengths": [
+        {
+          "ru": "Хорошая дневная и вечерняя продуктивность",
+          "en": "Good afternoon and evening productivity"
+        },
+        {
+          "ru": "Умеренная гибкость графика",
+          "en": "Moderate schedule flexibility"
+        },
+        {
+          "ru": "Энергия на поздние события",
+          "en": "Energy for late events"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Регулярность сна",
+          "en": "Sleep regularity"
+        },
+        {
+          "ru": "Утренний свет и движение",
+          "en": "Morning light and movement"
+        },
+        {
+          "ru": "Ранний отказ от кофеина",
+          "en": "Cutting caffeine early"
+        }
+      ],
+      "compatibleWith": [
+        "definite-owl",
+        "intermediate"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a relaxed cat reading under a lamp at dusk with a cup of tea, soft colors"
+    },
+    {
+      "id": "intermediate",
+      "title": {
+        "ru": "Промежуточный тип («голубь»)",
+        "en": "Intermediate Type ('Dove')"
+      },
+      "emoji": "🕊️",
+      "profile": {
+        "morningness": 0.5
+      },
+      "summary": [
+        {
+          "ru": "Нет выраженного сдвига ни утром, ни вечером",
+          "en": "No strong morning or evening lean"
+        },
+        {
+          "ru": "Самый распространённый тип",
+          "en": "The most common type"
+        },
+        {
+          "ru": "Легко подстраиваетесь под расписание",
+          "en": "You adapt easily to schedules"
+        },
+        {
+          "ru": "Режим нужен, чтобы не «уплыть» в сову",
+          "en": "Routine keeps you from drifting into owl mode"
+        }
+      ],
+      "detailed": {
+        "ru": "Вы относитесь к промежуточному хронотипу — как и большинство людей. Ваши внутренние часы близки к социальному расписанию, поэтому вы можете вставать рано, когда нужно, и при этом выдерживать поздние вечера.\n\nВажно помнить: хронотип — непрерывная шкала, и при современном образе жизни (мало дневного света, много вечернего искусственного) часы большинства людей смещаются позже. Ваш плюс — гибкость, а задача — не растерять её.\n\n**Советы:** 7–9 часов сна, стабильный подъём, свет и движение днём, тёмная прохладная спальня. Используйте «окно ясности» (часто поздним утром) для сложных задач, а послеобеденный спад — для рутины или короткой прогулки. Если работаете в сменах, хорошо переносите сдвиги — но восстанавливайтесь системно.",
+        "en": "You are an intermediate chronotype — like most people. Your internal clock is close to the social schedule, so you can rise early when needed and still manage late evenings.\n\nRemember that chronotype is a continuum, and modern life (little daylight, lots of evening artificial light) pushes most people's clocks later. Your advantage is flexibility; the task is to keep it.\n\n**Tips:** 7–9 hours of sleep, a stable wake time, daylight and movement during the day, a dark and cool bedroom. Use your 'clarity window' (often late morning) for hard tasks and the post-lunch dip for routine or a short walk. If you work shifts, you tolerate changes relatively well — but recover systematically."
+      },
+      "strengths": [
+        {
+          "ru": "Адаптивность к расписанию",
+          "en": "Schedule adaptability"
+        },
+        {
+          "ru": "Ровная энергия в течение дня",
+          "en": "Even energy across the day"
+        },
+        {
+          "ru": "Лёгкая подстройка к поездкам",
+          "en": "Easier adjustment to travel"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Беречь регулярность",
+          "en": "Protecting regularity"
+        },
+        {
+          "ru": "Вечерний свет под контролем",
+          "en": "Controlling evening light"
+        },
+        {
+          "ru": "Планировать задачи по своему пику",
+          "en": "Planning tasks by your peak"
+        }
+      ],
+      "compatibleWith": [
+        "moderate-owl",
+        "moderate-lark"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a calm dove sitting on a sun-and-moon clock at midday, soft colors"
+    },
+    {
+      "id": "moderate-lark",
+      "title": {
+        "ru": "Умеренный жаворонок",
+        "en": "Moderate Lark"
+      },
+      "emoji": "🌤️",
+      "profile": {
+        "morningness": 0.75
+      },
+      "summary": [
+        {
+          "ru": "Утро — ваше лучшее время",
+          "en": "Morning is your best time"
+        },
+        {
+          "ru": "Вечером энергия заметно падает",
+          "en": "Energy drops in the evening"
+        },
+        {
+          "ru": "Обычный рабочий график вам подходит",
+          "en": "Standard schedules suit you"
+        },
+        {
+          "ru": "Поздние дедлайны и вечеринки утомляют",
+          "en": "Late deadlines and parties wear you out"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваши внутренние часы немного раньше среднего. Вы обычно легко просыпаетесь, быстро включаетесь в работу и к вечеру устаёте. Утренним типам в среднем реже приходится бороться с социальным джетлагом — школьное и офисное время совпадает с их биологией.\n\n**Как использовать:** ставьте на утро задачи, требующие концентрации и решения проблем; встречи, переписку и рутину — после обеда. Планируйте вечерние события заранее и не стесняйтесь уходить раньше. Если нужно поработать допоздна, перенесите сложную часть на следующее утро — так вы сделаете её быстрее и качественнее.",
+        "en": "Your internal clock runs a little earlier than average. You usually wake easily, get going quickly and tire by evening. Morning types on average suffer less social jetlag — school and office hours match their biology.\n\n**How to use it:** schedule focus-heavy, problem-solving tasks in the morning; meetings, email and routine after lunch. Plan evening events ahead and feel free to leave early. If you must work late, move the hard part to the next morning — you'll do it faster and better."
+      },
+      "strengths": [
+        {
+          "ru": "Утренняя концентрация",
+          "en": "Morning focus"
+        },
+        {
+          "ru": "Пунктуальность и режим",
+          "en": "Punctuality and routine"
+        },
+        {
+          "ru": "Меньше социального джетлага",
+          "en": "Less social jetlag"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Гибкость к поздним событиям",
+          "en": "Flexibility for late events"
+        },
+        {
+          "ru": "Не перегружать вечер",
+          "en": "Not overloading evenings"
+        },
+        {
+          "ru": "Дневной отдых при недосыпе",
+          "en": "Daytime rest after short nights"
+        }
+      ],
+      "compatibleWith": [
+        "intermediate",
+        "definite-lark"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a cheerful songbird with a coffee cup greeting a soft sunrise, soft colors"
+    },
+    {
+      "id": "definite-lark",
+      "title": {
+        "ru": "Жаворонок",
+        "en": "Early Lark"
+      },
+      "emoji": "🌅",
+      "profile": {
+        "morningness": 0.95
+      },
+      "summary": [
+        {
+          "ru": "Встаёте с рассветом и сразу бодры",
+          "en": "You rise at dawn and are instantly alert"
+        },
+        {
+          "ru": "Пик продуктивности — ранним утром",
+          "en": "Peak productivity is early morning"
+        },
+        {
+          "ru": "Рано засыпаете вечером",
+          "en": "You fall asleep early"
+        },
+        {
+          "ru": "Ночные смены — серьёзное испытание",
+          "en": "Night shifts are a real challenge"
+        }
+      ],
+      "detailed": {
+        "ru": "Вы выраженный утренний хронотип. Ваши лучшие часы — раннее утро, когда остальные ещё просыпаются, а вечером вы быстро теряете энергию. Утренность чаще встречается у людей старшего возраста; в целом утренние типы в исследованиях чаще отмечают более регулярный сон и хорошее самочувствие.\n\n**Как жить в гармонии с ритмом:** защищайте первые утренние часы от встреч и соцсетей — это ваше «золотое время» для главных задач. Ложитесь вовремя, даже если окружающие засиживаются. Если вы просыпаетесь слишком рано (например, в 4–5 утра) и это мешает, добавьте яркого света вечером и затемните спальню утром. По возможности избегайте ночных смен и длинных вечерних перелётов без плана восстановления.",
+        "en": "You are a definite morning chronotype. Your best hours are early morning, while others are still waking up, and you lose energy quickly in the evening. Morningness is more common in older adults; in research, morning types more often report regular sleep and good well-being.\n\n**Living in tune with your rhythm:** protect the first morning hours from meetings and social media — that's your golden time for key tasks. Go to bed on time even if others stay up. If you wake too early (say 4–5 AM) and it bothers you, add bright light in the evening and darken the bedroom in the morning. Avoid night shifts and late long-haul flights without a recovery plan where possible."
+      },
+      "strengths": [
+        {
+          "ru": "Ранняя энергия и дисциплина",
+          "en": "Early energy and discipline"
+        },
+        {
+          "ru": "Регулярный сон",
+          "en": "Regular sleep"
+        },
+        {
+          "ru": "Фокус до начала рабочего шума",
+          "en": "Focus before the workday noise"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Вечерняя социальная жизнь",
+          "en": "Evening social life"
+        },
+        {
+          "ru": "Адаптация к поздним сменам",
+          "en": "Adapting to late shifts"
+        },
+        {
+          "ru": "Не судить «сов» строго",
+          "en": "Not judging owls harshly"
+        }
+      ],
+      "compatibleWith": [
+        "moderate-lark"
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a happy lark singing on a branch at sunrise with pink clouds, soft colors"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый вариант ответа даёт баллы (вопросы 1, 3, 4 — от 1 до 5; вопрос 2 — от 1 до 4; вопрос 5 — 0, 2, 4 или 6). Сумма — от 4 (крайняя вечерность) до 25 (крайняя утренность). Категории по Adan & Almirall (1991): 4–7 — выраженный вечерний, 8–11 — умеренно вечерний, 12–17 — промежуточный, 18–21 — умеренно утренний, 22–25 — выраженный утренний тип. Процентиль рассчитывается относительно выборки студентов (M = 13,3; SD = 3,6).",
+    "en": "Each option carries points (items 1, 3, 4: 1–5; item 2: 1–4; item 5: 0, 2, 4 or 6). The total ranges from 4 (extreme eveningness) to 25 (extreme morningness). Categories per Adan & Almirall (1991): 4–7 definitely evening, 8–11 moderately evening, 12–17 neither, 18–21 moderately morning, 22–25 definitely morning. The percentile is computed against a student sample (M = 13.3, SD = 3.6)."
+  },
+  "resultIntro": {
+    "ru": "Хронотип — не характер и не «сила воли», а настройка ваших внутренних часов. Его нельзя полностью поменять, но можно мягко сдвинуть светом и режимом — и, главное, планировать день так, чтобы работать в своём пике.",
+    "en": "Chronotype isn't character or willpower — it's how your internal clock is set. You can't fully change it, but light and routine can nudge it, and you can plan your day to work at your peak."
+  }
+}

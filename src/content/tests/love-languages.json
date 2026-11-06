@@ -1,0 +1,1309 @@
+{
+  "id": "love-languages",
+  "category": "relationships",
+  "kind": "likert",
+  "seriousness": "fun",
+  "title": {
+    "ru": "Языки любви: как вы чувствуете заботу",
+    "en": "Love Languages: How You Feel Cared For"
+  },
+  "tagline": {
+    "ru": "Слова, время, подарки, помощь или объятия — что согревает вас сильнее?",
+    "en": "Words, time, gifts, help or hugs — what warms your heart most?"
+  },
+  "description": {
+    "ru": "25 тёплых вопросов покажут, через какие проявления заботы вы сильнее всего чувствуете любовь — и почему у большинства людей «языков» несколько. Получите идеи, как рассказать об этом близким, и честный разбор того, что об этой популярной идее знает наука.",
+    "en": "25 warm questions reveal which expressions of care make you feel most loved — and why most people have several 'languages'. Get ideas for telling loved ones, plus an honest look at what science knows about this popular idea."
+  },
+  "emoji": "💞",
+  "durationMin": 4,
+  "popularity": 5,
+  "tags": [
+    {
+      "ru": "отношения",
+      "en": "relationships"
+    },
+    {
+      "ru": "любовь",
+      "en": "love"
+    },
+    {
+      "ru": "пара",
+      "en": "couples"
+    },
+    {
+      "ru": "общение",
+      "en": "communication"
+    },
+    {
+      "ru": "забота",
+      "en": "care"
+    }
+  ],
+  "methodology": {
+    "ru": "**Откуда идея.** Концепция «пяти языков любви» появилась в научно-популярной книге семейного консультанта Гэри Чепмена (Chapman, 1992). Он предположил, что люди выражают и предпочитают получать любовь одним из пяти способов — словами поддержки, временем вместе, подарками, помощью делом и прикосновениями, — и что пары счастливее, когда «говорят на языке» друг друга. Книга стала мировым бестселлером, но исходно не опиралась на научные исследования.\n\n**Что говорят исследования.** Egbert & Polk (2006) нашли определённую поддержку пятифакторной структуре и связи «языков» со стратегиями поддержания отношений. Bunt & Hazelwood (2017; 67 пар) не обнаружили, что совпадение языков партнёров предсказывает удовлетворённость отношениями; важнее оказалась способность к саморегуляции. Mostova, Stolarski & Matthews (2022; 100 пар, PLOS ONE), напротив, обнаружили, что партнёры, которые лучше «попадали» в предпочтения друг друга, были более удовлетворены отношениями и сексуальной жизнью. Обзор Impett, Park & Muise (2024, *Current Directions in Psychological Science*) заключает, что три ключевых допущения теории — у каждого есть один главный язык; языков ровно пять; совпадение языков делает пару счастливее — получают **слабую или противоречивую поддержку**: большинство людей ценят все формы, а важными могут быть и другие (например, поддержка целей и автономии). Авторы предлагают метафору «сбалансированного питания» вместо «языка».\n\n**Инструмент testik.** Оригинальный тест Чепмена защищён авторским правом, а «The 5 Love Languages®» — товарный знак, поэтому мы **не используем** его вопросы и формат вынужденного выбора. Все 25 утверждений написаны testik: по 5 на каждую форму заботы, ответ по 5-балльной шкале согласия. Такой формат позволяет высоко оценивать сразу несколько форм — в соответствии с научной критикой идеи «одного языка». Балл по шкале — 5–25. Психометрическая проверка не проводилась, поэтому тест имеет статус развлекательного (fun) и предназначен для разговора с партнёром и самонаблюдения.",
+    "en": "**Where the idea comes from.** The 'five love languages' concept comes from a popular book by marriage counsellor Gary Chapman (Chapman, 1992). He proposed that people express and prefer to receive love in one of five ways — words of affirmation, quality time, gifts, acts of service and physical touch — and that couples are happier when they 'speak' each other's language. The book became a global bestseller but was not originally based on research.\n\n**What research says.** Egbert & Polk (2006) found some support for a five-factor structure and links between the languages and relationship-maintenance strategies. Bunt & Hazelwood (2017; 67 couples) found that matching love languages did not predict relationship satisfaction; self-regulation mattered more. Mostova, Stolarski & Matthews (2022; 100 couples, PLOS ONE), by contrast, found that partners who better matched each other's preferences were more satisfied with their relationship and sex life. A review by Impett, Park & Muise (2024, *Current Directions in Psychological Science*) concludes that the theory's three core assumptions — everyone has one primary language; there are exactly five; matching languages makes couples happier — receive **weak or mixed support**: most people value all forms, and others (e.g., support for goals and autonomy) may also matter. They suggest a 'balanced diet' metaphor instead of 'language'.\n\n**testik's instrument.** Chapman's original quiz is copyrighted and 'The 5 Love Languages®' is a trademark, so we **do not use** its items or forced-choice format. All 25 statements were written by testik: 5 per form of care, answered on a 5-point agreement scale. This format lets you rate several forms highly at once, in line with the scientific critique of the 'one language' idea. Scale scores range 5–25. No psychometric validation has been done, so the test is rated 'fun' — a tool for self-reflection and conversation with your partner."
+  },
+  "sources": [
+    {
+      "citation": "Chapman, G. (1992). The five love languages: How to express heartfelt commitment to your mate. Northfield Publishing."
+    },
+    {
+      "citation": "Egbert, N., & Polk, D. (2006). Speaking the language of relationship maintenance: A validity test of Chapman's (1992) Five Love Languages. Communication Research Reports, 23(1), 19–26.",
+      "doi": "10.1080/17464090500535822"
+    },
+    {
+      "citation": "Bunt, S., & Hazelwood, Z. J. (2017). Walking the walk, talking the talk: Love languages, self-regulation, and relationship satisfaction. Personal Relationships, 24(2), 280–290.",
+      "doi": "10.1111/pere.12182"
+    },
+    {
+      "citation": "Mostova, O., Stolarski, M., & Matthews, G. (2022). I love the way you love me: Responding to partner's love language preferences boosts satisfaction in romantic heterosexual couples. PLOS ONE, 17(6), e0269429.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9216579/"
+    },
+    {
+      "citation": "Impett, E. A., Park, H. G., & Muise, A. (2024). Popular psychology through a scientific lens: Evaluating love languages from a relationship science perspective. Current Directions in Psychological Science, 33(2), 87–92.",
+      "doi": "10.1177/09637214231217663"
+    },
+    {
+      "citation": "University of Toronto News. (2024). Little evidence linking five 'love languages' to healthy relationships, researchers say.",
+      "url": "https://www.utoronto.ca/news/little-evidence-linking-five-love-languages-healthy-relationships-researchers-say"
+    }
+  ],
+  "license": "Original items and texts © testik (written for this site; may be released under CC BY 4.0). No items, wording or forced-choice pairs from Gary Chapman's copyrighted Love Language® quiz are used. 'The 5 Love Languages®' is a registered trademark of its owner; the site refers to the concept descriptively and should avoid using the trademark as a product name.",
+  "disclaimer": {
+    "ru": "Это развлекательный тест для самонаблюдения, а не научная диагностика отношений. Если в отношениях есть насилие, постоянные конфликты или вы чувствуете себя небезопасно, обратитесь к специалисту. В России: 8-800-7000-600 — всероссийская горячая линия для пострадавших от домашнего насилия (центр «Анна», бесплатно); центр «Насилию.нет» (nasiliu.net); для подростков и родителей — детский телефон доверия 8-800-2000-122. Международно: findahelpline.com.",
+    "en": "This is a fun self-reflection quiz, not a scientific relationship assessment. If your relationship involves abuse, constant conflict or you feel unsafe, please reach out to a professional. In Russia: 8-800-7000-600 — national domestic-violence hotline (ANNA Centre, free); nasiliu.net; for teens and parents — 8-800-2000-122. Internationally: findahelpline.com."
+  },
+  "instructions": {
+    "ru": "Подумайте о близких людях — партнёре, семье, друзьях. Оцените, насколько каждое утверждение про вас. Не выбирайте «правильный» ответ — у каждого свой набор того, что согревает.",
+    "en": "Think about the people close to you — a partner, family, friends. Rate how true each statement is for you. There's no 'right' answer — everyone has their own mix of what feels warm."
+  },
+  "likert": {
+    "anchors": [
+      {
+        "ru": "Совсем не про меня",
+        "en": "Not me at all"
+      },
+      {
+        "ru": "Скорее не про меня",
+        "en": "Mostly not me"
+      },
+      {
+        "ru": "Отчасти",
+        "en": "Somewhat"
+      },
+      {
+        "ru": "Скорее про меня",
+        "en": "Mostly me"
+      },
+      {
+        "ru": "Точно про меня",
+        "en": "Totally me"
+      }
+    ],
+    "values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "words",
+      "name": {
+        "ru": "Слова поддержки",
+        "en": "Words of affirmation"
+      },
+      "description": {
+        "ru": "Насколько вы чувствуете любовь через слова: признания, комплименты, благодарность, поддержку.",
+        "en": "How much you feel loved through words: declarations, compliments, thanks and encouragement."
+      },
+      "lowLabel": {
+        "ru": "Слова — не главное",
+        "en": "Words aren't key"
+      },
+      "highLabel": {
+        "ru": "Тёплые слова очень важны",
+        "en": "Warm words mean a lot"
+      },
+      "color": "#FFD6E0",
+      "scoring": "sum",
+      "min": 5,
+      "max": 25,
+      "bands": [
+        {
+          "min": 5,
+          "max": 12,
+          "label": {
+            "ru": "Не главный «язык»",
+            "en": "Not a main language"
+          },
+          "summary": [
+            {
+              "ru": "Красивые слова для вас вторичны",
+              "en": "Sweet words are secondary for you"
+            },
+            {
+              "ru": "Вы больше верите поступкам",
+              "en": "You trust actions more"
+            },
+            {
+              "ru": "Комплименты могут даже смущать",
+              "en": "Compliments may even embarrass you"
+            }
+          ],
+          "detailed": {
+            "ru": "Слова любви вам приятны, но не они убеждают вас, что вас ценят. **Подсказка для партнёра:** не нужно сыпать комплиментами — лучше покажите заботу делом или вниманием. **Подсказка для вас:** если близкий человек — «словесный», ваше молчаливое одобрение он может не считывать; иногда говорите вслух то, что и так очевидно.",
+            "en": "Loving words are nice, but they're not what convinces you that you're valued. **For a partner:** skip the stream of compliments — show care through actions or attention. **For you:** if your loved one is word-oriented, they may not read your silent approval; sometimes say the obvious out loud."
+          }
+        },
+        {
+          "min": 13,
+          "max": 19,
+          "label": {
+            "ru": "Приятный, но не ключевой",
+            "en": "Nice but not key"
+          },
+          "summary": [
+            {
+              "ru": "Добрые слова приятны, особенно искренние",
+              "en": "Kind words are nice, especially sincere ones"
+            },
+            {
+              "ru": "Важнее конкретика, чем пафос",
+              "en": "Specifics beat grand phrases"
+            },
+            {
+              "ru": "Слова — хорошее дополнение к поступкам",
+              "en": "Words complement actions well"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы цените слова, когда они искренние и конкретные — «спасибо, что встретил меня сегодня» трогает больше, чем общее «ты лучший». **Совет:** договоритесь с близкими о маленьком ритуале благодарности — например, называть одну хорошую вещь друг о друге вечером.",
+            "en": "You appreciate words when they're sincere and specific — 'thanks for picking me up today' lands better than a generic 'you're the best'. **Tip:** agree on a small gratitude ritual — e.g. naming one good thing about each other each evening."
+          }
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "label": {
+            "ru": "Ваш сильный «язык»",
+            "en": "A strong language for you"
+          },
+          "summary": [
+            {
+              "ru": "Слова любви и поддержки вас по-настоящему наполняют",
+              "en": "Words of love and support truly fill you up"
+            },
+            {
+              "ru": "Конкретная похвала значит очень много",
+              "en": "Specific praise means a lot"
+            },
+            {
+              "ru": "Резкие слова ранят сильнее обычного",
+              "en": "Harsh words hurt more than average"
+            },
+            {
+              "ru": "Вы храните тёплые сообщения",
+              "en": "You keep warm messages"
+            }
+          ],
+          "detailed": {
+            "ru": "Для вас слова — мощный канал близости. Искреннее «я тобой горжусь» или записка в кармане может изменить ваш день. Обратная сторона — критика и сарказм задевают вас глубже, чем людей, для которых слова не так важны.\n\n**Как сказать близким:** «Мне очень помогает, когда ты говоришь, что ценишь конкретное — что я сделал(а) или какой(-ая) я». **Наука:** исследования отношений показывают, что выражение благодарности и признательности партнёру связано с более высокой удовлетворённостью отношениями — так что ваша потребность вполне обоснована.",
+            "en": "Words are a powerful channel of closeness for you. A sincere 'I'm proud of you' or a note in your pocket can change your day. The flip side: criticism and sarcasm hit you harder than people for whom words matter less.\n\n**How to tell loved ones:** 'It really helps when you tell me what specifically you appreciate — something I did or who I am.' **Science:** relationship research links expressing gratitude and appreciation to higher relationship satisfaction — so your need is well founded."
+          }
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "name": {
+        "ru": "Время вместе",
+        "en": "Quality time"
+      },
+      "description": {
+        "ru": "Насколько для вас важно безраздельное внимание и совместные занятия.",
+        "en": "How much undivided attention and shared activities matter to you."
+      },
+      "lowLabel": {
+        "ru": "Достаточно и немного",
+        "en": "A little is enough"
+      },
+      "highLabel": {
+        "ru": "Внимание — главное",
+        "en": "Attention is everything"
+      },
+      "color": "#C1E1FF",
+      "scoring": "sum",
+      "min": 5,
+      "max": 25,
+      "bands": [
+        {
+          "min": 5,
+          "max": 12,
+          "label": {
+            "ru": "Не главный «язык»",
+            "en": "Not a main language"
+          },
+          "summary": [
+            {
+              "ru": "Вам комфортно много времени проводить порознь",
+              "en": "You're fine with lots of time apart"
+            },
+            {
+              "ru": "Близость не измеряется часами",
+              "en": "Closeness isn't measured in hours"
+            },
+            {
+              "ru": "Ценитe личное пространство",
+              "en": "You value personal space"
+            }
+          ],
+          "detailed": {
+            "ru": "Для вас любовь не обязательно означает проводить вместе каждый вечер. Это может быть плюсом в отношениях на расстоянии или при плотных графиках. **Совет:** если партнёру время вместе важно, ваше «мне и так хорошо» он может прочитать как отстранённость — проговорите, что личное пространство не означает охлаждения.",
+            "en": "For you, love doesn't require spending every evening together — a plus in long-distance relationships or busy schedules. **Tip:** if your partner values time together, your 'I'm fine' may read as distance — explain that personal space doesn't mean cooling off."
+          }
+        },
+        {
+          "min": 13,
+          "max": 19,
+          "label": {
+            "ru": "Приятный, но не ключевой",
+            "en": "Nice but not key"
+          },
+          "summary": [
+            {
+              "ru": "Совместное время приятно, если оно качественное",
+              "en": "Shared time is great when it's quality time"
+            },
+            {
+              "ru": "Важнее внимание, чем количество",
+              "en": "Attention matters more than quantity"
+            },
+            {
+              "ru": "Нужен баланс «вместе» и «отдельно»",
+              "en": "You need a balance of together and apart"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы цените время вместе, особенно когда оно без телефонов и спешки. **Совет:** договоритесь об одном регулярном «нашем» ритуале — завтрак в выходной, прогулка, совместная игра — это проще, чем пытаться быть вместе постоянно.",
+            "en": "You value time together, especially without phones or rush. **Tip:** agree on one regular 'us' ritual — weekend breakfast, a walk, a shared game — easier than trying to be together all the time."
+          }
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "label": {
+            "ru": "Ваш сильный «язык»",
+            "en": "A strong language for you"
+          },
+          "summary": [
+            {
+              "ru": "Безраздельное внимание — главный знак любви",
+              "en": "Undivided attention is your main sign of love"
+            },
+            {
+              "ru": "Телефон за ужином ранит",
+              "en": "A phone at dinner hurts"
+            },
+            {
+              "ru": "Совместные дела сближают сильнее подарков",
+              "en": "Shared activities bring you closer"
+            },
+            {
+              "ru": "Долгие разговоры — ваша близость",
+              "en": "Long talks are your closeness"
+            }
+          ],
+          "detailed": {
+            "ru": "Для вас любовь — это присутствие. Когда близкий человек откладывает дела и полностью с вами — слушает, смотрит в глаза, что-то делает вместе, — вы чувствуете себя по-настоящему важным(-ой). Рассеянность и вечная занятость партнёра воспринимаются как сигнал «ты не в приоритете».\n\n**Как сказать близким:** «Мне не нужно много часов — мне нужен час, когда мы правда вместе». **Наука:** исследования связывают совместные новые и увлекательные занятия с ростом удовлетворённости отношениями (Aron и коллеги), так что качественное время — хорошая инвестиция для пары.",
+            "en": "For you, love is presence. When your loved one sets things aside and is fully with you — listening, making eye contact, doing something together — you feel truly important. Distraction and constant busyness read as 'you're not a priority'.\n\n**How to tell loved ones:** 'I don't need many hours — I need one hour when we're really together.' **Science:** research links shared novel, exciting activities with higher relationship satisfaction (Aron and colleagues), so quality time is a sound investment for couples."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gifts",
+      "name": {
+        "ru": "Подарки и знаки внимания",
+        "en": "Thoughtful gifts"
+      },
+      "description": {
+        "ru": "Насколько вы чувствуете любовь через продуманные подарки, сувениры и маленькие сюрпризы.",
+        "en": "How much you feel loved through thoughtful gifts, keepsakes and small surprises."
+      },
+      "lowLabel": {
+        "ru": "Подарки не важны",
+        "en": "Gifts don't matter much"
+      },
+      "highLabel": {
+        "ru": "Символы любви важны",
+        "en": "Tokens of love matter"
+      },
+      "color": "#FFE5B4",
+      "scoring": "sum",
+      "min": 5,
+      "max": 25,
+      "bands": [
+        {
+          "min": 5,
+          "max": 12,
+          "label": {
+            "ru": "Не главный «язык»",
+            "en": "Not a main language"
+          },
+          "summary": [
+            {
+              "ru": "Подарки для вас не главный знак любви",
+              "en": "Gifts aren't a main sign of love for you"
+            },
+            {
+              "ru": "Вещи вторичны по сравнению с отношением",
+              "en": "Things matter less than attitude"
+            },
+            {
+              "ru": "Можете забыть о памятных датах",
+              "en": "You may forget special dates"
+            }
+          ],
+          "detailed": {
+            "ru": "Подарки вам приятны, но вы не измеряете ими любовь. **Совет:** если ваш близкий человек любит знаки внимания, поставьте напоминания о важных датах — для него это может значить больше, чем кажется вам.",
+            "en": "Gifts are nice, but you don't measure love by them. **Tip:** if your loved one treasures tokens, set reminders for key dates — it may mean more to them than you think."
+          }
+        },
+        {
+          "min": 13,
+          "max": 19,
+          "label": {
+            "ru": "Приятный, но не ключевой",
+            "en": "Nice but not key"
+          },
+          "summary": [
+            {
+              "ru": "Вам приятен продуманный подарок",
+              "en": "You enjoy a thoughtful gift"
+            },
+            {
+              "ru": "Важна не цена, а смысл",
+              "en": "Meaning beats price"
+            },
+            {
+              "ru": "Сюрпризы — приятный бонус",
+              "en": "Surprises are a pleasant bonus"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы цените подарки, если за ними стоит внимание к вам. **Совет:** делитесь «списком желаний» или намёками — это помогает близким радовать вас без стресса угадывания.",
+            "en": "You appreciate gifts when they show attention to you. **Tip:** share a wish list or hints — it helps loved ones delight you without guessing stress."
+          }
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "label": {
+            "ru": "Ваш сильный «язык»",
+            "en": "A strong language for you"
+          },
+          "summary": [
+            {
+              "ru": "Продуманный подарок трогает вас до глубины души",
+              "en": "A thoughtful gift touches you deeply"
+            },
+            {
+              "ru": "Вы храните памятные вещи годами",
+              "en": "You keep keepsakes for years"
+            },
+            {
+              "ru": "Забытая дата ранит",
+              "en": "A forgotten date hurts"
+            },
+            {
+              "ru": "Важна мысль, а не цена",
+              "en": "It's the thought, not the price"
+            }
+          ],
+          "detailed": {
+            "ru": "Для вас подарок — это материальное доказательство того, что о вас думали. Не важно, дорогой ли он: шоколадка из поездки или найденная книга, о которой вы мельком упоминали, говорят «я тебя слышу и помню».\n\n**Как сказать близким:** «Мне не нужны дорогие вещи — мне важно, когда ты приносишь что-то маленькое, думая обо мне». **Совет:** чтобы не возникало обид, обсудите, какие даты для вас особенно важны, — и не стесняйтесь сами дарить: это тоже ваш способ любить.",
+            "en": "For you a gift is tangible proof someone was thinking of you. Price doesn't matter: a chocolate bar from a trip or a book you mentioned once says 'I hear you and remember'.\n\n**How to tell loved ones:** 'I don't need expensive things — it matters when you bring something small because you thought of me.' **Tip:** to avoid hurt, talk about which dates matter most to you — and enjoy giving too: that's also how you love."
+          }
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "name": {
+        "ru": "Помощь делом",
+        "en": "Acts of service"
+      },
+      "description": {
+        "ru": "Насколько вы чувствуете любовь, когда о вас заботятся практически — помогают, облегчают быт, берут на себя дела.",
+        "en": "How much you feel loved through practical care — help, easing chores, taking tasks off your plate."
+      },
+      "lowLabel": {
+        "ru": "Справляюсь сам(а)",
+        "en": "I handle things myself"
+      },
+      "highLabel": {
+        "ru": "Забота делом — главное",
+        "en": "Care in action matters most"
+      },
+      "color": "#C7F0DB",
+      "scoring": "sum",
+      "min": 5,
+      "max": 25,
+      "bands": [
+        {
+          "min": 5,
+          "max": 12,
+          "label": {
+            "ru": "Не главный «язык»",
+            "en": "Not a main language"
+          },
+          "summary": [
+            {
+              "ru": "Вы привыкли справляться сами",
+              "en": "You're used to handling things yourself"
+            },
+            {
+              "ru": "Помощь иногда даже неловко принимать",
+              "en": "Accepting help can feel awkward"
+            },
+            {
+              "ru": "Любовь для вас — не про быт",
+              "en": "Love isn't about chores for you"
+            }
+          ],
+          "detailed": {
+            "ru": "Практическая помощь вам приятна, но не она главный знак любви. **Совет:** если близкий человек выражает любовь именно делом (чинит, готовит, возит), замечайте и благодарите — для него это способ сказать «я тебя люблю».",
+            "en": "Practical help is nice, but it's not your main sign of love. **Tip:** if your loved one shows love through doing (fixing, cooking, driving), notice and thank them — it's their way of saying 'I love you'."
+          }
+        },
+        {
+          "min": 13,
+          "max": 19,
+          "label": {
+            "ru": "Приятный, но не ключевой",
+            "en": "Nice but not key"
+          },
+          "summary": [
+            {
+              "ru": "Помощь приятна, особенно в трудный период",
+              "en": "Help is welcome, especially in tough times"
+            },
+            {
+              "ru": "Цените честное распределение дел",
+              "en": "You value a fair split of chores"
+            },
+            {
+              "ru": "Важна инициатива без напоминаний",
+              "en": "Initiative without reminders matters"
+            }
+          ],
+          "detailed": {
+            "ru": "Вы цените, когда о вас заботятся практически, особенно когда вы устали или перегружены. **Совет:** обсудите с партнёром распределение домашних дел — исследования показывают, что ощущение справедливости в быту важно для удовлетворённости отношениями.",
+            "en": "You appreciate practical care, especially when tired or overloaded. **Tip:** discuss the split of household chores — research shows perceived fairness at home matters for relationship satisfaction."
+          }
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "label": {
+            "ru": "Ваш сильный «язык»",
+            "en": "A strong language for you"
+          },
+          "summary": [
+            {
+              "ru": "Поступки говорят вам больше слов",
+              "en": "Actions speak louder than words for you"
+            },
+            {
+              "ru": "Помощь без напоминаний — признание в любви",
+              "en": "Unprompted help is a declaration of love"
+            },
+            {
+              "ru": "Невыполненные обещания ранят",
+              "en": "Broken promises hurt"
+            },
+            {
+              "ru": "Вы и сами заботитесь делом",
+              "en": "You also care through actions"
+            }
+          ],
+          "detailed": {
+            "ru": "Для вас любовь — это глагол. Когда кто-то без просьбы моет посуду, забирает посылку или берёт на себя хлопоты, пока вы болеете, вы чувствуете: «обо мне заботятся». Обещания «сделаю потом», которые так и не выполняются, наоборот, воспринимаются как невнимание.\n\n**Как сказать близким:** «Для меня забота — это когда ты замечаешь, что мне тяжело, и берёшь часть дел на себя». **Совет:** формулируйте конкретные просьбы — людям, для которых этот язык не родной, трудно догадаться, какая помощь нужна.",
+            "en": "For you love is a verb. When someone washes the dishes unasked, picks up a parcel or handles things while you're ill, you feel cared for. 'I'll do it later' promises that never happen feel like neglect.\n\n**How to tell loved ones:** 'For me, care is when you notice I'm struggling and take some tasks off my plate.' **Tip:** make specific requests — people for whom this isn't a native language find it hard to guess what help you need."
+          }
+        }
+      ]
+    },
+    {
+      "id": "touch",
+      "name": {
+        "ru": "Прикосновения",
+        "en": "Physical touch"
+      },
+      "description": {
+        "ru": "Насколько для вас важны объятия, прикосновения, физическая близость как знак любви и поддержки.",
+        "en": "How much hugs, touch and physical closeness matter as signs of love and support."
+      },
+      "lowLabel": {
+        "ru": "Нужна дистанция",
+        "en": "Prefers some distance"
+      },
+      "highLabel": {
+        "ru": "Объятия — язык любви",
+        "en": "Hugs speak love"
+      },
+      "color": "#E2C2FF",
+      "scoring": "sum",
+      "min": 5,
+      "max": 25,
+      "bands": [
+        {
+          "min": 5,
+          "max": 12,
+          "label": {
+            "ru": "Не главный «язык»",
+            "en": "Not a main language"
+          },
+          "summary": [
+            {
+              "ru": "Вам комфортна физическая дистанция",
+              "en": "You're comfortable with physical distance"
+            },
+            {
+              "ru": "Объятия — не главный способ поддержки",
+              "en": "Hugs aren't your main comfort"
+            },
+            {
+              "ru": "Прикосновения уместны не всегда",
+              "en": "Touch isn't always welcome"
+            }
+          ],
+          "detailed": {
+            "ru": "Физическая близость для вас не главный канал любви, а иногда частые прикосновения даже утомляют. Это нормально. **Совет:** если ваш партнёр «тактильный», найдите комфортные для вас формы — держаться за руки на прогулке, сидеть рядом — и объясните, что дистанция не означает холодность.",
+            "en": "Physical closeness isn't your main love channel, and frequent touch may even tire you — that's normal. **Tip:** if your partner is touch-oriented, find forms you're comfortable with — holding hands on walks, sitting close — and explain that distance doesn't mean coldness."
+          }
+        },
+        {
+          "min": 13,
+          "max": 19,
+          "label": {
+            "ru": "Приятный, но не ключевой",
+            "en": "Nice but not key"
+          },
+          "summary": [
+            {
+              "ru": "Объятия приятны в нужный момент",
+              "en": "Hugs are nice at the right moment"
+            },
+            {
+              "ru": "Прикосновения — тёплое дополнение",
+              "en": "Touch is a warm extra"
+            },
+            {
+              "ru": "Важны контекст и настроение",
+              "en": "Context and mood matter"
+            }
+          ],
+          "detailed": {
+            "ru": "Вам приятна физическая близость, но вы цените и другие способы проявления любви. **Совет:** говорите партнёру, когда вам хочется объятий, а когда нужно пространство, — это снимает недопонимание.",
+            "en": "You enjoy physical closeness but value other expressions too. **Tip:** tell your partner when you'd like a hug and when you need space — it prevents misunderstandings."
+          }
+        },
+        {
+          "min": 20,
+          "max": 25,
+          "label": {
+            "ru": "Ваш сильный «язык»",
+            "en": "A strong language for you"
+          },
+          "summary": [
+            {
+              "ru": "Объятия — лучший способ вас поддержать",
+              "en": "A hug is the best comfort for you"
+            },
+            {
+              "ru": "Без прикосновений вы чувствуете дистанцию",
+              "en": "Without touch you feel distant"
+            },
+            {
+              "ru": "Держаться за руки — маленькое счастье",
+              "en": "Holding hands is a small joy"
+            },
+            {
+              "ru": "Вы и сами тактильны",
+              "en": "You're tactile yourself"
+            }
+          ],
+          "detailed": {
+            "ru": "Для вас прикосновения — самый прямой способ почувствовать близость и безопасность. Объятие после тяжёлого дня, рука на плече, совместный просмотр фильма «в обнимку» говорят вам больше длинных речей.\n\n**Наука:** исследования показывают, что ласковые прикосновения в паре связаны с более высокой удовлетворённостью отношениями и снижением стресса. **Как сказать близким:** «Мне очень помогает, когда ты просто обнимаешь меня, — даже без слов». Помните, что у людей разная потребность в прикосновениях: обсуждайте её открыто и уважайте границы друг друга.",
+            "en": "For you touch is the most direct way to feel close and safe. A hug after a hard day, a hand on the shoulder, cuddling during a film say more than long speeches.\n\n**Science:** research links affectionate touch in couples to higher relationship satisfaction and lower stress. **How to tell loved ones:** 'It really helps when you just hug me — even without words.' Remember that people differ in how much touch they want: talk about it openly and respect each other's boundaries."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "words1",
+      "text": {
+        "ru": "Мне очень важно слышать от близкого человека, что он меня любит и ценит.",
+        "en": "Hearing someone close tell me they love and value me means a great deal to me."
+      },
+      "dimension": "words"
+    },
+    {
+      "id": "time1",
+      "text": {
+        "ru": "Я чувствую себя любимым(-ой), когда близкий человек откладывает телефон и полностью со мной.",
+        "en": "I feel loved when the other person puts their phone away and is fully with me."
+      },
+      "dimension": "time"
+    },
+    {
+      "id": "gifts1",
+      "text": {
+        "ru": "Даже маленький сюрприз «просто так» показывает мне, что обо мне думали.",
+        "en": "Even a small 'just because' surprise shows me someone was thinking of me."
+      },
+      "dimension": "gifts"
+    },
+    {
+      "id": "service1",
+      "text": {
+        "ru": "Когда кто-то берёт на себя мои дела, чтобы мне стало легче, я чувствую заботу.",
+        "en": "When someone takes a task off my plate to make life easier, I feel cared for."
+      },
+      "dimension": "service"
+    },
+    {
+      "id": "touch1",
+      "text": {
+        "ru": "Объятия — один из лучших способов меня поддержать.",
+        "en": "A hug is one of the best ways to comfort me."
+      },
+      "dimension": "touch"
+    },
+    {
+      "id": "words2",
+      "text": {
+        "ru": "Искренний комплимент может поднять мне настроение на весь день.",
+        "en": "A sincere compliment can lift my mood for the whole day."
+      },
+      "dimension": "words"
+    },
+    {
+      "id": "time2",
+      "text": {
+        "ru": "Совместные занятия — прогулка, готовка, поездка вдвоём — очень много для меня значат.",
+        "en": "Doing things together — a walk, cooking, a trip for two — means a lot to me."
+      },
+      "dimension": "time"
+    },
+    {
+      "id": "gifts2",
+      "text": {
+        "ru": "Я храню памятные подарки и открытки много лет.",
+        "en": "I keep meaningful gifts and cards for years."
+      },
+      "dimension": "gifts"
+    },
+    {
+      "id": "service2",
+      "text": {
+        "ru": "Практическая помощь для меня — одно из самых убедительных проявлений любви.",
+        "en": "Practical help is one of the most convincing signs of love for me."
+      },
+      "dimension": "service"
+    },
+    {
+      "id": "touch2",
+      "text": {
+        "ru": "Мне приятно держаться за руки или сидеть рядом, касаясь друг друга.",
+        "en": "I enjoy holding hands or sitting close enough to touch."
+      },
+      "dimension": "touch"
+    },
+    {
+      "id": "words3",
+      "text": {
+        "ru": "Я перечитываю тёплые сообщения и записки от близких.",
+        "en": "I reread warm messages and notes from people close to me."
+      },
+      "dimension": "words"
+    },
+    {
+      "id": "time3",
+      "text": {
+        "ru": "Долгий разговор по душам заставляет меня чувствовать себя по-настоящему близким(-ой) с человеком.",
+        "en": "A long heart-to-heart makes me feel truly close to someone."
+      },
+      "dimension": "time"
+    },
+    {
+      "id": "gifts3",
+      "text": {
+        "ru": "Мне очень приятно, когда близкий человек привозит что-то из поездки специально для меня.",
+        "en": "I love it when someone brings back something from a trip just for me."
+      },
+      "dimension": "gifts"
+    },
+    {
+      "id": "service3",
+      "text": {
+        "ru": "Мне очень приятно, когда без напоминаний что-то чинят, убирают или готовят для меня.",
+        "en": "I really appreciate it when someone fixes, cleans or cooks something for me without being asked."
+      },
+      "dimension": "service"
+    },
+    {
+      "id": "touch3",
+      "text": {
+        "ru": "Без объятий и прикосновений я быстро начинаю чувствовать отдалённость.",
+        "en": "Without hugs and touch I quickly start to feel distant."
+      },
+      "dimension": "touch"
+    },
+    {
+      "id": "words4",
+      "text": {
+        "ru": "Когда меня хвалят за конкретное усилие, я чувствую, что меня по-настоящему видят.",
+        "en": "When someone praises a specific effort of mine, I feel truly seen."
+      },
+      "dimension": "words"
+    },
+    {
+      "id": "time4",
+      "text": {
+        "ru": "Мне обидно, когда меня слушают вполуха.",
+        "en": "It hurts when someone only half-listens to me."
+      },
+      "dimension": "time"
+    },
+    {
+      "id": "gifts4",
+      "text": {
+        "ru": "Продуманный подарок, угадывающий моё желание, трогает меня до глубины души.",
+        "en": "A thoughtful gift that guesses what I wished for moves me deeply."
+      },
+      "dimension": "gifts"
+    },
+    {
+      "id": "service4",
+      "text": {
+        "ru": "Когда я устал(а) или болею, мне важнее всего, чтобы кто-то взял быт на себя.",
+        "en": "When I'm tired or ill, what matters most is someone taking over the chores."
+      },
+      "dimension": "service"
+    },
+    {
+      "id": "touch4",
+      "text": {
+        "ru": "Лёгкое прикосновение к плечу в трудный момент очень много для меня значит.",
+        "en": "A gentle touch on the shoulder in a hard moment means a lot to me."
+      },
+      "dimension": "touch"
+    },
+    {
+      "id": "words5",
+      "text": {
+        "ru": "Слова поддержки перед трудным делом придают мне сил.",
+        "en": "Words of encouragement before something difficult give me strength."
+      },
+      "dimension": "words"
+    },
+    {
+      "id": "time5",
+      "text": {
+        "ru": "Регулярное время вдвоём (например, «наш вечер») для меня очень значимо.",
+        "en": "Regular one-on-one time (like a standing 'our evening') is very meaningful to me."
+      },
+      "dimension": "time"
+    },
+    {
+      "id": "gifts5",
+      "text": {
+        "ru": "Если бы о моём дне рождения или нашей годовщине забыли, я бы сильно расстроился(-ась).",
+        "en": "I'd be really upset if my birthday or our anniversary passed without any token of attention."
+      },
+      "dimension": "gifts"
+    },
+    {
+      "id": "service5",
+      "text": {
+        "ru": "Меня огорчает, когда обещанную помощь снова и снова откладывают.",
+        "en": "It bothers me when promised help keeps getting postponed."
+      },
+      "dimension": "service"
+    },
+    {
+      "id": "touch5",
+      "text": {
+        "ru": "Я сам(а) часто выражаю тёплые чувства через прикосновения.",
+        "en": "I often express warm feelings through touch myself."
+      },
+      "dimension": "touch"
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "wordsmith",
+      "title": {
+        "ru": "Тот, кому важны слова",
+        "en": "The Word Lover"
+      },
+      "emoji": "💌",
+      "profile": {
+        "words": 0.9,
+        "time": 0.55,
+        "gifts": 0.55,
+        "service": 0.55,
+        "touch": 0.55
+      },
+      "summary": [
+        {
+          "ru": "Вас наполняют искренние слова любви и признания",
+          "en": "Sincere words of love and appreciation fill you up"
+        },
+        {
+          "ru": "Конкретная похвала значит больше общих фраз",
+          "en": "Specific praise beats generic phrases"
+        },
+        {
+          "ru": "Критика ранит сильнее обычного",
+          "en": "Criticism stings more than average"
+        },
+        {
+          "ru": "Вы и сами щедры на тёплые слова",
+          "en": "You're generous with kind words yourself"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий способ чувствовать любовь — **слова**. Вам важно слышать, что вас любят, ценят и вами гордятся, и особенно — за что именно. Записка, голосовое сообщение или «спасибо» в нужный момент работают для вас как подзарядка.\n\nПри этом наука о языках любви советует не воспринимать результат как единственный «код»: большинству людей важны все пять форм заботы, а ваш профиль показывает, какая из них особенно заметна для вас сейчас.\n\n**Что делать:** скажите близким, какие слова вас поддерживают («мне важно, когда ты отмечаешь, что у меня получилось»). Практикуйте взаимную благодарность — это одна из самых изученных «полезных привычек» пар.",
+        "en": "Your leading way of feeling loved is **words**. You need to hear that you're loved, valued and admired — especially for what exactly. A note, a voice message or a well-timed 'thank you' recharges you.\n\nThe science of love languages advises not to treat this as your only 'code': most people value all five forms of care, and your profile shows which one is especially noticeable for you right now.\n\n**What to do:** tell loved ones which words support you ('it matters when you notice what I did well'). Practise mutual gratitude — one of the best-studied healthy habits in couples."
+      },
+      "strengths": [
+        {
+          "ru": "Умеете поддерживать словом",
+          "en": "You support others with words"
+        },
+        {
+          "ru": "Открыто говорите о чувствах",
+          "en": "You talk openly about feelings"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Замечать любовь в поступках, а не только в словах",
+          "en": "Noticing love in actions, not only words"
+        },
+        {
+          "ru": "Не принимать резкость слишком близко к сердцу",
+          "en": "Not taking harsh words too personally"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Перечитываете переписку с «доброе утро, солнце» чаще, чем новости",
+          "en": "You reread 'good morning, sunshine' texts more often than the news"
+        },
+        {
+          "ru": "Голосовое на 4 минуты с комплиментами — лучший подарок на день рождения",
+          "en": "A 4-minute voice message full of compliments is the best birthday gift"
+        },
+        {
+          "ru": "Ваш скриншот-архив «мило» занимает больше памяти, чем фото еды",
+          "en": "Your 'aww' screenshot folder takes more storage than your food photos"
+        },
+        {
+          "ru": "«Ну ты же знаешь, что я тебя люблю» — нет, скажи ещё раз",
+          "en": "'You know I love you' — no, say it again"
+        }
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a smiling character reading a heart-shaped letter with floating speech bubbles, soft colors"
+    },
+    {
+      "id": "together-time",
+      "title": {
+        "ru": "Тот, кому важно время вместе",
+        "en": "The Time Treasurer"
+      },
+      "emoji": "⏳",
+      "profile": {
+        "words": 0.55,
+        "time": 0.9,
+        "gifts": 0.55,
+        "service": 0.55,
+        "touch": 0.55
+      },
+      "summary": [
+        {
+          "ru": "Любовь для вас — это присутствие и внимание",
+          "en": "Love for you is presence and attention"
+        },
+        {
+          "ru": "Совместные дела сближают сильнее всего",
+          "en": "Shared activities bring you closest"
+        },
+        {
+          "ru": "Телефон за ужином — красный флажок",
+          "en": "A phone at dinner is a red flag"
+        },
+        {
+          "ru": "Качество важнее количества",
+          "en": "Quality beats quantity"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий способ чувствовать любовь — **время вместе**. Вам важно, чтобы близкий человек был рядом не только физически, но и мыслями: слушал, смотрел в глаза, участвовал.\n\nИсследования пар показывают, что совместные новые и увлекательные занятия связаны с ростом удовлетворённости отношениями, — так что ваш «язык» хорошо согласуется с наукой. Но помните: большинству людей важны все формы заботы, и ваш партнёр может выражать любовь иначе.\n\n**Что делать:** предложите регулярный ритуал без гаджетов — завтрак, прогулку, «вечер вдвоём». Объясните, что для вас важен не объём времени, а его качество.",
+        "en": "Your leading way of feeling loved is **quality time**. You need your loved one to be with you not only physically but mentally: listening, making eye contact, taking part.\n\nCouples research links shared novel, engaging activities to rising relationship satisfaction — so your 'language' fits the science well. But remember: most people value all forms of care, and your partner may express love differently.\n\n**What to do:** suggest a regular gadget-free ritual — breakfast, a walk, a date night. Explain that what matters is the quality of time, not the amount."
+      },
+      "strengths": [
+        {
+          "ru": "Умеете быть по-настоящему рядом",
+          "en": "You know how to be truly present"
+        },
+        {
+          "ru": "Создаёте общие воспоминания",
+          "en": "You create shared memories"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Уважать потребность партнёра в одиночестве",
+          "en": "Respecting a partner's need for alone time"
+        },
+        {
+          "ru": "Не считать занятость равнодушием",
+          "en": "Not reading busyness as indifference"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Фраза «давай я только сообщение допишу» — ваш личный триггер",
+          "en": "'Let me just finish this message' is your personal trigger"
+        },
+        {
+          "ru": "Идеальное свидание: прогулка, где никто не достаёт телефон",
+          "en": "Perfect date: a walk where nobody takes out a phone"
+        },
+        {
+          "ru": "Совместная сборка шкафа из IKEA для вас — романтика, а не испытание",
+          "en": "Building flat-pack furniture together is romance for you, not a trial"
+        },
+        {
+          "ru": "Вы запоминаете не подарки, а то, как вы вместе их выбирали",
+          "en": "You remember not the gifts but choosing them together"
+        }
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of two friends sharing tea on a picnic blanket under a big hourglass with flowers, soft colors"
+    },
+    {
+      "id": "gift-lover",
+      "title": {
+        "ru": "Ценитель знаков внимания",
+        "en": "The Token Treasurer"
+      },
+      "emoji": "🎁",
+      "profile": {
+        "words": 0.55,
+        "time": 0.55,
+        "gifts": 0.9,
+        "service": 0.55,
+        "touch": 0.55
+      },
+      "summary": [
+        {
+          "ru": "Подарок для вас — доказательство «я о тебе думал»",
+          "en": "A gift proves 'I was thinking of you'"
+        },
+        {
+          "ru": "Важна мысль, а не цена",
+          "en": "It's the thought, not the price"
+        },
+        {
+          "ru": "Вы храните памятные вещи",
+          "en": "You keep keepsakes"
+        },
+        {
+          "ru": "Забытая дата может ранить",
+          "en": "A forgotten date can hurt"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий способ чувствовать любовь — **знаки внимания**. Маленький сюрприз, сувенир из поездки или вещь, о которой вы однажды мельком упомянули, говорят вам: «я тебя слышу и помню».\n\nЭто не про материализм: в центре — внимание. При этом научные данные о «языках любви» скромные, и большинству людей важны все формы заботы, так что ваш результат — подсказка, а не правило.\n\n**Что делать:** помогите близким — делитесь вишлистом и рассказывайте, какие даты для вас важны. И помните, что сами вы, скорее всего, отличный даритель: это тоже ваш способ любить.",
+        "en": "Your leading way of feeling loved is **thoughtful tokens**. A small surprise, a souvenir from a trip, or something you once mentioned in passing tells you: 'I hear you and remember'.\n\nIt isn't materialism: attention is at the centre. The scientific evidence on love languages is modest, and most people value all forms of care, so your result is a hint, not a rule.\n\n**What to do:** help your loved ones — share a wish list and say which dates matter to you. You're probably a great gift-giver yourself: that's also how you love."
+      },
+      "strengths": [
+        {
+          "ru": "Внимательность к деталям",
+          "en": "Attention to detail"
+        },
+        {
+          "ru": "Умение радовать",
+          "en": "Knowing how to delight people"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Не измерять любовь подарками",
+          "en": "Not measuring love by gifts"
+        },
+        {
+          "ru": "Говорить о желаниях прямо",
+          "en": "Stating wishes directly"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "У вас есть коробка с билетами из кино 2017 года — и вы помните каждый фильм",
+          "en": "You have a box of cinema tickets from 2017 — and remember every film"
+        },
+        {
+          "ru": "Шоколадка «увидел и подумал о тебе» > дорогой, но дежурный подарок",
+          "en": "A 'saw this and thought of you' chocolate > an expensive generic gift"
+        },
+        {
+          "ru": "Вы начинаете готовить подарки к Новому году в октябре",
+          "en": "You start planning New Year gifts in October"
+        },
+        {
+          "ru": "Магнитик из командировки — и вы уже растаяли",
+          "en": "A fridge magnet from a business trip — and you've melted"
+        }
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a happy character holding a small wrapped gift with a bow, confetti and tiny hearts, soft colors"
+    },
+    {
+      "id": "helper",
+      "title": {
+        "ru": "Тот, кому важна помощь делом",
+        "en": "The Acts-of-Care Fan"
+      },
+      "emoji": "🧺",
+      "profile": {
+        "words": 0.55,
+        "time": 0.55,
+        "gifts": 0.55,
+        "service": 0.9,
+        "touch": 0.55
+      },
+      "summary": [
+        {
+          "ru": "Поступки говорят вам больше слов",
+          "en": "Actions speak louder than words for you"
+        },
+        {
+          "ru": "Помощь без напоминаний — признание в любви",
+          "en": "Unprompted help is a love letter"
+        },
+        {
+          "ru": "Невыполненные обещания ранят",
+          "en": "Broken promises hurt"
+        },
+        {
+          "ru": "Вы и сами заботитесь делом",
+          "en": "You care through actions too"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий способ чувствовать любовь — **помощь делом**. Когда кто-то замечает, что вам тяжело, и молча берёт часть забот на себя, вы чувствуете себя любимым(-ой) сильнее, чем от любых слов.\n\nИсследования отношений подтверждают, что ощущение справедливого распределения домашних дел и практическая поддержка важны для удовлетворённости парой. Но помните: этот тест — повод для разговора, а не научный диагноз, и большинству людей важны все формы заботы.\n\n**Что делать:** формулируйте конкретные просьбы («можешь сегодня забрать посылку?») и благодарите за помощь — так вы поддерживаете то, что для вас важно.",
+        "en": "Your leading way of feeling loved is **acts of service**. When someone notices you're struggling and quietly takes on part of the load, you feel more loved than by any words.\n\nRelationship research confirms that a sense of fair division of chores and practical support matter for couple satisfaction. But remember: this test is a conversation starter, not a scientific diagnosis, and most people value all forms of care.\n\n**What to do:** make specific requests ('could you pick up the parcel today?') and thank people for help — you reinforce what matters to you."
+      },
+      "strengths": [
+        {
+          "ru": "Надёжность и практичность",
+          "en": "Reliability and practicality"
+        },
+        {
+          "ru": "Забота без лишних слов",
+          "en": "Care without fuss"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Просить о помощи прямо",
+          "en": "Asking for help directly"
+        },
+        {
+          "ru": "Замечать любовь в словах и жестах",
+          "en": "Noticing love in words and gestures"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Самое романтичное, что для вас делали, — заправили машину перед поездкой",
+          "en": "The most romantic thing anyone did for you: filled up your car before a trip"
+        },
+        {
+          "ru": "«Я помыл посуду» звучит для вас как сонет Шекспира",
+          "en": "'I did the dishes' sounds like a Shakespeare sonnet to you"
+        },
+        {
+          "ru": "Вы проявляете любовь, чиня друзьям розетки и роутеры",
+          "en": "You show love by fixing friends' sockets and routers"
+        },
+        {
+          "ru": "Обещание «сделаю завтра» в третий раз — и вы уже открываете YouTube-туториал",
+          "en": "Third 'I'll do it tomorrow' — and you're already opening a YouTube tutorial"
+        }
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a cheerful character carrying a laundry basket and a toolbox with little hearts, soft colors"
+    },
+    {
+      "id": "hugger",
+      "title": {
+        "ru": "Тот, кому важны объятия",
+        "en": "The Hugger"
+      },
+      "emoji": "🤗",
+      "profile": {
+        "words": 0.55,
+        "time": 0.55,
+        "gifts": 0.55,
+        "service": 0.55,
+        "touch": 0.9
+      },
+      "summary": [
+        {
+          "ru": "Объятия — лучший способ вас поддержать",
+          "en": "A hug is the best comfort for you"
+        },
+        {
+          "ru": "Прикосновения дают чувство безопасности",
+          "en": "Touch makes you feel safe"
+        },
+        {
+          "ru": "Без них вы ощущаете дистанцию",
+          "en": "Without it you feel distant"
+        },
+        {
+          "ru": "Вы сами тактильны",
+          "en": "You're tactile yourself"
+        }
+      ],
+      "detailed": {
+        "ru": "Ваш ведущий способ чувствовать любовь — **прикосновения**. Объятие после тяжёлого дня, рука в руке на прогулке, плечо рядом на диване — это для вас самый прямой язык близости.\n\nИсследования показывают, что ласковые прикосновения в паре связаны с более высокой удовлетворённостью отношениями и помогают справляться со стрессом. Но потребность в прикосновениях у людей разная, и важно говорить о ней открыто и с уважением к границам.\n\n**Что делать:** скажите близким, какие прикосновения вам приятны и когда («обними меня, когда я прихожу домой уставшим(-ей)»). И помните, что для партнёра забота может звучать на другом «языке».",
+        "en": "Your leading way of feeling loved is **physical touch**. A hug after a hard day, holding hands on a walk, a shoulder next to you on the sofa — that's your most direct language of closeness.\n\nResearch links affectionate touch in couples to higher relationship satisfaction and better stress coping. But people differ in how much touch they want, so talk openly and respect boundaries.\n\n**What to do:** tell loved ones which touch you enjoy and when ('hug me when I come home tired'). Remember that your partner may 'speak' care in another language."
+      },
+      "strengths": [
+        {
+          "ru": "Тепло и открытость",
+          "en": "Warmth and openness"
+        },
+        {
+          "ru": "Умение утешить без слов",
+          "en": "Comforting without words"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Уважать разные границы в прикосновениях",
+          "en": "Respecting different touch boundaries"
+        },
+        {
+          "ru": "Выражать любовь и другими способами",
+          "en": "Expressing love in other ways too"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Вы обнимаете друзей при встрече, даже если виделись вчера",
+          "en": "You hug friends hello even if you saw them yesterday"
+        },
+        {
+          "ru": "Фильм «в обнимку» — смотрите вы его или нет — лучший вечер",
+          "en": "A cuddle-movie night — whether or not you watch the film — is the best evening"
+        },
+        {
+          "ru": "Рукопожатие на собеседовании кажется вам слишком холодным",
+          "en": "A job-interview handshake feels too cold to you"
+        },
+        {
+          "ru": "Кот — ваш главный союзник в дни без объятий",
+          "en": "Your cat is your main ally on hug-less days"
+        }
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of two round characters in a warm hug surrounded by soft clouds and hearts, soft colors"
+    },
+    {
+      "id": "polyglot",
+      "title": {
+        "ru": "Полиглот любви",
+        "en": "The Love Polyglot"
+      },
+      "emoji": "🌈",
+      "profile": {
+        "words": 0.85,
+        "time": 0.85,
+        "gifts": 0.85,
+        "service": 0.85,
+        "touch": 0.85
+      },
+      "summary": [
+        {
+          "ru": "Вам важны почти все формы заботы",
+          "en": "Almost all forms of care matter to you"
+        },
+        {
+          "ru": "Нет одного «главного» языка — и это нормально",
+          "en": "No single 'main' language — and that's fine"
+        },
+        {
+          "ru": "Вы гибко считываете чужую заботу",
+          "en": "You flexibly notice others' care"
+        },
+        {
+          "ru": "Именно так и описывает людей наука",
+          "en": "This is exactly what science finds in most people"
+        }
+      ],
+      "detailed": {
+        "ru": "Вы набрали высокие баллы по большинству «языков любви». Это совсем не «неопределённый» результат: в обзоре Impett, Park и Muise (2024) отмечается, что большинство людей ценят **все** способы выражения любви, а идея одного главного языка не подтверждается данными. Авторы предлагают другую метафору — **сбалансированное питание**: в отношениях нужны и слова, и время, и забота делом, и прикосновения, и знаки внимания.\n\n**Что делать:** благодарите близких за любую форму заботы, которую они вам дарят, и разнообразьте собственные проявления любви. Ваша гибкость — ресурс: вы легко находите общий язык с людьми, которые выражают чувства по-разному.",
+        "en": "You scored high on most love languages. That's not a vague result: Impett, Park and Muise's (2024) review notes that most people value **all** ways of expressing love, and the idea of one primary language isn't supported by the data. They propose a different metaphor — a **balanced diet**: relationships need words, time, help, touch and tokens alike.\n\n**What to do:** thank loved ones for whatever form of care they offer and vary your own expressions of love. Your flexibility is a resource: you easily connect with people who express feelings differently."
+      },
+      "strengths": [
+        {
+          "ru": "Гибкость",
+          "en": "Flexibility"
+        },
+        {
+          "ru": "Благодарность за разные проявления любви",
+          "en": "Gratitude for many forms of love"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Чётко говорить, что нужно именно сейчас",
+          "en": "Saying clearly what you need right now"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Вам одинаково приятны и объятия, и голосовое, и вымытая посуда",
+          "en": "A hug, a voice note and washed dishes all make you equally happy"
+        },
+        {
+          "ru": "Тесты «какой у тебя язык любви» выдают вам каждый раз новый ответ",
+          "en": "Every 'what's your love language' quiz gives you a different answer"
+        },
+        {
+          "ru": "Идеальный день: завтрак вместе, комплимент, подарок и объятия — можно всё сразу?",
+          "en": "Perfect day: breakfast together, a compliment, a gift and a hug — can I have it all?"
+        }
+      ],
+      "imagePrompt": "cute pastel flat-3D illustration of a cheerful character surrounded by five floating icons: a letter, an hourglass, a gift, a teapot and a heart hug, rainbow pastel"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "По каждой из пяти форм заботы складываются 5 ответов (1–5) — получается 5–25. Результат-тип выбирается по ближайшему профилю: если одна шкала заметно выше остальных, это ваш ведущий «язык»; если высоки почти все (около 20+ баллов), вы — «полиглот любви». Смотрите на весь профиль: у большинства людей важны несколько форм.",
+    "en": "For each of the five forms of care, 5 answers (1–5) are summed (5–25). The result type is the nearest profile: if one scale stands clearly above the rest, that's your leading 'language'; if nearly all are high (around 20+), you're a 'love polyglot'. Look at the whole profile — most people value several forms."
+  },
+  "resultIntro": {
+    "ru": "Ниже — ваш профиль по пяти формам заботы. Это не «код», который нужно расшифровать партнёру, а подсказка для разговора: что согревает вас сильнее всего и чем вы можете порадовать друг друга.",
+    "en": "Below is your profile across five forms of care. It's not a code your partner must crack, but a conversation starter: what warms you most and how you can delight each other."
+  }
+}

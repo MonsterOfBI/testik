@@ -1,0 +1,2687 @@
+{
+  "id": "city",
+  "category": "fun",
+  "kind": "choice",
+  "seriousness": "fun",
+  "title": {
+    "ru": "Какой ты город мира?",
+    "en": "Which World City Are You?"
+  },
+  "tagline": {
+    "ru": "Москва, Токио или Рио? У каждого города есть характер — какой твой?",
+    "en": "Moscow, Tokyo or Rio? Every city has a personality — which one is yours?"
+  },
+  "description": {
+    "ru": "Психологи давно изучают, почему в разных регионах «живут» разные характеры и почему людям лучше там, где город совпадает с их личностью. Ответь на 15 вопросов про утро выходного, очереди и дождь — и узнай, какой город звучит как ты.",
+    "en": "Psychologists study why different regions seem to have different personalities — and why people thrive where a city fits them. Answer 15 questions about weekend mornings, queues and rain to find the city that sounds like you."
+  },
+  "emoji": "🌍",
+  "durationMin": 5,
+  "popularity": 4,
+  "tags": [
+    {
+      "ru": "путешествия",
+      "en": "travel"
+    },
+    {
+      "ru": "города",
+      "en": "cities"
+    },
+    {
+      "ru": "личность",
+      "en": "personality"
+    },
+    {
+      "ru": "весёлые тесты",
+      "en": "fun quizzes"
+    }
+  ],
+  "methodology": {
+    "ru": "## На чём основан тест\n\n**Географическая психология** изучает, как черты личности распределены по регионам и городам и почему.\n\n- **Теория.** Rentfrow, Gosling и Potter (2008, *Perspectives on Psychological Science*) предложили объяснение: региональные различия возникают из-за избирательной миграции (люди переезжают туда, где им «подходит»), социального влияния и среды. Так у мест появляется своя «психологическая окраска».\n- **Три психологических региона США.** Rentfrow и коллеги (2013, *Journal of Personality and Social Psychology*) по данным более чем миллиона человек выделили кластеры «Дружелюбный и традиционный», «Расслабленный и творческий» и «Темпераментный и раскованный». Последний включает северо-восток США с Нью-Йорком.\n- **Лондон по районам.** Jokela и коллеги (2015, *PNAS*; около 56 000 участников, 216 почтовых районов) показали, что открытость выше всего в центральном Лондоне, а экстраверсия и эмоциональная стабильность — на юго-западе. Важнее другое: связь личности со счастьем зависела от района. Например, открытым людям лучше жилось в плотных и разнообразных районах.\n- **Совпадение «человек — город».** Bleidorn и коллеги (2016, *Psychological Science*) нашли, что люди, чья личность похожа на типичный профиль их города, в среднем имеют чуть более высокую самооценку.\n- **Темп жизни.** Levine и Norenzayan (1999) сравнили 31 страну по скорости ходьбы, работе почты и точности часов. Быстрее всех — Швейцария, Ирландия, Германия и Япония, медленнее — Мексика, Индонезия и Бразилия. Сильнее всего темп был связан с экономикой (r ≈ 0,74 с ВВП на душу населения). Отсюда шкала P.\n- **«Тугие» и «свободные» культуры.** Gelfand и коллеги (2011, *Science*, 33 страны) показали, что общества различаются силой норм и терпимостью к их нарушению. Япония и Южная Корея ближе к «тугому» полюсу — это учтено в шкале «порядок».\n- **Важная оговорка.** Terracciano и коллеги (2005, *Science*, 49 культур) выяснили, что представления о «национальном характере» в целом **не совпадают** с реально измеренными чертами. Поэтому профили городов в тесте — культурные образы и вайб, а не статистика о жителях. Для российских городов сопоставимых крупных опубликованных данных мы не нашли.\n\n## Как работает тест\n\n1. 15 оригинальных ситуационных вопросов, по 5 вариантов.\n2. Ответы дают баллы по шести шкалам: пять в духе «Большой пятёрки» (O, C, E, A, N) и темп жизни (P).\n3. Суммы нормируются к 0–1 и сравниваются с профилями 12 городов; побеждает ближайший.\n4. Калибровка на 120 000 симулированных случайных прохождений. Доля каждого результата:\n\n- 🌆 Москва: 7.8%\n- 🌉 Санкт-Петербург: 7.7%\n- 🗽 Нью-Йорк: 8.6%\n- 🗼 Токио: 7.5%\n- 🥐 Париж: 8.0%\n- 🏖️ Барселона: 7.8%\n- 🎧 Берлин: 8.6%\n- 🌋 Рейкьявик: 9.1%\n- 💃 Рио-де-Жанейро: 8.7%\n- ☂️ Лондон: 8.6%\n- ✨ Сеул: 9.3%\n- 🫖 Казань: 8.2%\n\nДополнительно проверено, что «персонаж», отвечающий в духе города, получает именно этот город.\n\n## Ограничения\n\nТест не валидирован психометрически. Шкалы вдохновлены исследованиями, но вопросы и профили городов авторские. Внутри любого города люди различаются гораздо сильнее, чем города между собой.",
+    "en": "## What this quiz is based on\n\n**Geographical psychology** studies how personality traits are distributed across regions and cities — and why.\n\n- **Theory.** Rentfrow, Gosling & Potter (2008, *Perspectives on Psychological Science*) proposed that regional differences emerge through selective migration (people move where they fit), social influence and environment — giving places a psychological ‘flavor’.\n- **Three psychological regions of the US.** Rentfrow et al. (2013, *Journal of Personality and Social Psychology*), using data from over a million people, identified ‘Friendly & Conventional’, ‘Relaxed & Creative’ and ‘Temperamental & Uninhibited’ clusters — the last covering the US Northeast, including New York.\n- **London, district by district.** Jokela et al. (2015, *PNAS*; ~56,000 people across 216 postal districts) found openness highest in central London and extraversion and emotional stability higher in the south-west. More importantly, how strongly personality predicted happiness depended on the neighborhood — e.g., open people were happier in dense, diverse areas.\n- **Person–city fit.** Bleidorn et al. (2016, *Psychological Science*) found that people whose personality resembled their city's typical profile had slightly higher self-esteem.\n- **Pace of life.** Levine & Norenzayan (1999) compared 31 countries on walking speed, postal service speed and clock accuracy. Fastest: Switzerland, Ireland, Germany and Japan; slowest: Mexico, Indonesia and Brazil. Pace tracked economic vitality most strongly (r ≈ .74 with GDP per capita). Hence our P scale.\n- **Tight vs. loose cultures.** Gelfand et al. (2011, *Science*, 33 nations) showed societies differ in how strong their norms are and how much deviance they tolerate. Japan and South Korea sit toward the ‘tight’ end — reflected in our order scale.\n- **Important caveat.** Terracciano et al. (2005, *Science*, 49 cultures) found that perceptions of ‘national character’ largely **do not match** measured trait levels. So city profiles here are cultural images and vibes, not statistics about residents. We found no comparable large published data for Russian cities.\n\n## How the quiz works\n\n1. 15 original situational questions with 5 options each.\n2. Answers add points on six scales: five Big-Five-like ones (O, C, E, A, N) plus pace of life (P).\n3. Sums are rescaled to 0–1 and compared with 12 city profiles; the nearest wins.\n4. Calibrated on 120,000 simulated random runs. Share of each result:\n\n- 🌆 Moscow: 7.8%\n- 🌉 Saint Petersburg: 7.7%\n- 🗽 New York: 8.6%\n- 🗼 Tokyo: 7.5%\n- 🥐 Paris: 8.0%\n- 🏖️ Barcelona: 7.8%\n- 🎧 Berlin: 8.6%\n- 🌋 Reykjavík: 9.1%\n- 💃 Rio de Janeiro: 8.7%\n- ☂️ London: 8.6%\n- ✨ Seoul: 9.3%\n- 🫖 Kazan: 8.2%\n\nWe also verified that a ‘persona’ answering in the spirit of each city gets that city.\n\n## Limitations\n\nThe quiz is not psychometrically validated. The scales are research-inspired, but the items and city profiles are our own. People within any city differ far more than cities differ from each other."
+  },
+  "sources": [
+    {
+      "citation": "Rentfrow, P. J., Gosling, S. D., & Potter, J. (2008). A theory of the emergence, persistence, and expression of geographic variation in psychological characteristics. Perspectives on Psychological Science, 3(5), 339–369.",
+      "doi": "10.1111/j.1745-6924.2008.00084.x"
+    },
+    {
+      "citation": "Rentfrow, P. J., Gosling, S. D., Jokela, M., Stillwell, D. J., Kosinski, M., & Potter, J. (2013). Divided we stand: Three psychological regions of the United States and their political, economic, social, and health correlates. Journal of Personality and Social Psychology, 105(6), 996–1012.",
+      "doi": "10.1037/a0034434"
+    },
+    {
+      "citation": "Jokela, M., Bleidorn, W., Lamb, M. E., Gosling, S. D., & Rentfrow, P. J. (2015). Geographically varying associations between personality and life satisfaction in the London metropolitan area. Proceedings of the National Academy of Sciences, 112(3), 725–730.",
+      "doi": "10.1073/pnas.1415800112"
+    },
+    {
+      "citation": "Bleidorn, W., Schönbrodt, F., Gebauer, J. E., Rentfrow, P. J., Potter, J., & Gosling, S. D. (2016). To live among like-minded others: Exploring the links between person-city personality fit and self-esteem. Psychological Science, 27(3), 419–427.",
+      "doi": "10.1177/0956797615627133"
+    },
+    {
+      "citation": "Levine, R. V., & Norenzayan, A. (1999). The pace of life in 31 countries. Journal of Cross-Cultural Psychology, 30(2), 178–205.",
+      "doi": "10.1177/0022022199030002003"
+    },
+    {
+      "citation": "Gelfand, M. J., Raver, J. L., Nishii, L., Leslie, L. M., Lun, J., Lim, B. C., ... Yamaguchi, S. (2011). Differences between tight and loose cultures: A 33-nation study. Science, 332(6033), 1100–1104.",
+      "doi": "10.1126/science.1197754"
+    },
+    {
+      "citation": "Terracciano, A., Abdel-Khalek, A. M., Ádám, N., Adamovová, L., Ahn, C.-K., Ahn, H.-N., ... McCrae, R. R. (2005). National character does not reflect mean personality trait levels in 49 cultures. Science, 310(5745), 96–100.",
+      "doi": "10.1126/science.1117199"
+    }
+  ],
+  "license": "Original content © testik. All questions, outcomes and texts were written from scratch for this site; no items are copied or adapted from copyrighted questionnaires or quiz sites. City descriptions are affectionate cultural images, not claims about residents.",
+  "disclaimer": {
+    "ru": "Развлекательный тест. «Характеры» городов здесь — это добрые культурные образы, а не измеренные средние черты жителей. Исследования показывают, что стереотипы о национальном характере плохо совпадают с реальными данными, так что никого не обижаем и ни о ком не судим.",
+    "en": "Entertainment quiz. The cities' ‘personalities’ here are affectionate cultural images, not measured averages of residents' traits. Research shows that national-character stereotypes match real data poorly, so no offense meant and no judgments made."
+  },
+  "instructions": {
+    "ru": "Представь, что ты — это ты, только с билетом в любую точку мира. Выбирай ответ, который ближе всего к тебе настоящему(ей). Один вариант в каждом вопросе.",
+    "en": "Picture yourself — just you, holding a ticket to anywhere in the world. Choose the answer closest to the real you. One option per question."
+  },
+  "dimensions": [
+    {
+      "id": "O",
+      "name": {
+        "ru": "Открытость новому",
+        "en": "Openness"
+      },
+      "description": {
+        "ru": "Любопытство к новым местам, людям и идеям.",
+        "en": "Curiosity about new places, people and ideas."
+      },
+      "lowLabel": {
+        "ru": "Любитель привычного",
+        "en": "Creature of habit"
+      },
+      "highLabel": {
+        "ru": "Искатель нового",
+        "en": "Novelty seeker"
+      },
+      "color": "#CDB4F6",
+      "scoring": "sum",
+      "min": 0,
+      "max": 20,
+      "bands": [
+        {
+          "min": 0,
+          "max": 5,
+          "label": {
+            "ru": "Любитель привычного",
+            "en": "Creature of habit"
+          },
+          "summary": [
+            {
+              "ru": "Свои места и маршруты",
+              "en": "Your own spots and routes"
+            },
+            {
+              "ru": "Предсказуемость успокаивает",
+              "en": "Predictability soothes you"
+            },
+            {
+              "ru": "Новое — по рекомендации",
+              "en": "New things by recommendation"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебе комфортно в знакомой среде, и это экономит силы. Попробуй иногда «туризм у себя дома» — новый район, новое кафе.",
+            "en": "You're comfortable in familiar settings, which saves energy. Try ‘tourism at home’ sometimes — a new neighborhood, a new café."
+          }
+        },
+        {
+          "min": 6,
+          "max": 8,
+          "label": {
+            "ru": "Открыт(а) по настроению",
+            "en": "Open when it feels right"
+          },
+          "summary": [
+            {
+              "ru": "Любишь и новое, и знакомое",
+              "en": "Like both new and familiar"
+            },
+            {
+              "ru": "Путешествуешь с планом",
+              "en": "Travel with a plan"
+            },
+            {
+              "ru": "Эксперименты в меру",
+              "en": "Experiments in moderation"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь сочетать любопытство и комфорт. Хороший баланс для жизни в любом городе.",
+            "en": "You combine curiosity and comfort — a good balance for life in any city."
+          }
+        },
+        {
+          "min": 9,
+          "max": 20,
+          "label": {
+            "ru": "Искатель нового",
+            "en": "Novelty seeker"
+          },
+          "summary": [
+            {
+              "ru": "Скука — враг",
+              "en": "Boredom is the enemy"
+            },
+            {
+              "ru": "Тянет в неизвестное",
+              "en": "Drawn to the unknown"
+            },
+            {
+              "ru": "Любишь разнообразие",
+              "en": "Love diversity"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебе нужны новые впечатления. В исследовании Jokela и коллег открытым людям было лучше в плотных и разнообразных районах — возможно, и тебе.",
+            "en": "You need fresh experiences. In Jokela and colleagues' study, open people were happier in dense, diverse neighborhoods — maybe you are too."
+          }
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": {
+        "ru": "Порядок",
+        "en": "Order"
+      },
+      "description": {
+        "ru": "Пунктуальность, планирование, уважение к правилам.",
+        "en": "Punctuality, planning and respect for rules."
+      },
+      "lowLabel": {
+        "ru": "Правила — это рекомендации",
+        "en": "Rules are suggestions"
+      },
+      "highLabel": {
+        "ru": "Всё по расписанию",
+        "en": "Runs on schedule"
+      },
+      "color": "#A8E6CF",
+      "scoring": "sum",
+      "min": -7,
+      "max": 22,
+      "bands": [
+        {
+          "min": -7,
+          "max": 1,
+          "label": {
+            "ru": "Правила — это рекомендации",
+            "en": "Rules are suggestions"
+          },
+          "summary": [
+            {
+              "ru": "Импровизация",
+              "en": "Improvisation"
+            },
+            {
+              "ru": "Гибкость",
+              "en": "Flexibility"
+            },
+            {
+              "ru": "Время — понятие растяжимое",
+              "en": "Time is stretchy"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты легко подстраиваешься под обстоятельства. Пара будильников на важное поможет не опоздать на собственный самолёт.",
+            "en": "You adapt easily. A couple of alarms for the important stuff will keep you from missing your own flight."
+          }
+        },
+        {
+          "min": 2,
+          "max": 5,
+          "label": {
+            "ru": "Порядок, когда нужно",
+            "en": "Order when it counts"
+          },
+          "summary": [
+            {
+              "ru": "План есть, но гибкий",
+              "en": "Flexible plans"
+            },
+            {
+              "ru": "Соблюдаешь разумные правила",
+              "en": "Follow sensible rules"
+            },
+            {
+              "ru": "Не паникуешь из-за мелочей",
+              "en": "Don't sweat the small stuff"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты собран(а), когда это важно, и расслаблен(а), когда можно.",
+            "en": "You're organized when it matters and relaxed when it doesn't."
+          }
+        },
+        {
+          "min": 6,
+          "max": 22,
+          "label": {
+            "ru": "Всё по расписанию",
+            "en": "Runs on schedule"
+          },
+          "summary": [
+            {
+              "ru": "Пунктуальность",
+              "en": "Punctuality"
+            },
+            {
+              "ru": "Чёткие планы",
+              "en": "Clear plans"
+            },
+            {
+              "ru": "Правила делают жизнь удобнее",
+              "en": "Rules make life smoother"
+            }
+          ],
+          "detailed": {
+            "ru": "На тебя можно положиться. Не забывай оставлять в расписании место для случайных чудес.",
+            "en": "People can count on you. Leave room in the schedule for happy accidents."
+          }
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "name": {
+        "ru": "Социальная энергия",
+        "en": "Social energy"
+      },
+      "description": {
+        "ru": "Насколько тебя заряжают люди, шум и движ.",
+        "en": "How much people, buzz and action charge you up."
+      },
+      "lowLabel": {
+        "ru": "Тишина и свои",
+        "en": "Quiet and close circle"
+      },
+      "highLabel": {
+        "ru": "Тусовка",
+        "en": "Crowd-powered"
+      },
+      "color": "#FFD3B6",
+      "scoring": "sum",
+      "min": -8,
+      "max": 22,
+      "bands": [
+        {
+          "min": -8,
+          "max": 3,
+          "label": {
+            "ru": "Тишина и свои",
+            "en": "Quiet and close circle"
+          },
+          "summary": [
+            {
+              "ru": "Заряжаешься наедине",
+              "en": "Recharge alone"
+            },
+            {
+              "ru": "Мало, но близких",
+              "en": "Few but close"
+            },
+            {
+              "ru": "Толпа утомляет",
+              "en": "Crowds drain you"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебе подходят спокойные места и глубокие разговоры. Это не недостаток, а стиль.",
+            "en": "Calm places and deep talks suit you. That's not a flaw — it's a style."
+          }
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "label": {
+            "ru": "Гибкая общительность",
+            "en": "Flexible sociability"
+          },
+          "summary": [
+            {
+              "ru": "И вечеринка, и плед",
+              "en": "Party or blanket"
+            },
+            {
+              "ru": "Чувствуешь меру",
+              "en": "Know your limits"
+            },
+            {
+              "ru": "Легко адаптируешься",
+              "en": "Adapt easily"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь быть и в центре событий, и в стороне.",
+            "en": "You can be in the thick of things or happily on the sidelines."
+          }
+        },
+        {
+          "min": 7,
+          "max": 22,
+          "label": {
+            "ru": "Тусовка",
+            "en": "Crowd-powered"
+          },
+          "summary": [
+            {
+              "ru": "Люди заряжают",
+              "en": "People energize you"
+            },
+            {
+              "ru": "Знакомишься легко",
+              "en": "Make friends easily"
+            },
+            {
+              "ru": "Любишь движ",
+              "en": "Love the buzz"
+            }
+          ],
+          "detailed": {
+            "ru": "Тебе нужен город, который не спит. Береги ресурс: даже у мегаполиса бывает ночь.",
+            "en": "You need a city that never sleeps. Pace yourself — even megacities have nights."
+          }
+        }
+      ]
+    },
+    {
+      "id": "A",
+      "name": {
+        "ru": "Дружелюбие",
+        "en": "Friendliness"
+      },
+      "description": {
+        "ru": "Теплота, гостеприимство, готовность помочь незнакомцу.",
+        "en": "Warmth, hospitality, readiness to help a stranger."
+      },
+      "lowLabel": {
+        "ru": "Ирония и дистанция",
+        "en": "Irony and distance"
+      },
+      "highLabel": {
+        "ru": "Гостеприимство",
+        "en": "Hospitality"
+      },
+      "color": "#FFAAA5",
+      "scoring": "sum",
+      "min": -7,
+      "max": 20,
+      "bands": [
+        {
+          "min": -7,
+          "max": 1,
+          "label": {
+            "ru": "Ирония и дистанция",
+            "en": "Irony and distance"
+          },
+          "summary": [
+            {
+              "ru": "Прямота",
+              "en": "Directness"
+            },
+            {
+              "ru": "Личные границы",
+              "en": "Personal boundaries"
+            },
+            {
+              "ru": "Сарказм как язык",
+              "en": "Sarcasm as a language"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты бережёшь границы и не раздаёшь доверие всем подряд. Свои знают, что за иронией — тепло.",
+            "en": "You guard your boundaries and don't hand out trust freely. Your people know there's warmth behind the irony."
+          }
+        },
+        {
+          "min": 2,
+          "max": 4,
+          "label": {
+            "ru": "Тёплый реалист",
+            "en": "Warm realist"
+          },
+          "summary": [
+            {
+              "ru": "Дружелюбен(на), но не наивен(на)",
+              "en": "Friendly, not naive"
+            },
+            {
+              "ru": "Помогаешь с умом",
+              "en": "Help wisely"
+            },
+            {
+              "ru": "Умеешь сказать «нет»",
+              "en": "Can say ‘no’"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты открыт(а) людям, но не в ущерб себе. Отличный баланс.",
+            "en": "You're open to people without sacrificing yourself — a great balance."
+          }
+        },
+        {
+          "min": 5,
+          "max": 20,
+          "label": {
+            "ru": "Гостеприимство",
+            "en": "Hospitality"
+          },
+          "summary": [
+            {
+              "ru": "Всех накормишь",
+              "en": "Feed everyone"
+            },
+            {
+              "ru": "Миришь и обнимаешь",
+              "en": "Make peace and hugs"
+            },
+            {
+              "ru": "Чужих не бывает",
+              "en": "No strangers, only friends"
+            }
+          ],
+          "detailed": {
+            "ru": "Рядом с тобой любой город кажется домом. Не забывай о себе — ты тоже гость в своей жизни.",
+            "en": "Any city feels like home around you. Don't forget yourself — you're a guest in your own life too."
+          }
+        }
+      ]
+    },
+    {
+      "id": "N",
+      "name": {
+        "ru": "Эмоциональность",
+        "en": "Emotionality"
+      },
+      "description": {
+        "ru": "Сила переживаний: от светлой грусти до бурного восторга.",
+        "en": "Intensity of feelings, from wistful sadness to wild delight."
+      },
+      "lowLabel": {
+        "ru": "Невозмутимость",
+        "en": "Chill"
+      },
+      "highLabel": {
+        "ru": "Эмоциональный накал",
+        "en": "All the feels"
+      },
+      "color": "#B5D8FA",
+      "scoring": "sum",
+      "min": -11,
+      "max": 13,
+      "bands": [
+        {
+          "min": -11,
+          "max": -1,
+          "label": {
+            "ru": "Невозмутимость",
+            "en": "Chill"
+          },
+          "summary": [
+            {
+              "ru": "Стресс отскакивает",
+              "en": "Stress bounces off"
+            },
+            {
+              "ru": "Спокойствие в хаосе",
+              "en": "Calm in chaos"
+            },
+            {
+              "ru": "Быстро восстанавливаешься",
+              "en": "Quick recovery"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты редко накручиваешь себя. Это настоящий ресурс для жизни в любом ритме.",
+            "en": "You rarely spiral — a real resource for life at any pace."
+          }
+        },
+        {
+          "min": 0,
+          "max": 2,
+          "label": {
+            "ru": "Живые эмоции",
+            "en": "Lively feelings"
+          },
+          "summary": [
+            {
+              "ru": "Чувствуешь, но не тонешь",
+              "en": "Feel without drowning"
+            },
+            {
+              "ru": "Бывает грустно — и это ок",
+              "en": "Sad sometimes — that's okay"
+            },
+            {
+              "ru": "Умеешь успокоиться",
+              "en": "Know how to calm down"
+            }
+          ],
+          "detailed": {
+            "ru": "У тебя здоровый эмоциональный диапазон.",
+            "en": "You have a healthy emotional range."
+          }
+        },
+        {
+          "min": 3,
+          "max": 13,
+          "label": {
+            "ru": "Эмоциональный накал",
+            "en": "All the feels"
+          },
+          "summary": [
+            {
+              "ru": "Чувствуешь всё ярко",
+              "en": "Feel everything vividly"
+            },
+            {
+              "ru": "Любишь драму (в кино)",
+              "en": "Love drama (on screen)"
+            },
+            {
+              "ru": "Красиво страдаешь",
+              "en": "Suffer beautifully"
+            }
+          ],
+          "detailed": {
+            "ru": "Твоя чувствительность делает жизнь насыщенной. Сон, прогулки и близкие помогают ей не превращаться в тревогу.",
+            "en": "Your sensitivity makes life rich. Sleep, walks and loved ones keep it from becoming anxiety."
+          }
+        }
+      ]
+    },
+    {
+      "id": "P",
+      "name": {
+        "ru": "Темп жизни",
+        "en": "Pace of life"
+      },
+      "description": {
+        "ru": "Как быстро ты живёшь: ходишь, решаешь, отвечаешь на сообщения. Вдохновлено исследованием Levine и Norenzayan (1999).",
+        "en": "How fast you live: walk, decide, reply. Inspired by Levine & Norenzayan (1999)."
+      },
+      "lowLabel": {
+        "ru": "Слоу-лайф",
+        "en": "Slow living"
+      },
+      "highLabel": {
+        "ru": "Бегом!",
+        "en": "Full speed"
+      },
+      "color": "#FDFD96",
+      "scoring": "sum",
+      "min": -11,
+      "max": 24,
+      "bands": [
+        {
+          "min": -11,
+          "max": 1,
+          "label": {
+            "ru": "Слоу-лайф",
+            "en": "Slow living"
+          },
+          "summary": [
+            {
+              "ru": "Никуда не спешишь",
+              "en": "No rush"
+            },
+            {
+              "ru": "Ценишь момент",
+              "en": "Savor the moment"
+            },
+            {
+              "ru": "Обед — это ритуал",
+              "en": "Lunch is a ritual"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты умеешь жить медленно — редкий навык. Главное, чтобы важные дедлайны не превращались в «потом».",
+            "en": "You know how to live slowly — a rare skill. Just don't let real deadlines turn into ‘later’."
+          }
+        },
+        {
+          "min": 2,
+          "max": 4,
+          "label": {
+            "ru": "Свой ритм",
+            "en": "Your own rhythm"
+          },
+          "summary": [
+            {
+              "ru": "Ускоряешься, когда нужно",
+              "en": "Speed up when needed"
+            },
+            {
+              "ru": "Отдыхаешь без вины",
+              "en": "Rest without guilt"
+            },
+            {
+              "ru": "Баланс",
+              "en": "Balance"
+            }
+          ],
+          "detailed": {
+            "ru": "Ты выбираешь темп под задачу, а не под чужие ожидания.",
+            "en": "You set your pace by the task, not by other people's expectations."
+          }
+        },
+        {
+          "min": 5,
+          "max": 24,
+          "label": {
+            "ru": "Бегом!",
+            "en": "Full speed"
+          },
+          "summary": [
+            {
+              "ru": "Всё успеваешь",
+              "en": "Get it all done"
+            },
+            {
+              "ru": "Многозадачность",
+              "en": "Multitasking"
+            },
+            {
+              "ru": "Эскалатор — для бега",
+              "en": "Escalators are for running"
+            }
+          ],
+          "detailed": {
+            "ru": "Скорость — твоя стихия. Не забывай иногда сходить с дистанции, чтобы просто посмотреть на город.",
+            "en": "Speed is your element. Step off the track sometimes just to look at the city."
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": {
+        "ru": "Суббота, 9:00. Ты просыпаешься и…",
+        "en": "Saturday, 9 a.m. You wake up and…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "…уже на пробежке, а дальше бранч, выставка и вечеринка",
+            "en": "…you're already out for a run, then brunch, a gallery and a party"
+          },
+          "scores": {
+            "P": 2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "…кофе у окна, книга, никуда не тороплюсь",
+            "en": "…coffee by the window, a book, no rush"
+          },
+          "scores": {
+            "P": -1,
+            "E": -1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "…иду гулять без маршрута — посмотрим, куда занесёт",
+            "en": "…go wandering without a route — let's see where I end up"
+          },
+          "scores": {
+            "O": 2,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "…звоню друзьям: «Кто на завтрак? Я угощаю!»",
+            "en": "…call friends: ‘Who's up for breakfast? My treat!’"
+          },
+          "scores": {
+            "E": 2,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "…сверяюсь с планом. Да, у меня план даже на выходные",
+            "en": "…check my plan. Yes, I have a plan even for weekends"
+          },
+          "scores": {
+            "C": 2,
+            "P": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": {
+        "ru": "Какой звук для тебя звучит как дом?",
+        "en": "Which sound feels like home?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Гул большого города — он меня успокаивает",
+            "en": "The hum of a big city — it calms me down"
+          },
+          "scores": {
+            "P": 2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Дождь по подоконнику",
+            "en": "Rain on the windowsill"
+          },
+          "scores": {
+            "N": 1,
+            "O": 1,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Шум моря и чьи-то песни на пляже",
+            "en": "Waves and someone singing on the beach"
+          },
+          "scores": {
+            "E": 1,
+            "A": 1,
+            "P": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тишина. Ну, может, ветер",
+            "en": "Silence. Maybe some wind"
+          },
+          "scores": {
+            "E": -1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Звон посуды и голоса родни за большим столом",
+            "en": "Clinking dishes and relatives' voices around a big table"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Звон бокалов, громкий спор о кино и аккордеон где-то за углом",
+            "en": "Clinking glasses, a heated argument about film and an accordion somewhere around the corner"
+          },
+          "scores": {
+            "E": 1,
+            "N": 1,
+            "O": 1,
+            "P": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": {
+        "ru": "Ты опаздываешь на встречу на 10 минут.",
+        "en": "You're running 10 minutes late."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Это катастрофа: я никогда не опаздываю",
+            "en": "This is a disaster. I'm never late"
+          },
+          "scores": {
+            "C": 2,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "10 минут — это не опоздание, это «примерно вовремя»",
+            "en": "10 minutes isn't late, it's ‘roughly on time’"
+          },
+          "scores": {
+            "C": -1,
+            "P": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Бегу, параллельно пишу три сообщения и вызываю такси",
+            "en": "Running while texting three people and booking a cab"
+          },
+          "scores": {
+            "P": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Пишу честное извинение с мемом",
+            "en": "Send an honest apology with a meme"
+          },
+          "scores": {
+            "A": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Не страшно — зато я по дороге нашёл(ла) классное кафе",
+            "en": "No biggie — I found an amazing café on the way"
+          },
+          "scores": {
+            "O": 2,
+            "C": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": {
+        "ru": "Твоё отношение к очередям?",
+        "en": "Your attitude toward queues?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Очередь священна. Стою, молчу, соблюдаю",
+            "en": "The queue is sacred. I stand, I wait, I respect it"
+          },
+          "scores": {
+            "C": 2,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Отличный повод познакомиться с соседями",
+            "en": "A great chance to meet the people around me"
+          },
+          "scores": {
+            "E": 2,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ищу лайфхак: онлайн-запись, приложение, другой вход",
+            "en": "Find a hack: online booking, an app, another entrance"
+          },
+          "scores": {
+            "P": 2,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Лучше уйду и вернусь потом — нервы дороже",
+            "en": "I'll leave and come back later — my nerves are worth more"
+          },
+          "scores": {
+            "P": -1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ворчу, но стою, а потом рассказываю об этом целую историю",
+            "en": "Grumble but stay, then tell everyone the whole saga"
+          },
+          "scores": {
+            "N": 2,
+            "A": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": {
+        "ru": "Идеальный ужин — это…",
+        "en": "The perfect dinner is…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Авангардная кухня, где еду подают в облаке дыма",
+            "en": "Avant-garde cuisine served in a cloud of smoke"
+          },
+          "scores": {
+            "O": 2,
+            "P": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Огромный стол, родня и «ну ещё кусочек»",
+            "en": "A huge table, family and ‘just one more piece’"
+          },
+          "scores": {
+            "A": 2,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Уличная еда в два часа ночи после концерта",
+            "en": "Street food at 2 a.m. after a concert"
+          },
+          "scores": {
+            "E": 1,
+            "C": -1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Свежий хлеб, сыр и разговоры о смысле жизни",
+            "en": "Fresh bread, cheese and conversations about the meaning of life"
+          },
+          "scores": {
+            "N": 1,
+            "O": 1,
+            "P": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тихий ужин дома по рецепту, доведённому до идеала",
+            "en": "A quiet dinner at home from a recipe I've perfected"
+          },
+          "scores": {
+            "C": 2,
+            "E": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": {
+        "ru": "Что ты делаешь, когда грустно?",
+        "en": "What do you do when you're sad?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Гуляю под дождём с грустной музыкой — страдаю красиво",
+            "en": "Walk in the rain with sad music — suffering, but aesthetically"
+          },
+          "scores": {
+            "N": 2,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Работаю: дела лечат",
+            "en": "Work. Getting things done heals me"
+          },
+          "scores": {
+            "C": 1,
+            "P": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Зову друзей и танцую до утра",
+            "en": "Call friends and dance till morning"
+          },
+          "scores": {
+            "E": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Уезжаю на природу, подальше от людей",
+            "en": "Escape to nature, far from people"
+          },
+          "scores": {
+            "E": -1,
+            "O": 1,
+            "P": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Еду к маме или бабушке — там накормят и выслушают",
+            "en": "Go to my mom's or grandma's — they'll feed me and listen"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Сажусь в кафе с подругой и со вкусом разбираю, кто во всём виноват",
+            "en": "Sit in a café with a friend and analyze, with relish, exactly who is to blame"
+          },
+          "scores": {
+            "N": 1,
+            "E": 1,
+            "A": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": {
+        "ru": "Какой стиль одежды тебе ближе?",
+        "en": "Which style is closest to yours?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Чёрное, удобное, немного андеграунд",
+            "en": "Black, comfy, a little underground"
+          },
+          "scores": {
+            "O": 1,
+            "C": -1,
+            "A": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Безупречно отглажено, всё сочетается",
+            "en": "Perfectly pressed, everything matches"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Ярко! Цвет, принты, блёстки",
+            "en": "Bright! Color, prints, sparkle"
+          },
+          "scores": {
+            "E": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Небрежная элегантность и шарф «как будто случайно»",
+            "en": "Effortless elegance and a scarf tied ‘by accident’"
+          },
+          "scores": {
+            "O": 1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тренды, которые у всех появятся через полгода",
+            "en": "Trends everyone else will wear in six months"
+          },
+          "scores": {
+            "O": 1,
+            "P": 1,
+            "E": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": {
+        "ru": "Как ты относишься к правилам?",
+        "en": "How do you feel about rules?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Правила делают жизнь удобной для всех",
+            "en": "Rules make life easier for everyone"
+          },
+          "scores": {
+            "C": 2,
+            "A": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Правила — это скорее рекомендации",
+            "en": "Rules are more like guidelines"
+          },
+          "scores": {
+            "C": -1,
+            "O": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Соблюдаю, если логично, а если нет — спорю",
+            "en": "I follow them if they make sense; if not, I argue"
+          },
+          "scores": {
+            "A": -1,
+            "E": 1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Правила? Некогда, у меня дедлайн",
+            "en": "Rules? No time, I have a deadline"
+          },
+          "scores": {
+            "P": 2,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Я за правила, если они про уважение и заботу",
+            "en": "I'm for rules when they're about respect and care"
+          },
+          "scores": {
+            "A": 2,
+            "C": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": {
+        "ru": "Выбери транспорт.",
+        "en": "Pick your transport."
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Метро: быстро, точно, по расписанию",
+            "en": "The metro: fast, precise, on schedule"
+          },
+          "scores": {
+            "C": 1,
+            "P": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Велосипед: свобода и ветер в волосах",
+            "en": "A bike: freedom and wind in my hair"
+          },
+          "scores": {
+            "O": 1,
+            "N": -1,
+            "C": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Пешком: только так город раскрывается",
+            "en": "On foot — it's the only way a city opens up"
+          },
+          "scores": {
+            "O": 1,
+            "P": -1,
+            "N": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Такси бизнес-класса — у меня созвон",
+            "en": "A premium cab — I'm on a call"
+          },
+          "scores": {
+            "P": 2,
+            "A": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Машина друга, громкая музыка, открытые окна",
+            "en": "A friend's car, loud music, windows down"
+          },
+          "scores": {
+            "E": 2,
+            "A": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": {
+        "ru": "Идеальный вид из окна?",
+        "en": "The perfect window view?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Огни небоскрёбов",
+            "en": "City lights and skyscrapers"
+          },
+          "scores": {
+            "P": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Крыши, двор-колодец и кот на подоконнике напротив",
+            "en": "Rooftops, an old courtyard and a cat on the opposite windowsill"
+          },
+          "scores": {
+            "O": 1,
+            "N": 1,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Море и пальмы",
+            "en": "The sea and palm trees"
+          },
+          "scores": {
+            "E": 1,
+            "N": -1,
+            "P": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Горы, океан и ни одного человека",
+            "en": "Mountains, ocean and not a single person"
+          },
+          "scores": {
+            "E": -1,
+            "O": 1,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Двор, где все друг друга знают",
+            "en": "A courtyard where everyone knows each other"
+          },
+          "scores": {
+            "A": 2,
+            "C": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": {
+        "ru": "На вечеринке ты…",
+        "en": "At a party you…"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Знакомлюсь со всеми и к концу вечера организую следующую",
+            "en": "Meet everyone and organize the next party by the end of the night"
+          },
+          "scores": {
+            "E": 2,
+            "P": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Нахожу одного интересного человека и до утра говорю с ним о космосе",
+            "en": "Find one interesting person and talk about the universe till dawn"
+          },
+          "scores": {
+            "O": 2,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Танцую! Неважно как, важно — от души",
+            "en": "Dance! Doesn't matter how, as long as it's from the heart"
+          },
+          "scores": {
+            "E": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Слежу, чтобы всем было хорошо и все поели",
+            "en": "Make sure everyone's happy and fed"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Ухожу по-английски через 40 минут",
+            "en": "Do an Irish exit after 40 minutes"
+          },
+          "scores": {
+            "E": -1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Снимаю контент, знакомлюсь со всеми и к 23:00 уже дома — завтра рано вставать",
+            "en": "Shoot content, meet everyone and I'm home by 11 — early start tomorrow"
+          },
+          "scores": {
+            "E": 1,
+            "C": 1,
+            "P": 1,
+            "O": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": {
+        "ru": "Твой стиль обращения с деньгами?",
+        "en": "Your money style?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Всё учтено в приложении до копейки",
+            "en": "Every penny tracked in an app"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Трачу на впечатления, а не на вещи",
+            "en": "Spend on experiences, not things"
+          },
+          "scores": {
+            "O": 1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Деньги любят движение: инвестирую, рискую",
+            "en": "Money likes motion: I invest, I take risks"
+          },
+          "scores": {
+            "P": 2,
+            "N": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Трачу на подарки близким",
+            "en": "Spend on gifts for loved ones"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Не думаю об этом — как-нибудь всё будет",
+            "en": "Don't think about it — it'll work out somehow"
+          },
+          "scores": {
+            "C": -1,
+            "N": -1,
+            "P": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Бюджет под контролем, но на новинки и уход за собой трачу без сожалений",
+            "en": "Budget under control, but I spend on new launches and self-care without regret"
+          },
+          "scores": {
+            "C": 1,
+            "O": 1,
+            "P": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": {
+        "ru": "Что ты скорее скажешь?",
+        "en": "Which line is most likely yours?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "«Давай быстрее, я же всё успеваю!»",
+            "en": "‘Come on, faster — I'm making it all happen!’"
+          },
+          "scores": {
+            "P": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "«Как же всё бессмысленно… и прекрасно»",
+            "en": "‘It's all so meaningless… and beautiful’"
+          },
+          "scores": {
+            "N": 1,
+            "O": 1,
+            "P": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Расслабься, жизнь одна»",
+            "en": "‘Relax, you only live once’"
+          },
+          "scores": {
+            "N": -1,
+            "P": -1,
+            "E": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Простите, извините, можно я…»",
+            "en": "‘Sorry, excuse me, may I just…’"
+          },
+          "scores": {
+            "C": 1,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "«Я сделаю по-своему»",
+            "en": "‘I'll do it my way’"
+          },
+          "scores": {
+            "O": 1,
+            "A": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": {
+        "ru": "Как ты переносишь холод и дождь?",
+        "en": "How do you handle cold and rain?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Обожаю: туман, морось, свитер — это эстетика",
+            "en": "Love it: fog, drizzle, sweaters — it's an aesthetic"
+          },
+          "scores": {
+            "N": 1,
+            "O": 1,
+            "E": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Холод? Отлично, значит, пора в горячий источник",
+            "en": "Cold? Great, time for a hot spring"
+          },
+          "scores": {
+            "N": -1,
+            "O": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Я бы уехал(а) туда, где +28 круглый год",
+            "en": "I'd move somewhere it's 80°F all year round"
+          },
+          "scores": {
+            "E": 1,
+            "P": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Без разницы — я всё равно в метро и в офисе",
+            "en": "Doesn't matter — I'm on the metro and in the office anyway"
+          },
+          "scores": {
+            "P": 1,
+            "C": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Ною, но потом рассказываю, как героически выжил(а)",
+            "en": "Complain, then tell everyone how heroically I survived"
+          },
+          "scores": {
+            "N": 1,
+            "E": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": {
+        "ru": "Какая у тебя роль в компании друзей?",
+        "en": "What's your role in your friend group?"
+      },
+      "options": [
+        {
+          "text": {
+            "ru": "Генератор идей и движа",
+            "en": "The ideas-and-plans generator"
+          },
+          "scores": {
+            "E": 2,
+            "P": 1
+          }
+        },
+        {
+          "text": {
+            "ru": "Голос разума и навигатор",
+            "en": "The voice of reason and the navigator"
+          },
+          "scores": {
+            "C": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Тот, кто всех мирит и обнимает",
+            "en": "The one who makes peace and hugs everyone"
+          },
+          "scores": {
+            "A": 2
+          }
+        },
+        {
+          "text": {
+            "ru": "Философ и критик: «А зачем мы это делаем?»",
+            "en": "The philosopher-critic: ‘Why are we even doing this?’"
+          },
+          "scores": {
+            "O": 1,
+            "N": 1,
+            "A": -1
+          }
+        },
+        {
+          "text": {
+            "ru": "Тот, кто тащит всех в путешествие",
+            "en": "The one who drags everyone on trips"
+          },
+          "scores": {
+            "O": 2,
+            "E": 1
+          }
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "moscow",
+      "title": {
+        "ru": "Москва — город, который не спит (потому что дедлайн)",
+        "en": "Moscow — the city that never sleeps (deadline pending)"
+      },
+      "emoji": "🌆",
+      "profile": {
+        "O": 0.34,
+        "C": 0.45,
+        "E": 0.51,
+        "A": 0.27,
+        "N": 0.58,
+        "P": 0.57
+      },
+      "summary": [
+        {
+          "ru": "Ты всё успеваешь — и ещё чуть-чуть сверху",
+          "en": "You get it all done — and then some"
+        },
+        {
+          "ru": "Масштаб, амбиции и «а давай сделаем больше»",
+          "en": "Scale, ambition and ‘let's go bigger’"
+        },
+        {
+          "ru": "Сначала кажешься строгим(ой), потом становишься лучшим другом",
+          "en": "You seem stern at first, then become someone's best friend"
+        },
+        {
+          "ru": "Доставка, такси и кофе — твоя кровеносная система",
+          "en": "Delivery, taxis and coffee are your circulatory system"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты живёшь на скорости мегаполиса: решения, встречи, планы — всё сразу и всё всерьёз. Тебя заряжают амбиции, большие проекты и ощущение, что жизнь происходит прямо сейчас. Да, иногда ты выглядишь суровым(ой), как пассажир метро в 8:30, но за этим — огромная энергия и привычка добиваться своего.\n\nВ исследовании Levine и Norenzayan темп жизни сильнее всего был связан с экономической активностью: чем больше «движения» вокруг, тем быстрее люди ходят и решают. России в той выборке не было, так что это образ, а не рейтинг. Но вайб узнаваемый. Твоя суперсила — продуктивность, а зона роста — отдых без чувства вины. Иногда лучший план на вечер — никакого плана.",
+        "en": "You live at megacity speed: decisions, meetings, plans — all at once and all for real. You're fueled by ambition, big projects and the feeling that life is happening right now. Sure, you can look as stern as a commuter at 8:30 a.m., but underneath is huge energy and a habit of getting what you want.\n\nIn Levine & Norenzayan's research, pace of life was most strongly linked to economic activity: the more ‘motion’ around, the faster people walk and decide. Russia wasn't in that sample, so this is an image, not a ranking — but the vibe is unmistakable. Your superpower is productivity; your growth zone is resting without guilt. Sometimes the best plan for the evening is no plan."
+      },
+      "strengths": [
+        {
+          "ru": "Продуктивность",
+          "en": "Productivity"
+        },
+        {
+          "ru": "Амбициозность",
+          "en": "Ambition"
+        },
+        {
+          "ru": "Стрессоустойчивость в режиме многозадачности",
+          "en": "Resilience under multitasking"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Отдыхать без чувства вины",
+          "en": "Rest without guilt"
+        },
+        {
+          "ru": "Замедляться ради людей, а не только ради дел",
+          "en": "Slow down for people, not just tasks"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Пишешь «буду через 15 минут», находясь на другом конце города. И почему-то успеваешь",
+          "en": "You text ‘be there in 15’ from the other side of the city. And somehow make it"
+        },
+        {
+          "ru": "Твой выходной: два созвона, бранч, выставка, спортзал и «давай быстро по кофе»",
+          "en": "Your day off: two calls, brunch, a gallery, the gym and ‘quick coffee?’"
+        },
+        {
+          "ru": "Мама: «Отдохни хоть немного». Ты: «Я отдыхаю, у меня встреча с друзьями в 22:30»",
+          "en": "Mom: ‘Rest a little!’ You: ‘I am resting — I'm seeing friends at 10:30 pm’"
+        },
+        {
+          "ru": "Эскалатор для тебя слишком медленный. Ты по нему бежишь",
+          "en": "The escalator is too slow for you. You run up it"
+        }
+      ],
+      "compatibleWith": [
+        "nyc",
+        "seoul",
+        "london"
+      ],
+      "imagePrompt": "A cute little city character shaped like a colorful onion-domed tower with a determined smile, holding a takeaway coffee and a smartphone, tiny skyscrapers and evening lights behind, soft pastel colors, glossy flat-3D style, smooth coral-to-lilac gradient background, minimal, no text"
+    },
+    {
+      "id": "spb",
+      "title": {
+        "ru": "Санкт-Петербург — интеллигентная меланхолия",
+        "en": "Saint Petersburg — elegant melancholy"
+      },
+      "emoji": "🌉",
+      "profile": {
+        "O": 0.55,
+        "C": 0.35,
+        "E": 0.22,
+        "A": 0.37,
+        "N": 0.57,
+        "P": 0.31
+      },
+      "summary": [
+        {
+          "ru": "Любишь красоту, книги и разговоры о вечном",
+          "en": "You love beauty, books and talks about eternity"
+        },
+        {
+          "ru": "Дождь для тебя не погода, а настроение",
+          "en": "Rain isn't weather, it's a mood"
+        },
+        {
+          "ru": "Ирония тонкая, как шпиль над Невой",
+          "en": "Your irony is as fine as a spire over the river"
+        },
+        {
+          "ru": "Неспешный(ая), но очень глубокий(ая)",
+          "en": "Unhurried, but deep"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — человек атмосферы. Тебе важно, чтобы было красиво, умно и со смыслом: старые дворы, книжные магазины, разговоры до разводки мостов. Ты замечаешь детали, которые другие пропускают, и умеешь находить поэзию даже в серой мороси.\n\nВ терминах психологии это высокая открытость опыту: эстетическая чувствительность, любовь к идеям и культуре. Rentfrow с коллегами объясняют, что люди со схожими чертами часто тянутся в похожие места, и так у городов складывается «характер». Твоя меланхолия — не уныние, а глубина. Только не забывай иногда выходить из режима «красиво страдать»: солнце бывает и в твоём городе — минут пятнадцать в году, но бывает.",
+        "en": "You're a creature of atmosphere. You need things to be beautiful, smart and meaningful: old courtyards, bookshops, conversations that last until the bridges go up. You notice details others miss and find poetry even in grey drizzle.\n\nPsychologically, that's high openness to experience: aesthetic sensitivity, love of ideas and culture. Rentfrow and colleagues explain that people with similar traits tend to gravitate to similar places, which is how cities acquire a ‘character’. Your melancholy isn't gloom — it's depth. Just step out of ‘aesthetic suffering’ mode now and then: the sun does shine in your city — for about fifteen minutes a year, but it does."
+      },
+      "strengths": [
+        {
+          "ru": "Глубина и эрудиция",
+          "en": "Depth and erudition"
+        },
+        {
+          "ru": "Чувство прекрасного",
+          "en": "A sense of beauty"
+        },
+        {
+          "ru": "Тонкий юмор",
+          "en": "Subtle humor"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Меньше рефлексии, больше действия",
+          "en": "Less rumination, more action"
+        },
+        {
+          "ru": "Пускать в свой мир новых людей",
+          "en": "Let new people into your world"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "У тебя есть твёрдое мнение, как правильно называть бордюр и шаурму, и ты готов(а) защищать его в любом чате",
+          "en": "You have firm opinions on the correct words for ‘curb’ and ‘shawarma’ and will defend them in any comment section"
+        },
+        {
+          "ru": "Солнце вышло на 15 минут — и ты уже на крыше с термосом",
+          "en": "The sun came out for 15 minutes and you're already on a rooftop with a thermos"
+        },
+        {
+          "ru": "Твой кот спит на подоконнике с видом на двор-колодец. У него тоже экзистенциальный кризис",
+          "en": "Your cat naps on a windowsill above an old courtyard. He's having an existential crisis too"
+        },
+        {
+          "ru": "Тебя позвали на вечеринку, а ты пришёл(шла) со сборником стихов. И это сработало",
+          "en": "You were invited to a party and showed up with a poetry book. And it worked"
+        }
+      ],
+      "compatibleWith": [
+        "paris",
+        "berlin",
+        "reykjavik"
+      ],
+      "imagePrompt": "A cute city character shaped like a classic drawbridge with a gentle wistful smile, holding a tiny umbrella and a book, soft raindrops and a slender golden spire behind, soft pastel blue and lilac colors, glossy flat-3D style, smooth misty-blue to lavender gradient background, minimal, no text"
+    },
+    {
+      "id": "nyc",
+      "title": {
+        "ru": "Нью-Йорк — главный герой мегаполиса",
+        "en": "New York — main character of the metropolis"
+      },
+      "emoji": "🗽",
+      "profile": {
+        "O": 0.34,
+        "C": 0.21,
+        "E": 0.55,
+        "A": 0.3,
+        "N": 0.55,
+        "P": 0.52
+      },
+      "summary": [
+        {
+          "ru": "Смелый(ая), громкий(ая), неудержимый(ая)",
+          "en": "Bold, loud, unstoppable"
+        },
+        {
+          "ru": "Не терпишь скуку и правила ради правил",
+          "en": "No patience for boredom or rules for rules' sake"
+        },
+        {
+          "ru": "Карьера, искусство и пицца в два ночи — всё сразу",
+          "en": "Career, art and 2 a.m. pizza — all at once"
+        },
+        {
+          "ru": "Прямота и сарказм — твой язык любви",
+          "en": "Directness and sarcasm are your love language"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — энергия, которую невозможно не заметить. Ты хочешь всё: успех, творчество, людей, приключения — и желательно сегодня. Правила для тебя — повод придумать свой путь, а скука — личный враг. Ты говоришь прямо и шутишь остро, но за этим стоит огромная жажда жизни.\n\nВ исследовании Rentfrow и коллег (2013) северо-восток США, включая Нью-Йорк, попал в кластер «темпераментный и раскованный»: экстраверсия и открытость там соседствуют с более высокой эмоциональностью и меньшей сдержанностью. Это средние значения, а не стереотип о каждом, но вайб совпадает. Твоя суперсила — смелость. Зона роста — сон и умение иногда сказать себе: «на сегодня хватит».",
+        "en": "You're energy that's impossible to miss. You want it all — success, creativity, people, adventure — preferably today. Rules are an invitation to invent your own path, and boredom is your personal nemesis. You speak bluntly and joke sharply, but underneath is a huge appetite for life.\n\nIn Rentfrow and colleagues' (2013) research, the US Northeast, including New York, fell into the ‘Temperamental & Uninhibited’ cluster: extraversion and openness alongside higher emotionality and less restraint. Those are averages, not a stereotype about everyone, but the vibe matches. Your superpower is boldness; your growth zone is sleep — and learning to say ‘that's enough for today’."
+      },
+      "strengths": [
+        {
+          "ru": "Смелость",
+          "en": "Boldness"
+        },
+        {
+          "ru": "Харизма",
+          "en": "Charisma"
+        },
+        {
+          "ru": "Креативность",
+          "en": "Creativity"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Высыпаться",
+          "en": "Get some sleep"
+        },
+        {
+          "ru": "Смягчать сарказм для новых знакомых",
+          "en": "Dial down sarcasm with new people"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты переходишь дорогу с уверенностью человека, который опаздывает на собственный успех",
+          "en": "You cross the street with the confidence of someone late for their own success"
+        },
+        {
+          "ru": "Твой завтрак — кофе на бегу и бейгл, который ты доешь к ужину",
+          "en": "Breakfast is coffee on the run and a bagel you'll finish by dinner"
+        },
+        {
+          "ru": "Бабушка: «Ты чего такой(ая) громкий(ая)?» Ты: «Я не громкий(ая), я уверенный(ая)»",
+          "en": "Grandma: ‘Why are you so loud?’ You: ‘I'm not loud, I'm confident’"
+        },
+        {
+          "ru": "У тебя три подработки, два стартапа и одна мечта — поспать",
+          "en": "You have three side hustles, two startups and one dream: sleep"
+        }
+      ],
+      "compatibleWith": [
+        "moscow",
+        "berlin",
+        "rio"
+      ],
+      "imagePrompt": "A cute city character shaped like a little art-deco skyscraper wearing tiny sunglasses and a confident grin, holding a coffee cup and a pizza slice, a little yellow taxi and city lights around, soft pastel colors, glossy flat-3D style, smooth peach-to-sky-blue gradient background, minimal, no text"
+    },
+    {
+      "id": "tokyo",
+      "title": {
+        "ru": "Токио — идеальный порядок с секретной причудой",
+        "en": "Tokyo — perfect order with a secret quirk"
+      },
+      "emoji": "🗼",
+      "profile": {
+        "O": 0.44,
+        "C": 0.53,
+        "E": 0.32,
+        "A": 0.46,
+        "N": 0.4,
+        "P": 0.48
+      },
+      "summary": [
+        {
+          "ru": "Точность, вежливость и уважение к чужому времени",
+          "en": "Precision, politeness and respect for others' time"
+        },
+        {
+          "ru": "Снаружи спокойствие, внутри — фанатичное увлечение чем-то необычным",
+          "en": "Calm outside, a fanatical niche passion inside"
+        },
+        {
+          "ru": "Любишь, когда всё работает как часы",
+          "en": "You love things that run like clockwork"
+        },
+        {
+          "ru": "Заботишься о других тихо, но очень внимательно",
+          "en": "You care for others quietly but attentively"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты сочетаешь, казалось бы, несочетаемое: безупречную организованность и неожиданные, иногда очень странные увлечения. У тебя всё по расписанию, вещи на своих местах, а в свободное время ты собираешь редкие чаи, мини-фигурки или знаешь всё о каком-нибудь виде мхов. Ты вежлив(а), внимателен(на) к другим и терпеть не можешь подводить людей.\n\nGelfand и коллеги (2011) называют такие общества «тугими»: нормы там сильные, а их соблюдение — форма уважения. Япония в их исследовании ближе к этому полюсу, а у Levine и Norenzayan она на 4-м месте по темпу жизни из 31 страны. Твоя суперсила — надёжность и тонкость. Зона роста — разрешать себе неидеальность и иногда опаздывать… хотя бы на одну минуту.",
+        "en": "You combine what seems incompatible: flawless organization and unexpected, sometimes delightfully odd passions. Everything's on schedule and in its place, while in your free time you collect rare teas or tiny figurines, or know everything about one particular kind of moss. You're polite, attentive and hate letting people down.\n\nGelfand and colleagues (2011) call such societies ‘tight’: norms are strong, and following them is a form of respect. Japan sits toward that end in their study, and in Levine & Norenzayan's work it ranked 4th of 31 countries for pace of life. Your superpower is reliability and subtlety; your growth zone is allowing imperfection — maybe even being late… by one minute."
+      },
+      "strengths": [
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        },
+        {
+          "ru": "Внимательность к людям",
+          "en": "Attentiveness to others"
+        },
+        {
+          "ru": "Увлечённость",
+          "en": "Passionate focus"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Разрешать себе ошибки",
+          "en": "Allow yourself mistakes"
+        },
+        {
+          "ru": "Говорить о своих желаниях прямо",
+          "en": "Say what you want directly"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты приходишь за 7 минут до встречи и извиняешься, что «почти опоздал(а)»",
+          "en": "You arrive 7 minutes early and apologize for being ‘almost late’"
+        },
+        {
+          "ru": "Твоя коллекция: 48 фигурок, 12 видов чая и таблица, где всё это учтено",
+          "en": "Your collection: 48 figurines, 12 kinds of tea and a spreadsheet tracking it all"
+        },
+        {
+          "ru": "Друзья: «Давай просто куда-нибудь сходим». Ты уже прислал(а) маршрут с пересадками и запасным вариантом",
+          "en": "Friends: ‘Let's just go somewhere.’ You've already sent a route with transfers and a backup"
+        },
+        {
+          "ru": "Ты благодаришь банкомат. Вслух",
+          "en": "You thank the ATM. Out loud"
+        }
+      ],
+      "compatibleWith": [
+        "seoul",
+        "london",
+        "reykjavik"
+      ],
+      "imagePrompt": "A cute city character shaped like a little red-and-white lattice tower making a polite bow with a calm smile, cherry blossom petals and a tiny bullet train around, soft pastel pink and white colors, glossy flat-3D style, smooth sakura-pink to cream gradient background, minimal, no text"
+    },
+    {
+      "id": "paris",
+      "title": {
+        "ru": "Париж — эстет с драмой",
+        "en": "Paris — the aesthete with a flair for drama"
+      },
+      "emoji": "🥐",
+      "profile": {
+        "O": 0.43,
+        "C": 0.26,
+        "E": 0.5,
+        "A": 0.28,
+        "N": 0.65,
+        "P": 0.32
+      },
+      "summary": [
+        {
+          "ru": "Красота важнее скорости",
+          "en": "Beauty over speed"
+        },
+        {
+          "ru": "Обожаешь обсуждать жизнь, искусство и людей — долго и со вкусом",
+          "en": "You love discussing life, art and people — at length and with taste"
+        },
+        {
+          "ru": "Эмоции на максимум: и восторг, и возмущение",
+          "en": "Feelings at max: rapture and outrage alike"
+        },
+        {
+          "ru": "Небрежная элегантность — твой второй паспорт",
+          "en": "Effortless elegance is your second passport"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты живёшь красиво — даже когда грустишь. Для тебя важны вкус, стиль, искусство и разговоры, после которых хочется жить. Ты можешь час сидеть на террасе с одной чашкой кофе и называть это «наблюдать за жизнью» — и будешь прав(а). Эмоции у тебя яркие: если восхищаться, то до слёз, если возмущаться, то с манифестом.\n\nПо шкалам это открытость плюс высокая эмоциональность и неспешный темп. Франция у Levine и Norenzayan — только 11-я по скорости жизни, а не первая: долгий обед здесь — ритуал. Но помни про Terracciano и коллег: стереотипы о «национальном характере» плохо совпадают с реальными данными. Так что твой «Париж» — это вайб, а не паспорт. Зона роста — не превращать каждую мелочь в драму в трёх актах.",
+        "en": "You live beautifully — even when you're sad. Taste, style, art and conversations that make you want to live matter to you. You can sit on a café terrace for an hour with one coffee and call it ‘watching life’ — and you'd be right. Your emotions are vivid: if you admire, it's to tears; if you're outraged, it comes with a manifesto.\n\nOn our scales that's openness plus high emotionality and an unhurried pace. In Levine & Norenzayan's study France ranked only 11th for pace of life — a long lunch is a ritual. But remember Terracciano and colleagues: ‘national character’ stereotypes match real data poorly. So your ‘Paris’ is a vibe, not a passport. Growth zone: not turning every small thing into a three-act drama."
+      },
+      "strengths": [
+        {
+          "ru": "Вкус и стиль",
+          "en": "Taste and style"
+        },
+        {
+          "ru": "Страсть к жизни",
+          "en": "Passion for life"
+        },
+        {
+          "ru": "Умение наслаждаться моментом",
+          "en": "Savoring the moment"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Меньше драмы из-за мелочей",
+          "en": "Less drama over small things"
+        },
+        {
+          "ru": "Быть мягче в критике",
+          "en": "Be gentler with criticism"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты 40 минут пьёшь один кофе на террасе и называешь это «смотреть на жизнь»",
+          "en": "You nurse one coffee on a terrace for 40 minutes and call it ‘watching life’"
+        },
+        {
+          "ru": "Шарф повязан «случайно». На это ушло 20 минут",
+          "en": "Your scarf is tied ‘casually’. It took 20 minutes"
+        },
+        {
+          "ru": "Тебе не понравился фильм, и ты написал(а) рецензию на три абзаца. Друзья: «Это был мультик»",
+          "en": "You didn't like the movie and wrote a three-paragraph review. Friends: ‘It was a cartoon’"
+        },
+        {
+          "ru": "Мама: «Купи хлеба». Ты возвращаешься с багетом, сыром и экзистенциальным кризисом",
+          "en": "Mom: ‘Grab some bread.’ You come back with a baguette, cheese and an existential crisis"
+        }
+      ],
+      "compatibleWith": [
+        "spb",
+        "barcelona",
+        "berlin"
+      ],
+      "imagePrompt": "A cute city character shaped like a little lattice iron tower wearing a beret and a striped scarf, holding a croissant, with a dreamy dramatic expression, soft pastel lilac and cream colors, glossy flat-3D style, smooth lavender-to-blush gradient background, minimal, no text"
+    },
+    {
+      "id": "barcelona",
+      "title": {
+        "ru": "Барселона — солнце, море и ужин в 22:00",
+        "en": "Barcelona — sun, sea and dinner at 10 pm"
+      },
+      "emoji": "🏖️",
+      "profile": {
+        "O": 0.47,
+        "C": 0.28,
+        "E": 0.54,
+        "A": 0.43,
+        "N": 0.42,
+        "P": 0.34
+      },
+      "summary": [
+        {
+          "ru": "Живёшь ярко, но без спешки",
+          "en": "You live brightly, but without rushing"
+        },
+        {
+          "ru": "Дружелюбный(ая), открытый(ая), всегда за любой движ",
+          "en": "Friendly, open and up for anything"
+        },
+        {
+          "ru": "Умеешь отдыхать и не чувствуешь за это вины",
+          "en": "You can rest without guilt"
+        },
+        {
+          "ru": "Искусство плюс пляж — твой идеальный день",
+          "en": "Art plus beach is your perfect day"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — редкое сочетание энергии и расслабленности. Ты легко знакомишься, любишь компании, музыку, солнце и красивую архитектуру, но при этом не гонишься за временем. Ужин в десять вечера, прогулка до полуночи, утро без будильника — и ты счастлив(а). С тобой хочется жить, а не выживать.\n\nВ исследовании Levine и Norenzayan в более жарких странах жизнь в среднем текла медленнее (r ≈ −0,58), хотя после учёта экономики эта связь ослабевала. Так что твой «средиземноморский режим» — скорее о ценностях: удовольствие, люди, момент. Твоя суперсила — умение радоваться. Зона роста — дедлайны. Они, увы, не знают слова «маньяна».",
+        "en": "You're a rare blend of energy and ease. You make friends easily and love company, music, sun and beautiful architecture — yet you never race the clock. Dinner at 10 pm, a stroll till midnight, a morning without an alarm, and you're happy. People want to live around you, not just survive.\n\nIn Levine & Norenzayan's study, life in hotter countries tended to run slower (r ≈ −.58), though the link weakened once economics was controlled. So your ‘Mediterranean mode’ is really about values: pleasure, people, the moment. Your superpower is joy; your growth zone is deadlines. Sadly, they've never heard of ‘mañana’."
+      },
+      "strengths": [
+        {
+          "ru": "Жизнерадостность",
+          "en": "Joyfulness"
+        },
+        {
+          "ru": "Общительность",
+          "en": "Sociability"
+        },
+        {
+          "ru": "Баланс работы и отдыха",
+          "en": "Work-life balance"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Дружить с дедлайнами",
+          "en": "Make friends with deadlines"
+        },
+        {
+          "ru": "Не откладывать важные разговоры",
+          "en": "Don't postpone important talks"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Ты зовёшь на ужин в 22:00 и искренне не понимаешь, почему все уже хотят спать",
+          "en": "You invite people to dinner at 10 pm and genuinely can't see why they're sleepy"
+        },
+        {
+          "ru": "Твой ответ на любой стресс: «Пошли на море». Даже если до моря 1500 км",
+          "en": "Your answer to any stress: ‘Let's go to the beach.’ Even if it's 1,000 miles away"
+        },
+        {
+          "ru": "Познакомился(лась) с людьми в очереди за мороженым — через час вы уже танцуете",
+          "en": "You met people in the ice cream line; an hour later you're dancing together"
+        },
+        {
+          "ru": "В твоём календаре нет слова «срочно», зато есть слово «фиеста»",
+          "en": "Your calendar doesn't contain the word ‘urgent’, but it does contain ‘fiesta’"
+        }
+      ],
+      "compatibleWith": [
+        "rio",
+        "paris",
+        "kazan"
+      ],
+      "imagePrompt": "A cute city character shaped like a whimsical mosaic tower with wavy colorful tiles, a sunny smile and tiny sunglasses, gentle beach waves and a palm tree beside it, soft pastel orange and turquoise colors, glossy flat-3D style, smooth sunset-orange to aqua gradient background, minimal, no text"
+    },
+    {
+      "id": "berlin",
+      "title": {
+        "ru": "Берлин — свободный дух в чёрном худи",
+        "en": "Berlin — a free spirit in a black hoodie"
+      },
+      "emoji": "🎧",
+      "profile": {
+        "O": 0.51,
+        "C": 0.19,
+        "E": 0.49,
+        "A": 0.29,
+        "N": 0.48,
+        "P": 0.4
+      },
+      "summary": [
+        {
+          "ru": "Свобода, творчество и «я сам(а) решу»",
+          "en": "Freedom, creativity and ‘I'll decide for myself’"
+        },
+        {
+          "ru": "Обожаешь андеграунд, винтаж и странные идеи",
+          "en": "You love the underground, vintage and weird ideas"
+        },
+        {
+          "ru": "Говоришь прямо, без сахара",
+          "en": "You speak plainly, no sugar"
+        },
+        {
+          "ru": "Гонишься не за статусом, а за смыслом",
+          "en": "You chase meaning, not status"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — человек свободы. Тебе не нужны чужие правила, чтобы понять, как жить: ты пробуешь, ищешь, экспериментируешь. Тебя вдохновляют искусство, альтернативная культура, старые заводы, превращённые в галереи, и люди, которые не боятся быть странными. Ты честен(на) до прямоты, и это освежает.\n\nВ терминах психологии это очень высокая открытость опыту в паре с низкой тягой к формальностям. Rentfrow с коллегами описывали похожий «расслабленный и творческий» региональный профиль. Забавно, что Германия у Levine и Norenzayan — 3-я по скорости жизни из 31 страны, так что «берлинский» вайб — это про свободу, а не про медлительность. Зона роста — не отвергать структуру из принципа: иногда план — тоже творческий инструмент.",
+        "en": "You're a creature of freedom. You don't need other people's rules to figure out how to live: you try, search and experiment. Art, alternative culture, old factories turned galleries and people unafraid to be weird inspire you. You're honest to the point of bluntness, and it's refreshing.\n\nIn psychological terms, that's very high openness plus little appetite for formality. Rentfrow and colleagues described a similar ‘Relaxed & Creative’ regional profile. Funnily, Germany ranked 3rd of 31 for pace of life in Levine & Norenzayan's study, so the ‘Berlin’ vibe is about freedom, not slowness. Growth zone: don't reject structure on principle — sometimes a plan is a creative tool too."
+      },
+      "strengths": [
+        {
+          "ru": "Оригинальность",
+          "en": "Originality"
+        },
+        {
+          "ru": "Честность",
+          "en": "Honesty"
+        },
+        {
+          "ru": "Свобода от чужих ожиданий",
+          "en": "Freedom from others' expectations"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Принимать структуру как инструмент",
+          "en": "Treat structure as a tool"
+        },
+        {
+          "ru": "Смягчать прямоту",
+          "en": "Soften the bluntness"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Пришёл(шла) на открытие выставки в 19:00, ушёл(шла) в 3 ночи — разговор был слишком интересный",
+          "en": "You arrived at a gallery opening at 7 and left at 3 a.m. — the conversation was just too good"
+        },
+        {
+          "ru": "Твой гардероб: чёрное, очень чёрное и одна винтажная куртка с историей",
+          "en": "Your wardrobe: black, very black and one vintage jacket with a backstory"
+        },
+        {
+          "ru": "Мама: «Найди нормальную работу». Ты: «Я курирую иммерсивную инсталляцию про грибы»",
+          "en": "Mom: ‘Get a normal job.’ You: ‘I'm curating an immersive installation about fungi’"
+        },
+        {
+          "ru": "Ты ездишь на велике в любую погоду и считаешь это частью личности",
+          "en": "You bike in any weather and consider it part of your personality"
+        }
+      ],
+      "compatibleWith": [
+        "spb",
+        "nyc",
+        "reykjavik"
+      ],
+      "imagePrompt": "A cute city character shaped like a small graffiti-covered tower wearing a black hoodie and headphones, riding a tiny bicycle, vinyl records floating around, soft pastel grey, mint and pink colors, glossy flat-3D style, smooth slate-blue to pink gradient background, minimal, no text"
+    },
+    {
+      "id": "reykjavik",
+      "title": {
+        "ru": "Рейкьявик — тихая магия севера",
+        "en": "Reykjavík — quiet northern magic"
+      },
+      "emoji": "🌋",
+      "profile": {
+        "O": 0.42,
+        "C": 0.35,
+        "E": 0.26,
+        "A": 0.44,
+        "N": 0.34,
+        "P": 0.26
+      },
+      "summary": [
+        {
+          "ru": "Тебе нужны пространство, природа и тишина",
+          "en": "You need space, nature and quiet"
+        },
+        {
+          "ru": "Невозмутимость уровня «рядом вулкан, а я пью чай»",
+          "en": "Calm level: ‘volcano nearby, I'm having tea’"
+        },
+        {
+          "ru": "Немного странный(ая) — в самом очаровательном смысле",
+          "en": "A little quirky — in the most charming way"
+        },
+        {
+          "ru": "Друзей немного, но все — на всю жизнь",
+          "en": "Few friends, all of them for life"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — спокойствие и тайна. Тебе не нужна толпа, чтобы чувствовать себя живым(ой): достаточно ветра, гор, горячего чая и пары людей, которые понимают тебя без слов. Ты невозмутим(а) в кризисах, добр(а) к окружающим и немного не от мира сего — в лучшем смысле.\n\nПо шкалам это интроверсия, эмоциональная стабильность, мягкость и медленный темп. Bleidorn и коллеги (2016) нашли, что людям в среднем чуть лучше там, где их личность совпадает с «характером» места. Возможно, поэтому тебе так хорошо там, где тихо и много неба. Зона роста — иногда выходить к людям: твоя спокойная мудрость нужна и шумному миру.",
+        "en": "You're calm and a bit of a mystery. You don't need a crowd to feel alive: wind, mountains, hot tea and a couple of people who understand you without words are plenty. You're unflappable in a crisis, kind to others and slightly otherworldly — in the best way.\n\nOn our scales that's introversion, emotional stability, softness and a slow pace. Bleidorn and colleagues (2016) found people do slightly better where their personality matches a place's ‘character’ — maybe that's why you feel best wherever it's quiet and the sky is big. Growth zone: venture out to people now and then — the noisy world needs your calm wisdom too."
+      },
+      "strengths": [
+        {
+          "ru": "Невозмутимость",
+          "en": "Composure"
+        },
+        {
+          "ru": "Глубина",
+          "en": "Depth"
+        },
+        {
+          "ru": "Верность близким",
+          "en": "Loyalty to loved ones"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Иногда выходить из зоны тишины",
+          "en": "Leave your quiet zone sometimes"
+        },
+        {
+          "ru": "Делиться мыслями первым(ой)",
+          "en": "Share your thoughts first"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твой идеальный выходной: горячий источник, термос и ноль уведомлений",
+          "en": "Your perfect weekend: a hot spring, a thermos and zero notifications"
+        },
+        {
+          "ru": "Друзья зовут в клуб, ты предлагаешь смотреть северное сияние в −15. И они почему-то соглашаются",
+          "en": "Friends suggest a club; you suggest watching the northern lights at 5°F. Somehow they agree"
+        },
+        {
+          "ru": "На вечеринке ты подружился(лась) с собакой хозяев и тремя такими же интровертами",
+          "en": "At parties you befriend the host's dog and three fellow introverts"
+        },
+        {
+          "ru": "Бабушка: «Не простудись!» Ты: «Бабуль, я и есть холодный фронт»",
+          "en": "Grandma: ‘Don't catch a cold!’ You: ‘Grandma, I am the cold front’"
+        }
+      ],
+      "compatibleWith": [
+        "tokyo",
+        "spb",
+        "kazan"
+      ],
+      "imagePrompt": "A cute city character shaped like a little colorful Nordic house with a peaceful smile, wrapped in a knitted sweater, a steaming hot spring and soft aurora in the sky, a tiny puffin friend, soft pastel teal and lilac colors, glossy flat-3D style, smooth teal-to-violet gradient background, minimal, no text"
+    },
+    {
+      "id": "rio",
+      "title": {
+        "ru": "Рио-де-Жанейро — карнавал в душе",
+        "en": "Rio de Janeiro — carnival at heart"
+      },
+      "emoji": "💃",
+      "profile": {
+        "O": 0.25,
+        "C": 0.2,
+        "E": 0.56,
+        "A": 0.51,
+        "N": 0.41,
+        "P": 0.26
+      },
+      "summary": [
+        {
+          "ru": "Радость — твой режим по умолчанию",
+          "en": "Joy is your default setting"
+        },
+        {
+          "ru": "Обнимашки, музыка и танцы — без повода",
+          "en": "Hugs, music and dancing — no reason needed"
+        },
+        {
+          "ru": "Время для тебя — понятие гибкое",
+          "en": "Time, for you, is a flexible concept"
+        },
+        {
+          "ru": "Душа компании и лучший утешитель",
+          "en": "Life of the party and the best comforter"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — праздник, который всегда с тобой. Ты обожаешь людей, музыку, солнце и спонтанные решения. Тебя невозможно долго держать в плохом настроении, а твоё тепло заражает даже самых хмурых. Для тебя главное — не успеть всё, а прожить всё: каждую встречу, каждую песню, каждый закат.\n\nВ исследовании Levine и Norenzayan Бразилия оказалась среди самых неторопливых стран — 29-е место из 31. Это не про лень, а про другое отношение ко времени: люди важнее расписания. По нашим шкалам ты — экстраверсия, доброжелательность, спокойствие и медленный темп. Зона роста — пунктуальность: «буду в семь» не должно означать «где-то после девяти».",
+        "en": "You're a portable party. You adore people, music, sunshine and spontaneous decisions. Nobody can keep you in a bad mood for long, and your warmth infects even the grumpiest. What matters isn't getting everything done but living everything: every meeting, every song, every sunset.\n\nIn Levine & Norenzayan's study Brazil was among the most unhurried countries — 29th of 31. That's not laziness; it's a different relationship with time, where people matter more than schedules. On our scales you're extraversion, agreeableness, calm and a slow pace. Growth zone: punctuality — ‘see you at seven’ shouldn't mean ‘sometime after nine’."
+      },
+      "strengths": [
+        {
+          "ru": "Тепло и щедрость",
+          "en": "Warmth and generosity"
+        },
+        {
+          "ru": "Жизнерадостность",
+          "en": "Zest for life"
+        },
+        {
+          "ru": "Умение объединять людей",
+          "en": "Bringing people together"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Пунктуальность",
+          "en": "Punctuality"
+        },
+        {
+          "ru": "Планировать хотя бы на неделю вперёд",
+          "en": "Plan at least a week ahead"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "«Буду в 7» на твоём языке означает «где-то после восьми, но с подарком и отличным настроением»",
+          "en": "‘See you at 7’ in your language means ‘sometime after 8, but with a gift and great vibes’"
+        },
+        {
+          "ru": "Ты танцуешь в очереди в супермаркете, и кассир тоже начинает пританцовывать",
+          "en": "You dance in the grocery line and the cashier starts grooving too"
+        },
+        {
+          "ru": "Твой рецепт от плохого настроения: музыку погромче и всех любимых рядом",
+          "en": "Your cure for a bad mood: music louder and everyone you love nearby"
+        },
+        {
+          "ru": "Тебя невозможно расстроить надолго — максимум до следующей песни",
+          "en": "Nobody can keep you sad for long — tops, until the next song"
+        }
+      ],
+      "compatibleWith": [
+        "barcelona",
+        "kazan",
+        "nyc"
+      ],
+      "imagePrompt": "A cute city character shaped like a little rounded mountain peak wearing a colorful carnival feather headdress, dancing with a big joyful smile, tiny palm trees and confetti around, soft pastel green, yellow and pink colors, glossy flat-3D style, smooth lime-to-coral gradient background, minimal, no text"
+    },
+    {
+      "id": "london",
+      "title": {
+        "ru": "Лондон — сдержанный остроумец",
+        "en": "London — the understated wit"
+      },
+      "emoji": "☂️",
+      "profile": {
+        "O": 0.46,
+        "C": 0.46,
+        "E": 0.41,
+        "A": 0.26,
+        "N": 0.59,
+        "P": 0.49
+      },
+      "summary": [
+        {
+          "ru": "Внешне сдержанный(ая), внутри — фейерверк иронии",
+          "en": "Reserved outside, fireworks of irony inside"
+        },
+        {
+          "ru": "Ценишь традиции, но любишь всё новое и разное",
+          "en": "You value tradition but love the new and diverse"
+        },
+        {
+          "ru": "Вежлив(а) — даже когда в ярости",
+          "en": "Polite — even when furious"
+        },
+        {
+          "ru": "Дождь тебя не остановит: зонт всегда с собой",
+          "en": "Rain won't stop you: umbrella always on hand"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — мастер тонкой иронии и вежливой дистанции. Снаружи — спокойствие и хорошие манеры, внутри — острый ум и наблюдательность, от которой ничего не скроется. Ты уважаешь традиции, но обожаешь разнообразие: новые районы, кухни, идеи и людей. И да, ты всегда готов(а) к плохой погоде — и к плохим новостям тоже.\n\nJokela и коллеги (2015) изучили около 56 000 лондонцев по 216 районам: открытость была выше всего в центре города, а связь личности со счастьем зависела от района. Открытым людям лучше жилось в плотных и разнообразных кварталах. А Англия у Levine и Norenzayan — 6-я по темпу жизни. Твоя суперсила — остроумие и стойкость. Зона роста — говорить прямо, когда «интересная идея» на самом деле значит «нет».",
+        "en": "You're a master of subtle irony and polite distance. Outside: composure and good manners; inside: a sharp mind and powers of observation that miss nothing. You respect tradition but love diversity — new neighborhoods, cuisines, ideas and people. And yes, you're always prepared for bad weather — and bad news.\n\nJokela and colleagues (2015) studied about 56,000 Londoners across 216 districts: openness was highest in the center, and how personality related to happiness depended on the neighborhood — open people did better in dense, diverse areas. England ranked 6th for pace of life in Levine & Norenzayan's study. Your superpower is wit and resilience; your growth zone is saying it plainly when ‘interesting idea’ actually means ‘no’."
+      },
+      "strengths": [
+        {
+          "ru": "Остроумие",
+          "en": "Wit"
+        },
+        {
+          "ru": "Стойкость",
+          "en": "Resilience"
+        },
+        {
+          "ru": "Открытость разнообразию",
+          "en": "Openness to diversity"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Говорить прямо",
+          "en": "Say it plainly"
+        },
+        {
+          "ru": "Показывать эмоции близким",
+          "en": "Show feelings to loved ones"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Тебе наступили на ногу — и ты извинился(лась). Дважды",
+          "en": "Someone stepped on your foot — and you apologized. Twice"
+        },
+        {
+          "ru": "Твоё «интересная идея» на самом деле значит «ни за что». Это знают только свои",
+          "en": "Your ‘interesting idea’ actually means ‘absolutely not’. Only your people know"
+        },
+        {
+          "ru": "Очередь — святое. Ты встанешь в неё, даже не зная, за чем она",
+          "en": "Queues are sacred. You'll join one without knowing what it's for"
+        },
+        {
+          "ru": "Чай решает всё: расставание, дедлайн, конец света. Сначала чай",
+          "en": "Tea solves everything: breakups, deadlines, the end of the world. Tea first"
+        }
+      ],
+      "compatibleWith": [
+        "tokyo",
+        "moscow",
+        "spb"
+      ],
+      "imagePrompt": "A cute city character shaped like a little clock tower wearing a tiny bowler hat, holding a teacup and an umbrella, with a subtle ironic smile, soft drizzle and a little red double-decker bus behind, soft pastel colors, glossy flat-3D style, smooth grey-blue to rose gradient background, minimal, no text"
+    },
+    {
+      "id": "seoul",
+      "title": {
+        "ru": "Сеул — трендсеттер на скорости 5G",
+        "en": "Seoul — a trendsetter at 5G speed"
+      },
+      "emoji": "✨",
+      "profile": {
+        "O": 0.45,
+        "C": 0.4,
+        "E": 0.52,
+        "A": 0.37,
+        "N": 0.48,
+        "P": 0.49
+      },
+      "summary": [
+        {
+          "ru": "Узнаёшь о трендах раньше, чем они становятся трендами",
+          "en": "You know trends before they're trends"
+        },
+        {
+          "ru": "Трудолюбие + стиль + забота о себе",
+          "en": "Hard work + style + self-care"
+        },
+        {
+          "ru": "Обожаешь компанию, кафе и поздние прогулки",
+          "en": "You love company, cafés and late-night walks"
+        },
+        {
+          "ru": "Всё быстро, красиво и с вниманием к деталям",
+          "en": "Everything fast, beautiful and detail-perfect"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — человек будущего. Ты первым(ой) находишь новое кафе, приложение, музыку или уходовое средство, а через полгода это есть у всех. При этом ты не просто модный(ая): ты много работаешь, тщательно всё продумываешь и умеешь заботиться о себе и друзьях. Работа до вечера, а потом — ужин с компанией и прогулка по ночному городу.\n\nПо нашим шкалам это сочетание открытости, экстраверсии, организованности и высокого темпа. Южная Корея в исследовании Gelfand и коллег ближе к «тугому» полюсу культур с сильными нормами. Возможно, отсюда твоя внимательность к деталям и к тому, как ты выглядишь в глазах других. Зона роста — давать себе передышку: даже 5G иногда нужно перезагружать.",
+        "en": "You're a person of the future. You're first to find the new café, app, song or skincare product — and six months later everyone has it. But you're not just trendy: you work hard, think things through and take care of yourself and your friends. Work until evening, then dinner with the crew and a walk through the city at night.\n\nOn our scales that's openness, extraversion, organization and a high pace. South Korea sits toward the ‘tight’ end of cultures with strong norms in Gelfand and colleagues' research — perhaps that's where your attention to detail and to how you come across comes from. Growth zone: give yourself breaks — even 5G needs a reboot sometimes."
+      },
+      "strengths": [
+        {
+          "ru": "Чутьё на новое",
+          "en": "A nose for the new"
+        },
+        {
+          "ru": "Трудолюбие",
+          "en": "Work ethic"
+        },
+        {
+          "ru": "Забота о себе и других",
+          "en": "Care for self and others"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Отдыхать, не сравнивая себя с другими",
+          "en": "Rest without comparing yourself to others"
+        },
+        {
+          "ru": "Разрешать себе неидеальные дни",
+          "en": "Allow imperfect days"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Твой уход за кожей — 10 шагов. План на день — 25. Ты успеваешь всё",
+          "en": "Your skincare routine has 10 steps. Your daily plan has 25. You finish both"
+        },
+        {
+          "ru": "Друзья ещё не слышали о новом кафе, а у тебя уже фото, отзыв и любимый столик",
+          "en": "Your friends haven't heard of the new café; you already have photos, a review and a favorite table"
+        },
+        {
+          "ru": "Работаешь до 21:00, идёшь «быстро перекусить» и возвращаешься в час ночи с новыми друзьями",
+          "en": "You work until 9, go for ‘a quick bite’ and come back at 1 a.m. with new friends"
+        },
+        {
+          "ru": "Мама: «Зачем тебе пять одинаковых кремов?» Ты: «Они не одинаковые, у них разный вайб»",
+          "en": "Mom: ‘Why do you need five identical creams?’ You: ‘They're not identical, they have different vibes’"
+        }
+      ],
+      "compatibleWith": [
+        "tokyo",
+        "moscow",
+        "nyc"
+      ],
+      "imagePrompt": "A cute city character shaped like a sleek glowing tower with soft neon accents, wearing trendy oversized glasses, holding a bubble tea and a smartphone, little hearts and sparkles around, soft pastel mint, pink and lavender colors, glossy flat-3D style, smooth mint-to-lilac gradient background, minimal, no text"
+    },
+    {
+      "id": "kazan",
+      "title": {
+        "ru": "Казань — гостеприимство и гармония",
+        "en": "Kazan — hospitality and harmony"
+      },
+      "emoji": "🫖",
+      "profile": {
+        "O": 0.34,
+        "C": 0.47,
+        "E": 0.53,
+        "A": 0.6,
+        "N": 0.37,
+        "P": 0.4
+      },
+      "summary": [
+        {
+          "ru": "Объединяешь людей — разных, но своих",
+          "en": "You bring people together — different, but all yours"
+        },
+        {
+          "ru": "Чтишь традиции и легко принимаешь новое",
+          "en": "You honor traditions and welcome the new"
+        },
+        {
+          "ru": "У тебя всегда есть чай и что-нибудь к чаю",
+          "en": "There's always tea — and something to go with it"
+        },
+        {
+          "ru": "Спокойный(ая), основательный(ая), тёплый(ая)",
+          "en": "Calm, grounded and warm"
+        }
+      ],
+      "detailed": {
+        "ru": "Ты — человек-мост. Ты умеешь соединять разное: традиции и современность, старших и младших, «своих» и тех, кто только что пришёл. Рядом с тобой людям спокойно и вкусно, потому что гостеприимство у тебя в крови. Ты не любишь суету, но всегда готов(а) помочь, и твоё слово надёжно.\n\nПо нашим шкалам это высокая доброжелательность, организованность и эмоциональная стабильность. В американских данных Rentfrow и коллег похожий профиль назывался «дружелюбный и традиционный». Для российских городов сопоставимых крупных опубликованных данных мы не нашли, так что твоя «Казань» — тёплый образ, а не статистика. Зона роста — заботиться о себе так же щедро, как о гостях.",
+        "en": "You're a bridge-builder. You connect different worlds: tradition and modernity, old and young, old friends and newcomers. People feel calm and well-fed around you, because hospitality runs in your veins. You dislike fuss, but you're always ready to help, and your word is solid.\n\nOn our scales that's high agreeableness, organization and emotional stability. In Rentfrow and colleagues' US data a similar profile was called ‘Friendly & Conventional’. We found no comparable large published data for Russian cities, so your ‘Kazan’ is a warm image, not a statistic. Growth zone: care for yourself as generously as you care for your guests."
+      },
+      "strengths": [
+        {
+          "ru": "Гостеприимство",
+          "en": "Hospitality"
+        },
+        {
+          "ru": "Надёжность",
+          "en": "Reliability"
+        },
+        {
+          "ru": "Умение находить общий язык с разными людьми",
+          "en": "Finding common ground with anyone"
+        }
+      ],
+      "growth": [
+        {
+          "ru": "Заботиться о себе",
+          "en": "Care for yourself"
+        },
+        {
+          "ru": "Пробовать неожиданное",
+          "en": "Try the unexpected"
+        }
+      ],
+      "funnyExamples": [
+        {
+          "ru": "Гости у тебя не уходят голодными. Они вообще не уходят — без коробки чак-чака их не отпустят",
+          "en": "Guests never leave your place hungry. Actually, they never leave — not without a box of honey sweets"
+        },
+        {
+          "ru": "Ты знаешь, как сказать «приятного аппетита» на трёх языках и как уговорить съесть ещё один пирожок на четырёх",
+          "en": "You can say ‘enjoy your meal’ in three languages and talk someone into one more pastry in four"
+        },
+        {
+          "ru": "В семейном чате 47 человек, и ты помнишь все дни рождения",
+          "en": "Your family group chat has 47 members and you remember every birthday"
+        },
+        {
+          "ru": "Друг: «Я на пять минут». Ты: «Конечно. Чай, суп, второе, десерт — и через пять минут пойдёшь»",
+          "en": "Friend: ‘Just five minutes.’ You: ‘Sure. Tea, soup, a main, dessert — then off you go in five’"
+        }
+      ],
+      "compatibleWith": [
+        "rio",
+        "barcelona",
+        "tokyo"
+      ],
+      "imagePrompt": "A cute city character shaped like a white-and-turquoise fortress tower with a warm welcoming smile, holding a tiny teapot and a plate of honey pastries, soft pastel turquoise and cream colors, glossy flat-3D style, smooth turquoise-to-peach gradient background, minimal, no text"
+    }
+  ],
+  "scoringNotes": {
+    "ru": "Каждый ответ добавляет (а иногда отнимает) баллы по шести шкалам: открытость (O), порядок (C), социальная энергия (E), дружелюбие (A), эмоциональность (N) и темп жизни (P). Суммы приводятся к диапазону 0–1: (сумма − минимум) / (максимум − минимум). Затем выбирается город, чей профиль ближе всего к твоему (евклидово расстояние). Профили городов откалиброваны так, чтобы при случайных ответах каждый выпадал примерно с равной вероятностью.",
+    "en": "Each answer adds (and sometimes subtracts) points on six scales: openness (O), order (C), social energy (E), friendliness (A), emotionality (N) and pace of life (P). Sums are rescaled to 0–1: (sum − min) / (max − min). Then you get the city whose profile is closest to yours (Euclidean distance). City profiles were calibrated so that, with random answers, each comes up about equally often."
+  },
+  "resultIntro": {
+    "ru": "Пристегнись, мы заходим на посадку. Твой город —",
+    "en": "Fasten your seatbelt, we're landing. Your city is…"
+  }
+}

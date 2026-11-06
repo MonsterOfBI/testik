@@ -1,0 +1,53 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { hasLocale } from "@/i18n/config";
+import { getDict } from "@/i18n/dict";
+import { enabledProviders, signIn } from "@/auth";
+import { Aura } from "@/components/ui/Aura";
+
+export const metadata: Metadata = { title: "Вход · Sign in", robots: { index: false } };
+
+export default async function SignIn({ params }: PageProps<"/[lang]/signin">) {
+  const { lang } = await params;
+  if (!hasLocale(lang)) notFound();
+  const d = getDict(lang);
+  const redirectTo = `/${lang}/me`;
+  const has = (id: string) => enabledProviders.includes(id);
+  const btn = "flex w-full items-center justify-center gap-3 rounded-2xl px-5 py-4 font-medium transition-transform hover:scale-[1.01] active:scale-[0.99]";
+  return (
+    <div className="relative mx-auto grid max-w-md place-items-center px-5 pt-10">
+      <div className="pointer-events-none absolute -top-10 left-1/2 -z-10 size-[420px] -translate-x-1/2">
+        <Aura className="size-full" />
+      </div>
+      <div className="w-full rounded-[2rem] border border-line bg-[color-mix(in_oklab,var(--surface)_85%,transparent)] p-7 shadow-soft backdrop-blur-xl">
+        <h1 className="font-display text-2xl font-semibold tracking-tight">{d.auth.title}</h1>
+        <p className="mt-2 text-sm text-ink-2">{d.auth.sub}</p>
+        <div className="mt-6 space-y-2.5">
+          {has("vk") && (
+            <form action={async () => { "use server"; await signIn("vk", { redirectTo }); }}>
+              <button className={`${btn} bg-[#0077ff] text-white`}>{d.auth.vk}</button>
+            </form>
+          )}
+          {has("yandex") && (
+            <form action={async () => { "use server"; await signIn("yandex", { redirectTo }); }}>
+              <button className={`${btn} bg-[#fc3f1d] text-white`}>{d.auth.yandex}</button>
+            </form>
+          )}
+          {has("nodemailer") && (
+            <form
+              action={async (fd: FormData) => {
+                "use server";
+                await signIn("nodemailer", { email: String(fd.get("email") ?? ""), redirectTo });
+              }}
+              className="space-y-2.5 pt-3"
+            >
+              <input name="email" type="email" required placeholder={d.auth.email} className="w-full rounded-2xl border border-line bg-bg px-4 py-3.5 outline-none focus:border-line-strong" />
+              <button className={`${btn} bg-ink text-bg`}>{d.auth.sendLink}</button>
+            </form>
+          )}
+          {!enabledProviders.length && <p className="rounded-2xl bg-surface-2 p-4 text-sm text-ink-2">{d.auth.unavailable}</p>}
+        </div>
+      </div>
+    </div>
+  );
+}
