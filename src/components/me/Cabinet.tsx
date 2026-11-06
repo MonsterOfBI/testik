@@ -7,12 +7,13 @@ import type { Locale, TestResult } from "@/lib/types";
 import type { Dict } from "@/i18n/dict";
 import { fmt } from "@/i18n/dict";
 import type { PortraitMeta } from "@/lib/portrait";
-import { clearHistory, getHistory, type HistoryEntry } from "@/lib/history";
+import { clearHistory, getHistory, useLocalData, type HistoryEntry } from "@/lib/history";
 import { Aura } from "@/components/ui/Aura";
 import { AccountActions } from "@/components/me/AccountActions";
 import { auraFromScores } from "@/components/ui/auraMath";
 import { Radar } from "@/components/results/Charts";
 import { CAT_GRADIENT, PALETTE } from "@/lib/ui";
+import { UnfinishedTests } from "./UnfinishedTests";
 
 type Badge = { id: string; emoji: string; ru: string; en: string; test: (h: HistoryEntry[], m: Record<string, PortraitMeta>) => boolean };
 
@@ -31,16 +32,13 @@ function uniq(h: HistoryEntry[]) {
 }
 
 export function Cabinet({ lang, dict, metas }: { lang: Locale; dict: Dict; metas: PortraitMeta[] }) {
-  const [hist, setHist] = useState<HistoryEntry[]>([]);
+  const version = useLocalData();
+  const hist = useMemo<HistoryEntry[]>(() => (version ? getHistory() : []), [version]);
   const [user, setUser] = useState<{ name?: string; email?: string } | null>(null);
   const byId = useMemo(() => Object.fromEntries(metas.map((m) => [m.id, m])), [metas]);
 
   useEffect(() => {
-    setHist(getHistory());
-    const upd = () => setHist(getHistory());
-    window.addEventListener("testik:history", upd);
     fetch("/api/auth/session").then((r) => r.json()).then((s) => setUser(s?.user ?? null)).catch(() => {});
-    return () => window.removeEventListener("testik:history", upd);
   }, []);
 
   const latest = useMemo(() => {
@@ -75,10 +73,12 @@ export function Cabinet({ lang, dict, metas }: { lang: Locale; dict: Dict; metas
             </p>
           )}
         </div>
-        <div className="relative mx-auto aspect-square w-full max-w-[340px]">
+        <div className="relative mx-auto aspect-square w-full max-w-[220px] md:max-w-[340px]">
           <Aura className="absolute inset-0" colors={aura.colors} sizes={aura.sizes} seed={aura.seed} />
         </div>
       </section>
+
+      <UnfinishedTests lang={lang} dict={dict} byId={byId} />
 
       {/* portrait */}
       <section className="mt-12">

@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // one-off CommonJS content builders, not part of the app
+    "scripts/quiz-tools/**",
   ]),
 ]);
 

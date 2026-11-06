@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { deriveResult } from "@/lib/scoring";
 import type { GameProps } from "./GameHost";
-import { Countdown, StageCard, TrialDots, shuffle, zInv } from "./shared";
+import { Countdown, StageCard, TrialDots, plainKey, shuffle, zInv } from "./shared";
 
 const LETTERS = "BCDFGHJKLMNPQRSTVWXZ".split("");
 const N = 2;
@@ -53,7 +53,8 @@ export function NBackGame({ test, lang, onDone }: GameProps) {
   const [i, setI] = useState(-1);
   const [on, setOn] = useState(false);
   const [pressedFx, setPressedFx] = useState(0);
-  const data = useRef(makeSeq());
+  const [seqData] = useState(makeSeq);
+  const data = useRef(seqData);
   const responses = useRef<boolean[]>([]);
   const rts = useRef<number[]>([]);
   const shownAt = useRef(0);
@@ -63,8 +64,11 @@ export function NBackGame({ test, lang, onDone }: GameProps) {
     let hits = 0, misses = 0, fa = 0, cr = 0;
     for (let k = N; k < targets.length; k++) {
       const r = !!responses.current[k];
-      if (targets[k]) r ? hits++ : misses++;
-      else r ? fa++ : cr++;
+      if (targets[k]) {
+        if (r) hits++;
+        else misses++;
+      } else if (r) fa++;
+      else cr++;
     }
     // log-linear correction (Hautus 1995)
     const H = (hits + 0.5) / (hits + misses + 1);
@@ -108,7 +112,7 @@ export function NBackGame({ test, lang, onDone }: GameProps) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.code === "Space") {
+      if (e.code === "Space" && plainKey(e)) {
         e.preventDefault();
         press();
       }
@@ -127,7 +131,7 @@ export function NBackGame({ test, lang, onDone }: GameProps) {
 
   return (
     <div className="py-6 text-center">
-      <TrialDots total={data.current.seq.length} done={Math.max(0, i + 1)} />
+      <TrialDots total={seqData.seq.length} done={Math.max(0, i + 1)} />
       <div className="mx-auto mt-8 grid size-56 place-items-center rounded-[2.5rem] border border-line bg-surface sm:size-64">
         <AnimatePresence>
           {on && i >= 0 && (
@@ -139,7 +143,7 @@ export function NBackGame({ test, lang, onDone }: GameProps) {
               transition={{ duration: 0.12 }}
               className="font-display text-8xl font-semibold"
             >
-              {data.current.seq[i]}
+              {seqData.seq[i]}
             </motion.span>
           )}
         </AnimatePresence>

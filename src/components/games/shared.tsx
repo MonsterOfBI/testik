@@ -42,6 +42,8 @@ export const shuffle = <T,>(a: T[]) => {
   }
   return r;
 };
+/** a deliberate key press: no auto-repeat from holding the key, no browser shortcuts (Ctrl/Cmd/Alt) */
+export const plainKey = (e: KeyboardEvent) => !e.repeat && !e.metaKey && !e.ctrlKey && !e.altKey && !["Tab", "Shift", "Meta", "Control", "Alt", "CapsLock", "Escape"].includes(e.key);
 export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 export function Countdown({ onDone, label }: { onDone: () => void; label?: string }) {

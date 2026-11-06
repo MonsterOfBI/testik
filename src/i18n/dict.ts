@@ -22,6 +22,7 @@ const ru = {
     questions: "вопросов",
     popular: "Популярное",
     done: "Пройден",
+    inProgress: "Начат: {n} из {total}",
   },
   cat: {
     personality: "Личность",
@@ -51,6 +52,9 @@ const ru = {
     skip: "Пропустить",
     computing: "Считаем результат",
     compareBanner: "Друг прислал вам свой результат. Пройдите тест, и мы покажем вас рядом.",
+    resumeNote: "Вы ответили на {n} из {total} вопросов. Ответы сохранены в этом браузере, можно продолжить с того же места.",
+    autosave: "Ответы сохраняются: можно закрыть страницу и вернуться позже",
+    oneSitting: "Этот тест проходят за один раз: прогресс не сохраняется, если закрыть страницу",
   },
   result: {
     yourResult: "Ваш результат",
@@ -100,6 +104,8 @@ const ru = {
     clear: "Очистить историю",
     progress: "Пройдено {n} из {total}",
     open: "Открыть",
+    unfinished: "Незаконченные тесты",
+    continue: "Продолжить",
   },
   auth: {
     title: "Вход в testik",
@@ -176,6 +182,7 @@ const en: Dict = {
     questions: "questions",
     popular: "Popular",
     done: "Done",
+    inProgress: "In progress: {n} of {total}",
   },
   cat: {
     personality: "Personality",
@@ -205,6 +212,9 @@ const en: Dict = {
     skip: "Skip",
     computing: "Calculating your result",
     compareBanner: "A friend sent you their result. Take the test and we'll show you side by side.",
+    resumeNote: "You've answered {n} of {total} questions. Your answers are saved in this browser, so you can pick up where you left off.",
+    autosave: "Answers are saved: you can close the page and come back later",
+    oneSitting: "This test is taken in one go: progress isn't kept if you close the page",
   },
   result: {
     yourResult: "Your result",
@@ -254,6 +264,8 @@ const en: Dict = {
     clear: "Clear history",
     progress: "{n} of {total} done",
     open: "Open",
+    unfinished: "Unfinished tests",
+    continue: "Continue",
   },
   auth: {
     title: "Sign in to testik",
